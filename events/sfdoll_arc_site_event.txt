@@ -1,0 +1,137 @@
+namespace = sfdoll_arc_site_event
+#id标准写法为namespace的值加上编号
+
+
+#诺耶露坟头 stage1
+fleet_event = {
+	id = sfdoll_arc_site_event.1
+	title = "sfdoll_arc_site_event_1"
+	desc = "sfdoll_arc_site_event_1_desc"
+	is_triggered_only = yes
+	hide_window = no
+	archaeology = yes
+	picture = GFX_evp_sfdoll_eild_attack
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = sfdoll_arc_site_event_1_option
+		small_artifact_reward = yes
+	}
+}
+#stage2
+fleet_event = {
+	id = sfdoll_arc_site_event.2
+	title = "sfdoll_arc_site_event_2"
+	desc = "sfdoll_arc_site_event_2_desc"
+	is_triggered_only = yes
+	hide_window = no
+	archaeology = yes
+	picture = GFX_evp_sfdoll_eild_attack
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = sfdoll_arc_site_event_2_option
+		small_artifact_reward = yes
+	}
+}
+#stage3
+fleet_event = {
+	id = sfdoll_arc_site_event.3
+	title = "sfdoll_arc_site_event_3"
+	desc = "sfdoll_arc_site_event_3_desc"
+	is_triggered_only = yes
+	hide_window = no
+	archaeology = yes
+	picture = GFX_evp_sfdoll_noel_awake
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	#保护诺耶露
+	option = {
+		name = sfdoll_arc_site_event_3_option_a
+		small_artifact_reward = yes
+		owner = {
+			country_event = {
+				id = sfdoll_arc_site_event.5
+			}
+			set_country_flag = sfdoll_noel_owner
+			save_global_event_target_as = sfdoll_noel_owner
+
+		}
+		small_artifact_reward = yes
+
+	}
+}
+
+#stage4
+fleet_event = {
+	id = sfdoll_arc_site_event.4
+	title = "sfdoll_arc_site_event_4"
+	desc = "sfdoll_arc_site_event_4_desc"
+	is_triggered_only = yes
+	hide_window = no
+	archaeology = yes
+	picture = GFX_evp_sfdoll_ruin
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	option = {
+		name = "sfdoll_arc_site_event_4_option"
+		owner = {
+			add_research_option = tech_sfdoll_reverse_collapse_1
+			add_resource = {
+				physics_research = 4000
+				society_research = 4000
+				engineering_research = 4000
+			}
+		}
+		small_artifact_reward = yes
+	}
+
+}
+
+#保护诺耶露，事件提示
+country_event = {
+	id = sfdoll_arc_site_event.5
+	title = "sfdoll_arc_site_event_5"
+	desc = "sfdoll_arc_site_event_5_desc"
+	is_triggered_only = yes
+	hide_window = no
+
+	picture = GFX_evp_sfdoll_noel_sleep
+
+	after = { 
+		#延迟一段时间后诺耶露加入
+		country_event = {
+			id = sfdoll_noel_event.6
+			days = 1800
+		}
+	}
+	
+	# option = {
+	# 	name = sfdoll_arc_site_event_5_option
+	# 	small_artifact_reward = yes
+	# }
+}
+

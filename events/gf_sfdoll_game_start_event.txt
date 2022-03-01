@@ -1,0 +1,65 @@
+namespace = gf_sfdoll_game_start_event
+#id标准写法为namespace的值加上编号
+
+#铁血开局事件
+country_event = {
+	title= gf_sfdoll_game_start_event_0_title
+	desc = gf_sfdoll_game_start_event_0_desc
+	id = gf_sfdoll_game_start_event.0  #id标准写法为namespace的值加上编号
+	hide_window = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+
+	immediate = {
+		#测试用
+		# add_resource = {
+		# 	minerals = 10000
+		# 	GF_nyto_collapse_liquid = 1000
+		# }
+
+		#添加铁血人形帝国flag
+		set_country_flag = sfdoll_empire
+		
+		#添加合成人帝国flag，会被判定为二段机飞国家
+		set_country_flag = synthetic_empire
+
+		#自动探索
+		give_technology = {
+			tech = tech_automated_exploration
+			message = no
+		}
+
+		#首都添加组装建筑，暂时不用，因为添加了合成人帝国flag后会有组装岗位
+		# capital_scope = {
+		# 	add_building = building_sfdoll_assembly_plant
+		# 	#remove_building = building_commercial_zone
+		# }
+
+		capital_scope = {
+			remove_district = district_farming
+			remove_district = district_farming
+			remove_district = district_city
+			remove_district = district_city
+			remove_district = district_generator
+			remove_building = building_commercial_zone
+			remove_building = building_bureaucratic_1
+			every_owned_pop = {
+				limit = {	is_unemployed = yes		}
+				kill_pop = yes
+			}
+		}
+
+		#添加领袖flag，用于复活领袖
+		country_event = {
+			id = sfdoll_leader_revive_event.4
+		}
+
+		# 防机械叛乱
+		set_country_flag = no_machine_uprising
+		set_country_flag = synth_detector
+		#不再提示
+		set_country_flag = ban_notice_wsgranking
+	}
+	is_triggered_only = yes
+}

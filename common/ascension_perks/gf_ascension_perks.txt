@@ -1,0 +1,88 @@
+#一段
+ap_digi_mind_update ={
+	potential = {
+		has_authority = auth_gf_sfdoll
+		NOT = {	has_ascension_perk = ap_digi_mind_update	}
+	}
+	possible ={
+		custom_tooltip = {
+			fail_text = "has_tech_sapient_ai"
+			has_technology = tech_sapient_ai
+		}
+		custom_tooltip = {
+			fail_text = "has_tech_sfdoll_ogas_ai"
+			has_technology = tech_sfdoll_ogas_ai
+		}
+		custom_tooltip = {
+			fail_text = "has_tech_sf_doll_modding_1"
+			has_technology = tech_sf_doll_modding_1
+		}
+		# custom_tooltip = {
+		# 	fail_text = "has_tech_hyper_drive_3"
+		# 	has_technology = tech_hyper_drive_3
+		# }
+	}
+	on_enabled = {
+		# country_event = {
+		# 	id = sfdoll_search_zion_event.0
+		# }
+		# enable_special_project = {
+		# 	name = SF_SEARCH_ZION_PROJECT
+		# }
+	}
+
+	modifier = {
+		#description = ap_digi_mind_update_modifier_desc
+		SFDOLL_species_trait_points_add = 10
+		modify_species_cost_mult = -0.5
+		#planet_pop_assembly_mult = 0.15
+	}
+	ai_weight = {	factor = 1	}
+}
+
+#二段
+ap_sfdoll_reverse_collapse ={
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	possible ={
+		custom_tooltip = {
+			fail_text = "has_tech_sfdoll_reverse_collapse_3"
+			has_technology = tech_sfdoll_reverse_collapse_3
+		}
+		custom_tooltip = {
+			fail_text = "has_tech_jump_drive_1"
+			has_technology = tech_jump_drive_1
+		}
+
+		custom_tooltip = {
+			fail_text = "has_tech_sfdoll_dark_matter_plant"
+			has_technology = tech_sfdoll_dark_matter_plant
+		}
+
+		custom_tooltip = {
+			fail_text = "requires_ap_digi_mind_update"
+			has_ascension_perk = ap_digi_mind_update
+		}
+		# custom_tooltip = {
+		# 	fail_text = "has_tech_sfdoll_ogas_ai"
+		# 	has_technology = tech_sfdoll_ogas_ai
+		# }
+	}
+	on_enabled = {
+		set_country_flag = sfdoll_country_can_update_leader
+		country_event = {
+			id = gf_sfdoll_ascension_perk_event.0
+		}
+		add_research_option = tech_sf_doll_modding_2
+		add_research_option = tech_sfdoll_collapse_liquid_produce
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_to_zion_event.9
+			}
+		}
+	}
+	modifier = {	}
+	ai_weight = {	factor = 1	}
+}
+

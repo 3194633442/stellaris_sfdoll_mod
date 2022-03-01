@@ -1,0 +1,20 @@
+##特质系统
+trait_sfdoll_logic_engine_2_modifier = {
+	num_tech_alternatives_add = 1
+}
+
+trait_sfdoll_engineer_modifier = {
+	planet_jobs_engineering_research_produces_mult = 0.25
+	planet_building_build_speed_mult = 0.50
+	megastructure_build_speed_mult = 0.50
+	country_megastructure_build_cap_add = 2
+	starbase_building_build_speed_mult = 0.50
+	intel_decryption_add = 4
+	intel_encryption_add = 4
+}
+
+trait_sfdoll_war_2_modifier = {
+	planet_army_build_speed_mult = 0.50
+	ship_weapon_damage = 0.50
+	shipclass_military_build_speed_mult = 0.50
+}

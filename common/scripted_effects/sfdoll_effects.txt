@@ -1,0 +1,116 @@
+#崔耶拉切换职业
+triela_become_governor_sfdoll_effect = {
+	hidden_effect = {
+		every_owned_leader = {
+			limit = {
+				has_leader_flag = sfdoll_leader_triela
+			}
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+		create_leader = {
+			class = governor
+			species = owner_species
+			name = NAME_sfdoll_triela
+			skill = 5
+			set_age = 17
+			immortal = yes
+			event_leader = yes	# prevents this leader from leading factions and winning elections
+			traits = { trait = leader_trait_governor_sfdoll_triela }
+			effect = {
+				change_leader_portrait = GFX_sfdoll_triela
+				set_leader_flag = sfdoll_leader_triela
+				save_global_event_target_as = sfdoll_leader_triela
+			}
+		}
+	}
+}
+
+triela_become_scientist_sfdoll_effect = {
+	hidden_effect = {
+		every_owned_leader = {
+			limit = {
+				has_leader_flag = sfdoll_leader_triela
+			}
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+		create_leader = {
+			class = scientist
+			species = owner_species
+			name = NAME_sfdoll_triela
+			skill = 5
+			set_age = 17
+			immortal = yes
+			event_leader = yes	# prevents this leader from leading factions and winning elections
+			traits = { trait = leader_trait_scientist_sfdoll_triela }
+			effect = {
+				change_leader_portrait = GFX_sfdoll_triela
+				set_leader_flag = sfdoll_leader_triela
+				save_global_event_target_as = sfdoll_leader_triela
+			}
+		}
+	}
+}
+
+triela_become_admiral_sfdoll_effect = {
+	hidden_effect = {
+		every_owned_leader = {
+			limit = {
+				has_leader_flag = sfdoll_leader_triela
+			}
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+		create_leader = {
+			class = admiral
+			species = owner_species
+			name = NAME_sfdoll_triela
+			skill = 5
+			set_age = 17
+			immortal = yes
+			event_leader = yes	# prevents this leader from leading factions and winning elections
+			traits = { trait = leader_trait_admiral_sfdoll_triela }
+			effect = {
+				change_leader_portrait = GFX_sfdoll_triela
+				set_leader_flag = sfdoll_leader_triela
+				save_global_event_target_as = sfdoll_leader_triela
+			}
+		}
+	}
+}
+
+triela_become_general_sfdoll_effect = {
+	hidden_effect = {
+		every_owned_leader = {
+			limit = {
+				has_leader_flag = sfdoll_leader_triela
+			}
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+		create_leader = {
+			class = general
+			species = owner_species
+			name = NAME_sfdoll_triela
+			skill = 5
+			set_age = 17
+			immortal = yes
+			event_leader = yes	# prevents this leader from leading factions and winning elections
+			traits = { trait = leader_trait_general_sfdoll_triela }
+			effect = {
+				change_leader_portrait = GFX_sfdoll_triela
+				set_leader_flag = sfdoll_leader_triela
+				save_global_event_target_as = sfdoll_leader_triela
+			}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+#战术人形国策
+#科研
+civic_sfdoll_research= {
+	pickable_at_start = yes #开局可以使用
+	modification = yes
+	icon = "gfx/interface/icons/governments/civics/civic_sfdoll_tech.dds"
+	potential = { 
+		authority = { value = auth_gf_sfdoll }
+	}
+	
+	random_weight = {
+		base = 1
+	}
+
+	#description = "civic_sfdoll_tech_effect_desc"
+	modifier = { 
+		num_tech_alternatives_add = 1
+		all_technology_research_speed = 0.10		
+	}
+}
+
+#军工
+# civic_sfdoll_engineering = {
+# 	pickable_at_start = yes #开局可以使用
+# 	modification = yes
+# 	#description = "civic_sfdoll_war_effect_desc"
+# 	icon = "gfx/interface/icons/governments/civics/civic_sfdoll_war.dds"
+
+# 	potential = { 
+# 		authority = { value = auth_gf_sfdoll }
+# 	}
+	
+# 	random_weight = {
+# 		base = 1
+# 	}
+
+# 	modifier = {
+# 		planet_building_build_speed_mult = 0.25
+# 		starbase_building_build_speed_mult = 0.25
+# 		shipclass_military_build_speed_mult = 0.25
+# 		planet_army_build_speed_mult = 0.50
+# 		megastructure_build_speed_mult = 0.25
+# 	}
+# }
+
+#OGAS全境管理
+civic_sfdoll_ogas_manage= {
+	pickable_at_start = yes
+	modification = yes
+	#description = "civic_sfdoll_ogas_manage_effect_desc"
+	potential = { 
+		authority = { value = auth_gf_sfdoll }
+	}
+	
+	random_weight = {
+		base = 1
+	}
+
+	icon = "gfx/interface/icons/governments/civics/civic_sfdoll_ogas_manage.dds"
+	modifier = { 
+		pop_happiness = 0.10
+		planet_crime_add = -30
+		planet_jobs_produces_mult = 0.05
+		country_base_influence_produces_add = 1
+		#country_admin_cap_mult = 0.15
+		#planet_jobs_consumer_goods_produces_mult = 0.15 
+	}
+}
+
+civic_sfdoll_culture = {
+	pickable_at_start = yes
+	modification = yes
+	#description = "civic_sfdoll_ogas_manage_effect_desc"
+	potential = { 
+		authority = { value = auth_gf_sfdoll }
+	}
+	random_weight = {
+		base = 1
+	}
+
+	icon = "gfx/interface/icons/governments/civics/civic_sfdoll_culture.dds"
+	modifier = { 
+		pop_government_ethic_attraction = 0.50
+		planet_jobs_unity_produces_mult = 0.10
+	}
+}
+
+#铁血太空建设
+# civic_sfdoll_space= {
+# 	pickable_at_start = yes #开局可以使用
+# 	modification = yes
+# 	description = "civic_sfdoll_space_desc"
+# 	potential = { 
+# 		authority = { value = auth_gf_sfdoll }
+# 	}
+	
+# 	random_weight = {
+# 		base = 1
+# 	}
+
+# 	modifier = { 
+
+# 	}
+# }

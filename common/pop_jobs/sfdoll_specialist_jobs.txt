@@ -1,0 +1,376 @@
+#铁血异星天然气技师
+sfdoll_gases_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	#岗位的背景，调用建筑图标
+	building_icon = building_sfdoll_gases_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		#复制原版天然气职业的维护category
+		category = planet_refiners
+		produces = {
+			exotic_gases = 10
+		}
+		upkeep = {
+			minerals = 10
+		}
+	}
+
+	weight = {
+		weight = 20
+	}
+}
+
+#铁血稀有水晶技师
+sfdoll_crystals_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_sfdoll_crystal_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		category = planet_translucers
+		produces = {
+			rare_crystals = 10
+		}
+		upkeep = {
+			minerals = 10
+		}
+	}
+
+	weight = {
+		weight = 20
+	}
+}
+
+#铁血易爆颗粒技师
+sfdoll_motes_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_sfdoll_motes_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		category = planet_chemists
+		produces = {
+			volatile_motes = 10
+		}
+		upkeep = {
+			minerals = 10
+		}
+	}
+
+	weight = {
+		weight = 20
+	}
+}
+
+#铁血纳米机器制造岗位
+sfdoll_nanites_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	
+	building_icon = building_sfdoll_nanites_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			nanites = 10
+		}
+		upkeep = {
+			minerals = 10
+		}
+	}
+	weight = {
+		weight = 20
+	}
+}
+
+#铁血纳米消费品制造岗位
+sfdoll_nanites_goods_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	
+	building_icon = building_sfdoll_nanites_goods_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		category = planet_artisans
+		produces = {
+			consumer_goods = 50
+			engineering_research = 6
+		}
+		upkeep = {
+			minerals = 10
+		}
+	}
+	weight = {
+		weight = 20
+	}
+}
+
+
+#教育工作者
+sfdoll_educator = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_sfdoll_academy
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	planet_modifier = {	planet_crime_add = -5 	}
+	resources = {
+		category = planet_culture_workers
+		produces = {
+			physics_research = 4
+			society_research = 4
+			engineering_research = 4
+			unity = 6
+		}
+	}
+	weight = {
+		weight = 20
+	}
+}
+
+#IT从业者
+sfdoll_it_doll = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_sfdoll_net
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	planet_modifier = {
+		planet_amenities_add = 10
+		planet_jobs_unity_produces_mult = 0.25
+	}
+	country_modifier = { country_admin_cap_add = 5 }
+	resources = {
+		category = planet_culture_workers
+	}
+	weight = {
+		weight = 20
+	}
+}
+
+#坍塌液生产
+sfdoll_collapse_liquid_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	icon = sfdoll_collapse_liquid_maker
+	building_icon = building_sfdoll_collapse_liquid_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_technician
+		produces = {	GF_nyto_collapse_liquid = 2	}
+		upkeep = {	minerals = 10	}
+	}
+	weight = {	weight = 20	}
+}
+
+#科研
+sfdoll_researcher = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	icon = sfdoll_researcher
+	building_icon = building_sfdoll_research
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_researchers
+		produces = {
+			physics_research = 20
+			society_research = 20
+			engineering_research = 20
+		}
+		upkeep = {
+			consumer_goods = 2
+		}
+	}
+	weight = {	weight = 50	}
+}
+
+#坍塌能源岗位
+sfdoll_collapse_energy_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	icon = sfdoll_collapse_energy_maker
+	building_icon = building_sfdoll_collapse_energy
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_technician
+		produces = {	energy = 30	}
+		upkeep = {	GF_nyto_collapse_liquid = 2	}
+	}
+	weight = {	weight = 20	}
+}
+
+#坍塌液合金生产
+sfdoll_collapse_alloys_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	#待修改
+	building_icon = building_sfdoll_alloys
+	icon = sfdoll_collapse_alloys_maker
+	clothes_texture_index = 3
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_metallurgists
+		produces = {	alloys = 20 	}
+		upkeep = {	minerals =  8	}
+	}
+	weight = {	weight = 20	}
+}
+
+
+#暗物质合成师
+sfdoll_dark_matter_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	icon = sfdoll_dark_matter_maker
+	building_icon = building_sfdoll_dark_matter_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_technician
+		produces = {	sr_dark_matter = 2	}
+		upkeep = {	minerals = 10	}
+	}
+	weight = {	weight = 20	}
+}
+
+#IT工作者
+# sfdoll_it_specialist = {
+# 	category = specialist
+# 	#用于检测工作是否可用的一系列逻辑
+# 	condition_string = SPECIALIST_JOB_TRIGGER
+# 	#待修改
+# 	#building_icon = 
+# 	clothes_texture_index = 3
+
+# 	possible_pre_triggers = {
+# 		has_owner = yes
+# 		is_being_purged = no
+# 		is_being_assimilated = no
+# 		is_sapient = yes
+# 	}
+# 	possible_precalc = can_fill_specialist_job
+# 	country_modifier  = { country_admin_cap_add = 20 }
+# 	resources = {
+# 		category = planet_jobs
+# 		produces = {
+# 			unity = 1
+# 		}
+# 	}
+# 	weight = {
+# 		weight = 20
+# 	}
+# }

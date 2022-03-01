@@ -1,0 +1,31 @@
+namespace = sfdoll_mod_version_event
+#id标准写法为namespace的值加上编号
+#用于修各种版本bug和兼容
+
+#检测二段飞升并添加坍塌液合成科技
+country_event = {
+	id = sfdoll_mod_version_event.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+	immediate = {
+		if = {
+			limit = { has_ascension_perk = ap_sfdoll_reverse_collapse }
+			add_research_option = tech_sfdoll_collapse_liquid_produce
+		}
+		
+		#检查是否有零点能科技，有就触发暗物质研究事件
+		if = {
+			limit = {
+				has_technology = tech_zero_point_power
+			 }
+			 country_event = {
+				 id = sfdoll_event.1
+			 }
+		}
+	}
+}
+

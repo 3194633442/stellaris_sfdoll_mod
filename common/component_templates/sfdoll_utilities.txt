@@ -1,0 +1,104 @@
+utility_component_template = {
+	key="sfdoll_ship_defense_s"
+	size = small
+	icon = "GFX_sfdoll_ship_defense_s"
+	icon_frame = 1
+	power = -45
+	modifier = {
+		ship_armor_add = 200
+		ship_hull_add = 400
+		ship_shield_add = 200
+		ship_shield_regen_add_static = 12
+	}
+
+	prerequisites = { "tech_sfdoll_ship_defense_s" }
+	component_set = "component_set_sfdoll_ship_defense_s"
+	resources = {
+		category = ship_components
+		cost= {
+			alloys = 19
+		}		
+		upkeep = {
+			energy = 0.9
+			alloys = 0.4
+		}
+	}
+	ai_weight = {
+		weight = 200
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+
+utility_component_template  = {
+	key = "sfdoll_ship_defense_m"
+	size =  medium
+	icon = "GFX_sfdoll_ship_defense_s"
+	icon_frame = 1
+	power = -90
+	modifier = {
+		ship_armor_add = 400
+		ship_hull_add = 800
+		ship_shield_add = 400
+		ship_shield_regen_add_static = 25
+	}
+
+	prerequisites = { "tech_sfdoll_ship_defense_s" }
+	component_set = "component_set_sfdoll_ship_defense_s"
+	resources = {
+		category = ship_components
+		cost= {
+			alloys = 38
+		}		
+		upkeep = {
+			energy = 1.8
+			alloys = 0.8
+		}
+	}
+	ai_weight = {
+		weight = 200
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+		
+	}
+}
+
+
+utility_component_template = {
+	key="sfdoll_ship_defense_L"
+	size = large
+	icon = "GFX_sfdoll_ship_defense_s"
+	icon_frame = 1
+	power = -180
+	modifier = {
+		ship_armor_add = 800
+		ship_hull_add = 1600
+		ship_shield_add = 800
+		ship_shield_regen_add_static = 50
+	}
+
+	prerequisites = { "tech_sfdoll_ship_defense_s" }
+	component_set = "component_set_sfdoll_ship_defense_s"
+	resources = {
+		category = ship_components
+		cost= {
+			alloys = 75
+		}		
+		upkeep = {
+			energy = 3.5
+			alloys = 1.5
+		}
+	}
+	ai_weight = {
+		weight = 200
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}

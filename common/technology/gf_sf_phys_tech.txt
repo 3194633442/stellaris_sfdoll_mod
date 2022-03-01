@@ -1,0 +1,13 @@
+#AI tech
+tech_sfdoll_ogas_ai = {
+	area = physics
+	tier = 4
+	cost = @tier4cost1
+	category = { computing }
+	icon = tech_sfdoll_ogas_ai
+	weight = @tier4weight1
+	prerequisites = {	"tech_self_aware_logic"	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {	num_tech_alternatives_add = 1	}
+}
+

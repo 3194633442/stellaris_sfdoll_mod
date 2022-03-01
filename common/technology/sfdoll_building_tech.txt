@@ -1,0 +1,99 @@
+#坍塌液合成，通过二段飞升解锁
+tech_sfdoll_collapse_liquid_produce = {
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	category = { particles }
+	icon = tech_sfdoll_collapse_liquid_produce
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = 0 #@tier4weight2
+}
+#坍塌液实验室，需要坍塌液合成科技
+tech_sfdoll_lab = {
+	cost = @tier4cost1
+	area = physics
+	icon = tech_sfdoll_lab
+	tier = 4
+	category = { particles }
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
+	weight = @tier4weight1
+}
+#坍塌液能源，需要坍塌液合成科技
+tech_sfdoll_collapse_energy = {
+	cost = @tier4cost3
+	area = physics
+	tier = 4
+	category = { particles }
+	icon = tech_sfdoll_collapse_energy
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
+	weight = @tier4weight3
+}
+
+#坍塌液合金制造
+tech_sfdoll_collapse_alloys_produce = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	category = { industry }
+	is_rare = yes
+	icon = tech_sfdoll_collapse_alloys_produce
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
+	weight = @tier4weight1
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {
+		planet_jobs_alloys_produces_mult = 0.25 
+	}
+}
+
+#铁血化工改进，用于解锁三大稀有资源建筑
+tech_sfdoll_chemical = {
+	cost = @tier3cost2
+	area = physics
+	tier = 3
+	category = { particles }
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
+	weight = @tier3weight2
+	potential = {	has_authority = auth_gf_sfdoll	}
+	# modifier = {
+	# }
+}
+
+#解锁消费品建筑
+tech_sfdoll_nanites_goods= {
+	cost = @tier3cost3
+	area = society
+	tier = 3
+	category = { statecraft }
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
+	weight = @tier3weight3
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {
+		planet_jobs_produces_mult = 0.10
+	}
+}
+
+#暗物质合成科技
+tech_sfdoll_dark_matter_plant = {
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	category = { particles }
+	#需要铁血政体
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = 0
+}
+
+#超微观人工智能，解锁铁血纳米生产
+tech_sfdoll_nanites = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	category = { industry }
+	is_rare = yes
+	prerequisites = { "tech_basic_science_lab_3" }
+	weight = @tier4weight1
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {	planet_jobs_engineering_research_produces_mult = 0.25 }
+}

@@ -1,0 +1,146 @@
+﻿l_simp_chinese:
+###############################
+trait_gf_sfdoll:0"铁血人形"
+trait_gf_sfdoll_desc:0"铁血人形是一类智能机器人，最早由铁血工造公司研制。铁血人形之间可以通过OGAS协议进行无线通信，从而提高团队合作的效率。它们的心智云图储存了记忆数据，能够转移和备份"
+
+trait_sfdoll_ogas_protocol:0"铁血万能天线"
+trait_sfdoll_ogas_protocol_desc:0"这款素体外置天线可以放大铁血人形的通讯信号，并附带WIFI和遥控器等多种功能"
+
+trait_sfdoll_energy:0"产能专精"
+trait_sfdoll_energy_desc:0"这些铁血人形专注于生产与利用能源"
+
+trait_sfdoll_mining:0"动力钻头"
+trait_sfdoll_mining_desc:0"铁血装备了钻头，那什么东西都是矿"
+
+trait_sfdoll_asst:0"铁血ASST系统"
+trait_sfdoll_asst_desc:0"铁血人形装备了ASST系统，能够与量身定制的设备进行高速数据同步"
+
+trait_sfdaoll_battle:0"作战专精"
+trait_sfdaoll_battle_desc:0"这些铁血人形拥有较高的军事素养，并能搭载先进的战斗系统"
+
+trait_sfdoll_logic_engine:0"铁血学习算法"
+trait_sfdoll_logic_engine_desc:0"第三代以上的铁血人形，其心智具备自主学习和进化的能力，能够不断掌握新知识和塑造人格，而不必依赖出厂写入的信息"
+
+trait_sfdoll_conservation:0"节约"
+trait_sfdoll_conservation_desc:0"节约资源是铁血人形的传统美德"
+
+trait_sfdoll_assembly:0"快速组装"
+trait_sfdoll_assembly_desc:0"这些铁血人形的素体设计保证了组装效率"
+
+trait_doll_regeneration:0"自适应素体"
+trait_doll_regeneration_desc:0"这些铁血人形的机体，可根据环境进行一定程度的自我调整、自我维护"
+
+trait_light_sfdoll:0"轻型素体"
+trait_light_sfdoll_desc:0"这些铁血人形较为轻便"
+
+trait_heavy_sfdoll:0"重型素体"
+trait_heavy_sfdoll_desc:0"这些人形的素体重量较大"
+
+trait_sfdoll_energy_upkeep:0"昂贵维护"
+trait_sfdoll_energy_upkeep_desc:0"这些铁血人形的素体维护成本较高"
+
+trait_sfdoll_assembly_slowly:0"缓慢组装"
+trait_sfdoll_assembly_slowly_desc:0"组装这些铁血人形较为费时"
+
+trait_sfdoll_high_bandwidth:0 "低效联络"
+trait_sfdoll_high_bandwidth_desc:0 "这些铁血人形的信息传输功能较弱"
+
+trait_sfdoll_low_efficiency:0"性能不足"
+trait_sfdoll_low_efficiency_desc:0"铁血离开地球后面遭遇了资源紧张的局面，许多铁血人形不得不使用落后简陋的素体"
+
+#update
+trait_sfdoll_efficient_produce:0"新铁血"
+trait_sfdoll_efficient_produce_desc:0"新一代的铁血人形机体，性能得到了前所未有的提升"
+
+trait_sfdoll_logic_engine_2:0"心智升级-OGAS"
+trait_sfdoll_logic_engine_2_desc:0"铁血的新型心智系统融合了OGAS技术的研究成果。现在，这些铁血人形的思考和学习能力不亚于过去的超级AI"
+
+trait_sfdoll_ogas_command:0"子机指挥系统"
+trait_sfdoll_ogas_command_desc:0"通过OGAS协议，这些铁血人形可以同时操作大量机械进行劳动"
+
+trait_sfdoll_engineer:0 "鬼斧神工"
+trait_sfdoll_engineer_desc:0 "这些铁血人形具备优秀的设计与制造能力，它们的技术和工程超乎了一般生物的想象"
+
+trait_sfdoll_war_2:0 "军事科学"
+trait_sfdoll_war_2_desc:0 "这些铁血人形是军事领域的专家，拥有极为强大的军工产业"
+
+trait_sfdoll_logic_engine_2_modifier:0 "$trait_sfdoll_logic_engine_2$"
+trait_sfdoll_logic_engine_2_modifier_desc:0 "$trait_sfdoll_logic_engine_2_desc$"
+trait_sfdoll_engineer_modifier:0 "$trait_sfdoll_engineer$"
+trait_sfdoll_engineer_modifier_desc:0 "$trait_sfdoll_engineer_desc$"
+trait_sfdoll_war_2_modifier:0 "$trait_sfdoll_war_2$"
+trait_sfdoll_war_2_modifier_desc:0 "$trait_sfdoll_war_2_desc$"
+
+#leader
+leader_governor_trait_gf_sfdoll:0"铁血人形"
+leader_governor_trait_gf_sfdoll_desc:0"这位总督是一位铁血人形，能充分利用OGAS网络，合理安排辖区内的事务。"
+
+leader_scientist_trait_gf_sfdoll:0"铁血人形"
+leader_scientist_trait_gf_sfdoll_desc:0"这位科学家是一位铁血人形，能快速连接云端数据库来获取支持。"
+
+leader_admiral_trait_gf_sfdoll:0"铁血人形"
+leader_admiral_trait_gf_sfdoll_desc:0"这位舰队司令是一位铁血人形，能迅速计算修正舰队的作战方案。"
+
+leader_general_trait_gf_sfdoll:0"铁血人形"
+leader_general_trait_gf_sfdoll_desc:0"这位陆军将领是一位铁血人形，其指挥系统能够有效应对瞬息万变的战场。"
+
+leader_ruler_trait_gf_sfdoll:0"铁血人形"
+leader_ruler_trait_gf_sfdoll_desc:0"这位统治者是一位铁血人形，能够运用庞大的网络、数据和算力资源来辅助决策。"
+
+
+#####升级特质
+leader_governor_trait_gf_sfdoll_2:0"新铁血"
+leader_governor_trait_gf_sfdoll_2_desc:0"这位铁血人形总督进行了升级改造，能够更好地完成它的工作。"
+
+leader_scientist_trait_gf_sfdoll_2:0"新铁血"
+leader_scientist_trait_gf_sfdoll_2_desc:0"这位铁血人形科学家进行升级改造，能够更好地完成它的工作。"
+
+leader_admiral_trait_gf_sfdoll_2:0"新铁血"
+leader_admiral_trait_gf_sfdoll_2_desc:0"这位铁血人形舰队司令进行了升级改造，能够更好地完成它的工作。"
+
+leader_general_trait_gf_sfdoll_2:0"新铁血"
+leader_general_trait_gf_sfdoll_2_desc:0"这位铁血人形陆军将领进行了升级改造，能够更好地完成它的工作。"
+
+leader_ruler_trait_gf_sfdoll_2:0"新铁血"
+leader_ruler_trait_gf_sfdoll_2_desc:0"这位铁血人形统治者进行了升级改造，能够更好地完成它的工作。"
+
+
+#45特性
+leader_trait_governor_sfdoll_ump45:0"代号ump45"
+leader_trait_governor_sfdoll_ump45_desc:0"这位领袖可谓久经沙场"
+
+leader_trait_scientist_sfdoll_ump45:0"代号ump45"
+leader_trait_scientist_sfdoll_ump45_desc:0"这位领袖可谓久经沙场"
+
+leader_trait_admiral_sfdoll_ump45:0"代号ump45"
+leader_trait_admiral_sfdoll_ump45_desc:0"这位领袖可谓久经沙场"
+
+leader_trait_general_sfdoll_ump45:0"代号ump45"
+leader_trait_general_sfdoll_ump45_desc:0"这位领袖可谓久经沙场"
+
+#noel特性
+leader_trait_governor_sfdoll_noel:0"遗迹少女"
+leader_trait_governor_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中救出来的克隆人.\n 她拥有和铁血人形相似的心智空间，能够转移和备份心智数据。\n 她能操纵逆向坍塌现象，这让她拥有重组肉体和传送物体等一系列能力"
+
+leader_trait_scientist_sfdoll_noel:0"遗迹少女"
+leader_trait_scientist_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中救出来的克隆人。\n 她拥有和铁血人形相似的心智空间，能够转移和备份心智数据。\n 她能操纵逆向坍塌现象，这让她拥有重组肉体和传送物体等一系列能力"
+
+leader_trait_admiral_sfdoll_noel:0"遗迹少女"
+leader_trait_admiral_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中救出来的克隆人。\n 她拥有和铁血人形相似的心智空间，能够转移和备份心智数据。\n 她能操纵逆向坍塌现象，这让她拥有重组肉体和传送物体等一系列能力"
+
+leader_trait_general_sfdoll_noel:0"遗迹少女"
+leader_trait_general_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中救出来的克隆人。\n 她拥有和铁血人形相似的心智空间，能够转移和备份心智数据。\n 她能操纵逆向坍塌现象，这让她拥有重组肉体和传送物体等一系列能力"
+
+trait_sfdoll_goods:0 "轻工业专精"
+trait_sfdoll_goods_desc:0 "这些铁血人形专注于制造轻工业产品" 
+
+trait_sfdoll_alloys:0 "重工业专精"
+trait_sfdoll_alloys_desc:0 "这些铁血人形注重工业生产"
+
+trait_sfdoll_industry:0 "工业专家"
+trait_sfdoll_industry_desc:0 "这些铁血人形具备极为先进的工业知识，能够建立现代化的星际工业产业"
+
+
+
+
+

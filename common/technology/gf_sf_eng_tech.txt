@@ -1,0 +1,28 @@
+######gf tech
+@tier1doll = 4000
+
+#组装厂，初始科技
+tech_gf_sfdoll_assemble_building= {
+	area = engineering
+	start_tech = yes
+	tier = 0
+	category = { industry }	 	
+	gateway = robotics	
+	potential = {	has_authority = auth_gf_sfdoll	}
+}
+
+# tech_mind_expansion_project = {
+# 	cost = @tier4cost1
+# 	area = engineering
+# 	tier = 4
+# 	category = { industry }
+# 	is_rare = yes
+# 	weight = @tier4weight1
+
+# 	potential = {
+# 		has_ascension_perk = ap_digi_mind_update
+# 	}
+# 	modifier = {
+# 		SFDOLL_species_trait_points_add = 15
+# 	}
+# }

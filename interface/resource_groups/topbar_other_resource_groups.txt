@@ -1,0 +1,68 @@
+tb_others_group = {
+	resources = {
+		volatile_motes
+		exotic_gases
+		rare_crystals
+		sr_living_metal
+		sr_zro
+		sr_dark_matter
+		nanites
+		corechip
+		#
+		GF_nyto_collapse_liquid#坍缩液
+		GF_nyto_dark_star_core#暗星内核
+		GF_nyto_superstar_core	#超星内核
+		manpower#人力
+		#
+		apsr_knowledge
+		esc_enigmatic_energy
+		esc_gravitic_anomaly
+		esc_living_crystal
+		esc_psionic_charge
+		esc_transdimensional_vortex
+		sr_iodizium
+		sr_solar_energy
+		sr_GAPS_psychic_power
+		sr_GAPS_water
+		sr_antimatter
+		sr_quark_gluon_plasma
+		sr_strange_matter
+		able_bodied_recruit
+		basic_officer
+		basic_solider
+		kinetic_ammo
+		military_equipment
+		plate_armor
+		small_arms
+		cybernewtypes
+		efsf_pilots
+		efsf_ace_pilots		
+		luna_titanium
+		mobile_suits
+		newtypes
+		zeon_pilots
+		zeon_ace_pilots
+		sr_ancient_zpm
+		kyber_crystals
+		tibanna_gas
+		yin
+		acot_sr_dark_energy
+		acot_sr_light_matter
+		acot_sr_stellarite		
+		ukn_neutronium
+		ukn_electroweak_matter
+		ukn_quasi_matter
+		ukn_exotic_matter
+		ukn_exions
+		ukn_e3z0
+		ukn_tachyons
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}

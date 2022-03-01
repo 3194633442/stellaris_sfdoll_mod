@@ -1,0 +1,22 @@
+spriteTypes = {	
+	################################################################
+	# ASCENSION PERK ICONS
+	################################################################
+	spriteType = {
+		name = "GFX_ap_digi_mind_update"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_digi_mind_update.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_sfdoll_reverse_collapse"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_sfdoll_reverse_collapse.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_ap_land_of_sfdoll"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_land_of_sfdoll.dds"
+		alwaystransparent = yes
+	}
+}
+

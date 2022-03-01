@@ -1,0 +1,87 @@
+namespace = sfdoll_search_zion_event
+#id标准写法为namespace的值加上编号
+
+#寻找锡安，事件开始
+country_event = {
+	id = sfdoll_search_zion_event.0
+	title = "sfdoll_search_zion_event_0"
+	desc = "sfdoll_search_zion_event_0_desc"
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_digi_mind
+
+	#添加追踪锡安项目
+	immediate = {
+		capital_scope = {
+			enable_special_project = {
+				name = SF_SEARCH_ZION_PROJECT
+			}
+		}
+		#开始寻找锡安事件链
+		begin_event_chain = {
+			event_chain = sfdoll_search_zion_chain
+		}
+	}
+}
+
+#谜之信号项目完成
+country_event = {
+	id = sfdoll_search_zion_event.1
+	title = "sfdoll_search_zion_event_1"
+	desc = "sfdoll_search_zion_event_1_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_unknown_civilization
+
+}
+
+#传送门项目
+country_event = {
+	id = sfdoll_search_zion_event.2
+	title = "sfdoll_search_zion_event_2"
+	desc = "sfdoll_search_zion_event_2_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_ftl
+
+	after = {
+		country_event = {
+			id = sfdoll_search_zion_event.3
+		}
+	}
+}
+
+#提示，发现坟头
+country_event = {
+	id = sfdoll_search_zion_event.3
+	title = "sfdoll_search_zion_event_3"
+	desc = "sfdoll_search_zion_event_3_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_archaeo
+	
+	immediate = {
+		capital_scope ={
+			create_archaeological_site = site_noel_sfdoll
+		}
+	}
+}
+
+#延迟触发事件，添加遗迹遗迹调查项目，需要三级超空间
+country_event = {
+	id = sfdoll_search_zion_event.4
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_hyper_drive_3
+	}
+	after = {
+		country_event = {
+			id = sfdoll_search_zion_event.0
+			days = 400
+		}
+	}
+}

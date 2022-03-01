@@ -1,0 +1,179 @@
+# ##################
+# Basic army
+# ##################
+
+
+
+
+#陆军
+tech_sfdoll_army = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { military_theory }
+	icon = tech_sfdoll_army
+	potential = { has_authority = auth_gf_sfdoll }
+	weight = @tier2weight1
+}
+tech_sfoll_heavy_army = {
+	cost = @tier4cost2 
+	area = society
+	tier = 4
+	category = { military_theory }
+	icon = tech_sfdoll_army
+	potential = { has_authority = auth_gf_sfdoll }
+	weight = @tier4weight2
+}
+
+tech_sfdoll_army_building = {
+	cost = @tier4cost1 
+	area = society
+	tier = 4
+	category = { military_theory }
+	icon = tech_sfdoll_army_building
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_global_defense_grid
+	}
+	weight = @tier4weight1
+}
+
+
+#指挥上限
+tech_sfdoll_command_limit_1 = {
+	cost = @tier3cost3
+	area = society
+	tier = 3
+	category = { military_theory }
+	is_rare = yes
+	icon = tech_sfdoll_command_limit_1
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { country_command_limit_add = 120 }
+	weight = @tier3weight3
+}
+
+tech_sfdoll_command_limit_2 = {
+	cost = @tier3cost3
+	area = society
+	tier = 3
+	category = { military_theory }
+	icon = tech_sfdoll_command_limit_1
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { country_command_limit_add = 120 }
+
+	weight = @tier3weight3
+}
+
+tech_sfdoll_command_limit_3 = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	category = { military_theory }
+	icon = tech_sfdoll_command_limit_1
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { country_command_limit_add = 120 }
+
+	weight = @tier4weight3 
+}
+
+tech_sfdoll_command_limit_4 = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	category = { military_theory }
+	icon = tech_sfdoll_command_limit_1
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { country_command_limit_add = 120 }
+
+	weight = @tier4weight3
+}
+
+tech_sfdoll_command_limit_5 = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	category = { military_theory }
+	icon = tech_sfdoll_command_limit_1
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { country_command_limit_add = 120 }
+
+	weight = @tier4weight3
+}
+
+#解锁建筑槽位
+tech_sfdoll_max_buildings = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { statecraft }
+	icon = tech_sfdoll_max_buildings
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { planet_max_buildings_add = 10	}
+	weight = @tier3weight1
+}
+
+#铁血社会变革，由钢铁之国飞升解锁
+tech_sfdoll_social_reform = {
+	cost = @tier3cost3
+	area = society
+	tier = 3
+	category = { new_worlds }
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {
+		country_government_civic_points_add = 1
+		country_base_influence_produces_add = 1
+		planet_max_buildings_add = 10
+	}
+
+	weight = @tier3weight3
+}
+
+# tech_sf_add_portrait = {
+# 	cost = 1000
+# 	area = society
+# 	tier = 1
+# 	category = { new_worlds }
+# 	prerequisites = { "tech_interplanetary_commerce" }
+# 	weight = -1
+# }
+
+# tech_sf_soc_civil_doll = {
+# 	cost = @tier1cost3
+# 	area = society
+# 	tier = 1
+# 	category = { statecraft }
+# 	prerequisites = { "tech_interplanetary_commerce" }
+# 	weight = @tier1weight3
+
+# 	potential = {
+# 		is_gestalt = no
+# 	}
+
+# 	weight_modifier = {
+# 		modifier = {
+# 			factor = 1.25
+# 			research_leader = {
+# 				area = society
+# 				has_trait = "leader_trait_expertise_statecraft"
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 1.25
+# 			has_tradition = tr_prosperity_adopt
+# 		}
+# 	}
+
+# 	ai_weight = {
+# 		factor = 2
+# 		modifier = {
+# 			factor = 1.25
+# 			research_leader = {
+# 				area = society
+# 				has_trait = "leader_trait_expertise_statecraft"
+# 			}
+# 		}
+# 	}
+# }
+
+
+

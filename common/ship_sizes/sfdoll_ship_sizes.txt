@@ -1,0 +1,279 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+####################
+# NOTE FOR MODDERS #
+####################
+# modifier = { } only takes the following modifiers
+# hull, shield & armor add/mult and regen add perc/static
+# evasion add/mult
+# speed/base speed mult
+# weapon damage mult
+# upkeep mult
+# for other modifiers, use ship_modifier = { }
+# use_shipnames_from = other_size # allows a ship size to use names from another size
+# icon = ship_size_military_1
+		#ship_size_military_1 is default. The following sprite keys are generated from it:
+			#GFX_text_<key>
+			#GFX_<key>
+			#GFX_<key>_top
+			#GFX_<key>_top_damaged
+# icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
+####################
+
+#战术驱逐舰
+sfdoll_destroyer= {
+	entity = titan_entity
+	max_speed = 900
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 140000
+	modifier = {
+		ship_evasion_add = 20
+		ship_armor_add = 140000
+		ship_piracy_suppression_add = 8
+	}
+	size_multiplier = 20
+	fleet_slot_size = 20
+	section_slots = { "ship" = { locator = root } }
+	num_target_locators = 4
+	is_space_station = no
+	icon = ship_size_military_16
+	base_buildtime = 480
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	components_add_to_cost = yes
+
+	prerequisites = { "tech_sfdoll_tactical_destroyer" }
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "sensor_components"
+	required_component_set = "thruster_components"
+	required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
+
+	resources = {
+		category = ships
+		cost = {
+			sr_dark_matter = 480
+		}
+		upkeep = {
+			energy = 10
+			minerals = 5
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 10
+	}
+}
+
+science_sfdoll = {
+	max_speed = 200
+	acceleration = 0.3
+	rotation_speed = 0.2
+	max_hitpoints = @science_hp
+	entity = science_entity
+	modifier = {
+		ship_evasion_add = @science_evasion
+	}
+	ship_modifier = {
+		ship_hyperlane_range_add = 2
+		ship_evasion_add = 50
+		ship_speed_mult = 1.00
+	}
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_science
+	base_buildtime = @science_build_time
+
+	combat_disengage_chance = 2.0
+
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	is_designable = yes
+	components_add_to_cost = yes
+
+	#前置科技，待修改
+	prerequisites = { "tech_sfdoll_new_science_constructer" }
+	is_civilian = yes
+	class = shipclass_science_ship
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 100
+		}
+		upkeep = {
+			energy = @science_upkeep_energy
+			alloys = @science_upkeep_alloys
+		}
+	}
+}
+
+#高速工程船
+constructor_sfdoll = {
+	max_speed = 200
+	acceleration = 0.3
+	rotation_speed = 0.2
+	max_hitpoints = @construction_hp
+	entity = constructor_entity
+	modifier = {
+		ship_evasion_add = 40
+		ship_speed_mult = 1.00
+		
+	}
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_constructor
+	base_buildtime = @construction_build_time
+
+	combat_disengage_chance = 2.0
+
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	
+	#待修改
+	prerequisites = { "tech_sfdoll_new_science_constructer" }
+	is_civilian = yes
+	is_designable = yes
+	components_add_to_cost = yes
+	class = shipclass_constructor
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 100
+		}
+
+		upkeep = {
+			energy = @construction_upkeep_energy
+			alloys = @construction_upkeep_alloys
+		}
+	}
+}
+
+# # 铁血巨像
+# sfdoll_colossus = {
+# 	entity = colossus_entity
+# 	max_speed = 200
+# 	acceleration = 0.2
+# 	rotation_speed = 0.15
+# 	collision_radius = @colossus_collision_radius
+# 	max_hitpoints = 100000
+# 	modifier = {
+# 		ships_upkeep_mult = -1
+# 		ship_evasion_add = @colossus_evasion
+# 	}
+# 	size_multiplier = 32
+# 	fleet_slot_size = 32
+# 	section_slots = { "ship" = { locator = "frame_ship" } }
+# 	num_target_locators = 4
+# 	is_space_station = no
+# 	icon = ship_size_military_32
+# 	base_buildtime = 1 #1080
+# 	can_have_federation_design = no
+# 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+# 	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+# 	components_add_to_cost = no
+
+# 	# prerequisites = { "tech_sfdoll_colossus" }
+# 	prerequisites = { "tech_colossus" }
+
+# 	class = shipclass_military_special
+# 	construction_type = starbase_shipyard
+# 	required_component_set = "power_core"
+# 	required_component_set = "ftl_components"
+# 	required_component_set = "thruster_components"
+# 	required_component_set = "combat_computers"
+
+# 	# potential_construction = {
+# 	# 	OR = {
+# 	# 		is_scope_type = starbase
+# 	# 		AND = {
+# 	# 			is_scope_type = megastructure
+# 	# 			OR = {
+# 	# 				is_megastructure_type = mega_shipyard_3
+# 	# 				is_megastructure_type = mega_shipyard_restored
+# 	# 			}
+# 	# 		}
+# 	# 	}
+# 	# }
+
+# 	# possible_construction = {
+# 	# 	custom_tooltip = {
+# 	# 		fail_text = starbase_citadel_trigger
+# 	# 		OR = {
+# 	# 			AND = {
+# 	# 				is_scope_type = megastructure
+# 	# 				OR = {
+# 	# 					is_megastructure_type = mega_shipyard_3
+# 	# 					is_megastructure_type = mega_shipyard_restored
+# 	# 				}
+# 	# 			}
+# 	# 			AND = {
+# 	# 				is_scope_type = starbase
+# 	# 				has_starbase_size >= starbase_citadel
+# 	# 			}
+# 	# 		}
+# 	# 	}
+# 	# 	custom_tooltip = {
+# 	# 		fail_text = starbase_colossal_yards_trigger
+# 	# 		OR = {
+# 	# 			AND = {
+# 	# 				is_scope_type = megastructure
+# 	# 				OR = {
+# 	# 					is_megastructure_type = mega_shipyard_3
+# 	# 					is_megastructure_type = mega_shipyard_restored
+# 	# 				}
+# 	# 			}
+# 	# 			AND = {
+# 	# 				is_scope_type = starbase
+# 	# 				has_starbase_building = colossus_yards
+# 	# 			}
+# 	# 		}
+# 	# 	}
+# 	# }
+
+# 	resources = {
+# 		category = ships
+# 		cost = {
+# 			alloys = 1 #10000
+# 		}
+# 		upkeep = {
+# 			energy = @colossus_upkeep_energy
+# 			alloys = @colossus_upkeep_alloys
+# 		}
+# 		produces = {
+# 			physics_research = 100
+# 		}
+# 	}
+# 	min_upgrade_cost = {
+# 		alloys = 10
+# 	}
+# }
+

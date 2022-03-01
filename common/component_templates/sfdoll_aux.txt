@@ -1,0 +1,63 @@
+#损害管理
+utility_component_template = {
+	key = "sfdoll_aux_repair_ship"
+	size = aux
+	icon = "GFX_sfdoll_aux_repair_ship"
+	icon_frame = 1
+	power = -10
+	resources = {
+		category = ship_components
+		cost = {
+			nanites = 2
+			alloys = 10
+		}
+	}
+	modifier = {
+		ship_shield_regen_add_perc = 0.5
+		ship_armor_regen_add_perc = 0.5 
+		ship_hull_regen_add_perc = 0.5
+		ship_disengage_chance_mult = 0.20 
+		ship_emergency_ftl_mult = -0.20
+	}
+	prerequisites = { "tech_sfdoll_aux_repair_ship" }
+	component_set = "component_set_sfdoll_aux_repair_ship"
+
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = -1
+			NOT = {		has_authority = auth_gf_sfdoll	}
+		}		
+	}
+}
+
+#质量再生系统
+utility_component_template = {
+	key = "sfdoll_aux_quality_rebuilding"
+	size = aux
+	icon = "GFX_sfdoll_aux_quality_rebuilding"
+	icon_frame = 1
+	power = -10
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 2
+		}
+	}
+	modifier = {
+		ships_upkeep_mult = -1.0
+	}
+	prerequisites = { "tech_sfdoll_aux_quality_rebuilding" }
+	component_set = "sfdoll_aux_quality_rebuilding"
+
+	size_restriction = {
+		science_sfdoll constructor_sfdoll  sfdoll_destroyer corvette  destroyer cruiser battleship titan 
+	}
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = -1
+			NOT = {		has_authority = auth_gf_sfdoll	}
+		}		
+	}
+}

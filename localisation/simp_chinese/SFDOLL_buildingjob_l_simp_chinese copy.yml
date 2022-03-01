@@ -1,0 +1,119 @@
+﻿l_simp_chinese:
+#职业本地化包括，职业名称，职业复数形式，职业描述，职业效果（用于显示在提供职业的建筑中），相关修正(mod_XX)的本地化
+building_sfdoll_assembly_plant:0 "铁血人形组装厂"
+building_sfdoll_assembly_plant_desc:0 "基于OGAS算法的AI科学，仿生学，机械学，这一切知识集合起来，成为制造铁血人形的基础。"
+
+building_sfdoll_nanites_plant:0 "铁血纳米机械厂"
+building_sfdoll_nanites_plant_desc:0 "通过超微尺度工程技术，我们能制造先进的纳米机器，用于各种微观作业"
+job_sfdoll_nanites_maker:0"纳米机械师"
+job_sfdoll_nanites_maker_plural:0"纳米机械师"
+job_sfdoll_nanites_maker_desc:0"纳米机械师能制造多种先进的超微型机器"
+job_sfdoll_nanites_maker_effect_desc:0 "纳米机械师将 §Y$minerals$§! 转化为 §Y$nanites$§!"
+mod_job_sfdoll_nanites_maker_add:0 "纳米机械师岗位"
+
+building_sfdoll_dark_matter_plant:0"铁血暗物质合成厂"
+building_sfdoll_dark_matter_plant_desc:0"这些工厂使用铁血科技合成暗物质"
+job_sfdoll_dark_matter_maker:0"暗物质合成师"
+job_sfdoll_dark_matter_maker_plural:0"暗物质合成师"
+job_sfdoll_dark_matter_maker_desc:0"暗物质合成师负责制造暗物质"
+job_sfdoll_dark_matter_maker_effect_desc:0 "暗物质合成师将 §Y$minerals$§! 转化成 §Y$sr_dark_matter$§!"
+mod_job_sfdoll_dark_matter_maker_add:0"暗物质合成师岗位"
+
+#collapse
+building_sfdoll_collapse_liquid_plant:0"坍塌粒子制造厂"
+building_sfdoll_collapse_liquid_plant_desc:0"这些工厂编写坍塌粒子的内部程序，制造可控的坍塌粒子"
+job_sfdoll_collapse_liquid_maker:0"坍塌粒子合成师"
+job_sfdoll_collapse_liquid_maker_plural:0"坍塌粒子合成师"
+job_sfdoll_collapse_liquid_maker_desc:0"坍塌粒子合成师能制造可控的坍塌粒子"
+job_sfdoll_collapse_liquid_maker_effect_desc:0 "坍塌粒子合成师将 §Y$minerals$§! 转化成 §Y$GF_nyto_collapse_liquid$§!"
+mod_job_sfdoll_collapse_liquid_maker_add:0"坍塌粒子合成师岗位"
+
+building_sfdoll_research:0"铁血研究所"
+building_sfdoll_research_desc:0"铁血研究所汇集了铁血的先进科研资源"
+job_sfdoll_researcher:0"科研人形"
+job_sfdoll_researcher_plural:0"科研人形"
+job_sfdoll_researcher_desc:0"科研人形配备了专业的研究模块"
+job_sfdoll_researcher_effect_desc:0 "科研人形消耗§Y$consumer_goods$§! ,产出 §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
+mod_job_sfdoll_researcher_add:0"科研人形岗位"
+
+building_sfdoll_collapse_energy:0"坍塌粒子发电厂"
+building_sfdoll_collapse_energy_desc:0"这些工厂利用某些超乎常识的科技产生能源"
+job_sfdoll_collapse_energy_maker:0"坍塌技师"
+job_sfdoll_collapse_energy_maker_plural:0"坍塌技师"
+job_sfdoll_collapse_energy_maker_desc:0"坍塌能源技师对坍塌反应堆进行维护，利用坍塌粒子产生能源"
+job_sfdoll_collapse_energy_maker_effect_desc:0 "坍塌技师将§Y$GF_nyto_collapse_liquid$§!转化为 §Y$energy$§! "
+mod_job_sfdoll_collapse_energy_maker_add:0"坍塌技师岗位"
+
+
+
+building_sfdoll_gases_plant:0 "铁血气体精炼厂"
+building_sfdoll_gases_plant_desc:0 "此类工厂使用铁血科技，高效生产各类气体物质。"
+job_sfdoll_gases_maker:0"铁血气体合成师"
+job_sfdoll_gases_maker_plural:0"铁血气体合成师"
+job_sfdoll_gases_maker_desc:0"气体合成师使用铁血设备来精炼气体资源。"
+job_sfdoll_gases_maker_effect_desc:0 " 气体合成师将 §Y$minerals$§! 转化为 §Y$exotic_gases$§!"
+mod_job_sfdoll_gases_maker_add:0 "铁血气体合成师岗位"
+
+building_sfdoll_crystal_plant:0 "铁血水晶合成厂"
+building_sfdoll_crystal_plant_desc:0 "使用铁血科技，高效合成稀有水晶的工厂。"
+job_sfdoll_crystals_maker:0"铁血水晶合成师"
+job_sfdoll_crystals_maker_plural:0"铁血水晶合成师"
+job_sfdoll_crystals_maker_desc:0"水晶合成师使用铁血科技合成稀有水晶。"
+job_sfdoll_crystals_maker_effect_desc:0 "水晶合成师将 §Y$minerals$§! 转化为 §Y$rare_crystals$§!"
+mod_job_sfdoll_crystals_maker_add:0 "铁血水晶合成师岗位"
+
+building_sfdoll_alloys:0"铁血合金工厂"
+building_sfdoll_alloys_desc:0"铁血重工厂能够高效地生产合金"
+job_sfdoll_collapse_alloys_maker:0"铁血合金生产员"
+job_sfdoll_collapse_alloys_maker_plural:0"铁血合金生产员"
+job_sfdoll_collapse_alloys_maker_desc:0"通过先进的铁血工艺，无需高温冶炼即可合成各类合金"
+job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血合金生产员将 §Y$minerals$§! 转化为 §Y$alloys$§! "
+mod_job_sfdoll_collapse_alloys_maker_add:0"铁血合金生产员岗位"
+
+building_sfdoll_motes_plant:0 "铁血易爆微粒厂"
+building_sfdoll_motes_plant_desc:0 "使用铁血化学科技的工厂，大量生产易爆微粒等产品。"
+job_sfdoll_motes_maker:0"铁血化学师"
+job_sfdoll_motes_maker_plural:0"铁血化学师"
+job_sfdoll_motes_maker_desc:0"铁血化学师使用先进的技术制造化学产品。"
+job_sfdoll_motes_maker_effect_desc:0 "化学师将 §Y$minerals$§! 转化为§Y$volatile_motes$§!"
+mod_job_sfdoll_motes_maker_add:0 "铁血化学师岗位"
+
+building_sfdoll_nanites_goods_plant:0 "铁血消费品工厂"
+building_sfdoll_nanites_goods_plant_desc:0 "铁血建立的现代化工业区，能为铁血社会供应各类产品"
+job_sfdoll_nanites_goods_maker:0"铁血工匠"
+job_sfdoll_nanites_goods_maker_plural:0"铁血工匠"
+job_sfdoll_nanites_goods_maker_desc:0"铁血工匠利用先进的生产技术，制造各类工业产品。"
+job_sfdoll_nanites_goods_maker_effect_desc:0 "铁血工匠将 §Y$minerals$§! 转化为§Y$consumer_goods$§!和 §Y$engineering_research$§!"
+mod_job_sfdoll_nanites_goods_maker_add:0 "铁血工匠岗位"
+
+
+#civic
+building_sfdoll_academy:0"铁血学园"
+building_sfdoll_academy_desc:0"兼具教学与科研功能的园区。常配备有大型虚拟现实服务器，用于铁血人形的模拟训练、头脑风暴、思想品德课程和再就业培训"
+job_sfdoll_educator:0"教育工作者"
+job_sfdoll_educator_plural:0"教育工作者"
+job_sfdoll_educator_desc:0"虽然很多知识可以直接下载到脑子里，但学习和训练也是人形AI成长的一环"
+job_sfdoll_educator_effect_desc:0 "教育工作者产出 §Y研究点数§!  , §Y$unity$§!  ，降低星球的犯罪度"
+mod_job_sfdoll_educator_add:0"教育工作者岗位"
+
+building_sfdoll_net:0"铁血信号站"
+building_sfdoll_net_desc:0"OGAS星际互联网可以提供政务和生活等多种方面的服务，而这些信号站能够提供更高的网速。打游戏时喜欢嘴臭的人形，可能会被追踪ip，并被迫展开线下pvp"
+job_sfdoll_it_doll:0 "IT从业者"
+job_sfdoll_it_doll_plural:0 "IT从业者"
+job_sfdoll_it_doll_desc:0 "各类信息技术人员搭建起庞大的星际互联网。"
+job_sfdoll_it_doll_effect_desc:0 "IT从业者提高星球舒适度，提高 §Y$unity$§! 的产出，增加帝国的行政管理上限"
+mod_job_sfdoll_it_doll_add:0 "IT从业者岗位"
+
+building_sfdoll_museum:0"莱柯博物馆"
+building_sfdoll_museum_desc:0"短暂的历史也有独一无二的光辉。这座铁血国家博物馆汇集了各类文明遗产和资料，能为相关的研究提供有力的支持。\n门口摆放着莱柯,露尼西亚和指挥官等人的限定版1:1模型"
+
+#army
+building_sfdoll_army:0"铁血要塞"
+building_sfdoll_army_desc:0"铁血人形的新式行星军港配备了特殊的ftl装置，可以在星球与太空之间快速转移人员与物资，也可以用于星球上不同位置之间的军事运输"
+job_sfdoll_tactical:0"战术人形"
+job_sfdoll_tactical_plural:0"战术人形"
+job_sfdoll_tactical_desc:0"战术人形是配备了专业作战系统的铁血人形，维持着国家的军事力量"
+job_sfdoll_tactical_effect_desc:0"战术人形提供海军容量，凝聚力，并提高星球的稳定度"
+mod_job_sfdoll_tactical_add:0 "战术人形岗位"
+
+

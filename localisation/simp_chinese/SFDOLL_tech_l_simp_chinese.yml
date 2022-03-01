@@ -1,0 +1,132 @@
+﻿l_simp_chinese:
+
+#phy
+tech_sfdoll_ogas_ai:0 "OGAS人工智能"
+tech_sfdoll_ogas_ai_desc:0 "铁血人形的心智系统来源于遗迹的OGAS技术。随着对OGAS技术的深入解读，我们现有的计算机和AI科学获得了新的启示。"
+
+#soc
+#陆军
+tech_sfdoll_army:0"战术人形火控更新"
+tech_sfdoll_army_desc:0"为了兼容新型枪械和单兵力场系统，我们应该研发新一代的铁血火控系统"
+tech_sfoll_heavy_army:0"钢铁风暴"
+tech_sfoll_heavy_army_desc:0"能够直接在地表起降，并出入大气层的反重力重型兵器，可以让铁血人形在陆战中掌握主动权"
+
+tech_sfdoll_army_building:0"基地改良"
+tech_sfdoll_army_building_desc:0"铁血的许多军事活动需要跨越天体级的尺度。为此，我们需要更为强大的军事基地，来为宇宙军提供支持"
+
+
+#指挥上限
+tech_sfdoll_command_limit_1:0"铁血舰队:深空素体"
+tech_sfdoll_command_limit_1_desc:0"针对真空、失重、极端温度和强辐射打造的新型铁血素体，并配备了轻型粒子约束装置，用于太空中的移动和作业"
+tech_sfdoll_command_limit_2:0"铁血舰队:太空作战模块"
+tech_sfdoll_command_limit_2_desc:0"为太空行动而开发的人形辅助模块，能帮助铁血人形在太空中高效协作"
+tech_sfdoll_command_limit_3:0"铁血舰队:蚀刻理论飞船管理"
+tech_sfdoll_command_limit_3_desc:0"利用蚀刻技术，我们可以在物体之间建立一种独特的场的联系。\n现在，我们将蚀刻技术应用到了宇宙飞船上。铁血人形可以利用蚀刻技术，准确地监控舰船设备的状态"
+tech_sfdoll_command_limit_4:0"铁血舰队:OGAS舰队通讯"
+tech_sfdoll_command_limit_4_desc:0"基于OGAS技术，我们开发了更可靠的舰队通讯系统"
+tech_sfdoll_command_limit_5:0"铁血舰队:舰载短程ftl"
+tech_sfdoll_command_limit_5_desc:0"这种可靠的短距离超光速系统可以装备在铁血的飞船上，并在飞船之间快速输送物资"
+
+#解锁建筑槽位
+tech_sfdoll_max_buildings:0"铁血新城市计划"
+tech_sfdoll_max_buildings_desc:0"改进我们的市政体系，将铁血人形的星球建设得更加繁荣"
+tech_sfdoll_social_reform:0 "铁血改革计划"
+tech_sfdoll_social_reform_desc:0 "铁血的世界需要改变"
+tech_sf_add_portrait:0 "协议同归：大梦初醒"
+tech_sf_add_portrait_desc:0 "现在，我们可以将心智服务器中的人形转移到新的素体上，从而让它们复苏，并为它们升级到新型的铁血心智系统，让它们加入铁血人形的世界。"
+tech_sf_civil_doll:0 "铁血社会研究：民用人形"
+tech_sf_civil_doll_desc:0 "铁血人形原本是出于军用目的制造，开拓行星也让我们不得不追求效率。这让铁血的社会高度单一化。现在，我们将展开民用铁血人形的研究。"
+
+#eng
+tech_gf_sfdoll_assemble_building:0 "铁血人形组装"
+tech_gf_sfdoll_assemble_building_desc:0 "基于OGAS算法的AI科学，仿生学，机械学，这一切知识集合起来，成为制造铁血人形的基础。"
+
+#modding
+tech_sf_doll_modding_system:0 "铁血人形改造系统"
+tech_sf_doll_modding_system_desc:0 "标准化的机器人模板，可以让铁血人形进行高效的改造"
+
+tech_sf_doll_modding_1:0"二级平层扩展"
+tech_sf_doll_modding_1_desc:0 "对以二级平层为代表的心智系统功能进行改进，提升心智系统的性能和安全性，心智数据的传输和备份也变得更可靠"
+
+tech_sf_doll_modding_2:0 "升级进化"
+tech_sf_doll_modding_2_desc:0"把这些很cool的新机体推广到铁血全国\n 解锁新的物种§H特质§!"
+
+#ship
+#component
+tech_sfdoll_weapon_s_3:0"铁血蛇式火力系统"
+tech_sfdoll_weapon_s_3_desc:0"面对日益复杂的太空安全问题，我们需要更加灵活可靠的太空武器"
+
+tech_sfdoll_weapon_p_6:0"铁血破坏者点防御"
+tech_sfdoll_weapon_p_6_desc:0"防御性舰载武器，能够对移动目标进行精确打击"
+
+tech_sfdoll_weapon_x_1:0"铁血建筑师级主炮"
+tech_sfdoll_weapon_x_1_desc:0"这种大型主炮能无视一般的防护设备，对指定目标造成杀伤"
+
+tech_sfdoll_weapen_x_2:0"铁血骑士级重炮"
+tech_sfdoll_weapen_x_2_desc:0"这种铁血重型武器可以发射能量巨大的物质流来撞击目标，只有大型战舰才能装备该武器"
+
+tech_sfdoll_weapen_t_2:0"铁血计量官级重炮"
+tech_sfdoll_weapen_t_2_desc:0"这种超大型舰炮可以将毁灭性的能量集中于一点"
+
+tech_sfdoll_ship_defense_s:0"铁血飞船防御系统"
+tech_sfdoll_ship_defense_s_desc:0"比起传统的护盾和装甲，新型的防御系统能提供更加可靠的防护"
+
+tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
+tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器，拥有远距离的超光速探测能力，可准确掌握敌对目标的行动"
+
+tech_sfdoll_aux_repair_ship:0"$component_set_sfdoll_aux_repair_ship$"
+tech_sfdoll_aux_repair_ship_desc:0"$component_set_sfdoll_aux_repair_ship_DESC$"
+
+tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
+tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
+
+tech_sfdoll_jump_drive:0"铁血跃迁引擎"
+tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上。利用它，铁血可以自由穿越银河系中的空间"
+
+tech_sfdoll_thruster:0"铁血特殊机动技术"
+tech_sfdoll_thruster_desc:0"通过某些看似违背物理常识的手段，铁血能够随心所欲地操纵飞船的航行"
+
+tech_sfdoll_ship_computer:0"铁血舰载AI"
+tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，本身就是铁血人形的一员，可以穿上素体执行多种任务"
+
+tech_sfdoll_new_science_constructer:0 "太空探索技术更新"
+tech_sfdoll_new_science_constructer_desc:0"为了保证铁血的生命财产安全，提高太空探索的效率，我们必须研发更好的科研和工程飞船"
+
+tech_sfdoll_tactical_destroyer:0 "铁血战术驱逐舰"
+tech_sfdoll_tactical_destroyer_desc:0 "与堕落帝国的泰坦巨舰不同，铁血的新型战舰兼顾了火力与机动性,其制造和运转的过程似乎违背了多个物理法则"
+
+tech_sfdoll_battleship_bow_x2:0 "战列舰模块改良"
+tech_sfdoll_battleship_bow_x2_desc:0 "新型的战列舰模块更加轻便和可靠"
+
+#building
+tech_sfdoll_nanites_goods:0 "微观技术工业"
+tech_sfdoll_nanites_goods_desc:0 "针对物体微观结构的新型加工技术，使铁血们的工业生产获得了极大的发展."
+
+tech_sfdoll_chemical:0 "铁血化工生产改进"
+tech_sfdoll_chemical_desc:0 "通过物质坍塌科技，我们能够改进化工生产的方法，让生产设施更加高效，减少土地占用和资源浪费。"
+
+tech_sfdoll_collapse_liquid_produce:0"坍塌粒子制造"
+tech_sfdoll_collapse_liquid_produce_desc:0"掌握坍塌液制造的核心技术后，我们能够编写坍塌粒子的内部程序,进而生产可控的坍塌粒子."
+
+tech_sfdoll_lab:0"坍塌技术研究辅助"
+tech_sfdoll_lab_desc:0"坍塌技术为我们研究自然提供了新的利器"
+
+tech_sfdoll_collapse_energy:0"坍塌粒子能源"
+tech_sfdoll_collapse_energy_desc:0"通过坍塌粒子引发的独特现象，我们能以违背物理常识的方式获得能量"
+
+tech_sfdoll_collapse_alloys_produce:0"坍塌粒子合金制造工艺"
+tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌粒子，控制原料中的微观粒子，调整产品的成分和结构，从而生产高品质的合金"
+
+tech_sfdoll_dark_matter_plant:0"铁血暗物质合成工艺"
+tech_sfdoll_dark_matter_plant_desc:0"物理科学的进步，让合成暗物质成为可能"
+
+tech_sfdoll_nanites:0"超微观人工智能"
+tech_sfdoll_nanites_desc:0"即使是纳米级别的微小机械，一样可以运行复杂的程序"
+
+#sfdoll_reverse_collapse
+tech_sfdoll_reverse_collapse_1:0"逆向坍塌Ⅰ"
+tech_sfdoll_reverse_collapse_1_desc:0"未来，也是过去。"
+tech_sfdoll_reverse_collapse_2:0"逆向坍塌Ⅱ"
+tech_sfdoll_reverse_collapse_2_desc:0"一个人天生就很弱。当周围没有比他更强大的人时，他就会变得强大。"
+tech_sfdoll_reverse_collapse_3:0"逆向坍塌Ⅲ"
+tech_sfdoll_reverse_collapse_3_desc:0"不要哀伤\n 新的永昼很快就要降临"

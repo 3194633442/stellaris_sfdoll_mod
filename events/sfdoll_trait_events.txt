@@ -1,0 +1,38 @@
+namespace = sfdoll_trait_event
+
+event = {
+	id = sfdoll_trait_event.1
+	hide_window = yes
+	location = from
+	is_triggered_only = yes
+	immediate = {
+		every_country = {
+			remove_modifier = trait_sfdoll_logic_engine_2_modifier
+			if = {		
+				limit = {	has_trait = trait_sfdoll_logic_engine_2	}
+				add_modifier = {
+					modifier = trait_sfdoll_logic_engine_2_modifier
+					days = -1
+				}
+			}
+	
+			remove_modifier = trait_sfdoll_engineer_modifier
+			if = {		
+				limit = {	has_trait = trait_sfdoll_engineer	}
+				add_modifier = {
+					modifier = trait_sfdoll_engineer_modifier
+					days = -1
+				}
+			} 
+	
+			remove_modifier = trait_sfdoll_war_2_modifier
+			if = {		
+				limit = {	has_trait = trait_sfdoll_war_2	}
+				add_modifier = {
+					modifier = trait_sfdoll_war_2_modifier
+					days = -1
+				}
+			} 
+		}
+	}
+}

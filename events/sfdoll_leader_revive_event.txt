@@ -1,0 +1,401 @@
+namespace = sfdoll_leader_revive_event
+#id标准写法为namespace的值加上编号
+#铁血领袖死亡修复
+
+#领袖死亡时触发，判断是否为特殊领袖，触发对应的复活事件
+country_event = {
+	id = sfdoll_leader_revive_event.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	#所在国为铁血帝国
+	trigger = {
+		from = {
+			owner = {  	has_country_flag = sfdoll_empire	}
+		}
+	}
+	immediate = {
+		from = {
+			#event_target可以传递给事件触发的事件
+			save_event_target_as = leader_revive_sfdoll	
+		}
+
+		#判断是否为一般铁血领袖
+		if = {
+			limit = { 
+				AND = {
+					from = {
+						has_leader_flag = sfdoll_leader
+						#不是ump45
+						event_target:leader_revive_sfdoll = { NOT = { has_leader_flag = sfdoll_leader_ump45 } }
+					}
+				}
+
+
+			}
+			country_event = {
+				id = sfdoll_leader_revive_event.1
+			}
+		}
+
+		#判断是否为ump45事件领袖
+		if = {
+			limit = { 
+				event_target:leader_revive_sfdoll = {  has_leader_flag = sfdoll_leader_ump45 }
+			}
+			country_event = {
+				id = sfdoll_leader_revive_event.2
+			}
+		}
+
+		#判断是否为noel
+		if = {
+			limit = { 
+				event_target:leader_revive_sfdoll = {  has_leader_flag = sfdoll_leader_noel }
+			}
+			country_event = {
+				id = sfdoll_leader_revive_event.3
+			}
+		}
+
+
+	}
+}
+
+#一般领袖的复活事件
+country_event = {
+	id = sfdoll_leader_revive_event.1
+	title = "sfdoll_leader_revive_event_1_title"
+	desc = "sfdoll_leader_revive_event_1_desc"
+	picture = GFX_evp_sfdoll_robot_assembly_plant
+	is_triggered_only = yes
+	hide_window = no
+
+	immediate = {
+		event_target:leader_revive_sfdoll = {
+			if = {
+				limit = { leader_class = governor }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = governor	
+						effect = {
+							set_leader_flag = sfdoll_leader
+						}
+					}
+				}
+			}
+			if = {
+				limit = { leader_class = scientist }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = scientist	
+						effect = {
+							set_leader_flag = sfdoll_leader
+						}
+					}
+				}
+			}
+			if = {
+				limit = { leader_class = admiral }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = admiral	
+						effect = {
+							set_leader_flag = sfdoll_leader
+						}
+					}
+				}
+			}
+			if = {
+				limit = { leader_class = general }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = general	
+						effect = {
+							set_leader_flag = sfdoll_leader
+						}
+					}
+				}
+			}
+
+			#复活统治者，直接set_leader
+			if = {
+				limit = { leader_class = ruler 	}
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = ruler
+						effect = {
+							set_leader_flag = sfdoll_leader
+							save_event_target_as = sfdoll_ruler_revive
+						}
+					}
+					set_leader = event_target:sfdoll_ruler_revive
+				}
+			}
+		}
+	}
+}
+
+
+#ump45专用复活事件
+country_event = {
+	id = sfdoll_leader_revive_event.2
+	title = "sfdoll_leader_revive_event_2_title"
+	desc = "sfdoll_leader_revive_event_2_desc"
+	is_triggered_only = yes
+	hide_window = no
+
+	picture = GFX_evp_sfdoll_robot_assembly_plant
+
+	immediate = {
+		event_target:leader_revive_sfdoll = {
+			if = {
+				limit = { leader_class = governor }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = governor	
+						effect = {
+							set_leader_flag = sfdoll_leader
+							set_leader_flag = sfdoll_leader_ump45
+							save_global_event_target_as = sfdoll_leader_ump45
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { leader_class = scientist }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = scientist	
+						effect = {
+							set_leader_flag = sfdoll_leader
+							set_leader_flag = sfdoll_leader_ump45
+							save_global_event_target_as = sfdoll_leader_ump45
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { leader_class = admiral }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = admiral	
+						effect = {
+							set_leader_flag = sfdoll_leader
+							set_leader_flag = sfdoll_leader_ump45
+							save_global_event_target_as = sfdoll_leader_ump45
+						}
+					}
+				}
+			}
+			if = {
+				limit = { leader_class = general }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = general	
+						effect = {
+							set_leader_flag = sfdoll_leader
+							set_leader_flag = sfdoll_leader_ump45
+							save_global_event_target_as = sfdoll_leader_ump45
+						}
+					}
+				}
+			}
+
+			#复活统治者，直接set_leader
+			if = {
+				limit = { leader_class = ruler 	}
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = ruler
+						effect = {
+							set_leader_flag = sfdoll_leader
+							set_leader_flag = sfdoll_leader_ump45
+							save_global_event_target_as = sfdoll_leader_ump45
+
+							save_event_target_as = sfdoll_ruler_revive
+						}
+					}
+					set_leader = event_target:sfdoll_ruler_revive
+				}
+			}
+			
+		}
+	}
+}
+
+#noel专用复活事件
+country_event = {
+	id = sfdoll_leader_revive_event.3
+	title = "sfdoll_leader_revive_event_3_title"
+	desc = "sfdoll_leader_revive_event_3_desc"
+	picture = GFX_evp_sfdoll_noel_sleep
+	is_triggered_only = yes
+	hide_window = no
+
+	immediate = {
+		event_target:leader_revive_sfdoll = {
+			if = {
+				limit = { leader_class = governor }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = governor	
+						effect = {
+							set_leader_flag = sfdoll_leader_noel
+							save_global_event_target_as = sfdoll_leader_noel
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { leader_class = scientist }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = scientist	
+						effect = {
+							set_leader_flag = sfdoll_leader_noel
+							save_global_event_target_as = sfdoll_leader_noel
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { leader_class = admiral }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = admiral	
+						effect = {
+							set_leader_flag = sfdoll_leader_noel
+							save_global_event_target_as = sfdoll_leader_noel
+						}
+					}
+				}
+			}
+			if = {
+				limit = { leader_class = general }
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = general	
+						effect = {
+							set_leader_flag = sfdoll_leader_noel
+							save_global_event_target_as = sfdoll_leader_noel
+						}
+					}
+				}
+			}
+
+			#复活统治者，直接set_leader
+			if = {
+				limit = { leader_class = ruler 	}
+				owner = {
+					clone_leader = {
+						target = event_target:leader_revive_sfdoll
+						class = ruler
+						effect = {
+							set_leader_flag = sfdoll_leader_noel
+							save_global_event_target_as = sfdoll_leader_noel
+
+							save_event_target_as = sfdoll_ruler_revive
+						}
+					}
+					set_leader = event_target:sfdoll_ruler_revive
+				}
+			}
+			
+		}
+	}
+}
+
+#过年触发一次，延迟触发，添加领袖flag
+country_event = {
+	id = sfdoll_leader_revive_event.4
+	title = "sfdoll_leader_revive_event_4_title"
+	desc = "sfdoll_leader_revive_event_4_desc"
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = { has_country_flag = sfdoll_empire }
+
+	after = {
+		country_event = {
+			id = sfdoll_leader_revive_event.5
+			days = 5
+		}		
+	}
+}
+#为所有铁血领袖添加flag用于复活
+country_event = {
+	id = sfdoll_leader_revive_event.5
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = { has_country_flag = sfdoll_empire }
+	after = {
+		every_owned_leader = {
+			if = {
+				limit = {
+					OR = {
+						has_trait = leader_ruler_trait_gf_sfdoll
+						has_trait = leader_governor_trait_gf_sfdoll
+						has_trait = leader_scientist_trait_gf_sfdoll
+						has_trait = leader_admiral_trait_gf_sfdoll
+						has_trait = leader_general_trait_gf_sfdoll
+					}					
+				}
+				set_leader_flag = sfdoll_leader
+			}			
+		}
+	}
+}
+
+
+
+# 测试
+# country_event = {
+# 	id = sfdoll_leader_revive_event.50
+# 	is_triggered_only = yes
+#     hide_window = yes
+# 	immediate = {
+# 		hidden_effect = {
+# 			every_owned_leader = {
+
+# 				kill_leader = {
+# 					show_notification = yes
+# 				}
+# 			}
+	
+# 		}
+# 	}
+# }
+#assigned触发器的测试事件
+# country_event = {
+# 	id = sfdoll_leader_revive_event.51
+# 	title = "sfdoll_leader_revive_event_51_title"
+# 	desc = "assigned_0000"
+# 	is_triggered_only = yes
+#     hide_window = no
+# 	immediate = {
+# 		every_owned_leader = {
+# 			remove_leader_flag = sfdoll_leader
+# 		}
+		
+# 	}
+# }

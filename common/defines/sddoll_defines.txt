@@ -1,0 +1,22 @@
+NGameplay = {
+	#_[建筑槽]
+	BASE_PLANET_BUILDING_SLOTS				= 1
+	MAX_PLANET_BUILDING_SLOTS				= 36
+	#_[分公司]
+	BASE_PLANET_BRANCH_OFFICE_BUILDING_SLOTS = 0
+	MAX_PLANET_BRANCH_OFFICE_BUILDING_SLOTS	 = 8
+	
+	#_[星基数/人口]
+#	STARBASE_CAPACITY_POP_MULT								= 0.00	# Mult value of Starbase Capacity for each Pop
+ #	STARBASE_CAPACITY_POP_MULT								= 0.00	# Mult value of Starbase Capacity for each Pop
+}
+
+NShip = { 
+	FLEET_BASE_FORMATION_SCALE = 6 
+	FLEET_BASE_FORMATION_DIV = 25
+	SHIELD_RECHARGE_TICKS = 0 
+}
+NGameplay = {
+	COMMAND_LIMIT_MAX										= 800
+	NAVAL_CAPACITY_MAX										= 20000 
+}

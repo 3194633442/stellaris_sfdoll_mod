@@ -1,0 +1,41 @@
+#逆向坍塌
+tech_sfdoll_reverse_collapse_1 = {
+	cost = @tier4cost1
+	area = physics
+	tier = 4
+	is_rare = yes
+	category = { field_manipulation }
+	icon = tech_sfdoll_reverse_collapse_1
+	prerequisites = { "tech_sfdoll_ogas_ai" }
+	potential = {		has_authority = auth_gf_sfdoll	}
+	#prerequisites = { 	}
+	modifier = {	num_tech_alternatives_add = 1	}
+	weight = 0
+}
+
+tech_sfdoll_reverse_collapse_2 = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	category = { military_theory }
+	icon = tech_sfdoll_reverse_collapse_1
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_sfdoll_reverse_collapse_1	}
+	modifier = {	shroud_research_speed = 0.10 }
+	weight = @tier4weight3
+}
+
+tech_sfdoll_reverse_collapse_3 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	icon = tech_sfdoll_reverse_collapse_1
+	prerequisites = { tech_sfdoll_reverse_collapse_2	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_zero_point_power
+	}
+	modifier = {  planet_jobs_produces_mult = 0.10		}
+	weight = @tier4weight3
+}

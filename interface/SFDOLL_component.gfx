@@ -1,0 +1,90 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_weapon_x_1"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_x_1.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_jump_drive"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_jump_drive.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_combat_computer_1"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_1.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_thruster"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_thruster.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_aux_repair_ship"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_aux_repair_ship.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_weapon_s_3"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_s_3.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_weapon_p_6"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_p_6.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_weapen_t_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapen_t_2.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_ship_defense_s"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_ship_defense_s.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_ship_sensors"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_ship_sensors.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_sfdoll_collapse_REACTOR"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_sfdoll_collapse_reactor.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_aux_quality_rebuilding"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_aux_quality_rebuilding.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_component_aura_sfdoll_1"
+		texturefile = "gfx/interface/icons/ship_parts/component_aura_sfdoll_1.dds"
+	}
+}

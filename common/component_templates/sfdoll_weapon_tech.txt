@@ -1,0 +1,292 @@
+#双穿X槽
+weapon_component_template = {
+	key = "sfdoll_weapon_x_1"
+	size = extra_large
+	type = instant
+	#待修改
+	icon = "GFX_sfdoll_weapon_x_1"
+	icon_frame = 1
+	projectile_gfx = "uv_laser_l"
+	firing_arc = 25.0
+	min_range = 10.0
+	static_rotation = yes
+	use_ship_kill_target = no
+	#4250
+	damage = { min = 5500 max = 7000 }
+	#冷却时间要除以10
+	windup = { min = 30 max = 40 }
+	total_fire_time = 125
+	range = 180
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.35
+	power = -600
+	
+	#待修改
+	prerequisites = { "tech_sfdoll_weapon_x_1" }
+	component_set = "component_set_sfdoll_weapon_x_1"
+	#projectile_gfx = 武器效果
+	tags = { weapon_type_energy weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 250
+		}		
+		upkeep = {
+			energy = 4
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+#T槽
+weapon_component_template = {
+	key = "sfdoll_weapen_t_2"
+	size = titanic
+	type = instant
+	#待修改
+	icon = "GFX_sfdoll_weapen_t_2"
+	icon_frame = 1
+	projectile_gfx = "perdition_beam"
+	firing_arc = 25.0
+	min_range = 10.0
+	static_rotation = yes
+	use_ship_kill_target = no
+	#8500
+	damage = { min = 14000 max = 22000 }
+	#冷却时间要除以10
+	windup = { min = 30 max = 40 }
+	total_fire_time = 175
+	range = 300
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.15
+	power = -1200
+	
+	#待修改
+	prerequisites = { "tech_sfdoll_weapen_t_2" }
+	component_set = "component_set_sfdoll_weapen_t_2"
+	#projectile_gfx = 武器效果
+	tags = { weapon_type_energy weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 600
+			GF_nyto_collapse_liquid = 40
+		}		
+		upkeep = {
+			energy = 25
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = 0
+			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
+		}
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+#蛇式火力系统
+weapon_component_template = {
+	key = "sfdoll_weapon_s_3"
+	size = small
+	type = instant
+	#待修改
+	icon = "GFX_sfdoll_weapon_s_3"
+	icon_frame = 1
+	projectile_gfx = infrared_laser_m
+	#static_rotation = yes
+	use_ship_kill_target = no
+	#3600 L1800 m900 s450
+	damage = { min = 250 max = 350 }
+	#冷却时间要除以10
+	windup = { min = 30 max = 40 }
+	total_fire_time = 45
+	range = 150
+	accuracy = 1.0
+	tracking = 0.50
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	power = -75
+	use_ship_kill_target = yes
+	
+	#待修改
+	prerequisites = { "tech_sfdoll_weapon_s_3" }
+	component_set = "component_set_sfdoll_weapon_s_3"
+	tags = { weapon_type_energy weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}		
+		upkeep = {
+			energy = 0.5
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "sfdoll_weapon_m_4"
+	size = medium
+	type = instant
+	#待修改
+	icon = "GFX_sfdoll_weapon_s_3"
+	icon_frame = 1
+	projectile_gfx = infrared_laser_m
+	#static_rotation = yes
+	use_ship_kill_target = no
+	#L1800 m900 s450
+	damage = { min = 500 max = 750 }
+	#冷却时间要除以10
+	windup = { min = 30 max = 40 }
+	total_fire_time = 45
+	range = 150
+	accuracy = 1.0
+	tracking = 0.50
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	power = -150
+	use_ship_kill_target = yes
+	#待修改
+	prerequisites = { "tech_sfdoll_weapon_s_3" }
+	component_set = "component_set_sfdoll_weapon_s_3"
+	#projectile_gfx = 武器效果
+	tags = { weapon_type_energy weapon_type_kinetic }
+	ai_tags = {  weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60
+		}		
+		upkeep = {
+			energy = 1.0
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "sfdoll_weapon_L_5"
+	size = large
+	type = instant
+	#待修改
+	icon = "GFX_sfdoll_weapon_s_3"
+	icon_frame = 1
+	projectile_gfx = infrared_laser_m
+	use_ship_kill_target = no
+	#L1800 m900 s450
+	damage = { min = 1000 max = 1500 }
+	#冷却时间要除以10
+	windup = { min = 30 max = 40 }
+	total_fire_time = 45
+	range = 150
+	accuracy = 1.0
+	tracking = 0.50
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	power = -300
+	use_ship_kill_target = yes
+	
+	#待修改
+	prerequisites = { "tech_sfdoll_weapon_s_3" }
+	component_set = "component_set_sfdoll_weapon_s_3"
+	#projectile_gfx = 武器效果
+	tags = { weapon_type_energy weapon_type_kinetic }
+	ai_tags = {  weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 125
+		}		
+		upkeep = {
+			energy = 2
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "sfdoll_weapon_p_6"
+	size = point_defence
+	type = point_defence
+	#待修改
+	icon = "GFX_sfdoll_weapon_p_6"
+	icon_frame = 1
+	projectile_gfx = "infrared_laser_s"
+	use_ship_kill_target = no
+	#L1800 m900 s450
+	damage = { min =250 max = 350 }
+	#冷却时间要除以10
+	windup = { min = 30 max = 40 }
+	total_fire_time = 45
+	range = 150
+	accuracy = 1.0
+	tracking = 0.80
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	power = -75
+	
+	#待修改
+	prerequisites = { "tech_sfdoll_weapon_p_6" }
+	component_set = "component_set_sfdoll_weapon_p_6"
+	#projectile_gfx = 武器效果
+	tags = { weapon_type_energy weapon_type_point_defense }
+	ai_tags = { weapon_role_point_defense }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}		
+		upkeep = {
+			energy = 0.5
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}

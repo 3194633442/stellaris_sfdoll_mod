@@ -1,0 +1,106 @@
+﻿l_simp_chinese:
+###############################
+SCIENCE_SFDOLL_FISSION_REACTOR:0 "裂变反应堆"
+SCIENCE_SFDOLL_FUSION_REACTOR:0 "聚变反应堆"
+SCIENCE_SFDOLL_COLD_FUSION_REACTOR:0 "冷核聚变反应堆"
+SCIENCE_SFDOLL_ANTIMATTER_REACTOR:0 "反物质反应堆"
+SCIENCE_SFDOLL_ZERO_POINT_REACTOR:0 "零点反应堆"
+SCIENCE_SFDOLL_DARK_MATTER_REACTOR:0 "暗物质反应堆"
+
+#thrusters
+SCIENCE_SFDOLL_THRUSTER_1:0 "化学推进器"
+SCIENCE_SFDOLL_THRUSTER_2:0 "离子推进器"
+SCIENCE_SFDOLL_THRUSTER_3:0 "等离子推进器"
+SCIENCE_SFDOLL_THRUSTER_4:0 "脉冲推进器"
+SCIENCE_SFDOLL_THRUSTER_5:0 "暗物质推进器"
+
+
+#componet
+sfdoll_weapon_x_1:0"铁血建筑师级主炮"
+component_set_sfdoll_weapon_x_1:0"铁血建筑师级主炮"
+component_set_sfdoll_weapon_x_1_DESC:0"这种大型主炮能穿透一般的防护装备，对指定目标造成杀伤效果"
+
+sfdoll_weapen_t_2:0"铁血计量官级主炮"
+component_set_sfdoll_weapen_t_2:0"铁血计量官级主炮"
+component_set_sfdoll_weapen_t_2_DESC:0"这种超大型舰炮可以将毁灭性的能量集中于一点"
+
+sfdoll_weapon_s_3:0"铁血蛇式火力系统"
+sfdoll_weapon_m_4:0"铁血蛇式火力系统"
+sfdoll_weapon_L_5:0"铁血蛇式火力系统"
+component_set_sfdoll_weapon_s_3:0"铁血蛇式火力系统"
+component_set_sfdoll_weapon_s_3_DESC:0"这种太空火力系统是铁血战舰的主力武装之一，能够灵活应对多种战况"
+
+sfdoll_weapon_p_6:0"铁血破坏者点防御"
+component_set_sfdoll_weapon_p_6:0"铁血破坏者点防御"
+component_set_sfdoll_weapon_p_6_DESC:0"防御性舰载武器，能够对移动目标进行精确打击"
+
+sfdoll_jump_drive:0"铁血跃迁引擎"
+
+sfdoll_aux_repair_ship:0"舰船损管"
+component_set_sfdoll_aux_repair_ship:0"舰船损管"
+component_set_sfdoll_aux_repair_ship_DESC:0"先进的损管系统能够提高铁血舰船的生存能力"
+
+sfdoll_aux_quality_rebuilding:0 "质量再生系统"
+sfdoll_aux_quality_rebuilding_DESC:0 "根据逆向坍塌质量重建公式,舰载型的质量再生系统已经开发完毕，该技术将极大提高飞船的自持力"
+
+sfdoll_thruster:0"铁血先进机动系统"
+sfdoll_thruster_2:0"铁血先进机动系统"
+sfdoll_thruster_3:0"铁血先进机动系统"
+sfdoll_thruster_4:0"铁血先进机动系统"
+sfdoll_thruster_5:0"铁血先进机动系统"
+sfdoll_thruster_6:0"铁血先进机动系统"
+sfdoll_thruster_7:0 "铁血先进机动系统"
+
+#computer
+sfdoll_combat_computer_1:0"铁血战舰AI(蜂拥)"
+sfdoll_combat_computer_2:0"铁血战舰AI(炮击)"
+sfdoll_combat_computer_3:0"铁血战舰AI(航母)"
+
+#defense
+sfdoll_ship_defense_s:0"铁血飞船防御系统"
+sfdoll_ship_defense_m:0"铁血飞船防御系统"
+sfdoll_ship_defense_L:0"铁血飞船防御系统"
+component_set_sfdoll_ship_defense_s:0"铁血飞船防御系统"
+component_set_sfdoll_ship_defense_s_DESC:0"铁血飞船配备的标准防御系统，能够全方位抵御攻击"
+
+sfdoll_ship_sensors:0"铁血舰载传感器"
+
+CORVETTE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+DESTROYER_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+CRUISER_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+BATTLESHIP_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+TITAN_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+COLOSSUS_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+PLATFORM_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+ION_CANNON_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+STARBASE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+
+science_sfdoll:0 "高速科研船"
+constructor_sfdoll:0 "高速工程船"
+DEFAULT_SCIENCESHIP_SFDOLL_SECTION:0 "高速科研船区段"
+DEFAULT_CONSTRUCTION_SFDOLL_SECTION:0 "高速工程船区段"
+
+sfdoll_destroyer:0 "战术驱逐舰"
+ship_section_sfdoll_destroyer:0 "战术驱逐舰1型"
+ship_section_sfdoll_destroyer_2:0 "战术驱逐舰2型"
+
+component_aura_sfdoll_1:0 "干扰战术"
+hostile_aura_sfdoll_1:0 "干扰战术"
+
+component_aura_sfdoll_2:0 "舰队支援"
+friendly_aura_sfdoll_2:0 "舰队支援"
+
+component_aura_sfdoll_3:0 "火力输出"
+
+component_aura_sfdoll_4:0 "长程打击"
+friendly_aura_sfdoll_4:0 "长程打击"
+
+#2X
+sfdoll_battleship_bow_x2:0 "双门X型舰首"
+
+# PLANET_KILLER_SFDOLL_1:0 "恒星坍塌器"
+# PLANET_KILLER_SFDOLL_1_DESC:0 "这种大型装置可以改变整个恒星的结构，使其收缩到史瓦西半径内并转化为黑洞。转化过程的余波会波及整个星系，除了执行发射的飞船之外，所有舰队、行星、巨构都难以幸免。"
+# PLANET_KILLER_SFDOLL_1_ACTION:0 "恒星坍塌"
+
+# sfdoll_colossus:0 "多功能卫星平台"
+# sfdoll_colossus_desc:0 "结合了遗迹文明的设计资料，铁血开发了这款新式飞船。它可以安装和运输重型装备，并可在环绕星球的轨道上对星球进行能量输出，帮助我们完成各种高难度实验."

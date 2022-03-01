@@ -1,0 +1,146 @@
+namespace = sfdoll_to_zion_event
+#id标准写法为namespace的值加上编号
+
+#迈向锡安
+country_event = {
+	id = sfdoll_to_zion_event.1
+	title = "sfdoll_to_zion_event_1"
+	desc = "sfdoll_to_zion_event_1_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_unknown_civilization
+	option = {	name = sfdoll_to_zion_event_1_option	}
+	after = {
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_to_zion_event.2
+				days = 30
+			}
+		}
+	}
+}
+
+#成功建立港口，添加发掘数据项目
+country_event = {
+	id = sfdoll_to_zion_event.2
+	title = "sfdoll_to_zion_event_2"
+	desc = "sfdoll_to_zion_event_2_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_unknown_civilization_5
+	immediate = {
+		capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_DIGI_PROJECT		}	}
+	}
+}
+
+#成功发掘数据
+country_event = {
+	id = sfdoll_to_zion_event.3
+	title = "sfdoll_to_zion_event_3"
+	desc = "sfdoll_to_zion_event_3_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_digi_mind
+	option = {
+		name = sfdoll_to_zion_event_3_option
+		add_resource = {
+			physics_research = 30000
+			society_research = 5000
+			engineering_research = 30000
+		}
+	}
+	after = {
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_to_zion_event.4
+				days = 30
+			}
+		}
+	}
+}
+
+# 意外的客人
+country_event = {
+	id = sfdoll_to_zion_event.4
+	title = "sfdoll_to_zion_event_4"
+	desc = "sfdoll_to_zion_event_4_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture =GFX_evp_sfdoll_unknown_civilization_4
+	option = {	name = sfdoll_to_zion_event_4_option	}
+	after = {
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_to_zion_event.5
+				days = 15
+			}
+		}
+	}
+}
+
+# 成功进入不明飞船，添加解析飞船数据项目
+country_event = {
+	id = sfdoll_to_zion_event.5
+	title = "sfdoll_to_zion_event_5"
+	desc = "sfdoll_to_zion_event_5_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_unknown_civilization_3
+	option = {	name = sfdoll_to_zion_event_5_option }
+	immediate = {
+		capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_SHIP_DIGI_PROJECT	}	}
+	}
+}
+
+# 成功解析飞船中的数据
+country_event = {
+	id = sfdoll_to_zion_event.6
+	title = "sfdoll_to_zion_event_6"
+	desc = "sfdoll_to_zion_event_6_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_unknown_civilization_3
+	option = {	name = sfdoll_to_zion_event_6_option }
+}
+
+# 添加打开传送门项目
+country_event = {
+	id = sfdoll_to_zion_event.7
+	title = "sfdoll_to_zion_event_7"
+	desc = "sfdoll_to_zion_event_7_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_unknown_civilization
+	immediate = {
+		capital_scope = { enable_special_project = {	name = SFDOLL_TO_ZION_PROJECT	}	}
+		begin_event_chain = {	event_chain = sfdoll_to_zion_chain	}
+	}
+}
+
+#成功把遗迹母舰开到常规宇宙
+country_event = {
+	id = sfdoll_to_zion_event.8
+	title = "sfdoll_to_zion_event_8"
+	desc = "sfdoll_to_zion_event_8_desc"
+	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_unknown_civilization_5
+}
+
+
+#延迟一段时间后触发迈向锡安事件链
+country_event = {
+	id = sfdoll_to_zion_event.9
+	title = "sfdoll_to_zion_event_9"
+	desc = "sfdoll_to_zion_event_9_desc"
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {	has_authority = auth_gf_sfdoll	}
+	after = {
+		country_event = {
+			id = sfdoll_to_zion_event.7
+			days = 30
+		}
+		
+	}
+}

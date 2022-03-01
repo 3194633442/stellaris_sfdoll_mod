@@ -1,0 +1,158 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_mind_server"
+		texturefile = "gfx/event_pictures/evp_sfdoll_mind_server.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_assembling"
+		texturefile = "gfx/event_pictures/evp_sfdoll_assembling.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_news_room"
+		texturefile = "gfx/event_pictures/evp_sfdoll_news_room.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_robot_assembly_plant"
+		texturefile = "gfx/event_pictures/evp_sfdoll_robot_assembly_plant.dds"
+		alwaystransparent = yes
+	}
+}
+
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_ftl"
+		texturefile = "gfx/event_pictures/evp_sfdoll_ftl.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_digi_mind"
+		texturefile = "gfx/event_pictures/evp_sfdoll_digi_mind.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_archaeo"
+		texturefile = "gfx/event_pictures/evp_sfdoll_archaeo.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_eild_attack"
+		texturefile = "gfx/event_pictures/evp_sfdoll_eild_attack.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_aurora"
+		texturefile = "gfx/event_pictures/evp_sfdoll_aurora.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_toxic"
+		texturefile = "gfx/event_pictures/evp_sfdoll_toxic.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_ruin"
+		texturefile = "gfx/event_pictures/evp_sfdoll_ruin.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_noel_awake"
+		texturefile = "gfx/event_pictures/evp_sfdoll_noel_awake.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_noel_sleep"
+		texturefile = "gfx/event_pictures/evp_sfdoll_noel_sleep.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_unknown_civilization"
+		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_unknown_civilization_2"
+		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_2.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_unknown_civilization_3"
+		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_3.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_unknown_civilization_4"
+		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_4.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_unknown_civilization_5"
+		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_5.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_unknown_civilization_6"
+		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_6.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_ship_in_orbit"
+		texturefile = "gfx/event_pictures/evp_sfdoll_ship_in_orbit.dds"
+		alwaystransparent = yes
+	}
+}
