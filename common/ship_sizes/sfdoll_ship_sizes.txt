@@ -20,6 +20,59 @@
 			#GFX_<key>_top_damaged
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
+#铁血家园舰
+sfdoll_homeless_ship = {
+	entity = titan_entity
+	max_speed = 100
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 10000
+	modifier = {
+	}
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "ship" = { locator = "part2" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon = starbase_ship_sizes
+	base_buildtime = 1 #720
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	
+	#记得修改
+	components_add_to_cost = no
+	prerequisites = { "tech_sfdoll_homeless_ship" }
+
+	default_behavior = carrier
+	class = shipclass_starbase
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "sensor_components"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_aura_components"
+
+	modifier = {
+		starbase_shipyard_capacity_add = 2
+	}
+
+	resources = {
+		category = ships
+		cost = {
+			# alloys = 240
+			# influence = 10
+		}
+		upkeep = {
+			energy = 10
+			minerals = 5
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 10
+	}
+}
+
 
 #战术驱逐舰
 sfdoll_destroyer= {
@@ -36,7 +89,7 @@ sfdoll_destroyer= {
 	}
 	size_multiplier = 20
 	fleet_slot_size = 20
-	section_slots = { "ship" = { locator = root } }
+	section_slots = { "ship" = { locator = "part2" } }
 	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_16
