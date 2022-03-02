@@ -18,3 +18,7 @@ trait_sfdoll_war_2_modifier = {
 	ship_weapon_damage = 0.50
 	shipclass_military_build_speed_mult = 0.50
 }
+
+sfdoll_test_homeless_ship_modifier = {
+	ship_components_produces_mult = 100
+}

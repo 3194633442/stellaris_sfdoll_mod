@@ -6,11 +6,17 @@ trait_gf_sfdoll_desc:0"铁血人形是一类智能机器人，最早由铁血工
 trait_sfdoll_ogas_protocol:0"铁血万能天线"
 trait_sfdoll_ogas_protocol_desc:0"这款素体外置天线可以放大铁血人形的通讯信号，并附带WIFI和遥控器等多种功能"
 
-trait_sfdoll_energy:0"产能专精"
+trait_sfdoll_energy:0"能源专精"
 trait_sfdoll_energy_desc:0"这些铁血人形专注于生产与利用能源"
 
 trait_sfdoll_mining:0"动力钻头"
 trait_sfdoll_mining_desc:0"铁血装备了钻头，那什么东西都是矿"
+
+trait_sfdoll_goods:0 "轻工业专精"
+trait_sfdoll_goods_desc:0 "这些铁血人形专注于制造轻工业产品" 
+
+trait_sfdoll_alloys:0 "重工业专精"
+trait_sfdoll_alloys_desc:0 "这些铁血人形注重工业生产"
 
 trait_sfdoll_asst:0"铁血ASST系统"
 trait_sfdoll_asst_desc:0"铁血人形装备了ASST系统，能够与量身定制的设备进行高速数据同步"
@@ -26,6 +32,9 @@ trait_sfdoll_conservation_desc:0"节约资源是铁血人形的传统美德"
 
 trait_sfdoll_assembly:0"快速组装"
 trait_sfdoll_assembly_desc:0"这些铁血人形的素体设计保证了组装效率"
+
+trait_sfdoll_ogas_command:0"子机指挥系统"
+trait_sfdoll_ogas_command_desc:0"通过OGAS协议，这些铁血人形可以同时操作大量机械进行劳动"
 
 trait_doll_regeneration:0"自适应素体"
 trait_doll_regeneration_desc:0"这些铁血人形的机体，可根据环境进行一定程度的自我调整、自我维护"
@@ -55,14 +64,14 @@ trait_sfdoll_efficient_produce_desc:0"新一代的铁血人形机体，性能得
 trait_sfdoll_logic_engine_2:0"心智升级-OGAS"
 trait_sfdoll_logic_engine_2_desc:0"铁血的新型心智系统融合了OGAS技术的研究成果。现在，这些铁血人形的思考和学习能力不亚于过去的超级AI"
 
-trait_sfdoll_ogas_command:0"子机指挥系统"
-trait_sfdoll_ogas_command_desc:0"通过OGAS协议，这些铁血人形可以同时操作大量机械进行劳动"
-
 trait_sfdoll_engineer:0 "鬼斧神工"
-trait_sfdoll_engineer_desc:0 "这些铁血人形具备优秀的设计与制造能力，它们的技术和工程超乎了一般生物的想象"
+trait_sfdoll_engineer_desc:0 "这些铁血人形具备优秀的设计与制造能力，它们的工程超乎了一般生物的想象"
 
-trait_sfdoll_war_2:0 "军事科学"
-trait_sfdoll_war_2_desc:0 "这些铁血人形是军事领域的专家，拥有极为强大的军工产业"
+trait_sfdoll_war_2:0 "精于军事"
+trait_sfdoll_war_2_desc:0 "这些铁血人形拥有先进的军事知识,并具备极高的战斗力"
+
+trait_sfdoll_industry:0 "精于工业"
+trait_sfdoll_industry_desc:0 "这些铁血人形拥有先进的工业知识和装备"
 
 trait_sfdoll_logic_engine_2_modifier:0 "$trait_sfdoll_logic_engine_2$"
 trait_sfdoll_logic_engine_2_modifier_desc:0 "$trait_sfdoll_logic_engine_2_desc$"
@@ -130,15 +139,6 @@ leader_trait_admiral_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中救�
 
 leader_trait_general_sfdoll_noel:0"遗迹少女"
 leader_trait_general_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中救出来的克隆人。\n 她拥有和铁血人形相似的心智空间，能够转移和备份心智数据。\n 她能操纵逆向坍塌现象，这让她拥有重组肉体和传送物体等一系列能力"
-
-trait_sfdoll_goods:0 "轻工业专精"
-trait_sfdoll_goods_desc:0 "这些铁血人形专注于制造轻工业产品" 
-
-trait_sfdoll_alloys:0 "重工业专精"
-trait_sfdoll_alloys_desc:0 "这些铁血人形注重工业生产"
-
-trait_sfdoll_industry:0 "工业专家"
-trait_sfdoll_industry_desc:0 "这些铁血人形具备极为先进的工业知识，能够建立现代化的星际工业产业"
 
 
 

@@ -366,8 +366,6 @@ country_event = {
 	}
 }
 
-
-
 # 测试
 # country_event = {
 # 	id = sfdoll_leader_revive_event.50

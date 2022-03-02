@@ -1,0 +1,48 @@
+#消费品
+component_set = {
+	key = "consumer_goods_sfdoll_homeless_set"
+	icon = "GFX_consumer_goods_sfdoll_homeless"
+	icon_frame = 1
+}
+
+#合金
+component_set = {
+	key = "alloys_sfdoll_homeless_set"
+	icon = "GFX_alloys_sfdoll_homeless"
+	icon_frame = 1
+}
+
+#暗物质
+component_set = {
+	key = "sr_dark_matter_sfdoll_homeless_set"
+	icon = "GFX_sr_dark_matter_sfdoll_homeless"
+	icon_frame = 1
+}
+
+#坍塌液
+component_set = {
+	key = "collapse_liquid_sfdoll_homeless_set"
+	icon = "GFX_collapse_liquid_sfdoll_homeless"
+	icon_frame = 1
+}
+
+#科研
+component_set = {
+	key = "research_sfdoll_homeless_set"
+	icon = "GFX_research_sfdoll_homelesss"
+	icon_frame = 1
+}
+
+#星舰学院
+component_set = {
+	key = "college_sfdoll_homeless_set"
+	icon = "GFX_college_sfdoll_homeless"
+	icon_frame = 1
+}
+
+#生态模块
+component_set = {
+	key = "food_sfdoll_homeless_set"
+	icon = "GFX_food_sfdoll_homeless"
+	icon_frame = 1
+}

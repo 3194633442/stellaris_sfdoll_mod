@@ -45,7 +45,7 @@ sfdoll_homeless_ship = {
 	components_add_to_cost = no
 	prerequisites = { "tech_sfdoll_homeless_ship" }
 
-	default_behavior = carrier
+	default_behavior = colossus
 	class = shipclass_starbase
 	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"

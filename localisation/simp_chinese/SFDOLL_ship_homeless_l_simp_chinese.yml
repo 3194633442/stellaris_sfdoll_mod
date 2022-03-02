@@ -1,8 +1,0 @@
-﻿l_simp_chinese:
-###############################
-tech_sfdoll_homeless_ship:0 "深空工业化"
-tech_sfdoll_homeless_ship_desc:0 "太空中存在失重与真空等条件，在此环境下，发展工业生产需要全新的思路.我们正在开发新型的飞船与铁血人形素体，用于在深空环境下的长期生活和工作."
-
-sfdoll_homeless_ship:0 "铁血家园舰"
-section_sfdoll_homeless_ship:0 "家园舰区段"
-sfdoll_homeless_ship_thruster_1:0 "家园舰推进器"

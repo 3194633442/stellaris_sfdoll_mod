@@ -29,3 +29,13 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = sfdoll_mod_version_event.2
+	hide_window = no
+	is_triggered_only = yes
+	immediate = {
+		add_modifier = {
+			modifier = sfdoll_test_homeless_ship_modifier
+		}
+	}
+}

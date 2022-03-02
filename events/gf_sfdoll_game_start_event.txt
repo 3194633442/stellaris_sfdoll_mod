@@ -51,9 +51,6 @@ country_event = {
 		}
 
 		#添加领袖flag，用于复活领袖
-		country_event = {
-			id = sfdoll_leader_revive_event.4
-		}
 
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising
