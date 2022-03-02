@@ -5,10 +5,23 @@ component_set = {
 	icon_frame = 1
 }
 
+#高级消费品
+component_set = {
+	key = "consumer_goods_2_sfdoll_homeless_set"
+	icon = "GFX_consumer_goods_2_sfdoll_homeless"
+	icon_frame = 1
+}
+
 #合金
 component_set = {
 	key = "alloys_sfdoll_homeless_set"
 	icon = "GFX_alloys_sfdoll_homeless"
+	icon_frame = 1
+}
+#高级合金
+component_set = {
+	key = "alloys_2_sfdoll_homeless_set"
+	icon = "GFX_alloys_2_sfdoll_homeless"
 	icon_frame = 1
 }
 
@@ -32,6 +45,12 @@ component_set = {
 	icon = "GFX_research_sfdoll_homelesss"
 	icon_frame = 1
 }
+#高级科研
+component_set = {
+	key = "research_2_sfdoll_homeless_set"
+	icon = "GFX_research_2_sfdoll_homeless"
+	icon_frame = 1
+}
 
 #星舰学院
 component_set = {
@@ -44,5 +63,24 @@ component_set = {
 component_set = {
 	key = "food_sfdoll_homeless_set"
 	icon = "GFX_food_sfdoll_homeless"
+	icon_frame = 1
+}
+
+#异星气体
+component_set = {
+	key = "exotic_gases_sfdoll_homeless_set"
+	icon = "GFX_exotic_gases_sfdoll_homeless"
+	icon_frame = 1
+}
+#稀有水晶
+component_set = {
+	key = "rare_crystals_sfdoll_homeless_set"
+	icon = "GFX_rare_crystals_sfdoll_homeless"
+	icon_frame = 1
+}
+#易爆微粒
+component_set = {
+	key = "volatile_motes_sfdoll_homeless_set"
+	icon = "GFX_volatile_motes_sfdoll_homeless"
 	icon_frame = 1
 }

@@ -8,8 +8,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			nanites = 2
-			alloys = 10
+			alloys = 20
 		}
 	}
 	modifier = {

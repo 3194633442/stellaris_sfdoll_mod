@@ -1,4 +1,4 @@
-#铁血异星天然气技师
+#铁血异星天然气岗位
 sfdoll_gases_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
@@ -32,7 +32,7 @@ sfdoll_gases_maker = {
 	}
 }
 
-#铁血稀有水晶技师
+#铁血稀有水晶岗位
 sfdoll_crystals_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
@@ -64,7 +64,7 @@ sfdoll_crystals_maker = {
 	}
 }
 
-#铁血易爆颗粒技师
+#铁血易爆颗粒岗位
 sfdoll_motes_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑

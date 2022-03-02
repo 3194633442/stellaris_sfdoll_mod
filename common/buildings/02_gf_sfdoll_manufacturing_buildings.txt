@@ -159,55 +159,6 @@ building_sfdoll_motes_plant = {
 	}
 }
 
-
-#铁血纳米机械厂
-building_sfdoll_nanites_plant = {
-	base_buildtime = @b1_time
-	category = manufacturing
-
-	potential = {
-		# 铁血帝国才能造
-		owner = {		has_country_flag = sfdoll_empire	}
-	}
-
-	prerequisites = {	"tech_sfdoll_nanites" }
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
-		owner = {
-			is_ai = yes
-			has_monthly_income = {
-				resource = nanites
-				value > 9
-			}
-		}
-	}
-
-	#限定铁血国家生效
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_country_flag = sfdoll_empire	}
-		}
-		modifier = {	job_sfdoll_nanites_maker_add = 6	} }
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b2_minerals
-		}
-		upkeep = {
-			energy = @b1_upkeep
-		}
-	}
-	triggered_desc = {	text = job_sfdoll_nanites_maker_effect_desc	}
-
-	ai_resource_production = {
-		nanites = 10
-		trigger = {		always = yes	}
-	}
-}
-
 #铁血消费品工厂
 building_sfdoll_nanites_goods_plant = {
 	base_buildtime = 360
@@ -441,6 +392,54 @@ building_sfdoll_dark_matter_plant = {
 
 	ai_resource_production = {
 		sr_dark_matter = 10
+		trigger = {		always = yes	}
+	}
+}
+
+#铁血纳米机械厂
+building_sfdoll_nanites_plant = {
+	base_buildtime = @b1_time
+	category = manufacturing
+
+	potential = {
+		# 铁血帝国才能造
+		owner = {		has_country_flag = sfdoll_empire	}
+	}
+
+	prerequisites = {	"tech_sfdoll_nanites" }
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = {
+			is_ai = yes
+			has_monthly_income = {
+				resource = nanites
+				value > 9
+			}
+		}
+	}
+
+	#限定铁血国家生效
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = sfdoll_empire	}
+		}
+		modifier = {	job_sfdoll_nanites_maker_add = 6	} }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+		}
+		upkeep = {
+			energy = @b1_upkeep
+		}
+	}
+	triggered_desc = {	text = job_sfdoll_nanites_maker_effect_desc	}
+
+	ai_resource_production = {
+		nanites = 10
 		trigger = {		always = yes	}
 	}
 }
