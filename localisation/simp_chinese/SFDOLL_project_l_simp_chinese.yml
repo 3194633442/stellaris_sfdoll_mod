@@ -68,14 +68,3 @@ sfdoll_to_zion_event_8:0 "特大号的纪念品"
 sfdoll_to_zion_event_8_desc:0 "我们成功把 §R耶利米哀歌§! 带到了我们的世界. \n 现在，飞船上的设施似乎发生了某些变化，我们能够获取更多操作权限，从而驾驭飞船上的设备."
 
 
-#暗物质理论
-sfdoll_event_1:0 "$sfdoll_dark_matter_project$"
-sfdoll_event_1_desc:0 "$sfdoll_dark_matter_project_DESC$"
-
-sfdoll_dark_matter_project:0 "暗物质理论研究"
-sfdoll_dark_matter_project_DESC:0 "我们在实验室中获得了暗物质,这种神秘的物质具有特殊性质.对暗物质展开深入研究,或许能为我们揭示重要的规律"
-
-sfdoll_event_2:0 "$sfdoll_dark_matter_project$"
-sfdoll_event_2_desc:0 "对暗物质的研究取得了成果,铁血的基础科学有了新的进展."
-
-

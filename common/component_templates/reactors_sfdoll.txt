@@ -363,6 +363,7 @@ utility_component_template = {
 	size_restriction = { battleship  }	
 	ai_weight = {	weight = 20	}
 }
+
 #泰坦
 utility_component_template = {
 	key = "TITAN_sfdoll_collapse_REACTOR"

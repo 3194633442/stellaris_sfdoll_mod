@@ -81,8 +81,9 @@ tech_sfdoll_dark_matter_plant = {
 	tier = 4
 	category = { particles }
 	#需要铁血政体
+	prerequisites = {	tech_sensors_4	}
 	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = 0
+	weight = @tier4weight2
 }
 
 #超微观人工智能，解锁铁血纳米生产

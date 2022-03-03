@@ -117,16 +117,16 @@ tech_sfdoll_collapse_energy_desc:0"通过坍塌粒子引发的独特现象，我
 tech_sfdoll_collapse_alloys_produce:0"坍塌粒子合金制造工艺"
 tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌粒子，控制原料中的微观粒子，调整产品的成分和结构，从而生产高品质的合金"
 
-tech_sfdoll_dark_matter_plant:0"铁血暗物质合成工艺"
-tech_sfdoll_dark_matter_plant_desc:0"物理科学的进步，让合成暗物质成为可能"
+tech_sfdoll_dark_matter_plant:0"暗物质合成"
+tech_sfdoll_dark_matter_plant_desc:0"铁血在实验室中获得了暗物质.暗物质具有诸多奇特的性质，打破了我们对于物理法则的现有认知.我们应该设法获取更多暗物质，以推进我们的科学进程."
 
 tech_sfdoll_nanites:0"超微观人工智能"
 tech_sfdoll_nanites_desc:0"即使是纳米级别的微小机械，一样可以运行复杂的程序"
 
 #sfdoll_reverse_collapse
 tech_sfdoll_reverse_collapse_1:0"逆向坍塌Ⅰ"
-tech_sfdoll_reverse_collapse_1_desc:0"未来，也是过去。"
+tech_sfdoll_reverse_collapse_1_desc:0"未来，也是过去."
 tech_sfdoll_reverse_collapse_2:0"逆向坍塌Ⅱ"
-tech_sfdoll_reverse_collapse_2_desc:0"一个人天生就很弱。当周围没有比他更强大的人时，他就会变得强大。"
+tech_sfdoll_reverse_collapse_2_desc:0"人的生命不止一次.未完成的将在下辈子结束.而爱也是如此."
 tech_sfdoll_reverse_collapse_3:0"逆向坍塌Ⅲ"
-tech_sfdoll_reverse_collapse_3_desc:0"不要哀伤\n 新的永昼很快就要降临"
+tech_sfdoll_reverse_collapse_3_desc:0"不要哀伤:\n 新的永昼很快就要降临"

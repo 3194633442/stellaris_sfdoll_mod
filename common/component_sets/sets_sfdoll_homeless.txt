@@ -66,6 +66,13 @@ component_set = {
 	icon_frame = 1
 }
 
+#采矿
+component_set = {
+	key = "minerals_sfdoll_homeless_set"
+	icon = "GFX_minerals_sfdoll_homeless"
+	icon_frame = 1
+}
+
 #异星气体
 component_set = {
 	key = "exotic_gases_sfdoll_homeless_set"

@@ -1,6 +1,6 @@
 #逆向坍塌
 tech_sfdoll_reverse_collapse_1 = {
-	cost = @tier4cost1
+	cost = @tier4cost3
 	area = physics
 	tier = 4
 	is_rare = yes

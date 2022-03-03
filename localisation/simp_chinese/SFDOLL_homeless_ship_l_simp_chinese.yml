@@ -53,12 +53,19 @@ food_sfdoll_homeless_set:0 "生态模块"
 food_sfdoll_homeless_set_DESC:0 "$food_sfdoll_homeless$"
 food_sfdoll_homeless:0 "生态模块 \n 生产:\n §Y6 $food$§! £food£ \n §Y4 $society_research$§! £society_research£ \n 消耗:\n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y0.5 $energy$§! £energy£"
 
+
+minerals_sfdoll_homeless_set:0 "采矿模块"
+minerals_sfdoll_homeless_set_DESC:0 "$minerals_sfdoll_homeless$"
+minerals_sfdoll_homeless:0 "采矿模块 \n 生产:\n §Y10 $minerals$§! £minerals£ \n 消耗:\n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y0.5 $energy$§! £energy£"
+
+sfdoll_homeless_ship_reactor:0 "城市舰反应堆\n 产出:\n §Y16 $energy$§! £energy£ \n 消耗:\n §Y2 $minerals$§! £minerals£"
+sfdoll_homeless_ship_reactor_2:0 "城市舰坍塌反应堆\n 产出:\n §Y80 $energy$§! £energy£ \n 消耗:\n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£"
+sfdoll_homeless_ship_reactor_no:0 "空槽"
+
 tech_sfdoll_homeless_ship:0 "深空工业化"
 tech_sfdoll_homeless_ship_desc:0 "太空中存在失重与真空等条件，在此环境下，发展工业生产需要全新的思路.我们正在开发新的飞船与铁血人形素体，用于在深空中长期生活和工作."
 
 sfdoll_homeless_ship:0 "城市舰"
-section_sfdoll_homeless_ship:0 "城市舰"
 sfdoll_homeless_ship_thruster_1:0 "城市舰推进器"
-sfdoll_homeless_reactor:0 "城市舰反应堆"
-component_aura_sfdoll_homeless:0 "城市舰维护系统"
-friendly_aura_sfdoll_homeless:0 "城市舰维护系统"
+component_aura_sfdoll_homeless:0 "星港维护系统"
+friendly_aura_sfdoll_homeless:0 "星港维护系统"
