@@ -42,15 +42,15 @@ component_set = {
 #科研
 component_set = {
 	key = "research_sfdoll_homeless_set"
-	icon = "GFX_research_sfdoll_homelesss"
+	icon = "GFX_research_sfdoll_homeless"
 	icon_frame = 1
 }
 #高级科研
-component_set = {
-	key = "research_2_sfdoll_homeless_set"
-	icon = "GFX_research_2_sfdoll_homeless"
-	icon_frame = 1
-}
+# component_set = {
+# 	key = "research_2_sfdoll_homeless_set"
+# 	icon = "GFX_research_2_sfdoll_homeless"
+# 	icon_frame = 1
+# }
 
 #星舰学院
 component_set = {

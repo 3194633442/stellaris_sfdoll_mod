@@ -9,14 +9,13 @@ weapon_component_template = {
 		min = 0
 		max = 0
 	}
-	upgrades_to = consumer_goods_2_sfdoll_homeless
 	resources = {
 		category = ship_components
 		cost = {
-			alloys =200
+			alloys =400
 		}
 		produces = {
-			consumer_goods = 12
+			consumer_goods = 60
 		}
 		upkeep = {
 			minerals = 6
@@ -26,66 +25,13 @@ weapon_component_template = {
 	size_restriction = { sfdoll_homeless_ship	sfdoll_homeless_ship_starbase}
 	component_set = "consumer_goods_sfdoll_homeless_set"
 }
-#高级消费品模块
-weapon_component_template = {
-	key = "consumer_goods_2_sfdoll_homeless"
-	size = large
-	icon = "GFX_consumer_goods_2_sfdoll_homeless"
-	icon_frame = 1
-	damage = {
-		min = 0
-		max = 0
-	}
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 400
-		}
-		produces = {
-			consumer_goods = 60
-		}
-		upkeep = {
-			minerals = 6
-			GF_nyto_collapse_liquid = 0.5
-			consumer_goods = 0.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship sfdoll_homeless_ship_starbase	}
-	component_set = "consumer_goods_2_sfdoll_homeless_set"
-}
+
 
 #初级合金模块
 weapon_component_template = {
 	key = "alloys_sfdoll_homeless"
 	size = large
 	icon = "GFX_alloys_sfdoll_homeless"
-	icon_frame = 1
-	upgrades_to = alloys_2_sfdoll_homeless
-	damage = {
-		min = 0
-		max = 0
-	}
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 200
-		}
-		produces = {
-			alloys = 6
-		}
-		upkeep = {
-			minerals = 6
-			consumer_goods = 0.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship sfdoll_homeless_ship_starbase	}
-	component_set = "alloys_sfdoll_homeless_set"
-}
-#高级合金模块
-weapon_component_template = {
-	key = "alloys_2_sfdoll_homeless"
-	size = large
-	icon = "GFX_alloys_2_sfdoll_homeless"
 	icon_frame = 1
 	damage = {
 		min = 0
@@ -101,13 +47,13 @@ weapon_component_template = {
 		}
 		upkeep = {
 			minerals = 6
-			GF_nyto_collapse_liquid = 0.5
 			consumer_goods = 0.5
 		}
 	}
-	size_restriction = { sfdoll_homeless_ship	sfdoll_homeless_ship_starbase }
-	component_set = "alloys_2_sfdoll_homeless_set"
+	size_restriction = { sfdoll_homeless_ship sfdoll_homeless_ship_starbase	}
+	component_set = "alloys_sfdoll_homeless_set"
 }
+
 
 #暗物质模块
 weapon_component_template = {
@@ -123,7 +69,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 200
+			alloys = 400
 		}
 		produces = {
 			sr_dark_matter = 4
@@ -151,7 +97,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 200
+			alloys = 400
 		}
 		produces = {
 			GF_nyto_collapse_liquid = 4
@@ -179,12 +125,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 200
+			alloys = 400
 		}
 		produces = {
-			physics_research = 8
-			society_research = 8
-			engineering_research = 8
+			physics_research = 40
+			society_research =  40
+			engineering_research =  40
 		}
 		upkeep = {
 			consumer_goods = 2.5
@@ -192,34 +138,6 @@ weapon_component_template = {
 	}
 	size_restriction = { sfdoll_homeless_ship sfdoll_homeless_ship_starbase	}
 	component_set = "research_sfdoll_homeless_set"
-}
-#高级科研模块
-weapon_component_template = {
-	key = "research_2_sfdoll_homeless"
-	size = large
-	icon = "GFX_research_2_sfdoll_homeless"
-	icon_frame = 1
-	damage = {
-		min = 0
-		max = 0
-	}
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 400
-		}
-		produces = {
-			physics_research = 40
-			society_research = 40
-			engineering_research = 40
-		}
-		upkeep = {
-			GF_nyto_collapse_liquid = 0.5
-			consumer_goods = 2.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship sfdoll_homeless_ship_starbase	}
-	component_set = "research_2_sfdoll_homeless_set"
 }
 
 #星舰学院
@@ -272,7 +190,6 @@ weapon_component_template = {
 		}
 		upkeep = {
 			minerals = 10
-			GF_nyto_collapse_liquid = 0.5
 			consumer_goods = 0.5
 		}
 	}
@@ -299,7 +216,6 @@ weapon_component_template = {
 		}
 		upkeep = {
 			minerals = 10
-			GF_nyto_collapse_liquid = 0.5
 			consumer_goods = 0.5
 		}
 	}
@@ -326,7 +242,6 @@ weapon_component_template = {
 		}
 		upkeep = {
 			minerals = 10
-			GF_nyto_collapse_liquid = 0.5
 			consumer_goods = 0.5
 		}
 	}
@@ -513,3 +428,87 @@ utility_component_template = {
 	}
 }
 
+#高级消费品模块
+# weapon_component_template = {
+# 	key = "consumer_goods_2_sfdoll_homeless"
+# 	size = large
+# 	icon = "GFX_consumer_goods_2_sfdoll_homeless"
+# 	icon_frame = 1
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 400
+# 		}
+# 		produces = {
+# 			consumer_goods = 60
+# 		}
+# 		upkeep = {
+# 			minerals = 6
+# 			GF_nyto_collapse_liquid = 0.5
+# 			consumer_goods = 0.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship sfdoll_homeless_ship_starbase	}
+# 	component_set = "consumer_goods_2_sfdoll_homeless_set"
+# }
+
+#高级合金模块
+# weapon_component_template = {
+# 	key = "alloys_2_sfdoll_homeless"
+# 	size = large
+# 	icon = "GFX_alloys_2_sfdoll_homeless"
+# 	icon_frame = 1
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 400
+# 		}
+# 		produces = {
+# 			alloys = 30
+# 		}
+# 		upkeep = {
+# 			minerals = 6
+# 			GF_nyto_collapse_liquid = 0.5
+# 			consumer_goods = 0.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship	sfdoll_homeless_ship_starbase }
+# 	component_set = "alloys_2_sfdoll_homeless_set"
+# }
+
+#高级科研模块
+# weapon_component_template = {
+# 	key = "research_2_sfdoll_homeless"
+# 	size = large
+# 	icon = "GFX_research_2_sfdoll_homeless"
+# 	icon_frame = 1
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 400
+# 		}
+# 		produces = {
+# 			physics_research = 40
+# 			society_research = 40
+# 			engineering_research = 40
+# 		}
+# 		upkeep = {
+# 			GF_nyto_collapse_liquid = 0.5
+# 			consumer_goods = 2.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship sfdoll_homeless_ship_starbase	}
+# 	component_set = "research_2_sfdoll_homeless_set"
+# }
