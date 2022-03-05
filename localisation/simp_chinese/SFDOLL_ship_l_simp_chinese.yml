@@ -38,10 +38,10 @@ sfdoll_jump_drive:0"铁血跃迁引擎"
 
 sfdoll_aux_repair_ship:0"舰船损管"
 component_set_sfdoll_aux_repair_ship:0"舰船损管"
-component_set_sfdoll_aux_repair_ship_DESC:0"先进的损管系统能够提高铁血舰船的生存能力"
+component_set_sfdoll_aux_repair_ship_DESC:0"损管系统用于提高铁血舰船的生存能力"
 
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
-sfdoll_aux_quality_rebuilding_DESC:0 "根据逆向坍塌质量重建公式,舰载型的质量再生系统已经开发完毕，该技术将极大提高飞船的自持力"
+sfdoll_aux_quality_rebuilding_DESC:0 "质量再生系统可以大幅提高飞船的自持力"
 
 sfdoll_thruster:0"铁血先进机动系统"
 sfdoll_thruster_2:0"铁血先进机动系统"
@@ -66,29 +66,30 @@ component_set_sfdoll_ship_defense_s_DESC:0"铁血飞船配备的标准防御系�
 sfdoll_ship_sensors:0"铁血舰载传感器"
 
 CORVETTE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-DESTROYER_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-CRUISER_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-BATTLESHIP_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-TITAN_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-COLOSSUS_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-PLATFORM_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-ION_CANNON_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
-STARBASE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+DESTROYER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+CRUISER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+BATTLESHIP_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+TITAN_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+COLOSSUS_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+PLATFORM_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+ION_CANNON_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+sfdoll_carrier_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
+
+sfdoll_ship_reactor_no:0 "空槽"
+
+sfdoll_destroyer:0 "战术驱逐舰"
+ship_section_sfdoll_destroyer:0 "战术驱逐舰1型"
+ship_section_sfdoll_destroyer_2:0 "战术驱逐舰2型"
 
 science_sfdoll:0 "高速科研船"
 constructor_sfdoll:0 "高速工程船"
 DEFAULT_SCIENCESHIP_SFDOLL_SECTION:0 "高速科研船区段"
 DEFAULT_CONSTRUCTION_SFDOLL_SECTION:0 "高速工程船区段"
 
-sfdoll_destroyer:0 "战术驱逐舰"
-ship_section_sfdoll_destroyer:0 "战术驱逐舰1型"
-ship_section_sfdoll_destroyer_2:0 "战术驱逐舰2型"
 
 component_aura_sfdoll_1:0 "干扰战术"
 hostile_aura_sfdoll_1:0 "干扰战术"
-
-component_aura_sfdoll_2:0 "舰队支援"
-friendly_aura_sfdoll_2:0 "舰队支援"
 
 component_aura_sfdoll_3:0 "火力输出"
 
@@ -96,7 +97,7 @@ component_aura_sfdoll_4:0 "长程打击"
 friendly_aura_sfdoll_4:0 "长程打击"
 
 #2X
-sfdoll_battleship_bow_x2:0 "双门X型舰首"
+sfdoll_battleship_bow_x2:0 "双门X型舰艏"
 
 # PLANET_KILLER_SFDOLL_1:0 "恒星坍塌器"
 # PLANET_KILLER_SFDOLL_1_DESC:0 "这种大型装置可以改变整个恒星的结构，使其收缩到史瓦西半径内并转化为黑洞。转化过程的余波会波及整个星系，除了执行发射的飞船之外，所有舰队、行星、巨构都难以幸免。"

@@ -30,7 +30,6 @@ utility_component_template = {
 	}
 }
 
-
 #炮击
 utility_component_template = {
 	key = "sfdoll_combat_computer_2"

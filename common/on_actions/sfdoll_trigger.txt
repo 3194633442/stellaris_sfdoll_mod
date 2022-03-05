@@ -100,7 +100,6 @@ on_modification_complete = {
 
 on_tech_increased = {
 	events = {
-		sfdoll_event.1
 	}
 }
 

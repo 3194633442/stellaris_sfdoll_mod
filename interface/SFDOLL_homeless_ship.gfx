@@ -99,3 +99,9 @@ spriteTypes = {
 	}
 }
 
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_sfdoll_empty"
+		textureFile = "gfx/interface/icons/ship_parts/ship_sfdoll_empty.dds"
+	}
+}

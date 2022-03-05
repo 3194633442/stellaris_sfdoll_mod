@@ -402,6 +402,19 @@ utility_component_template = {
 	ai_weight = {	weight = 20	}
 }
 
+#母舰坍塌反应堆
+utility_component_template = {
+	key = "sfdoll_carrier_collapse_REACTOR"
+	size = small
+	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
+	icon_frame = 1
+	power = 150000
+	#prerequisites = { "tech_sfdoll_collapse_energy" }
+	component_set = "power_core"
+	size_restriction = { ship_sfdoll_carrier }
+	ai_weight = {	weight = 20	}
+}
+
 #防御平台
 utility_component_template = {
 	key = "PLATFORM_sfdoll_collapse_REACTOR"
@@ -469,4 +482,18 @@ utility_component_template = {
 		juggernaut
 	}
 	ai_weight = {	weight = 20	}
+}
+
+#无反应堆
+utility_component_template = {
+	key = "sfdoll_ship_reactor_no"
+	size = small
+	icon = "GFX_ship_sfdoll_empty"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+	}
+	component_set = "power_core"
+	size_restriction = { 	  }
+	ai_weight = {	weight = -100	}
 }

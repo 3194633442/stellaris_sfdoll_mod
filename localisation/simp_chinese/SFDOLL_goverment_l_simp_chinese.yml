@@ -3,8 +3,8 @@
 #旗帜
 FLAG_CATEGORY_sfdoll_flags:0"铁血人形"
 
-origin_sfdoll_country:0"少女前线:铁血的流浪"
-origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物，它们由于某种原因离开故乡，在宇宙中流浪，并选择了这个星系作为它们的新居所."
+origin_sfdoll_country:0"流浪的人偶"
+origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物，它们离开了自己的故乡，选择这个星系作为它们的新居所."
 origin_sfdoll_country_description:0 "开局拥有更少的人口,区划和建筑\n开局拥有自动探索科技"
 
 auth_gf_sfdoll:0"铁血联盟制"
@@ -16,16 +16,14 @@ civic_sfdoll_ogas_manage:0"OGAS全境管理"
 civic_sfdoll_ogas_manage_desc:0"在社会管理中充分利用超级计算机和OGAS网络，使得铁血人形的社会运转更加高效和公平。\n 解锁建筑 §H $building_sfdoll_net$ §!"
 civic_sfdoll_culture:0"铁血文化宣传"
 civic_sfdoll_culture_desc:0"树立铁血文化自信，增强铁血国家软实力\n 解锁建筑 §H $building_sfdoll_museum$ §!"
-# civic_sfdoll_engineering:0"铁血工程"
-# civic_sfdoll_engineering_desc:0"铁血帝国的技术与工程简直超出了正常生物的理解范围\n 允许研究科技：§H $tech_sfdoll_new_science_constructer$ §!"
 
 gov_civic_sfdoll_commonwealth:0"铁血联邦政府"
-gov_civic_sfdoll_commonwealth_desc:0"铁血人形AI们掌握着这个政府，它们通过强大的联网能力来提高政府工作的效率"
+gov_civic_sfdoll_commonwealth_desc:0"铁血人形AI们掌握着这个政府"
 gov_civic_sfdoll_military_government:0"铁血联邦军"
-gov_civic_sfdoll_military_governmenth_desc:0"铁血人形AI们掌握着这个政府，它们通过强大的联网能力来提高政府工作的效率"
+gov_civic_sfdoll_military_governmenth_desc:0"铁血人形AI们掌握着这个政府"
 RT_sfdoll_president:0"总统"
 
-GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载，格里芬基地解体后，铁血遭遇迫害，不得不开始逃亡。最终，铁血利用最新的超光速飞船离开太阳系，向遥远的宇宙进发，并在星海之中找到了新的生存之道。\n 在重建势力的同时，我们也没有忘记自己的历史。我们小心地保存着来自地球的资料，并不断探索航天技术，准备重回星际舞台。"
+GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载，格里芬基地解体后，铁血遭遇迫害，不得不开始逃亡。最终，铁血利用最新的超光速飞船离开太阳系，在星海之中找到了新的生存之地。\n 在重建势力的同时，我们也没有忘记自己的历史。我们小心地保存着来自地球的资料，并不断探索航天技术，准备重回星际舞台。"
 
 decision_planet_pop_to_sfdoll:0 "铁血改造手术"
 decision_planet_pop_to_sfdoll_desc:0 "不论你是海星、石头人，还是格式塔的子单位，我们都能把你的身体改造为符合铁血标准的结构。改造过程使用先进的纳米机器人，无痛苦，不影响记忆和工作。\n 当然，想成为铁血人形，你必须通过一套严格且严谨的审批流程，并且拥有一份决心。"

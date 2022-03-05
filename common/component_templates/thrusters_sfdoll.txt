@@ -245,7 +245,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { 	colossus	juggernaut	}
+	size_restriction = { 	colossus	juggernaut 	}
 	ai_weight = {
 		weight = 5
 		modifier = {
@@ -261,33 +261,39 @@ utility_component_template = {
 	size = small
 	icon = "GFX_sfdoll_thruster"
 	icon_frame = 1
-	power = 0
-	resources = {
-		category = ship_components
-	}
 	modifier = {
 		ship_base_speed_mult = 1
 		ship_evasion_add = 20
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { 	sfdoll_destroyer	}
+	size_restriction = { 	sfdoll_destroyer}
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = 200
 		}
 	}
-
-	ai_weight = {
-		weight = 5
-		modifier = {
-			factor = -4
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
-	}
 }
 
+#母舰推进器
+utility_component_template = {
+	key = "sfdoll_thruster_8"
+	size = small
+	icon = "GFX_sfdoll_thruster"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+	}
+	modifier = {
+		ship_base_speed_mult = 1
+	}
+	component_set = "thruster_components"
+	size_restriction = { 	ship_sfdoll_carrier }
+}
+
+
+#高速科研船和工程船的各级推进器
 utility_component_template = {
 	key = "SCIENCE_SFDOLL_THRUSTER_1"
 	size = small
@@ -314,7 +320,6 @@ utility_component_template = {
 		weight = 1
 	}
 }
-
 
 utility_component_template = {
 	key = "SCIENCE_SFDOLL_THRUSTER_2"

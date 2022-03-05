@@ -89,6 +89,7 @@ trait_sfdoll_alloys = {
 	}
 }
 
+#矿
 trait_sfdoll_mining = {
 	cost = 2
 	initial = yes
@@ -101,6 +102,7 @@ trait_sfdoll_mining = {
 	modifier = {	planet_jobs_minerals_produces_mult = 0.15 }
 }
 
+#子机指挥
 trait_sfdoll_ogas_command= {
 	cost= 3
 	initial = yes
@@ -112,6 +114,7 @@ trait_sfdoll_ogas_command= {
 	modifier = {	planet_jobs_worker_produces_mult = 0.20	}
 }
 
+#作战
 trait_sfdaoll_battle = {
 	cost = 1
 	initial = yes
@@ -322,6 +325,7 @@ trait_sfdoll_war_2 = {
 	advanced_trait = no
 	allowed_archetypes = {	SFDOLL	}
 	prerequisites = { tech_sf_doll_modding_2 }
+	opposites = {	trait_sfdaoll_battle }
 	modifier = {
 		army_damage_mult = 0.50
 		planet_army_build_speed_mult = 0.50
@@ -340,6 +344,7 @@ trait_sfdoll_industry= {
 	advanced_trait = no
 	allowed_archetypes = {	SFDOLL	}
 	prerequisites = { tech_sf_doll_modding_2 }
+	opposites = {	trait_sfdoll_goods	trait_sfdoll_alloys }
 	modifier = {
 		planet_jobs_engineering_research_produces_mult = 0.25
 		planet_jobs_consumer_goods_produces_mult = 0.20

@@ -201,18 +201,33 @@ tech_sfdoll_tactical_destroyer = {
 	weight = @tier5weight3
 }
 
-#铁血家园舰
-tech_sfdoll_homeless_ship = {
-	cost = @tier3cost1
+#深空母舰
+tech_ship_sfdoll_carrier = {
+	cost = @tier5cost3
 	area = engineering
 	start_tech = no
-	icon = tech_sfdoll_tactical_destroyer
+	icon = tech_ship_sfdoll_carrier
 	is_rare = yes
 	category = { voidcraft }
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_battleships
 	}
-	tier = 3
-	weight = @tier3weight1
+	tier = 5
+	weight = 0 # @tier5weight3
 }
+
+#铁血家园舰
+# tech_sfdoll_homeless_ship = {
+# 	cost = @tier3cost1
+# 	area = engineering
+# 	start_tech = no
+# 	icon = tech_sfdoll_tactical_destroyer
+# 	is_rare = yes
+# 	category = { voidcraft }
+# 	potential = {
+# 		has_authority = auth_gf_sfdoll
+# 		has_technology = tech_battleships
+# 	}
+# 	tier = 3
+# 	weight = @tier3weight1
+# }
