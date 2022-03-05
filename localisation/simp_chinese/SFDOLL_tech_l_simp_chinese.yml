@@ -81,10 +81,10 @@ tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 tech_sfdoll_jump_drive:0"铁血跃迁引擎"
-tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上。利用它，铁血可以自由穿越银河系中的空间"
+tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上"
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
-tech_sfdoll_thruster_desc:0"通过某些看似违背物理常识的手段，铁血能够随心所欲地操纵飞船的航行"
+tech_sfdoll_thruster_desc:0"通过某些违背物理常识的手段，铁血能够随心所欲地操纵飞船的航行"
 
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
@@ -95,8 +95,8 @@ tech_sfdoll_new_science_constructer_desc:0"我们需要更好的科研和工程�
 tech_sfdoll_tactical_destroyer:0 "铁血战术驱逐舰"
 tech_sfdoll_tactical_destroyer_desc:0 "与堕落帝国的泰坦巨舰不同，铁血的新型战舰兼顾了火力与机动性,其制造和运转的过程似乎违背了多个物理法则"
 
-tech_sfdoll_battleship_bow_x2:0 "战列舰模块改良"
-tech_sfdoll_battleship_bow_x2_desc:0 "小型化技术可让舰船搭载更多武器\n 解锁战列舰区段:$sfdoll_battleship_bow_x2$"
+tech_sfdoll_battleship_bow_x2:0 "舰船设备轻量化"
+tech_sfdoll_battleship_bow_x2_desc:0 "轻量化的设备更易于搭载\n 解锁战列舰区段:$sfdoll_battleship_bow_x2$"
 
 #building
 tech_sfdoll_nanites_goods:0 "微观技术工业"

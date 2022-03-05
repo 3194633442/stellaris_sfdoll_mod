@@ -94,8 +94,8 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_component_aura_sfdoll_homeless"
-		textureFile = "gfx/interface/icons/ship_parts/component_aura_sfdoll_homeless.dds"
+		name = "GFX_component_aura_sfdoll_carrier"
+		textureFile = "gfx/interface/icons/ship_parts/component_aura_sfdoll_carrier.dds"
 	}
 }
 

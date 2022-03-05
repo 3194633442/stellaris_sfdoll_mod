@@ -105,14 +105,14 @@ job_sfdoll_it_doll_effect_desc:0 "IT从业者提高星球舒适度，提高 §Y$
 mod_job_sfdoll_it_doll_add:0 "IT从业者岗位"
 
 building_sfdoll_museum:0"莱柯博物馆"
-building_sfdoll_museum_desc:0"短暂的历史也有独一无二的光辉。这座铁血国家博物馆汇集了各类文明遗产和资料，能为相关的研究提供有力的支持。\n门口摆放着莱柯,露尼西亚和指挥官等人的限定版1:1模型"
+building_sfdoll_museum_desc:0"这座铁血国家博物馆汇集了各类文明遗产和资料。\n门口摆放着莱柯,露尼西亚和指挥官等人的1:1模型"
 
 #army
 building_sfdoll_army:0"铁血要塞"
 building_sfdoll_army_desc:0"铁血人形的新式行星军港配备了特殊的ftl装置，可以在星球与太空之间快速转移人员与物资，也可以用于星球上不同位置之间的军事运输"
 job_sfdoll_tactical:0"战术人形"
 job_sfdoll_tactical_plural:0"战术人形"
-job_sfdoll_tactical_desc:0"战术人形是配备了专业作战系统的铁血人形，维持着国家的军事力量"
+job_sfdoll_tactical_desc:0"战术人形配备了专业作战系统，维持着国家的军事力量"
 job_sfdoll_tactical_effect_desc:0"战术人形提供海军容量，凝聚力，并提高星球的稳定度"
 mod_job_sfdoll_tactical_add:0 "战术人形岗位"
 

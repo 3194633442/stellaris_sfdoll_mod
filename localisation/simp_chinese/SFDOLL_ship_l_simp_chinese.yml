@@ -1,28 +1,28 @@
 ﻿l_simp_chinese:
 ###############################
-SCIENCE_SFDOLL_FISSION_REACTOR:0 "裂变反应堆"
-SCIENCE_SFDOLL_FUSION_REACTOR:0 "聚变反应堆"
-SCIENCE_SFDOLL_COLD_FUSION_REACTOR:0 "冷核聚变反应堆"
-SCIENCE_SFDOLL_ANTIMATTER_REACTOR:0 "反物质反应堆"
-SCIENCE_SFDOLL_ZERO_POINT_REACTOR:0 "零点反应堆"
-SCIENCE_SFDOLL_DARK_MATTER_REACTOR:0 "暗物质反应堆"
+SCIENCE_SFDOLL_FISSION_REACTOR:0 "$CORVETTE_FISSION_REACTOR$"
+SCIENCE_SFDOLL_FUSION_REACTOR:0 "$CORVETTE_FUSION_REACTOR$"
+SCIENCE_SFDOLL_COLD_FUSION_REACTOR:0 "$CORVETTE_COLD_FUSION_REACTOR$"
+SCIENCE_SFDOLL_ANTIMATTER_REACTOR:0 "$CORVETTE_ANTIMATTER_REACTOR$"
+SCIENCE_SFDOLL_ZERO_POINT_REACTOR:0 "$CORVETTE_ZERO_POINT_REACTOR$"
+SCIENCE_SFDOLL_DARK_MATTER_REACTOR:0 "$CORVETTE_DARK_MATTER_REACTOR$"
 
 #thrusters
-SCIENCE_SFDOLL_THRUSTER_1:0 "化学推进器"
-SCIENCE_SFDOLL_THRUSTER_2:0 "离子推进器"
-SCIENCE_SFDOLL_THRUSTER_3:0 "等离子推进器"
-SCIENCE_SFDOLL_THRUSTER_4:0 "脉冲推进器"
-SCIENCE_SFDOLL_THRUSTER_5:0 "暗物质推进器"
+SCIENCE_SFDOLL_THRUSTER_1:0 "$SHIP_THRUSTER_1$"
+SCIENCE_SFDOLL_THRUSTER_2:0 "$SHIP_THRUSTER_2$"
+SCIENCE_SFDOLL_THRUSTER_3:0 "$SHIP_THRUSTER_3$"
+SCIENCE_SFDOLL_THRUSTER_4:0 "$SHIP_THRUSTER_4$"
+SCIENCE_SFDOLL_THRUSTER_5:0 "$SHIP_THRUSTER_5$"
 
 
 #componet
 sfdoll_weapon_x_1:0"铁血建筑师级主炮"
 component_set_sfdoll_weapon_x_1:0"铁血建筑师级主炮"
-component_set_sfdoll_weapon_x_1_DESC:0"这种大型主炮能穿透一般的防护装备，对指定目标造成杀伤效果"
+component_set_sfdoll_weapon_x_1_DESC:0"这种大型主炮能穿透一般的防护装备"
 
 sfdoll_weapen_t_2:0"铁血计量官级主炮"
 component_set_sfdoll_weapen_t_2:0"铁血计量官级主炮"
-component_set_sfdoll_weapen_t_2_DESC:0"这种超大型舰炮可以将毁灭性的能量集中于一点"
+component_set_sfdoll_weapen_t_2_DESC:0"这种超大型舰炮可将毁灭性的能量集中于一点"
 
 sfdoll_weapon_s_3:0"铁血蛇式火力系统"
 sfdoll_weapon_m_4:0"铁血蛇式火力系统"
@@ -38,18 +38,19 @@ sfdoll_jump_drive:0"铁血跃迁引擎"
 
 sfdoll_aux_repair_ship:0"舰船损管"
 component_set_sfdoll_aux_repair_ship:0"舰船损管"
-component_set_sfdoll_aux_repair_ship_DESC:0"损管系统用于提高铁血舰船的生存能力"
+component_set_sfdoll_aux_repair_ship_DESC:0"损管系统可以提高铁血飞船的生存能力"
 
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
-sfdoll_aux_quality_rebuilding_DESC:0 "质量再生系统可以大幅提高飞船的自持力"
+sfdoll_aux_quality_rebuilding_DESC:0 "质量再生系统可提高飞船的自持力"
 
 sfdoll_thruster:0"铁血先进机动系统"
-sfdoll_thruster_2:0"铁血先进机动系统"
-sfdoll_thruster_3:0"铁血先进机动系统"
-sfdoll_thruster_4:0"铁血先进机动系统"
-sfdoll_thruster_5:0"铁血先进机动系统"
-sfdoll_thruster_6:0"铁血先进机动系统"
-sfdoll_thruster_7:0 "铁血先进机动系统"
+sfdoll_thruster_2:0"$sfdoll_thruster$"
+sfdoll_thruster_3:0 "$sfdoll_thruster$"
+sfdoll_thruster_4:0 "$sfdoll_thruster$"
+sfdoll_thruster_5:0 "$sfdoll_thruster$"
+sfdoll_thruster_6:0 "$sfdoll_thruster$"
+sfdoll_thruster_7:0 "$sfdoll_thruster$"
+
 
 #computer
 sfdoll_combat_computer_1:0"铁血战舰AI(蜂拥)"
@@ -78,9 +79,20 @@ sfdoll_carrier_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 
 sfdoll_ship_reactor_no:0 "空槽"
 
+
+ship_sfdoll_carrier:0 "深空母舰"
+section_ship_sfdoll_carrier:0 "深空母舰A区"
+section_ship_sfdoll_carrier_2:0 "深空母舰B区"
+thruster_sfdoll_carrier:0 "母舰推进器"
+
+component_aura_sfdoll_carrier:0 "星港维护系统"
+friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
+
+
 sfdoll_destroyer:0 "战术驱逐舰"
 ship_section_sfdoll_destroyer:0 "战术驱逐舰1型"
 ship_section_sfdoll_destroyer_2:0 "战术驱逐舰2型"
+
 
 science_sfdoll:0 "高速科研船"
 constructor_sfdoll:0 "高速工程船"

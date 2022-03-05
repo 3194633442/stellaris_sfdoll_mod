@@ -18,7 +18,10 @@ triela_become_governor_sfdoll_effect = {
 			set_age = 17
 			immortal = yes
 			event_leader = yes	# prevents this leader from leading factions and winning elections
-			traits = { trait = leader_trait_governor_sfdoll_triela }
+			traits = {
+				trait = leader_trait_governor_sfdoll_triela
+				trait = leader_trait_righteous
+			}
 			effect = {
 				change_leader_portrait = GFX_sfdoll_triela
 				set_leader_flag = sfdoll_leader_triela

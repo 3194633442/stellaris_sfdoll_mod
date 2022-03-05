@@ -369,37 +369,6 @@
 # }
 
 
-# #光环
-# utility_component_template = {
-# 	key = "component_aura_sfdoll_homeless"
-# 	size = medium
-# 	icon = "GFX_component_aura_sfdoll_homeless"
-# 	icon_frame = 1
-# 	power = 0
-# 	size_restriction = { sfdoll_homeless_ship	  	 }
-# 	component_set = "ship_aura_components"
-		
-# 	friendly_aura = {
-# 		name = "friendly_aura_sfdoll_homeless"
-# 		radius = 250
-# 		apply_on = fleets
-		
-# 		stack_info = {
-# 			id = id_friendly_aura_sfdoll_homeless
-# 			priority = 1
-# 		}
-		
-# 		modifier = {		
-# 			ship_shield_regen_add_perc = 1
-# 			ship_armor_regen_add_perc = 1
-# 			ship_hull_regen_add_perc = 1
-# 			ships_upkeep_mult = -0.25
-# 		}
-# 	}
-# 	ai_weight = {
-# 		weight = 1
-# 	}
-# }
 
 # #城市舰推进器
 # utility_component_template = {

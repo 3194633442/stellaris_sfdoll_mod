@@ -278,9 +278,9 @@ utility_component_template = {
 
 #母舰推进器
 utility_component_template = {
-	key = "sfdoll_thruster_8"
+	key = "thruster_sfdoll_carrier"
 	size = small
-	icon = "GFX_sfdoll_thruster"
+	icon = "GFX_ship_part_thruster_5"
 	icon_frame = 1
 	resources = {
 		category = ship_components

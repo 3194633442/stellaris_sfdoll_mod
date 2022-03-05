@@ -19,10 +19,10 @@ sfdoll_gunslinger_girl_event_4_desc:0 "义体少女们的心智服务器随时�
 sfdoll_gunslinger_girl_event_5:0 "和义体少女的代表通信"
 sfdoll_gunslinger_girl_event_5_desc:0 "这身体真的是机械吗?感觉..比以前的身体更像是人类?总之非常感谢."
 sfdoll_gunslinger_girl_event_5_option:0 "那么，我们的提议,你考虑得怎么样?"
-sfdoll_gunslinger_girl_event_5_response:0 "得到许多人的帮助，我才能站在这里.我不想浪费自己的新生命.所以,我愿意加入你们!让我试试，我还能做到些什么."
+sfdoll_gunslinger_girl_event_5_response:0 "得到许多人的帮助，我才能站在这里.我不会浪费这条生命.所以,我愿意加入你们!让我试试，我还能做到些什么."
 
 sfdoll_gunslinger_girl_event_6:0 "与崔耶拉通讯中"
-sfdoll_gunslinger_girl_event_6_desc:0 "有新工作吗？"
+sfdoll_gunslinger_girl_event_6_desc:0 "有新任务吗？"
 
 triela_become_governor:0 "请参与政务吧"
 triela_become_scientist:0 "请协助研究吧"
@@ -36,11 +36,15 @@ response_text_triela_become_scientist:0 "看来很复杂呢"
 response_text_triela_become_admiral:0 "出击吧"
 response_text_triela_become_general:0 "我会让他们变得更强"
 
+#Let life be beautiful like summer flowers and death like autumn leaves
 leader_trait_governor_sfdoll_triela:0 "义体少女"
-leader_trait_governor_sfdoll_triela_desc:0 "这位领袖曾经是一名人类义体少女,现在则成为了一名铁血人形"
-leader_trait_scientist_sfdoll_triela:0 "义体少女"
-leader_trait_scientist_sfdoll_triela_desc:0 "这位领袖曾经是一名人类义体少女,现在则成为了一名铁血人形"
-leader_trait_admiral_sfdoll_triela:0 "义体少女"
-leader_trait_admiral_sfdoll_triela_desc:0 "这位领袖曾经是一名人类义体少女,现在则成为了一名铁血人形"
-leader_trait_general_sfdoll_triela:0 "义体少女"
-leader_trait_general_sfdoll_triela_desc:0 "这位领袖曾经是一名人类义体少女,现在则成为了一名铁血人形"
+leader_trait_governor_sfdoll_triela_desc:0 "生如夏花之绚烂，死如秋叶之静美"
+
+leader_trait_scientist_sfdoll_triela:0 "$leader_trait_governor_sfdoll_triela$"
+leader_trait_scientist_sfdoll_triela_desc:0 "$leader_trait_governor_sfdoll_triela_desc$"
+
+leader_trait_admiral_sfdoll_triela:0 "$leader_trait_governor_sfdoll_triela$"
+leader_trait_admiral_sfdoll_triela_desc:0 "$leader_trait_governor_sfdoll_triela_desc$"
+
+leader_trait_general_sfdoll_triela:0 "$leader_trait_governor_sfdoll_triela$"
+leader_trait_general_sfdoll_triela_desc:0 "$leader_trait_governor_sfdoll_triela_desc$"

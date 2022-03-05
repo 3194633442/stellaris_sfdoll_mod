@@ -53,8 +53,7 @@
 # tech_sfdoll_homeless_ship_desc:0 "在失重与真空的环境下，发展太空工业需要全新的思路.我们需要开发新的飞船与铁血人形素体，用于深空中的长期生活和工作."
 
 # sfdoll_homeless_ship_thruster_1:0 "家园舰推进器"
-# component_aura_sfdoll_homeless:0 "星港维护系统"
-# friendly_aura_sfdoll_homeless:0 "$component_aura_sfdoll_homeless$"
+
 
 # sfdoll_homeless_ship:0 "家园舰"
 # section_sfdoll_homeless_ship_1:0 "家园舰A区"

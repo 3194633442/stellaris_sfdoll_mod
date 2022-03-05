@@ -29,18 +29,18 @@ ship_sfdoll_carrier = {
 	max_hitpoints = 1500000
 	size_multiplier = 32
 	fleet_slot_size = 32
-	section_slots = { "ship" = { locator = "part2" } }
+	section_slots = { "ship" = { locator = par2 } "ship2" = { locator = part2 } }
 	num_target_locators = 4
 	is_space_station = no
 	icon = starbase_ship_sizes
-	base_buildtime = 1 #1080
+	base_buildtime = 1800
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
 	
 	#记得修改
 	components_add_to_cost = no
-	prerequisites = { "tech_ship_sfdoll_carrier" }
+	prerequisites = { tech_ship_sfdoll_carrier }
 
 	default_behavior = carrier
 	class = shipclass_starbase
@@ -52,16 +52,19 @@ ship_sfdoll_carrier = {
 	required_component_set = "ship_aura_components"
 	modifier = {
 		starbase_shipyard_capacity_add = 12
+		ship_shield_add = 100000
+		ship_armor_add = 100000
+		shipclass_military_build_speed_mult = 1
 	}
 
 	resources = {
 		category = ships
 		cost = {
-			alloys = 1
+			alloys = 30000
 		}
 		upkeep = {
-			energy = 10
-			minerals = 5
+			energy = 20
+			minerals = 10
 		}
 	}
 	min_upgrade_cost = {
@@ -85,7 +88,7 @@ sfdoll_destroyer= {
 	}
 	size_multiplier = 20
 	fleet_slot_size = 20
-	section_slots = { "ship" = { locator = "part2" } }
+	section_slots = { "ship" = { locator = "root" } }
 	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_16
@@ -142,7 +145,6 @@ science_sfdoll = {
 	is_space_station = no
 	icon = ship_size_science
 	base_buildtime = @science_build_time
-
 	combat_disengage_chance = 2.0
 
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
@@ -412,7 +414,6 @@ constructor_sfdoll = {
 # 	required_component_set = "ftl_components"
 # 	required_component_set = "sensor_components"
 # 	required_component_set = "thruster_components"
-# 	required_component_set = "ship_aura_components"
 # 	modifier = {
 # 		starbase_shipyard_capacity_add = 2
 # 	}
