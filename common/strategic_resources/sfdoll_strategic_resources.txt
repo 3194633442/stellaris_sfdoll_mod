@@ -13,18 +13,3 @@ GF_nyto_collapse_liquid = {
 		ai_weight = {weight = 10}
 	}
 
-#人力
-manpower = {
-	tradable = yes
-	market_amount = 100
-	market_price = 1000
-	max = 4000
-	deficit_modifier = manpower_deficit
-	#prerequisites = { "tech_mine_eludium" }
-	visibility_prerequisite = {
-		always = yes
-	}
-	ai_weight = {
-		weight = 1
-	}
-}

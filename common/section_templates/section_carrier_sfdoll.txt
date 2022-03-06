@@ -90,8 +90,8 @@ ship_section_template = {
 
 	small_utility_slots = 0
 	medium_utility_slots = 0
-	large_utility_slots = 20
-	aux_utility_slots = 5
+	large_utility_slots = 18
+	aux_utility_slots = 0
 	resources = {
 		category = ship_sections
 	}
@@ -101,104 +101,104 @@ ship_section_template = {
 	key = "section_ship_sfdoll_carrier_2"
 	ship_size = ship_sfdoll_carrier
 	fits_on_slot = ship2
-	entity = science_entity
+	entity = Gayr_entity
 	icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
 		name = "L_LARGE_01"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_1
 	}
 	component_slot = {
 		name = "L_LARGE_02"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_2
 	}
 	component_slot = {
 		name = "L_LARGE_03"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_3
 	}
 	component_slot = {
 		name = "L_LARGE_04"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_4
 	}
 	component_slot = {
 		name = "L_LARGE_05"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_5
 	}
 	component_slot = {
 		name = "L_LARGE_06"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_6
 	}
 	component_slot = {
 		name = "L_LARGE_07"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_1
 	}
 	component_slot = {
 		name = "L_LARGE_08"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_2
 	}
 	component_slot = {
 		name = "L_LARGE_09"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_3
 	}
 	component_slot = {
 		name = "L_LARGE_10"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_4
 	}
 	component_slot = {
 		name = "L_LARGE_11"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_5
 	}
 	component_slot = {
 		name = "L_LARGE_12"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_6
 	}
 	component_slot = {
 		name = "L_LARGE_13"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_1
 	}
 	component_slot = {
 		name = "L_LARGE_14"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_2
 	}
 	component_slot = {
 		name = "L_LARGE_15"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_3
 	}
 	component_slot = {
 		name = "L_LARGE_16"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_4
 	}
 	component_slot = {
 		name = "L_LARGE_17"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_5
 	}
 	component_slot = {
 		name = "L_LARGE_18"
 		template = invisible_large_turret
-		locatorname = explosion_locator6
+		locatorname = target_locator_6
 	}
 
 	small_utility_slots = 0
 	medium_utility_slots = 0
-	large_utility_slots = 20
-	aux_utility_slots = 5
+	large_utility_slots = 18
+	aux_utility_slots = 8
 	resources = {
 		category = ship_sections
 	}

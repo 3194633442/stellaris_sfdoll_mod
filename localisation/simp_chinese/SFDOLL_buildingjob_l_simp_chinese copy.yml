@@ -11,7 +11,7 @@ job_sfdoll_nanites_maker_desc:0"纳米机械师能制造多种先进的超微型
 job_sfdoll_nanites_maker_effect_desc:0 "纳米机械师将 §Y$minerals$§! 转化为 §Y$nanites$§!"
 mod_job_sfdoll_nanites_maker_add:0 "纳米机械师岗位"
 
-building_sfdoll_dark_matter_plant:0"铁血暗物质合成厂"
+building_sfdoll_dark_matter_plant:0"铁血暗物质工厂"
 building_sfdoll_dark_matter_plant_desc:0"这些工厂使用铁血科技合成暗物质"
 job_sfdoll_dark_matter_maker:0"暗物质合成师"
 job_sfdoll_dark_matter_maker_plural:0"暗物质合成师"
@@ -20,7 +20,7 @@ job_sfdoll_dark_matter_maker_effect_desc:0 "暗物质合成师将 §Y$minerals$�
 mod_job_sfdoll_dark_matter_maker_add:0"暗物质合成师岗位"
 
 #collapse
-building_sfdoll_collapse_liquid_plant:0"坍塌粒子制造厂"
+building_sfdoll_collapse_liquid_plant:0"坍塌粒子工厂"
 building_sfdoll_collapse_liquid_plant_desc:0"这些工厂编写坍塌粒子的内部程序，制造可控的坍塌粒子"
 job_sfdoll_collapse_liquid_maker:0"坍塌粒子合成师"
 job_sfdoll_collapse_liquid_maker_plural:0"坍塌粒子合成师"
@@ -43,8 +43,6 @@ job_sfdoll_collapse_energy_maker_plural:0"坍塌技师"
 job_sfdoll_collapse_energy_maker_desc:0"坍塌能源技师对坍塌反应堆进行维护，利用坍塌粒子产生能源"
 job_sfdoll_collapse_energy_maker_effect_desc:0 "坍塌技师将§Y$GF_nyto_collapse_liquid$§!转化为 §Y$energy$§! "
 mod_job_sfdoll_collapse_energy_maker_add:0"坍塌技师岗位"
-
-
 
 building_sfdoll_gases_plant:0 "铁血气体精炼厂"
 building_sfdoll_gases_plant_desc:0 "此类工厂使用铁血科技，高效生产各类气体物质。"

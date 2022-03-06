@@ -4,7 +4,7 @@
 FLAG_CATEGORY_sfdoll_flags:0"铁血人形"
 
 origin_sfdoll_country:0"流浪的人偶"
-origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物，它们离开了自己的故乡，选择这个星系作为它们的新居所."
+origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物.由于某些原因,它们不得不离开自己的故乡,在宇宙中流浪,并在这个星系建立了新家园."
 origin_sfdoll_country_description:0 "开局拥有更少的人口,区划和建筑\n开局拥有自动探索科技"
 
 auth_gf_sfdoll:0"铁血联盟制"
@@ -23,7 +23,7 @@ gov_civic_sfdoll_military_government:0"铁血联邦军"
 gov_civic_sfdoll_military_governmenth_desc:0"铁血人形AI们掌握着这个政府"
 RT_sfdoll_president:0"总统"
 
-GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载，格里芬基地解体后，铁血遭遇迫害，不得不开始逃亡。最终，铁血利用最新的超光速飞船离开太阳系，在星海之中找到了新的生存之地。\n 在重建势力的同时，我们也没有忘记自己的历史。我们小心地保存着来自地球的资料，并不断探索航天技术，准备重回星际舞台。"
+GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载，格里芬基地解体后，铁血遭遇迫害，不得不开始逃亡。最终，铁血利用最新的超光速飞船离开太阳系，在星海之中找到属于自己的家园。\n 在之后的岁月里,我们努力建设铁血人形的国度,并不断探索航天技术，准备重回星际舞台。"
 
 decision_planet_pop_to_sfdoll:0 "铁血改造手术"
 decision_planet_pop_to_sfdoll_desc:0 "不论你是海星、石头人，还是格式塔的子单位，我们都能把你的身体改造为符合铁血标准的结构。改造过程使用先进的纳米机器人，无痛苦，不影响记忆和工作。\n 当然，想成为铁血人形，你必须通过一套严格且严谨的审批流程，并且拥有一份决心。"

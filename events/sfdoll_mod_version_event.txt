@@ -16,16 +16,6 @@ country_event = {
 			limit = { has_ascension_perk = ap_sfdoll_reverse_collapse }
 			add_research_option = tech_sfdoll_collapse_liquid_produce
 		}
-		
-		#检查是否有零点能科技，有就触发暗物质研究事件
-		if = {
-			limit = {
-				has_technology = tech_zero_point_power
-			 }
-			 country_event = {
-				 id = sfdoll_event.1
-			 }
-		}
 	}
 }
 
@@ -34,8 +24,17 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		add_modifier = {
-			modifier = sfdoll_test_homeless_ship_modifier
+		create_species = {
+			name = 1111
+			class = HUM
+			effect = {
+				set_species_flag = 1111
+			}
+		}
+		capital_scope = {
+			create_pop = {
+				species = 1111
+			}
 		}
 	}
 }

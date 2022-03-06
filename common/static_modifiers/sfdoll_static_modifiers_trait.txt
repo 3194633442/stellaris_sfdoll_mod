@@ -4,11 +4,10 @@ trait_sfdoll_logic_engine_2_modifier = {
 }
 
 trait_sfdoll_engineer_modifier = {
-	planet_jobs_engineering_research_produces_mult = 0.25
 	planet_building_build_speed_mult = 0.50
+	starbase_shipyard_build_speed_mult = 0.50
 	megastructure_build_speed_mult = 0.50
-	country_megastructure_build_cap_add = 2
-	starbase_building_build_speed_mult = 0.50
+	country_megastructure_build_cap_add = 2	
 	intel_decryption_add = 4
 	intel_encryption_add = 4
 }
@@ -17,8 +16,4 @@ trait_sfdoll_war_2_modifier = {
 	planet_army_build_speed_mult = 0.50
 	ship_weapon_damage = 0.50
 	shipclass_military_build_speed_mult = 0.50
-}
-
-sfdoll_test_homeless_ship_modifier = {
-	ship_components_produces_mult = 100
 }

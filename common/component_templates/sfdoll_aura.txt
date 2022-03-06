@@ -103,7 +103,6 @@ utility_component_template = {
 			ship_shield_regen_add_perc = 1
 			ship_armor_regen_add_perc = 1
 			ship_hull_regen_add_perc = 1
-			ships_upkeep_mult = -0.25
 		}
 	}
 	ai_weight = {

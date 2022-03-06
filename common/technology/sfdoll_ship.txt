@@ -166,7 +166,7 @@ tech_sfdoll_new_science_constructer = {
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 2
-	weight = @tier2weight2
+	weight = 0
 }
 
 #战列舰双X舰首
@@ -186,7 +186,7 @@ tech_sfdoll_battleship_bow_x2 = {
 
 #战术驱逐舰
 tech_sfdoll_tactical_destroyer = {
-	cost = @tier5cost3
+	cost = @tier5cost2
 	area = engineering
 	start_tech = no
 	icon = tech_sfdoll_tactical_destroyer
@@ -198,7 +198,7 @@ tech_sfdoll_tactical_destroyer = {
 		has_technology = tech_sfdoll_ogas_ai
 	}
 	tier = 5
-	weight = @tier5weight3
+	weight = @tier5weight2
 }
 
 #深空母舰
@@ -211,23 +211,25 @@ tech_ship_sfdoll_carrier = {
 	category = { voidcraft }
 	potential = {
 		has_authority = auth_gf_sfdoll
+		has_technology = tech_sfdoll_tactical_destroyer
 	}
 	tier = 5
-	weight = 0 # @tier5weight3
+	weight = @tier5weight3
 }
 
-#铁血家园舰
-# tech_sfdoll_homeless_ship = {
-# 	cost = @tier3cost1
-# 	area = engineering
-# 	start_tech = no
-# 	icon = tech_sfdoll_tactical_destroyer
-# 	is_rare = yes
-# 	category = { voidcraft }
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 		has_technology = tech_battleships
-# 	}
-# 	tier = 3
-# 	weight = @tier3weight1
-# }
+#铁血星舰城市
+tech_sfdoll_homeless_ship = {
+	cost = @tier5cost1
+	area = engineering
+	start_tech = no
+	icon = tech_sfdoll_tactical_destroyer
+	is_rare = yes
+	category = { voidcraft }
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_battleships
+		has_technology = tech_sfdoll_collapse_liquid_produce
+	}
+	tier = 5
+	weight = @tier5weight1
+}

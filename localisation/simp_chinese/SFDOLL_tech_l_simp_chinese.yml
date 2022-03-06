@@ -95,6 +95,9 @@ tech_sfdoll_new_science_constructer_desc:0"我们需要更好的科研和工程�
 tech_sfdoll_tactical_destroyer:0 "铁血战术驱逐舰"
 tech_sfdoll_tactical_destroyer_desc:0 "与堕落帝国的泰坦巨舰不同，铁血的新型战舰兼顾了火力与机动性,其制造和运转的过程似乎违背了多个物理法则"
 
+tech_ship_sfdoll_carrier:0 "深空母舰"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船和维修功能"
+
 tech_sfdoll_battleship_bow_x2:0 "舰船设备轻量化"
 tech_sfdoll_battleship_bow_x2_desc:0 "轻量化的设备更易于搭载\n 解锁战列舰区段:$sfdoll_battleship_bow_x2$"
 

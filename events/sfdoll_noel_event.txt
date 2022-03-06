@@ -60,7 +60,6 @@ country_event = {
 	title = "sfdoll_noel_event_1_title"
 	desc = "sfdoll_noel_event_1_a_desc"
 	desc = "sfdoll_noel_event_1_c_desc"
-	desc = "sfdoll_noel_event_1_d_desc"	
 	diplomatic = yes
 
 	picture_event_data = {

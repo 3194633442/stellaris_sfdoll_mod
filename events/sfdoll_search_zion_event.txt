@@ -68,7 +68,7 @@ country_event = {
 	}
 }
 
-#延迟触发事件，添加遗迹遗迹调查项目，需要三级超空间
+#触发事件，添加遗迹遗迹调查项目，需要三级超空间
 country_event = {
 	id = sfdoll_search_zion_event.4
 	is_triggered_only = yes
@@ -76,12 +76,11 @@ country_event = {
 	hide_window = yes
 	trigger = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_hyper_drive_3
+		has_technology = tech_hyper_drive_2
 	}
 	after = {
 		country_event = {
 			id = sfdoll_search_zion_event.0
-			days = 400
 		}
 	}
 }

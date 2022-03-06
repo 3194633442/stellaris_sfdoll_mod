@@ -83,16 +83,21 @@ sfdoll_ship_reactor_no:0 "空槽"
 ship_sfdoll_carrier:0 "深空母舰"
 section_ship_sfdoll_carrier:0 "深空母舰A区"
 section_ship_sfdoll_carrier_2:0 "深空母舰B区"
-thruster_sfdoll_carrier:0 "母舰推进器"
+thruster_sfdoll_carrier:0 "深空母舰推进器"
 
-component_aura_sfdoll_carrier:0 "星港维护系统"
+component_aura_sfdoll_carrier:0 "深空维护系统"
 friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 
 
 sfdoll_destroyer:0 "战术驱逐舰"
 ship_section_sfdoll_destroyer:0 "战术驱逐舰1型"
 ship_section_sfdoll_destroyer_2:0 "战术驱逐舰2型"
+component_aura_sfdoll_1:0 "干扰战术"
+hostile_aura_sfdoll_1:0 "干扰战术"
 
+component_aura_sfdoll_3:0 "火力输出"
+component_aura_sfdoll_4:0 "长程打击"
+friendly_aura_sfdoll_4:0 "长程打击"
 
 science_sfdoll:0 "高速科研船"
 constructor_sfdoll:0 "高速工程船"
@@ -100,16 +105,12 @@ DEFAULT_SCIENCESHIP_SFDOLL_SECTION:0 "高速科研船区段"
 DEFAULT_CONSTRUCTION_SFDOLL_SECTION:0 "高速工程船区段"
 
 
-component_aura_sfdoll_1:0 "干扰战术"
-hostile_aura_sfdoll_1:0 "干扰战术"
-
-component_aura_sfdoll_3:0 "火力输出"
-
-component_aura_sfdoll_4:0 "长程打击"
-friendly_aura_sfdoll_4:0 "长程打击"
-
 #2X
 sfdoll_battleship_bow_x2:0 "双门X型舰艏"
+
+
+#
+COMBAT_COMPUTER_DEFAULT_sfdoll:0 "基础作战电脑"
 
 # PLANET_KILLER_SFDOLL_1:0 "恒星坍塌器"
 # PLANET_KILLER_SFDOLL_1_DESC:0 "这种大型装置可以改变整个恒星的结构，使其收缩到史瓦西半径内并转化为黑洞。转化过程的余波会波及整个星系，除了执行发射的飞船之外，所有舰队、行星、巨构都难以幸免。"

@@ -1,6 +1,6 @@
 #逆向坍塌
 tech_sfdoll_reverse_collapse_1 = {
-	cost = @tier4cost3
+	cost = @tier4cost1
 	area = physics
 	tier = 4
 	is_rare = yes
@@ -14,7 +14,7 @@ tech_sfdoll_reverse_collapse_1 = {
 }
 
 tech_sfdoll_reverse_collapse_2 = {
-	cost = @tier4cost3
+	cost = @tier4cost2
 	area = society
 	tier = 4
 	category = { military_theory }
@@ -22,7 +22,7 @@ tech_sfdoll_reverse_collapse_2 = {
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_reverse_collapse_1	}
 	modifier = {	shroud_research_speed = 0.10 }
-	weight = @tier4weight3
+	weight = @tier4weight2
 }
 
 tech_sfdoll_reverse_collapse_3 = {

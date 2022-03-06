@@ -92,65 +92,16 @@ utility_component_template = {
 	}
 }
 
-#线列
-# utility_component_template = {
-# 	key = "tech_sfdoll_ship_computer_2"
-# 	size = small
-# 	icon = "GFX_ship_part_computer_default"
-# 	icon_frame = 1
-# 	power = -30
-# 	resources = {
-# 		category = ship_components
-# 		cost = {
-# 			alloys = 30
-# 		}
-# 	}
-# 	ship_behavior = "line"
-# 	component_set = "combat_computers"
+#默认
+utility_component_template = {
+	key = "COMBAT_COMPUTER_DEFAULT_sfdoll"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	ship_behavior = "default"
 
-# 	ai_weight = {
-# 		weight = 1
-# 	}
-# }
-
-#哨戒
-# utility_component_template = {
-# 	key = "tech_sfdoll_ship_computer_1"
-# 	size = small
-# 	icon = "GFX_ship_part_computer_default"
-# 	icon_frame = 1
-# 	power = -30
-# 	resources = {
-# 		category = ship_components
-# 		cost = {
-# 			alloys = 30
-# 		}
-# 	}
-# 	ship_behavior = "picket"
-# 	component_set = "combat_computers"
-
-# 	ai_weight = {
-# 		weight = 1
-# 	}
-# }
-
-#巨像，无视干扰
-# utility_component_template = {
-# 	key = "tech_sfdoll_ship_computer_1"
-# 	size = small
-# 	icon = "GFX_ship_part_computer_default"
-# 	icon_frame = 1
-# 	power = -30
-# 	resources = {
-# 		category = ship_components
-# 		cost = {
-# 			alloys = 30
-# 		}
-# 	}
-# 	ship_behavior = "colossus"
-# 	component_set = "combat_computers"
-
-# 	ai_weight = {
-# 		weight = 1
-# 	}
-# }
+	component_set = "combat_computers"
+	ai_weight = {
+		weight = 0
+	}
+}
