@@ -26,6 +26,8 @@ country_event = {
 
 		#自动探索
 		give_technology = {
+			tech = tech_administrative_ai
+			tech = tech_self_aware_logic
 			tech = tech_automated_exploration
 			message = no
 		}
