@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+##########
+
+sfdoll_mega_starport:0 "铁血巨型星港"
+sfdoll_mega_starport_desc:0 "庞大的现代化星港,可为舰队提供强力的后勤支持"
+tech_sfdoll_mega_starport:0 "铁血巨型星港"
+tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_desc$"
+
+sfdoll_mega_matter_convey:0 "铁血物质传输器"
+sfdoll_mega_matter_convey_desc:0 "物质传输器能够把物质从黑洞内部传输到外部"
+tech_sfdoll_mega_matter_convey:0 "铁血物质传输器"
+tech_sfdoll_mega_matter_convey_desc:0 "$sfdoll_mega_matter_convey_desc$"

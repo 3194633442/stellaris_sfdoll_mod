@@ -10,11 +10,11 @@ alloys_sfdoll_homeless:0 "合金模块\n 生产:\n §Y30 $alloys$§! £alloys£ 
 
 sr_dark_matter_sfdoll_homeless_set:0 "暗物质模块"
 sr_dark_matter_sfdoll_homeless_set_DESC:0 "$sr_dark_matter_sfdoll_homeless$"
-sr_dark_matter_sfdoll_homeless:0 "暗物质模块\n 生产:\n §Y4 $sr_dark_matter$§! £sr_dark_matter£ \n 消耗:\n §Y10 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+sr_dark_matter_sfdoll_homeless:0 "暗物质模块\n 生产:\n §Y20 $sr_dark_matter$§! £sr_dark_matter£ \n 消耗:\n §Y10 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
 collapse_liquid_sfdoll_homeless_set:0 "坍塌液模块"
 collapse_liquid_sfdoll_homeless_set_DESC:0 "$collapse_liquid_sfdoll_homeless$"
-collapse_liquid_sfdoll_homeless:0 "坍塌液模块\n 生产:\n §Y4 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n 消耗:\n §Y10 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+collapse_liquid_sfdoll_homeless:0 "坍塌液模块\n 生产:\n §Y20 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n 消耗:\n §Y10 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
 research_sfdoll_homeless_set:0 "科研模块"
 research_sfdoll_homeless_set_DESC:0 "$research_sfdoll_homeless$"
@@ -42,13 +42,14 @@ food_sfdoll_homeless:0 "生态模块 \n 生产:\n §Y6 $food$§! £food£ \n §Y
 
 sfdoll_homeless_ship_reactor:0 "星舰城市反应堆\n 产出:\n §Y20 $energy$§! £energy£ \n 消耗:\n §Y10 $minerals$§! £minerals£"
 
-tech_sfdoll_homeless_ship:0 "深空工业化"
-tech_sfdoll_homeless_ship_desc:0 "$sfdoll_homeless_ship$是移动的微型太空城市,能够支持深空中的长期生活和生产.\n 每一艘 §Y$sfdoll_homeless_ship$§! 会占用16舰队指挥点，不占用海军容量,拥有10个生产槽位"
+tech_sfdoll_homeless_ship:0 "$sfdoll_homeless_ship$"
+tech_sfdoll_homeless_ship_desc:0 "$sfdoll_homeless_ship$是移动的微型太空城市,能够支持深空中的长期生活和生产.\n 每一艘 §Y$sfdoll_homeless_ship$§! 会占用16舰队指挥点，不占用海军容量.大型的星舰城市拥有更多槽位，但造价也更贵"
 
 sfdoll_homeless_ship_thruster_1:0 "星舰城市推进器"
 
 sfdoll_homeless_ship:0 "星舰城市"
-section_sfdoll_homeless_ship_1:0 "$sfdoll_homeless_ship$"
+section_sfdoll_homeless_ship_1:0 "大型 $sfdoll_homeless_ship$"
+section_sfdoll_homeless_ship_2:0 "$sfdoll_homeless_ship$"
 
 # minerals_sfdoll_homeless_set:0 "采矿模块"
 # minerals_sfdoll_homeless_set_DESC:0 "$minerals_sfdoll_homeless$"

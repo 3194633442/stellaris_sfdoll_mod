@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cf9af35-c7a1-48fb-beee-9d6c47517afe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/common/buildings/03_sfdoll_civic_buildings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/buildings/03_sfdoll_civic_buildings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/component_templates/homeless_ship_sfdoll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/component_templates/homeless_ship_sfdoll.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/decisions/sfdoll_decisions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/decisions/sfdoll_decisions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/economic_categories/categories_sfdoll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/economic_categories/categories_sfdoll.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/governments/authorities/gf_sfdoll_authorities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/authorities/gf_sfdoll_authorities.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/governments/civics/gf_sfdoll_civics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/civics/gf_sfdoll_civics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pop_jobs/sfdoll_specialist_jobs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/pop_jobs/sfdoll_specialist_jobs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/section_templates/section_sfdoll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/section_templates/section_sfdoll.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/ship_sizes/sfdoll_ship_sizes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/ship_sizes/sfdoll_ship_sizes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/special_projects/sf_doll_projects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/special_projects/sf_doll_projects.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/technology/gf_sf_eng_tech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/technology/gf_sf_eng_tech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/technology/gf_sf_phys_tech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/technology/gf_sf_phys_tech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/technology/gf_sf_soc_tech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/technology/gf_sf_soc_tech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/technology/sfdoll_building_tech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/technology/sfdoll_building_tech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/technology/sfdoll_reverse_collapse_tech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/technology/sfdoll_reverse_collapse_tech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/technology/sfdoll_ship.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/technology/sfdoll_ship.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/traits/sfdoll_species_traits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/traits/sfdoll_species_traits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/gf_sfdoll_game_start_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/gf_sfdoll_game_start_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/sfdoll_gunslinger_girl_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/sfdoll_gunslinger_girl_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/interface/icons/governments/civics/civic_sfdoll_war.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_buildingjob_l_simp_chinese copy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_goverment_l_simp_chinese.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_goverment_l_simp_chinese.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_gunslinger_girl_l_simp_chinese.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_gunslinger_girl_l_simp_chinese.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_homeless_ship_l_simp_chinese.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_homeless_ship_l_simp_chinese.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_project_l_simp_chinese.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_project_l_simp_chinese.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_tech_l_simp_chinese.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/simp_chinese/SFDOLL_tech_l_simp_chinese.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="266qRUb30E6zFiA6vq5SGMEPR3o" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cf9af35-c7a1-48fb-beee-9d6c47517afe" name="Default Changelist" comment="" />
+      <created>1646754375948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646754375948</updated>
+      <workItem from="1646754378698" duration="3000" />
+    </task>
+    <servers />
+  </component>
+</project>

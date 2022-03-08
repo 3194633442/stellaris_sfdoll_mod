@@ -11,3 +11,20 @@ tech_sfdoll_ogas_ai = {
 	modifier = {	num_tech_alternatives_add = 1	}
 }
 
+#智子工程
+tech_sfdoll_sophon_computer = {
+	area = physics
+	tier = 4
+	cost = @tier4cost3
+	is_rare = yes
+	category = { particles }
+	icon = tech_sfdoll_sophon_computer
+	weight = @tier4weight3
+	prerequisites = {	tech_zero_point_power	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {
+		all_technology_research_speed = 0.25
+		empire_size_mult = -0.25
+	}
+}
+

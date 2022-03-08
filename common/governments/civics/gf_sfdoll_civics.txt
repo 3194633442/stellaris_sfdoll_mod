@@ -19,30 +19,6 @@ civic_sfdoll_research= {
 	}
 }
 
-#军工
-# civic_sfdoll_engineering = {
-# 	pickable_at_start = yes #开局可以使用
-# 	modification = yes
-# 	#description = "civic_sfdoll_war_effect_desc"
-# 	icon = "gfx/interface/icons/governments/civics/civic_sfdoll_war.dds"
-
-# 	potential = { 
-# 		authority = { value = auth_gf_sfdoll }
-# 	}
-	
-# 	random_weight = {
-# 		base = 1
-# 	}
-
-# 	modifier = {
-# 		planet_building_build_speed_mult = 0.25
-# 		starbase_building_build_speed_mult = 0.25
-# 		shipclass_military_build_speed_mult = 0.25
-# 		planet_army_build_speed_mult = 0.50
-# 		megastructure_build_speed_mult = 0.25
-# 	}
-# }
-
 #OGAS全境管理
 civic_sfdoll_ogas_manage= {
 	pickable_at_start = yes
@@ -60,6 +36,7 @@ civic_sfdoll_ogas_manage= {
 	modifier = { 
 		pop_happiness = 0.10
 		planet_crime_add = -30
+		empire_size_mult = -0.25
 		planet_jobs_produces_mult = 0.05
 		country_base_influence_produces_add = 1
 		#country_admin_cap_mult = 0.15
@@ -85,20 +62,21 @@ civic_sfdoll_culture = {
 	}
 }
 
-#铁血太空建设
-# civic_sfdoll_space= {
-# 	pickable_at_start = yes #开局可以使用
-# 	modification = yes
-# 	description = "civic_sfdoll_space_desc"
-# 	potential = { 
-# 		authority = { value = auth_gf_sfdoll }
-# 	}
+civic_sfdoll_4 = {
+	pickable_at_start = yes #开局可以使用
+	modification = yes
+	icon = "gfx/interface/icons/governments/civics/civic_sfdoll_4.dds"
+	potential = { 
+		authority = { value = auth_gf_sfdoll }
+	}
 	
-# 	random_weight = {
-# 		base = 1
-# 	}
-
-# 	modifier = { 
-
-# 	}
-# }
+	random_weight = {
+		base = 1
+	}
+	modifier = { 
+		country_starbase_capacity_add = 8
+		country_naval_cap_mult = 0.25
+		starbase_shipyard_build_speed_mult = 0.25
+		empire_size_mult = -0.25
+	}
+}

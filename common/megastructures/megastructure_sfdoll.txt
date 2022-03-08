@@ -1,0 +1,77 @@
+#巨型星港
+sfdoll_mega_starport = {
+	entity = "mega_shipyard_01_stage_3_entity"
+	construction_entity = "mega_shipyard_01_stage_3_entity"
+	portrait = GFX_megastructure_mega_shipyard_background
+	place_entity_on_planet_plane = no
+	entity_offset = { x = -27 y = -27 }
+	build_time = 1800
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 16000
+			unity = 2500
+		}
+
+		upkeep = {
+			energy = 40
+		}
+	}
+	build_outside_gravity_well = yes
+	prerequisites = { tech_sfdoll_mega_starport }
+	show_prereqs = yes
+
+	ship_modifier = {
+		ship_starting_experience_add = 100
+	}
+	station_modifier = {
+		starbase_shipyard_capacity_add = 10
+		starbase_shipyard_build_speed_mult = 1
+	}
+	country_modifier = {
+		country_naval_cap_add = 2000
+	}
+
+	on_build_complete = {
+		from = {
+			set_country_flag = has_built_or_repaired_megastructure
+		}
+	}
+}
+
+#物质传送器
+sfdoll_mega_matter_convey = {
+	entity = "matter_decompressor_stage_4_entity"
+	construction_entity = "matter_decompressor_stage_4_construction_entity"
+	portrait = "GFX_megastructure_matter_decompressor_background"
+	entity_offset = { x = -20 y = -20 }
+	rotate_to_center = yes
+	scale_offset = yes
+	place_entity_on_planet_plane = no
+	build_time = 3600
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 28000
+			GF_nyto_collapse_liquid = 720
+			unity = 5000
+		}
+
+		produces = {
+			minerals = 2000
+		}
+		upkeep = {
+			energy = 50
+		}
+	}
+
+	prerequisites = { tech_sfdoll_mega_matter_convey }
+	show_prereqs = yes
+
+	on_build_complete = {
+		set_star_flag = sfdoll_matter_transport_built
+		from = {
+			set_country_flag = has_built_or_repaired_megastructure
+		}
+	}
+}

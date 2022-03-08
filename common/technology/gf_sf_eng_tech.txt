@@ -11,6 +11,8 @@ tech_gf_sfdoll_assemble_building= {
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 
+
+
 # tech_mind_expansion_project = {
 # 	cost = @tier4cost1
 # 	area = engineering

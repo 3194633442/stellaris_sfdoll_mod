@@ -134,9 +134,9 @@ special_project = {
 				id = sfdoll_to_zion_event.6
 			}
 		}
-		enable_special_project = {
-			name = SFDOLL_CREATE_MOTHER_SHIP_PROJECT
-		}
+		# enable_special_project = {
+		# 	name = SFDOLL_CREATE_MOTHER_SHIP_PROJECT
+		# }
 	}
 }
 

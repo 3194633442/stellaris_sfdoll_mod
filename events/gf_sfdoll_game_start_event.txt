@@ -26,9 +26,15 @@ country_event = {
 
 		#自动探索
 		give_technology = {
-			tech = tech_administrative_ai
-			tech = tech_self_aware_logic
 			tech = tech_automated_exploration
+			message = no
+		}
+		give_technology = {
+			tech = tech_administrative_ai
+			message = no
+		}
+		give_technology = {
+			tech = tech_self_aware_logic
 			message = no
 		}
 
@@ -42,10 +48,7 @@ country_event = {
 			remove_district = district_farming
 			remove_district = district_farming
 			remove_district = district_city
-			remove_district = district_city
-			remove_district = district_generator
 			remove_building = building_commercial_zone
-			remove_building = building_bureaucratic_1
 			every_owned_pop = {
 				limit = {	is_unemployed = yes		}
 				kill_pop = yes

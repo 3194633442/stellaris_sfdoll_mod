@@ -1,69 +1,187 @@
 #星舰城市
 ship_section_template = {
-		key = "section_sfdoll_homeless_ship_1"
-		ship_size = sfdoll_homeless_ship
-		fits_on_slot = ship
-		should_draw_components = yes
-		entity = colony_ship_entity  #SR3_entity
-		icon = "GFX_ship_part_core_bow"
-		component_slot = {
-			name = "L_01"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_02"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_03"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_04"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_05"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_06"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_07"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_08"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_09"
-			template = "large_turret"
-			locatorname = root
-		}
-		component_slot = {
-			name = "L_10"
-			template = "large_turret"
-			locatorname = root
-		}
-	
+	key = "section_sfdoll_homeless_ship_1"
+	ship_size = sfdoll_homeless_ship
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = colony_ship_entity  #SR3_entity
+	icon = "GFX_ship_part_core_bow"
+	component_slot = {
+		name = "L_01"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_02"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_03"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_04"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_05"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_06"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_07"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_08"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_09"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_10"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_11"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_12"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_13"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_14"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_15"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_16"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_17"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_18"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_19"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_20"
+		template = "large_turret"
+		locatorname = root
+	}
 
-		large_utility_slots = 10
-		aux_utility_slots = 2
-		resources = {
-			category = ship_sections
+
+	large_utility_slots = 20
+	aux_utility_slots = 3
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
 		}
 	}
+}
+
+ship_section_template = {
+	key = "section_sfdoll_homeless_ship_2"
+	ship_size = sfdoll_homeless_ship
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = colony_ship_entity  #SR3_entity
+	icon = "GFX_ship_part_core_bow"
+	component_slot = {
+		name = "L_01"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_02"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_03"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_04"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_05"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_06"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_07"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_08"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_09"
+		template = "large_turret"
+		locatorname = root
+	}
+	component_slot = {
+		name = "L_10"
+		template = "large_turret"
+		locatorname = root
+	}
+
+	large_utility_slots = 10
+	aux_utility_slots = 3
+	resources = {
+		category = ship_sections
+	}
+}
 
 #双X战列舰
 ship_section_template = {

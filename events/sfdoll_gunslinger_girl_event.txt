@@ -31,11 +31,10 @@ country_event = {
 	is_triggered_only = yes
 	picture = GFX_evp_sfdoll_ship_in_orbit
 	trigger = {	has_authority = auth_gf_sfdoll	}
-	immediate = {
-		capital_scope = {
-			enable_special_project = {
-				name = sfdoll_gunslinger_girl_rescue_project
-			}
+	after = {
+		country_event = {
+			id = sfdoll_gunslinger_girl_event.3
+			days = 60
 		}
 	}
 }
@@ -209,7 +208,6 @@ country_event = {
 		name =  "sfdoll_gunslinger_girl_event_6_break"
 		break = yes
 	}
-
 }
 
 #创建崔耶拉通信国家

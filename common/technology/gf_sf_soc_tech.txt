@@ -2,7 +2,21 @@
 # Basic army
 # ##################
 
-
+#心理历史学
+tech_sfdoll_psychohistory = {
+	area = society
+	tier = 4
+	cost = @tier4cost3
+	is_rare = yes
+	category = { statecraft }
+	icon = tech_sfdoll_psychohistory
+	weight = @tier4weight3
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.15
+		empire_size_mult = -0.25
+	}
+}
 
 
 #陆军
@@ -41,15 +55,15 @@ tech_sfdoll_army_building = {
 
 #指挥上限
 tech_sfdoll_command_limit_1 = {
-	cost = @tier3cost3
+	cost = @tier5cost3
 	area = society
-	tier = 3
+	tier = 5
 	category = { military_theory }
 	is_rare = yes
 	icon = tech_sfdoll_command_limit_1
 	potential = { has_authority = auth_gf_sfdoll }
 	modifier = { country_command_limit_add = 120 }
-	weight = @tier3weight3
+	weight = @tier5weight3
 }
 
 tech_sfdoll_command_limit_2 = {

@@ -112,14 +112,14 @@ tech_sfdoll_ship_computer = {
 	weight = @tier4weight1
 }
 
-#舰船修复A槽，需要纳米机器人科技
+#舰船修复A槽
 tech_sfdoll_aux_repair_ship = {
 	cost = @tier3cost1
 	area = engineering
 	icon = tech_sfdoll_aux_repair_ship
 	category = { voidcraft }
 	is_reverse_engineerable = no
-	prerequisites = {	tech_sfdoll_nanites	}
+	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 3
 	weight = @tier3weight1

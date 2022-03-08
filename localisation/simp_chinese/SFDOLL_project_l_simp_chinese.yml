@@ -61,10 +61,10 @@ sfdoll_to_zion_event_6:0 "成功解析飞船中的数据"
 sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这艘船属于一种大型深空母舰，用于超星系团尺度的深空探索。这种大型母舰，名字叫做 §R耶利米哀歌§! "
 sfdoll_to_zion_event_6_option:0 "有趣的名字.神们也有自己的耶路撒冷吗？"
 
-SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"
-SFDOLL_CREATE_MOTHER_SHIP__PROJECT_DESC:0 "通过对 §R耶利米哀歌§! 中数据的解析，我们已经了解了这艘飞船的跃迁航行方式。看起来，遗迹文明能够把锡安中的质量投影到现实世界中，并让庞大的飞船自由地往返于两个空间。\n 我们或许可以试试，把这艘船开到常规宇宙中"
+# SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"
+# SFDOLL_CREATE_MOTHER_SHIP__PROJECT_DESC:0 "通过对 §R耶利米哀歌§! 中数据的解析，我们已经了解了这艘飞船的跃迁航行方式。看起来，遗迹文明能够把锡安中的质量投影到现实世界中，并让庞大的飞船自由地往返于两个空间。\n 我们或许可以试试，把这艘船开到常规宇宙中"
 
-sfdoll_to_zion_event_8:0 "特大号的纪念品"
-sfdoll_to_zion_event_8_desc:0 "我们成功把 §R耶利米哀歌§! 带到了我们的世界. \n 现在，飞船上的设施似乎发生了某些变化，我们能够获取更多操作权限，从而驾驭飞船上的设备."
+# sfdoll_to_zion_event_8:0 "特大号的纪念品"
+# sfdoll_to_zion_event_8_desc:0 "我们成功把 §R耶利米哀歌§! 带到了我们的世界. \n 现在，飞船上的设施似乎发生了某些变化，我们能够获取更多操作权限，从而驾驭飞船上的设备."
 
 

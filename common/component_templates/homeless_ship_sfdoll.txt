@@ -74,7 +74,7 @@ weapon_component_template = {
 			alloys = 200
 		}
 		produces = {
-			sr_dark_matter = 4
+			sr_dark_matter = 20
 		}
 		upkeep = {
 			minerals = 10
@@ -103,7 +103,7 @@ weapon_component_template = {
 			alloys = 200
 		}
 		produces = {
-			GF_nyto_collapse_liquid = 4
+			GF_nyto_collapse_liquid = 20
 		}
 		upkeep = {
 			minerals = 10

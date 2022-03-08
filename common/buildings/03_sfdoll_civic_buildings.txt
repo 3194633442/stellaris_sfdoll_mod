@@ -41,10 +41,11 @@ building_sfdoll_academy = {
 
 #星际互联网，行政，舒适度，国策解锁
 building_sfdoll_net = {
-	base_buildtime = @b2_time
+	base_buildtime = @b1_time
 	can_be_disabled = yes
 	icon = building_sfdoll_net
 	category = amenity
+	base_cap_amount = 1
 	potential = {
 		exists = owner
 		owner = {	has_country_flag = sfdoll_empire	}
@@ -57,19 +58,13 @@ building_sfdoll_net = {
 			NOT = {	has_country_flag = sfdoll_empire }
 		}
 	}
-	#不可用时转换为
-	# convert_to = {
-	# 	building_drone_storage
-	# 	building_hive_warren
-	# 	building_communal_housing
-	# }
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire }
 		}
 		modifier = {
-			job_sfdoll_it_doll_add = 2
+			job_sfdoll_it_doll_add = 4
 		}
 	}
 	triggered_desc = {
@@ -79,10 +74,10 @@ building_sfdoll_net = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = @b1_minerals
 		}
 		upkeep = {
-			energy = @b2_upkeep
+			energy = @b1_upkeep
 		}
 	}
 }
