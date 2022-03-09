@@ -17,12 +17,20 @@ planet_event = {
 				}
 			}
 		}
+		#处理殖民地
+		if = {
+			limit = { is_colony = yes }
+			every_owned_pop = {
+				kill_pop = yes
+			}
+		}
 
-		#初次炸恒星
+		#炸的是恒星
 		if = {
 			limit =  { is_star = yes }
 			from = {
 				owner = {
+					#初次炸恒星
 					if = {
 						limit = {
 							NOT = { has_country_flag = cracked_first_star }
@@ -31,10 +39,34 @@ planet_event = {
 					}
 				}
 			}
+			
 		}
-		#改黑洞
+		# else = {
+		# 	change_pc = pc_shattered
+		# 	clear_deposits = yes
+		# }
+		#变成黑洞
 		change_pc = pc_black_hole
-		#改星系的star_class为黑洞，涉及建造物质解压巨构
+		clear_deposits = yes
+		reset_planet = yes
+		#行星需要缩小
+		if = {
+			limit = { is_star = no }
+			set_planet_size = 25
+		}
+		
+		# set_planet_entity = {
+		# 	entity = black_hole_sfdoll_entity
+		# }
+
+		# set_planet_entity = {
+		# 	entity = black_hole_sfdoll_entity
+		# }
+		#炸球相关
+		# change_pc = pc_shattered
+		# 	clear_deposits = yes
+		
+		#改星系的star_class为黑洞，可能涉及建造物质解压巨构，会把所有恒星变黑洞
 		# if = {
 		# 	limit = { is_star = yes }
 		# 	solar_system = {
@@ -42,7 +74,7 @@ planet_event = {
 		# 	}
 		# }
 
-		#特效，测试
+		# 特效?测试
 		# create_ambient_object = {
 		# 	type = "destroyed_system"
 		# 	location = this

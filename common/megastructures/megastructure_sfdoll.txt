@@ -6,6 +6,8 @@ sfdoll_mega_starport = {
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
 	build_time = 1800
+	construction_blocked_by_others = yes
+	construction_blocks_others = yes
 	resources = {
 		category = megastructures
 		cost = {
@@ -93,8 +95,10 @@ sfdoll_mega_matter_convey = {
 	entity_offset = { x = -20 y = -20 }
 	rotate_to_center = yes
 	scale_offset = yes
-	place_entity_on_planet_plane = yes
+	place_entity_on_planet_plane = no
 	build_time = 3600
+	construction_blocked_by_others = yes
+	construction_blocks_others = yes
 	resources = {
 		category = megastructures
 		cost = {
@@ -104,7 +108,7 @@ sfdoll_mega_matter_convey = {
 		}
 
 		produces = {
-			minerals = 2000
+			minerals = 2400
 		}
 		upkeep = {
 			energy = 50
@@ -149,15 +153,20 @@ sfdoll_mega_matter_convey = {
 
 	placement_rules = {
 		planet_possible = {
+			custom_tooltip = {
+				fail_text = "requires_black_hole"
+				is_planet_class = pc_black_hole
+			}
+
 			# custom_tooltip = {
 			# 	fail_text = "must_build_around_star"
 			# 	is_star = yes
 			# }
-			is_planet_class = pc_black_hole
-			custom_tooltip = {
-				fail_text = "requires_no_anomaly"
-				NOT = { has_anomaly = yes }
-			}
+			# is_planet_class = pc_black_hole
+			# custom_tooltip = {
+			# 	fail_text = "requires_no_anomaly"
+			# 	NOT = { has_anomaly = yes }
+			# }
 			# is_star_class = sc_black_hole
 		}
 	}

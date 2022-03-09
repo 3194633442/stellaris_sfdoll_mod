@@ -14,7 +14,13 @@ can_destroy_planet_with_planet_killer_sfdoll_1 = {
 	# }
 	custom_tooltip = {
 		fail_text = is_black_hole
-		
+		NOT = {
+			is_planet_class = pc_black_hole
+		}	
+	}
+	#不是破碎星球
+	NOT = {
+		is_planet_class = pc_shattered
 	}
 	custom_tooltip = {
 		fail_text = star_owner_is_not_hostile

@@ -117,5 +117,8 @@ on_ascension_perk_picked = {
 on_destroy_planet_with_planet_killer_sfdoll_1 = {
 	events = {
 		sfdoll_planet_killer_event.1
+
+		#焚天神兵的事件
+		#crisis.4550
 	}
 }
