@@ -6,32 +6,104 @@ planet_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {
-		add_threat = { who = from.owner amount = 10 }
-
+		#威慑值和得分
+		add_threat = { who = from.owner amount = 3 }
 		from = {
 			owner = {
-				save_event_target_as = crisis_country
+				#save_event_target_as = crisis_country
 				add_victory_score = {
 					source = destroyed_stars_score
-					score = 10
-				}
-				switch = {
-					trigger = galaxy_size
-					huge = { add_resource = { sr_dark_matter = 1000 } }
-					large = { add_resource = { sr_dark_matter = 1500 } }
-					medium = { add_resource = { sr_dark_matter = 2000 } }
-					small = { add_resource = { sr_dark_matter = 2500 } }
-					tiny = { add_resource = { sr_dark_matter = 3000 } }
-				}
-				if = {
-					limit = {
-						NOT = { has_country_flag = cracked_first_star }
-					}
-					set_country_flag = cracked_first_star
+					score = 5
 				}
 			}
 		}
-		solar_system = { save_event_target_as = destroyed_system }
-		solar_system = { destroy_star_system = yes		}
+
+		#初次炸恒星
+		if = {
+			limit =  { is_star = yes }
+			from = {
+				owner = {
+					if = {
+						limit = {
+							NOT = { has_country_flag = cracked_first_star }
+						}
+						set_country_flag = cracked_first_star
+					}
+				}
+			}
+		}
+		#改黑洞
+		change_pc = pc_black_hole
+		#改星系的star_class为黑洞，涉及建造物质解压巨构
+		if = {
+			limit = { is_star = yes }
+			solar_system = {
+				set_star_class = sc_black_hole
+			}
+		}
+
+		#特效，测试
+		create_ambient_object = {
+			type = "destroyed_system"
+			location = this
+		}
+		last_created_ambient_object = {
+			set_ambient_object_flag = destroyed_system_effect
+			set_location = {
+				target = prev
+				distance = 0
+				angle = random
+			}
+		}
+		if = {
+			limit = { is_star = yes }
+			create_ambient_object = {
+				type = "star_explosion"
+				play_animation_once = yes
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+		}
 	}
 }
+
+# planet_event = {
+# 	id = sfdoll_planet_killer_event.1
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	immediate = {
+# 		add_threat = { who = from.owner amount = 10 }
+
+# 		from = {
+# 			owner = {
+# 				save_event_target_as = crisis_country
+# 				add_victory_score = {
+# 					source = destroyed_stars_score
+# 					score = 10
+# 				}
+# 				# switch = {
+# 				# 	trigger = galaxy_size
+# 				# 	huge = { add_resource = { sr_dark_matter = 1000 } }
+# 				# 	large = { add_resource = { sr_dark_matter = 1500 } }
+# 				# 	medium = { add_resource = { sr_dark_matter = 2000 } }
+# 				# 	small = { add_resource = { sr_dark_matter = 2500 } }
+# 				# 	tiny = { add_resource = { sr_dark_matter = 3000 } }
+# 				# }
+# 				if = {
+# 					limit = {
+# 						NOT = { has_country_flag = cracked_first_star }
+# 					}
+# 					set_country_flag = cracked_first_star
+# 				}
+# 			}
+# 		}
+# 		solar_system = { save_event_target_as = destroyed_system }
+# 		solar_system = { destroy_star_system = yes		}
+# 	}
+# }

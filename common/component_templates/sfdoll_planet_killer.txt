@@ -1,24 +1,22 @@
-# weapon_component_template = {
-# 	key = "PLANET_KILLER_SFDOLL_1"
-# 	size = planet_killer
-# 	type = planet_killer
-# 	use_ship_kill_target = no
-# 	can_destroy_stars = yes
+weapon_component_template = {
+	key = "planet_killer_sfdoll_1"
+	size = planet_killer
+	type = planet_killer
+	use_ship_kill_target = no
+	can_destroy_stars = yes
 
-# 	prerequisites = { "tech_planet_killer_sfdoll_collapse" }
-# 	# prerequisites = { "tech_colossus" }
+	#prerequisites = { }
 
-# 	# icon = GFX_planet_killer_sfdoll_collapse
-# 	icon =  GFX_ship_part_nanobot_diffuser
-# 	icon_frame = 1
+	icon = GFX_planet_killer_sfdoll_1
+	icon_frame = 1
 
-#     total_fire_time = 5
-#     accuracy = 1
-#     range = 250
+    total_fire_time = 5
+    accuracy = 1
+    range = 350
 
-# 	size_restriction = { sfdoll_colossus }
-# 	component_set = "PLANET_KILLER_SFDOLL_1"
+	size_restriction = { ship_sfdoll_carrier }
+	component_set = "planet_killer_sfdoll_1"
 
-# 	planet_destruction_gfx = "star_destroyer_effect_gfx"
+	planet_destruction_gfx = "star_destroyer_effect_gfx"
 	
-# }
+}

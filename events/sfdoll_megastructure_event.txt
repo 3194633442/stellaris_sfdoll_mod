@@ -1,0 +1,27 @@
+namespace = sfdoll_mega_event
+#id标准写法为namespace的值加上编号
+#巨型星港建成
+country_event = {
+	id = sfdoll_mega_event.1
+	title = "sfdoll_mega_event.1"
+	desc = "sfdoll_mega_event_1_desc"
+	is_triggered_only = yes
+	location = from
+	picture = GFX_evp_sfdoll_news_room
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+}
+
+#物质传输器建成
+country_event = {
+	id = sfdoll_mega_event.2
+	title = "sfdoll_mega_event.2"
+	desc = "sfdoll_mega_event_2_desc"
+	is_triggered_only = yes
+	location = from
+	picture = GFX_evp_sfdoll_news_room
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+}

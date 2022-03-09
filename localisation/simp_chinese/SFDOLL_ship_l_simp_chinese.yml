@@ -112,9 +112,9 @@ sfdoll_battleship_bow_x2:0 "双门X型舰艏"
 #
 COMBAT_COMPUTER_DEFAULT_sfdoll:0 "基础作战电脑"
 
-# PLANET_KILLER_SFDOLL_1:0 "恒星坍塌器"
-# PLANET_KILLER_SFDOLL_1_DESC:0 "这种大型装置可以改变整个恒星的结构，使其收缩到史瓦西半径内并转化为黑洞。转化过程的余波会波及整个星系，除了执行发射的飞船之外，所有舰队、行星、巨构都难以幸免。"
-# PLANET_KILLER_SFDOLL_1_ACTION:0 "恒星坍塌"
+planet_killer_sfdoll_1:0 "星体坍塌器"
+planet_killer_sfdoll_1_DESC:0 "这种大型装置可以让恒星收缩到史瓦西半径内，最终转化为黑洞。压缩恒星的过程是环保的，不会波及恒星周围的行星。\n 也可以用于摧毁小型天体"
+planet_killer_sfdoll_1_ACTION:0 "星体坍塌"
 
 # sfdoll_colossus:0 "多功能卫星平台"
 # sfdoll_colossus_desc:0 "结合了遗迹文明的设计资料，铁血开发了这款新式飞船。它可以安装和运输重型装备，并可在环绕星球的轨道上对星球进行能量输出，帮助我们完成各种高难度实验."

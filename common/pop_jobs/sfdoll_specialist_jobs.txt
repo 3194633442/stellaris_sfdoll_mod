@@ -321,7 +321,6 @@ sfdoll_collapse_alloys_maker = {
 	weight = {	weight = 20	}
 }
 
-
 #暗物质合成师
 sfdoll_dark_matter_maker = {
 	category = specialist

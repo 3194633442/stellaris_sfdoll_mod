@@ -2,7 +2,7 @@
 sfdoll_mega_starport = {
 	entity = "mega_shipyard_01_stage_3_entity"
 	construction_entity = "mega_shipyard_01_stage_3_entity"
-	portrait = GFX_megastructure_mega_shipyard_background
+	portrait = GFX_megastructure_background_sfdoll_mega_starport
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
 	build_time = 1800
@@ -32,9 +32,55 @@ sfdoll_mega_starport = {
 		country_naval_cap_add = 2000
 	}
 
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+
+		# custom_tooltip = {
+		# 	fail_text = "requires_no_binary_trinary"
+		# 	NOR = {
+		# 		is_star_class = sc_binary_1
+		# 		is_star_class = sc_binary_2
+		# 		is_star_class = sc_binary_3
+		# 		is_star_class = sc_binary_4
+		# 		is_star_class = sc_binary_5
+		# 		is_star_class = sc_binary_6
+		# 		is_star_class = sc_binary_7
+		# 		is_star_class = sc_binary_8
+		# 		is_star_class = sc_binary_9
+		# 		is_star_class = sc_binary_10
+		# 		is_star_class = sc_trinary_1
+		# 		is_star_class = sc_trinary_2
+		# 		is_star_class = sc_trinary_3
+		# 		is_star_class = sc_trinary_4
+		# 	}
+		# }
+		# custom_tooltip = {
+		# 	fail_text = "requires_no_existing_megastructure"
+		# 	has_no_non_gate_megastructure = yes
+		# }
+	}
+
 	on_build_complete = {
 		from = {
 			set_country_flag = has_built_or_repaired_megastructure
+			country_event = {
+				id = sfdoll_mega_event.1
+			}
 		}
 	}
 }
@@ -52,7 +98,7 @@ sfdoll_mega_matter_convey = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 28000
+			alloys = 25000
 			GF_nyto_collapse_liquid = 720
 			unity = 5000
 		}
@@ -68,10 +114,60 @@ sfdoll_mega_matter_convey = {
 	prerequisites = { tech_sfdoll_mega_matter_convey }
 	show_prereqs = yes
 
+	#建造条件，待修改
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+		# custom_tooltip = {
+		# 	fail_text = "requires_no_habitable_planets"
+		# 	NOT = {
+		# 		any_system_planet = {
+		# 			colonizable_planet = yes
+		# 		}
+		# 	}
+		# }
+		custom_tooltip = {
+			fail_text = "requires_black_hole"
+			is_star_class = sc_black_hole
+		}
+
+	}
+
+	placement_rules = {
+		planet_possible = {
+			custom_tooltip = {
+				fail_text = "must_build_around_star"
+				is_star = yes
+			}
+			custom_tooltip = {
+				fail_text = "requires_no_anomaly"
+				NOT = { has_anomaly = yes }
+			}
+			is_star_class = sc_black_hole
+		}
+	}
+
 	on_build_complete = {
 		set_star_flag = sfdoll_matter_transport_built
 		from = {
 			set_country_flag = has_built_or_repaired_megastructure
+			country_event = {
+				id = sfdoll_mega_event.2
+			}
 		}
 	}
 }

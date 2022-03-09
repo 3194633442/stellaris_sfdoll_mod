@@ -217,6 +217,7 @@ tech_ship_sfdoll_carrier = {
 	weight = @tier5weight3
 }
 
+
 #铁血星舰城市
 tech_sfdoll_homeless_ship = {
 	cost = @tier5cost1

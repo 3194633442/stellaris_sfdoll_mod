@@ -45,8 +45,8 @@ component_set = {
 
 
 #铁血巨像武器
-# component_set = {
-# 	key = "PLANET_KILLER_SFDOLL_1"
-# 	icon = GFX_planet_killer_sfdoll_collapse
-# 	icon_frame = 1
-# }
+component_set = {
+	key = "planet_killer_sfdoll_1"
+	icon = GFX_planet_killer_sfdoll_1
+	icon_frame = 1
+}
