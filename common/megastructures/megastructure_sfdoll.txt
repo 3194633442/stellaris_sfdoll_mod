@@ -93,7 +93,7 @@ sfdoll_mega_matter_convey = {
 	entity_offset = { x = -20 y = -20 }
 	rotate_to_center = yes
 	scale_offset = yes
-	place_entity_on_planet_plane = no
+	place_entity_on_planet_plane = yes
 	build_time = 3600
 	resources = {
 		category = megastructures
@@ -140,24 +140,25 @@ sfdoll_mega_matter_convey = {
 		# 		}
 		# 	}
 		# }
-		custom_tooltip = {
-			fail_text = "requires_black_hole"
-			is_star_class = sc_black_hole
-		}
-
+		#需要黑洞类的恒星（必须是星系的恒星类型为黑洞），不需要，只需要目标天体为黑洞即可
+		# custom_tooltip = {
+		# 	fail_text = "requires_black_hole"
+		# 	is_star_class = sc_black_hole
+		# }
 	}
 
 	placement_rules = {
 		planet_possible = {
-			custom_tooltip = {
-				fail_text = "must_build_around_star"
-				is_star = yes
-			}
+			# custom_tooltip = {
+			# 	fail_text = "must_build_around_star"
+			# 	is_star = yes
+			# }
+			is_planet_class = pc_black_hole
 			custom_tooltip = {
 				fail_text = "requires_no_anomaly"
 				NOT = { has_anomaly = yes }
 			}
-			is_star_class = sc_black_hole
+			# is_star_class = sc_black_hole
 		}
 	}
 

@@ -57,6 +57,8 @@ sfdoll_combat_computer_1:0"铁血战舰AI(蜂拥)"
 sfdoll_combat_computer_2:0"铁血战舰AI(炮击)"
 sfdoll_combat_computer_3:0"铁血战舰AI(航母)"
 
+COMBAT_COMPUTER_DEFAULT_sfdoll:0 "基础作战电脑"
+
 #defense
 sfdoll_ship_defense_s:0"铁血飞船防御系统"
 sfdoll_ship_defense_m:0"铁血飞船防御系统"
@@ -109,12 +111,11 @@ DEFAULT_CONSTRUCTION_SFDOLL_SECTION:0 "高速工程船区段"
 sfdoll_battleship_bow_x2:0 "双门X型舰艏"
 
 
-#
-COMBAT_COMPUTER_DEFAULT_sfdoll:0 "基础作战电脑"
-
+#planet_killer
 planet_killer_sfdoll_1:0 "星体坍塌器"
-planet_killer_sfdoll_1_DESC:0 "这种大型装置可以让恒星收缩到史瓦西半径内，最终转化为黑洞。压缩恒星的过程是环保的，不会波及恒星周围的行星。\n 也可以用于摧毁小型天体"
-planet_killer_sfdoll_1_ACTION:0 "星体坍塌"
+planet_killer_sfdoll_1_DESC:0 "星体坍塌器可以让天体收缩到史瓦西半径内，最终转化为黑洞。该过程不会波及周围的天体。"
+planet_killer_sfdoll_1_ACTION:0 "星体坍塌器"
 
-# sfdoll_colossus:0 "多功能卫星平台"
-# sfdoll_colossus_desc:0 "结合了遗迹文明的设计资料，铁血开发了这款新式飞船。它可以安装和运输重型装备，并可在环绕星球的轨道上对星球进行能量输出，帮助我们完成各种高难度实验."
+FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "星体坍塌器"
+
+MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "转化为黑洞"

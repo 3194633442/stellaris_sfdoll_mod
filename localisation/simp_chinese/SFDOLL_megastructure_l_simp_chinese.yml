@@ -4,7 +4,7 @@
 sfdoll_mega_starport:0 "铁血巨型星港"
 sfdoll_mega_starport_DESC:0 "铁血设计的现代化星港,能够高效造船，并提高帝国的海军容量"
 
-sfdoll_mega_starport_MEGASTRUCTURE_DETAILS:0 "sfdoll_mega_starport_DESC"
+sfdoll_mega_starport_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_DESC$"
 
 tech_sfdoll_mega_starport:0 "铁血巨型星港"
 tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$"
@@ -12,13 +12,13 @@ tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$"
 sfdoll_mega_event.1:0 "$sfdoll_mega_starport$"
 sfdoll_mega_event_1_desc:0 "我们的巨型星港已经建造完毕。她将为我们的舰队带来强大的支持"
 
-sfdoll_mega_matter_convey:0 "铁血物质传输器"
-sfdoll_mega_matter_convey_DESC:0 "物质传输器能把物质从黑洞内部传输到外部"
+sfdoll_mega_matter_convey:0 "铁血物质开采器"
+sfdoll_mega_matter_convey_DESC:0 "物质开采器用于开采空间中的物质，包括黑洞与其他维度中的资源。它必须建造在黑洞上。"
 
 sfdoll_mega_matter_convey_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_matter_convey_DESC$"
 
-tech_sfdoll_mega_matter_convey:0 "铁血物质传输器"
+tech_sfdoll_mega_matter_convey:0 "铁血物质开采器"
 tech_sfdoll_mega_matter_convey_desc:0 "$sfdoll_mega_matter_convey_DESC$"
 
 sfdoll_mega_event.2:0 "$sfdoll_mega_matter_convey$"
-sfdoll_mega_event_2_desc:0 "一座物质传输器已经建造完毕。现在，我们能用它开采黑洞中蕴含的资源。"
+sfdoll_mega_event_2_desc:0 "一座物质开采器已经建造完毕，它将提供丰富的资源。"
