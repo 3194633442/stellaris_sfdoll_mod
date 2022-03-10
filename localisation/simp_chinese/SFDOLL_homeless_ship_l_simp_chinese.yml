@@ -43,7 +43,7 @@ food_sfdoll_homeless:0 "生态模块 \n 生产:\n §Y6 $food$§! £food£ \n §Y
 sfdoll_homeless_ship_reactor:0 "星舰城市反应堆\n 产出:\n §Y20 $energy$§! £energy£ \n 消耗:\n §Y10 $minerals$§! £minerals£"
 
 tech_sfdoll_homeless_ship:0 "$sfdoll_homeless_ship$"
-tech_sfdoll_homeless_ship_desc:0 "$sfdoll_homeless_ship$是移动的微型太空城市,能够支持深空中的长期生活和生产.\n 每一艘 §Y$sfdoll_homeless_ship$§! 会占用16舰队指挥点，不占用海军容量.大型的星舰城市拥有更多槽位，但造价也更贵"
+tech_sfdoll_homeless_ship_desc:0 "$sfdoll_homeless_ship$是移动的微型太空城市,能够支持深空中的长期生活和生产.\n 大型的星舰城市拥有更多槽位，但造价也更贵"
 
 sfdoll_homeless_ship_thruster_1:0 "星舰城市推进器"
 

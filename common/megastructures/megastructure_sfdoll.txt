@@ -5,14 +5,15 @@ sfdoll_mega_starport = {
 	portrait = GFX_megastructure_background_sfdoll_mega_starport
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
-	build_time = 1800
+	build_time = 3600
 	construction_blocked_by_others = yes
 	construction_blocks_others = yes
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 16000
+			alloys = 30000
 			unity = 2500
+			sr_dark_matter = 360
 		}
 
 		upkeep = {
@@ -24,14 +25,14 @@ sfdoll_mega_starport = {
 	show_prereqs = yes
 
 	ship_modifier = {
-		ship_starting_experience_add = 100
+		ship_starting_experience_add = 200
 	}
 	station_modifier = {
-		starbase_shipyard_capacity_add = 10
-		starbase_shipyard_build_speed_mult = 1
+		starbase_shipyard_capacity_add = 20
+		starbase_shipyard_build_speed_mult = 2
 	}
 	country_modifier = {
-		country_naval_cap_add = 2000
+		country_naval_cap_add = 4000
 	}
 
 	possible = {
@@ -108,7 +109,7 @@ sfdoll_mega_matter_convey = {
 		}
 
 		produces = {
-			minerals = 2400
+			minerals = 2000
 		}
 		upkeep = {
 			energy = 50

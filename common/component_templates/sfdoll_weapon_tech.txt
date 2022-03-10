@@ -34,6 +34,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 250
+			GF_nyto_collapse_liquid = 50
 		}		
 		upkeep = {
 			energy = 4
@@ -84,7 +85,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 600
-			GF_nyto_collapse_liquid = 40
+			GF_nyto_collapse_liquid = 180
 		}		
 		upkeep = {
 			energy = 25

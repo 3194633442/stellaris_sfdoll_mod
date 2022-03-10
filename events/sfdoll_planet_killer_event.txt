@@ -39,21 +39,21 @@ planet_event = {
 					}
 				}
 			}
-			
+			#变成黑洞
+			change_pc = pc_black_hole
+			clear_deposits = yes
+			reset_planet = yes
 		}
-		# else = {
-		# 	change_pc = pc_shattered
-		# 	clear_deposits = yes
-		# }
-		#变成黑洞
-		change_pc = pc_black_hole
-		clear_deposits = yes
-		reset_planet = yes
+		else = {
+			change_pc = pc_shattered
+			clear_deposits = yes
+		}
+		
 		#行星需要缩小
-		if = {
-			limit = { is_star = no }
-			set_planet_size = 25
-		}
+		# if = {
+		# 	limit = { is_star = no }
+		# 	set_planet_size = 25
+		# }
 		
 		# set_planet_entity = {
 		# 	entity = black_hole_sfdoll_entity

@@ -96,3 +96,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/planet_killer_sfdoll_1.dds"
 	}
 }
+
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_starbase_shipyard_sfdoll"
+		texturefile = "gfx/interface/icons/modules/starbase_shipyard_sfdoll.dds"
+	}
+}

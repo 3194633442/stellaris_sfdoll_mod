@@ -5,11 +5,15 @@ tech_sfdoll_mega_starport= {
 	tier = 5
 	cost = @tier5cost3
 	category = { voidcraft }
+	is_rare = yes
 	icon = tech_sfdoll_mega_starport		
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sfdoll_collapse_liquid_produce
 		has_technology = tech_mega_engineering
+	}
+	modifier = {
+		country_resource_max_add = 20000
 	}
 	weight = @tier5weight3
 }
@@ -21,11 +25,15 @@ tech_sfdoll_mega_matter_convey = {
 	tier = 5
 	cost = @tier5cost3
 	category = { field_manipulation }
+	is_rare = yes
 	icon = tech_sfdoll_mega_matter_convey
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sfdoll_collapse_liquid_produce
 		has_technology = tech_mega_engineering
+	}
+	modifier = {
+		country_resource_max_add = 20000
 	}
 	weight = @tier5weight3
 }

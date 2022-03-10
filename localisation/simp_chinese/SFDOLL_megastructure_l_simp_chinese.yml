@@ -2,23 +2,26 @@
 ##########
 
 sfdoll_mega_starport:0 "铁血巨型星港"
-sfdoll_mega_starport_DESC:0 "铁血设计的现代化星港,能够高效造船，并提高帝国的海军容量"
+sfdoll_mega_starport_DESC:0 "巨型星港能够高速建造船只，并提高帝国的海军容量"
 
 sfdoll_mega_starport_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_DESC$"
 
 tech_sfdoll_mega_starport:0 "铁血巨型星港"
-tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$"
+tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$ \n 解锁恒星基地模块:§Y$shipyard_sfdoll$§!"
+
+sm_shipyard_sfdoll:0 "先进军港"
 
 sfdoll_mega_event.1:0 "$sfdoll_mega_starport$"
 sfdoll_mega_event_1_desc:0 "我们的巨型星港已经建造完毕。她将为我们的舰队带来强大的支持"
 
+
 sfdoll_mega_matter_convey:0 "铁血物质传输器"
-sfdoll_mega_matter_convey_DESC:0 "建造在黑洞上，用于收集黑洞与其他维度中的资源。"
+sfdoll_mega_matter_convey_DESC:0 "该巨构能转移黑洞内的物质，高效地开采黑洞中的资源。"
 
 sfdoll_mega_matter_convey_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_matter_convey_DESC$ "
 
 tech_sfdoll_mega_matter_convey:0 "铁血物质传输器"
-tech_sfdoll_mega_matter_convey_desc:0 "各类W槽制造的黑洞，不能显示允许巨构建造的特效。若要在这种黑洞上建造巨构，可选中工程船后右键黑洞。"
+tech_sfdoll_mega_matter_convey_desc:0 "$sfdoll_mega_matter_convey_DESC$"
 
 sfdoll_mega_event.2:0 "$sfdoll_mega_matter_convey$"
-sfdoll_mega_event_2_desc:0 "一座铁血物质传输器已经建造完毕，它将提供丰富的资源。"
+sfdoll_mega_event_2_desc:0 "一座铁血物质传输器已经建造完毕，它为我们带来丰富的资源。"

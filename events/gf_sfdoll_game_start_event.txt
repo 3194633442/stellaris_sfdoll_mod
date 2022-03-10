@@ -43,7 +43,6 @@ country_event = {
 		# 	add_building = building_sfdoll_assembly_plant
 		# 	#remove_building = building_commercial_zone
 		# }
-
 		capital_scope = {
 			remove_district = district_farming
 			remove_district = district_farming
@@ -55,7 +54,16 @@ country_event = {
 			}
 		}
 
-		#添加领袖flag，用于复活领袖
+		#拥有星海为家理念，解锁居住站
+		if = {
+			limit = {
+				has_civic = civic_sfdoll_4
+			}
+			give_technology =  {
+				tech = tech_habitat_1
+				message = no
+			}
+		}		
 
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising
