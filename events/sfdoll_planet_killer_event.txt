@@ -23,6 +23,7 @@ planet_event = {
 			every_owned_pop = {
 				kill_pop = yes
 			}
+			destroy_colony = yes
 		}
 
 		#炸的是恒星
