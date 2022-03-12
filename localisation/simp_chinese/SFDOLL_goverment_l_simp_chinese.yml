@@ -20,7 +20,7 @@ civic_sfdoll_culture:0"铁血文化宣传"
 civic_sfdoll_culture_desc:0"树立铁血文化自信，增强铁血国家软实力\n 解锁建筑 §H $building_sfdoll_museum$ §!"
 
 civic_sfdoll_4:0 "星海为家"
-civic_sfdoll_4_desc:0 "铁血人形曾经无家可归.但如今,无垠的星海就是我们的家园.\n 开局时拥有该理念，将获得科技:§H $tech_habitat_1$ §!"
+civic_sfdoll_4_desc:0 "铁血人形曾经无家可归.但如今,无垠的星海就是我们的家园.\n 如果用于开局，将获得科技:§H $tech_habitat_1$ §!"
 
 gov_civic_sfdoll_commonwealth:0"铁血联邦政府"
 gov_civic_sfdoll_commonwealth_desc:0"铁血人形AI们掌握着这个政府"

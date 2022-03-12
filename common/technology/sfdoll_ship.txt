@@ -189,6 +189,7 @@ tech_sfdoll_tactical_destroyer = {
 	cost = @tier5cost2
 	area = engineering
 	start_tech = no
+	is_rare = yes
 	icon = tech_sfdoll_tactical_destroyer
 	category = { voidcraft }
 	potential = {
@@ -220,7 +221,7 @@ tech_ship_sfdoll_carrier = {
 
 #铁血星舰城市
 tech_sfdoll_homeless_ship = {
-	cost = @tier5cost1
+	cost = @tier3cost1
 	area = engineering
 	start_tech = no
 	icon = tech_sfdoll_tactical_destroyer
@@ -228,12 +229,32 @@ tech_sfdoll_homeless_ship = {
 	category = { voidcraft }
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_battleships
-		has_technology = tech_sfdoll_collapse_liquid_produce
 	}
 	modifier = {
-		country_resource_max_add = 40000
+		country_resource_max_add = 20000
 	}
-	tier = 5
-	weight = @tier5weight1
+	tier = 3
+	weight = @tier3weight1
 }
+
+#升级星舰城市
+# tech_sfdoll_homeless_ship_update = {
+# 	cost = @tier5cost1
+# 	area = engineering
+# 	start_tech = no
+# 	icon = tech_sfdoll_tactical_destroyer
+# 	is_rare = yes
+# 	category = { voidcraft }
+# 	potential = {
+# 		has_authority = auth_gf_sfdoll
+# 		has_technology = tech_sfdoll_homeless_ship
+# 		has_technology = tech_sfdoll_collapse_liquid_produce
+# 	}
+# 	modifier = {
+# 		country_resource_max_add = 20000
+# 	}
+# 	tier = 5
+# 	weight = @tier5weight1
+# }
+# tech_sfdoll_homeless_ship_update:0 "星舰工业革命"
+# tech_sfdoll_homeless_ship_update_desc:0 "改进星舰城市的产业体系"

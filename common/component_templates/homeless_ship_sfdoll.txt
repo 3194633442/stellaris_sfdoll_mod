@@ -17,7 +17,7 @@ weapon_component_template = {
 			alloys =200
 		}
 		produces = {
-			consumer_goods = 60
+			consumer_goods = 12
 		}
 		upkeep = {
 			minerals = 6
@@ -33,6 +33,10 @@ weapon_component_template = {
 	size = large
 	icon = "GFX_consumer_goods_sfdoll_homeless"
 	icon_frame = 1
+	prerequisites = {
+		tech_sfdoll_nanites_goods
+	}
+
 	power = 2000
 	damage = {
 		min = 0
@@ -48,6 +52,7 @@ weapon_component_template = {
 		}
 		upkeep = {
 			minerals = 6
+			GF_nyto_collapse_liquid = 0.5
 			consumer_goods = 0.5
 		}
 	}
@@ -73,7 +78,7 @@ weapon_component_template = {
 			alloys = 200
 		}
 		produces = {
-			alloys = 30
+			alloys = 6
 		}
 		upkeep = {
 			minerals = 6
@@ -89,6 +94,9 @@ weapon_component_template = {
 	size = large
 	icon = "GFX_alloys_sfdoll_homeless"
 	icon_frame = 1
+	prerequisites = {
+		tech_sfdoll_collapse_alloys_produce
+	}
 	power = 2000
 	damage = {
 		min = 0
@@ -104,6 +112,7 @@ weapon_component_template = {
 		}
 		upkeep = {
 			minerals = 6
+			GF_nyto_collapse_liquid = 0.5
 			consumer_goods = 0.5
 		}
 	}
@@ -130,9 +139,9 @@ weapon_component_template = {
 			alloys = 200
 		}
 		produces = {
-			physics_research = 40
-			society_research =  40
-			engineering_research =  40
+			physics_research = 8
+			society_research =  8
+			engineering_research =  8
 		}
 		upkeep = {
 			consumer_goods = 2.5
@@ -148,6 +157,9 @@ weapon_component_template = {
 	#entity = "empty_set_entity_ev"
 	icon = "GFX_research_sfdoll_homeless"
 	icon_frame = 1
+	prerequisites = {
+		tech_sfdoll_lab
+	}
 	power = 2000
 	damage = {
 		min = 0
@@ -164,6 +176,7 @@ weapon_component_template = {
 			engineering_research =  40
 		}
 		upkeep = {
+			GF_nyto_collapse_liquid = 0.5
 			consumer_goods = 2.5
 		}
 	}
@@ -179,6 +192,9 @@ weapon_component_template = {
 	#entity = "empty_set_entity_ev"
 	icon = "GFX_collapse_liquid_sfdoll_homeless"
 	icon_frame = 1
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
 	power = 2000
 	damage = {
 		min = 0
@@ -208,6 +224,9 @@ weapon_component_template = {
 	icon = "GFX_sr_dark_matter_sfdoll_homeless"
 	icon_frame = 1
 	power = 2000
+	prerequisites = {
+		tech_sfdoll_dark_matter_plant
+	}
 	damage = {
 		min = 0
 		max = 0
@@ -261,25 +280,26 @@ weapon_component_template = {
 	component_set = "college_sfdoll_homeless_set"
 }
 
+
 #异星天然气模块
 weapon_component_template = {
 	key = "exotic_gases_sfdoll_homeless"
 	size = large
 	icon = "GFX_exotic_gases_sfdoll_homeless"
 	icon_frame = 1
+	
 	power = 2000
 	damage = {
 		min = 0
 		max = 0
 	}
-	upgrades_to = exotic_gases_sfdoll_homeless_2
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = 200
 		}
 		produces = {
-			exotic_gases = 20
+			exotic_gases = 10
 		}
 		upkeep = {
 			minerals = 10
@@ -289,33 +309,7 @@ weapon_component_template = {
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "exotic_gases_sfdoll_homeless_set"
 }
-#高级气体模块
-weapon_component_template = {
-	key = "exotic_gases_sfdoll_homeless_2"
-	size = large
-	icon = "GFX_exotic_gases_sfdoll_homeless"
-	icon_frame = 1
-	power = 2000
-	damage = {
-		min = 0
-		max = 0
-	}
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 400
-		}
-		produces = {
-			exotic_gases = 20
-		}
-		upkeep = {
-			minerals = 10
-			consumer_goods = 0.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship 	}
-	component_set = exotic_gases_sfdoll_homeless_2_set
-}
+
 
 #稀有水晶模块
 weapon_component_template = {
@@ -328,14 +322,13 @@ weapon_component_template = {
 		min = 0
 		max = 0
 	}
-	upgrades_to = rare_crystals_sfdoll_homeless_2
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = 200
 		}
 		produces = {
-			rare_crystals = 20
+			rare_crystals = 10
 		}
 		upkeep = {
 			minerals = 10
@@ -344,33 +337,6 @@ weapon_component_template = {
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "rare_crystals_sfdoll_homeless_set"
-}
-#高级稀有水晶模块
-weapon_component_template = {
-	key = "rare_crystals_sfdoll_homeless_2"
-	size = large
-	icon = "GFX_rare_crystals_sfdoll_homeless"
-	icon_frame = 1
-	power = 2000
-	damage = {
-		min = 0
-		max = 0
-	}
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 400
-		}
-		produces = {
-			rare_crystals = 20
-		}
-		upkeep = {
-			minerals = 10
-			consumer_goods = 0.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship 	}
-	component_set = rare_crystals_sfdoll_homeless_2_set
 }
 
 #易爆微粒模块
@@ -384,14 +350,13 @@ weapon_component_template = {
 		min = 0
 		max = 0
 	}
-	upgrades_to = volatile_motes_sfdoll_homeless_2
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = 200
 		}
 		produces = {
-			volatile_motes = 20
+			volatile_motes = 10
 		}
 		upkeep = {
 			minerals = 10
@@ -401,33 +366,7 @@ weapon_component_template = {
 	size_restriction = { sfdoll_homeless_ship	 }
 	component_set = "volatile_motes_sfdoll_homeless_set"
 }
-#高级易爆微粒模块
-weapon_component_template = {
-	key = "volatile_motes_sfdoll_homeless_2"
-	size = large
-	icon = "GFX_volatile_motes_sfdoll_homeless"
-	icon_frame = 1
-	power = 2000
-	damage = {
-		min = 0
-		max = 0
-	}
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 400
-		}
-		produces = {
-			volatile_motes = 20
-		}
-		upkeep = {
-			minerals = 10
-			consumer_goods = 0.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship	 }
-	component_set = volatile_motes_sfdoll_homeless_2_set
-}
+
 
 #生态模块
 weapon_component_template = {
@@ -564,3 +503,100 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+
+# #高级气体模块
+# weapon_component_template = {
+# 	key = "exotic_gases_sfdoll_homeless_2"
+# 	size = large
+# 	icon = "GFX_exotic_gases_sfdoll_homeless"
+# 	icon_frame = 1
+# 	prerequisites = {
+# 		tech_sfdoll_homeless_ship_update
+# 	}
+# 	power = 2000
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 400
+# 		}
+# 		produces = {
+# 			exotic_gases = 20
+# 		}
+# 		upkeep = {
+# 			minerals = 10
+# 			GF_nyto_collapse_liquid = 0.5
+# 			consumer_goods = 0.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship 	}
+# 	component_set = exotic_gases_sfdoll_homeless_2_set
+# }
+
+# #高级稀有水晶模块
+# weapon_component_template = {
+# 	key = "rare_crystals_sfdoll_homeless_2"
+# 	size = large
+# 	icon = "GFX_rare_crystals_sfdoll_homeless"
+# 	icon_frame = 1
+# 	prerequisites = {
+# 		tech_sfdoll_homeless_ship_update
+# 	}
+# 	power = 2000
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 400
+# 		}
+# 		produces = {
+# 			rare_crystals = 20
+# 		}
+# 		upkeep = {
+# 			minerals = 10
+# 			GF_nyto_collapse_liquid = 0.5
+# 			consumer_goods = 0.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship 	}
+# 	component_set = rare_crystals_sfdoll_homeless_2_set
+# }
+
+# #高级易爆微粒模块
+# weapon_component_template = {
+# 	key = "volatile_motes_sfdoll_homeless_2"
+# 	size = large
+# 	icon = "GFX_volatile_motes_sfdoll_homeless"
+# 	prerequisites = {
+# 		tech_sfdoll_homeless_ship_update
+# 	}
+# 	icon_frame = 1
+# 	power = 2000
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 400
+# 		}
+# 		produces = {
+# 			volatile_motes = 20
+# 		}
+# 		upkeep = {
+# 			minerals = 10
+# 			GF_nyto_collapse_liquid = 0.5
+# 			consumer_goods = 0.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship	 }
+# 	component_set = volatile_motes_sfdoll_homeless_2_set
+# }

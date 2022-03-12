@@ -3,6 +3,7 @@ tech_sfdoll_collapse_liquid_produce = {
 	cost = @tier4cost2
 	area = physics
 	tier = 4
+	is_rare = yes
 	category = { particles }
 	icon = tech_sfdoll_collapse_liquid_produce
 	potential = {	has_authority = auth_gf_sfdoll	}
@@ -14,6 +15,7 @@ tech_sfdoll_lab = {
 	area = physics
 	icon = tech_sfdoll_lab
 	tier = 4
+	is_rare = yes
 	category = { particles }
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
@@ -24,6 +26,7 @@ tech_sfdoll_collapse_energy = {
 	cost = @tier4cost3
 	area = physics
 	tier = 4
+	is_rare = yes
 	category = { particles }
 	icon = tech_sfdoll_collapse_energy
 	potential = {	has_authority = auth_gf_sfdoll }
@@ -65,6 +68,7 @@ tech_sfdoll_nanites_goods= {
 	cost = @tier3cost3
 	area = society
 	tier = 3
+	is_rare = yes
 	category = { statecraft }
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
 	weight = @tier3weight3
@@ -79,6 +83,7 @@ tech_sfdoll_dark_matter_plant = {
 	cost = @tier4cost2
 	area = physics
 	tier = 4
+	is_rare = yes
 	category = { particles }
 	#需要铁血政体
 	prerequisites = {	tech_sensors_4	}

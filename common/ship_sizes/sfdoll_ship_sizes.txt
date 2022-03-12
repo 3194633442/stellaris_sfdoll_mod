@@ -52,7 +52,6 @@ sfdoll_homeless_ship = {
 	required_component_set = "thruster_components"
 	required_component_set = "combat_computers"
 	modifier = {
-		ship_weapon_damage = -0.50
 	}
 
 	resources = {
