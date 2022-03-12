@@ -262,12 +262,12 @@ utility_component_template = {
 	icon = "GFX_sfdoll_thruster"
 	icon_frame = 1
 	modifier = {
-		ship_base_speed_mult = 1
+		#ship_base_speed_mult = 1
 		ship_evasion_add = 20
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { 	sfdoll_destroyer}
+	size_restriction = { 	sfdoll_destroyer ship_sfdoll_strategy }
 	resources = {
 		category = ship_components
 		cost = {

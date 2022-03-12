@@ -122,3 +122,10 @@ on_destroy_planet_with_planet_killer_sfdoll_1 = {
 		#crisis.4550
 	}
 }
+
+
+on_destroy_planet_with_planet_killer_sfdoll_2 = {
+	events = {
+		sfdoll_planet_killer_event.2
+	}
+}

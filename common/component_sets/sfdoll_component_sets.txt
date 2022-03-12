@@ -50,3 +50,10 @@ component_set = {
 	icon = GFX_planet_killer_sfdoll_1
 	icon_frame = 1
 }
+
+#星域重铸
+component_set = {
+	key = "planet_killer_sfdoll_2"
+	icon = GFX_planet_killer_sfdoll_1
+	icon_frame = 1
+}

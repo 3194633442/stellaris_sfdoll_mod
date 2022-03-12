@@ -109,15 +109,3 @@ DEFAULT_CONSTRUCTION_SFDOLL_SECTION:0 "高速工程船区段"
 
 #2X
 sfdoll_battleship_bow_x2:0 "双门X型舰艏"
-
-
-#planet_killer
-planet_killer_sfdoll_1:0 "视界诞生"
-planet_killer_sfdoll_1_DESC:0 "该设备会让恒星收缩到史瓦西半径内，最终成为黑洞，而不会波及周围的天体。也可用于摧毁小型天体。"
-planet_killer_sfdoll_1_ACTION:0 "视界诞生"
-
-FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "视界诞生"
-
-MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "转化"
-
-
