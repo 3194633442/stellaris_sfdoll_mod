@@ -1,4 +1,4 @@
-#星辰击坠
+#星辰猎手
 weapon_component_template = {
 	key = "planet_killer_sfdoll_2"
 	size = planet_killer

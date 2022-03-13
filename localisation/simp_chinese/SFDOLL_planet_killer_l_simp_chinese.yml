@@ -1,12 +1,18 @@
 ﻿l_simp_chinese:
 ###############################
 #planet_killer
+planet_killer_sfdoll_2:0 "星辰猎手"
+planet_killer_sfdoll_2_DESC:0 "用于跨星系的超光速打击，可摧毁恒星系和其中的舰队"
+
+sfdoll_planet_killer_event.3:0 "选择瞄准的星系"
+sfdoll_planet_killer_event_3_desc:0 "攻击范围:超光速航道4跳以内，或者探测距离2以内的星系"
 sfdoll_planet_killer_event_3_option_1:0 "[target_1_of_planet_killer.GetName]"
 sfdoll_planet_killer_event_3_option_2:0 "[target_2_of_planet_killer.GetName]"
 sfdoll_planet_killer_event_3_option_3:0 "[target_3_of_planet_killer.GetName]"
 sfdoll_planet_killer_event_3_option_4:0 "[target_4_of_planet_killer.GetName]"
 sfdoll_planet_killer_event_3_option_5:0 "下一页"
-sfdoll_planet_killer_event_3_option_6:0 "取消本次攻击"
+sfdoll_planet_killer_event_3_option_6:0 "重新选择"
+sfdoll_planet_killer_event_3_option_7:0 "取消本次攻击"
 
 planet_killer_sfdoll_1:0 "视界诞生"
 planet_killer_sfdoll_1_DESC:0 "该设备会让恒星收缩到史瓦西半径内，最终成为黑洞，而不会波及周围的天体。也可用于摧毁小型天体。"
