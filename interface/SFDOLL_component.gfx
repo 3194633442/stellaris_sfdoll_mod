@@ -97,6 +97,12 @@ spriteTypes = {
 	}
 }
 
+spriteTypes = {
+	spriteType = {
+		name = "GFX_planet_killer_sfdoll_2"
+		texturefile = "gfx/interface/icons/ship_parts/planet_killer_sfdoll_2.dds"
+	}
+}
 
 spriteTypes = {
 	spriteType = {

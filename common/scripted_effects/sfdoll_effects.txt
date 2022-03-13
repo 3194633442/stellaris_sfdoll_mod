@@ -123,6 +123,9 @@ triela_become_general_sfdoll_effect = {
 remove_flag_sfdoll_planet_killer_target_effect = {
 	hidden_effect = {
 		every_system = {
+			limit = {
+				has_star_flag = flag_sfdoll_planet_killer_target
+			}
 			remove_star_flag = flag_sfdoll_planet_killer_target
 		}
 	}

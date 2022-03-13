@@ -135,11 +135,12 @@ country_event = {
 	title = "sfdoll_planet_killer_event.3"
 	desc = "sfdoll_planet_killer_event_3_desc"
 	is_triggered_only = yes
+	picture = GFX_evp_sfdoll_ship_in_orbit
 	immediate = {
 		#计数变量
 		set_variable = {
 			which = count_sfdoll_planet_killer_target
-			value = 4
+			value = 1
 		}
 
 		#清除之前留下的event target
@@ -214,16 +215,10 @@ country_event = {
 					}
 				}
 				set_star_flag = flag_sfdoll_planet_killer_target
-				create_message = {
-					type = ALIEN_MEGASTRUCTURE_BUILT
-					localization = this
-					days = 30
-					target = THIS
-				}
 	
 				#遍历了一次,减少统计变量
 				root = {
-					subtract_variable = {
+					change_variable = {
 						which = count_sfdoll_planet_killer_target
 						value = 1
 					}
@@ -367,7 +362,7 @@ planet_event = {
 				#save_event_target_as = crisis_country
 				add_victory_score = {
 					source = destroyed_stars_score
-					score = 20
+					score = 10
 				}
 				#初次炸恒星
 				if = {
@@ -381,6 +376,14 @@ planet_event = {
 		solar_system = { save_event_target_as = destroyed_system }
 		solar_system = {
 			destroy_star_system = yes
+		}
+		from = {
+			create_message = {
+				type = PLANET_DESTROYED
+				localization = message_sfdoll_pk_2
+				days = 30
+				target = prev
+			}
 		}
 	}
 }

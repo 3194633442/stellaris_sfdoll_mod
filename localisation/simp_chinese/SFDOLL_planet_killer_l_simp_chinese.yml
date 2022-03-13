@@ -2,17 +2,26 @@
 ###############################
 #planet_killer
 planet_killer_sfdoll_2:0 "星辰猎手"
-planet_killer_sfdoll_2_DESC:0 "用于跨星系的超光速打击，可摧毁恒星系和其中的舰队"
+planet_killer_sfdoll_2_DESC:0 "用于进行跨星系攻击，会摧毁整个星系和其中的舰队\n 使用方法:对任意星球发射,这一步只会确定攻击范围,不会破坏任何星球.之后,该星球所在的星系，以及周围一定范围内的星系，会成为攻击的备选目标.\n $sfdoll_planet_killer_event_3_desc$"
 
-sfdoll_planet_killer_event.3:0 "选择瞄准的星系"
-sfdoll_planet_killer_event_3_desc:0 "攻击范围:超光速航道4跳以内，或者探测距离2以内的星系"
-sfdoll_planet_killer_event_3_option_1:0 "[target_1_of_planet_killer.GetName]"
-sfdoll_planet_killer_event_3_option_2:0 "[target_2_of_planet_killer.GetName]"
-sfdoll_planet_killer_event_3_option_3:0 "[target_3_of_planet_killer.GetName]"
-sfdoll_planet_killer_event_3_option_4:0 "[target_4_of_planet_killer.GetName]"
+planet_killer_sfdoll_2_ACTION:0 "星辰猎手"
+FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "星辰猎手"
+MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "成为了发射基址"
+
+sfdoll_planet_killer_event.3:0 "星辰猎手:选择目标星系"
+sfdoll_planet_killer_event_3_desc:0 "范围限制:超光速航道4跳以内，或者探测距离2以内的星系"
+
+sfdoll_planet_killer_event_3_option_1:0 "[event_target:target_1_of_pk_sfdoll.GetName]"
+sfdoll_planet_killer_event_3_option_2:0 "[event_target:target_2_of_pk_sfdoll.GetName]"
+sfdoll_planet_killer_event_3_option_3:0 "[event_target:target_3_of_pk_sfdoll.GetName]"
+sfdoll_planet_killer_event_3_option_4:0 "[event_target:target_4_of_pk_sfdoll.GetName]"
+
 sfdoll_planet_killer_event_3_option_5:0 "下一页"
 sfdoll_planet_killer_event_3_option_6:0 "重新选择"
 sfdoll_planet_killer_event_3_option_7:0 "取消本次攻击"
+
+message_sfdoll_pk_2:0 "远程打击已经命中目标星系"
+
 
 planet_killer_sfdoll_1:0 "视界诞生"
 planet_killer_sfdoll_1_DESC:0 "该设备会让恒星收缩到史瓦西半径内，最终成为黑洞，而不会波及周围的天体。也可用于摧毁小型天体。"
