@@ -112,6 +112,108 @@ on_ascension_perk_picked = {
 	}
 }
 
+# This = owner of fleet 1
+# From = owner of fleet 2
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_entering_battle = {
+	events = {
+		fleet_sfdoll_event.1
+	}
+}
+
+# This = owner of fleet 1 (winner)
+# From = owner of fleet 2 (loser)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_space_battle_won = {
+	events = {
+		
+	}
+}
+
+# This = owner of ship 1 (destroyed)
+# From = owner of ship 2 (combatant)
+# FromFrom = ship 1
+# FromFromFrom = ship 2
+on_ship_destroyed_victim = {
+	events = {
+	}	
+}
+
+# This = owner of ship 1 (combatant)
+# From = owner of ship 2 (destroyed)
+# FromFrom = ship 1
+# FromFromFrom = ship 2
+on_ship_destroyed_perp = {
+	events = {
+	}
+}
+
+# This = owner of fleet 1 (destroyed)
+# From = owner of fleet 2 (combatant)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_fleet_destroyed_victim = {
+	events = {
+	}
+}
+
+
+# This = owner of fleet 1 (combatant)
+# From = owner of fleet 2 (destroyed)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_fleet_destroyed_perp = {
+	events = {
+
+	}
+}
+
+on_entering_system_fleet = {
+	events = {
+	}
+}
+
+on_ship_built = {
+	events = {
+	}
+}
+
+# this = ship
+# 星球压制舰被制造 / 升级时触发
+# on_wg_pod_built = {
+# 	events = {
+
+# 	}
+# }
+
+# this = ship
+# from = bombarded planet
+# 星球压制舰轰炸时触发
+# on_wg_pod_bombarding_planet = {
+# 	events = {
+# 	}
+# }
+
+# this = ship
+# 星球压制舰轰炸的星球的陆军战斗结束时触发
+# on_wg_pod_planet_fight_end = {
+# 	events = {
+# 	}
+# }
+
+on_fleet_disbanded = {
+	events = {
+
+	}
+}
+
+on_fleet_destroyed_victim = {
+	events = {
+
+	}
+}
 
 #炸球
 on_destroy_planet_with_planet_killer_sfdoll_1 = {

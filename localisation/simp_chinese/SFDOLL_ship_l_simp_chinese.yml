@@ -53,7 +53,7 @@ sfdoll_thruster_7:0 "$sfdoll_thruster$"
 
 
 #computer
-sfdoll_combat_computer_1:0"铁血战舰AI(蜂拥)"
+sfdoll_combat_computer_1:0"铁血战舰AI(手动)"
 sfdoll_combat_computer_2:0"铁血战舰AI(炮击)"
 sfdoll_combat_computer_3:0"铁血战舰AI(航母)"
 

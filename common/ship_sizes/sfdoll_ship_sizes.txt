@@ -200,11 +200,11 @@ sfdoll_destroyer= {
 	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_16
-	base_buildtime = 480
+	base_buildtime = 1 #480
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
-	components_add_to_cost = yes
+	components_add_to_cost = no #yes
 
 	prerequisites = { "tech_sfdoll_tactical_destroyer" }
 
@@ -220,8 +220,8 @@ sfdoll_destroyer= {
 	resources = {
 		category = ships
 		cost = {
-			sr_dark_matter = 480
-			GF_nyto_collapse_liquid = 40
+			# sr_dark_matter = 480
+			# GF_nyto_collapse_liquid = 40
 		}
 		upkeep = {
 			energy = 10

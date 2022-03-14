@@ -109,3 +109,30 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+#潜航系统
+# utility_component_template = {
+# 	key = "component_aura_sfdoll_5"
+# 	size = medium
+# 	icon = "GFX_component_aura_sfdoll_1"
+# 	icon_frame = 1
+# 	power = 0
+# 	size_restriction = { ship_sfdoll_carrier sfdoll_destroyer }
+# 	component_set = "ship_aura_components"
+		
+# 	friendly_aura = {
+# 		name = "friendly_aura_sfdoll_5"
+# 		radius = 250
+# 		apply_on = fleets
+		
+# 		stack_info = {
+# 			id = id_friendly_aura_sfdoll_5
+# 			priority = 1
+# 		}
+		
+# }
+# 	ai_weight = {
+# 		weight = 0
+# 	}
+# }
+
