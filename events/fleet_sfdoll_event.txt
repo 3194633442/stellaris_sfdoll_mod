@@ -1,0 +1,26 @@
+namespace = fleet_sfdoll_event
+
+#通用判断，是否为铁血的舰队
+country_event = {
+	id = fleet_sfdoll_event.1
+	is_triggered_only = yes
+	title= fleet_sfdoll_event.1
+	trigger = {	has_authority = auth_gf_sfdoll	 }
+	immediate = {
+		fromfrom = {
+			
+		}
+	}
+}
+
+fleet_event = {
+	id = fleet_sfdoll_event.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_in_combat = yes
+		any_owned_ship = {
+			has_component = sfdoll_weapen_t_7
+		}
+	}
+}
