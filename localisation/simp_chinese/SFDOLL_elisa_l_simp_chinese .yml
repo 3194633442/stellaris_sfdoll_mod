@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+###############################
+sfdoll_elisa_event.2:0 "伊莱莎"
+sfdoll_elisa_event_2_a_desc:0 "要喝咖啡吗?"
+sfdoll_elisa_event_2_b_desc:0 "别光坐着，多运动。"
+sfdoll_elisa_event_2_c_desc:0 "父亲，露尼西亚..我能追上你们吗?"
+
+
+elisa_to_scientist:0 "请你领导科研工作"
+elisa_has_this_job_now:0 "伊莱莎已经在做这项工作"
+response_text_elisa_to_scientist:0 "开始准备新计划吧。"
+
+leader_trait_elisa_sfd_scientist:0 "恶魔的温柔"
+leader_trait_elisa_sfd_scientist_desc:0 "伊莱莎曾经是一个超级AI，并担任过铁血的最高领袖.低调，擅长照顾人，对研究有着异常的热情"
+
+sfdoll_break_option:0 "退出"

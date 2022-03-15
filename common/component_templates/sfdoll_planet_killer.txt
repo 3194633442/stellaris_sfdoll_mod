@@ -1,3 +1,28 @@
+#星辰猎手
+weapon_component_template = {
+	key = "planet_killer_sfdoll_2"
+	size = planet_killer
+	type = planet_killer
+	use_ship_kill_target = no
+	can_destroy_stars = yes
+	icon = GFX_planet_killer_sfdoll_2
+	icon_frame = 1
+	windup = {
+		min = 15
+		max = 15
+	}
+    total_fire_time = 15
+    accuracy = 1
+    range = 350
+
+	size_restriction = { ship_sfdoll_carrier }
+	component_set = "planet_killer_sfdoll_2"
+
+	planet_destruction_gfx = "star_destroyer_effect_gfx"
+	
+}
+
+#视界诞生
 weapon_component_template = {
 	key = "planet_killer_sfdoll_1"
 	size = planet_killer

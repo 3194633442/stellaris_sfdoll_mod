@@ -1,0 +1,19 @@
+# scope: ship
+# add_hp_sfd_ship = {
+# 	if = {
+# 		limit = { has_hp < 500000 }
+# 		add_modifier = { modifier = add_hp_1500000_times days = $DAYS$ }
+# 	}
+# 	else_if = {
+# 		limit = { has_hp < 1000000 }
+# 		add_modifier = { modifier = add_hp_1000000_times days = $DAYS$ }
+# 	}
+# 	else_if = {
+# 		limit = { has_hp < 1500000 }
+# 		add_modifier = { modifier = add_hp_500000_times days = $DAYS$ }
+# 	}
+# }
+
+add_hp_sfd = {
+	
+}

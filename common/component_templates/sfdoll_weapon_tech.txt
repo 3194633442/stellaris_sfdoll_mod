@@ -325,7 +325,7 @@ weapon_component_template = {
 	prerequisites = { "tech_sfdoll_weapon_p_6" }
 	component_set = "component_set_sfdoll_weapon_p_6"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_point_defense }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense }
 	ai_tags = { weapon_role_point_defense }
 	ai_tag_weight = 0
 	resources = {
@@ -339,6 +339,60 @@ weapon_component_template = {
 	}
 	ai_weight = {
 		weight = 1500
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "sfdoll_weapen_t_7"
+	size = titanic
+	type = instant
+	#待修改
+	icon = "GFX_sfdoll_weapen_t_2"
+	icon_frame = 1
+	projectile_gfx = "perdition_beam"
+	firing_arc = 25.0
+	min_range = 10.0
+	static_rotation = yes
+	use_ship_kill_target = no
+	#8500
+	damage = { min = 14000 max = 22000 }
+	#冷却时间要除以10
+	windup = { min = 30 max = 40 }
+	total_fire_time = 175
+	range = 350
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.15
+	power = -1200
+	
+	#待修改
+	#prerequisites = { "tech_sfdoll_weapen_t_2" }
+	component_set = "sfdoll_weapen_t_7"
+	#projectile_gfx = 武器效果
+	tags = { weapon_type_energy weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 1200
+			GF_nyto_collapse_liquid = 180
+		}		
+		upkeep = {
+			energy = 25
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = 0
+			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
+		}
 		modifier = {
 			factor = -4
 			NOT = {	has_authority = auth_gf_sfdoll	}

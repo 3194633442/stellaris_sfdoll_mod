@@ -31,7 +31,6 @@ auth_gf_sfdoll = {
 	}
 	traits = {
 		trait = trait_gf_sfdoll
-		trait = trait_sfdoll_low_efficiency
 	}
 	country_modifier = {
 	    country_base_influence_produces_add = 2

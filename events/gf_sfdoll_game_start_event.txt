@@ -65,6 +65,11 @@ country_event = {
 			}
 		}		
 
+		country_event = {
+			id = sfdoll_elisa_event.1
+			days = 5
+		}
+
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising
 		set_country_flag = synth_detector

@@ -1,0 +1,126 @@
+#战略攻击舰 section_sfdoll_strategy_1:0 "战略攻击舰"
+# ship_section_template = {
+# 	key = "section_sfdoll_strategy_1"
+# 	ship_size = ship_sfdoll_strategy
+# 	fits_on_slot = ship
+# 	should_draw_components = yes
+# 	entity = juggernaut_core_section_entity
+# 	icon = "GFX_ship_part_core_bow"
+
+# 	component_slot = {
+# 		name = "PLANET_KILLER_GUN_01"
+# 		template = "invisible_planet_killer_fixed"
+# 		locatorname = root
+# 	}
+	
+# 	component_slot = {
+# 		name = "L_01"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_02"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_03"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_04"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_05"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_06"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_07"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_08"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_09"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_10"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_11"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_12"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_13"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_14"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_15"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_16"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_17"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_18"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_19"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+# 	component_slot = {
+# 		name = "L_20"
+# 		template = "large_turret"
+# 		locatorname = root
+# 	}
+
+
+# 	large_utility_slots = 20
+# 	aux_utility_slots = 3
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 480
+# 		}
+# 	}
+# }

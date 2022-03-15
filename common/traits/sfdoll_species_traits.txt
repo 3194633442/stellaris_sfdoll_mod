@@ -228,15 +228,6 @@ trait_sfdoll_high_bandwidth = {
 	modifier = {	planet_jobs_unity_produces_mult = -0.10	}
 }
 
-trait_sfdoll_low_efficiency= {
-	cost= 0
-	initial = no
-	randomized = no
-	icon = "gfx/interface/icons/traits/sfdoll/trait_sfdoll_low_efficiency.dds"
-	advanced_trait = no
-	allowed_archetypes = {	SFDOLL	}
-	modifier = {	planet_jobs_produces_mult = -0.10	}	
-}
 
 #update
 trait_sfdoll_efficient_produce= {

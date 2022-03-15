@@ -24,3 +24,119 @@ fleet_event = {
 		}
 	}
 }
+#id标准写法为namespace的值加上编号
+
+#主判断，判断是否为铁血舰船
+country_event = {
+	id = fleet_sfdoll_event.1
+	is_triggered_only = yes
+	trigger = {
+		this = {
+			has_authority = auth_gf_sfdoll
+		}
+	}
+	immediate = {
+		#fromfrom为加入交战的一方舰队，并属于root国家
+		fromfrom = {
+			#事件里有判断，所以无需在此判断
+			# fleet_event = {
+			# 	id = fleet_sfdoll_event.2
+			# }
+		}
+	}
+
+}
+
+#光环，舰船伪无敌
+# fleet_event = {
+# 	id = fleet_sfdoll_event.2
+#     hide_window = yes
+#     is_triggered_only = yes
+# 	trigger = {
+# 		is_in_combat = yes
+# 		any_owned_ship = {
+# 			has_component = component_aura_sfdoll_5
+# 		}
+#     }
+
+# 	immediate = {
+# 		every_owned_ship = {
+# 			set_timed_ship_flag = {
+# 				flag = invincible_sf
+# 				days = 10
+# 			}
+# 			#临时加血
+# 			add_hp_sfd_ship = { DAYS = 10 }
+# 			ship_event = {
+# 				id = fleet_sfdoll_event.3
+# 			}
+# 		}
+# 	}
+# }
+
+# #具有无敌flag的舰船的效果
+# ship_event = {
+# 	id = fleet_sfdoll_event.3
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	trigger = {
+# 		has_ship_flag = invincible_sf
+# 	}
+# 	immediate = {
+# 		repair_ship = yes
+# 		ship_event = {
+# 			id = fleet_sfdoll_event.3
+# 			days = 1
+# 		}
+# 	}
+# }
+
+#计算T槽数量，进行即死攻击
+fleet_event = {
+	id = fleet_sfdoll_event.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		any_owned_ship = { has_component = sfdoll_weapen_t_7 }
+	}
+	immediate = {
+		every_owned_ship = {
+			limit = { has_component = sfdoll_weapen_t_7 }
+			root = {
+				change_variable = {
+					which = sfd_t7_count
+					value = 1
+
+				}
+			}
+			export_modifier_to_variable = {
+				modifier = weapon_type_energy_weapon_damage_mult
+				variable = weapon_type_energy_weapon_damage_mult
+			}
+			export_modifier_to_variable = {
+				modifier = weapon_type_energy_weapon_damage_mult
+				variable = weapon_type_energy_weapon_damage_mult
+			}
+			# export_trigger_value_to_variable = {
+			# 	trigger = sfdoll_weapen_t_7_min_damage
+			# 	variable = x
+			# }
+			
+		}
+		# solar_system = {
+		# 	while = {
+		# 		count = sfd_t7_count
+		# 		random_ship_in_system = {
+		# 			limit = {
+		# 				owner = {
+		# 					is_hostile_to = root.owner
+		# 				}
+		# 			}
+
+		# 		}
+
+		# 	}
+		# }
+
+	}
+}

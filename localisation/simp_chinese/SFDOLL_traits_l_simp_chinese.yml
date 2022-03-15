@@ -54,9 +54,6 @@ trait_sfdoll_assembly_slowly_desc:0"组装这些铁血人形较为费时"
 trait_sfdoll_high_bandwidth:0 "低效联络"
 trait_sfdoll_high_bandwidth_desc:0 "这些铁血人形的信息传输功能较弱"
 
-trait_sfdoll_low_efficiency:0"性能不足"
-trait_sfdoll_low_efficiency_desc:0"铁血离开地球后面遭遇了资源紧张的局面，许多人形不得不使用落后简陋的素体"
-
 #update
 trait_sfdoll_efficient_produce:0"新铁血"
 trait_sfdoll_efficient_produce_desc:0"铁血人形的机体，性能得到了前所未有的提升"

@@ -1,5 +1,5 @@
 #作战电脑
-#蜂拥
+#手动
 utility_component_template = {
 	key = "sfdoll_combat_computer_1"
 	size = small
@@ -18,7 +18,7 @@ utility_component_template = {
 			alloys = 30
 		}
 	}
-	ship_behavior = "swarm"
+	ship_behavior = colossus
 	component_set = "combat_computers"
 
 	ai_weight = {

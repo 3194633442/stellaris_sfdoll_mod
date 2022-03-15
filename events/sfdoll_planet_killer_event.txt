@@ -106,37 +106,340 @@ planet_event = {
 	}
 }
 
-# planet_event = {
-# 	id = sfdoll_planet_killer_event.1
-# 	hide_window = yes
-# 	is_triggered_only = yes
-# 	immediate = {
-# 		add_threat = { who = from.owner amount = 10 }
+#跨星系攻击触发
+planet_event = {
+	id = sfdoll_planet_killer_event.2
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		solar_system = {
+			save_event_target_as = system_source_of_planet_killer
+		}
+		from = {
+			save_event_target_as = fleet_source_of_planet_killer
+		}
+		from = {
+			owner = {
+				country_event = {
+					id = sfdoll_planet_killer_event.3
+				}
+			}
+		}
+	}
+}
 
-# 		from = {
-# 			owner = {
-# 				save_event_target_as = crisis_country
-# 				add_victory_score = {
-# 					source = destroyed_stars_score
-# 					score = 10
-# 				}
-# 				# switch = {
-# 				# 	trigger = galaxy_size
-# 				# 	huge = { add_resource = { sr_dark_matter = 1000 } }
-# 				# 	large = { add_resource = { sr_dark_matter = 1500 } }
-# 				# 	medium = { add_resource = { sr_dark_matter = 2000 } }
-# 				# 	small = { add_resource = { sr_dark_matter = 2500 } }
-# 				# 	tiny = { add_resource = { sr_dark_matter = 3000 } }
-# 				# }
-# 				if = {
-# 					limit = {
-# 						NOT = { has_country_flag = cracked_first_star }
-# 					}
-# 					set_country_flag = cracked_first_star
-# 				}
-# 			}
-# 		}
-# 		solar_system = { save_event_target_as = destroyed_system }
-# 		solar_system = { destroy_star_system = yes		}
-# 	}
-# }
+#选择攻击目标
+country_event = {
+	id = sfdoll_planet_killer_event.3
+	title = "sfdoll_planet_killer_event.3"
+	desc = "sfdoll_planet_killer_event_3_desc"
+	is_triggered_only = yes
+	picture = GFX_evp_sfdoll_ship_in_orbit
+	immediate = {
+
+		#清除之前留下的event target
+		clear_target_of_pk_sfdoll_effect = yes
+
+		#遍历符合条件的星系
+		while = {
+			count = 6
+			random_system = {
+				limit = {
+					OR = {
+						distance = {
+							source = event_target:system_source_of_planet_killer
+							max_jumps = 4
+						}
+						distance = {
+							source = event_target:system_source_of_planet_killer
+							max_distance = 4
+						}
+
+					}
+					NOT = {
+						has_star_flag = flag_sfdoll_planet_killer_target
+					}
+				}
+
+				#统计变量，每次遍历+1,表示对应第几个选项，遍历完清除
+				root = {
+					change_variable = {
+						which = count_sfdoll_planet_killer_target
+						value = 1
+					}
+				}
+
+				star = {
+					#为不同选项添加不同的target
+					if = {
+						limit = { 
+							root = {
+								check_variable = {
+									which = count_sfdoll_planet_killer_target
+									value = 1
+								}
+							}
+						}
+						save_global_event_target_as = target_1_of_pk_sfdoll
+					}
+					if = {
+						limit = { 
+							root = {
+								check_variable = {
+									which = count_sfdoll_planet_killer_target
+									value = 2
+								}
+							}
+						}
+						save_global_event_target_as = target_2_of_pk_sfdoll
+					}
+					if = {
+						limit = { 
+							root = {
+								check_variable = {
+									which = count_sfdoll_planet_killer_target
+									value = 3
+								}
+							}
+						}
+						save_global_event_target_as = target_3_of_pk_sfdoll
+					}
+					if = {
+						limit = { 
+							root = {
+								check_variable = {
+									which = count_sfdoll_planet_killer_target
+									value = 4
+								}
+							}
+						}
+						save_global_event_target_as = target_4_of_pk_sfdoll
+					}
+					if = {
+						limit = { 
+							root = {
+								check_variable = {
+									which = count_sfdoll_planet_killer_target
+									value = 5
+								}
+							}
+						}
+						save_global_event_target_as = target_5_of_pk_sfdoll
+					}
+					if = {
+						limit = { 
+							root = {
+								check_variable = {
+									which = count_sfdoll_planet_killer_target
+									value = 6
+								}
+							}
+						}
+						save_global_event_target_as = target_6_of_pk_sfdoll
+					}
+				}
+				set_star_flag = flag_sfdoll_planet_killer_target
+			}
+
+		}
+		#清除计算target数的变量
+		clear_variable = count_sfdoll_planet_killer_target
+	}
+
+	option = {
+		name = sfdoll_planet_killer_event_3_option_1
+		trigger = {
+			exists = event_target:target_1_of_pk_sfdoll
+		}
+
+		event_target:target_1_of_pk_sfdoll = {
+			save_event_target_as = attacked_by_planet_killer
+		}
+		#跳转到发射武器的舰队，用于保证触发后续事件的from和原版w槽触发器一致
+		event_target:fleet_source_of_planet_killer = {
+			fleet_event = {
+				id = sfdoll_planet_killer_event.4
+			}
+		}
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+	}
+
+	option = {
+		name = sfdoll_planet_killer_event_3_option_2
+		trigger = {
+			exists = event_target:target_2_of_pk_sfdoll
+		}
+		event_target:target_2_of_pk_sfdoll = {
+			save_event_target_as = attacked_by_planet_killer
+		}
+		#跳转到发射武器的舰队，用于保证触发后续事件的from和原版w槽触发器一致
+		event_target:fleet_source_of_planet_killer = {
+			fleet_event = {
+				id = sfdoll_planet_killer_event.4
+			}
+		}
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+	}
+
+	option = {
+		name = sfdoll_planet_killer_event_3_option_3
+		trigger = {
+			exists = event_target:target_3_of_pk_sfdoll
+		}
+		event_target:target_3_of_pk_sfdoll = {
+			save_event_target_as = attacked_by_planet_killer
+		}
+		#跳转到发射武器的舰队，用于保证触发后续事件的from和原版w槽触发器一致
+		event_target:fleet_source_of_planet_killer = {
+			fleet_event = {
+				id = sfdoll_planet_killer_event.4
+			}
+		}
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+	}
+	option = {
+		name = sfdoll_planet_killer_event_3_option_4
+		trigger = {
+			exists = event_target:target_4_of_pk_sfdoll
+		}
+		event_target:target_4_of_pk_sfdoll = {
+			save_event_target_as = attacked_by_planet_killer
+		}
+		#跳转到发射武器的舰队，用于保证触发后续事件的from和原版w槽触发器一致
+		event_target:fleet_source_of_planet_killer = {
+			fleet_event = {
+				id = sfdoll_planet_killer_event.4
+			}
+		}
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+	}
+
+	#目标5
+	option = {
+		name = sfdoll_planet_killer_event_3_option_5
+		trigger = {
+			exists = event_target:target_5_of_pk_sfdoll
+		}
+		event_target:target_5_of_pk_sfdoll = {
+			save_event_target_as = attacked_by_planet_killer
+		}
+		#跳转到发射武器的舰队，用于保证触发后续事件的from和原版w槽触发器一致
+		event_target:fleet_source_of_planet_killer = {
+			fleet_event = {
+				id = sfdoll_planet_killer_event.4
+			}
+		}
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+	}
+
+	#目标6
+	option = {
+		name = sfdoll_planet_killer_event_3_option_6
+		trigger = {
+			exists = event_target:target_6_of_pk_sfdoll
+		}
+		event_target:target_6_of_pk_sfdoll = {
+			save_event_target_as = attacked_by_planet_killer
+		}
+		#跳转到发射武器的舰队，用于保证触发后续事件的from和原版w槽触发器一致
+		event_target:fleet_source_of_planet_killer = {
+			fleet_event = {
+				id = sfdoll_planet_killer_event.4
+			}
+		}
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+	}
+
+	option = {
+		#下一页
+		name = sfdoll_planet_killer_event_3_option_11
+		trigger = {
+			exists = event_target:target_1_of_pk_sfdoll
+			exists = event_target:target_2_of_pk_sfdoll
+			exists = event_target:target_3_of_pk_sfdoll
+			exists = event_target:target_4_of_pk_sfdoll
+			exists = event_target:target_5_of_pk_sfdoll
+			exists = event_target:target_6_of_pk_sfdoll
+		}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_planet_killer_event.3
+			}
+		}
+	}
+
+	option = {
+		#清除星系被选择过的flag，重新选择
+		name = sfdoll_planet_killer_event_3_option_12
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+		country_event = { id = sfdoll_planet_killer_event.3	}
+	}
+	option = {
+		#取消本次攻击
+		name = sfdoll_planet_killer_event_3_option_13
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
+		break = yes
+	}
+}
+
+#中间事件，转到摧毁星系事件
+fleet_event = {
+	id = sfdoll_planet_killer_event.4
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		event_target:attacked_by_planet_killer = {
+			planet_event = {
+				id = sfdoll_planet_killer_event.5
+			}
+		}
+	}
+}
+
+#摧毁恒星系，this为目标恒星，from为发射武器的舰队
+planet_event = {
+	id = sfdoll_planet_killer_event.5
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		#威慑值和得分
+		add_threat = { who = from.owner amount = 10 }
+		from = {
+			owner = {
+				#save_event_target_as = crisis_country
+				add_victory_score = {
+					source = destroyed_stars_score
+					score = 10
+				}
+				#初次炸恒星
+				if = {
+					limit = {
+						NOT = { has_country_flag = cracked_first_star }
+					}
+					set_country_flag = cracked_first_star
+				}
+			}
+		}
+		solar_system = { save_event_target_as = destroyed_system }
+		solar_system = {
+			destroy_star_system = yes
+		}
+		from = {
+			create_message = {
+				type = PLANET_DESTROYED
+				localization = message_sfdoll_pk_2
+				days = 30
+				target = prev
+			}
+		}
+	}
+}

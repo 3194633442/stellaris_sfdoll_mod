@@ -13,35 +13,32 @@ tech_sfdoll_psychohistory_desc:0 "通过对庞大的人口进行统计,我们或
 
 #army
 tech_sfdoll_army:0"火控更新"
-tech_sfdoll_army_desc:0"新型的武器需要相应的火控系统"
+tech_sfdoll_army_desc:0"更好的火控系统"
 tech_sfoll_heavy_army:0"钢铁风暴"
-tech_sfoll_heavy_army_desc:0"开发能够在大气层内高效行动的重型兵器"
+tech_sfoll_heavy_army_desc:0"用于陆战的先进重型兵器"
 
 tech_sfdoll_army_building:0"基地改良"
-tech_sfdoll_army_building_desc:0"强力的军事基地，可以更好地支持铁血的星际军事活动"
+tech_sfdoll_army_building_desc:0"建造更好用的军事基地"
 
 
 #command
 tech_sfdoll_command_limit_1:0"铁血舰队:深空交通"
-tech_sfdoll_command_limit_1_desc:0"改良的太空交通工具，可以让舰队间的运输更加顺畅"
+tech_sfdoll_command_limit_1_desc:0"改良的太空交通工具"
 tech_sfdoll_command_limit_2:0"铁血舰队:太空作战模块"
-tech_sfdoll_command_limit_2_desc:0"为太空行动而开发的人形辅助模块，能帮助铁血人形在太空中高效协作"
+tech_sfdoll_command_limit_2_desc:0"为太空行动而开发的人形辅助模块"
 tech_sfdoll_command_limit_3:0"铁血舰队:蚀刻理论飞船管理"
-tech_sfdoll_command_limit_3_desc:0"利用蚀刻技术，我们可以在物体之间建立一种独特的场的联系.现在，我们把这种技术搬到飞船上,用来管理飞船设备."
+tech_sfdoll_command_limit_3_desc:0"利用蚀刻技术管理飞船设备"
 tech_sfdoll_command_limit_4:0"铁血舰队:OGAS舰队通讯"
-tech_sfdoll_command_limit_4_desc:0"基于OGAS技术，我们可以改良舰队通讯系统"
+tech_sfdoll_command_limit_4_desc:0"我们可以改良舰队的通讯系统"
 tech_sfdoll_command_limit_5:0"铁血舰队:舰载短程ftl"
-tech_sfdoll_command_limit_5_desc:0"短距离超光速系统可在飞船之间快速输送物资"
+tech_sfdoll_command_limit_5_desc:0"短距离超光速系统"
 
 #解锁建筑槽位
 tech_sfdoll_max_buildings:0"铁血新城市计划"
-tech_sfdoll_max_buildings_desc:0"改进我们的市政体系，将铁血人形的星球建设得更加繁荣"
+tech_sfdoll_max_buildings_desc:0"改进我们的市政体系"
 tech_sfdoll_social_reform:0 "铁血改革计划"
 tech_sfdoll_social_reform_desc:0 "铁血的世界需要改变"
-tech_sf_add_portrait:0 "协议同归：大梦初醒"
-tech_sf_add_portrait_desc:0 "现在，我们可以将心智服务器中的人形转移到新的素体上，从而让它们复苏，并为它们升级到新型的铁血心智系统，让它们加入铁血人形的世界。"
-tech_sf_civil_doll:0 "铁血社会研究：民用人形"
-tech_sf_civil_doll_desc:0 "铁血人形原本是出于军用目的制造，开拓行星也让我们不得不追求效率。这让铁血的社会高度单一化。现在，我们将展开民用铁血人形的研究。"
+
 
 #eng
 tech_gf_sfdoll_assemble_building:0 "铁血人形组装"
@@ -60,25 +57,23 @@ tech_sf_doll_modding_2_desc:0"把这些很cool的新机体推广到铁血全国\
 #ship
 #component
 tech_sfdoll_weapon_s_3:0"铁血蛇式火力系统"
-tech_sfdoll_weapon_s_3_desc:0"面对日益复杂的太空安全问题，我们需要更加灵活可靠的太空武器"
+tech_sfdoll_weapon_s_3_desc:0"我们需要更加灵活可靠的太空武器"
 
 tech_sfdoll_weapon_p_6:0"铁血破坏者点防御"
-tech_sfdoll_weapon_p_6_desc:0"防御性舰载武器，能够对移动目标进行精确打击"
+tech_sfdoll_weapon_p_6_desc:0"防御性舰载武器"
 
 tech_sfdoll_weapon_x_1:0"铁血建筑师级主炮"
-tech_sfdoll_weapon_x_1_desc:0"这种大型主炮能无视一般的防护设备，对指定目标造成杀伤"
+tech_sfdoll_weapon_x_1_desc:0"铁血的标准主炮"
 
-tech_sfdoll_weapen_x_2:0"铁血骑士级重炮"
-tech_sfdoll_weapen_x_2_desc:0"这种铁血重型武器可以发射能量巨大的物质流来撞击目标，只有大型战舰才能装备该武器"
 
 tech_sfdoll_weapen_t_2:0"铁血计量官级重炮"
-tech_sfdoll_weapen_t_2_desc:0"这种超大型舰炮可以将毁灭性的能量集中于一点"
+tech_sfdoll_weapen_t_2_desc:0"装备于大型战舰"
 
 tech_sfdoll_ship_defense_s:0"铁血飞船防御系统"
-tech_sfdoll_ship_defense_s_desc:0"比起传统的护盾和装甲，新型的防御系统能提供更加可靠的防护"
+tech_sfdoll_ship_defense_s_desc:0"新型的防御系统能提供更加可靠的防护"
 
 tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
-tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器，拥有远距离的超光速探测能力，可准确掌握敌对目标的行动"
+tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
 
 tech_sfdoll_aux_repair_ship:0"$component_set_sfdoll_aux_repair_ship$"
 tech_sfdoll_aux_repair_ship_desc:0"$component_set_sfdoll_aux_repair_ship_DESC$"
@@ -90,7 +85,7 @@ tech_sfdoll_jump_drive:0"铁血跃迁引擎"
 tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上"
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
-tech_sfdoll_thruster_desc:0"通过某些违背物理常识的手段，铁血能够随心所欲地操纵飞船的航行"
+tech_sfdoll_thruster_desc:0"随心所欲地操纵飞船的航行"
 
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
@@ -102,14 +97,14 @@ tech_sfdoll_tactical_destroyer:0 "铁血战术驱逐舰"
 tech_sfdoll_tactical_destroyer_desc:0 "与堕落帝国的泰坦巨舰不同，铁血的新型战舰兼顾了火力与机动性,其制造和运转的过程似乎违背了多个物理法则"
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船和维修功能"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能"
 
 tech_sfdoll_battleship_bow_x2:0 "舰船设备轻量化"
 tech_sfdoll_battleship_bow_x2_desc:0 "轻量化的设备更易于搭载\n 解锁战列舰区段:$sfdoll_battleship_bow_x2$"
 
 #building
 tech_sfdoll_nanites_goods:0 "微观技术工业"
-tech_sfdoll_nanites_goods_desc:0 "开发更高精度的工业工艺"
+tech_sfdoll_nanites_goods_desc:0 "更高精度的工艺"
 
 tech_sfdoll_chemical:0 "铁血化工生产改进"
 tech_sfdoll_chemical_desc:0 "通过物质坍塌科技，我们能提高化工生产的效率."

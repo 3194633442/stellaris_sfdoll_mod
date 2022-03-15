@@ -398,7 +398,7 @@ utility_component_template = {
 	power = 40000
 	prerequisites = { "tech_sfdoll_collapse_energy" }
 	component_set = "power_core"
-	size_restriction = { colossus sfdoll_destroyer  }
+	size_restriction = {  sfdoll_destroyer  colossus }
 	ai_weight = {	weight = 20	}
 }
 

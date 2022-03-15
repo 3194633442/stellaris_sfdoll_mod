@@ -1,0 +1,102 @@
+namespace = sfdoll_elisa_event
+
+#建立伊莱莎特殊国家
+country_event = {
+	id = sfdoll_elisa_event.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {	has_authority = auth_gf_sfdoll	}
+	
+	immediate = {
+		create_country = {
+			name = "name_elisa_country"
+			type = country_type_sfdoll_event_leader 
+			flag = {
+				icon= {
+					category = "sfdoll_flags"
+					file = "sfdoll_flag.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "sinus.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			effect = {
+				#设置target和flag
+				save_global_event_target_as = sfdoll_elisa_country
+				set_country_flag = sfdoll_elisa_country
+			}
+		}
+		event_target:sfdoll_elisa_country= {
+			establish_communications_no_message = root
+		}
+		save_global_event_target_as = sfdoll_elisa_owner
+		set_country_flag = sfdoll_elisa_owner
+	}
+}
+
+country_event = {
+	id = sfdoll_elisa_event.2
+	title = "sfdoll_elisa_event.2"
+	desc = "sfdoll_elisa_event_2_a_desc"
+	desc = "sfdoll_elisa_event_2_b_desc"
+	desc = "sfdoll_elisa_event_2_c_desc"	
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = GFX_sfdoll_elisa
+		room = this
+	}	
+	is_triggered_only = yes
+
+	trigger = {
+		AND = {
+			from = {  NOT = {has_country_flag = gray_country }	}
+			from = {
+				is_country_type = country_type_sfdoll_event_leader
+				has_country_flag = sfdoll_elisa_country
+			}
+			has_country_flag = sfdoll_elisa_owner
+			NOT = { has_country_flag = contract_diplomacy_engaged }
+		}
+	}
+
+	immediate = {
+		set_country_flag = contract_diplomacy_engaged
+	}
+	after = {
+		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
+	}
+
+	#选项，伊莱莎变科学家
+	option = {
+		name =  "elisa_to_scientist"
+		allow = { 
+			custom_tooltip ={
+				fail_text ="elisa_has_this_job_now"
+				NOR = {
+					AND = {
+						exists = event_target:sfdoll_leader_elisa
+						event_target:sfdoll_leader_elisa = { leader_class = scientist }
+					}			
+				}
+			}			 
+		}
+		elisa_to_scientist_sfd_effect =  yes
+		response_text = "response_text_elisa_to_scientist"
+	}
+
+
+	#退出
+	option = {
+		name =  "sfdoll_break_option"
+		break = yes
+	}
+
+}

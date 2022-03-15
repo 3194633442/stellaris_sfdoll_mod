@@ -20,6 +20,65 @@
 			#GFX_<key>_top_damaged
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
+#ship_sfdoll_strategy:0 "机动攻击舰"
+#战略攻击舰
+# ship_sfdoll_strategy = {
+# 	entity = titan_entity
+# 	max_speed = 2000
+# 	acceleration = 0.3
+# 	rotation_speed = 0.2
+# 	collision_radius = @titan_collision_radius
+# 	max_hitpoints = 140000
+# 	modifier = {
+# 		ship_evasion_add = 20
+# 		ship_armor_add = 140000
+# 		ship_shield_add = 10000
+# 		ship_piracy_suppression_add = 8
+# 	}
+# 	size_multiplier = 20
+# 	fleet_slot_size = 20
+# 	section_slots = { "ship" = { locator = "root" } }
+# 	num_target_locators = 4
+# 	is_space_station = no
+# 	icon = ship_size_military_16
+
+# 	#记得改
+# 	base_buildtime = 1 #1080
+# 	components_add_to_cost = no
+
+# 	can_have_federation_design = no
+# 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+# 	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	
+
+# 	#prerequisites = { tech_ship_sfdoll_strategy }
+
+# 	class = shipclass_military_special
+# 	construction_type = starbase_shipyard
+# 	required_component_set = "power_core"
+# 	required_component_set = "ftl_components"
+# 	required_component_set = "sensor_components"
+# 	required_component_set = "thruster_components"
+# 	required_component_set = "combat_computers"
+# 	required_component_set = "ship_aura_components"
+
+# 	resources = {
+# 		category = ships
+# 		cost = {
+# 			#记得改
+# 			# sr_dark_matter = 960
+# 			# GF_nyto_collapse_liquid = 40
+# 		}
+# 		upkeep = {
+# 			energy = 20
+# 			minerals = 10
+# 		}
+# 	}
+# 	min_upgrade_cost = {
+# 		alloys = 10
+# 	}
+# }
+
 #星舰城市
 sfdoll_homeless_ship = {
 	entity = titan_entity
@@ -124,7 +183,7 @@ ship_sfdoll_carrier = {
 #战术驱逐舰
 sfdoll_destroyer= {
 	entity = titan_entity
-	max_speed = 900
+	max_speed = 2000
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @titan_collision_radius
@@ -132,6 +191,7 @@ sfdoll_destroyer= {
 	modifier = {
 		ship_evasion_add = 20
 		ship_armor_add = 140000
+		ship_shield_add = 10000
 		ship_piracy_suppression_add = 8
 	}
 	size_multiplier = 20
