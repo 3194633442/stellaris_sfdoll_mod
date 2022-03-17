@@ -274,7 +274,7 @@ building_sfdoll_research = {
 	}
 }
 
-#坍塌反应堆
+#奇点反应堆
 building_sfdoll_collapse_energy = {
 	base_buildtime =   @b2_time
 	category = manufacturing
@@ -296,7 +296,7 @@ building_sfdoll_collapse_energy = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_collapse_energy_maker_add = 4	}
+		modifier = { job_sfdoll_collapse_energy_maker_add = 1	}
 	}
 
 	resources = {

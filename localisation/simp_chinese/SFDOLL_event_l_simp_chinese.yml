@@ -1,4 +1,7 @@
 ﻿l_simp_chinese:
+
+sfdoll_break_option:0 "退出"
+
 #和ump45通讯
 sfdoll_ump45_event_1:0"和莉娃通讯中"
 sfdoll_ump45_event_1_a_desc:0"需要我帮忙吗？(由于蠢驴的刷新问题，本界面生成的领袖，所属职业可能显示有误，可尝试存档重进，或任用其他领袖担任职务，从而刷新数据)"

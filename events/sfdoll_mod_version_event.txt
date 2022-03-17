@@ -2,7 +2,7 @@ namespace = sfdoll_mod_version_event
 #id标准写法为namespace的值加上编号
 #用于修各种版本bug和兼容
 
-#检测二段飞升并添加坍塌液合成科技
+#开局储存最新的版本号,如果游戏中读取到版本号和开局储存的版本号不同，就表示必须更新
 country_event = {
 	id = sfdoll_mod_version_event.1
 	hide_window = yes
@@ -12,28 +12,59 @@ country_event = {
 		has_authority = auth_gf_sfdoll
 	}
 	immediate = {
-		if = {
-			limit = { has_ascension_perk = ap_sfdoll_reverse_collapse }
-			add_research_option = tech_sfdoll_collapse_liquid_produce
+		set_variable = {
+			which = sfdoll_mod_ver_old
+			value = @sfdoll_mod_ver_new
 		}
 	}
 }
 
 country_event = {
 	id = sfdoll_mod_version_event.2
-	hide_window = no
+	hide_window = yes
 	is_triggered_only = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
 	immediate = {
-		create_species = {
-			name = 1111
-			class = HUM
-			effect = {
-				set_species_flag = 1111
+		if = {
+			limit = {
+				from = {  NOT = {has_country_flag = gray_country }	}
+				from = {
+					is_country_type = country_type_sfdoll_event_leader
+					has_country_flag = sfdoll_ump45_country
+				}
+				has_country_flag = sfdoll_ump45_owner
+				NOT = { has_country_flag = contract_diplomacy_engaged }
+			}
+			country_event = {
+				id = sfdoll_ump45_event.1
 			}
 		}
-		capital_scope = {
-			create_pop = {
-				species = 1111
+		if = {
+			limit = { 	
+				from = {  NOT = {has_country_flag = gray_country }	}
+				from = { has_country_flag = sfdoll_noel_country }
+				has_country_flag = sfdoll_noel_owner
+				NOT = { has_country_flag = contract_diplomacy_engaged }
+			 }
+			 country_event = {
+				 id = sfdoll_noel_event.1
+			 }
+		}
+
+		if = {
+			limit = {
+				from = {  NOT = {has_country_flag = gray_country }	}
+				from = {
+					is_country_type = country_type_sfdoll_event_leader
+					has_country_flag = sfdoll_triela_country
+				}
+				has_country_flag = sfdoll_triela_owner
+				NOT = { has_country_flag = contract_diplomacy_engaged }
+			}
+			country_event = {
+				id = sfdoll_gunslinger_girl_event.6
 			}
 		}
 	}

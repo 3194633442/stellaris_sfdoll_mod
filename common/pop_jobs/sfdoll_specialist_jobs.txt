@@ -273,7 +273,7 @@ sfdoll_researcher = {
 	weight = {	weight = 50	}
 }
 
-#坍塌能源岗位
+#奇点能源岗位
 sfdoll_collapse_energy_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
@@ -291,7 +291,7 @@ sfdoll_collapse_energy_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_technician
-		produces = {	energy = 30	}
+		produces = {	energy = 250 }
 		upkeep = {	GF_nyto_collapse_liquid = 2	}
 	}
 	weight = {	weight = 20	}

@@ -64,6 +64,11 @@ ap_sfdoll_reverse_collapse ={
 		}
 
 		custom_tooltip = {
+			fail_text = "has_tech_tech_sfdoll_nanites"
+			has_technology = tech_sfdoll_nanites
+		}
+
+		custom_tooltip = {
 			fail_text = "requires_ap_digi_mind_update"
 			has_ascension_perk = ap_digi_mind_update
 		}

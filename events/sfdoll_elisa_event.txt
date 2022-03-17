@@ -41,17 +41,22 @@ country_event = {
 	}
 }
 
+#伊莱莎通信界面
 country_event = {
 	id = sfdoll_elisa_event.2
 	title = "sfdoll_elisa_event.2"
 	desc = "sfdoll_elisa_event_2_a_desc"
 	desc = "sfdoll_elisa_event_2_b_desc"
-	desc = "sfdoll_elisa_event_2_c_desc"	
+	desc = "sfdoll_elisa_event_2_c_desc"
+	desc = "sfdoll_elisa_event_2_d_desc"	
 	diplomatic = yes
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_elisa
 		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
 	}	
 	is_triggered_only = yes
 
@@ -92,11 +97,111 @@ country_event = {
 		response_text = "response_text_elisa_to_scientist"
 	}
 
+	option = {
+		name = sfdoll_elisa_event.2_option_2
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_elisa_event.3
+			}
+		}
+	}
+
 
 	#退出
 	option = {
 		name =  "sfdoll_break_option"
 		break = yes
+	}
+}
+
+#伊莱莎通讯，联系其他特殊领袖
+country_event = {
+	id = sfdoll_elisa_event.3
+	title = "sfdoll_elisa_event.3"
+	desc = "sfdoll_elisa_event_3_a_desc"
+	diplomatic = yes
+	picture_event_data = {
+		portrait = GFX_sfdoll_elisa
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}	
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = contract_diplomacy_engaged
+	}
+	after = {
+		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
+	}
+
+	#找ump45
+	option = {
+		name =  "sfdoll_elisa_event.3_option_1"
+		trigger = {
+			has_country_flag = sfdoll_ump45_owner
+		}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_ump45_event.1
+			}
+		}
+	}
+	#找崔耶拉
+	option = {
+		name =  "sfdoll_elisa_event.3_option_2"
+		trigger = {
+			has_country_flag = sfdoll_triela_owner
+		}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_gunslinger_girl_event.6
+			}
+		}
+	}
+	#找诺耶露
+	option = {
+		name =  "sfdoll_elisa_event.3_option_3"
+		trigger = {
+			has_country_flag = sfdoll_noel_owner
+		}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_noel_event.1
+			}
+		}
+	}
+	#退出
+	option = {
+		name =  "sfdoll_break_option"
+		break = yes
+	}
+}
+
+#伊莱莎通讯界面，开局
+country_event = {
+	id = sfdoll_elisa_event.4
+	title = "sfdoll_elisa_event.4"
+	desc = "sfdoll_elisa_event_4_a_desc"
+	diplomatic = yes
+	picture_event_data = {
+		portrait = GFX_sfdoll_elisa
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}	
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = contract_diplomacy_engaged
+	}
+	option = {
+		name = OK
+	}
+	after = {
+		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
 	}
 
 }

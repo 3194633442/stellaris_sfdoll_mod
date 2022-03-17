@@ -115,8 +115,8 @@ tech_sfdoll_collapse_liquid_produce_desc:0"编写坍塌粒子的内部程序,生
 tech_sfdoll_lab:0"坍塌技术研究辅助"
 tech_sfdoll_lab_desc:0"坍塌技术能够大幅强化科研计算机的功能"
 
-tech_sfdoll_collapse_energy:0"坍塌粒子能源"
-tech_sfdoll_collapse_energy_desc:0"利用坍塌粒子获取庞大的能量"
+tech_sfdoll_collapse_energy:0"奇点能源"
+tech_sfdoll_collapse_energy_desc:0"奇点能源打破了我们过去的物理常识"
 
 tech_sfdoll_collapse_alloys_produce:0"坍塌粒子合金制造工艺"
 tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌粒子，控制原料中的微观粒子，生产高品质合金"

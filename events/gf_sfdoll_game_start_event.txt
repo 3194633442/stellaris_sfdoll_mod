@@ -69,6 +69,14 @@ country_event = {
 			id = sfdoll_elisa_event.1
 			days = 5
 		}
+		country_event = {
+			id = sfdoll_elisa_event.4
+			days = 5
+		}
+		country_event = {
+			id = sfdoll_ump45_event.10
+			days = 7
+		}
 
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising

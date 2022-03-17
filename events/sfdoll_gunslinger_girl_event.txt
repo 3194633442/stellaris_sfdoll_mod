@@ -111,17 +111,17 @@ country_event = {
 	}	
 	is_triggered_only = yes
 
-	trigger = {
-		AND = {
-			from = {  NOT = {has_country_flag = gray_country }	}
-			from = {
-				is_country_type = country_type_sfdoll_event_leader
-				has_country_flag = sfdoll_triela_country
-			}
-			has_country_flag = sfdoll_triela_owner
-			NOT = { has_country_flag = contract_diplomacy_engaged }
-		}
-	}
+	# trigger = {
+	# 	AND = {
+	# 		from = {  NOT = {has_country_flag = gray_country }	}
+	# 		from = {
+	# 			is_country_type = country_type_sfdoll_event_leader
+	# 			has_country_flag = sfdoll_triela_country
+	# 		}
+	# 		has_country_flag = sfdoll_triela_owner
+	# 		NOT = { has_country_flag = contract_diplomacy_engaged }
+	# 	}
+	# }
 
 	immediate = {
 		set_country_flag = contract_diplomacy_engaged
@@ -210,7 +210,7 @@ country_event = {
 	}
 }
 
-#创建崔耶拉通信国家
+#创建崔耶拉通信国家，现在不创建，仅添加flag
 country_event = {
 	id = sfdoll_gunslinger_girl_event.7
 	hide_window = yes
@@ -218,34 +218,34 @@ country_event = {
 	trigger = {	has_authority = auth_gf_sfdoll	}
 	
 	immediate = {
-		create_country = {
-			name = "name_sfdoll_triela_country"
-			type = country_type_sfdoll_event_leader 
-			flag = {
-				icon= {
-					category = "sfdoll_flags"
-					file = "sfdoll_flag.dds"
-				}
-				background= {
-					category = "backgrounds"
-					file = "sinus.dds"
-				}
-				colors={
-					"black"
-					"black"
-					"null"
-					"null"
-				}
-			}
-			effect = {
-				#设置target和flag
-				save_global_event_target_as = sfdoll_triela_country
-				set_country_flag = sfdoll_triela_country
-			}
-		}
-		event_target:sfdoll_triela_country = {
-			establish_communications_no_message = root
-		}
+		# create_country = {
+		# 	name = "name_sfdoll_triela_country"
+		# 	type = country_type_sfdoll_event_leader 
+		# 	flag = {
+		# 		icon= {
+		# 			category = "sfdoll_flags"
+		# 			file = "sfdoll_flag.dds"
+		# 		}
+		# 		background= {
+		# 			category = "backgrounds"
+		# 			file = "sinus.dds"
+		# 		}
+		# 		colors={
+		# 			"black"
+		# 			"black"
+		# 			"null"
+		# 			"null"
+		# 		}
+		# 	}
+		# 	effect = {
+		# 		#设置target和flag
+		# 		save_global_event_target_as = sfdoll_triela_country
+		# 		set_country_flag = sfdoll_triela_country
+		# 	}
+		# }
+		# event_target:sfdoll_triela_country = {
+		# 	establish_communications_no_message = root
+		# }
 		save_global_event_target_as = sfdoll_triela_owner
 		set_country_flag = sfdoll_triela_owner
 	}

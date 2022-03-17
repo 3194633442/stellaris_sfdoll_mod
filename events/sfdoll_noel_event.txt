@@ -1,7 +1,7 @@
 namespace = sfdoll_noel_event
 #id标准写法为namespace的值加上编号
 
-#创建诺耶露特殊国家用于通讯
+#创建诺耶露特殊国家用于通讯，现在不创建只加flag
 country_event = {
 	id = sfdoll_noel_event.0
 	hide_window = yes
@@ -10,34 +10,34 @@ country_event = {
 
 	trigger = {	has_authority = auth_gf_sfdoll	}
 	immediate = {
-		create_country = {
-			name = "name_noel_country"
-			type = country_type_sfdoll_event_leader 
-			flag = {
-				icon= {
-					category = "sfdoll_flags"
-					file = "sfdoll_ogas_flag.dds"
-				}
-				background= {
-					category = "backgrounds"
-					file = "sinus.dds"
-				}
-				colors={
-					"black"
-					"black"
-					"null"
-					"null"
-				}
-			}
-			effect = {
-				#设置target和flag
-				save_global_event_target_as = sfdoll_noel_country
-				set_country_flag = sfdoll_noel_country
-			}
-		}
-		event_target:sfdoll_noel_country = {
-			establish_communications_no_message = root
-		}
+		# create_country = {
+		# 	name = "name_noel_country"
+		# 	type = country_type_sfdoll_event_leader 
+		# 	flag = {
+		# 		icon= {
+		# 			category = "sfdoll_flags"
+		# 			file = "sfdoll_ogas_flag.dds"
+		# 		}
+		# 		background= {
+		# 			category = "backgrounds"
+		# 			file = "sinus.dds"
+		# 		}
+		# 		colors={
+		# 			"black"
+		# 			"black"
+		# 			"null"
+		# 			"null"
+		# 		}
+		# 	}
+		# 	effect = {
+		# 		#设置target和flag
+		# 		save_global_event_target_as = sfdoll_noel_country
+		# 		set_country_flag = sfdoll_noel_country
+		# 	}
+		# }
+		# event_target:sfdoll_noel_country = {
+		# 	establish_communications_no_message = root
+		# }
 		save_global_event_target_as = sfdoll_noel_owner
 		set_country_flag = sfdoll_noel_owner
 
@@ -71,14 +71,14 @@ country_event = {
 	}	
 	is_triggered_only = yes
 
-	trigger = {
-		AND = {
-			from = {  NOT = {has_country_flag = gray_country }	}
-			from = { has_country_flag = sfdoll_noel_country }
-			has_country_flag = sfdoll_noel_owner
-			NOT = { has_country_flag = contract_diplomacy_engaged }
-		}
-	}
+	# trigger = {
+	# 	AND = {
+	# 		from = {  NOT = {has_country_flag = gray_country }	}
+	# 		from = { has_country_flag = sfdoll_noel_country }
+	# 		has_country_flag = sfdoll_noel_owner
+	# 		NOT = { has_country_flag = contract_diplomacy_engaged }
+	# 	}
+	# }
 
 	immediate = {
 		set_country_flag = contract_diplomacy_engaged
