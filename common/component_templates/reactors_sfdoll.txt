@@ -286,7 +286,7 @@ utility_component_template = {
 			alloys = 0.05
 		}
 	}
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = { tech_sfdoll_collapse_liquid_produce }
 	component_set = "power_core"
 	size_restriction = { corvette science_sfdoll constructor_sfdoll colonizer sponsored_colonizer constructor science transport  }
 	ai_weight = {	weight = 20	}
@@ -310,7 +310,7 @@ utility_component_template = {
 		}
 	}
 	
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
 	size_restriction = { destroyer }
 	ai_weight = {	weight = 20	}
@@ -334,7 +334,7 @@ utility_component_template = {
 		}
 	}
 	
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
 	size_restriction = { cruiser }
 	ai_weight = {	weight = 20	}
@@ -358,7 +358,7 @@ utility_component_template = {
 		}
 	}
 	
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
 	size_restriction = { battleship  }	
 	ai_weight = {	weight = 20	}
@@ -383,7 +383,7 @@ utility_component_template = {
 		}
 	}
 	
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce }
 	component_set = "power_core"
 	size_restriction = { titan  }
 	ai_weight = {	weight = 20	}
@@ -396,7 +396,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
 	power = 40000
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
 	size_restriction = {  sfdoll_destroyer  colossus }
 	ai_weight = {	weight = 20	}
@@ -409,7 +409,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
 	power = 150000
-	#prerequisites = { "tech_sfdoll_collapse_energy" }
 	component_set = "power_core"
 	size_restriction = { ship_sfdoll_carrier }
 	ai_weight = {	weight = 20	}
@@ -433,7 +432,7 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce }
 	component_set = "power_core"
 	class_restriction = { shipclass_military_station }
 	size_restriction = {
@@ -457,7 +456,7 @@ utility_component_template = {
 			GF_nyto_collapse_liquid = 5
 		}
 	}
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
 	size_restriction = { ion_cannon }
 	ai_weight = {	weight = 20	}
@@ -470,7 +469,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
 	power = 35000
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
 	class_restriction = { shipclass_starbase }
 	size_restriction = {

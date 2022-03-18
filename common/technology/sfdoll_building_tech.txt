@@ -38,14 +38,14 @@ tech_sfdoll_collapse_alloys_produce = {
 	}
 }
 
-#坍塌液能源，需要坍塌液合成科技
-tech_sfdoll_collapse_energy = {
+#奇点能源，需要坍塌液合成科技
+tech_sfdoll_energy_plant = {
 	cost = @tier5cost3
 	area = physics
 	tier = 5
 	is_rare = yes
 	category = { field_manipulation  }
-	icon = tech_sfdoll_collapse_energy
+	icon = tech_sfdoll_energy_plant
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
 	weight = @tier5weight3

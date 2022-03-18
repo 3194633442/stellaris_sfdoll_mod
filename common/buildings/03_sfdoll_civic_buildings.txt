@@ -63,13 +63,15 @@ building_sfdoll_net = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire }
 		}
-		modifier = {
-			job_sfdoll_it_doll_add = 4
+		modifier = {	
+			#job_sfdoll_it_doll_add = 4
+			planet_jobs_unity_produces_mult = 0.50
+			planet_amenities_add = 20
 		}
 	}
-	triggered_desc = {
-		text = job_sfdoll_it_doll_effect_desc
-	}
+	# triggered_desc = {
+	# 	text = job_sfdoll_it_doll_effect_desc
+	# }
 	
 	resources = {
 		category = planet_buildings
@@ -81,6 +83,11 @@ building_sfdoll_net = {
 		}
 	}
 }
+#job_sfdoll_it_doll:0 "IT工作者"
+# job_sfdoll_it_doll_plural:0 "IT工作者"
+# job_sfdoll_it_doll_desc:0 "信息技术人员搭建起庞大的星际互联网"
+# job_sfdoll_it_doll_effect_desc:0 "IT工作者提高星球舒适度，提高 §Y$unity$§! 的产出"
+# mod_job_sfdoll_it_doll_add:0 "IT工作者岗位"
 
 #莱柯博物院
 building_sfdoll_museum = {

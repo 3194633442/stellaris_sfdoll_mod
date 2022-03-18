@@ -247,29 +247,29 @@ building_sfdoll_nanites_plant = {
 	}
 }
 
-#奇点反应堆
-building_sfdoll_collapse_energy = {
+#奇点发电厂
+building_sfdoll_energy_plant = {
 	base_buildtime =   @b2_time
 	category = manufacturing
-	icon = building_sfdoll_collapse_energy
+	icon = building_sfdoll_energy_plant
 	potential = {
 		# 铁血帝国才能造
 		owner = { has_authority = auth_gf_sfdoll }
 	}
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = { tech_sfdoll_energy_plant }
 	destroy_trigger = {
 		free_building_slots = 0
 		exists = owner
 		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
 	}
-	triggered_desc = {		text = job_sfdoll_collapse_energy_maker_effect_desc	}
+	triggered_desc = {		text = job_sfdoll_energy_maker_effect_desc	}
 	#在铁血国家提供岗位
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_collapse_energy_maker_add = 1	}
+		modifier = { job_sfdoll_energy_maker_add = 1	}
 	}
 
 	resources = {
@@ -288,7 +288,7 @@ building_sfdoll_collapse_energy = {
 }
 
 #物质合成厂
-building_sfdoll_mineral= {
+building_sfdoll_mineral = {
 	base_buildtime =   @b2_time
 	category = manufacturing
 	icon = building_sfdoll_mineral
@@ -296,13 +296,13 @@ building_sfdoll_mineral= {
 		# 铁血帝国才能造
 		owner = { has_authority = auth_gf_sfdoll }
 	}
-	prerequisites = { "tech_sfdoll_collapse_energy" }
+	prerequisites = { tech_building_sfdoll_mineral }
 	destroy_trigger = {
 		free_building_slots = 0
 		exists = owner
 		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
 	}
-	triggered_desc = {		text = job_sfdoll_collapse_energy_maker_effect_desc	}
+	triggered_desc = {		text = job_sfdoll_mineral_maker_effect_desc	}
 	#在铁血国家提供岗位
 	triggered_planet_modifier = {
 		potential = {

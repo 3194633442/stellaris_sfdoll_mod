@@ -69,3 +69,15 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = sfdoll_mod_version_event.3
+	hide_window = no
+	is_triggered_only = yes
+	immediate = {
+		capital_scope = {
+			add_building = building_sfdoll_energy_plant
+			add_building = building_sfdoll_mineral
+		}
+	}
+}

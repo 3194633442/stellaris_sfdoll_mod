@@ -107,21 +107,23 @@ tech_sfdoll_nanites_goods:0 "微观技术工业"
 tech_sfdoll_nanites_goods_desc:0 "更高精度的工艺"
 
 
-
 tech_sfdoll_collapse_liquid_produce:0"坍塌粒子制造"
 tech_sfdoll_collapse_liquid_produce_desc:0"编写坍塌粒子的内部程序,生产可控的坍塌粒子."
 
 tech_sfdoll_lab:0"坍塌技术研究辅助"
 tech_sfdoll_lab_desc:0"坍塌技术能够大幅强化科研计算机的功能"
 
-tech_sfdoll_collapse_energy:0"奇点能源"
-tech_sfdoll_collapse_energy_desc:0"奇点能源打破了我们过去的物理常识"
-
 tech_sfdoll_collapse_alloys_produce:0"坍塌粒子合金制造工艺"
 tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌粒子，控制原料中的微观粒子，生产高品质合金"
 
 tech_sfdoll_dark_matter_plant:0"暗物质合成"
 tech_sfdoll_dark_matter_plant_desc:0"铁血在实验室中获得了暗物质,这种物质打破了我们的物理常识.我们应该设法获取更多暗物质."
+
+tech_sfdoll_energy_plant:0"奇点能源"
+tech_sfdoll_energy_plant_desc:0"奇点能源打破了我们过去的物理常识"
+
+tech_building_sfdoll_mineral:0 "质量实体化"
+tech_building_sfdoll_mineral_desc:0 "利用能量制造各类物质"
 
 tech_sfdoll_nanites:0"超微观人工智能"
 tech_sfdoll_nanites_desc:0"即使是纳米级别的微小机械，一样可以运行复杂的程序"
