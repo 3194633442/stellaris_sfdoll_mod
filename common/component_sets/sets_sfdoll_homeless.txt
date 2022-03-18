@@ -24,7 +24,6 @@ component_set = {
 	icon_frame = 1
 }
 
-
 #科研
 component_set = {
 	key = "research_sfdoll_homeless_set"
@@ -64,6 +63,13 @@ component_set = {
 component_set = {
 	key = "food_sfdoll_homeless_set"
 	icon = "GFX_food_sfdoll_homeless"
+	icon_frame = 1
+}
+
+#能源
+component_set = {
+	key = "energy_sfdoll_homeless_set"
+	icon = "GFX_energy_sfdoll_homeless"
 	icon_frame = 1
 }
 

@@ -8,6 +8,8 @@ ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
 ap_sfdoll_reverse_collapse_desc:0"以逆向坍塌科技作为基石，铁血正在建立新的超科学体系。物质世界的奥秘，将由我们掌控。"
 
 #fail text
+has_tech_dark_matter_power_core:0 "$TRIGGER_FAIL$需要科技§Y$tech_dark_matter_power_core$§!"
+
 has_tech_sfdoll_ogas_ai:0"$TRIGGER_FAIL$需要科技£physics£§Y$tech_sfdoll_ogas_ai$§!"
 
 has_tech_sapient_ai:0"$TRIGGER_FAIL$需要科技£physics£§Y$tech_sapient_ai$§!"

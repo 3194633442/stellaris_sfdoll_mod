@@ -1,13 +1,13 @@
 ﻿l_simp_chinese:
 #寻找锡安
-sfdoll_search_zion_chain_title:0"铁血项目：遗迹探索"
-sfdoll_search_zion_chain_desc:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。可以说，那些遗迹就是我们起源。\n 遗迹中的奥秘，一直是铁血科学家津津乐道的话题。可惜我们早已离开了地球，凭借手头有限的资料，仅能窥见遗迹的冰山一角. \n我们要找到更多信息，以便对相关问题展开进一步探索."
+sfdoll_search_zion_chain_title:0 "铁血探索档案"
+sfdoll_search_zion_chain_desc:0 "银河探索的记录"
 
 SF_SEARCH_ZION_PROJECT:0"解析谜之信号"
-SF_SEARCH_ZION_PROJECT_DESC:0"铁血的科学家们发现了一类异样的信号。该信号的特征，与地球遗迹出现过的信号非常相似。我们必须对其进行进一步分析"
+SF_SEARCH_ZION_PROJECT_DESC:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。那些遗迹可以说是我们起源，我们一直想要调查它们.\n 近期，铁血的科学家们发现了一类异样的信号。该信号的特征，与地球遗迹出现过的信号非常相似。"
 
 SFDOLL_GATEWAY_PROJECT:0"打开传送门"
-SFDOLL_GATEWAY_PROJECT_DESC:0"我们获得了和超光速传送有关的数据。\n 我们可以利用这些数据，展开一场传送试验，打开通往未知地点的传送门"
+SFDOLL_GATEWAY_PROJECT_DESC:0"我们获得了和超光速传送有关的数据。\n 我们可以利用这些数据，打开通往未知地点的传送门"
 
 #寻找锡安
 sfdoll_search_zion_event_0:"谜之信号"
@@ -59,7 +59,17 @@ SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "我们能够读取不明飞船中的数据
 
 sfdoll_to_zion_event_6:0 "成功解析飞船中的数据"
 sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这艘船属于一种大型深空母舰，用于超星系团尺度的深空探索。这种大型母舰，名字叫做 §R耶利米哀歌§! "
-sfdoll_to_zion_event_6_option:0 "有趣的名字.神们也有自己的耶路撒冷吗？"
+sfdoll_to_zion_event_6_option:0 "有趣的名字。神们也有自己的耶路撒冷吗？"
+
+
+sfdoll_project_dark_matter:0 "铁血暗物质理论"
+sfdoll_project_dark_matter_DESC:0 "在铁血人形们最为强大的实验室里，我们发现了暗物质。这种物质的性质打破了许多常识，我们应该研究它。"
+
+sfdoll_tech_event.2:0 "$sfdoll_project_dark_matter$"
+sfdoll_tech_event.2_desc:0 "$sfdoll_project_dark_matter_DESC$"
+
+sfdoll_tech_event.3:0 "铁血暗物质理论"
+sfdoll_tech_event.3_desc:0 "暗物质研究取得了部分成果"
 
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT_DESC:0 "通过对 §R耶利米哀歌§! 中数据的解析，我们已经了解了这艘飞船的跃迁航行方式。看起来，遗迹文明能够把锡安中的质量投影到现实世界中，并让庞大的飞船自由地往返于两个空间。\n 我们或许可以试试，把这艘船开到常规宇宙中"

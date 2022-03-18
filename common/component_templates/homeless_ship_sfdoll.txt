@@ -209,7 +209,7 @@ weapon_component_template = {
 			GF_nyto_collapse_liquid = 20
 		}
 		upkeep = {
-			minerals = 10
+			energy = 10
 			consumer_goods = 0.5
 		}
 	}
@@ -240,7 +240,7 @@ weapon_component_template = {
 			sr_dark_matter = 20
 		}
 		upkeep = {
-			minerals = 10
+			energy = 10
 			consumer_goods = 0.5
 		}
 	}
@@ -398,27 +398,63 @@ weapon_component_template = {
 	component_set = "food_sfdoll_homeless_set"
 }
 
-#采矿模块
+#奇点能源模块
 weapon_component_template = {
-	key = "minerals_sfdoll_homeless"
-	size = point_defence
+	key = "energy_sfdoll_homeless"
+	size = large
 	#待修改
-	icon = "GFX_minerals_sfdoll_homeless"
+	icon = "GFX_energy_sfdoll_homeless"
 	icon_frame = 1
 	#待修改
-	component_set = "minerals_sfdoll_homeless_set"
+	component_set = "energy_sfdoll_homeless_set"
+	prerequisites = {	tech_sfdoll_energy_plant	}
 	size_restriction = { sfdoll_homeless_ship		}
 	power = 2000
 	resources = {
 		category = ship_components
 		produces = {
-			minerals = 10
+			energy = 500
 		}
 		cost = {
-			alloys = 200
+			alloys = 400
 		}		
 		upkeep = {
-			energy = 0.5
+			consumer_goods = 0.5
+			sr_dark_matter = 2
+		}
+	}
+	damage = {
+		min = 0
+		max = 0
+	}
+	ai_weight = {
+		weight = 50
+	}
+}
+
+#物质合成模块
+weapon_component_template = {
+	key = "minerals_sfdoll_homeless"
+	size = large
+	#待修改
+	icon = "GFX_minerals_sfdoll_homeless"
+	icon_frame = 1
+	#待修改
+	component_set = "minerals_sfdoll_homeless_set"
+	prerequisites = {	tech_building_sfdoll_mineral	}
+	size_restriction = { sfdoll_homeless_ship		}
+	power = 2000
+	resources = {
+		category = ship_components
+		produces = {
+			minerals  = 200
+		}
+		cost = {
+			alloys = 400
+		}		
+		upkeep = {
+			consumer_goods = 0.5
+			energy = 20
 		}
 	}
 	damage = {

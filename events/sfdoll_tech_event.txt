@@ -1,0 +1,73 @@
+namespace = sfdoll_tech_event
+
+#统一检测拥有科技，并延迟触发事件
+country_event = {
+	id = sfdoll_tech_event.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+	immediate = {
+		if = {
+			limit = { has_technology = tech_hyper_drive_2}
+			country_event = {
+				id = sfdoll_search_zion_event.4
+				days = 30
+			}
+		}
+
+		if = {
+			limit = { has_technology = tech_sensors_4 }
+			country_event = {
+				id = sfdoll_tech_event.2
+				days = 1
+			}
+		}
+
+		if = {
+			limit = {	has_technology = tech_sapient_ai }
+			country_event = {
+				id = sfdoll_gunslinger_girl_event.1
+				days = 30
+			}
+		}
+	}
+}
+
+
+#发起暗物质研究项目
+country_event = {
+	id = sfdoll_tech_event.2
+	title = sfdoll_tech_event.2
+	desc = sfdoll_tech_event.2_desc
+	hide_window = no
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_evp_sfdoll_unknown_civilization_6
+	trigger = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_sensors_4
+	}
+	immediate = {
+		capital_scope = {
+			enable_special_project = {
+				name = sfdoll_project_dark_matter
+			}
+		}
+	}
+}
+
+#完成暗物质研究项目
+country_event = {
+	id = sfdoll_tech_event.3
+	title = sfdoll_tech_event.3
+	desc = sfdoll_tech_event.3_desc
+	hide_window = no
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_evp_sfdoll_unknown_civilization_6
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+}
