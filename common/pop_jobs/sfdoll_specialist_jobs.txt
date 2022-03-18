@@ -1,100 +1,4 @@
-#铁血异星天然气岗位
-sfdoll_gases_maker = {
-	category = specialist
-	#用于检测工作是否可用的一系列逻辑
-	condition_string = SPECIALIST_JOB_TRIGGER
-	#岗位的背景，调用建筑图标
-	building_icon = building_sfdoll_gases_plant
-	clothes_texture_index = 3
 
-	possible_pre_triggers = {
-		has_owner = yes
-		is_being_purged = no
-		is_being_assimilated = no
-		is_sapient = yes
-	}
-
-	possible_precalc = can_fill_specialist_job
-
-	resources = {
-		#复制原版天然气职业的维护category
-		category = planet_refiners
-		produces = {
-			exotic_gases = 10
-		}
-		upkeep = {
-			minerals = 10
-		}
-	}
-
-	weight = {
-		weight = 20
-	}
-}
-
-#铁血稀有水晶岗位
-sfdoll_crystals_maker = {
-	category = specialist
-	#用于检测工作是否可用的一系列逻辑
-	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_sfdoll_crystal_plant
-	clothes_texture_index = 3
-
-	possible_pre_triggers = {
-		has_owner = yes
-		is_being_purged = no
-		is_being_assimilated = no
-		is_sapient = yes
-	}
-
-	possible_precalc = can_fill_specialist_job
-
-	resources = {
-		category = planet_translucers
-		produces = {
-			rare_crystals = 10
-		}
-		upkeep = {
-			minerals = 10
-		}
-	}
-
-	weight = {
-		weight = 20
-	}
-}
-
-#铁血易爆颗粒岗位
-sfdoll_motes_maker = {
-	category = specialist
-	#用于检测工作是否可用的一系列逻辑
-	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_sfdoll_motes_plant
-	clothes_texture_index = 3
-
-	possible_pre_triggers = {
-		has_owner = yes
-		is_being_purged = no
-		is_being_assimilated = no
-		is_sapient = yes
-	}
-
-	possible_precalc = can_fill_specialist_job
-
-	resources = {
-		category = planet_chemists
-		produces = {
-			volatile_motes = 10
-		}
-		upkeep = {
-			minerals = 10
-		}
-	}
-
-	weight = {
-		weight = 20
-	}
-}
 
 #铁血纳米机器制造岗位
 sfdoll_nanites_maker = {
@@ -297,6 +201,31 @@ sfdoll_collapse_energy_maker = {
 	weight = {	weight = 20	}
 }
 
+#物质合成师
+sfdoll_mineral_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	icon = sfdoll_mineral_maker
+	building_icon = building_sfdoll_mineral
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_technician
+		produces = {	minerals = 100  }
+		upkeep = {	GF_nyto_collapse_liquid = 20	}
+	}
+	weight = {	weight = 20	}
+}
+
+
 #坍塌液合金生产
 sfdoll_collapse_alloys_maker = {
 	category = specialist
@@ -345,3 +274,100 @@ sfdoll_dark_matter_maker = {
 	weight = {	weight = 20	}
 }
 
+#铁血异星天然气岗位
+# sfdoll_gases_maker = {
+# 	category = specialist
+# 	#用于检测工作是否可用的一系列逻辑
+# 	condition_string = SPECIALIST_JOB_TRIGGER
+# 	#岗位的背景，调用建筑图标
+# 	building_icon = building_sfdoll_gases_plant
+# 	clothes_texture_index = 3
+
+# 	possible_pre_triggers = {
+# 		has_owner = yes
+# 		is_being_purged = no
+# 		is_being_assimilated = no
+# 		is_sapient = yes
+# 	}
+
+# 	possible_precalc = can_fill_specialist_job
+
+# 	resources = {
+# 		#复制原版天然气职业的维护category
+# 		category = planet_refiners
+# 		produces = {
+# 			exotic_gases = 10
+# 		}
+# 		upkeep = {
+# 			minerals = 10
+# 		}
+# 	}
+
+# 	weight = {
+# 		weight = 20
+# 	}
+# }
+
+# #铁血稀有水晶岗位
+# sfdoll_crystals_maker = {
+# 	category = specialist
+# 	#用于检测工作是否可用的一系列逻辑
+# 	condition_string = SPECIALIST_JOB_TRIGGER
+# 	building_icon = building_sfdoll_crystal_plant
+# 	clothes_texture_index = 3
+
+# 	possible_pre_triggers = {
+# 		has_owner = yes
+# 		is_being_purged = no
+# 		is_being_assimilated = no
+# 		is_sapient = yes
+# 	}
+
+# 	possible_precalc = can_fill_specialist_job
+
+# 	resources = {
+# 		category = planet_translucers
+# 		produces = {
+# 			rare_crystals = 10
+# 		}
+# 		upkeep = {
+# 			minerals = 10
+# 		}
+# 	}
+
+# 	weight = {
+# 		weight = 20
+# 	}
+# }
+
+# #铁血易爆颗粒岗位
+# sfdoll_motes_maker = {
+# 	category = specialist
+# 	#用于检测工作是否可用的一系列逻辑
+# 	condition_string = SPECIALIST_JOB_TRIGGER
+# 	building_icon = building_sfdoll_motes_plant
+# 	clothes_texture_index = 3
+
+# 	possible_pre_triggers = {
+# 		has_owner = yes
+# 		is_being_purged = no
+# 		is_being_assimilated = no
+# 		is_sapient = yes
+# 	}
+
+# 	possible_precalc = can_fill_specialist_job
+
+# 	resources = {
+# 		category = planet_chemists
+# 		produces = {
+# 			volatile_motes = 10
+# 		}
+# 		upkeep = {
+# 			minerals = 10
+# 		}
+# 	}
+
+# 	weight = {
+# 		weight = 20
+# 	}
+# }

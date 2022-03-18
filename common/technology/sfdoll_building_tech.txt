@@ -21,18 +21,6 @@ tech_sfdoll_lab = {
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
 	weight = @tier4weight1
 }
-#坍塌液能源，需要坍塌液合成科技
-tech_sfdoll_collapse_energy = {
-	cost = @tier4cost3
-	area = physics
-	tier = 4
-	is_rare = yes
-	category = { particles }
-	icon = tech_sfdoll_collapse_energy
-	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
-	weight = @tier4weight3
-}
 
 #坍塌液合金制造
 tech_sfdoll_collapse_alloys_produce = {
@@ -50,18 +38,47 @@ tech_sfdoll_collapse_alloys_produce = {
 	}
 }
 
-#铁血化工改进，用于解锁三大稀有资源建筑
-tech_sfdoll_chemical = {
-	cost = @tier3cost2
+#坍塌液能源，需要坍塌液合成科技
+tech_sfdoll_collapse_energy = {
+	cost = @tier5cost3
 	area = physics
-	tier = 3
-	category = { particles }
-	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
-	weight = 0
-	potential = {	has_authority = auth_gf_sfdoll	}
-	# modifier = {
-	# }
+	tier = 5
+	is_rare = yes
+	category = { field_manipulation  }
+	icon = tech_sfdoll_collapse_energy
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
+	weight = @tier5weight3
 }
+
+#
+tech_building_sfdoll_mineral = {
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	icon = tech_building_sfdoll_mineral
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
+	weight = @tier5weight3
+}
+
+
+#铁血化工改进，用于解锁三大稀有资源建筑
+# tech_sfdoll_chemical = {
+# 	cost = @tier3cost2
+# 	area = physics
+# 	tier = 3
+# 	category = { particles }
+# 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
+# 	weight = 0
+# 	potential = {	has_authority = auth_gf_sfdoll	}
+# 	# modifier = {
+# 	# }
+# }
+# tech_sfdoll_chemical:0 "铁血化工生产改进"
+# tech_sfdoll_chemical_desc:0 "通过物质坍塌科技，我们能提高化工生产的效率."
 
 #解锁消费品建筑
 tech_sfdoll_nanites_goods= {

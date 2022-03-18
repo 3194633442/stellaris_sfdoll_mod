@@ -106,8 +106,7 @@ tech_sfdoll_battleship_bow_x2_desc:0 "轻量化的设备更易于搭载\n 解锁
 tech_sfdoll_nanites_goods:0 "微观技术工业"
 tech_sfdoll_nanites_goods_desc:0 "更高精度的工艺"
 
-tech_sfdoll_chemical:0 "铁血化工生产改进"
-tech_sfdoll_chemical_desc:0 "通过物质坍塌科技，我们能提高化工生产的效率."
+
 
 tech_sfdoll_collapse_liquid_produce:0"坍塌粒子制造"
 tech_sfdoll_collapse_liquid_produce_desc:0"编写坍塌粒子的内部程序,生产可控的坍塌粒子."
