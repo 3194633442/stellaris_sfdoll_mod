@@ -1,32 +1,32 @@
 #初级消费品模块
-weapon_component_template = {
-	key = "consumer_goods_sfdoll_homeless"
-	size = large
-	#entity = "empty_set_entity_ev"
-	icon = "GFX_consumer_goods_sfdoll_homeless"
-	icon_frame = 1
-	power = 2000
-	damage = {
-		min = 0
-		max = 0
-	}
-	upgrades_to = consumer_goods_sfdoll_homeless_2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys =200
-		}
-		produces = {
-			consumer_goods = 12
-		}
-		upkeep = {
-			minerals = 6
-			consumer_goods = 0.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship	}
-	component_set = "consumer_goods_sfdoll_homeless_set"
-}
+# weapon_component_template = {
+# 	key = "consumer_goods_sfdoll_homeless"
+# 	size = large
+# 	#entity = "empty_set_entity_ev"
+# 	icon = "GFX_consumer_goods_sfdoll_homeless"
+# 	icon_frame = 1
+# 	power = 2000
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	upgrades_to = consumer_goods_sfdoll_homeless_2
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys =200
+# 		}
+# 		produces = {
+# 			consumer_goods = 12
+# 		}
+# 		upkeep = {
+# 			minerals = 6
+# 			consumer_goods = 0.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship	}
+# 	component_set = "consumer_goods_sfdoll_homeless_set"
+# }
 #高级消费品模块
 weapon_component_template = {
 	key = "consumer_goods_sfdoll_homeless_2"
@@ -52,7 +52,7 @@ weapon_component_template = {
 		}
 		upkeep = {
 			minerals = 6
-			GF_nyto_collapse_liquid = 0.5
+			nanites = 0.5
 			consumer_goods = 0.5
 		}
 	}
@@ -61,33 +61,33 @@ weapon_component_template = {
 }
 
 #初级合金模块
-weapon_component_template = {
-	key = "alloys_sfdoll_homeless"
-	size = large
-	icon = "GFX_alloys_sfdoll_homeless"
-	icon_frame = 1
-	power = 2000
-	damage = {
-		min = 0
-		max = 0
-	}
-	upgrades_to = alloys_sfdoll_homeless_2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 200
-		}
-		produces = {
-			alloys = 6
-		}
-		upkeep = {
-			minerals = 6
-			consumer_goods = 0.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship 	}
-	component_set = "alloys_sfdoll_homeless_set"
-}
+# weapon_component_template = {
+# 	key = "alloys_sfdoll_homeless"
+# 	size = large
+# 	icon = "GFX_alloys_sfdoll_homeless"
+# 	icon_frame = 1
+# 	power = 2000
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	upgrades_to = alloys_sfdoll_homeless_2
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 200
+# 		}
+# 		produces = {
+# 			alloys = 6
+# 		}
+# 		upkeep = {
+# 			minerals = 6
+# 			consumer_goods = 0.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship 	}
+# 	component_set = "alloys_sfdoll_homeless_set"
+# }
 #高级合金模块
 weapon_component_template = {
 	key = "alloys_sfdoll_homeless_2"
@@ -121,35 +121,35 @@ weapon_component_template = {
 }
 
 #科研模块
-weapon_component_template = {
-	key = "research_sfdoll_homeless"
-	size = large
-	#entity = "empty_set_entity_ev"
-	icon = "GFX_research_sfdoll_homeless"
-	icon_frame = 1
-	power = 2000
-	damage = {
-		min = 0
-		max = 0
-	}
-	upgrades_to = research_sfdoll_homeless_2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 200
-		}
-		produces = {
-			physics_research = 8
-			society_research =  8
-			engineering_research =  8
-		}
-		upkeep = {
-			consumer_goods = 2.5
-		}
-	}
-	size_restriction = { sfdoll_homeless_ship 	}
-	component_set = "research_sfdoll_homeless_set"
-}
+# weapon_component_template = {
+# 	key = "research_sfdoll_homeless"
+# 	size = large
+# 	#entity = "empty_set_entity_ev"
+# 	icon = "GFX_research_sfdoll_homeless"
+# 	icon_frame = 1
+# 	power = 2000
+# 	damage = {
+# 		min = 0
+# 		max = 0
+# 	}
+# 	upgrades_to = research_sfdoll_homeless_2
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 200
+# 		}
+# 		produces = {
+# 			physics_research = 8
+# 			society_research =  8
+# 			engineering_research =  8
+# 		}
+# 		upkeep = {
+# 			consumer_goods = 2.5
+# 		}
+# 	}
+# 	size_restriction = { sfdoll_homeless_ship 	}
+# 	component_set = "research_sfdoll_homeless_set"
+# }
 #高级科研模块
 weapon_component_template = {
 	key = "research_sfdoll_homeless_2"
@@ -267,10 +267,7 @@ weapon_component_template = {
 			alloys = 200
 		}
 		produces = {
-			unity = 16
-			physics_research = 4
-			society_research = 4
-			engineering_research = 4
+			unity = 20
 		}
 		upkeep = {
 			consumer_goods = 2.5
@@ -280,6 +277,37 @@ weapon_component_template = {
 	component_set = "college_sfdoll_homeless_set"
 }
 
+
+#纳米机械模块
+weapon_component_template = {
+	key = "nanites_sfdoll_homeless"
+	size = large
+	icon = "GFX_nanites_sfdoll_homeless"
+	icon_frame = 1
+	power = 2000
+	prerequisites = {
+		tech_sfdoll_nanites
+	}
+	damage = {
+		min = 0
+		max = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 200
+		}
+		produces = {
+			nanites = 20
+		}
+		upkeep = {
+			minerals = 10
+			consumer_goods = 0.5
+		}
+	}
+	size_restriction = { sfdoll_homeless_ship 	}
+	component_set = "nanites_sfdoll_homeless_set"
+}
 
 #异星天然气模块
 weapon_component_template = {
@@ -475,11 +503,8 @@ utility_component_template = {
 	power = 150000
 	resources = {
 		category = ship_components
-		produces = {
-			energy = 20
-		}
 		upkeep = {
-			minerals = 10
+			minerals = 5
 		}
 		cost = {
 			alloys = 200
@@ -636,3 +661,15 @@ utility_component_template = {
 # 	size_restriction = { sfdoll_homeless_ship	 }
 # 	component_set = volatile_motes_sfdoll_homeless_2_set
 # }
+
+# consumer_goods_sfdoll_homeless_set:0 "消费品模块"
+# consumer_goods_sfdoll_homeless_set_DESC:0 "$consumer_goods_sfdoll_homeless$"
+# consumer_goods_sfdoll_homeless:0 "消费品模块\n 生产:\n §Y12 $consumer_goods$§! £consumer_goods£ \n 消耗:\n §Y6 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+
+# alloys_sfdoll_homeless_set:0 "合金模块"
+# alloys_sfdoll_homeless_set_DESC:0 "$alloys_sfdoll_homeless$"
+# alloys_sfdoll_homeless:0 "合金模块\n 生产:\n §Y6 $alloys$§! £alloys£ \n 消耗:\n §Y6 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+
+# research_sfdoll_homeless_set:0 "科研模块"
+# research_sfdoll_homeless_set_DESC:0 "$research_sfdoll_homeless$"
+# research_sfdoll_homeless:0 "科研模块\n 生产:\n §Y8 $physics_research$§! £physics_research£ \n §Y8 $society_research$§! £society_research£ \n §Y8 $engineering_research$§! £engineering_research£ \n 消耗:\n §Y2.5 $consumer_goods$§! £consumer_goods£"

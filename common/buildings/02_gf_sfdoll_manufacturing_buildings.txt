@@ -23,11 +23,11 @@ building_sfdoll_nanites_goods_plant = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = @b3_rare_cost
+			nanites = @b3_rare_cost
 		}
 		upkeep = {
 			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = @b3_rare_upkeep
+			nanites = @b3_rare_upkeep
 		}
 	}
 	triggered_desc = {	text = job_sfdoll_nanites_goods_maker_effect_desc	}

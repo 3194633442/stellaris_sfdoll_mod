@@ -7,6 +7,7 @@ weapon_component_template = {
 	icon = "GFX_sfdoll_weapon_x_1"
 	icon_frame = 1
 	projectile_gfx = "uv_laser_l"
+	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
 	static_rotation = yes
@@ -58,6 +59,7 @@ weapon_component_template = {
 	icon = "GFX_sfdoll_weapen_t_2"
 	icon_frame = 1
 	projectile_gfx = "perdition_beam"
+	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
 	static_rotation = yes
@@ -104,59 +106,59 @@ weapon_component_template = {
 	}
 }
 
-weapon_component_template = {
-	key = "sfdoll_weapen_t_7"
-	size = titanic
-	type = instant
-	#待修改
-	icon = "GFX_sfdoll_weapen_t_2"
-	icon_frame = 1
-	projectile_gfx = "perdition_beam"
-	firing_arc = 25.0
-	min_range = 10.0
-	static_rotation = yes
-	use_ship_kill_target = no
-	#8500
-	damage = { min = 14000 max = 22000 }
-	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 175
-	range = 300
-	accuracy = 1.0
-	shield_penetration = 1.0
-	armor_penetration = 1.0
-	tracking = 0.15
-	power = -1200
+# weapon_component_template = {
+# 	key = "sfdoll_weapen_t_7"
+# 	size = titanic
+# 	type = instant
+# 	#待修改
+# 	icon = "GFX_sfdoll_weapen_t_2"
+# 	icon_frame = 1
+# 	projectile_gfx = "perdition_beam"
+# 	firing_arc = 25.0
+# 	min_range = 10.0
+# 	static_rotation = yes
+# 	use_ship_kill_target = no
+# 	#8500
+# 	damage = { min = 14000 max = 22000 }
+# 	#冷却时间要除以10
+# 	windup = { min = 30 max = 40 }
+# 	total_fire_time = 175
+# 	range = 300
+# 	accuracy = 1.0
+# 	shield_penetration = 1.0
+# 	armor_penetration = 1.0
+# 	tracking = 0.15
+# 	power = -1200
 	
-	#待修改
-	prerequisites = { "tech_sfdoll_weapen_t_2" }
-	component_set = "component_set_sfdoll_weapen_t_2"
-	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic }
-	ai_tags = { weapon_role_artillery }
-	ai_tag_weight = 0
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 600
-			GF_nyto_collapse_liquid = 180
-		}		
-		upkeep = {
-			energy = 25
-		}
-	}
-	ai_weight = {
-		weight = 1500
-		modifier = {
-			factor = 0
-			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
-		}
-		modifier = {
-			factor = -4
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
-	}
-}
+# 	#待修改
+# 	prerequisites = { "tech_sfdoll_weapen_t_2" }
+# 	component_set = "component_set_sfdoll_weapen_t_2"
+# 	#projectile_gfx = 武器效果
+# 	tags = { weapon_type_energy weapon_type_kinetic }
+# 	ai_tags = { weapon_role_artillery }
+# 	ai_tag_weight = 0
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 600
+# 			GF_nyto_collapse_liquid = 180
+# 		}		
+# 		upkeep = {
+# 			energy = 25
+# 		}
+# 	}
+# 	ai_weight = {
+# 		weight = 1500
+# 		modifier = {
+# 			factor = 0
+# 			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
+# 		}
+# 		modifier = {
+# 			factor = -4
+# 			NOT = {	has_authority = auth_gf_sfdoll	}
+# 		}
+# 	}
+# }
 
 #蛇式火力系统
 weapon_component_template = {
@@ -167,6 +169,7 @@ weapon_component_template = {
 	icon = "GFX_sfdoll_weapon_s_3"
 	icon_frame = 1
 	projectile_gfx = infrared_laser_m
+	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = no
 	#3600 L1800 m900 s450
@@ -214,6 +217,7 @@ weapon_component_template = {
 	icon = "GFX_sfdoll_weapon_s_3"
 	icon_frame = 1
 	projectile_gfx = infrared_laser_m
+	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = no
 	#L1800 m900 s450
@@ -261,6 +265,7 @@ weapon_component_template = {
 	icon = "GFX_sfdoll_weapon_s_3"
 	icon_frame = 1
 	projectile_gfx = infrared_laser_m
+	entity = invisible_turret_entity
 	use_ship_kill_target = no
 	#L1800 m900 s450
 	damage = { min = 1000 max = 1500 }
@@ -308,6 +313,7 @@ weapon_component_template = {
 	icon = "GFX_sfdoll_weapon_p_6"
 	icon_frame = 1
 	projectile_gfx = "infrared_laser_s"
+	entity = invisible_turret_entity
 	use_ship_kill_target = no
 	#L1800 m900 s450
 	damage = { min =250 max = 350 }

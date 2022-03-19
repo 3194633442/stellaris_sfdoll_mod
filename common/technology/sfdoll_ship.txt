@@ -194,7 +194,7 @@ tech_sfdoll_tactical_destroyer = {
 	category = { voidcraft }
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_collapse_energy
+		has_technology = tech_sfdoll_energy_plant
 		has_technology = tech_sfdoll_thruster
 		has_technology = tech_sfdoll_ogas_ai
 	}
@@ -219,22 +219,25 @@ tech_ship_sfdoll_carrier = {
 }
 
 
-#铁血星舰城市
+#星舰城市
 tech_sfdoll_homeless_ship = {
-	cost = @tier3cost1
+	cost = @tier5cost1
+	tier = 5
 	area = engineering
 	start_tech = no
 	icon = tech_sfdoll_homeless_ship
 	is_rare = yes
 	category = { voidcraft }
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
 	modifier = {
 		country_resource_max_add = 20000
 	}
-	tier = 3
-	weight = @tier3weight1
+	weight = @tier5weight1
 }
 
 #升级星舰城市

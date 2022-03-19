@@ -4,6 +4,7 @@ namespace = fleet_sfdoll_event
 country_event = {
 	id = fleet_sfdoll_event.1
 	is_triggered_only = yes
+	hide_window = yes
 	title= fleet_sfdoll_event.1
 	trigger = {	has_authority = auth_gf_sfdoll	 }
 	immediate = {

@@ -150,3 +150,72 @@ elisa_to_scientist_sfd_effect = {
 		}
 	}
 }
+
+
+#ump40成为总督
+ogas40_become_governor_effect = {
+	hidden_effect = {
+		if = {
+			limit = { exists = event_target:ogas40_sfdoll_leader }
+			event_target:ogas40_sfdoll_leader = {
+				kill_leader = {
+					show_notification = no
+					fire = yes
+				}
+			}
+		}
+
+		create_leader = {
+			class = governor
+			species = owner_species
+			name = NAME_sfdoll_ogas40
+			skill = 5
+			set_age = 15
+			immortal = yes
+			event_leader = yes	# prevents this leader from leading factions and winning elections
+			traits = {
+				trait = leader_trait_governor_ogas40
+			}
+			effect = {
+				#change_leader_portrait = GFX_sfdoll_triela
+				set_leader_flag = ogas40_sfdoll_leader
+				save_global_event_target_as = ogas40_sfdoll_leader
+			}
+		}
+	}
+
+}
+
+#ump40成为科学家
+ogas40_become_scientist_effect = {
+	hidden_effect = {
+		if = {
+			limit = { exists = event_target:ogas40_sfdoll_leader }
+			event_target:ogas40_sfdoll_leader = {
+				kill_leader = {
+					show_notification = no
+					fire = yes
+				}
+			}
+		}
+
+		create_leader = {
+			class = scientist
+			species = owner_species
+			name = NAME_sfdoll_ogas40
+			skill = 5
+			set_age = 15
+			immortal = yes
+			event_leader = yes	# prevents this leader from leading factions and winning elections
+			traits = {
+				trait = leader_trait_scientist_ogas40
+			}
+			effect = {
+				#change_leader_portrait = GFX_sfdoll_triela
+				set_leader_flag = ogas40_sfdoll_leader
+				save_global_event_target_as = ogas40_sfdoll_leader
+			}
+		}
+	}
+
+}

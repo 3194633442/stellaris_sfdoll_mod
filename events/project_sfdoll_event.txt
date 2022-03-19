@@ -1,0 +1,40 @@
+namespace = project_sfdoll_event
+
+
+#发起OGAS研究项目
+country_event = {
+	id = project_sfdoll_event.1
+	title = "project_sfdoll_event.1"
+	desc = "project_sfdoll_event.1_desc"
+	hide_window = no
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_self_aware_logic
+	}
+	immediate = {
+		capital_scope = {
+			enable_special_project = {
+				name = sfdoll_project_ogas_ai
+			}
+		}
+	}
+}
+#OGAS研究完成提示
+country_event = {
+	id = project_sfdoll_event.2
+	title = "project_sfdoll_event.2"
+	desc = "project_sfdoll_event.2_desc"
+	hide_window = no
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+	immediate = {
+		#用于判断是否能和40通讯
+		set_country_flag = ogas40_owner_sfdoll
+		save_global_event_target_as = ogas40_owner_sfdoll
+	}
+}

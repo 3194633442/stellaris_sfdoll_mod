@@ -1,10 +1,10 @@
 ﻿l_simp_chinese:
 #寻找锡安
 sfdoll_search_zion_chain_title:0 "铁血探索档案"
-sfdoll_search_zion_chain_desc:0 "银河探索的记录"
+sfdoll_search_zion_chain_desc:0 "铁血的银河探索记录"
 
 SF_SEARCH_ZION_PROJECT:0"解析谜之信号"
-SF_SEARCH_ZION_PROJECT_DESC:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。那些遗迹可以说是我们起源，我们一直想要调查它们.\n 近期，铁血的科学家们发现了一类异样的信号。该信号的特征，与地球遗迹出现过的信号非常相似。"
+SF_SEARCH_ZION_PROJECT_DESC:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。可以说，那些遗迹是我们起源。\n 近期，铁血的科学家们发现了一类异样的信号。该信号的特征，与地球遗迹出现过的信号非常相似。"
 
 SFDOLL_GATEWAY_PROJECT:0"打开传送门"
 SFDOLL_GATEWAY_PROJECT_DESC:0"我们获得了和超光速传送有关的数据。\n 我们可以利用这些数据，打开通往未知地点的传送门"
@@ -14,10 +14,10 @@ sfdoll_search_zion_event_0:"谜之信号"
 sfdoll_search_zion_event_0_desc:"近期，我们的研究人员探测到了某种独特的信号，她们表示，这些信号极有可能与地球遗迹有关，我们必须好好研究一番"
 
 sfdoll_search_zion_event_1:"不明坐标"
-sfdoll_search_zion_event_1_desc:"我们接收到了某种异常信号，并对其进行了分析。\n 这些信号中，只有一小部分能被我们解读，其主要内容是一组超光速传送的坐标，以及一些相关参数。\n 铁血科学家们认为，我们应该利用这些信息，进行一场传送试验。"
+sfdoll_search_zion_event_1_desc:"我们接收到了某种异常信号，并对其进行了分析。\n 这些信号中，只有一小部分能被我们解读，其主要内容是一组逆向坍塌传送的坐标参数。\n 我们可以利用这些信息，进行一场超光速传送试验。"
 
 sfdoll_search_zion_event_2:"传送门的另一边"
-sfdoll_search_zion_event_2_desc:"我们成功打开了传送门，铁血探险队员们踏上了征程。\n一些队伍在传送后船毁人亡，壮烈牺牲,但它们的努力没有白费，我们收集到了珍贵的数据。\n 终于，我们的探险队成功到达了目标位置。"
+sfdoll_search_zion_event_2_desc:"我们成功打开了传送门，铁血探险队员们踏上了征程。\n一些队伍在传送后船毁人亡，壮烈牺牲,但它们的努力没有白费，我们收集到了珍贵的数据。\n 接着，我们的探险队成功到达了目标位置。"
 
 sfdoll_search_zion_event_3:"遗迹"
 sfdoll_search_zion_event_3_desc:"探险队开始对目标地点进行考察。\n 该地点是一颗固态行星，上面存在大型的遗迹，我们需要组织更多人手，才能进行进一步考察。"
@@ -51,7 +51,7 @@ sfdoll_to_zion_event_4_desc:0 "毫无预兆地，一艘飞船出现在我们位�
 sfdoll_to_zion_event_4_option:0 "得想办法研究它"
 
 sfdoll_to_zion_event_5:0 "成功进入不明飞船"
-sfdoll_to_zion_event_5_desc:0 "我们总算可以进入这些不明飞船的内部了。调查的过程中，这艘飞船并未表现出有害的行为。\n 这艘飞船十分古老，其年龄或许比地球文明还要大。但船上的大部分设备仍在工作，并表现出远超我们认识的科技水平。\n 飞船上的数据接口和我们的通用接口是一致的,所以，我们很快就读取到了其中的数据，可以进行进一步研究了."
+sfdoll_to_zion_event_5_desc:0 "我们总算可以进入这些不明飞船的内部了。调查的过程中，这艘飞船并未表现出有害的行为。\n 这艘飞船十分古老，其年龄或许比地球文明还要大。但船上的大部分设备仍在工作，并表现出远超我们认识的科技水平。\n 飞船上的数据接口和我们的通用接口一致,所以，我们很快读取到了其中的数据，可以进行进一步研究了."
 sfdoll_to_zion_event_5_option:0 "通用接口？..usb3.0 ? "
 
 SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "解析飞船中的数据"
@@ -63,13 +63,30 @@ sfdoll_to_zion_event_6_option:0 "有趣的名字。神们也有自己的耶路�
 
 
 sfdoll_project_dark_matter:0 "铁血暗物质理论"
-sfdoll_project_dark_matter_DESC:0 "在铁血人形们最为强大的实验室里，我们发现了暗物质。这种物质的性质打破了许多常识，我们应该研究它。"
+sfdoll_project_dark_matter_DESC:0 "我们在实验室里发现了暗物质。暗物质打破了我们的物理常识，我们应该研究它。"
 
 sfdoll_tech_event.2:0 "$sfdoll_project_dark_matter$"
 sfdoll_tech_event.2_desc:0 "$sfdoll_project_dark_matter_DESC$"
 
 sfdoll_tech_event.3:0 "铁血暗物质理论"
 sfdoll_tech_event.3_desc:0 "暗物质研究取得了部分成果"
+
+
+
+sfdoll_project_ogas_ai:0 "研究OGAS"
+sfdoll_project_ogas_ai_DESC:0 "OGAS是利用遗迹科学创造的超级AI。\n 铁血的先驱者莉娃，她的体内保存了一个OGAS，可以作为我们的研究样本。"
+
+project_sfdoll_event.1:0 "研究OGAS"
+project_sfdoll_event.1_desc:0 "OGAS是利用遗迹科学创造的超级AI。\n 铁血的先驱者莉娃，她的体内保存了一个OGAS，可以作为我们的研究样本。"
+
+project_sfdoll_event.2:0 "研究OGAS"
+project_sfdoll_event.2_desc:0 "我们对莉娃体内的OGAS进行了研究。\n 在研究过程中，我们设计了一副人形素体，并将OGAS意志转移到这幅新素体上。现在，OGAS可以用新身体自由行动了。"
+
+leader_trait_governor_ogas40:0 "OGAS ump40"
+leader_trait_governor_ogas40_desc:0 "利用遗迹科学创造的超级AI。据说，她的外形模仿了莉娃的旧友。"
+
+leader_trait_scientist_ogas40:0 "$leader_trait_governor_ogas40$"
+leader_trait_scientist_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
 
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT_DESC:0 "通过对 §R耶利米哀歌§! 中数据的解析，我们已经了解了这艘飞船的跃迁航行方式。看起来，遗迹文明能够把锡安中的质量投影到现实世界中，并让庞大的飞船自由地往返于两个空间。\n 我们或许可以试试，把这艘船开到常规宇宙中"

@@ -79,7 +79,7 @@ building_sfdoll_academy_desc:0"兼具教学与科研功能的园区。常配备�
 job_sfdoll_educator:0"教育工作者"
 job_sfdoll_educator_plural:0"教育工作者"
 job_sfdoll_educator_desc:0"虽然很多知识可以直接下载到脑子里，但学习和训练也是人形AI成长的一环"
-job_sfdoll_educator_effect_desc:0 "教育工作者产出§Y研究点数§!, §Y$unity$§!,降低星球的犯罪度"
+job_sfdoll_educator_effect_desc:0 "教育工作者产出§Y$unity$§!,并降低星球的犯罪度"
 mod_job_sfdoll_educator_add:0"教育工作者岗位"
 
 building_sfdoll_net:0"铁血IT城"

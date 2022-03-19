@@ -85,10 +85,7 @@ sfdoll_educator = {
 	resources = {
 		category = planet_culture_workers
 		produces = {
-			physics_research = 2
-			society_research = 2
-			engineering_research = 2
-			unity = 8
+			unity = 10
 		}
 	}
 	weight = {

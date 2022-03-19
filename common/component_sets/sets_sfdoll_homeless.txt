@@ -59,6 +59,14 @@ component_set = {
 	icon_frame = 1
 }
 
+#纳米机械模块
+component_set = {
+	key = "nanites_sfdoll_homeless_set"
+	icon = "GFX_nanites_sfdoll_homeless"
+	icon_frame = 1
+}
+
+
 #生态模块
 component_set = {
 	key = "food_sfdoll_homeless_set"

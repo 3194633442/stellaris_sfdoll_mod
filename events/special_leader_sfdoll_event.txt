@@ -1,0 +1,84 @@
+namespace = special_leader_sfdoll_event
+
+#和ump40的通讯界面
+country_event = {
+	id = special_leader_sfdoll_event.1
+	title = "special_leader_sfdoll_event.1"
+	desc = "special_leader_sfdoll_event.1_desc"
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = this
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}	
+	is_triggered_only = yes
+
+	trigger = {
+		AND = {
+			from = {  NOT = {has_country_flag = gray_country }	}
+			has_country_flag = ogas40_owner_sfdoll
+			NOT = { has_country_flag = contract_diplomacy_engaged }
+		}
+	}
+
+	immediate = {
+		set_country_flag = contract_diplomacy_engaged
+	}
+	after = {
+		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
+	}
+
+	#选项，伊莱莎变科学家
+	option = {
+		name =  "ogas40_to_scientist"
+		allow = { 
+			custom_tooltip ={
+				fail_text ="elisa_has_this_job_now"
+				NOR = {
+					AND = {
+						exists = event_target:sfdoll_leader_elisa
+						event_target:sfdoll_leader_elisa = { leader_class = scientist }
+					}			
+				}
+			}			 
+		}
+		elisa_to_scientist_sfd_effect =  yes
+		response_text = "response_text_elisa_to_scientist"
+	}
+
+	option = {
+		name =  "ogas40_to_scientist"
+		allow = { 
+			custom_tooltip ={
+				fail_text ="elisa_has_this_job_now"
+				NOR = {
+					AND = {
+						exists = event_target:sfdoll_leader_elisa
+						event_target:sfdoll_leader_elisa = { leader_class = scientist }
+					}			
+				}
+			}			 
+		}
+		elisa_to_scientist_sfd_effect =  yes
+		response_text = "response_text_elisa_to_scientist"
+	}
+
+	option = {
+		name = sfdoll_elisa_event.2_option_2
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_elisa_event.3
+			}
+		}
+	}
+
+
+	#退出
+	option = {
+		name =  "sfdoll_break_option"
+		break = yes
+	}
+}

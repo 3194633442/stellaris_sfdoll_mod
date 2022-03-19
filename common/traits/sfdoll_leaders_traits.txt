@@ -328,6 +328,7 @@ leader_trait_general_sfdoll_triela = {
 	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
 }
 
+#伊莱莎科学家
 leader_trait_elisa_sfd_scientist = {
 	cost = 0
 	randomized = no
@@ -340,6 +341,32 @@ leader_trait_elisa_sfd_scientist = {
 		science_ship_survey_speed = 0.25
 		ship_anomaly_research_speed_mult = 0.25
 		ship_archaeological_site_excavation_speed_mult = 0.25
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
+}
+
+#ump40总督
+leader_trait_governor_ogas40 = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_ogas40.dds"
+	modifier = {
+		pop_happiness = 0.10
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
+}
+
+#OGAS ump40科学家
+leader_trait_scientist_ogas40 = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_ogas40.dds"
+	modifier = {
+		all_technology_research_speed = 0.15
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }

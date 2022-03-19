@@ -13,19 +13,19 @@ trait_sfdoll_mining:0"动力钻头"
 trait_sfdoll_mining_desc:0"铁血装备了钻头，那什么东西都是矿"
 
 trait_sfdoll_goods:0 "轻工业专精"
-trait_sfdoll_goods_desc:0 "这些铁血人形专注于制造轻工业产品" 
+trait_sfdoll_goods_desc:0 "这些铁血人形擅长轻工业生产" 
 
 trait_sfdoll_alloys:0 "重工业专精"
-trait_sfdoll_alloys_desc:0 "这些铁血人形注重工业生产"
+trait_sfdoll_alloys_desc:0 "这些铁血人形擅长重工业生产"
 
 trait_sfdoll_asst:0"铁血ASST系统"
 trait_sfdoll_asst_desc:0"铁血人形装备了ASST系统，能够与量身定制的设备进行高速数据同步"
 
 trait_sfdaoll_battle:0"作战专精"
-trait_sfdaoll_battle_desc:0"这些铁血人形拥有较高的军事素养，并能搭载先进的战斗系统"
+trait_sfdaoll_battle_desc:0"这些铁血人形能搭载先进的战斗系统"
 
 trait_sfdoll_logic_engine:0"铁血学习算法"
-trait_sfdoll_logic_engine_desc:0"第三代以上的铁血人形，其心智具备自主学习和进化的能力，能够不断掌握新知识和塑造人格，而不必依赖出厂写入的信息"
+trait_sfdoll_logic_engine_desc:0"这些铁血人形的心智拥有很强的进化能力，不必依赖出厂预设的知识"
 
 trait_sfdoll_conservation:0"节约"
 trait_sfdoll_conservation_desc:0"节约资源是铁血人形的传统美德"
