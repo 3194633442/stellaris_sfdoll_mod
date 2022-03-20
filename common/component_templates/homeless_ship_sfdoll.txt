@@ -158,7 +158,7 @@ weapon_component_template = {
 	icon = "GFX_research_sfdoll_homeless"
 	icon_frame = 1
 	prerequisites = {
-		tech_sfdoll_lab
+		tech_sfdoll_lab_2
 	}
 	power = 2000
 	damage = {

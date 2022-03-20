@@ -29,7 +29,7 @@ tech_sfdoll_command_limit_2_desc:0"为太空行动而开发的人形辅助模块
 tech_sfdoll_command_limit_3:0"铁血舰队:蚀刻理论飞船管理"
 tech_sfdoll_command_limit_3_desc:0"利用蚀刻技术管理飞船设备"
 tech_sfdoll_command_limit_4:0"铁血舰队:OGAS舰队通讯"
-tech_sfdoll_command_limit_4_desc:0"我们可以改良舰队的通讯系统"
+tech_sfdoll_command_limit_4_desc:0"改良舰队的通讯系统"
 tech_sfdoll_command_limit_5:0"铁血舰队:舰载短程ftl"
 tech_sfdoll_command_limit_5_desc:0"短距离超光速系统"
 
@@ -110,8 +110,6 @@ tech_sfdoll_nanites_goods_desc:0 "更高精度的工艺"
 tech_sfdoll_collapse_liquid_produce:0"坍塌粒子制造"
 tech_sfdoll_collapse_liquid_produce_desc:0"编写坍塌粒子的内部程序,生产可控的坍塌粒子."
 
-tech_sfdoll_lab:0"坍塌技术研究辅助"
-tech_sfdoll_lab_desc:0"坍塌技术能够大幅强化科研计算机的功能"
 
 tech_sfdoll_collapse_alloys_produce:0"坍塌粒子合金制造工艺"
 tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌粒子，控制原料中的微观粒子，生产高品质合金"

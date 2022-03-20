@@ -30,8 +30,18 @@ job_sfdoll_collapse_liquid_maker_desc:0"制造坍塌粒子"
 job_sfdoll_collapse_liquid_maker_effect_desc:0 "$job_sfdoll_collapse_liquid_maker$ 消耗 §Y$energy$§! 生产 §Y$GF_nyto_collapse_liquid$§!"
 mod_job_sfdoll_collapse_liquid_maker_add:0"$job_sfdoll_collapse_liquid_maker$ 岗位"
 
+
+tech_sfdoll_lab:0"铁血研究所"
+tech_sfdoll_lab_desc:0"铁血研究所汇集了先进科研资源"
+
+tech_sfdoll_lab_2:0 "铁血高级研究所"
+tech_sfdoll_lab_2_desc:0 "高级研究所拥有更好的研究条件"
+
 building_sfdoll_research:0"铁血研究所"
-building_sfdoll_research_desc:0"铁血研究所汇集了铁血的先进科研资源"
+building_sfdoll_research_desc:0"铁血研究所汇集了先进科研资源"
+building_sfdoll_research_2:0"铁血高级研究所"
+building_sfdoll_research_2_desc:0"高级研究所拥有更好的研究条件"
+
 job_sfdoll_researcher:0"科研人形"
 job_sfdoll_researcher_plural:0"$job_sfdoll_researcher$"
 job_sfdoll_researcher_desc:0"$job_sfdoll_researcher$"
@@ -75,10 +85,10 @@ mod_job_sfdoll_nanites_goods_maker_add:0 "铁血工匠岗位"
 
 #civic
 building_sfdoll_academy:0"铁血学园"
-building_sfdoll_academy_desc:0"兼具教学与科研功能的园区。常配备有大型虚拟现实服务器，用于铁血人形的模拟训练、头脑风暴、思想品德课程和再就业培训"
+building_sfdoll_academy_desc:0"这些园区兼具教学与科研功能。虽然很多知识可以直接下载到脑子里，但学习和训练也是人形AI成长的一环。"
 job_sfdoll_educator:0"教育工作者"
 job_sfdoll_educator_plural:0"教育工作者"
-job_sfdoll_educator_desc:0"虽然很多知识可以直接下载到脑子里，但学习和训练也是人形AI成长的一环"
+job_sfdoll_educator_desc:0"教育工作者"
 job_sfdoll_educator_effect_desc:0 "教育工作者产出§Y$unity$§!,并降低星球的犯罪度"
 mod_job_sfdoll_educator_add:0"教育工作者岗位"
 
@@ -96,6 +106,10 @@ job_sfdoll_tactical_plural:0"战术人形"
 job_sfdoll_tactical_desc:0"战术人形配备了专业作战系统，维持着国家的军事力量"
 job_sfdoll_tactical_effect_desc:0"战术人形提供海军容量，凝聚力，并提高星球的稳定度"
 mod_job_sfdoll_tactical_add:0 "战术人形岗位"
+
+
+building_sfdoll_cheat:0 "神秘计算机"
+building_sfdoll_cheat_desc:0 "铁血们完全搞不懂这台机器的原理"
 
 # building_sfdoll_gases_plant:0 "铁血气体精炼厂"
 # building_sfdoll_gases_plant_desc:0 "$building_sfdoll_gases_plant$"

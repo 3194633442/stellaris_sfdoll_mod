@@ -8,11 +8,10 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = yes
 
-	#所在国为铁血帝国
+	#所在国为铁血帝国，且为玩家操控
 	trigger = {
-		from = {
-			owner = {  	has_country_flag = sfdoll_empire	}
-		}
+		has_country_flag = sfdoll_empire
+		is_ai = no
 	}
 	immediate = {
 		from = {
@@ -23,28 +22,17 @@ country_event = {
 		#判断是否为一般铁血领袖
 		if = {
 			limit = { 
-				AND = {
-					from = {
-						has_leader_flag = sfdoll_leader
-						#不是ump45
-						event_target:leader_revive_sfdoll = { NOT = { has_leader_flag = sfdoll_leader_ump45 } }
+				from = {
+					has_leader_flag = sfdoll_leader
+					NOT = {
+						event_target:leader_revive_sfdoll = {
+							has_leader_flag = sfdoll_leader_noel
+						}
 					}
 				}
-
-
 			}
 			country_event = {
 				id = sfdoll_leader_revive_event.1
-			}
-		}
-
-		#判断是否为ump45事件领袖
-		if = {
-			limit = { 
-				event_target:leader_revive_sfdoll = {  has_leader_flag = sfdoll_leader_ump45 }
-			}
-			country_event = {
-				id = sfdoll_leader_revive_event.2
 			}
 		}
 
@@ -57,8 +45,6 @@ country_event = {
 				id = sfdoll_leader_revive_event.3
 			}
 		}
-
-
 	}
 }
 
@@ -80,6 +66,7 @@ country_event = {
 						target = event_target:leader_revive_sfdoll
 						class = governor	
 						effect = {
+							save_event_target_as = new_leader_revive_sfdoll
 							set_leader_flag = sfdoll_leader
 						}
 					}
@@ -92,6 +79,7 @@ country_event = {
 						target = event_target:leader_revive_sfdoll
 						class = scientist	
 						effect = {
+							save_event_target_as = new_leader_revive_sfdoll
 							set_leader_flag = sfdoll_leader
 						}
 					}
@@ -104,6 +92,7 @@ country_event = {
 						target = event_target:leader_revive_sfdoll
 						class = admiral	
 						effect = {
+							save_event_target_as = new_leader_revive_sfdoll
 							set_leader_flag = sfdoll_leader
 						}
 					}
@@ -116,6 +105,7 @@ country_event = {
 						target = event_target:leader_revive_sfdoll
 						class = general	
 						effect = {
+							save_event_target_as = new_leader_revive_sfdoll
 							set_leader_flag = sfdoll_leader
 						}
 					}
@@ -132,11 +122,49 @@ country_event = {
 						effect = {
 							set_leader_flag = sfdoll_leader
 							save_event_target_as = sfdoll_ruler_revive
+							save_event_target_as = new_leader_revive_sfdoll
 						}
 					}
 					set_leader = event_target:sfdoll_ruler_revive
 				}
 			}
+
+			if = {
+				limit = { has_leader_flag = sfdoll_leader_ump45 }
+				clear_global_event_target = sfdoll_leader_ump45
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_ump45
+					save_global_event_target_as = sfdoll_leader_ump45
+				}
+			}
+
+			if = {
+				limit = { has_leader_flag = sfdoll_leader_elisa }
+				clear_global_event_target = sfdoll_leader_elisa
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_elisa
+					save_global_event_target_as = sfdoll_leader_elisa
+				}
+			}
+
+			if = {
+				limit = { has_leader_flag = ogas40_sfdoll_leader }
+				clear_global_event_target = ogas40_sfdoll_leader
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = ogas40_sfdoll_leader
+					save_global_event_target_as = ogas40_sfdoll_leader
+				}
+			}
+
+			if = {
+				limit = { has_leader_flag = sfdoll_leader_triela }
+				clear_global_event_target = sfdoll_leader_triela
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_triela
+					save_global_event_target_as = sfdoll_leader_triela
+				}
+			}
+
 		}
 	}
 }

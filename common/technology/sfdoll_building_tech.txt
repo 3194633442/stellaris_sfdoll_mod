@@ -9,18 +9,35 @@ tech_sfdoll_collapse_liquid_produce = {
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = 0 #@tier4weight2
 }
-#坍塌液实验室，需要坍塌液合成科技
+
+#研究所
 tech_sfdoll_lab = {
+	cost = @tier2cost1
+	area = physics
+	icon = tech_sfdoll_lab
+	tier = 2
+	is_rare = yes
+	category = { particles }
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_basic_science_lab_2	}
+	weight = @tier2weight1
+}
+#高级研究所
+tech_sfdoll_lab_2 = {
 	cost = @tier4cost1
 	area = physics
 	icon = tech_sfdoll_lab
 	tier = 4
 	is_rare = yes
 	category = { particles }
-	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_sfdoll_collapse_liquid_produce
+	}
+	prerequisites = { tech_sfdoll_lab }
 	weight = @tier4weight1
 }
+
 
 #坍塌液合金制造
 tech_sfdoll_collapse_alloys_produce = {

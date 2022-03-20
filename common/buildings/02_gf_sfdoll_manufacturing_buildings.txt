@@ -77,45 +77,6 @@ building_sfdoll_collapse_liquid_plant = {
 	}
 }
 
-#研究
-building_sfdoll_research = {
-	base_buildtime =  @b2_time
-	category = manufacturing
-	icon = building_sfdoll_research
-	potential = {
-		# 铁血帝国才能造
-		owner = { has_authority = auth_gf_sfdoll }
-	}
-	prerequisites = { "tech_sfdoll_lab" }
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
-		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
-	}
-	triggered_desc = {		text = job_sfdoll_researcher_effect_desc	}
-
-	#限定铁血国家生效
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_country_flag = sfdoll_empire	}
-		}
-		modifier = { 	job_sfdoll_researcher_add = 6	}
-	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = 50
-		}
-		upkeep = {
-			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = 2
-		}
-	}
-}
-
 
 #坍塌液合金生产
 building_sfdoll_alloys = {

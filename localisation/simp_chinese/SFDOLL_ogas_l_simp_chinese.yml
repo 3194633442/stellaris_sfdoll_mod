@@ -1,0 +1,27 @@
+﻿l_simp_chinese:
+###
+
+sfdoll_project_ogas_ai:0 "研究OGAS"
+sfdoll_project_ogas_ai_DESC:0 "OGAS是利用遗迹科学创造的超级AI。\n 铁血人形莉娃，她的体内保存了一个OGAS，我们可将这个OGAS作为研究样本。"
+
+project_sfdoll_event.1:0 "研究OGAS"
+project_sfdoll_event.1_desc:0 "OGAS是利用遗迹科学创造的超级AI。\n 铁血人形莉娃，她的体内保存了一个OGAS，我们可将这个OGAS作为研究样本。"
+
+project_sfdoll_event.2:0 "研究OGAS"
+project_sfdoll_event.2_desc:0 "我们对莉娃体内的OGAS进行了研究。\n 同时，我们设计了一副人形素体，然后将OGAS转移到这幅新素体上。现在，OGAS不必呆在莉娃体内，她可以自由地行动，甚至能担任领袖。"
+
+
+sfdoll_elisa_event.3_option_4:0 "联系OGAS"
+
+special_leader_sfdoll_event.1:0 "和OGAS通讯中"
+special_leader_sfdoll_event.1_desc:0 "有什么事情呢？"
+ogas40_to_governor:0 "请你处理政务"
+ogas40_to_scientist:0 "请你参与科研"
+response_text_ogas40_to_job:0 "让我看看，或许能解决什么问题"
+ogas40_has_this_job_now:0 "OGAS已经在做这项工作"
+
+leader_trait_governor_ogas40:0 "OGAS"
+leader_trait_governor_ogas40_desc:0 "OGAS是利用遗迹科学创造的超级AI。"
+
+leader_trait_scientist_ogas40:0 "$leader_trait_governor_ogas40$"
+leader_trait_scientist_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"

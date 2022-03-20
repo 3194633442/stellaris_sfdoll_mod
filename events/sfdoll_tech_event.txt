@@ -37,10 +37,10 @@ country_event = {
 		}
 
 		#ogas研究事件
-		# country_event = {
-		# 	id = project_sfdoll_event.1
-		# 	days = 1
-		# }
+		country_event = {
+			id = project_sfdoll_event.1
+			days = 1
+		}
 
 	}
 }

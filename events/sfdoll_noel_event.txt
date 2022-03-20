@@ -88,44 +88,44 @@ country_event = {
 	}
 
 	#选项，noel总督
-	option = {
-		name =  "noel_become_governor"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="noel_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_noel
-						event_target:sfdoll_leader_noel = { leader_class = governor }
-					}			
-				}
-			}			 
-		}
-		hidden_effect = {
-			country_event = { id = sfdoll_noel_event.2 }
-		}
-		response_text = "response_text_noel_become_governor"
-	}
+	# option = {
+	# 	name =  "noel_become_governor"
+	# 	allow = { 
+	# 		custom_tooltip ={
+	# 			fail_text ="noel_has_this_job_now"
+	# 			NOR = {
+	# 				AND = {
+	# 					exists = event_target:sfdoll_leader_noel
+	# 					event_target:sfdoll_leader_noel = { leader_class = governor }
+	# 				}			
+	# 			}
+	# 		}			 
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = { id = sfdoll_noel_event.2 }
+	# 	}
+	# 	response_text = "response_text_noel_become_governor"
+	# }
 
-	#选项，noel科学家
-	option = {
-		name =  "noel_become_scientist"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="noel_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_noel
-						event_target:sfdoll_leader_noel = { leader_class =scientist }
-					}			
-				}
-			}			 
-		}
-		hidden_effect = {
-			country_event = { id = sfdoll_noel_event.3 }
-		}
-		response_text = "response_text_noel_become_scientist"
-	}
+	# #选项，noel科学家
+	# option = {
+	# 	name =  "noel_become_scientist"
+	# 	allow = { 
+	# 		custom_tooltip ={
+	# 			fail_text ="noel_has_this_job_now"
+	# 			NOR = {
+	# 				AND = {
+	# 					exists = event_target:sfdoll_leader_noel
+	# 					event_target:sfdoll_leader_noel = { leader_class =scientist }
+	# 				}			
+	# 			}
+	# 		}			 
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = { id = sfdoll_noel_event.3 }
+	# 	}
+	# 	response_text = "response_text_noel_become_scientist"
+	# }
 
 	#选项，noel舰队司令
 	option = {

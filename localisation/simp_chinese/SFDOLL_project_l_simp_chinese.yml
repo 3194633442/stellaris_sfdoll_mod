@@ -72,22 +72,6 @@ sfdoll_tech_event.3:0 "铁血暗物质理论"
 sfdoll_tech_event.3_desc:0 "暗物质研究取得了部分成果"
 
 
-
-sfdoll_project_ogas_ai:0 "研究OGAS"
-sfdoll_project_ogas_ai_DESC:0 "OGAS是利用遗迹科学创造的超级AI。\n 铁血的先驱者莉娃，她的体内保存了一个OGAS，可以作为我们的研究样本。"
-
-project_sfdoll_event.1:0 "研究OGAS"
-project_sfdoll_event.1_desc:0 "OGAS是利用遗迹科学创造的超级AI。\n 铁血的先驱者莉娃，她的体内保存了一个OGAS，可以作为我们的研究样本。"
-
-project_sfdoll_event.2:0 "研究OGAS"
-project_sfdoll_event.2_desc:0 "我们对莉娃体内的OGAS进行了研究。\n 在研究过程中，我们设计了一副人形素体，并将OGAS意志转移到这幅新素体上。现在，OGAS可以用新身体自由行动了。"
-
-leader_trait_governor_ogas40:0 "OGAS ump40"
-leader_trait_governor_ogas40_desc:0 "利用遗迹科学创造的超级AI。据说，她的外形模仿了莉娃的旧友。"
-
-leader_trait_scientist_ogas40:0 "$leader_trait_governor_ogas40$"
-leader_trait_scientist_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
-
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT_DESC:0 "通过对 §R耶利米哀歌§! 中数据的解析，我们已经了解了这艘飞船的跃迁航行方式。看起来，遗迹文明能够把锡安中的质量投影到现实世界中，并让庞大的飞船自由地往返于两个空间。\n 我们或许可以试试，把这艘船开到常规宇宙中"
 

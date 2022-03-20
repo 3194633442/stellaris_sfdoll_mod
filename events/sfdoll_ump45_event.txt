@@ -96,26 +96,26 @@ country_event = {
 	}
 
 	#45科学家
-	option = {
-		name =  "ump45_become_scientist"
-		# allow = { NOT = { has_country_flag = ump45_is_scientist } }
-		allow = { 
-			custom_tooltip ={
-				fail_text ="ump45_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_ump45
-						event_target:sfdoll_leader_ump45 = { leader_class = scientist }
-					}
+	# option = {
+	# 	name =  "ump45_become_scientist"
+	# 	# allow = { NOT = { has_country_flag = ump45_is_scientist } }
+	# 	allow = { 
+	# 		custom_tooltip ={
+	# 			fail_text ="ump45_has_this_job_now"
+	# 			NOR = {
+	# 				AND = {
+	# 					exists = event_target:sfdoll_leader_ump45
+	# 					event_target:sfdoll_leader_ump45 = { leader_class = scientist }
+	# 				}
 					
-				}
-			}			 
-		}
-		hidden_effect = {
-			country_event = { id = sfdoll_ump45_event.3 }
-		}
-		response_text = "response_text_ump45_become_scientist"
-	}
+	# 			}
+	# 		}			 
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = { id = sfdoll_ump45_event.3 }
+	# 	}
+	# 	response_text = "response_text_ump45_become_scientist"
+	# }
 
 	#45舰队司令
 	option = {

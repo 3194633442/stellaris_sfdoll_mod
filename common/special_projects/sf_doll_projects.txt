@@ -228,17 +228,22 @@ special_project = {
 	tech_department = physics_technology
 
 	#待修改
-	picture = GFX_evp_sfdoll_unknown_civilization_6
+	picture = GFX_evp_sfdoll_ump45_ump40
 	event_scope = planet_event
 	requirements = {
 		leader = scientist
 	}
 	on_success = {
 		owner = {
+			#获得ogas人工智能科技
 			give_technology = {
 				tech = tech_sfdoll_ogas_ai
 				message = yes
 			}
+			#获得ogas领袖
+			#添加标识，用于判断是否能和40通讯
+			set_country_flag = ogas40_owner_sfdoll
+			save_global_event_target_as = ogas40_owner_sfdoll
 			country_event = {
 				id = project_sfdoll_event.2
 			}

@@ -28,14 +28,19 @@ sfdoll_noel_event_1_a_desc:0"有任务吗？"
 sfdoll_noel_event_1_c_desc:0"无数个日夜里，我不断磨炼自己，不止是为了报恩，也是为了有一天，能够亲手……"
 noel_has_this_job_now:0"诺耶露已经在担任这个职务了"
 
-noel_become_governor:0"帮忙管理殖民地吧"
-noel_become_scientist:0"帮忙进行科研吧"
 noel_become_admiral:0"协助舰船战斗吧"
 noel_become_general:0"协助陆军战斗吧"
-response_text_noel_become_governor:0"我试试"
-response_text_noel_become_scientist:0"你们休息吧，让我来就行。"
+
 response_text_noel_become_admiral:0"敌人？它们很快就会沉没"
 response_text_noel_become_general:0"接下来要干掉谁？"
 
 sfdoll_noel_event_6_title:0"诺耶露的成人礼"
 sfdoll_noel_event_6_desc:0"距离我们在遗迹中发现诺耶露已经过去了数年。\n 在这期间，诺耶露为我们的遗迹研究带来了许多启发，我们则教她控制自己的精神与力量，教给她知识，\n不知不觉中，诺耶露已成为帝国的重要人才，我们可以试着让她担任领袖."
+
+
+#noel特性
+leader_trait_admiral_sfdoll_noel:0"遗迹少女"
+leader_trait_admiral_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中发现的克隆人。\n 她拥有和铁血人形相似的心智空间，并能操纵逆向坍塌现象，这让她拥有重组肉体和传送物体等一系列能力"
+
+leader_trait_general_sfdoll_noel:0"遗迹少女"
+leader_trait_general_sfdoll_noel_desc:0"诺耶露是铁血从某个遗迹中发现的克隆人。\n 她拥有和铁血人形相似的心智空间，并能操纵逆向坍塌现象，这让她拥有重组肉体和传送物体等一系列能力"

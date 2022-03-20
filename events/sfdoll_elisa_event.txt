@@ -172,6 +172,17 @@ country_event = {
 			}
 		}
 	}
+	#找ogas ump40
+	option = {
+		name = "sfdoll_elisa_event.3_option_4"
+		trigger = {	has_country_flag = ogas40_owner_sfdoll	}
+		hidden_effect = {
+			country_event = {
+				id = special_leader_sfdoll_event.1
+			}
+		}
+	}
+
 	#退出
 	option = {
 		name =  "sfdoll_break_option"

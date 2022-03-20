@@ -156,3 +156,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 }
+
+
+spriteTypes = {	
+	spriteType = {
+		name = GFX_evp_sfdoll_ump45_ump40
+		texturefile = "gfx/event_pictures/evp_sfdoll_ump45_ump40.dds"
+		alwaystransparent = yes
+	}
+}

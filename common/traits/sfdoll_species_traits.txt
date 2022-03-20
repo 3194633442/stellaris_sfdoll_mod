@@ -15,8 +15,8 @@ trait_gf_sfdoll = {
 	modifier = {
 		pop_environment_tolerance = 2.00
 		pop_demotion_time_mult = -1
-		planet_jobs_worker_produces_mult = 0.15
-		empire_size_pops_mult = -0.25
+		planet_jobs_worker_produces_mult = 0.25
+		empire_size_pops_mult = -0.50
 		planet_jobs_unity_produces_mult = 0.10
 		army_damage_mult = 0.25
 	}
@@ -129,9 +129,9 @@ trait_sfdoll_logic_engine = {
 	icon = "gfx/interface/icons/traits/sfdoll/trait_sfdoll_logic_engine.dds"
 	allowed_archetypes = { SFDOLL }
 	modifier = {
-		planet_jobs_physics_research_produces_mult = 0.15
-		planet_jobs_society_research_produces_mult = 0.15
-		planet_jobs_engineering_research_produces_mult = 0.15
+		planet_jobs_physics_research_produces_mult = 0.20
+		planet_jobs_society_research_produces_mult = 0.20
+		planet_jobs_engineering_research_produces_mult = 0.20
 		species_leader_exp_gain = 0.25
 	}
 }
