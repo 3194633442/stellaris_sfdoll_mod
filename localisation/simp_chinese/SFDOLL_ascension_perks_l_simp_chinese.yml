@@ -1,11 +1,15 @@
 ﻿l_simp_chinese:
 ###############################
-# Jormungand
-ap_digi_mind_update:0"铁血计划:耶梦加得"
-ap_digi_mind_update_desc:0"我们已经充分解析了OGAS技术和铁血的AI系统，并能把这些研究成果运用于新型计算机的设计中。我们会得到更高层次的智慧。"
-# lunasia
+
+ap_digi_mind_update:0"铁血计划:莱柯瑞斯"
+ap_digi_mind_update_desc:0"你病得不轻！显然，你有了灵魂。"
+
 ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
-ap_sfdoll_reverse_collapse_desc:0"以逆向坍塌科技作为基石，铁血正在建立新的超科学体系。物质世界的奥秘，将由我们掌控。"
+ap_sfdoll_reverse_collapse_desc:0 "可控化的逆向坍塌技术帮助我们认识和塑造物质世界，为铁血的社会各领域带来极大的变革"
+
+# lunasia
+# ap_sfdoll_3:0 "铁血计划:露尼西亚"
+# ap_sfdoll_3_desc:0 "超物理学的发展揭示了更高的自然法则，航向新世界的起点就在眼前。"
 
 #fail text
 has_tech_dark_matter_power_core:0 "$TRIGGER_FAIL$需要科技£physics£§Y$tech_dark_matter_power_core$§!"

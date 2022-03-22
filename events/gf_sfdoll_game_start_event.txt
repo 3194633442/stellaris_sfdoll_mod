@@ -12,11 +12,6 @@ country_event = {
 	}
 
 	immediate = {
-		#测试用
-		# add_resource = {
-		# 	minerals = 10000
-		# 	GF_nyto_collapse_liquid = 1000
-		# }
 
 		#添加铁血人形帝国flag
 		set_country_flag = sfdoll_empire
@@ -78,11 +73,14 @@ country_event = {
 			days = 7
 		}
 
+		#开始事件链
+		begin_event_chain = {
+			event_chain = sfdoll_search_zion_chain
+		}
+
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising
 		set_country_flag = synth_detector
-		#不再提示
-		set_country_flag = ban_notice_wsgranking
 	}
 	is_triggered_only = yes
 }

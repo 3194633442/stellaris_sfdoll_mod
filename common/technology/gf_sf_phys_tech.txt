@@ -9,8 +9,12 @@ tech_sfdoll_ogas_ai = {
 	prerequisites = {	"tech_self_aware_logic"	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {	num_tech_alternatives_add = 1	}
+	weight = @tier4weight1
 	weight_modifier = {
-		factor = 0
+		modifier = {
+			factor = 0
+			is_ai = no
+		}
 	}
 }
 
@@ -27,7 +31,7 @@ tech_sfdoll_sophon_computer = {
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {
 		all_technology_research_speed = 0.25
-		empire_size_mult = -0.25
+		empire_size_mult = -0.10
 	}
 }
 

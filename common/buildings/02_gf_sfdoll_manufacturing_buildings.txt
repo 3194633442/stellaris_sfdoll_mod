@@ -1,44 +1,3 @@
-#铁血异星天然气建筑
-# 
-
-#铁血消费品工厂
-building_sfdoll_nanites_goods_plant = {
-	base_buildtime = 360
-	category = manufacturing
-	potential = {
-		# 铁血帝国才能造
-		owner = {		has_country_flag = sfdoll_empire	}
-	}
-
-	prerequisites = {	"tech_sfdoll_nanites_goods" }
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_country_flag = sfdoll_empire	}
-		}
-		modifier = {		job_sfdoll_nanites_goods_maker_add = 6	}
-	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b3_minerals
-			nanites = @b3_rare_cost
-		}
-		upkeep = {
-			energy = @b3_upkeep
-			nanites = @b3_rare_upkeep
-		}
-	}
-	triggered_desc = {	text = job_sfdoll_nanites_goods_maker_effect_desc	}
-
-	ai_resource_production = {
-		consumer_goods  = 20
-		trigger = {		always = yes	}
-	}
-}
-
-
 #坍塌液生产
 building_sfdoll_collapse_liquid_plant = {
 	base_buildtime = @b1_time
@@ -77,50 +36,6 @@ building_sfdoll_collapse_liquid_plant = {
 	}
 }
 
-
-#坍塌液合金生产
-building_sfdoll_alloys = {
-	base_buildtime =  @b2_time
-	category = manufacturing
-	icon = building_sfdoll_alloys
-	potential = {
-		# 铁血帝国才能造
-		owner = { has_authority = auth_gf_sfdoll }
-	}
-	prerequisites = { "tech_sfdoll_collapse_alloys_produce" }
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
-		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
-	}
-
-	#限定铁血国家生效
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_country_flag = sfdoll_empire	}
-		}
-		modifier = { job_sfdoll_collapse_alloys_maker_add = 6	}
-	}
-	triggered_desc = {		text = job_sfdoll_collapse_alloys_maker_effect_desc	}
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = 50
-		}
-		upkeep = {
-			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = @b3_rare_upkeep
-		}
-	}
-
-	ai_resource_production = {
-		alloys = 10
-		trigger = {	always = yes	}
-	}
-}
-
 #暗物质合成厂
 building_sfdoll_dark_matter_plant = {
 	base_buildtime =  @b2_time
@@ -156,6 +71,169 @@ building_sfdoll_dark_matter_plant = {
 
 	ai_resource_production = {
 		sr_dark_matter = 10
+		trigger = {		always = yes	}
+	}
+}
+
+
+
+#坍塌液合金生产
+building_sfdoll_alloys = {
+	base_buildtime =  @b2_time
+	category = manufacturing
+	icon = building_sfdoll_alloys
+	potential = {
+		# 铁血帝国才能造
+		owner = { has_authority = auth_gf_sfdoll }
+	}
+	prerequisites = { "tech_sfdoll_collapse_alloys_produce" }
+	upgrades = {	building_sfdoll_alloys_2	}
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
+	}
+
+	#限定铁血国家生效
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = sfdoll_empire	}
+		}
+		modifier = { job_sfdoll_collapse_alloys_maker_add = 2	}
+	}
+	triggered_desc = {		text = job_sfdoll_collapse_alloys_maker_effect_desc	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+			GF_nyto_collapse_liquid = @b2_rare_cost
+		}
+		upkeep = {
+			energy = @b2_upkeep
+			GF_nyto_collapse_liquid = @b2_rare_upkeep
+		}
+	}
+
+	ai_resource_production = {
+		alloys = 10
+		trigger = {	always = yes	}
+	}
+}
+#高级合金
+building_sfdoll_alloys_2 = {
+	base_buildtime =  @b2_time
+	category = manufacturing
+	icon = building_sfdoll_alloys
+	can_build = no
+	potential = {
+		# 铁血帝国才能造
+		owner = { has_authority = auth_gf_sfdoll }
+	}
+	prerequisites = { tech_sfdoll_alloys_2 }
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
+	}
+
+	#限定铁血国家生效
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = sfdoll_empire	}
+		}
+		modifier = { job_sfdoll_collapse_alloys_maker_add = 6	}
+	}
+	triggered_desc = {		text = job_sfdoll_collapse_alloys_maker_effect_desc	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+			GF_nyto_collapse_liquid = @b3_rare_cost
+		}
+		upkeep = {
+			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
+		}
+	}
+
+	ai_resource_production = {
+		alloys = 20
+		trigger = {	always = yes	}
+	}
+}
+
+
+#铁血消费品工厂
+building_sfdoll_nanites_goods_plant = {
+	base_buildtime = 360
+	category = manufacturing
+	potential = {
+		# 铁血帝国才能造
+		owner = {		has_country_flag = sfdoll_empire	}
+	}
+	prerequisites = {	"tech_sfdoll_nanites_goods" }
+	upgrades = {	building_sfdoll_goods_plant_2	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = sfdoll_empire	}
+		}
+		modifier = {		job_sfdoll_nanites_goods_maker_add = 2	}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+			nanites = @b2_rare_cost
+		}
+		upkeep = {
+			energy = @b2_upkeep
+			nanites = @b2_rare_upkeep
+		}
+	}
+	triggered_desc = {	text = job_sfdoll_nanites_goods_maker_effect_desc	}
+
+	ai_resource_production = {
+		consumer_goods  = 20
+		trigger = {		always = yes	}
+	}
+}
+#高级消费品工厂
+building_sfdoll_goods_plant_2 = {
+	base_buildtime = 360
+	category = manufacturing
+	can_build = no
+	potential = {
+		# 铁血帝国才能造
+		owner = {		has_country_flag = sfdoll_empire	}
+	}
+
+	prerequisites = {	tech_sfdoll_goods_2 }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = sfdoll_empire	}
+		}
+		modifier = { job_sfdoll_nanites_goods_maker_add = 6	}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+			nanites = @b3_rare_cost
+		}
+		upkeep = {
+			energy = @b3_upkeep
+			nanites = @b3_rare_upkeep
+		}
+	}
+	triggered_desc = {	text = job_sfdoll_nanites_goods_maker_effect_desc	}
+	ai_resource_production = {
+		consumer_goods  = 40
 		trigger = {		always = yes	}
 	}
 }
@@ -248,7 +326,7 @@ building_sfdoll_energy_plant = {
 	}
 }
 
-#物质合成厂
+#矿物合成厂
 building_sfdoll_mineral = {
 	base_buildtime =   @b2_time
 	category = manufacturing

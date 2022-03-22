@@ -30,17 +30,12 @@ building_sfdoll_cheat = {
 		starbase_shipyard_build_cost_mult = -2
 		ships_upkeep_mult = -2
 		ship_weapon_damage = 10
-		ship_fire_rate_mult = 10
+		ship_fire_rate_mult = 2
 		planet_army_build_time_mult = -2
 		planet_buildings_cost_mult = -2
 		planet_building_build_speed_mult = 10
 		country_naval_cap_add = 20000
-		country_resource_max_add = 100000
-		empire_size_mult = -2
-		pop_happiness = 2
-		planet_amenities_add = 100
-		planet_jobs_upkeep_mult = -2
-		planet_jobs_produces_mult = 10
+
 	 }
 	
 	resources = {
@@ -57,6 +52,9 @@ building_sfdoll_cheat = {
 			GF_nyto_collapse_liquid = 100000
 			sr_dark_matter = 100000
 			nanites = 100000
+			exotic_gases = 100000
+			rare_crystals = 100000
+			volatile_motes = 100000
 		}
 		cost = {
 			minerals = 0

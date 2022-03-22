@@ -23,12 +23,7 @@ ap_digi_mind_update ={
 		# }
 	}
 	on_enabled = {
-		# country_event = {
-		# 	id = sfdoll_search_zion_event.0
-		# }
-		# enable_special_project = {
-		# 	name = SF_SEARCH_ZION_PROJECT
-		# }
+		add_research_option = tech_sfdoll_collapse_liquid_produce
 	}
 
 	modifier = {
@@ -82,8 +77,11 @@ ap_sfdoll_reverse_collapse ={
 		country_event = {
 			id = gf_sfdoll_ascension_perk_event.0
 		}
-		add_research_option = tech_sf_doll_modding_2
-		add_research_option = tech_sfdoll_collapse_liquid_produce
+		give_technology = {
+			tech = tech_sf_doll_modding_2
+			message = yes
+		}
+		add_research_option = tech_sfdoll_lab_2
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_to_zion_event.9

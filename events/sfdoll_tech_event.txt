@@ -65,6 +65,14 @@ country_event = {
 				name = sfdoll_project_dark_matter
 			}
 		}
+
+		if = {
+			limit = { is_ai = yes }
+			give_technology = {
+				tech = tech_dark_matter_power_core
+				message = yes
+			}
+		}
 	}
 }
 
