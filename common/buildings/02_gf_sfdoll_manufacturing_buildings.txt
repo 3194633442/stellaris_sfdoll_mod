@@ -124,7 +124,7 @@ building_sfdoll_alloys = {
 building_sfdoll_alloys_2 = {
 	base_buildtime =  @b2_time
 	category = manufacturing
-	icon = building_sfdoll_alloys
+	icon = building_sfdoll_alloys_2
 	can_build = no
 	potential = {
 		# 铁血帝国才能造
@@ -169,6 +169,7 @@ building_sfdoll_alloys_2 = {
 building_sfdoll_nanites_goods_plant = {
 	base_buildtime = 360
 	category = manufacturing
+	icon = building_sfdoll_nanites_goods_plant 
 	potential = {
 		# 铁血帝国才能造
 		owner = {		has_country_flag = sfdoll_empire	}
@@ -205,6 +206,7 @@ building_sfdoll_nanites_goods_plant = {
 building_sfdoll_goods_plant_2 = {
 	base_buildtime = 360
 	category = manufacturing
+	icon = building_sfdoll_goods_plant_2 
 	can_build = no
 	potential = {
 		# 铁血帝国才能造
