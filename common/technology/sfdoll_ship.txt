@@ -156,19 +156,6 @@ tech_sfdoll_ship_sensors = {
 }
 
 #ship
-#解锁铁血科研和工程船
-tech_sfdoll_new_science_constructer = {
-	cost = @tier2cost2
-	area = engineering
-	start_tech = no
-	category = { voidcraft }
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	tier = 2
-	weight = 0
-}
-
 #战列舰双X舰首
 tech_sfdoll_battleship_bow_x2 = {
 	cost = @tier5cost1
@@ -197,6 +184,9 @@ tech_sfdoll_tactical_destroyer = {
 		has_technology = tech_sfdoll_energy_plant
 		has_technology = tech_sfdoll_thruster
 		has_technology = tech_sfdoll_ogas_ai
+	}
+	modifier = {
+		country_command_limit_add = 200
 	}
 	tier = 5
 	weight = @tier5weight2
@@ -236,6 +226,7 @@ tech_sfdoll_homeless_ship = {
 	}
 	modifier = {
 		country_resource_max_add = 20000
+		country_command_limit_add = 200
 	}
 	weight = @tier5weight1
 }

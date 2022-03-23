@@ -1,11 +1,6 @@
 ﻿l_simp_chinese:
 #职业本地化包括，职业名称，职业复数形式，职业描述，职业效果（用于显示在提供职业的建筑中），相关修正(mod_XX)的本地化
 
-
-
-building_sfdoll_assembly_plant:0 "铁血人形组装厂"
-building_sfdoll_assembly_plant_desc:0 "基于OGAS算法的AI科学，仿生学，机械学，这一切知识集合起来，成为制造铁血人形的基础。"
-
 #produce
 building_sfdoll_nanites_plant:0 "铁血纳米机械厂"
 building_sfdoll_nanites_plant_desc:0 "生产纳米机器"
@@ -33,11 +28,6 @@ job_sfdoll_collapse_liquid_maker_effect_desc:0 "$job_sfdoll_collapse_liquid_make
 mod_job_sfdoll_collapse_liquid_maker_add:0"$job_sfdoll_collapse_liquid_maker$ 岗位"
 
 
-tech_sfdoll_lab:0"铁血研究所"
-tech_sfdoll_lab_desc:0"铁血研究所汇集了先进科研资源"
-tech_sfdoll_lab_2:0 "铁血高级研究所"
-tech_sfdoll_lab_2_desc:0 "高级研究所拥有更好的研究条件"
-
 building_sfdoll_research:0"铁血研究所"
 building_sfdoll_research_desc:0"铁血研究所汇集了先进科研资源"
 building_sfdoll_research_2:0"铁血高级研究所"
@@ -50,11 +40,6 @@ job_sfdoll_researcher_effect_desc:0 "$job_sfdoll_researcher$ 消耗 §Y$consumer
 mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ 岗位"
 
 
-tech_sfdoll_collapse_alloys_produce:0"铁血合金制造工艺"
-tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌粒子，控制中子等原材料"
-tech_sfdoll_alloys_2:0 "高级合金生产"
-tech_sfdoll_alloys_2_desc:0 "新型材料的性能远超以往"
-
 building_sfdoll_alloys:0"铁血合金工厂"
 building_sfdoll_alloys_desc:0"高效生产合金"
 building_sfdoll_alloys_2:0 "铁血高级合金工厂"
@@ -66,11 +51,6 @@ job_sfdoll_collapse_alloys_maker_desc:0"铁血合金生产员"
 job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血合金生产员将 §Y$minerals$§! 转化为 §Y$alloys$§! "
 mod_job_sfdoll_collapse_alloys_maker_add:0"$job_sfdoll_collapse_alloys_maker$ 岗位"
 
-
-tech_sfdoll_nanites_goods:0 "微观工业"
-tech_sfdoll_nanites_goods_desc:0 "更高精度的工艺"
-tech_sfdoll_goods_2:0 "高级消费品工厂"
-tech_sfdoll_goods_2_desc:0 "制造工艺的进步，为铁血社会带来了各种堪称奇幻的新产品"
 
 building_sfdoll_nanites_goods_plant:0 "铁血消费品工厂"
 building_sfdoll_nanites_goods_plant_desc:0 "铁血消费品工厂"
@@ -115,7 +95,7 @@ building_sfdoll_net:0"铁血IT城"
 building_sfdoll_net_desc:0"星际互联网可以提供政务和生活等多种方面的服务。打游戏时喜欢嘴臭的人形，可能会被追踪ip，并被迫展开线下pvp"
 
 building_sfdoll_museum:0"铁血国家博物馆"
-building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，为相关研究提供了有力的支持。"
+building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，可为相关研究提供有力支持。"
 
 #army
 building_sfdoll_army:0"铁血要塞"
@@ -126,8 +106,13 @@ job_sfdoll_tactical_desc:0"战术人形配备了专业作战系统，维持着�
 job_sfdoll_tactical_effect_desc:0"战术人形提供海军容量，凝聚力，并提高星球的稳定度"
 mod_job_sfdoll_tactical_add:0 "战术人形岗位"
 
+building_sfdoll_assembly_plant:0 "铁血人形组装厂"
+building_sfdoll_assembly_plant_desc:0 "基于OGAS算法的AI科学，仿生学，机械学，这一切知识集合起来，成为制造铁血人形的基础。"
 
-building_sfdoll_cheat:0 "神秘计算机"
+building_sfdoll_assembly_2:0 "铁血先进组装厂"
+building_sfdoll_assembly_2_desc:0 "$building_sfdoll_assembly_plant_desc$"
+
+building_sfdoll_cheat:0 "神秘作弊器"
 building_sfdoll_cheat_desc:0 "铁血们完全搞不懂这台机器的原理"
 
 # building_sfdoll_gases_plant:0 "铁血气体精炼厂"

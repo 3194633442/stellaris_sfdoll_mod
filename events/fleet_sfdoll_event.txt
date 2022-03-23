@@ -14,17 +14,17 @@ country_event = {
 	}
 }
 
-fleet_event = {
-	id = fleet_sfdoll_event.2
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		is_in_combat = yes
-		any_owned_ship = {
-			has_component = sfdoll_weapen_t_7
-		}
-	}
-}
+# fleet_event = {
+# 	id = fleet_sfdoll_event.2
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	trigger = {
+# 		is_in_combat = yes
+# 		any_owned_ship = {
+# 			has_component = sfdoll_weapen_t_7
+# 		}
+# 	}
+# }
 #id标准写法为namespace的值加上编号
 
 #主判断，判断是否为铁血舰船
@@ -93,51 +93,51 @@ country_event = {
 # }
 
 #计算T槽数量，进行即死攻击
-fleet_event = {
-	id = fleet_sfdoll_event.4
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		any_owned_ship = { has_component = sfdoll_weapen_t_7 }
-	}
-	immediate = {
-		every_owned_ship = {
-			limit = { has_component = sfdoll_weapen_t_7 }
-			root = {
-				change_variable = {
-					which = sfd_t7_count
-					value = 1
+# fleet_event = {
+# 	id = fleet_sfdoll_event.4
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	trigger = {
+# 		any_owned_ship = { has_component = sfdoll_weapen_t_7 }
+# 	}
+# 	immediate = {
+# 		every_owned_ship = {
+# 			limit = { has_component = sfdoll_weapen_t_7 }
+# 			root = {
+# 				change_variable = {
+# 					which = sfd_t7_count
+# 					value = 1
 
-				}
-			}
-			export_modifier_to_variable = {
-				modifier = weapon_type_energy_weapon_damage_mult
-				variable = weapon_type_energy_weapon_damage_mult
-			}
-			export_modifier_to_variable = {
-				modifier = weapon_type_energy_weapon_damage_mult
-				variable = weapon_type_energy_weapon_damage_mult
-			}
-			# export_trigger_value_to_variable = {
-			# 	trigger = sfdoll_weapen_t_7_min_damage
-			# 	variable = x
-			# }
+# 				}
+# 			}
+# 			export_modifier_to_variable = {
+# 				modifier = weapon_type_energy_weapon_damage_mult
+# 				variable = weapon_type_energy_weapon_damage_mult
+# 			}
+# 			export_modifier_to_variable = {
+# 				modifier = weapon_type_energy_weapon_damage_mult
+# 				variable = weapon_type_energy_weapon_damage_mult
+# 			}
+# 			# export_trigger_value_to_variable = {
+# 			# 	trigger = sfdoll_weapen_t_7_min_damage
+# 			# 	variable = x
+# 			# }
 			
-		}
-		# solar_system = {
-		# 	while = {
-		# 		count = sfd_t7_count
-		# 		random_ship_in_system = {
-		# 			limit = {
-		# 				owner = {
-		# 					is_hostile_to = root.owner
-		# 				}
-		# 			}
+# 		}
+# 		# solar_system = {
+# 		# 	while = {
+# 		# 		count = sfd_t7_count
+# 		# 		random_ship_in_system = {
+# 		# 			limit = {
+# 		# 				owner = {
+# 		# 					is_hostile_to = root.owner
+# 		# 				}
+# 		# 			}
 
-		# 		}
+# 		# 		}
 
-		# 	}
-		# }
+# 		# 	}
+# 		# }
 
-	}
-}
+# 	}
+# }

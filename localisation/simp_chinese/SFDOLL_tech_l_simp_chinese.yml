@@ -21,18 +21,6 @@ tech_sfdoll_army_building:0"基地改良"
 tech_sfdoll_army_building_desc:0"建造更好用的军事基地"
 
 
-#command
-tech_sfdoll_command_limit_1:0"铁血舰队:深空交通"
-tech_sfdoll_command_limit_1_desc:0"改良的太空交通工具"
-tech_sfdoll_command_limit_2:0"铁血舰队:太空作战模块"
-tech_sfdoll_command_limit_2_desc:0"为太空行动而开发的人形辅助模块"
-tech_sfdoll_command_limit_3:0"铁血舰队:蚀刻理论飞船管理"
-tech_sfdoll_command_limit_3_desc:0"利用蚀刻技术管理飞船设备"
-tech_sfdoll_command_limit_4:0"铁血舰队:OGAS舰队通讯"
-tech_sfdoll_command_limit_4_desc:0"改良舰队的通讯系统"
-tech_sfdoll_command_limit_5:0"铁血舰队:舰载短程ftl"
-tech_sfdoll_command_limit_5_desc:0"短距离超光速系统"
-
 #解锁建筑槽位
 tech_sfdoll_max_buildings:0"铁血新城市计划"
 tech_sfdoll_max_buildings_desc:0"改进我们的市政体系"
@@ -52,7 +40,7 @@ tech_sf_doll_modding_1:0"二级平层扩展"
 tech_sf_doll_modding_1_desc:0 "对以二级平层为代表的心智系统功能进行改进，提升心智系统的性能和安全性，心智数据的传输和备份也变得更可靠"
 
 tech_sf_doll_modding_2:0 "升级进化"
-tech_sf_doll_modding_2_desc:0"把这些很cool的新机体推广到铁血全国\n 解锁新的物种§H特质§!"
+tech_sf_doll_modding_2_desc:0"解锁新的物种§H特质§!"
 
 #ship
 #component
@@ -85,13 +73,11 @@ tech_sfdoll_jump_drive:0"铁血跃迁引擎"
 tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上"
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
-tech_sfdoll_thruster_desc:0"随心所欲地操纵飞船的航行"
+tech_sfdoll_thruster_desc:0"随心所欲地操纵飞船"
 
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
 
-tech_sfdoll_new_science_constructer:0 "太空探索技术更新"
-tech_sfdoll_new_science_constructer_desc:0"我们需要更好的科研和工程飞船"
 
 tech_sfdoll_tactical_destroyer:0 "铁血战术驱逐舰"
 tech_sfdoll_tactical_destroyer_desc:0 "与堕落帝国的泰坦巨舰不同，铁血的新型战舰兼顾了火力与机动性,其制造和运转的过程似乎违背了多个物理法则"
@@ -103,7 +89,20 @@ tech_sfdoll_battleship_bow_x2:0 "舰船设备轻量化"
 tech_sfdoll_battleship_bow_x2_desc:0 "轻量化的设备更易于搭载\n 解锁战列舰区段:$sfdoll_battleship_bow_x2$"
 
 #building
+tech_sfdoll_lab:0"铁血研究所"
+tech_sfdoll_lab_desc:0"铁血研究所汇集了先进科研资源"
+tech_sfdoll_lab_2:0 "铁血高级研究所"
+tech_sfdoll_lab_2_desc:0 "高级研究所拥有更好的研究条件"
 
+tech_sfdoll_collapse_alloys_produce:0"铁血合金制造工艺"
+tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌粒子，控制中子等原材料"
+tech_sfdoll_alloys_2:0 "高级合金生产"
+tech_sfdoll_alloys_2_desc:0 "新型材料的性能远超以往"
+
+tech_sfdoll_nanites_goods:0 "微观工业"
+tech_sfdoll_nanites_goods_desc:0 "更高精度的工艺"
+tech_sfdoll_goods_2:0 "高级消费品工厂"
+tech_sfdoll_goods_2_desc:0 "制造工艺的进步，为铁血社会带来了各种堪称奇幻的新产品"
 
 
 tech_sfdoll_collapse_liquid_produce:0"坍塌粒子制造"

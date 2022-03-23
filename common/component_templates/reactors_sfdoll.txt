@@ -99,172 +99,172 @@
 
 
 #铁血科研船和工程船能源
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_FISSION_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_1"
-	icon_frame = 1
-	power = @corvette_power_1
-	resources = {
-		category = ship_components
-		cost = {
-			alloys =  @corvette_cost_1
-		}
-		upkeep = {
-			energy = 0.20
-			alloys = 0.02
-		}
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_FISSION_REACTOR"
+# 	size = small
+# 	icon = "GFX_ship_part_reactor_1"
+# 	icon_frame = 1
+# 	power = @corvette_power_1
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys =  @corvette_cost_1
+# 		}
+# 		upkeep = {
+# 			energy = 0.20
+# 			alloys = 0.02
+# 		}
+# 	}
 
-	prerequisites = { "tech_fission_power" }
-	component_set = "power_core"
-	size_restriction = { science_sfdoll  constructor_sfdoll }
+# 	prerequisites = { "tech_fission_power" }
+# 	component_set = "power_core"
+# 	size_restriction = { science_sfdoll  constructor_sfdoll }
 	
-	upgrades_to = "SCIENCE_SFDOLL_FUSION_REACTOR"
+# 	upgrades_to = "SCIENCE_SFDOLL_FUSION_REACTOR"
 
-	ai_weight = {
-		weight = 1
-	}
-}
+# 	ai_weight = {
+# 		weight = 1
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_FUSION_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_2"
-	icon_frame = 1
-	power = @corvette_power_2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @corvette_cost_2
-		}
-		upkeep = {
-			energy = 0.13
-			alloys = 0.013
-		}
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_FUSION_REACTOR"
+# 	size = small
+# 	icon = "GFX_ship_part_reactor_2"
+# 	icon_frame = 1
+# 	power = @corvette_power_2
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @corvette_cost_2
+# 		}
+# 		upkeep = {
+# 			energy = 0.13
+# 			alloys = 0.013
+# 		}
+# 	}
 
-	prerequisites = { "tech_fusion_power" }
-	component_set = "power_core"
-	size_restriction = { science_sfdoll  constructor_sfdoll }
-	upgrades_to = "SCIENCE_SFDOLL_COLD_FUSION_REACTOR"
+# 	prerequisites = { "tech_fusion_power" }
+# 	component_set = "power_core"
+# 	size_restriction = { science_sfdoll  constructor_sfdoll }
+# 	upgrades_to = "SCIENCE_SFDOLL_COLD_FUSION_REACTOR"
 
-	ai_weight = {
-		weight = 2
-	}
-}
+# 	ai_weight = {
+# 		weight = 2
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_COLD_FUSION_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_3"
-	icon_frame = 1
-	power = @corvette_power_3
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @corvette_cost_3
-		}
-		upkeep = {
-			energy = 0.17
-			alloys = 0.017
-		}
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_COLD_FUSION_REACTOR"
+# 	size = small
+# 	icon = "GFX_ship_part_reactor_3"
+# 	icon_frame = 1
+# 	power = @corvette_power_3
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @corvette_cost_3
+# 		}
+# 		upkeep = {
+# 			energy = 0.17
+# 			alloys = 0.017
+# 		}
+# 	}
 
-	prerequisites = { "tech_cold_fusion_power" }
-	component_set = "power_core"
-	size_restriction = { science_sfdoll constructor_sfdoll }
-	upgrades_to = "SCIENCE_SFDOLL_ANTIMATTER_REACTOR"
+# 	prerequisites = { "tech_cold_fusion_power" }
+# 	component_set = "power_core"
+# 	size_restriction = { science_sfdoll constructor_sfdoll }
+# 	upgrades_to = "SCIENCE_SFDOLL_ANTIMATTER_REACTOR"
 
-	ai_weight = {
-		weight = 3
-	}
-}
+# 	ai_weight = {
+# 		weight = 3
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_ANTIMATTER_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_4"
-	icon_frame = 1
-	power = @corvette_power_4
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @corvette_cost_4
-		}
-		upkeep = {
-			energy = 0.22
-			alloys = 0.022
-		}
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_ANTIMATTER_REACTOR"
+# 	size = small
+# 	icon = "GFX_ship_part_reactor_4"
+# 	icon_frame = 1
+# 	power = @corvette_power_4
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @corvette_cost_4
+# 		}
+# 		upkeep = {
+# 			energy = 0.22
+# 			alloys = 0.022
+# 		}
+# 	}
 
-	prerequisites = { "tech_antimatter_power" }
-	component_set = "power_core"
-	size_restriction = { science_sfdoll constructor_sfdoll }
-	upgrades_to = "SCIENCE_SFDOLL_ZERO_POINT_REACTOR"
+# 	prerequisites = { "tech_antimatter_power" }
+# 	component_set = "power_core"
+# 	size_restriction = { science_sfdoll constructor_sfdoll }
+# 	upgrades_to = "SCIENCE_SFDOLL_ZERO_POINT_REACTOR"
 
-	ai_weight = {
-		weight = 4
-	}
-}
+# 	ai_weight = {
+# 		weight = 4
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_ZERO_POINT_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_5"
-	icon_frame = 1
-	power = @corvette_power_5
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @corvette_cost_5
-		}
-		upkeep = {
-			energy = 0.28
-			alloys = 0.028
-		}
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_ZERO_POINT_REACTOR"
+# 	size = small
+# 	icon = "GFX_ship_part_reactor_5"
+# 	icon_frame = 1
+# 	power = @corvette_power_5
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @corvette_cost_5
+# 		}
+# 		upkeep = {
+# 			energy = 0.28
+# 			alloys = 0.028
+# 		}
+# 	}
 
-	prerequisites = { "tech_zero_point_power" }
-	component_set = "power_core"
-	size_restriction = { science_sfdoll constructor_sfdoll }
-	upgrades_to = "SCIENCE_SFDOLL_DARK_MATTER_REACTOR"
+# 	prerequisites = { "tech_zero_point_power" }
+# 	component_set = "power_core"
+# 	size_restriction = { science_sfdoll constructor_sfdoll }
+# 	upgrades_to = "SCIENCE_SFDOLL_DARK_MATTER_REACTOR"
 
-	ai_weight = {
-		weight = 5
-	}
-}
+# 	ai_weight = {
+# 		weight = 5
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_DARK_MATTER_REACTOR"
-	size = small
-	icon = "GFX_ship_part_dark_matter_power_core"
-	icon_frame = 1
-	power = @corvette_power_6
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @corvette_cost_6
-			sr_dark_matter = 1
-		}
-		upkeep = {
-			energy = 0.37
-			alloys = 0.037
-		}
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_DARK_MATTER_REACTOR"
+# 	size = small
+# 	icon = "GFX_ship_part_dark_matter_power_core"
+# 	icon_frame = 1
+# 	power = @corvette_power_6
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @corvette_cost_6
+# 			sr_dark_matter = 1
+# 		}
+# 		upkeep = {
+# 			energy = 0.37
+# 			alloys = 0.037
+# 		}
+# 	}
 
-	prerequisites = { "tech_dark_matter_power_core" }
-	component_set = "power_core"
-	size_restriction = { science_sfdoll constructor_sfdoll }
+# 	prerequisites = { "tech_dark_matter_power_core" }
+# 	component_set = "power_core"
+# 	size_restriction = { science_sfdoll constructor_sfdoll }
 
-	ai_weight = {
-		weight = 6
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = sr_dark_matter }
-		}
-	}
-}
+# 	ai_weight = {
+# 		weight = 6
+# 		modifier = {
+# 			factor = 0.0
+# 			no_resource_for_component = { RESOURCE = sr_dark_matter }
+# 		}
+# 	}
+# }
 
 
 #飞船坍塌堆
@@ -288,7 +288,7 @@ utility_component_template = {
 	}
 	prerequisites = { tech_sfdoll_collapse_liquid_produce }
 	component_set = "power_core"
-	size_restriction = { corvette science_sfdoll constructor_sfdoll colonizer sponsored_colonizer constructor science transport  }
+	size_restriction = { corvette colonizer sponsored_colonizer constructor science transport  }
 	ai_weight = {	weight = 20	}
 }
 #驱逐舰

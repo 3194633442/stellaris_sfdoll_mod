@@ -75,12 +75,8 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		# capital_scope = {
-		# 	add_building = building_sfdoll_energy_plant
-		# 	add_building = building_sfdoll_mineral
-		# }
-		complete_special_project = {
-			type = sfdoll_project_dark_matter
+		capital_scope = {
+			change_pc = pc_sfdoll_city
 		}
 	}
 }

@@ -6,16 +6,16 @@ ap_digi_mind_update ={
 	}
 	possible ={
 		custom_tooltip = {
-			fail_text = "has_tech_sapient_ai"
-			has_technology = tech_sapient_ai
-		}
-		custom_tooltip = {
 			fail_text = "has_tech_sfdoll_ogas_ai"
 			has_technology = tech_sfdoll_ogas_ai
 		}
 		custom_tooltip = {
 			fail_text = "has_tech_sf_doll_modding_1"
 			has_technology = tech_sf_doll_modding_1
+		}
+		custom_tooltip = {
+			fail_text = "has_tech_basic_science_lab_3"
+			has_technology = tech_basic_science_lab_3
 		}
 		# custom_tooltip = {
 		# 	fail_text = "has_tech_hyper_drive_3"
@@ -24,13 +24,17 @@ ap_digi_mind_update ={
 	}
 	on_enabled = {
 		add_research_option = tech_sfdoll_collapse_liquid_produce
+		hidden_effect = {
+			country_event = {
+				id = gf_sfdoll_ascension_perk_event.1
+			}
+		}
 	}
 
 	modifier = {
 		#description = ap_digi_mind_update_modifier_desc
 		SFDOLL_species_trait_points_add = 10
 		modify_species_cost_mult = -0.5
-		#planet_pop_assembly_mult = 0.15
 	}
 	ai_weight = {	factor = 1	}
 }
@@ -67,20 +71,13 @@ ap_sfdoll_reverse_collapse ={
 			fail_text = "requires_ap_digi_mind_update"
 			has_ascension_perk = ap_digi_mind_update
 		}
-		# custom_tooltip = {
-		# 	fail_text = "has_tech_sfdoll_ogas_ai"
-		# 	has_technology = tech_sfdoll_ogas_ai
-		# }
 	}
 	on_enabled = {
 		set_country_flag = sfdoll_country_can_update_leader
 		country_event = {
 			id = gf_sfdoll_ascension_perk_event.0
 		}
-		give_technology = {
-			tech = tech_sf_doll_modding_2
-			message = yes
-		}
+		add_research_option = tech_sf_doll_modding_2
 		add_research_option = tech_sfdoll_lab_2
 		hidden_effect = {
 			country_event = {
@@ -88,7 +85,6 @@ ap_sfdoll_reverse_collapse ={
 			}
 		}
 	}
-	modifier = {	}
 	ai_weight = {	factor = 1	}
 }
 

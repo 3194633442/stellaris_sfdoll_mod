@@ -34,7 +34,7 @@ weapon_component_template = {
 	icon = "GFX_consumer_goods_sfdoll_homeless"
 	icon_frame = 1
 	prerequisites = {
-		tech_sfdoll_nanites_goods
+		tech_sfdoll_goods_2
 	}
 
 	power = 2000
@@ -95,7 +95,7 @@ weapon_component_template = {
 	icon = "GFX_alloys_sfdoll_homeless"
 	icon_frame = 1
 	prerequisites = {
-		tech_sfdoll_collapse_alloys_produce
+		tech_sfdoll_alloys_2
 	}
 	power = 2000
 	damage = {

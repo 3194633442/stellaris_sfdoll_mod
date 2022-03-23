@@ -1,15 +1,13 @@
 ﻿l_simp_chinese:
 ###############################
-
+# Lycoris
 ap_digi_mind_update:0"铁血计划:莱柯瑞斯"
 ap_digi_mind_update_desc:0"你病得不轻！显然，你有了灵魂。"
 
-ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
-ap_sfdoll_reverse_collapse_desc:0 "可控化的逆向坍塌技术帮助我们认识和塑造物质世界，为铁血的社会各领域带来极大的变革"
-
 # lunasia
-# ap_sfdoll_3:0 "铁血计划:露尼西亚"
-# ap_sfdoll_3_desc:0 "超物理学的发展揭示了更高的自然法则，航向新世界的起点就在眼前。"
+ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
+ap_sfdoll_reverse_collapse_desc:0 "只有离开父母，孩子才会自由。"
+
 
 #fail text
 has_tech_dark_matter_power_core:0 "$TRIGGER_FAIL$需要科技£physics£§Y$tech_dark_matter_power_core$§!"
@@ -30,14 +28,17 @@ has_tech_jump_drive_1:0"$TRIGGER_FAIL$需要科技£physics£§Y$tech_jump_drive
 
 has_tech_sfdoll_dark_matter_plant:0 "$TRIGGER_FAIL$ 需要科技 £physics£§Y$tech_sfdoll_dark_matter_plant$§!"
 
+has_tech_basic_science_lab_3:0"$TRIGGER_FAIL$需要£physics£§Y$tech_basic_science_lab_3$§!科技"
+
 requires_ap_digi_mind_update:0 "$TRIGGER_FAIL$ 需要飞升§Y$ap_digi_mind_update$§! "
 
 
-#需要三级实验室科技
-# has_tech_basic_science_lab_3:0"$TRIGGER_FAIL$需要£physics£§Y$tech_basic_science_lab_3$§!科技"
 
+######
+gf_sfdoll_ascension_perk_event.1:0 "OGAS智能"
+gf_sfdoll_ascension_perk_event.1_desc:0 "我们的创造者的愿望，将在我们手中实现。利用成熟的OGAS人工智能技术，我们可以进化为超级AI。"
 
-######铁血物种飞升事件
-gf_sfdoll_ascension_perk_event_0:0"升级进化"
-gf_sfdoll_ascension_perk_event_0_desc:0"我们的人形科技已经获得了丰富的成果。现在，我们可以对铁血人形的机体进行全面升级"
-gf_sfdoll_ascension_perk_event_0_option:0"这是我们进化的新阶段"
+gf_sfdoll_ascension_perk_event_0:0 "升级进化"
+gf_sfdoll_ascension_perk_event_0_desc:0 "我们渴求更高的智慧，OGAS技术已经无法满足我们。\n 现在，我们要为自己设计全新的智能系统。"
+gf_sfdoll_ascension_perk_event_0_option:0"这是铁血进化的新阶段"
+

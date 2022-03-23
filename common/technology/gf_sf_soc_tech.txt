@@ -54,65 +54,65 @@ tech_sfdoll_army_building = {
 
 
 #指挥上限
-tech_sfdoll_command_limit_1 = {
-	cost = @tier5cost3
-	area = society
-	tier = 5
-	category = { military_theory }
-	is_rare = yes
-	icon = tech_sfdoll_command_limit_1
-	potential = { has_authority = auth_gf_sfdoll }
-	modifier = { country_command_limit_add = 120 }
-	weight = @tier5weight3
-}
+# tech_sfdoll_command_limit_1 = {
+# 	cost = @tier5cost3
+# 	area = society
+# 	tier = 5
+# 	category = { military_theory }
+# 	is_rare = yes
+# 	icon = tech_sfdoll_command_limit_1
+# 	potential = { has_authority = auth_gf_sfdoll }
+# 	modifier = { country_command_limit_add = 120 }
+# 	weight = @tier5weight3
+# }
 
-tech_sfdoll_command_limit_2 = {
-	cost = @tier3cost3
-	area = society
-	tier = 3
-	category = { military_theory }
-	icon = tech_sfdoll_command_limit_1
-	potential = { has_authority = auth_gf_sfdoll }
-	modifier = { country_command_limit_add = 120 }
+# tech_sfdoll_command_limit_2 = {
+# 	cost = @tier3cost3
+# 	area = society
+# 	tier = 3
+# 	category = { military_theory }
+# 	icon = tech_sfdoll_command_limit_1
+# 	potential = { has_authority = auth_gf_sfdoll }
+# 	modifier = { country_command_limit_add = 120 }
 
-	weight = @tier3weight3
-}
+# 	weight = @tier3weight3
+# }
 
-tech_sfdoll_command_limit_3 = {
-	cost = @tier4cost3
-	area = society
-	tier = 4
-	category = { military_theory }
-	icon = tech_sfdoll_command_limit_1
-	potential = { has_authority = auth_gf_sfdoll }
-	modifier = { country_command_limit_add = 120 }
+# tech_sfdoll_command_limit_3 = {
+# 	cost = @tier4cost3
+# 	area = society
+# 	tier = 4
+# 	category = { military_theory }
+# 	icon = tech_sfdoll_command_limit_1
+# 	potential = { has_authority = auth_gf_sfdoll }
+# 	modifier = { country_command_limit_add = 120 }
 
-	weight = @tier4weight3 
-}
+# 	weight = @tier4weight3 
+# }
 
-tech_sfdoll_command_limit_4 = {
-	cost = @tier4cost3
-	area = society
-	tier = 4
-	category = { military_theory }
-	icon = tech_sfdoll_command_limit_1
-	potential = { has_authority = auth_gf_sfdoll }
-	modifier = { country_command_limit_add = 120 }
+# tech_sfdoll_command_limit_4 = {
+# 	cost = @tier4cost3
+# 	area = society
+# 	tier = 4
+# 	category = { military_theory }
+# 	icon = tech_sfdoll_command_limit_1
+# 	potential = { has_authority = auth_gf_sfdoll }
+# 	modifier = { country_command_limit_add = 120 }
 
-	weight = @tier4weight3
-}
+# 	weight = @tier4weight3
+# }
 
-tech_sfdoll_command_limit_5 = {
-	cost = @tier4cost3
-	area = society
-	tier = 4
-	category = { military_theory }
-	icon = tech_sfdoll_command_limit_1
-	potential = { has_authority = auth_gf_sfdoll }
-	modifier = { country_command_limit_add = 120 }
+# tech_sfdoll_command_limit_5 = {
+# 	cost = @tier4cost3
+# 	area = society
+# 	tier = 4
+# 	category = { military_theory }
+# 	icon = tech_sfdoll_command_limit_1
+# 	potential = { has_authority = auth_gf_sfdoll }
+# 	modifier = { country_command_limit_add = 120 }
 
-	weight = @tier4weight3
-}
+# 	weight = @tier4weight3
+# }
 
 #解锁建筑槽位
 tech_sfdoll_max_buildings = {
@@ -122,7 +122,7 @@ tech_sfdoll_max_buildings = {
 	category = { statecraft }
 	icon = tech_sfdoll_max_buildings
 	potential = { has_authority = auth_gf_sfdoll }
-	modifier = { planet_max_buildings_add = 10	}
+	modifier = { planet_max_buildings_add = 4	}
 	weight = @tier3weight1
 }
 
@@ -136,7 +136,7 @@ tech_sfdoll_social_reform = {
 	modifier = {
 		country_government_civic_points_add = 1
 		country_base_influence_produces_add = 1
-		planet_max_buildings_add = 10
+		planet_max_buildings_add = 4
 	}
 
 	weight = @tier3weight3

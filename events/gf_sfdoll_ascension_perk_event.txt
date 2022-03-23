@@ -3,7 +3,7 @@ namespace = gf_sfdoll_ascension_perk_event
 @popnum = 0
 @collapsenum = 0
 
-#铁血强化飞升事件，有相应飞升才能触发，只触发一次
+#铁血二段飞升事件，有相应飞升才能触发，只触发一次
 country_event = {
 	id = gf_sfdoll_ascension_perk_event.0
 	title = "gf_sfdoll_ascension_perk_event_0"
@@ -67,6 +67,19 @@ country_event = {
 		name = "gf_sfdoll_ascension_perk_event_0_option"
 	}
 }
+
+country_event = {
+	id = gf_sfdoll_ascension_perk_event.1
+	title = "gf_sfdoll_ascension_perk_event.1"
+	desc = "gf_sfdoll_ascension_perk_event.1_desc"
+	is_triggered_only = yes
+	picture = GFX_evp_sfdoll_assembling
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+}
+
+
 #物种强化研究完成时触发，要有飞升科技，只触发一次
 # country_event = {
 # 	id = gf_sfdoll_ascension_perk_event.1

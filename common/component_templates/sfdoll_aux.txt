@@ -50,7 +50,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_quality_rebuilding"
 
 	size_restriction = {
-		science_sfdoll constructor_sfdoll  sfdoll_destroyer ship_sfdoll_carrier corvette  destroyer cruiser battleship titan 
+		sfdoll_destroyer ship_sfdoll_carrier corvette  destroyer cruiser battleship titan 
 	}
 	ai_weight = {
 		weight = 20

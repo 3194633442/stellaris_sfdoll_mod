@@ -95,7 +95,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { science_sfdoll constructor_sfdoll corvette colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {  corvette colonizer sponsored_colonizer constructor science transport }
 	
 	ai_weight = {
 		weight = 5
@@ -294,145 +294,145 @@ utility_component_template = {
 
 
 #高速科研船和工程船的各级推进器
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_THRUSTER_1"
-	size = small
-	icon = "GFX_ship_part_thruster_1"
-	icon_frame = 1
-	power =  @power_1
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost1
-		}
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_THRUSTER_1"
+# 	size = small
+# 	icon = "GFX_ship_part_thruster_1"
+# 	icon_frame = 1
+# 	power =  @power_1
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @cost1
+# 		}
+# 	}
 
-	modifier = {
-	}
+# 	modifier = {
+# 	}
 
-	prerequisites = { "tech_thrusters_1" }
-	component_set = "thruster_components"
-	size_restriction = { science_sfdoll  constructor_sfdoll }
+# 	prerequisites = { "tech_thrusters_1" }
+# 	component_set = "thruster_components"
+# 	size_restriction = { science_sfdoll  constructor_sfdoll }
 	
-	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_2"
+# 	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_2"
 
-	ai_weight = {
-		weight = 1
-	}
-}
+# 	ai_weight = {
+# 		weight = 1
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_THRUSTER_2"
-	size = small
-	icon = "GFX_ship_part_thruster_2"
-	icon_frame = 1
-	power = @power_2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost2
-		}
-	}
-	modifier = {
-		ship_base_speed_mult = 0.25
-		ship_evasion_add = 5
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_THRUSTER_2"
+# 	size = small
+# 	icon = "GFX_ship_part_thruster_2"
+# 	icon_frame = 1
+# 	power = @power_2
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @cost2
+# 		}
+# 	}
+# 	modifier = {
+# 		ship_base_speed_mult = 0.25
+# 		ship_evasion_add = 5
+# 	}
 
-	prerequisites = { "tech_thrusters_2" }
-	component_set = "thruster_components"
-	size_restriction = { science_sfdoll constructor_sfdoll }
-	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_3"
+# 	prerequisites = { "tech_thrusters_2" }
+# 	component_set = "thruster_components"
+# 	size_restriction = { science_sfdoll constructor_sfdoll }
+# 	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_3"
 
-	ai_weight = {
-		weight = 2
-	}
-}
+# 	ai_weight = {
+# 		weight = 2
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_THRUSTER_3"
-	size = small
-	icon = "GFX_ship_part_thruster_3"
-	icon_frame = 1
-	power = @power_3
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost3
-		}
-	}
-	modifier = {
-		ship_base_speed_mult = 0.50
-		ship_evasion_add = 10
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_THRUSTER_3"
+# 	size = small
+# 	icon = "GFX_ship_part_thruster_3"
+# 	icon_frame = 1
+# 	power = @power_3
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @cost3
+# 		}
+# 	}
+# 	modifier = {
+# 		ship_base_speed_mult = 0.50
+# 		ship_evasion_add = 10
+# 	}
 
-	prerequisites = { "tech_thrusters_3" }
-	component_set = "thruster_components"
-	size_restriction = { science_sfdoll constructor_sfdoll }
-	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_4"
+# 	prerequisites = { "tech_thrusters_3" }
+# 	component_set = "thruster_components"
+# 	size_restriction = { science_sfdoll constructor_sfdoll }
+# 	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_4"
 
-	ai_weight = {
-		weight = 3
-	}
-}
+# 	ai_weight = {
+# 		weight = 3
+# 	}
+# }
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_THRUSTER_4"
-	size = small
-	icon = "GFX_ship_part_thruster_4"
-	icon_frame = 1
-	power = @power_4
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost4
-		}
-	}
-	modifier = {
-		ship_base_speed_mult = 0.75
-		ship_evasion_add = 15
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_THRUSTER_4"
+# 	size = small
+# 	icon = "GFX_ship_part_thruster_4"
+# 	icon_frame = 1
+# 	power = @power_4
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @cost4
+# 		}
+# 	}
+# 	modifier = {
+# 		ship_base_speed_mult = 0.75
+# 		ship_evasion_add = 15
+# 	}
 
-	prerequisites = { "tech_thrusters_4" }
-	component_set = "thruster_components"
-	size_restriction = { science_sfdoll  constructor_sfdoll }
-	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_5"
+# 	prerequisites = { "tech_thrusters_4" }
+# 	component_set = "thruster_components"
+# 	size_restriction = { science_sfdoll  constructor_sfdoll }
+# 	upgrades_to = "SCIENCE_SFDOLL_THRUSTER_5"
 
-	ai_weight = {
-		weight = 4
-	}
-}
+# 	ai_weight = {
+# 		weight = 4
+# 	}
+# }
 
 
-utility_component_template = {
-	key = "SCIENCE_SFDOLL_THRUSTER_5"
-	size = small
-	icon = "GFX_ship_part_thruster_5"
-	icon_frame = 1
-	power = @power_5
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost4
-			sr_dark_matter = 1
-		}
-	}
-	modifier = {
-		ship_base_speed_mult = 1.25
-		ship_evasion_add = 20
-	}
+# utility_component_template = {
+# 	key = "SCIENCE_SFDOLL_THRUSTER_5"
+# 	size = small
+# 	icon = "GFX_ship_part_thruster_5"
+# 	icon_frame = 1
+# 	power = @power_5
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = @cost4
+# 			sr_dark_matter = 1
+# 		}
+# 	}
+# 	modifier = {
+# 		ship_base_speed_mult = 1.25
+# 		ship_evasion_add = 20
+# 	}
 
-	prerequisites = { "tech_dark_matter_propulsion" }
-	component_set = "thruster_components"
-	size_restriction = { science_sfdoll  constructor_sfdoll }
+# 	prerequisites = { "tech_dark_matter_propulsion" }
+# 	component_set = "thruster_components"
+# 	size_restriction = { science_sfdoll  constructor_sfdoll }
 
-	ai_weight = {
-		weight = 5
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = sr_dark_matter }
-		}
-	}
-}
+# 	ai_weight = {
+# 		weight = 5
+# 		modifier = {
+# 			factor = 0.0
+# 			no_resource_for_component = { RESOURCE = sr_dark_matter }
+# 		}
+# 	}
+# }
 
 
 

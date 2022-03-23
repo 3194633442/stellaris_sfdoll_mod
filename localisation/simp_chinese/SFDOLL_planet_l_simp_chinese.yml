@@ -1,3 +1,10 @@
 ﻿l_simp_chinese:
 ###############################
 
+pc_sfdoll_city:0 "铁血星球"
+pc_sfdoll_city_desc:0 "经过铁血人形改造的世界，覆盖了超级网络，能够动态调节气候和生态系统"
+
+district_sfdoll_house:0 "铁血现代城市区划"
+district_sfdoll_goods:0 "轻工业区划"
+district_sfdoll_alloys:0 "重工业区划"
+district_sfdoll_science:0 "科研区划"

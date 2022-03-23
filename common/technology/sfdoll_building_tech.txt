@@ -1,19 +1,13 @@
-#坍塌液合成，通过二段飞升解锁
+#坍塌液合成
 tech_sfdoll_collapse_liquid_produce = {
-	cost = @tier4cost2
+	cost = @tier3cost2
 	area = physics
-	tier = 4
+	tier = 3
 	is_rare = yes
 	category = { particles }
 	icon = tech_sfdoll_collapse_liquid_produce
 	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = @tier4weight2
-	weight_modifier = {
-		modifier = {
-			factor = 0
-			is_ai = no
-		}
-	}
+	weight = @tier3weight2
 }
 
 #研究所
@@ -25,7 +19,7 @@ tech_sfdoll_lab = {
 	is_rare = yes
 	category = { particles }
 	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { tech_basic_science_lab_2	}
+	prerequisites = { tech_sfdoll_collapse_liquid_produce 	}
 	weight = @tier3weight1
 }
 #高级研究所
@@ -39,7 +33,7 @@ tech_sfdoll_lab_2 = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	prerequisites = { tech_sfdoll_lab }
+	#prerequisites = { tech_sfdoll_lab }
 	weight = 0
 }
 
@@ -70,49 +64,17 @@ tech_sfdoll_alloys_2= {
 }
 
 
-
-#奇点能源，需要坍塌液合成科技
-tech_sfdoll_energy_plant = {
-	cost = @tier5cost3
-	area = physics
-	tier = 5
-	is_rare = yes
-	category = { field_manipulation  }
-	icon = tech_sfdoll_energy_plant
-	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
-	weight = @tier5weight3
-}
-
-#
-tech_building_sfdoll_mineral = {
-	cost = @tier5cost3
-	area = physics
-	tier = 5
-	is_rare = yes
-	category = { particles }
-	icon = tech_building_sfdoll_mineral
-	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { "tech_sfdoll_collapse_liquid_produce"	}
-	weight = @tier5weight3
-}
-
-
-
-
 #解锁消费品建筑
 tech_sfdoll_nanites_goods= {
 	cost = @tier3cost1
 	area = society
 	tier = 3
 	is_rare = yes
+	icon = tech_sfdoll_nanites_goods
 	category = { statecraft }
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
 	weight = @tier3weight1
 	potential = {	has_authority = auth_gf_sfdoll	}
-	modifier = {
-		planet_jobs_produces_mult = 0.10
-	}
 }
 #高级消费品
 tech_sfdoll_goods_2= {
@@ -120,6 +82,7 @@ tech_sfdoll_goods_2= {
 	area = society
 	tier = 4
 	is_rare = yes
+	icon = tech_sfdoll_nanites_goods
 	category = { statecraft }
 	prerequisites = { tech_sfdoll_lab_2 }
 	weight = @tier4weight1
@@ -155,6 +118,32 @@ tech_sfdoll_nanites = {
 	weight = @tier3weight1
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {	planet_jobs_produces_mult = 0.15 }
+}
+
+
+#奇点能源
+tech_sfdoll_energy_plant = {
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { field_manipulation  }
+	icon = tech_sfdoll_energy_plant
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_sfdoll_lab_2	}
+	weight = @tier5weight3
+}
+#矿物合成
+tech_building_sfdoll_mineral = {
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	icon = tech_building_sfdoll_mineral
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_sfdoll_lab_2	}
+	weight = @tier5weight3
 }
 
 #铁血化工改进，用于解锁三大稀有资源建筑
