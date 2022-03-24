@@ -31,7 +31,7 @@ shipyard_sfdoll  = {
 		starbase_shipyard_capacity_add = 2
 	}
 	country_modifier = {
-		country_naval_cap_add = 300
+		country_naval_cap_add = 100
 	}
 
 	ai_build_at_chokepoint = no

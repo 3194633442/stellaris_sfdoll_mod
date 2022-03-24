@@ -180,9 +180,12 @@ ship_sfdoll_carrier = {
 }
 
 
-#战术驱逐舰
+#铁血指挥舰
 sfdoll_destroyer= {
 	entity = titan_entity
+	empire_limit = {
+		base = 5
+	}
 	max_speed = 2000
 	acceleration = 0.3
 	rotation_speed = 0.2

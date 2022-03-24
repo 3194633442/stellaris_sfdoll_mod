@@ -76,18 +76,16 @@ thruster_sfdoll_carrier:0 "深空母舰推进器"
 component_aura_sfdoll_carrier:0 "深空维护系统"
 friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 
-
-sfdoll_destroyer:0 "战术驱逐舰"
-ship_section_sfdoll_destroyer:0 "战术驱逐舰1型"
-ship_section_sfdoll_destroyer_2:0 "战术驱逐舰2型"
+#flag ship
+sfdoll_destroyer:0 "铁血指挥舰"
+ship_section_sfdoll_destroyer:0 "铁血指挥舰1型"
+ship_section_sfdoll_destroyer_2:0 "铁血指挥舰2型"
 component_aura_sfdoll_1:0 "干扰战术"
 hostile_aura_sfdoll_1:0 "干扰战术"
 
 component_aura_sfdoll_3:0 "火力输出"
 component_aura_sfdoll_4:0 "长程打击"
 friendly_aura_sfdoll_4:0 "长程打击"
-
-
 
 #2X
 sfdoll_battleship_bow_x2:0 "2X型舰艏"

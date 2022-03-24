@@ -4,7 +4,6 @@
 # New planets also need planet tiles (game\gfx\interface\icons\tile_backgrounds)
 # New planets need surface background (game\gfx\portraits\environments)
 
-
 ###
 pc_sfdoll_city = {
 	entity = "gaia_planet"
@@ -39,6 +38,7 @@ pc_sfdoll_city = {
 
 	colonizable = yes
 	district_set = sfdoll_world
+	# district_set = standard
 	starting_planet = no
 	ideal = yes
 	uses_alternative_skies_for_moons = yes

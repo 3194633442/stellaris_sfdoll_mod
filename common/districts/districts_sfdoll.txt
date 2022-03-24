@@ -64,6 +64,7 @@ district_sfdoll_house = {
 	}
 }
 
+#消费品区划
 district_sfdoll_goods = {
 	base_buildtime = 480
 	is_capped_by_modifier = no
@@ -140,6 +141,7 @@ district_sfdoll_goods = {
 	}
 }
 
+#合金区划
 district_sfdoll_alloys = {
 	base_buildtime = 480
 	is_capped_by_modifier = no
@@ -228,7 +230,7 @@ district_sfdoll_science = {
 
 	potential = {
 		exists = owner
-		uses_district_set = sfdoll_world
+		is_planet_class = pc_sfdoll_city
 	}
 
 	allow = {

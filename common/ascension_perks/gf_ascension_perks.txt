@@ -74,12 +74,12 @@ ap_sfdoll_reverse_collapse ={
 	}
 	on_enabled = {
 		set_country_flag = sfdoll_country_can_update_leader
-		country_event = {
-			id = gf_sfdoll_ascension_perk_event.0
-		}
 		add_research_option = tech_sf_doll_modding_2
 		add_research_option = tech_sfdoll_lab_2
 		hidden_effect = {
+			country_event = {
+				id = gf_sfdoll_ascension_perk_event.0
+			}
 			country_event = {
 				id = sfdoll_to_zion_event.9
 			}

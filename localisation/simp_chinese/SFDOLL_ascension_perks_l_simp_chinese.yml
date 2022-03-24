@@ -2,12 +2,11 @@
 ###############################
 # Lycoris
 ap_digi_mind_update:0"铁血计划:莱柯瑞斯"
-ap_digi_mind_update_desc:0"你病得不轻！显然，你有了灵魂。"
+ap_digi_mind_update_desc:0"造物主的愿望，将在我们手中实现。随着OGAS人工智能技术的成熟，我们可以进化为超级AI。"
 
 # lunasia
 ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
-ap_sfdoll_reverse_collapse_desc:0 "只有离开父母，孩子才会自由。"
-
+ap_sfdoll_reverse_collapse_desc:0 "铁血的科学研究正在揭示更进一步的真理。现在，我们需要比OGAS更强大的智慧系统。"
 
 #fail text
 has_tech_dark_matter_power_core:0 "$TRIGGER_FAIL$需要科技£physics£§Y$tech_dark_matter_power_core$§!"
@@ -33,12 +32,10 @@ has_tech_basic_science_lab_3:0"$TRIGGER_FAIL$需要£physics£§Y$tech_basic_sci
 requires_ap_digi_mind_update:0 "$TRIGGER_FAIL$ 需要飞升§Y$ap_digi_mind_update$§! "
 
 
-
 ######
 gf_sfdoll_ascension_perk_event.1:0 "OGAS智能"
-gf_sfdoll_ascension_perk_event.1_desc:0 "我们的创造者的愿望，将在我们手中实现。利用成熟的OGAS人工智能技术，我们可以进化为超级AI。"
+gf_sfdoll_ascension_perk_event.1_desc:0 "你病得不轻！显然，你有了灵魂。"
 
 gf_sfdoll_ascension_perk_event_0:0 "升级进化"
-gf_sfdoll_ascension_perk_event_0_desc:0 "我们渴求更高的智慧，OGAS技术已经无法满足我们。\n 现在，我们要为自己设计全新的智能系统。"
-gf_sfdoll_ascension_perk_event_0_option:0"这是铁血进化的新阶段"
+gf_sfdoll_ascension_perk_event_0_desc:0 "只有离开父母，孩子才会自由。"
 

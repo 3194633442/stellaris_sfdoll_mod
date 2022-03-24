@@ -29,10 +29,10 @@ sfdoll_mega_starport = {
 	}
 	station_modifier = {
 		starbase_shipyard_capacity_add = 20
-		starbase_shipyard_build_speed_mult = 2
+		starbase_shipyard_build_speed_mult = 1
 	}
 	country_modifier = {
-		country_naval_cap_add = 4000
+		country_naval_cap_add = 600
 	}
 
 	possible = {

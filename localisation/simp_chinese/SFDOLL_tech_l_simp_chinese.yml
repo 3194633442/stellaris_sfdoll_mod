@@ -39,7 +39,7 @@ tech_sf_doll_modding_system_desc:0 "标准化的机器人模板，可以让铁�
 tech_sf_doll_modding_1:0"二级平层扩展"
 tech_sf_doll_modding_1_desc:0 "对以二级平层为代表的心智系统功能进行改进，提升心智系统的性能和安全性，心智数据的传输和备份也变得更可靠"
 
-tech_sf_doll_modding_2:0 "升级进化"
+tech_sf_doll_modding_2:0 "新型铁血设计"
 tech_sf_doll_modding_2_desc:0"解锁新的物种§H特质§!"
 
 #ship
@@ -78,9 +78,9 @@ tech_sfdoll_thruster_desc:0"随心所欲地操纵飞船"
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
 
-
-tech_sfdoll_tactical_destroyer:0 "铁血战术驱逐舰"
-tech_sfdoll_tactical_destroyer_desc:0 "与堕落帝国的泰坦巨舰不同，铁血的新型战舰兼顾了火力与机动性,其制造和运转的过程似乎违背了多个物理法则"
+#flag ship
+tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
+tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰是新型军事理论和技术的集中体现"
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
 tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能"

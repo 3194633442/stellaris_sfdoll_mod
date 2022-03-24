@@ -53,6 +53,39 @@ decision_planet_pop_to_sfdoll = {
 	}
 }
 
+decision_planet_to_sfdoll_city = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = pop_to_sfdoll
+	
+	resources = {
+		category = decisions
+		cost = {
+			nanites  = 8000
+		}
+	}	
+	# prerequisites = { tech_sfdoll_nanites }
+	potential = {
+		owner = { 
+			has_authority = auth_gf_sfdoll
+			has_ascension_perk = ap_sfdoll_reverse_collapse
+		}
+		NOR = {
+			is_planet_class = pc_sfdoll_city
+			is_planet_class = pc_ringworld_habitable
+		}
+	}
+	# allow = {
+	# 	has_
+	# }	
+	effect = {
+		custom_tooltip = decision_planet_to_sfdoll_city_effects_short
+		hidden_effect = {
+			change_pc = pc_sfdoll_city
+		}		
+	}
+}
+
 #居住站转化为铁血理想城
 # decision_build_sfdoll_habitat = {
 # 	owned_planets_only = yes
