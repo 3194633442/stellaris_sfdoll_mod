@@ -2,11 +2,11 @@
 ###############################
 # Lycoris
 ap_digi_mind_update:0"铁血计划:莱柯瑞斯"
-ap_digi_mind_update_desc:0"造物主的愿望，将在我们手中实现。随着OGAS人工智能技术的成熟，我们可以进化为超级AI。"
+ap_digi_mind_update_desc:0"我们会实现造物主的愿望，进化为完美AI。"
 
 # lunasia
 ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
-ap_sfdoll_reverse_collapse_desc:0 "铁血的科学研究正在揭示更进一步的真理。现在，我们需要比OGAS更强大的智慧系统。"
+ap_sfdoll_reverse_collapse_desc:0 "我们不会满足于现状。为了探索真理，我们需要比OGAS更进一步的智慧系统。"
 
 #fail text
 has_tech_dark_matter_power_core:0 "$TRIGGER_FAIL$需要科技£physics£§Y$tech_dark_matter_power_core$§!"
