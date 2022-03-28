@@ -2,40 +2,20 @@
 ###############################
 # Lycoris
 ap_digi_mind_update:0"铁血计划:莱柯瑞斯"
-ap_digi_mind_update_desc:0"我们会实现造物主的愿望，进化为完美AI。"
-
-# lunasia
-ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
-ap_sfdoll_reverse_collapse_desc:0 "我们不会满足于现状。为了探索真理，我们需要比OGAS更进一步的智慧系统。"
-
-#fail text
-has_tech_dark_matter_power_core:0 "$TRIGGER_FAIL$需要科技£physics£§Y$tech_dark_matter_power_core$§!"
-
-has_tech_sfdoll_ogas_ai:0"$TRIGGER_FAIL$需要科技£physics£§Y$tech_sfdoll_ogas_ai$§!"
-
-has_tech_sapient_ai:0"$TRIGGER_FAIL$需要科技£physics£§Y$tech_sapient_ai$§!"
-
-has_tech_tech_sfdoll_nanites:0 "$TRIGGER_FAIL$需要科技£engineering£§Y$tech_sfdoll_nanites$§!"
-
-has_tech_sf_doll_modding_1:0"$TRIGGER_FAIL$需要科技£engineering£§Y$tech_sf_doll_modding_1$§!"
-
-has_tech_hyper_drive_3:0"$TRIGGER_FAIL$需要科技£physics£§Y$tech_hyper_drive_3$§!"
-
-has_tech_sfdoll_reverse_collapse_3:0"$TRIGGER_FAIL$需要科技£engineering£§Y$tech_sfdoll_reverse_collapse_3$§!"
-
-has_tech_jump_drive_1:0"$TRIGGER_FAIL$需要科技£physics£§Y$tech_jump_drive_1$§!"
-
-has_tech_sfdoll_dark_matter_plant:0 "$TRIGGER_FAIL$ 需要科技 £physics£§Y$tech_sfdoll_dark_matter_plant$§!"
-
-has_tech_basic_science_lab_3:0"$TRIGGER_FAIL$需要£physics£§Y$tech_basic_science_lab_3$§!科技"
-
-requires_ap_digi_mind_update:0 "$TRIGGER_FAIL$ 需要飞升§Y$ap_digi_mind_update$§! "
-
-
-######
+ap_digi_mind_update_desc:0"只有离开父母，孩子才会自由。"
 gf_sfdoll_ascension_perk_event.1:0 "OGAS智能"
 gf_sfdoll_ascension_perk_event.1_desc:0 "你病得不轻！显然，你有了灵魂。"
 
+# lunasia
+ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
+ap_sfdoll_reverse_collapse_desc:0 "我们不能永远依赖于遗迹科学。真理应该用自己的双手发掘。"
 gf_sfdoll_ascension_perk_event_0:0 "升级进化"
-gf_sfdoll_ascension_perk_event_0_desc:0 "只有离开父母，孩子才会自由。"
+gf_sfdoll_ascension_perk_event_0_desc:0 "新型的铁血机体将使用前所未有的设计。"
+
+ap_sfdoll_planet:0 "铁血星球企划"
+ap_sfdoll_planet_desc:0 "建造我们的新世界。"
+tech_sfdoll_max_buildings:0"建立铁血星球"
+tech_sfdoll_max_buildings_desc:0 "新型的城市星球融入了大量先进技术。"
+
+
 

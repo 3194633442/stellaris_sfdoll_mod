@@ -5,18 +5,21 @@ ap_digi_mind_update ={
 		NOT = {	has_ascension_perk = ap_digi_mind_update	}
 	}
 	possible ={
-		custom_tooltip = {
-			fail_text = "has_tech_sfdoll_ogas_ai"
-			has_technology = tech_sfdoll_ogas_ai
-		}
-		custom_tooltip = {
-			fail_text = "has_tech_sf_doll_modding_1"
-			has_technology = tech_sf_doll_modding_1
-		}
-		custom_tooltip = {
-			fail_text = "has_tech_basic_science_lab_3"
-			has_technology = tech_basic_science_lab_3
-		}
+		has_technology = tech_sfdoll_ogas_ai
+		has_technology = tech_sf_doll_modding_1
+		has_technology = tech_basic_science_lab_3
+		# custom_tooltip = {
+		# 	fail_text = "has_tech_sfdoll_ogas_ai"
+		# 	has_technology = tech_sfdoll_ogas_ai
+		# }
+		# custom_tooltip = {
+		# 	fail_text = "has_tech_sf_doll_modding_1"
+		# 	has_technology = tech_sf_doll_modding_1
+		# }
+		# custom_tooltip = {
+		# 	fail_text = "has_tech_basic_science_lab_3"
+		# 	has_technology = tech_basic_science_lab_3
+		# }
 		# custom_tooltip = {
 		# 	fail_text = "has_tech_hyper_drive_3"
 		# 	has_technology = tech_hyper_drive_3
@@ -48,29 +51,20 @@ ap_sfdoll_reverse_collapse ={
 		}
 	}
 	possible ={
-		custom_tooltip = {
-			fail_text = "has_tech_sfdoll_reverse_collapse_3"
-			has_technology = tech_sfdoll_reverse_collapse_3
-		}
-		custom_tooltip = {
-			fail_text = "has_tech_jump_drive_1"
-			has_technology = tech_jump_drive_1
-		}
+		# custom_tooltip = {
+		# 	fail_text = "has_tech_sfdoll_reverse_collapse_3"
+			
+		# }
+		# custom_tooltip = {
+		# 	fail_text = "has_tech_jump_drive_1"
+			
+		# }
+		has_technology = tech_sfdoll_reverse_collapse_3
+		has_technology = tech_jump_drive_1
+		has_technology = tech_dark_matter_power_core
+		has_technology = tech_sfdoll_nanites
+		has_ascension_perk = ap_digi_mind_update
 
-		custom_tooltip = {
-			fail_text = "has_tech_dark_matter_power_core"
-			has_technology = tech_dark_matter_power_core
-		}
-
-		custom_tooltip = {
-			fail_text = "has_tech_tech_sfdoll_nanites"
-			has_technology = tech_sfdoll_nanites
-		}
-
-		custom_tooltip = {
-			fail_text = "requires_ap_digi_mind_update"
-			has_ascension_perk = ap_digi_mind_update
-		}
 	}
 	on_enabled = {
 		set_country_flag = sfdoll_country_can_update_leader
@@ -88,3 +82,21 @@ ap_sfdoll_reverse_collapse ={
 	ai_weight = {	factor = 1	}
 }
 
+ap_sfdoll_planet= {
+	potential = {
+		has_authority = auth_gf_sfdoll
+		NOT = {
+			has_ascension_perk = ap_sfdoll_planet
+		}
+	}
+	possible = {
+		has_technology = tech_climate_restoration
+	}
+	modifier = {
+		planet_decision_enact_speed_mult = 0.25
+	}
+	on_enabled = {
+		add_research_option = tech_sfdoll_max_buildings
+	}
+	ai_weight = {	factor = 1	}
+}

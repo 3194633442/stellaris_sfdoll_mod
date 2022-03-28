@@ -87,5 +87,17 @@ component_aura_sfdoll_3:0 "火力输出"
 component_aura_sfdoll_4:0 "长程打击"
 friendly_aura_sfdoll_4:0 "长程打击"
 
-#2X
+#section
 sfdoll_battleship_bow_x2:0 "2X型舰艏"
+sfdoll_battleship_bow_T1:0 "T型重炮舰艏"
+battleship_mid_sfdoll_X2L2:0 "复合炮击区段"
+battleship_stern_sfdoll_L2:0 "双联巨炮舰尾"
+
+cruiser_bow_sfdoll_X1:0 "X型巨炮舰艏"
+cruiser_mid_sfdoll_L2P4:0 "防空巡洋舰区段"
+cruiser_mid_sfdoll_L1:0 "巨炮舰尾"
+
+destroyer_bow_sfdoll_X1:0 "X型巨炮舰艏"
+destroyer_stern_sfdoll_M2:0 "炮击舰尾"
+
+corvette_mid_sfdoll_L1S1P1:0 "火力强化区段"

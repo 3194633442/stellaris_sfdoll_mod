@@ -22,8 +22,6 @@ tech_sfdoll_army_building_desc:0"建造更好用的军事基地"
 
 
 #解锁建筑槽位
-tech_sfdoll_max_buildings:0"铁血新城市计划"
-tech_sfdoll_max_buildings_desc:0"改进我们的市政体系"
 tech_sfdoll_social_reform:0 "铁血改革计划"
 tech_sfdoll_social_reform_desc:0 "铁血的世界需要改变"
 
@@ -85,8 +83,8 @@ tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰是新型军事理论和�
 tech_ship_sfdoll_carrier:0 "深空母舰"
 tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能"
 
-tech_sfdoll_battleship_bow_x2:0 "舰船设备轻量化"
-tech_sfdoll_battleship_bow_x2_desc:0 "轻量化的设备更易于搭载\n 解锁战列舰区段:$sfdoll_battleship_bow_x2$"
+tech_sfdoll_battleship_bow_x2:0 "战舰武装轻量化"
+tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，武器系统的体积与重量得到大幅缩减，这让铁血的战舰能够搭载更多设备。\n解锁更多战舰区段"
 
 #building
 tech_sfdoll_lab:0"铁血研究所"

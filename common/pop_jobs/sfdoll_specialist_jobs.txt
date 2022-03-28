@@ -66,35 +66,6 @@ sfdoll_nanites_goods_maker = {
 }
 
 
-#教育工作者
-sfdoll_educator = {
-	category = specialist
-	#用于检测工作是否可用的一系列逻辑
-	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_sfdoll_academy
-	clothes_texture_index = 3
-
-	possible_pre_triggers = {
-		has_owner = yes
-		is_being_purged = no
-		is_being_assimilated = no
-		is_sapient = yes
-	}
-	possible_precalc = can_fill_specialist_job
-	planet_modifier = {	planet_crime_add = -5 	}
-	resources = {
-		category = planet_culture_workers
-		produces = {
-			unity = 10
-		}
-	}
-	weight = {
-		weight = 20
-	}
-}
-
-
-
 #坍塌液生产
 sfdoll_collapse_liquid_maker = {
 	category = specialist
@@ -243,6 +214,66 @@ sfdoll_mineral_maker = {
 		category = planet_technician
 		produces = {	minerals = 100  }
 		upkeep = {	energy = 20	}
+	}
+	weight = {	weight = 20	}
+}
+
+#教育工作者
+sfdoll_educator = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_sfdoll_academy
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	planet_modifier = {
+		planet_crime_add = -5
+	}
+	resources = {
+		category = planet_culture_workers
+		produces = {
+			unity = 10
+			society_research = 10
+		}
+	}
+	weight = {
+		weight = 20
+	}
+}
+
+#艺术工作者
+sfdoll_artist = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	icon = sfdoll_artist
+	building_icon = building_sfdoll_media
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	planet_modifier = {
+		planet_amenities_add = 20
+	}
+	resources = {
+		category = planet_culture_workers
+		produces = {
+			unity = 6
+			society_research = 6
+		}
+		upkeep = { consumer_goods = 2	}
 	}
 	weight = {	weight = 20	}
 }

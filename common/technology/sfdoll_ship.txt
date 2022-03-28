@@ -41,18 +41,18 @@ tech_sfdoll_weapon_x_1 = {
 }
 #T槽
 tech_sfdoll_weapen_t_2 = {
-	cost = @tier4cost3
+	cost = @tier5cost2
 	area = physics
-	tier = 4
+	tier = 5
 	category = { field_manipulation }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapen_t_2
 	prerequisites = { tech_sfdoll_weapon_s_3	}
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_titans
+		has_technology = tech_battleships
 	}
-	weight = @tier4weight3
+	weight = @tier5weight2
 }
 
 #防御
@@ -156,7 +156,7 @@ tech_sfdoll_ship_sensors = {
 }
 
 #ship
-#战列舰双X舰首
+#更多区段
 tech_sfdoll_battleship_bow_x2 = {
 	cost = @tier5cost1
 	area = engineering

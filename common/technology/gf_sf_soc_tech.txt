@@ -114,16 +114,16 @@ tech_sfdoll_army_building = {
 # 	weight = @tier4weight3
 # }
 
-#解锁建筑槽位
+#铁血新城市计划，解锁建筑槽位
 tech_sfdoll_max_buildings = {
-	cost = @tier3cost1
+	cost = @tier4cost1
 	area = society
-	tier = 3
+	tier = 4
 	category = { statecraft }
 	icon = tech_sfdoll_max_buildings
 	potential = { has_authority = auth_gf_sfdoll }
 	modifier = { planet_max_buildings_add = 4	}
-	weight = @tier3weight1
+	weight = 0
 }
 
 #铁血社会变革，由钢铁之国飞升解锁

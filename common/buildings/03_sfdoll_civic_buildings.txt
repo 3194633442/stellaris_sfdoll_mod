@@ -65,8 +65,8 @@ building_sfdoll_net = {
 		}
 		modifier = {	
 			#job_sfdoll_it_doll_add = 4
-			planet_jobs_unity_produces_mult = 0.50
 			planet_amenities_add = 20
+			planet_crime_add = -20
 		}
 	}
 	# triggered_desc = {
@@ -133,6 +133,45 @@ building_sfdoll_museum = {
 		}
 		upkeep = {
 			energy = @b2_upkeep
+		}
+	}
+}
+
+building_sfdoll_media= {
+	base_buildtime =  @b1_time
+	category = amenity
+	icon = building_sfdoll_media
+	potential = {
+		exists = owner
+		owner = {	has_authority = auth_gf_sfdoll	}
+	}
+	allow = {	owner = {	has_civic = civic_sfdoll_culture	}	}
+
+	destroy_trigger = {
+		OR = {
+			has_modifier = slave_colony
+			has_modifier = resort_colony
+		}
+	}
+	triggered_desc = {
+		text = job_sfdoll_artist_effect_desc
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = sfdoll_empire }
+		}
+		modifier = {
+			job_sfdoll_artist_add = 4
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b1_minerals
+		}
+		upkeep = {
+			energy = @b1_upkeep
 		}
 	}
 }

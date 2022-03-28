@@ -81,18 +81,25 @@ job_sfdoll_mineral_maker_effect_desc:0 "物质合成师消耗§Y$energy$§!,生�
 mod_job_sfdoll_mineral_maker_add:0"物质合成师岗位"
 
 
-
 #civic
 building_sfdoll_academy:0"铁血学园"
 building_sfdoll_academy_desc:0"这些园区兼具教学与科研功能。虽然很多知识可以直接下载到脑子里，但学习和训练也是人形AI成长的一环。"
 job_sfdoll_educator:0"教育工作者"
 job_sfdoll_educator_plural:0"教育工作者"
 job_sfdoll_educator_desc:0"教育工作者"
-job_sfdoll_educator_effect_desc:0 "教育工作者产出§Y$unity$§!,并降低星球的犯罪度"
+job_sfdoll_educator_effect_desc:0 "教育工作者消耗§Y$consumer_goods$§!,产出§Y$unity$§!,§Y$society_research$§!,降低星球的犯罪度"
 mod_job_sfdoll_educator_add:0"教育工作者岗位"
 
-building_sfdoll_net:0"铁血IT城"
-building_sfdoll_net_desc:0"星际互联网可以提供政务和生活等多种方面的服务。打游戏时喜欢嘴臭的人形，可能会被追踪ip，并被迫展开线下pvp"
+building_sfdoll_media:0 "铁血传媒广场"
+building_sfdoll_media_desc:0 "这里集中了许多文化类单位。"
+job_sfdoll_artist:0 "艺术工作者"
+job_sfdoll_artist_plural:0 "艺术工作者"
+job_sfdoll_artist_desc:0 "艺术工作者"
+job_sfdoll_artist_effect_desc:0 "艺术工作者消耗§Y$consumer_goods$§!，产出§Y$unity$§!,§Y$society_research$§!, 提高舒适度"
+mod_job_sfdoll_artist_add:0 "艺术工作者岗位"
+
+building_sfdoll_net:0"铁血信号站"
+building_sfdoll_net_desc:0 "这些信号站可以提供多种网络服务，并具有雷达功能。打游戏时喜欢嘴臭的人形，可能会被定位ip，并被迫展开线下pvp"
 
 building_sfdoll_museum:0"铁血国家博物馆"
 building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，可为相关研究提供有力支持。门口摆放了莱柯，露尼西亚和指挥官等人的模型。"

@@ -13,9 +13,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ascension_perks/ap_sfdoll_reverse_collapse.dds"
 		alwaystransparent = yes
 	}
+
 	spriteType = {
-		name = "GFX_ap_land_of_sfdoll"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_land_of_sfdoll.dds"
+		name = "GFX_ap_sfdoll_planet"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_sfdoll_planet.dds"
 		alwaystransparent = yes
 	}
 }

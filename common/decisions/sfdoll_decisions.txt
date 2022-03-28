@@ -53,11 +53,12 @@ decision_planet_pop_to_sfdoll = {
 	}
 }
 
+#铁血星球
 decision_planet_to_sfdoll_city = {
 	owned_planets_only = yes
 	sound = event_administrative_work
-	icon = pop_to_sfdoll
-	
+	icon = to_sfdoll_city
+	enactment_time = 3600
 	resources = {
 		category = decisions
 		cost = {
@@ -65,11 +66,13 @@ decision_planet_to_sfdoll_city = {
 			nanites  = 5000
 		}
 	}	
-	# prerequisites = { tech_sfdoll_nanites }
+	prerequisites = {
+		tech_sfdoll_max_buildings
+	}
 	potential = {
 		owner = { 
 			has_authority = auth_gf_sfdoll
-			has_ascension_perk = ap_sfdoll_reverse_collapse
+			has_ascension_perk = ap_sfdoll_planet
 		}
 		NOR = {
 			is_planet_class = pc_sfdoll_city

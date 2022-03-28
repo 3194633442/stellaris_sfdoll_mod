@@ -21,7 +21,7 @@ leader_scientist_trait_gf_sfdoll= {
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_gf_sfdoll.dds"
 	immortal_leaders = yes
 	modifier = {
-		all_technology_research_speed = 0.20
+		all_technology_research_speed = 0.25
 		science_ship_survey_speed = 0.25
 		ship_anomaly_research_speed_mult = 0.25
 		ship_archaeological_site_excavation_speed_mult = 0.25
@@ -101,7 +101,7 @@ leader_scientist_trait_gf_sfdoll_2= {
 	requires_traits={ trait_gf_sfdoll }
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_gf_sfdoll_2.dds"
 	modifier = {
-		all_technology_research_speed = 0.20
+		all_technology_research_speed = 0.25
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }

@@ -2,28 +2,33 @@
 ###############################
 
 pc_sfdoll_city:0 "铁血星球"
-pc_sfdoll_city_desc:0 "铁血人形设计和建设的世界，覆盖了超级计算机网络，能够动态调节气候和生态系统"
+pc_sfdoll_city_desc:0 "铁血人形设计和建设的现代化城市，配备了超级计算机网络，可根据需要调节气候和生态系统。"
 
 district_sfdoll_house:0 "铁血城市区划"
-district_sfdoll_house_desc:0 "铁血们打造的现代化居住生活区"
-district_sfdoll_house_plural:0 "$district_sfdoll_house$"
+district_sfdoll_house_plural:0 "铁血城市区划"
+district_sfdoll_house_desc:0 "铁血们打造的宜居城市区"
 
 district_sfdoll_goods:0 "轻工业区划"
-district_sfdoll_goods_desc:0 "这里的产品汇聚了铁血的最新设计理念"
-district_sfdoll_goods_plural:0 "$district_sfdoll_goods$"
+district_sfdoll_goods_plural:0 "轻工业区划"
+district_sfdoll_goods_desc:0 "这里的产品汇聚了最新设计理念"
 
 district_sfdoll_alloys:0 "重工业区划"
+district_sfdoll_alloys_plural:0 "重工业区划"
 district_sfdoll_alloys_desc:0 "计算机管控的高效工业区"
-district_sfdoll_alloys_plural:0 "$district_sfdoll_alloys$"
 
 district_sfdoll_science:0 "科研区划"
-district_sfdoll_science_desc:0 "铁血人形的科研区划"
-district_sfdoll_science_plural:0 "$district_sfdoll_science$"
+district_sfdoll_science_plural:0 "科研区划"
+district_sfdoll_science_desc:0 "先进的科研区划"
 
-decision_planet_to_sfdoll_city:0 "铁血星球建设"
+district_sfdoll_leisure:0 "休闲区划"
+district_sfdoll_leisure_plural:0 "休闲区划"
+district_sfdoll_leisure_desc:0 "铁血们善于发现生活中的美"
+
+
+decision_planet_to_sfdoll_city:0 "建立铁血星球"
 decision_planet_to_sfdoll_city_desc:0 "将星球改造为现代化的铁血星球"
-custom_tooltip = decision_planet_to_sfdoll_city_effects_short:0 "星球类型改为铁血星球，会拆除原有的区划"
+decision_planet_to_sfdoll_city_effects_short:0 "星球类型改为铁血星球，会拆除原有的区划"
 
 decision_planet_pop_to_sfdoll:0 "铁血改造手术"
-decision_planet_pop_to_sfdoll_desc:0 "不论你是机器人，还是蜂巢子个体，都有机会成为光荣的铁血人形"
+decision_planet_pop_to_sfdoll_desc:0 "即使你是机器人或者蜂巢子个体，也有机会成为光荣的铁血人形"
 decision_planet_pop_to_sfdoll_effects_short:0 "星球上的非铁血人口会转化为铁血人形"

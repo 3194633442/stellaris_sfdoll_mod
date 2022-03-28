@@ -1,5 +1,6 @@
 building_sfdoll_cheat = {
 	base_buildtime = 1
+	can_build = no
 	can_be_disabled = yes
 	icon = building_sfdoll_cheat
 	category = unity
