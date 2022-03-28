@@ -48,7 +48,7 @@ building_sfdoll_alloys_2_desc:0 "铁血高级合金工厂"
 job_sfdoll_collapse_alloys_maker:0"铁血合金生产员"
 job_sfdoll_collapse_alloys_maker_plural:0"$job_sfdoll_collapse_alloys_maker$"
 job_sfdoll_collapse_alloys_maker_desc:0"铁血合金生产员"
-job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血合金生产员将 §Y$minerals$§! 转化为 §Y$alloys$§! "
+job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血合金生产员消耗 §Y$minerals$§!，生产§Y$alloys$§!，§Y$engineering_research$§! "
 mod_job_sfdoll_collapse_alloys_maker_add:0"$job_sfdoll_collapse_alloys_maker$ 岗位"
 
 
@@ -98,8 +98,8 @@ job_sfdoll_artist_desc:0 "艺术工作者"
 job_sfdoll_artist_effect_desc:0 "艺术工作者消耗§Y$consumer_goods$§!，产出§Y$unity$§!,§Y$society_research$§!, 提高舒适度"
 mod_job_sfdoll_artist_add:0 "艺术工作者岗位"
 
-building_sfdoll_net:0"铁血信号站"
-building_sfdoll_net_desc:0 "这些信号站可以提供多种网络服务，并具有雷达功能。打游戏时喜欢嘴臭的人形，可能会被定位ip，并被迫展开线下pvp"
+building_sfdoll_net:0"OGAS服务网络"
+building_sfdoll_net_desc:0 "这些由超级计算机组成的网络，能够提供各类网络服务，并辅助重大项目的分析决策。"
 
 building_sfdoll_museum:0"铁血国家博物馆"
 building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，可为相关研究提供有力支持。门口摆放了莱柯，露尼西亚和指挥官等人的模型。"

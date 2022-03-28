@@ -33,9 +33,10 @@ auth_gf_sfdoll = {
 		trait = trait_gf_sfdoll
 	}
 	country_modifier = {
-	    country_base_influence_produces_add = 2
+	    country_base_influence_produces_add = 1
 		empire_size_mult = -0.25
 		envoys_add = 2
+		planet_army_build_speed_mult = 0.25
 		intel_decryption_add = 4
 		intel_encryption_add = 4
 	}

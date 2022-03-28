@@ -7,7 +7,7 @@ tech_sfdoll_collapse_liquid_produce = {
 	category = { particles }
 	icon = tech_sfdoll_collapse_liquid_produce
 	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = @tier3weight2
+	weight = 0
 }
 
 #研究所

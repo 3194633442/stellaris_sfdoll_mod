@@ -25,15 +25,17 @@ building_sfdoll_academy = {
 		}
 		modifier = {
 			job_sfdoll_educator_add = 4
+			planet_jobs_produces_mult = 0.05
+			army_starting_experience_add = 1
 		}
 	}
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b1_minerals
+			minerals = @b2_minerals
 		}
 		upkeep = {
-			energy = @b1_upkeep
+			energy = @b2_upkeep
 		}
 	}
 }
@@ -45,7 +47,6 @@ building_sfdoll_net = {
 	can_be_disabled = yes
 	icon = building_sfdoll_net
 	category = amenity
-	base_cap_amount = 1
 	potential = {
 		exists = owner
 		owner = {	has_country_flag = sfdoll_empire	}
@@ -64,10 +65,13 @@ building_sfdoll_net = {
 			owner = { has_country_flag = sfdoll_empire }
 		}
 		modifier = {	
-			#job_sfdoll_it_doll_add = 4
-			planet_amenities_add = 20
 			planet_crime_add = -20
+			planet_building_build_speed_mult = 0.50
+			planet_decision_enact_speed_mult = 0.50
 		}
+	}
+	country_modifier = {
+		country_admin_cap_add = 20
 	}
 	# triggered_desc = {
 	# 	text = job_sfdoll_it_doll_effect_desc
@@ -76,10 +80,10 @@ building_sfdoll_net = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b1_minerals
+			minerals = @b2_minerals
 		}
 		upkeep = {
-			energy = @b1_upkeep
+			energy = @b2_upkeep
 		}
 	}
 }

@@ -8,22 +8,6 @@ ap_digi_mind_update ={
 		has_technology = tech_sfdoll_ogas_ai
 		has_technology = tech_sf_doll_modding_1
 		has_technology = tech_basic_science_lab_3
-		# custom_tooltip = {
-		# 	fail_text = "has_tech_sfdoll_ogas_ai"
-		# 	has_technology = tech_sfdoll_ogas_ai
-		# }
-		# custom_tooltip = {
-		# 	fail_text = "has_tech_sf_doll_modding_1"
-		# 	has_technology = tech_sf_doll_modding_1
-		# }
-		# custom_tooltip = {
-		# 	fail_text = "has_tech_basic_science_lab_3"
-		# 	has_technology = tech_basic_science_lab_3
-		# }
-		# custom_tooltip = {
-		# 	fail_text = "has_tech_hyper_drive_3"
-		# 	has_technology = tech_hyper_drive_3
-		# }
 	}
 	on_enabled = {
 		add_research_option = tech_sfdoll_collapse_liquid_produce
@@ -51,18 +35,9 @@ ap_sfdoll_reverse_collapse ={
 		}
 	}
 	possible ={
-		# custom_tooltip = {
-		# 	fail_text = "has_tech_sfdoll_reverse_collapse_3"
-			
-		# }
-		# custom_tooltip = {
-		# 	fail_text = "has_tech_jump_drive_1"
-			
-		# }
 		has_technology = tech_sfdoll_reverse_collapse_3
-		has_technology = tech_jump_drive_1
+		has_technology = tech_zero_point_power
 		has_technology = tech_dark_matter_power_core
-		has_technology = tech_sfdoll_nanites
 		has_ascension_perk = ap_digi_mind_update
 
 	}
