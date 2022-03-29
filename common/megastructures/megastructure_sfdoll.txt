@@ -11,7 +11,7 @@ sfdoll_mega_starport = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 30000
+			alloys = 35000
 			unity = 2500
 			sr_dark_matter = 360
 		}
@@ -32,7 +32,7 @@ sfdoll_mega_starport = {
 		starbase_shipyard_build_speed_mult = 1
 	}
 	country_modifier = {
-		country_naval_cap_add = 600
+		country_naval_cap_add = 2000
 	}
 
 	possible = {

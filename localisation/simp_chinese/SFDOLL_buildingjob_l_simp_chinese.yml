@@ -105,11 +105,15 @@ building_sfdoll_museum:0"铁血国家博物馆"
 building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，可为相关研究提供有力支持。门口摆放了莱柯，露尼西亚和指挥官等人的模型。"
 
 #army
-building_sfdoll_army:0"铁血要塞"
-building_sfdoll_army_desc:0"铁血人形的新式行星军港配备了特殊的ftl装置，可以在星球与太空之间快速转移人员与物资，也可以用于星球上不同位置之间的军事运输"
+building_sfdoll_army:0"铁血军事基地"
+building_sfdoll_army_desc:0"这些基地配备了各类军事设施，用于维持铁血的军事力量"
+
+building_sfdoll_army_2:0 "铁血先进军事基地"
+building_sfdoll_army_2_desc:0 "先进的军事基地可以更高效地转移人员与物资"
+
 job_sfdoll_tactical:0"战术人形"
 job_sfdoll_tactical_plural:0"战术人形"
-job_sfdoll_tactical_desc:0"战术人形配备了专业作战系统，维持着国家的军事力量"
+job_sfdoll_tactical_desc:0"战术人形配备了专业作战系统"
 job_sfdoll_tactical_effect_desc:0"战术人形提供海军容量，凝聚力，并提高星球的稳定度"
 mod_job_sfdoll_tactical_add:0 "战术人形岗位"
 
