@@ -20,7 +20,10 @@ mod_job_sfdoll_dark_matter_maker_add:0"$job_sfdoll_dark_matter_maker$ 岗位"
 
 #collapse
 building_sfdoll_collapse_liquid_plant:0"坍塌液工厂"
-building_sfdoll_collapse_liquid_plant_desc:0"$building_sfdoll_collapse_liquid_plant$"
+building_sfdoll_collapse_liquid_plant_desc:0"在高能量下合成坍塌粒子，并编写坍塌粒子的内部程序,使其可控化。"
+building_sfdoll_collapse_liquid_2:0 "高级坍塌液工厂"
+building_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
+
 job_sfdoll_collapse_liquid_maker:0"坍塌液合成师"
 job_sfdoll_collapse_liquid_maker_plural:0"$job_sfdoll_collapse_liquid_maker$"
 job_sfdoll_collapse_liquid_maker_desc:0"制造坍塌粒子"
@@ -105,11 +108,8 @@ building_sfdoll_museum:0"铁血国家博物馆"
 building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，可为相关研究提供有力支持。门口摆放了莱柯，露尼西亚和指挥官等人的模型。"
 
 #army
-building_sfdoll_army:0"铁血军事基地"
-building_sfdoll_army_desc:0"这些基地配备了各类军事设施，用于维持铁血的军事力量"
-
 building_sfdoll_army_2:0 "铁血先进军事基地"
-building_sfdoll_army_2_desc:0 "先进的军事基地可以更高效地转移人员与物资"
+building_sfdoll_army_2_desc:0 "拥有先进设施的基地"
 
 job_sfdoll_tactical:0"战术人形"
 job_sfdoll_tactical_plural:0"战术人形"
@@ -123,8 +123,6 @@ building_sfdoll_assembly_plant_desc:0 "基于OGAS算法的AI科学，仿生学�
 building_sfdoll_assembly_2:0 "铁血先进组装厂"
 building_sfdoll_assembly_2_desc:0 "$building_sfdoll_assembly_plant_desc$"
 
-building_sfdoll_cheat:0 "神秘作弊器"
-building_sfdoll_cheat_desc:0 "铁血们完全搞不懂这台机器的原理"
 
 # building_sfdoll_gases_plant:0 "铁血气体精炼厂"
 # building_sfdoll_gases_plant_desc:0 "$building_sfdoll_gases_plant$"
