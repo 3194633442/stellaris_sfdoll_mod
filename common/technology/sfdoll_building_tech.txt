@@ -1,16 +1,5 @@
 #坍塌液合成
 tech_sfdoll_collapse_liquid_produce = {
-	cost = @tier3cost2
-	area = physics
-	tier = 3
-	is_rare = yes
-	category = { particles }
-	icon = tech_sfdoll_collapse_liquid_produce
-	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = 0
-}
-#高级坍塌液合成
-tech_sfdoll_collapse_liquid_2 = {
 	cost = @tier4cost2
 	area = physics
 	tier = 4
@@ -18,20 +7,31 @@ tech_sfdoll_collapse_liquid_2 = {
 	category = { particles }
 	icon = tech_sfdoll_collapse_liquid_produce
 	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = @tier4weight2
+	weight = 0
 }
+#高级坍塌液合成
+# tech_sfdoll_collapse_liquid_2 = {
+# 	cost = @tier4cost2
+# 	area = physics
+# 	tier = 4
+# 	is_rare = yes
+# 	category = { particles }
+# 	icon = tech_sfdoll_collapse_liquid_produce
+# 	potential = {	has_authority = auth_gf_sfdoll	}
+# 	weight = @tier4weight2
+# }
 
 #研究所
 tech_sfdoll_lab = {
-	cost = @tier3cost1
+	cost = @tier4cost2
 	area = physics
 	icon = tech_sfdoll_lab
-	tier = 3
+	tier = 4
 	is_rare = yes
 	category = { particles }
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_collapse_liquid_produce 	}
-	weight = @tier3weight1
+	weight = @tier4weight2
 }
 #高级研究所
 tech_sfdoll_lab_2 = {
@@ -51,14 +51,14 @@ tech_sfdoll_lab_2 = {
 
 #坍塌液合金制造
 tech_sfdoll_collapse_alloys_produce = {
-	cost = @tier3cost1
+	cost = @tier4cost2
 	area = engineering
-	tier = 3
+	tier = 4
 	category = { industry }
 	is_rare = yes
 	icon = tech_sfdoll_collapse_alloys_produce
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
-	weight = @tier3weight1
+	weight = @tier4weight2
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 #高级合金
@@ -70,21 +70,21 @@ tech_sfdoll_alloys_2= {
 	is_rare = yes
 	icon = tech_sfdoll_collapse_alloys_produce
 	prerequisites = { tech_sfdoll_lab_2 }
-	weight = @tier4weight3
+	weight = 0
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 
 
 #解锁消费品建筑
 tech_sfdoll_nanites_goods= {
-	cost = @tier3cost1
+	cost = @tier4cost2
 	area = society
-	tier = 3
+	tier = 4
 	is_rare = yes
 	icon = tech_sfdoll_nanites_goods
 	category = { statecraft }
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
-	weight = @tier3weight1
+	weight = @tier4weight2
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 #高级消费品
@@ -96,7 +96,7 @@ tech_sfdoll_goods_2= {
 	icon = tech_sfdoll_nanites_goods
 	category = { statecraft }
 	prerequisites = { tech_sfdoll_lab_2 }
-	weight = @tier4weight1
+	weight = 0
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 

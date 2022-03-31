@@ -10,7 +10,6 @@ ap_digi_mind_update ={
 		has_technology = tech_basic_science_lab_3
 	}
 	on_enabled = {
-		add_research_option = tech_sfdoll_collapse_liquid_produce
 		add_research_option = tech_sfdoll_planet_computer
 		hidden_effect = {
 			country_event = {
@@ -45,7 +44,7 @@ ap_sfdoll_reverse_collapse ={
 	on_enabled = {
 		set_country_flag = sfdoll_country_can_update_leader
 		add_research_option = tech_sf_doll_modding_2
-		add_research_option = tech_sfdoll_lab_2
+		add_research_option = tech_sfdoll_collapse_liquid_produce
 		hidden_effect = {
 			country_event = {
 				id = gf_sfdoll_ascension_perk_event.0
