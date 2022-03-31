@@ -1,6 +1,7 @@
 building_sfdoll_planet_computer = {
 	base_buildtime = @b2_time
 	can_be_disabled = yes
+	base_cap_amount = 1
 	icon = building_sfdoll_planet_computer
 	category = manufacturing
 	potential = {
