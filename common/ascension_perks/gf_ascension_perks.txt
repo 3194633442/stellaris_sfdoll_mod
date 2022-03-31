@@ -11,6 +11,7 @@ ap_digi_mind_update ={
 	}
 	on_enabled = {
 		add_research_option = tech_sfdoll_collapse_liquid_produce
+		add_research_option = tech_sfdoll_planet_computer
 		hidden_effect = {
 			country_event = {
 				id = gf_sfdoll_ascension_perk_event.1

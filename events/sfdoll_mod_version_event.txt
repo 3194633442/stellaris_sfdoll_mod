@@ -75,8 +75,14 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		capital_scope = {
-			change_pc = pc_sfdoll_city
+		# capital_scope = {
+		# 	change_pc = pc_sfdoll_city
+		# }
+		add_resource = {
+			minerals = 100000
+			rare_crystals = 100000
+			GF_nyto_collapse_liquid = 100000
 		}
+
 	}
 }

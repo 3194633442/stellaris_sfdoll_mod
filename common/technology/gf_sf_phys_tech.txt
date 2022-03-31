@@ -18,6 +18,18 @@ tech_sfdoll_ogas_ai = {
 	}
 }
 
+tech_sfdoll_planet_computer = {
+	area = physics
+	tier = 3
+	cost = @tier3cost2
+	category = { computing }
+	icon = tech_sfdoll_planet_computer
+	weight = @tier4weight1
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = 0
+
+}
+
 #智子工程
 tech_sfdoll_sophon_computer = {
 	area = physics

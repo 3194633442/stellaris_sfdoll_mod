@@ -1,3 +1,22 @@
+ship_section_template = {
+	key = "section_fighter_sfdoll"
+	ship_size = ship_fighter_sfdoll
+	fits_on_slot = ship
+	should_draw_components = yes
+	entity = "sfd_warship_large_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+
+	large_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+}
+
 #双X战列舰舰首
 ship_section_template = {
 	key = "sfdoll_battleship_bow_x2"
