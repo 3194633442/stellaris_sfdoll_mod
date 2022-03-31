@@ -32,8 +32,6 @@ sfdoll_nanites_maker = {
 }
 
 
-
-
 #坍塌液生产
 sfdoll_collapse_liquid_maker = {
 	category = specialist

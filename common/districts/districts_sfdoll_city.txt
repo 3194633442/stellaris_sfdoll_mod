@@ -30,7 +30,6 @@ district_sfdoll_house = {
 		category = planet_districts
 		cost = {
 			minerals = 1000
-			nanites = 50
 		}
 		upkeep = {
 			energy = 5
@@ -98,7 +97,7 @@ district_sfdoll_goods = {
 		category = planet_districts
 		cost = {
 			minerals = 1000
-			nanites = 50
+			GF_nyto_collapse_liquid = 50
 		}
 		upkeep = {
 			energy = 5
@@ -162,7 +161,7 @@ district_sfdoll_alloys = {
 		category = planet_districts
 		cost = {
 			minerals = 1000
-			nanites = 50
+			GF_nyto_collapse_liquid = 50
 		}
 		upkeep = {
 			energy = 5
@@ -216,7 +215,7 @@ district_sfdoll_science = {
 		category = planet_districts
 		cost = {
 			minerals = 1000
-			nanites = 50
+			GF_nyto_collapse_liquid = 50
 		}
 		upkeep = {
 			energy = 5
@@ -280,7 +279,7 @@ district_sfdoll_leisure= {
 		category = planet_districts
 		cost = {
 			minerals = 1000
-			nanites = 50
+			consumer_goods = 50
 		}
 		upkeep = {
 			energy = 5
