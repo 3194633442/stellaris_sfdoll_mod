@@ -32,6 +32,7 @@ building_sfdoll_research = {
 		}
 		upkeep = {
 			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
 		}
 	}
 }

@@ -103,10 +103,10 @@ tech_sfdoll_goods_2:0 "高级消费品工厂"
 tech_sfdoll_goods_2_desc:0 "制造工艺的进步，为铁血社会带来了各种堪称奇幻的新产品"
 
 
-tech_sfdoll_collapse_liquid_produce:0"坍塌粒子制造"
-tech_sfdoll_collapse_liquid_produce_desc:0"在高能量下合成坍塌粒子，并编写坍塌粒子的内部程序,使其可控化。"
-tech_sfdoll_collapse_liquid_2:0 "坍塌粒子结构优化"
-tech_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
+tech_sfdoll_collapse_liquid_produce:0"坍塌粒子合成"
+tech_sfdoll_collapse_liquid_produce_desc:0 "现在，我们完全掌握了坍塌粒子的运作原理，能够合成坍塌粒子，编写坍塌粒子的内部程序，使其实现多种功能。现在，坍塌液不再是带来灾害的魔鬼，而是我们改造世界的有力助手。"
+# tech_sfdoll_collapse_liquid_2:0 "坍塌粒子结构优化"
+# tech_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
 
 
 tech_sfdoll_dark_matter_plant:0"暗物质合成"

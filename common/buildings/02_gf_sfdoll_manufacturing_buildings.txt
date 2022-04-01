@@ -103,8 +103,14 @@ building_sfdoll_dark_matter_plant = {
 
 	resources = {
 		category = planet_buildings
-		cost = {	minerals = @b3_minerals	}
-		upkeep = {		energy = @b3_upkeep	}
+		cost = {
+			minerals = @b3_minerals
+			GF_nyto_collapse_liquid = @b3_rare_cost
+		}
+		upkeep = {
+			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
+		}
 	}
 
 	ai_resource_production = {
@@ -149,6 +155,7 @@ building_sfdoll_alloys = {
 		}
 		upkeep = {
 			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
 		}
 	}
 
@@ -229,6 +236,7 @@ building_sfdoll_nanites_goods_plant = {
 		}
 		upkeep = {
 			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
 		}
 	}
 	triggered_desc = {	text = job_sfdoll_nanites_goods_maker_effect_desc	}
@@ -353,9 +361,10 @@ building_sfdoll_energy_plant = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = 50
+			GF_nyto_collapse_liquid = @b3_rare_cost
+			sr_dark_matter = @b3_rare_cost
 		}
-		upkeep = {	energy = @b2_upkeep	}
+		upkeep = {	energy = @b1_upkeep	}
 	}
 
 	ai_resource_production = {

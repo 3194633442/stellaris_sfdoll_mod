@@ -20,7 +20,7 @@ mod_job_sfdoll_dark_matter_maker_add:0"$job_sfdoll_dark_matter_maker$ 岗位"
 
 #collapse
 building_sfdoll_collapse_liquid_plant:0"坍塌液工厂"
-building_sfdoll_collapse_liquid_plant_desc:0"在高能量下合成坍塌粒子，并编写坍塌粒子的内部程序,使其可控化。"
+building_sfdoll_collapse_liquid_plant_desc:0"在高能量下合成坍塌粒子，编写坍塌粒子的内部程序,使其实现多种功能。"
 building_sfdoll_collapse_liquid_2:0 "高级坍塌液工厂"
 building_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
 
@@ -44,39 +44,39 @@ mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ 岗位"
 
 
 building_sfdoll_alloys:0"铁血合金工厂"
-building_sfdoll_alloys_desc:0"高效生产合金"
+building_sfdoll_alloys_desc:0 "利用坍塌科技，我们的合金生产效率与质量获得了巨大的提升"
 building_sfdoll_alloys_2:0 "铁血高级合金工厂"
 building_sfdoll_alloys_2_desc:0 "铁血高级合金工厂"
 
-job_sfdoll_collapse_alloys_maker:0"铁血合金生产员"
+job_sfdoll_collapse_alloys_maker:0"铁血材料工程师"
 job_sfdoll_collapse_alloys_maker_plural:0"$job_sfdoll_collapse_alloys_maker$"
-job_sfdoll_collapse_alloys_maker_desc:0"铁血合金生产员"
-job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血合金生产员消耗 §Y$minerals$§!，生产§Y$alloys$§!，§Y$engineering_research$§! "
+job_sfdoll_collapse_alloys_maker_desc:0"铁血材料工程师"
+job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血材料工程师消耗 §Y$minerals$§!，生产§Y$alloys$§!，§Y$engineering_research$§! "
 mod_job_sfdoll_collapse_alloys_maker_add:0"$job_sfdoll_collapse_alloys_maker$ 岗位"
 
 
 building_sfdoll_nanites_goods_plant:0 "铁血消费品工厂"
-building_sfdoll_nanites_goods_plant_desc:0 "铁血消费品工厂"
+building_sfdoll_nanites_goods_plant_desc:0 "强大的制造科技为铁血社会带来了近乎无尽的消费品"
 building_sfdoll_goods_plant_2:0 "铁血高级消费品工厂"
 building_sfdoll_goods_plant_2_desc:0 "铁血高级消费品工厂"
 
-job_sfdoll_nanites_goods_maker:0"铁血工匠"
-job_sfdoll_nanites_goods_maker_plural:0"铁血工匠"
-job_sfdoll_nanites_goods_maker_desc:0"铁血工匠利用先进的生产技术，制造各类工业产品。"
-job_sfdoll_nanites_goods_maker_effect_desc:0 "铁血工匠将 §Y$minerals$§! 转化为§Y$consumer_goods$§!和 §Y$engineering_research$§!"
-mod_job_sfdoll_nanites_goods_maker_add:0 "铁血工匠岗位"
+job_sfdoll_nanites_goods_maker:0"铁血设计师工匠"
+job_sfdoll_nanites_goods_maker_plural:0"铁血设计师工匠"
+job_sfdoll_nanites_goods_maker_desc:0 "铁血设计师工匠"
+job_sfdoll_nanites_goods_maker_effect_desc:0 "铁血设计师工匠将 §Y$minerals$§! 转化为§Y$consumer_goods$§!和 §Y$engineering_research$§!"
+mod_job_sfdoll_nanites_goods_maker_add:0 "铁血设计师工匠岗位"
 
 
 building_sfdoll_energy_plant:0"SF奇点发电厂"
 building_sfdoll_energy_plant_desc:0"使用奇点能源生产能量"
 job_sfdoll_energy_maker:0"奇点技师"
 job_sfdoll_energy_maker_plural:0"$job_sfdoll_energy_maker_maker$"
-job_sfdoll_energy_maker_desc:0"使用奇点能源生产能量"
+job_sfdoll_energy_maker_desc:0"$job_sfdoll_energy_maker_maker$"
 job_sfdoll_energy_maker_effect_desc:0 "奇点技师消耗§Y$sr_dark_matter$§!,生产§Y$energy$§! "
 mod_job_sfdoll_energy_maker_add:0"奇点技师岗位"
 
-building_sfdoll_mineral:0"SF物质制造厂"
-building_sfdoll_mineral_desc:0"使用能量合成各类物质资源"
+building_sfdoll_mineral:0"SF质量构建厂"
+building_sfdoll_mineral_desc:0"利用逆向坍塌技术，构建我们所需的物质资源"
 job_sfdoll_mineral_maker:0"物质合成师"
 job_sfdoll_mineral_maker_plural:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker$"
@@ -124,11 +124,11 @@ building_sfdoll_assembly_2:0 "铁血先进组装厂"
 building_sfdoll_assembly_2_desc:0 "$building_sfdoll_assembly_plant_desc$"
 
 
-building_sfdoll_planet_computer:0 "SF行星超级计算机群"
-building_sfdoll_planet_computer_desc:0 "部署在星球各处的超级计算机组，蕴含了铁血最尖端的计算机科技，可为科研和生产提供算力支援"
+building_sfdoll_planet_computer:0 "铁血行星计算机"
+building_sfdoll_planet_computer_desc:0 "部署在星球各处的大型超级计算机组，可为科研和生产提供算力支援"
 
-tech_sfdoll_planet_computer:0 "铁血行星超级计算机群"
-tech_sfdoll_planet_computer_desc:0 "不同于以往的超级计算机，行星级计算机群的制造与维护需要全新的工程学理念"
+tech_sfdoll_planet_computer:0 "铁血行星计算机"
+tech_sfdoll_planet_computer_desc:0 "不同于以往的超级计算机，行星级计算机组的制造与维护需要全新的工程学理念"
 
 
 # building_sfdoll_gases_plant:0 "铁血气体精炼厂"

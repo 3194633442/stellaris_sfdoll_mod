@@ -448,7 +448,7 @@ weapon_component_template = {
 		}		
 		upkeep = {
 			consumer_goods = 0.5
-			sr_dark_matter = 2
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 	damage = {
@@ -483,6 +483,7 @@ weapon_component_template = {
 		upkeep = {
 			consumer_goods = 0.5
 			energy = 20
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 	damage = {

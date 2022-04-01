@@ -81,7 +81,6 @@ sfdoll_researcher = {
 		}
 		upkeep = {
 			consumer_goods = 2
-			GF_nyto_collapse_liquid = 1
 		}
 	}
 	weight = {	weight = 30	}
@@ -107,12 +106,11 @@ sfdoll_collapse_alloys_maker = {
 	resources = {
 		category = planet_metallurgists
 		produces = {
-			alloys = 30
+			alloys = 15
 			engineering_research = 6
 		}
 		upkeep = {
 			minerals =  6
-			GF_nyto_collapse_liquid = 1
 		}
 	}
 	weight = {	weight = 20	}
@@ -139,12 +137,11 @@ sfdoll_nanites_goods_maker = {
 	resources = {
 		category = planet_artisans
 		produces = {
-			consumer_goods = 60
+			consumer_goods = 30
 			engineering_research = 6
 		}
 		upkeep = {
 			minerals = 6
-			GF_nyto_collapse_liquid = 1
 		}
 	}
 	weight = {
@@ -196,7 +193,7 @@ sfdoll_energy_maker = {
 	resources = {
 		category = planet_technician
 		produces = {	energy = 250 }
-		upkeep = {	sr_dark_matter = 2	}
+		upkeep = {	GF_nyto_collapse_liquid = 2	}
 	}
 	weight = {	weight = 20	}
 }
@@ -220,7 +217,10 @@ sfdoll_mineral_maker = {
 	resources = {
 		category = planet_technician
 		produces = {	minerals = 100  }
-		upkeep = {	energy = 20	}
+		upkeep = {
+			energy = 20
+			GF_nyto_collapse_liquid = 2
+		}
 	}
 	weight = {	weight = 20	}
 }
