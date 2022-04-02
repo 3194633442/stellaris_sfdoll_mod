@@ -198,7 +198,7 @@ sfdoll_energy_maker = {
 	weight = {	weight = 20	}
 }
 
-#物质合成师
+#质量构建师
 sfdoll_mineral_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑

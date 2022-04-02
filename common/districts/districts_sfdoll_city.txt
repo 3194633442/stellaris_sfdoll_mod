@@ -1,3 +1,188 @@
+#铁血环世界
+#居住区划
+district_rw_city_sfdoll = {
+	base_buildtime = 360
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		exists = from
+		from = { is_regular_empire = yes }
+		uses_district_set = rw_sfdoll
+	}
+
+	potential = {
+		exists = owner
+		owner = { is_regular_empire = yes }
+		uses_district_set = rw_sfdoll
+	}
+
+	conversion_ratio = 0.5
+	convert_to = {
+		district_rw_nexus
+		district_rw_hive
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 40
+		job_enforcer_add = 1
+		job_clerk_add = 1
+	}
+}
+
+#铁血环科研区划
+district_rw_science_sfdoll = {
+	base_buildtime = 360
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = { uses_district_set = rw_sfdoll }
+
+	potential = { uses_district_set = rw_sfdoll }
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals =1000
+			GF_nyto_collapse_liquid = 50
+		}
+		upkeep = {
+			energy = 5
+			GF_nyto_collapse_liquid = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		planet_housing_add = 15
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_gf_sfdoll }
+		}
+		modifier = {
+			job_sfdoll_researcher_add = 12
+		}
+	}
+}
+
+#铁血环世界工业
+district_rw_industrial_sfdoll = {
+	base_buildtime = 360
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = { uses_district_set = rw_sfdoll }
+
+	potential = {
+		uses_district_set = rw_sfdoll
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals =1000
+			GF_nyto_collapse_liquid = 50
+		}
+		upkeep = {
+			energy = 5
+			GF_nyto_collapse_liquid = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		planet_housing_add = 15
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}
+		}
+		modifier = {
+			job_sfdoll_collapse_alloys_maker_add = 12
+			job_sfdoll_nanites_goods_maker_add = 3
+		}
+	}
+	ai_resource_production = {
+		alloys = 60
+		consumer_goods = 30
+		trigger = {
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}
+		}
+	}
+}
+
+#能源和矿物区划
+district_rw_generator_sfdoll = {
+	base_buildtime = 360
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = rw_sfdoll
+	}
+
+	potential = {
+		uses_district_set = rw_sfdoll
+	}
+
+	convert_to = {
+		district_rw_commercial
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+			GF_nyto_collapse_liquid = 50
+		}
+		upkeep = {
+			energy = 5
+			GF_nyto_collapse_liquid = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		planet_housing_add = 15
+
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}
+		}
+		modifier = {
+			job_sfdoll_energy_maker_add = 6
+			job_sfdoll_mineral_maker_add = 6
+		}
+	}
+	ai_resource_production = {
+		energy = 30
+		minerals = 30
+		trigger = {
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}
+		}
+	}
+}
+
+
+#铁血星球
 #居住区划
 district_sfdoll_house = {
 	base_buildtime = 600

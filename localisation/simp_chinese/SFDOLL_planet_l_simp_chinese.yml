@@ -4,9 +4,9 @@
 pc_sfdoll_city:0 "铁血星球"
 pc_sfdoll_city_desc:0 "铁血人形设计和建设的现代化城市，配备了超级计算机网络，可根据需要调节气候和生态系统。"
 
-district_sfdoll_house:0 "铁血城市区划"
-district_sfdoll_house_plural:0 "铁血城市区划"
-district_sfdoll_house_desc:0 "铁血们打造的宜居城市区"
+district_sfdoll_house:0 "铁血之都"
+district_sfdoll_house_plural:0 "铁血之都"
+district_sfdoll_house_desc:0 "铁血们打造的繁荣城市"
 
 district_sfdoll_goods:0 "轻工业区划"
 district_sfdoll_goods_plural:0 "轻工业区划"
@@ -24,10 +24,23 @@ district_sfdoll_leisure:0 "休闲区划"
 district_sfdoll_leisure_plural:0 "休闲区划"
 district_sfdoll_leisure_desc:0 "铁血们善于发现生活中的美"
 
+district_rw_city_sfdoll:0 "铁血星环城市"
+district_rw_city_sfdoll_desc:0 "建立于铁血环形世界的城市，拥有广阔的生活空间"
+district_rw_science_sfdoll:0 "铁血星环科学院"
+district_rw_science_sfdoll_desc:0 "这些区划是科学探索的天堂。"
+
+district_rw_industrial_sfdoll:0 "星环工业基地"
+district_rw_industrial_sfdoll_desc:0  "这些工业基地使用坍塌技术进行高效生产"
+
+district_rw_generator_sfdoll:0 "星环资源再生中心"
+district_rw_generator_sfdoll_desc:0 "运用超物理学技术，这些区划能生产大量的能源与物资"
 
 decision_planet_to_sfdoll_city:0 "建立铁血星球"
 decision_planet_to_sfdoll_city_desc:0 "将星球改造为现代化的铁血星球"
 decision_planet_to_sfdoll_city_effects_short:0 "星球类型改为铁血星球，会拆除原有的区划"
+decision_planet_to_sfdoll_rw:0 "建立铁血环形世界"
+decision_planet_to_sfdoll_rw_desc:0 "将环形世界改造为铁血环形世界"
+decision_planet_to_sfdoll_rw_effects:0 "环形世界改造为铁血环形世界，会拆除原有的区划"
 
 decision_planet_pop_to_sfdoll:0 "铁血改造手术"
 decision_planet_pop_to_sfdoll_desc:0 "即使你是机器人或者蜂巢子个体，也有机会成为光荣的铁血人形"

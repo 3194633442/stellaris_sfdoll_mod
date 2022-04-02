@@ -91,6 +91,40 @@ decision_planet_to_sfdoll_city = {
 	}
 }
 
+#环世界转化为铁血环
+decision_planet_to_sfdoll_rw = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = to_sfdoll_city
+	# enactment_time = 3600
+	enactment_time = 1
+	resources = {
+		category = decisions
+		cost = {
+			minerals = 5000
+			GF_nyto_collapse_liquid  = 5000
+		}
+	}	
+	prerequisites = {
+		tech_sfdoll_max_buildings
+	}
+	potential = {
+		owner = { 
+			has_authority = auth_gf_sfdoll
+			has_ascension_perk = ap_sfdoll_planet
+		}
+		is_planet_class = pc_ringworld_habitable
+	}
+	effect = {
+		custom_tooltip = "decision_planet_to_sfdoll_rw_effects"
+		hidden_effect = {
+			change_pc = pc_rw_sfdoll
+		}		
+	}
+}
+
+
+
 #居住站转化为铁血理想城
 # decision_build_sfdoll_habitat = {
 # 	owned_planets_only = yes
