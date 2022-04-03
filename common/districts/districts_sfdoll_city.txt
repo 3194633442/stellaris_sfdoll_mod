@@ -34,8 +34,8 @@ district_rw_city_sfdoll = {
 
 	planet_modifier = {
 		planet_housing_add = 40
-		job_enforcer_add = 1
-		job_clerk_add = 1
+		job_sfdoll_educator_add = 2
+		job_sfdoll_artist_add = 2
 	}
 }
 
@@ -75,7 +75,7 @@ district_rw_science_sfdoll = {
 	}
 }
 
-#铁血环世界工业
+#铁血环世界工业区划
 district_rw_industrial_sfdoll = {
 	base_buildtime = 360
 	is_capped_by_modifier = no
@@ -231,6 +231,8 @@ district_sfdoll_house = {
 		modifier = {
 			planet_max_buildings_add = 1
 			planet_housing_add = 15
+			job_sfdoll_educator_add = 1
+			job_sfdoll_artist_add = 1
 		}
 	}
 }
@@ -419,7 +421,66 @@ district_sfdoll_science = {
 	}
 }
 
-district_sfdoll_leisure= {
+# district_sfdoll_leisure= {
+# 	base_buildtime = 600
+# 	is_capped_by_modifier = no
+
+# 	show_on_uncolonized = {
+# 		uses_district_set = sfdoll_world
+# 		from = {
+# 			has_authority = auth_gf_sfdoll
+# 			NOT = {
+# 				has_authority = auth_gf_sfdoll
+# 			}
+# 		}
+# 	}
+
+# 	potential = {
+# 		uses_district_set = sfdoll_world
+# 		owner = {
+# 			exists = owner
+# 			has_authority = auth_gf_sfdoll
+# 			NOT = {
+# 				has_authority = auth_gf_sfdoll
+# 			}
+# 		}
+# 	}
+
+# 	conversion_ratio = 1
+# 	convert_to = {
+# 		district_arcology_organic_housing
+# 		district_city
+# 		district_nexus
+# 		district_hive
+# 		district_arcology_housing
+# 	}
+
+# 	triggered_planet_modifier = {
+# 		potential = {
+# 			exists = owner
+# 			owner = {
+# 				has_authority = auth_gf_sfdoll
+# 			}
+# 		}
+# 		modifier = {
+# 			planet_housing_add = 10
+# 			job_sfdoll_artist_add = 6
+# 		}
+# 	}
+
+# 	resources = {
+# 		category = planet_districts
+# 		cost = {
+# 			minerals = 1000
+# 			consumer_goods = 50
+# 		}
+# 		upkeep = {
+# 			energy = 5
+# 		}
+# 	}
+# }
+
+district_generator_sfdoll_city  = {
 	base_buildtime = 600
 	is_capped_by_modifier = no
 
@@ -456,7 +517,8 @@ district_sfdoll_leisure= {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_sfdoll_artist_add = 6
+			job_sfdoll_energy_maker_add = 4
+			job_sfdoll_mineral_maker_add = 4
 		}
 	}
 
@@ -464,10 +526,11 @@ district_sfdoll_leisure= {
 		category = planet_districts
 		cost = {
 			minerals = 1000
-			consumer_goods = 50
+			GF_nyto_collapse_liquid = 50
 		}
 		upkeep = {
 			energy = 5
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 }

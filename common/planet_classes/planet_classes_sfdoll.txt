@@ -18,7 +18,7 @@ pc_sfdoll_city = {
 	city_color_lut = "gfx/portraits/misc/colorcorrection_continental.dds"
 
 	modifier = {
-		planet_jobs_produces_mult = 0.40
+		planet_jobs_produces_mult = 0.25
 		planet_max_buildings_add = 36
 	}
 
@@ -46,7 +46,7 @@ pc_sfdoll_city = {
 	carry_cap_per_free_district = @carry_cap_high
 }
 
-#
+#铁血环世界
 pc_rw_sfdoll = {
 	ringworld = yes
 	entity = "ringworld_habitable_entity"
@@ -54,6 +54,7 @@ pc_rw_sfdoll = {
 	picture = pc_ringworld
 	icon = GFX_planet_type_ringworld
 	entity_scale = 1.0
+	planet_size = 15
 	enable_tilt = no
 	fixed_entity_scale = yes
 	atmosphere_color		= hsv { 0.0 0.0 1.0 }		#DONE
@@ -76,7 +77,8 @@ pc_rw_sfdoll = {
 	is_artificial_planet = yes
 
 	modifier = {
-		planet_max_buildings_add = 36
+		planet_max_buildings_add = 99
+		planet_jobs_produces_mult = 0.25
 	}
 
 	carry_cap_per_free_district = @carry_cap_normal

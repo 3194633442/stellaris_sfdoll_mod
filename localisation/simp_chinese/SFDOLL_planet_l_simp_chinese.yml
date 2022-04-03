@@ -2,11 +2,11 @@
 ###############################
 
 pc_sfdoll_city:0 "铁血星球"
-pc_sfdoll_city_desc:0 "铁血人形设计和建设的现代化城市，配备了超级计算机网络，可根据需要调节气候和生态系统。"
+pc_sfdoll_city_desc:0 "铁血人形建设的城市星球,可根据需要调节气候和生态系统。"
 
-district_sfdoll_house:0 "铁血之都"
-district_sfdoll_house_plural:0 "铁血之都"
-district_sfdoll_house_desc:0 "铁血们打造的繁荣城市"
+district_sfdoll_house:0 "铁血城市"
+district_sfdoll_house_plural:0 "铁血城市"
+district_sfdoll_house_desc:0 "舒适的现代化城市"
 
 district_sfdoll_goods:0 "轻工业区划"
 district_sfdoll_goods_plural:0 "轻工业区划"
@@ -20,20 +20,30 @@ district_sfdoll_science:0 "科研区划"
 district_sfdoll_science_plural:0 "科研区划"
 district_sfdoll_science_desc:0 "先进的科研区划"
 
-district_sfdoll_leisure:0 "休闲区划"
-district_sfdoll_leisure_plural:0 "休闲区划"
-district_sfdoll_leisure_desc:0 "铁血们善于发现生活中的美"
+district_generator_sfdoll_city:0 "基础资源区划"
+district_generator_sfdoll_city_plural:0 "基础资源区划"
+district_generator_sfdoll_city_desc:0 "这些区划能够合成基本的生产物资"
 
-district_rw_city_sfdoll:0 "铁血星环城市"
-district_rw_city_sfdoll_desc:0 "建立于铁血环形世界的城市，拥有广阔的生活空间"
-district_rw_science_sfdoll:0 "铁血星环科学院"
-district_rw_science_sfdoll_desc:0 "这些区划是科学探索的天堂。"
 
-district_rw_industrial_sfdoll:0 "星环工业基地"
+pc_rw_sfdoll:0 "铁血环形世界"
+pc_rw_sfdoll_desc:0 "铁血利用最新科技，对这个环形世界进行了升级"
+
+district_rw_city_sfdoll:0 "星环城市"
+district_rw_city_sfdoll_plural:0 "星环城市"
+district_rw_city_sfdoll_desc:0 "环形世界的城市区划"
+
+district_rw_science_sfdoll:0 "科学区划"
+district_rw_science_sfdoll_plural:0 "科学区划"
+district_rw_science_sfdoll_desc:0 "这些区划拥有顶尖的科研设施。"
+
+district_rw_industrial_sfdoll:0 "工业区划"
+district_rw_industrial_sfdoll_plural:0 "工业区划"
 district_rw_industrial_sfdoll_desc:0  "这些工业基地使用坍塌技术进行高效生产"
 
-district_rw_generator_sfdoll:0 "星环资源再生中心"
-district_rw_generator_sfdoll_desc:0 "运用超物理学技术，这些区划能生产大量的能源与物资"
+district_rw_generator_sfdoll:0 "资源再生区划"
+district_rw_generator_sfdoll_plural:0 "资源再生区划"
+district_rw_generator_sfdoll_desc:0 "这些区划能生产能源与物资"
+
 
 decision_planet_to_sfdoll_city:0 "建立铁血星球"
 decision_planet_to_sfdoll_city_desc:0 "将星球改造为现代化的铁血星球"
