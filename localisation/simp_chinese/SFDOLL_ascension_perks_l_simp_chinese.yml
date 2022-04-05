@@ -17,5 +17,10 @@ ap_sfdoll_planet_desc:0 "建造我们的新世界。"
 tech_sfdoll_max_buildings:0"建立铁血星球"
 tech_sfdoll_max_buildings_desc:0 "新型的城市星球融入了大量先进技术。"
 
+gf_sfdoll_ascension_perk_event.2:0 "铁血星球建设完成"
+gf_sfdoll_ascension_perk_event.2_desc:0 "我们完成了铁血星球建设！"
+gf_sfdoll_ascension_perk_event.3:0 "铁血环世界改造完成"
+gf_sfdoll_ascension_perk_event.3_desc:0 "我们完成了铁血环世界改造！"
+
 
 

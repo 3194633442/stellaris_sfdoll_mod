@@ -79,6 +79,27 @@ country_event = {
 	}
 }
 
+#铁血星球改造完成提示
+planet_event = {
+	id = gf_sfdoll_ascension_perk_event.2
+	title = "gf_sfdoll_ascension_perk_event.2"
+	desc = "gf_sfdoll_ascension_perk_event.2_desc"
+	location = this
+	is_triggered_only = yes
+	picture = GFX_evp_sfdoll_city
+}
+#铁血环世界改造完成
+planet_event = {
+	id = gf_sfdoll_ascension_perk_event.3
+	title = "gf_sfdoll_ascension_perk_event.3"
+	desc = "gf_sfdoll_ascension_perk_event.3_desc"
+	location = this
+	is_triggered_only = yes
+	picture = GFX_evp_sfdoll_city
+	immediate = {
+	}
+}
+
 
 #物种强化研究完成时触发，要有飞升科技，只触发一次
 # country_event = {

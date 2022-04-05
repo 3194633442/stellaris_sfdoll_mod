@@ -11,6 +11,7 @@ ap_digi_mind_update ={
 	}
 	on_enabled = {
 		add_research_option = tech_sfdoll_planet_computer
+		add_research_option = tech_sfdoll_reverse_collapse_1
 		hidden_effect = {
 			country_event = {
 				id = gf_sfdoll_ascension_perk_event.1
@@ -66,6 +67,8 @@ ap_sfdoll_planet= {
 	}
 	possible = {
 		has_technology = tech_climate_restoration
+		has_technology = tech_sfdoll_energy_plant
+		has_technology = tech_building_sfdoll_mineral
 	}
 	modifier = {
 		planet_decision_enact_speed_mult = 0.25

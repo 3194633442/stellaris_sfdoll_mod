@@ -20,7 +20,7 @@ building_sfdoll_collapse_liquid_plant = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = {	job_sfdoll_collapse_liquid_maker_add = 6	}
+		modifier = {	job_sfdoll_collapse_liquid_maker_add = 2	}
 	}
 	triggered_desc = {		text = job_sfdoll_collapse_liquid_maker_effect_desc	}
 
@@ -98,7 +98,7 @@ building_sfdoll_dark_matter_plant = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_dark_matter_maker_add = 6	}
+		modifier = { job_sfdoll_dark_matter_maker_add = 2	}
 	}
 
 	resources = {
@@ -144,7 +144,7 @@ building_sfdoll_alloys = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_collapse_alloys_maker_add = 6	}
+		modifier = { job_sfdoll_collapse_alloys_maker_add = 2	}
 	}
 	triggered_desc = {		text = job_sfdoll_collapse_alloys_maker_effect_desc	}
 	resources = {
@@ -225,7 +225,7 @@ building_sfdoll_nanites_goods_plant = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = {		job_sfdoll_nanites_goods_maker_add = 6	}
+		modifier = {		job_sfdoll_nanites_goods_maker_add = 2	}
 	}
 
 	resources = {
@@ -332,6 +332,59 @@ building_sfdoll_nanites_plant = {
 	}
 }
 
+#化工建筑
+building_sfdoll_gases_plant = {
+	base_buildtime = 360
+	category = manufacturing
+	icon = building_sfdoll_gases_plant
+	potential = {
+		# 铁血帝国才能造
+		owner = {	has_country_flag = sfdoll_empire	}
+	}
+	prerequisites = {	tech_sfdoll_chemical }
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = {
+			is_ai = yes
+			has_monthly_income = {
+				resource = rare_crystals
+				value > 9
+			}
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_gf_sfdoll	}
+		}
+		modifier = {	job_sfdoll_gases_maker_add = 2	}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+			GF_nyto_collapse_liquid = @b3_rare_cost
+		}
+		upkeep = {
+			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
+		}
+	}
+
+	ai_resource_production = {
+		exotic_gases = 20
+		rare_crystals = 20
+		volatile_motes = 20
+		trigger = {
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}	
+		}
+	}
+}
+
 #奇点发电厂
 building_sfdoll_energy_plant = {
 	base_buildtime =   @b2_time
@@ -354,7 +407,7 @@ building_sfdoll_energy_plant = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_energy_maker_add = 1	}
+		modifier = { job_sfdoll_energy_maker_add = 2	}
 	}
 
 	resources = {
@@ -395,7 +448,7 @@ building_sfdoll_mineral = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_mineral_maker_add = 1	}
+		modifier = { job_sfdoll_mineral_maker_add = 2	}
 	}
 
 	resources = {

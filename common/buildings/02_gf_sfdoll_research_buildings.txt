@@ -21,7 +21,7 @@ building_sfdoll_research = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { 	job_sfdoll_researcher_add = 6	}
+		modifier = { 	job_sfdoll_researcher_add = 2	}
 	}
 
 	resources = {

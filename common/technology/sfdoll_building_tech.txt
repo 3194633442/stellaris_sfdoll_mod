@@ -158,16 +158,12 @@ tech_building_sfdoll_mineral = {
 }
 
 #铁血化工改进，用于解锁三大稀有资源建筑
-# tech_sfdoll_chemical = {
-# 	cost = @tier3cost2
-# 	area = physics
-# 	tier = 3
-# 	category = { particles }
-# 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
-# 	weight = 0
-# 	potential = {	has_authority = auth_gf_sfdoll	}
-# 	# modifier = {
-# 	# }
-# }
-# tech_sfdoll_chemical:0 "铁血化工生产改进"
-# tech_sfdoll_chemical_desc:0 "通过物质坍塌科技，我们能提高化工生产的效率."
+tech_sfdoll_chemical = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	category = { industry }
+	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
+	weight = @tier4weight1
+	potential = {	has_authority = auth_gf_sfdoll	}
+}

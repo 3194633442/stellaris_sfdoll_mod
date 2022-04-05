@@ -78,54 +78,62 @@
 # 		alloys = 10
 # 	}
 # }
-
 #
-ship_fighter_sfdoll = {
-	entity = titan_entity
-	max_speed = 100
-	acceleration = 0.2
-	rotation_speed = 0.15
-	collision_radius = @titan_collision_radius
-	max_hitpoints = 10000
-	size_multiplier = 16
-	fleet_slot_size = 16
-	section_slots = { ship = { locator = "part2" } }
-	num_target_locators = 4
-	is_space_station = no
-	icon = ship_size_military_16
-	base_buildtime = 360
-	can_have_federation_design = no
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+# ship_attacker_sfdoll = {
+# 	entity = battel_ship_cv_frame_entity
+# 	max_speed = 100
+# 	acceleration = 0.2
+# 	rotation_speed = 0.15
+# 	collision_radius = @titan_collision_radius
+# 	max_hitpoints = 50000
+# 	size_multiplier = 16
+# 	fleet_slot_size = 16
+# 	section_slots = {
+# 		"bow" = { locator = part2 }
+# 		"core" = { locator = part2 }
+# 		"stern"  = { locator = part2 }
+# 	}
+# 	num_target_locators = 4
+# 	is_space_station = no
+# 	icon = ship_size_military_16
+# 	base_buildtime = 360
+# 	can_have_federation_design = no
+# 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+# 	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
 	
-	#记得修改
-	components_add_to_cost = yes
-	prerequisites = { "tech_sfdoll_homeless_ship" }
+# 	#记得修改
+# 	components_add_to_cost = yes
+# 	possible_country = {
+# 		has_authority = auth_gf_sfdoll
+# 	}
+# 	prerequisites = { "tech_sfdoll_homeless_ship" }
 
-	default_behavior = carrier
-	class = shipclass_military
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "sensor_components"
-	required_component_set = "thruster_components"
-	required_component_set = "combat_computers"
-	modifier = {
-	}
+# 	default_behavior = artillery
+# 	class = shipclass_military
+# 	construction_type = starbase_shipyard
+# 	# required_component_set = "power_core"
+# 	# required_component_set = "ftl_components"
+# 	# required_component_set = "sensor_components"
+# 	# required_component_set = "thruster_components"
+# 	# required_component_set = "combat_computers"
+# 	modifier = {
+# 	}
 
-	resources = {
-		category = ships
-		cost = {
-			alloys = 480
-		}
-		upkeep = {
-			minerals = 2.4
-		}
-	}
-	min_upgrade_cost = {
-		alloys = 10
-	}
-}
+
+# 	num_target_locators = 10
+# 	resources = {
+# 		category = ships
+# 		cost = {
+# 			alloys = 480
+# 		}
+# 		upkeep = {
+# 			minerals = 2.4
+# 		}
+# 	}
+# 	min_upgrade_cost = {
+# 		alloys = 10
+# 	}
+# }
 
 #星舰城市
 sfdoll_homeless_ship = {

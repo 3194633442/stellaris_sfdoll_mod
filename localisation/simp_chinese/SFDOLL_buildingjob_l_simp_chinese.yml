@@ -24,7 +24,7 @@ building_sfdoll_collapse_liquid_plant_desc:0"在高能量下合成坍塌粒子�
 building_sfdoll_collapse_liquid_2:0 "高级坍塌液工厂"
 building_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
 
-job_sfdoll_collapse_liquid_maker:0"坍塌液合成师"
+job_sfdoll_collapse_liquid_maker:0"坍塌粒子工程师"
 job_sfdoll_collapse_liquid_maker_plural:0"$job_sfdoll_collapse_liquid_maker$"
 job_sfdoll_collapse_liquid_maker_desc:0"制造坍塌粒子"
 job_sfdoll_collapse_liquid_maker_effect_desc:0 "$job_sfdoll_collapse_liquid_maker$ 消耗 §Y$energy$§! 生产 §Y$GF_nyto_collapse_liquid$§!"
@@ -48,10 +48,10 @@ building_sfdoll_alloys_desc:0 "利用坍塌科技，我们的合金生产效率�
 building_sfdoll_alloys_2:0 "铁血高级合金工厂"
 building_sfdoll_alloys_2_desc:0 "铁血高级合金工厂"
 
-job_sfdoll_collapse_alloys_maker:0"铁血材料工程师"
+job_sfdoll_collapse_alloys_maker:0"铁血材料合成师"
 job_sfdoll_collapse_alloys_maker_plural:0"$job_sfdoll_collapse_alloys_maker$"
-job_sfdoll_collapse_alloys_maker_desc:0"铁血材料工程师"
-job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血材料工程师消耗 §Y$minerals$§!，生产§Y$alloys$§!，§Y$engineering_research$§! "
+job_sfdoll_collapse_alloys_maker_desc:0"铁血材料合成师"
+job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血材料合成师消耗 §Y$minerals$§!，生产§Y$alloys$§!，§Y$engineering_research$§! "
 mod_job_sfdoll_collapse_alloys_maker_add:0"$job_sfdoll_collapse_alloys_maker$ 岗位"
 
 
@@ -83,6 +83,14 @@ job_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_effect_desc:0 "物质合成师消耗§Y$energy$§!,生产 §Y$minerals$§! "
 mod_job_sfdoll_mineral_maker_add:0"物质合成师岗位"
 
+building_sfdoll_gases_plant:0 "铁血化学厂"
+building_sfdoll_gases_plant_desc:0 "坍塌科技让化学合成变得轻松。是时候和过去臃肿的化工设施说再见了。"
+job_sfdoll_gases_maker:0"铁血化学师"
+job_sfdoll_gases_maker_plural:0"$job_sfdoll_gases_maker$"
+job_sfdoll_gases_maker_desc:0"$job_sfdoll_gases_maker$"
+job_sfdoll_gases_maker_effect_desc:0 " $job_sfdoll_gases_maker$消耗 §Y$minerals$§!，生产§Y$exotic_gases$§!，§Y$rare_crystals$§!，§Y$volatile_motes$§!"
+mod_job_sfdoll_gases_maker_add:0 "$job_sfdoll_gases_maker$岗位"
+
 
 #civic
 building_sfdoll_academy:0"铁血学园"
@@ -94,7 +102,7 @@ job_sfdoll_educator_effect_desc:0 "教育工作者消耗§Y$consumer_goods$§!,�
 mod_job_sfdoll_educator_add:0"教育工作者岗位"
 
 building_sfdoll_media:0 "铁血传媒广场"
-building_sfdoll_media_desc:0 "这里集中了许多文化类单位。"
+building_sfdoll_media_desc:0 "这里可以找到各种文化产品。"
 job_sfdoll_artist:0 "艺术工作者"
 job_sfdoll_artist_plural:0 "艺术工作者"
 job_sfdoll_artist_desc:0 "艺术工作者"
@@ -131,13 +139,7 @@ tech_sfdoll_planet_computer:0 "铁血行星计算机"
 tech_sfdoll_planet_computer_desc:0 "不同于以往的超级计算机，行星级计算机组的制造与维护需要全新的工程学理念"
 
 
-# building_sfdoll_gases_plant:0 "铁血气体精炼厂"
-# building_sfdoll_gases_plant_desc:0 "$building_sfdoll_gases_plant$"
-# job_sfdoll_gases_maker:0"铁血气体合成师"
-# job_sfdoll_gases_maker_plural:0"$job_sfdoll_gases_maker$"
-# job_sfdoll_gases_maker_desc:0"$job_sfdoll_gases_maker$"
-# job_sfdoll_gases_maker_effect_desc:0 " 气体合成师将 §Y$minerals$§! 转化为 §Y$exotic_gases$§!"
-# mod_job_sfdoll_gases_maker_add:0 "$job_sfdoll_gases_maker$岗位"
+
 
 # building_sfdoll_crystal_plant:0 "铁血水晶合成厂"
 # building_sfdoll_crystal_plant_desc:0 "$building_sfdoll_crystal_plant$"

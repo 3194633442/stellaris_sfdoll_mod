@@ -7,7 +7,7 @@ decision_planet_pop_to_sfdoll = {
 	resources = {
 		category = decisions
 		cost = {
-			nanites  = 50
+			alloys = 50
 		}
 	}	
 	prerequisites = { tech_sfdoll_nanites }
@@ -78,6 +78,7 @@ decision_planet_to_sfdoll_city = {
 			is_planet_class = pc_sfdoll_city
 			is_planet_class = pc_ringworld_habitable
 			is_planet_class = pc_habitat
+			is_ringworld = yes
 		}
 	}
 	# allow = {
@@ -87,6 +88,9 @@ decision_planet_to_sfdoll_city = {
 		custom_tooltip = decision_planet_to_sfdoll_city_effects_short
 		hidden_effect = {
 			change_pc = pc_sfdoll_city
+			planet_event = {
+				id = gf_sfdoll_ascension_perk_event.2
+			}
 		}		
 	}
 }
@@ -118,6 +122,10 @@ decision_planet_to_sfdoll_rw = {
 		custom_tooltip = "decision_planet_to_sfdoll_rw_effects"
 		hidden_effect = {
 			change_pc = pc_rw_sfdoll
+			set_planet_size = 15
+			planet_event = {
+				id = gf_sfdoll_ascension_perk_event.3
+			}
 		}		
 	}
 }

@@ -70,7 +70,7 @@ district_rw_science_sfdoll = {
 			owner = { has_authority = auth_gf_sfdoll }
 		}
 		modifier = {
-			job_sfdoll_researcher_add = 12
+			job_sfdoll_researcher_add = 15
 		}
 	}
 }
@@ -110,8 +110,8 @@ district_rw_industrial_sfdoll = {
 			}
 		}
 		modifier = {
-			job_sfdoll_collapse_alloys_maker_add = 12
-			job_sfdoll_nanites_goods_maker_add = 3
+			job_sfdoll_collapse_alloys_maker_add = 13
+			job_sfdoll_nanites_goods_maker_add = 2
 		}
 	}
 	ai_resource_production = {
@@ -155,10 +155,6 @@ district_rw_generator_sfdoll = {
 	}
 
 	triggered_planet_modifier = {
-		planet_housing_add = 15
-
-	}
-	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
@@ -166,8 +162,10 @@ district_rw_generator_sfdoll = {
 			}
 		}
 		modifier = {
+			planet_housing_add = 15
 			job_sfdoll_energy_maker_add = 6
 			job_sfdoll_mineral_maker_add = 6
+			job_sfdoll_collapse_liquid_maker_add = 2
 		}
 	}
 	ai_resource_production = {
@@ -519,6 +517,7 @@ district_generator_sfdoll_city  = {
 			planet_housing_add = 10
 			job_sfdoll_energy_maker_add = 4
 			job_sfdoll_mineral_maker_add = 4
+			job_sfdoll_collapse_liquid_maker_add = 1
 		}
 	}
 

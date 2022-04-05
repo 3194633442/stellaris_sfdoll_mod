@@ -24,7 +24,7 @@ building_sfdoll_academy = {
 			owner = { has_country_flag = sfdoll_empire }
 		}
 		modifier = {
-			job_sfdoll_educator_add = 4
+			job_sfdoll_educator_add = 2
 			planet_jobs_produces_mult = 0.05
 			army_starting_experience_add = 100
 		}
@@ -168,7 +168,7 @@ building_sfdoll_media= {
 			owner = { has_country_flag = sfdoll_empire }
 		}
 		modifier = {
-			job_sfdoll_artist_add = 4
+			job_sfdoll_artist_add = 2
 		}
 	}
 	resources = {
