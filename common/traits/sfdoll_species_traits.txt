@@ -279,10 +279,10 @@ trait_sfdoll_logic_engine_2 = {
 	allowed_archetypes = { SFDOLL }
 	prerequisites = { tech_sf_doll_modding_2 }
 	modifier = {
-		planet_jobs_physics_research_produces_mult = 0.60
-		planet_jobs_society_research_produces_mult = 0.60
-		planet_jobs_engineering_research_produces_mult = 0.60
-		species_leader_exp_gain = 0.75
+		planet_jobs_physics_research_produces_mult = 0.50
+		planet_jobs_society_research_produces_mult = 0.50
+		planet_jobs_engineering_research_produces_mult = 0.50
+		species_leader_exp_gain = 0.50
 		leader_skill_levels = 2
 		num_tech_alternatives_add = 1
 	}

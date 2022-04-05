@@ -145,8 +145,8 @@ sfdoll_homeless_ship = {
 	max_hitpoints = 10000
 	size_multiplier = 16
 	fleet_slot_size = 16
-	section_slots = { ship = { locator = "part2" } }
-	num_target_locators = 4
+	section_slots = { core = { locator = "part2" } }
+	num_target_locators = 24
 	is_space_station = no
 	icon = ship_size_military_16
 	base_buildtime = 360
@@ -172,7 +172,8 @@ sfdoll_homeless_ship = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 480
+			alloys = 960
+			unity = 480
 		}
 		upkeep = {
 			minerals = 2.4
@@ -193,6 +194,9 @@ ship_sfdoll_carrier = {
 	max_hitpoints = 3000000
 	size_multiplier = 32
 	fleet_slot_size = 32
+	empire_limit = {
+		base = 5
+	}
 	section_slots = { "ship" = { locator = par2 } "ship2" = { locator = part2 } }
 	num_target_locators = 4
 	is_space_station = no
@@ -238,9 +242,9 @@ ship_sfdoll_carrier = {
 
 #铁血指挥舰
 sfdoll_destroyer= {
-	entity = titan_entity
+	entity = SANGVIS_FERRI_frame_entity
 	empire_limit = {
-		base = 5
+		base = 4
 	}
 	max_speed = 2000
 	acceleration = 0.3
@@ -253,13 +257,17 @@ sfdoll_destroyer= {
 		ship_shield_add = 10000
 		ship_piracy_suppression_add = 8
 	}
-	size_multiplier = 20
-	fleet_slot_size = 20
-	section_slots = { "ship" = { locator = "root" } }
-	num_target_locators = 4
+	size_multiplier = 8
+	fleet_slot_size = 8
+	section_slots = {
+		"bow" = { locator = part2 }
+		"core" = { locator = part2 }
+		"stern"  = { locator = part2 }
+	}
+	num_target_locators = 8
 	is_space_station = no
 	icon = ship_size_military_16
-	base_buildtime = 480
+	base_buildtime = 720
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser

@@ -19,9 +19,7 @@ auth_gf_sfdoll = {
 				value = ethic_fanatic_spiritualist
 			}
 		}
-		origin = {	value = origin_sfdoll_country	}
 		species_class = {	value = sf_a_doll }
-
 	}	
 	icon = "gfx/interface/icons/governments/authorities/auth_gf_sfdoll.dds"
 	random_weight = {

@@ -8,9 +8,6 @@ sf_a_doll = {
 		authority = {
 			value = auth_gf_sfdoll
 		}
-		origin = {
-			value = origin_sfdoll_country
-		}
 		ethics = {
 			NOT = {
 				value = ethic_gestalt_consciousness

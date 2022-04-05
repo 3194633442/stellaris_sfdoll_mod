@@ -1,4 +1,177 @@
-#战术驱逐舰
+#铁血指挥舰
+#舰首
+ship_section_template = {
+	key = bow_section_sfdoll_destroyer
+	ship_size = sfdoll_destroyer
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = SANGVIS_FERRI_flag_ship_entity
+	icon = GFX_ship_part_core_bow
+	icon_frame = 1
+	component_slot = {
+		name = "L01"
+		template = invisible_point_defence_turret
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "L02"
+		template = invisible_point_defence_turret
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "L03"
+		template = invisible_point_defence_turret
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "L04"
+		template = invisible_point_defence_turret
+		locatorname = "L08"
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 1000
+		}
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 2
+}
+
+#中段
+ship_section_template = {
+	key = core_section_sfdoll_destroyer
+	ship_size = sfdoll_destroyer
+	fits_on_slot = core
+	should_draw_components = yes
+	entity = SANGVIS_FERRI_locator_entity
+	icon = GFX_ship_part_core_bow
+	icon_frame = 1
+	component_slot = {
+		name = "ex01"
+		template = invisible_titanic_fixed
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "ex02"
+		template = invisible_extra_large_fixed
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "L05"
+		template = invisible_extra_large_fixed
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "L06"
+		template = invisible_extra_large_fixed
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "L07"
+		template = invisible_extra_large_fixed
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "L8"
+		template = invisible_extra_large_fixed
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "ex03"
+		template = invisible_extra_large_fixed
+		locatorname = "L015"
+	}
+	component_slot = {
+		name = "ex04"
+		template = invisible_titanic_fixed
+		locatorname = "L016"
+	}
+	component_slot = {
+		name = "missle_01"
+		template = invisible_missile_fixed
+		locatorname = "missile_01"
+	}
+	component_slot = {
+		name = "missle_02"
+		template = invisible_missile_fixed
+		locatorname = "missile_02"
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 2
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 1000
+		}
+	}
+}
+
+#舰尾
+ship_section_template = {
+	key = stern_section_sfdoll_destroyer
+	ship_size = sfdoll_destroyer
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = SANGVIS_FERRI_locator_entity
+	icon = GFX_ship_part_core_bow
+	icon_frame = 1
+	component_slot = {
+		name = "L8"
+		template = invisible_point_defence_turret
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "L9"
+		template = invisible_point_defence_turret
+		locatorname = "L012"
+	}
+	component_slot = {
+		name = "L010"
+		template = invisible_point_defence_turret
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "L011"
+		template = invisible_point_defence_turret
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "L012"
+		template = invisible_point_defence_turret
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "L013"
+		template = invisible_point_defence_turret
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "L014"
+		template = invisible_point_defence_turret
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "L015"
+		template = invisible_point_defence_turret
+		locatorname = "L020"
+	}
+	component_slot = {
+		name = "T01"
+		template = invisible_titanic_fixed
+		locatorname = "T_01"
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 1000
+		}
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 2
+}
+
+
 #p区段
 ship_section_template = {
 	key = "ship_section_sfdoll_destroyer"
