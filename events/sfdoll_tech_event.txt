@@ -19,13 +19,13 @@ country_event = {
 		}
 
 		#暗物质
-		if = {
-			limit = { has_technology = tech_sensors_4 }
-			country_event = {
-				id = sfdoll_tech_event.2
-				days = 1
-			}
-		}
+		# if = {
+		# 	limit = { has_technology = tech_sensors_4 }
+		# 	country_event = {
+		# 		id = sfdoll_tech_event.2
+		# 		days = 1
+		# 	}
+		# }
 
 		#神枪少女
 		if = {

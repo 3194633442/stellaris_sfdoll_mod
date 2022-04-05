@@ -27,7 +27,6 @@ tech_sfdoll_lab = {
 	area = physics
 	icon = tech_sfdoll_lab
 	tier = 4
-	is_rare = yes
 	category = { particles }
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_collapse_liquid_produce 	}
@@ -39,7 +38,6 @@ tech_sfdoll_lab_2 = {
 	area = physics
 	icon = tech_sfdoll_lab
 	tier = 4
-	is_rare = yes
 	category = { particles }
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -55,7 +53,6 @@ tech_sfdoll_collapse_alloys_produce = {
 	area = engineering
 	tier = 4
 	category = { industry }
-	is_rare = yes
 	icon = tech_sfdoll_collapse_alloys_produce
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
 	weight = @tier4weight2
@@ -80,7 +77,6 @@ tech_sfdoll_nanites_goods= {
 	cost = @tier4cost2
 	area = society
 	tier = 4
-	is_rare = yes
 	icon = tech_sfdoll_nanites_goods
 	category = { statecraft }
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
@@ -109,7 +105,9 @@ tech_sfdoll_dark_matter_plant = {
 	category = { particles }
 	#需要铁血政体
 	prerequisites = {	tech_sfdoll_lab_2	}
-	potential = {	has_authority = auth_gf_sfdoll	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
 	weight = @tier4weight3
 	weight_modifier = {
 		modifier = {
@@ -125,7 +123,6 @@ tech_sfdoll_nanites = {
 	area = engineering
 	tier = 3
 	category = { industry }
-	is_rare = yes
 	weight = @tier3weight1
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {	planet_jobs_produces_mult = 0.15 }
