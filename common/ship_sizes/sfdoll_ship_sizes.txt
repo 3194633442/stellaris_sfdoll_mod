@@ -187,7 +187,7 @@ sfdoll_homeless_ship = {
 #深空母舰
 ship_sfdoll_carrier = {
 	entity = Gayr_frame_entity
-	max_speed = 800
+	max_speed = @speed_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
@@ -246,7 +246,7 @@ sfdoll_destroyer= {
 	empire_limit = {
 		base = 4
 	}
-	max_speed = 2000
+	max_speed = @speed_fast
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @titan_collision_radius

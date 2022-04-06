@@ -89,8 +89,8 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 2
-		ship_evasion_add = 40
+		ship_base_speed_mult = 12
+		ship_evasion_add = 50
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -116,11 +116,11 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 35
+			alloys = 40
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 2
+		ship_base_speed_mult = 12
 		ship_evasion_add = 40
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -149,7 +149,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 2
+		ship_base_speed_mult = 12
 		ship_evasion_add = 30
 	}
 
@@ -180,7 +180,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 2
+		ship_base_speed_mult = 12
 		ship_evasion_add = 20
 	}
 
@@ -210,7 +210,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 2
+		ship_base_speed_mult = 12
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -240,7 +240,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 2
+		ship_base_speed_mult = 12
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -255,14 +255,14 @@ utility_component_template = {
 	}
 }
 
-#铁血战术驱逐
+#铁血指挥舰
 utility_component_template = {
 	key = "sfdoll_thruster_7"
 	size = small
 	icon = "GFX_sfdoll_thruster"
 	icon_frame = 1
 	modifier = {
-		#ship_base_speed_mult = 1
+		ship_base_speed_mult = 12
 		ship_evasion_add = 20
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -286,7 +286,7 @@ utility_component_template = {
 		category = ship_components
 	}
 	modifier = {
-		ship_base_speed_mult = 1
+		ship_base_speed_mult = 12
 	}
 	component_set = "thruster_components"
 	size_restriction = { 	ship_sfdoll_carrier }

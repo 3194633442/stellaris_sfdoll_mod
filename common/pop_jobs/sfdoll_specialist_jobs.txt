@@ -282,7 +282,7 @@ sfdoll_nanites_maker = {
 	}
 }
 
-#铁血异星天然气岗位
+#铁血化工
 sfdoll_gases_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑

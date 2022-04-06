@@ -81,7 +81,7 @@ core_section_sfdoll_destroyer:0 "核心"
 stern_section_sfdoll_destroyer:0 "舰尾"
 component_aura_sfdoll_1:0 "作战支援"
 hostile_aura_sfdoll_1:0 "作战支援"
-hostile_aura_sfdoll_1:0 "物理干涉引擎"
+hostile_aura_sfdoll_1:0 "干扰战术"
 
 #section
 sfdoll_battleship_bow_x2:0 "双联X型舰艏"

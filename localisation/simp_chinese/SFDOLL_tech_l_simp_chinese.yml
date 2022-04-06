@@ -78,10 +78,10 @@ tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形
 
 #flag ship
 tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
-tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰是我们前沿技术的试验之作，其制造和运转过程似乎违背了多个物理法则。她搭载的物理干涉引擎，其作用范围足以覆盖整个星系，从而为周围的舰队提供支援。"
+tech_sfdoll_tactical_destroyer_desc:0 "尽管被称为指挥舰，但这种战舰其实是测试某些科技的实验品。她的运转过程似乎打破了物理法则，即使拥有庞大的质量和重火力，机动性依然优秀。船上的物理干涉引擎，其作用范围足以覆盖整个星系，从而为周围的舰队提供支援。"
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰并非传统意义上的舰船，她拥有一整套完备的造船功能，能够为铁血人形的舰队提供后勤支援。设计并建造她，将会是我们迄今为止最宏伟的太空工程之一。"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰并非传统意义上的飞船，她拥有强大的造船功能，能够为铁血人形的舰队提供后勤支援。设计并建造她，将会是我们迄今为止最宏伟的太空工程之一。"
 
 tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
 tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船的体积与重量得到大幅缩减。作为这一技术的成果，强化型的战列舰和护卫舰被开发出来。\n解锁舰船设计：$sfdoll_battleship_bow_x2$,$corvette_section_x_sfddoll$"
@@ -111,10 +111,10 @@ tech_sfdoll_dark_matter_plant:0"暗物质合成"
 tech_sfdoll_dark_matter_plant_desc:0"铁血在实验室中获得了暗物质,这种物质打破了我们的物理常识。我们应该设法获取更多暗物质。"
 
 tech_sfdoll_energy_plant:0"铁血奇点能源"
-tech_sfdoll_energy_plant_desc:0"基于最新理论，我们能够用一种奇点制造庞大的能量，而不必受限于旧有的热力学法则"
+tech_sfdoll_energy_plant_desc:0"我们能够用一种奇点制造庞大的能量，而不必受限于旧有的热力学法则"
 
 tech_building_sfdoll_mineral:0 "铁血人工智能：麦克斯韦妖"
-tech_building_sfdoll_mineral_desc:0 "铁血们开发了一类特殊计算机，这种机器能够在不消耗能量的情况下运转，并产生负熵。"
+tech_building_sfdoll_mineral_desc:0 "铁血们开发了某种特殊计算机，它能够在不消耗能量的情况下运作，并产生负熵。"
 
 tech_sfdoll_nanites:0"超微观人工智能"
 tech_sfdoll_nanites_desc:0"即使是纳米级别的微小机械，一样可以运行复杂的程序"
@@ -125,5 +125,5 @@ tech_sfdoll_reverse_collapse_1_desc:0"未来，也是过去."
 tech_sfdoll_reverse_collapse_2:0"逆向坍塌Ⅱ"
 tech_sfdoll_reverse_collapse_2_desc:0"人的生命不止一次.未完成的将在下辈子结束.而爱也是如此."
 tech_sfdoll_reverse_collapse_3:0"逆向坍塌Ⅲ"
-tech_sfdoll_reverse_collapse_3_desc:0"不要哀伤:\n 新的永昼很快就要降临"
+tech_sfdoll_reverse_collapse_3_desc:0"不要哀伤:\n新的永昼很快就要降临"
 

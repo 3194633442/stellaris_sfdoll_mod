@@ -173,30 +173,30 @@ ship_section_template={
 # }
 
 #巡洋舰头
-ship_section_template = {
-	key = "cruiser_bow_sfdoll_X1"
-	ship_size = cruiser
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "cruiser_bow_L1_entity"
-	icon = "GFX_ship_part_core_bow"
-	prerequisites = { tech_sfdoll_battleship_bow_x2	}
+# ship_section_template = {
+# 	key = "cruiser_bow_sfdoll_X1"
+# 	ship_size = cruiser
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "cruiser_bow_L1_entity"
+# 	icon = "GFX_ship_part_core_bow"
+# 	prerequisites = { tech_sfdoll_battleship_bow_x2	}
 
-	component_slot = {
-		name = "X_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "large_gun_01"
-	}
+# 	component_slot = {
+# 		name = "X_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "large_gun_01"
+# 	}
 
-	medium_utility_slots = 4
+# 	medium_utility_slots = 4
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 40
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 40
+# 		}
+# 	}
+# }
 
 #巡洋舰中，相当于3L
 # ship_section_template = {
