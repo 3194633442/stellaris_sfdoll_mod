@@ -1,21 +1,21 @@
-ship_section_template = {
-	key = "section_fighter_sfdoll"
-	ship_size = ship_fighter_sfdoll
-	fits_on_slot = ship
-	should_draw_components = yes
-	entity = "sfd_warship_large_entity"
-	icon = "GFX_ship_part_core_bow"
+# ship_section_template = {
+# 	key = "section_fighter_sfdoll"
+# 	ship_size = ship_fighter_sfdoll
+# 	fits_on_slot = ship
+# 	should_draw_components = yes
+# 	entity = "sfd_warship_large_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
 
-	large_utility_slots = 3
+# 	large_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 #双X战列舰舰首
 ship_section_template = {
@@ -39,13 +39,37 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 3
-
+	aux_utility_slots = 1
 	resources = {
 		category = ship_sections
 		cost = {
 			alloys = 80
 		}
 	}
+}
+
+#X槽护卫
+ship_section_template={
+	key="corvette_section_x_sfddoll"						
+	ship_size=corvette								
+	fits_on_slot=mid  							
+	should_draw_components= yes
+	entity =  "Sewship_entity"
+	icon="GFX_ship_part_core_mid"				
+	icon_frame=1
+	component_slot={			
+		name = "EXTRA_LARGE_01"					
+		template = "invisible_extra_large_fixed"
+		locatorname = "explosion_locator_01"		
+	}			
+	medium_utility_slots = 4
+	aux_utility_slots = 2
+	resources={
+		category=ship_sections
+		cost= {alloys =160}
+	}
+	prerequisites = { tech_sfdoll_battleship_bow_x2 }
+	ai_weight = {weight=1}
 }
 
 # #战列舰T槽

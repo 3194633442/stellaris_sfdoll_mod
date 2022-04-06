@@ -54,32 +54,32 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "ex02"
-		template = invisible_extra_large_fixed
+		template = invisible_titanic_fixed
 		locatorname = "L02"
 	}
 	component_slot = {
 		name = "L05"
-		template = invisible_extra_large_fixed
+		template = invisible_point_defence_turret
 		locatorname = "L03"
 	}
 	component_slot = {
 		name = "L06"
-		template = invisible_extra_large_fixed
+		template = invisible_point_defence_turret
 		locatorname = "L04"
 	}
 	component_slot = {
 		name = "L07"
-		template = invisible_extra_large_fixed
+		template = invisible_point_defence_turret
 		locatorname = "L09"
 	}
 	component_slot = {
 		name = "L8"
-		template = invisible_extra_large_fixed
+		template = invisible_point_defence_turret
 		locatorname = "L010"
 	}
 	component_slot = {
 		name = "ex03"
-		template = invisible_extra_large_fixed
+		template = invisible_titanic_fixed
 		locatorname = "L015"
 	}
 	component_slot = {
@@ -89,12 +89,12 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "missle_01"
-		template = invisible_missile_fixed
+		template = invisible_titanic_fixed
 		locatorname = "missile_01"
 	}
 	component_slot = {
 		name = "missle_02"
-		template = invisible_missile_fixed
+		template = invisible_titanic_fixed
 		locatorname = "missile_02"
 	}
 	large_utility_slots = 12

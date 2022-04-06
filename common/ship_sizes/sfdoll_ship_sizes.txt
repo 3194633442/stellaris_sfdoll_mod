@@ -137,7 +137,7 @@
 
 #星舰城市
 sfdoll_homeless_ship = {
-	entity = titan_entity
+	entity = stions_entity
 	max_speed = 100
 	acceleration = 0.2
 	rotation_speed = 0.15
@@ -186,19 +186,21 @@ sfdoll_homeless_ship = {
 
 #深空母舰
 ship_sfdoll_carrier = {
-	entity = battleship_entity
+	entity = Gayr_frame_entity
 	max_speed = 800
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 3000000
-	size_multiplier = 32
-	fleet_slot_size = 32
+	max_hitpoints = 5000000
+	size_multiplier = 64
+	fleet_slot_size = 64
 	empire_limit = {
-		base = 5
+		base = 4
 	}
-	section_slots = { "ship" = { locator = par2 } "ship2" = { locator = part2 } }
-	num_target_locators = 4
+	section_slots = {
+		"core" = { locator = "part1" }
+	}
+	num_target_locators = 6
 	is_space_station = no
 	icon = starbase_ship_sizes
 	base_buildtime = 1800
@@ -206,7 +208,6 @@ ship_sfdoll_carrier = {
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
 
-	components_add_to_cost = no
 	prerequisites = { tech_ship_sfdoll_carrier }
 	default_behavior = carrier
 	class = shipclass_starbase
@@ -220,15 +221,14 @@ ship_sfdoll_carrier = {
 	modifier = {
 		starbase_shipyard_capacity_add = 20
 		starbase_shipyard_build_speed_mult = 1
-		ship_shield_add = 100000
-		ship_armor_add = 3000000
+		ship_shield_add = 5000000
+		ship_armor_add = 5000000
 	}
 
 	resources = {
 		category = ships
 		cost = {
-			alloys = 35000
-			influence = 5
+			alloys = 60000
 		}
 		upkeep = {
 			energy = -20
@@ -250,11 +250,11 @@ sfdoll_destroyer= {
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 140000
+	max_hitpoints = 1000000
 	modifier = {
 		ship_evasion_add = 20
-		ship_armor_add = 140000
-		ship_shield_add = 10000
+		ship_armor_add = 1000000
+		ship_shield_add = 1000000
 		ship_piracy_suppression_add = 8
 	}
 	size_multiplier = 8
@@ -287,8 +287,7 @@ sfdoll_destroyer= {
 	resources = {
 		category = ships
 		cost = {
-			sr_dark_matter = 480
-			GF_nyto_collapse_liquid = 40
+			alloys = 10000
 		}
 		upkeep = {
 			energy = 10

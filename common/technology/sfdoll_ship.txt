@@ -13,15 +13,15 @@ tech_sfdoll_fighter= {
 #component
 #作为前置解锁其他武器
 tech_sfdoll_weapon_s_3 = {
-	cost = @tier4cost1
+	cost = @tier5cost1
 	area = society
-	tier = 4
+	tier = 5
 	category = { military_theory }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_s_3
 	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { tech_sfdoll_collapse_liquid_2 }
-	weight = @tier4weight1
+	prerequisites = { tech_sfdoll_collapse_liquid_produce }
+	weight = @tier5weight1
 }
 
 tech_sfdoll_weapon_p_6 = {

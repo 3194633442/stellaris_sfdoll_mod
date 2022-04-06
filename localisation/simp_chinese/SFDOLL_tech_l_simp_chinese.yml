@@ -78,13 +78,13 @@ tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形
 
 #flag ship
 tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
-tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰是新型军事理论和技术的集中体现"
+tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰是我们前沿技术的试验之作，其制造和运转过程似乎违背了多个物理法则。她搭载的物理干涉引擎，其作用范围足以覆盖整个星系，从而为周围的舰队提供支援。"
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰并非传统意义上的舰船，她拥有一整套完备的造船功能，能够为铁血人形的舰队提供后勤支援。设计并建造她，将会是我们迄今为止最宏伟的太空工程之一。"
 
-tech_sfdoll_battleship_bow_x2:0 "物质坍塌:武装轻量化"
-tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，武器系统的体积与重量得到大幅缩减。目前，该项技术正在逐步推广到标准的巡洋舰与战列舰上，从而让战舰能够搭载更多设备。\n解锁更多巡洋舰与战列舰区段"
+tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
+tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船的体积与重量得到大幅缩减。作为这一技术的成果，强化型的战列舰和护卫舰被开发出来。\n解锁舰船设计：$sfdoll_battleship_bow_x2$,$corvette_section_x_sfddoll$"
 
 #building
 tech_sfdoll_lab:0"铁血研究所"
