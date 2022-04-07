@@ -99,14 +99,18 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_planet_killer_sfdoll_2"
-		texturefile = "gfx/interface/icons/ship_parts/planet_killer_sfdoll_2.dds"
+		name = "GFX_aux_sfdoll_collapse_power"
+		texturefile = "gfx/interface/icons/ship_parts/aux_sfdoll_collapse_power.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_starbase_shipyard_sfdoll"
-		texturefile = "gfx/interface/icons/modules/starbase_shipyard_sfdoll.dds"
+		name = "GFX_planet_killer_sfdoll_2"
+		texturefile = "gfx/interface/icons/ship_parts/planet_killer_sfdoll_2.dds"
 	}
 }
+
+
+
+

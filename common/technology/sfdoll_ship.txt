@@ -124,6 +124,19 @@ tech_sfdoll_ship_computer = {
 	weight = @tier4weight1
 }
 
+#副能源
+tech_aux_sfdoll_collapse_power= {
+	cost = @tier4cost3
+	area = engineering
+	icon = tech_aux_sfdoll_collapse_power
+	category = { voidcraft }
+	is_reverse_engineerable = no
+	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 4
+	weight = @tier4weight3
+}
+
 #舰船修复A槽
 tech_sfdoll_aux_repair_ship = {
 	cost = @tier3cost1
@@ -139,15 +152,15 @@ tech_sfdoll_aux_repair_ship = {
 
 #质量再生系统
 tech_sfdoll_aux_quality_rebuilding = {
-	cost = @tier4cost1
+	cost = @tier5cost2
 	area = engineering
 	icon = tech_sfdoll_aux_quality_rebuilding 
 	category = { voidcraft }
 	is_reverse_engineerable = no
 	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
 	potential = {	has_authority = auth_gf_sfdoll	}
-	tier = 4
-	weight = @tier4weight1
+	tier = 5
+	weight = @tier5weight2
 }
 
 #传感器，需要原版传感器前置

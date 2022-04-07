@@ -29,6 +29,10 @@ component_set_sfdoll_aux_repair_ship_DESC:0"损管系统可以提高铁血飞船
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
 sfdoll_aux_quality_rebuilding_DESC:0 "质量再生系统可提高飞船的自持力"
 
+aux_sfdoll_collapse_power:0 "坍塌辅助能源"
+aux_sfdoll_collapse_power_DESC:0 "通过坍塌科技压缩体积的高效辅助能源，可以装备在各类舰船上"
+
+
 sfdoll_thruster:0"铁血先进机动系统"
 sfdoll_thruster_2:0"$sfdoll_thruster$"
 sfdoll_thruster_3:0 "$sfdoll_thruster$"

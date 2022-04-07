@@ -1,0 +1,9 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_starbase_shipyard_sfdoll"
+		texturefile = "gfx/interface/icons/modules/starbase_shipyard_sfdoll.dds"
+	}
+}
+
+
+

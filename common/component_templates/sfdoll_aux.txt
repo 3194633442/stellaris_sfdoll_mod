@@ -1,3 +1,30 @@
+#辅助能源
+utility_component_template = {
+	key = "aux_sfdoll_collapse_power"
+	size = aux
+	icon = "GFX_aux_sfdoll_collapse_power"
+	icon_frame = 1
+	power = 1000
+	resources = {
+		category = ship_components
+		cost = {
+			sr_dark_matter = 60
+			GF_nyto_collapse_liquid = 10
+		}
+	}
+	prerequisites = { "tech_aux_sfdoll_collapse_power" }
+	component_set = "aux_sfdoll_collapse_power"
+
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = -1
+			NOT = {		has_authority = auth_gf_sfdoll	}
+		}		
+	}
+}
+
+
 #损害管理
 utility_component_template = {
 	key = "sfdoll_aux_repair_ship"
