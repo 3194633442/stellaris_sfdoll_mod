@@ -1,0 +1,37 @@
+gateway_sfdoll = {
+	entity = "gateway_entity"
+	construction_entity = "construction_platform_entity"
+	portrait = "GFX_megastructure_construction_background"
+	place_entity_on_planet_plane = no
+	build_outside_gravity_well = yes
+	show_galactic_map_icon = yes
+	prerequisites = {
+		tech_sfdoll_jump_drive
+	}
+	potential = {
+		has_country_flag = sfdoll_empire
+	}
+	build_time = 30
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 1500
+			GF_nyto_collapse_liquid = 100
+		}
+	}
+
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+
+	bypass_type = gateway_sfdoll
+	on_build_complete = {
+		from = {
+			create_message = {
+				type = MEGASTRUCTURE_BUILT
+				localization = build_gateway_sfdoll
+				days = 30
+				target = prev
+			}
+		}
+	}
+}

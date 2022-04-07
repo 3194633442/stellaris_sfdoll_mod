@@ -3,25 +3,29 @@
 
 sfdoll_mega_starport:0 "铁血巨型星港"
 sfdoll_mega_starport_DESC:0 "巨型星港能够高速建造船只，并提高帝国的海军容量"
-
 sfdoll_mega_starport_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_DESC$"
 
 tech_sfdoll_mega_starport:0 "铁血巨型星港"
 tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$ \n 解锁恒星基地模块:§Y$shipyard_sfdoll$§!"
 
-sm_shipyard_sfdoll:0 "先进军港"
+sfdoll_mega_starport_complete:0 "我们建造了一座$sfdoll_mega_starport$。"
 
-sfdoll_mega_event.1:0 "$sfdoll_mega_starport$"
-sfdoll_mega_event_1_desc:0 "我们的巨型星港已经建造完毕。她将为我们的舰队带来强大的支持"
+sm_shipyard_sfdoll:0 "先进军港"
 
 
 sfdoll_mega_matter_convey:0 "铁血物质传输器"
 sfdoll_mega_matter_convey_DESC:0 "该巨构能转移黑洞内的物质，高效地开采黑洞中的资源。"
-
 sfdoll_mega_matter_convey_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_matter_convey_DESC$ "
 
 tech_sfdoll_mega_matter_convey:0 "铁血物质传输器"
 tech_sfdoll_mega_matter_convey_desc:0 "$sfdoll_mega_matter_convey_DESC$"
+sfdoll_matter_transport_complete:0 "我们建造了一座$sfdoll_mega_matter_convey$"
 
-sfdoll_mega_event.2:0 "$sfdoll_mega_matter_convey$"
-sfdoll_mega_event_2_desc:0 "一座铁血物质传输器已经建造完毕，它为我们带来丰富的资源。"
+
+gateway_sfdoll:0 "铁血星门"
+gateway_sfdoll_DESC:0 "利用铁血科技打造的快捷交通枢纽"
+gateway_sfdoll_MEGASTRUCTURE_DETAILS:0 "$gateway_sfdoll_DESC$"
+build_gateway_sfdoll:0 "我们建造了一座$gateway_sfdoll$"
+
+gateway_sfdoll_name:0 "铁血星门航道"
+gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"

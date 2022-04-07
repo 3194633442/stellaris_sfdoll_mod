@@ -52,38 +52,20 @@ sfdoll_mega_starport = {
 				}
 			}
 		}
-
-		# custom_tooltip = {
-		# 	fail_text = "requires_no_binary_trinary"
-		# 	NOR = {
-		# 		is_star_class = sc_binary_1
-		# 		is_star_class = sc_binary_2
-		# 		is_star_class = sc_binary_3
-		# 		is_star_class = sc_binary_4
-		# 		is_star_class = sc_binary_5
-		# 		is_star_class = sc_binary_6
-		# 		is_star_class = sc_binary_7
-		# 		is_star_class = sc_binary_8
-		# 		is_star_class = sc_binary_9
-		# 		is_star_class = sc_binary_10
-		# 		is_star_class = sc_trinary_1
-		# 		is_star_class = sc_trinary_2
-		# 		is_star_class = sc_trinary_3
-		# 		is_star_class = sc_trinary_4
-		# 	}
-		# }
-		# custom_tooltip = {
-		# 	fail_text = "requires_no_existing_megastructure"
-		# 	has_no_non_gate_megastructure = yes
-		# }
 	}
 
 	on_build_complete = {
 		from = {
 			set_country_flag = has_built_or_repaired_megastructure
-			country_event = {
-				id = sfdoll_mega_event.1
+			create_message = {
+				type = MEGASTRUCTURE_BUILT
+				localization = sfdoll_mega_starport_complete
+				days = 30
+				target = prev
 			}
+			# country_event = {
+			# 	id = sfdoll_mega_event.1
+			# }
 		}
 	}
 }
@@ -137,14 +119,6 @@ sfdoll_mega_matter_convey = {
 				}
 			}
 		}
-		# custom_tooltip = {
-		# 	fail_text = "requires_no_habitable_planets"
-		# 	NOT = {
-		# 		any_system_planet = {
-		# 			colonizable_planet = yes
-		# 		}
-		# 	}
-		# }
 		#需要黑洞类的恒星（必须是星系的恒星类型为黑洞），不需要，只需要目标天体为黑洞即可
 		# custom_tooltip = {
 		# 	fail_text = "requires_black_hole"
@@ -158,17 +132,11 @@ sfdoll_mega_matter_convey = {
 				fail_text = "requires_black_hole"
 				is_planet_class = pc_black_hole
 			}
-
-			# custom_tooltip = {
-			# 	fail_text = "must_build_around_star"
-			# 	is_star = yes
-			# }
-			# is_planet_class = pc_black_hole
-			# custom_tooltip = {
-			# 	fail_text = "requires_no_anomaly"
-			# 	NOT = { has_anomaly = yes }
-			# }
-			# is_star_class = sc_black_hole
+			hidden_trigger = {
+				NOT = {
+					has_any_megastructure = yes
+				}
+			}
 		}
 	}
 
@@ -176,9 +144,15 @@ sfdoll_mega_matter_convey = {
 		set_star_flag = sfdoll_matter_transport_built
 		from = {
 			set_country_flag = has_built_or_repaired_megastructure
-			country_event = {
-				id = sfdoll_mega_event.2
+			create_message = {
+				type = MEGASTRUCTURE_BUILT
+				localization = sfdoll_matter_transport_complete
+				days = 30
+				target = prev
 			}
+			# country_event = {
+			# 	id = sfdoll_mega_event.2
+			# }
 		}
 	}
 }

@@ -262,6 +262,7 @@ sfdoll_destroyer= {
 	section_slots = {
 		"bow" = { locator = part2 }
 		"core" = { locator = part2 }
+		"core2" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
 	num_target_locators = 8
