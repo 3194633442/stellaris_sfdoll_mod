@@ -245,7 +245,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { 	colossus	juggernaut 	}
+	size_restriction = { ship_carrier_2_sfdoll ship_attacker_sfdoll colossus	juggernaut 	}
 	ai_weight = {
 		weight = 5
 		modifier = {
@@ -255,7 +255,7 @@ utility_component_template = {
 	}
 }
 
-#铁血指挥舰
+#铁血指挥舰推进器
 utility_component_template = {
 	key = "sfdoll_thruster_7"
 	size = small
@@ -276,7 +276,26 @@ utility_component_template = {
 	}
 }
 
-#母舰推进器
+# utility_component_template = {
+# 	key = "thruster_ship_carrier_2_sfdoll"
+# 	size = small
+# 	icon = "GFX_sfdoll_thruster"
+# 	icon_frame = 1
+# 	modifier = {
+# 		ship_base_speed_mult = 12
+# 	}
+# 	prerequisites = { "tech_sfdoll_thruster" }
+# 	component_set = "thruster_components"
+# 	size_restriction = { 	ship_carrier_2_sfdoll }
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 200
+# 		}
+# 	}
+# }
+
+#深空母舰推进器
 utility_component_template = {
 	key = "thruster_sfdoll_carrier"
 	size = small

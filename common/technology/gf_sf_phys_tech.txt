@@ -47,3 +47,14 @@ tech_sfdoll_sophon_computer = {
 	}
 }
 
+tech_gateway_sfdoll = {
+	area = physics
+	tier = 5
+	cost = @tier5cost1
+	is_rare = yes
+	category = { field_manipulation }
+	icon = tech_gateway_sfdoll
+	weight = @tier5weight1
+	prerequisites = {	tech_sfdoll_jump_drive	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+}

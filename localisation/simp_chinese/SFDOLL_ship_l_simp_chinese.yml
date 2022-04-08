@@ -72,6 +72,15 @@ sfdoll_carrier_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 sfdoll_ship_reactor_no:0 "空槽"
 
 
+ship_attacker_sfdoll:0 "星际攻击舰"
+section_ship_attacker_sfdoll:0 "星际攻击舰"
+
+
+ship_carrier_2_sfdoll:0 "航天母舰"
+section_bow_ship_carrier_2_sfdoll:0 "舰艏"
+section_core_ship_carrier_2_sfdoll:0 "核心"
+section_stern_ship_carrier_2_sfdoll:0 "舰尾"
+
 ship_sfdoll_carrier:0 "深空母舰"
 section_ship_sfdoll_carrier:0 "深空母舰"
 thruster_sfdoll_carrier:0 "深空母舰推进器"
@@ -80,14 +89,15 @@ friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 
 #flag ship
 sfdoll_destroyer:0 "铁血指挥舰"
-bow_section_sfdoll_destroyer:0 "舰艏"
-core_section_sfdoll_destroyer:0 "核心"
-stern_section_sfdoll_destroyer:0 "舰尾"
+bow_section_sfdoll_destroyer:0 "装备A组"
+core_section_sfdoll_destroyer:0 "装备B组"
+core2_section_sfdoll_destroyer:0 "装备C组"
+stern_section_sfdoll_destroyer:0 "装备D组"
 component_aura_sfdoll_1:0 "作战支援"
-hostile_aura_sfdoll_1:0 "作战支援"
+friendly_aura_sfdoll_1:0 "作战支援"
 hostile_aura_sfdoll_1:0 "干扰战术"
 
 #section
 sfdoll_battleship_bow_x2:0 "双联X型舰艏"
-corvette_section_x_sfddoll:0 "战斗护航舰"
+corvette_section_x_sfddoll:0 "重炮护航舰"
 

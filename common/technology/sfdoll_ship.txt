@@ -217,7 +217,24 @@ tech_sfdoll_tactical_destroyer = {
 	weight = @tier5weight2
 }
 
-#深空母舰
+#航天母舰
+tech_ship_carrier_2_sfdoll = {
+	cost = @tier5cost2
+	area = engineering
+	start_tech = no
+	tier = 5
+	icon = tech_ship_sfdoll_carrier
+	category = { voidcraft }
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
+	potential = {
+		has_technology = tech_sfdoll_thruster
+	}
+	weight = @tier5weight2
+}
+
+#深空母舰，前置为航天母舰
 tech_ship_sfdoll_carrier = {
 	cost = @tier5cost3
 	area = engineering
@@ -225,12 +242,31 @@ tech_ship_sfdoll_carrier = {
 	icon = tech_ship_sfdoll_carrier
 	is_rare = yes
 	category = { voidcraft }
+	prerequisites = {
+		tech_ship_carrier_2_sfdoll
+	}
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_tactical_destroyer
 	}
 	tier = 5
 	weight = @tier5weight3
+}
+
+#星际攻击舰
+tech_ship_attacker_sfdoll = {
+	cost = @tier5cost2
+	area = engineering
+	start_tech = no
+	tier = 5
+	icon = tech_ship_sfdoll_carrier
+	category = { voidcraft }
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
+	potential = {
+		has_technology = tech_sfdoll_thruster
+	}
+	weight = @tier5weight2
 }
 
 
@@ -255,6 +291,7 @@ tech_sfdoll_homeless_ship = {
 	}
 	weight = @tier5weight1
 }
+
 
 #升级星舰城市
 # tech_sfdoll_homeless_ship_update = {

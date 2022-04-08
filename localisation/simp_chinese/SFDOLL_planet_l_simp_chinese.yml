@@ -25,7 +25,7 @@ district_generator_sfdoll_city_plural:0 "基础资源区划"
 district_generator_sfdoll_city_desc:0 "这些区划能够合成基本的生产物资"
 
 
-pc_rw_sfdoll:0 "铁血环形世界"
+pc_rw_sfdoll:0 "铁血星环"
 pc_rw_sfdoll_desc:0 "铁血利用最新科技，对这个环形世界进行了升级"
 
 district_rw_city_sfdoll:0 "星环城市"
@@ -49,8 +49,11 @@ decision_planet_to_sfdoll_city:0 "建立铁血星球"
 decision_planet_to_sfdoll_city_desc:0 "将星球改造为现代化的铁血星球"
 decision_planet_to_sfdoll_city_effects_short:0 "星球类型改为铁血星球，会拆除原有的区划"
 decision_planet_to_sfdoll_rw:0 "建立铁血环形世界"
-decision_planet_to_sfdoll_rw_desc:0 "将环形世界改造为铁血环形世界"
-decision_planet_to_sfdoll_rw_effects:0 "环形世界改造为铁血环形世界，会拆除原有的区划"
+decision_planet_to_sfdoll_rw_desc:0 "将环形世界升级成$pc_rw_sfdoll$"
+decision_planet_to_sfdoll_rw_effects:0 "环形世界升级成$pc_rw_sfdoll$，会拆除原有的区划"
+
+TERRAFORM_sfdoll_city:0 "我们完成了星球改造"
+TERRAFORM_sfdoll_rw:0 "我们完成了环形世界升级"
 
 decision_planet_pop_to_sfdoll:0 "铁血改造手术"
 decision_planet_pop_to_sfdoll_desc:0 "即使你是机器人或者蜂巢子个体，也有机会成为光荣的铁血人形"

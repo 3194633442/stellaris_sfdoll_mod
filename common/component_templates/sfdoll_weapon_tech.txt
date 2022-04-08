@@ -17,7 +17,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 30 max = 40 }
 	total_fire_time = 125
-	range = 180
+	range = 250
 	accuracy = 1.0
 	shield_penetration = 1.0
 	armor_penetration = 1.0
@@ -177,7 +177,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 30 max = 40 }
 	total_fire_time = 45
-	range = 150
+	range = 200
 	accuracy = 1.0
 	tracking = 0.50
 	shield_penetration = 1.0
@@ -225,7 +225,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 30 max = 40 }
 	total_fire_time = 45
-	range = 150
+	range = 200
 	accuracy = 1.0
 	tracking = 0.50
 	shield_penetration = 1.0
@@ -272,7 +272,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 30 max = 40 }
 	total_fire_time = 45
-	range = 150
+	range = 200
 	accuracy = 1.0
 	tracking = 0.50
 	shield_penetration = 1.0
@@ -320,7 +320,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 30 max = 40 }
 	total_fire_time = 45
-	range = 150
+	range = 200
 	accuracy = 1.0
 	tracking = 0.80
 	shield_penetration = 1.0

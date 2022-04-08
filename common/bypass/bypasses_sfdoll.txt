@@ -55,7 +55,7 @@ gateway_sfdoll  = {
 	bypass_effect		= ""
 	animation_time = 3				# number of days to wait for the jump animation to be played
 	prerequisites = {
-		tech_sfdoll_jump_drive
+		tech_gateway_sfdoll
 	}
 	on_pre_explore = {					# an effect that is called just before the jump of a right click "explore" action of a fleet
 

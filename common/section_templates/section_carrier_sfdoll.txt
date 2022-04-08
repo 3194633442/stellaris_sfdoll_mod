@@ -92,11 +92,6 @@ ship_section_template={
 		locatorname = explosion_locator6
 	}
 	component_slot = {
-		name = "X_LARGE_13"
-		template = invisible_extra_large_fixed
-		locatorname = explosion_locator6
-	}
-	component_slot = {
 		name = "H_LARGE_01"
 		template = invisible_point_defence_turret
 		locatorname = explosion_locator6
@@ -236,18 +231,8 @@ ship_section_template={
 		template = invisible_large_turret
 		locatorname = explosion_locator6
 	}
-	component_slot = {
-		name = "L_LARGE_19"
-		template = invisible_large_turret
-		locatorname = explosion_locator6
-	}
-	component_slot = {
-		name = "L_LARGE_20"
-		template = invisible_large_turret
-		locatorname = explosion_locator6
-	}
-	aux_utility_slots = 6
-	large_utility_slots = 48
+	aux_utility_slots = 8
+	large_utility_slots = 36
 }
 
 
