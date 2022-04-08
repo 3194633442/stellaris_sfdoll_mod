@@ -1,14 +1,4 @@
-tech_sfdoll_fighter= {
-	cost = @tier5cost3
-	area = society
-	tier = 5
-	category = { military_theory }
-	is_reverse_engineerable = no
-	icon = tech_sfdoll_weapon_s_3
-	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { tech_sfdoll_lab }
-	weight = 0
-}
+
 
 #component
 #作为前置解锁其他武器
@@ -314,3 +304,15 @@ tech_sfdoll_homeless_ship = {
 # }
 # tech_sfdoll_homeless_ship_update:0 "星舰工业革命"
 # tech_sfdoll_homeless_ship_update_desc:0 "改进星舰城市的产业体系"
+
+# tech_sfdoll_fighter= {
+# 	cost = @tier5cost3
+# 	area = society
+# 	tier = 5
+# 	category = { military_theory }
+# 	is_reverse_engineerable = no
+# 	icon = tech_sfdoll_weapon_s_3
+# 	potential = {	has_authority = auth_gf_sfdoll }
+# 	prerequisites = { tech_sfdoll_lab }
+# 	weight = 0
+# }

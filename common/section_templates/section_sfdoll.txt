@@ -17,6 +17,14 @@
 # 	}
 # }
 
+ship_section_template = {
+	key = section_ship_change_bypass_beacon_sfdoll
+	ship_size = ship_change_bypass_beacon_sfdoll
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "construction_ship_entity"
+}
+
 #双X战列舰舰首
 ship_section_template = {
 	key = "sfdoll_battleship_bow_x2"

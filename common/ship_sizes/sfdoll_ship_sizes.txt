@@ -21,9 +21,46 @@
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
 
+
+#信标船
+ship_change_bypass_beacon_sfdoll = {
+	entity = constructor_entity
+	max_speed = 500
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 500000
+	size_multiplier = 0
+	fleet_slot_size = 0
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon = ship_size_military_16
+	base_buildtime = 1080
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	potential_construction = {
+		always = no
+	}
+	components_add_to_cost = yes
+	default_behavior = carrier
+	class = shipclass_military
+
+	modifier = {
+		ship_evasion_add = 90
+		ship_armor_add = 500000
+		ship_shield_add = 500000
+	}
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "combat_computers"
+}
+
 #星际攻击舰
 ship_attacker_sfdoll = {
-	entity = ship_titan_entity
+	entity = SR3_entity
 	max_speed = @speed_very_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
@@ -31,12 +68,10 @@ ship_attacker_sfdoll = {
 	max_hitpoints = 50000
 	size_multiplier = 16
 	fleet_slot_size = 16
-	section_slots = {
-		"core" = { locator = part2 }
-	}
+	section_slots = {"core" = { locator = "part1" }}
 	num_target_locators = 4
 	is_space_station = no
-	icon = ship_size_military_16
+	icon = ship_size_military_32
 	base_buildtime = 1080
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start

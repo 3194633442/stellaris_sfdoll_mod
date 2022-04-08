@@ -5,7 +5,8 @@ gateway_sfdoll = {
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = yes
 	show_galactic_map_icon = yes
-	prerequisites = {	tech_gateway_sfdoll	}
+	prerequisites = { tech_gateway_sfdoll	}
+	show_prereqs = yes
 	potential = {
 		has_country_flag = sfdoll_empire
 	}

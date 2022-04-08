@@ -21,7 +21,8 @@ utility_component_template = {
 	modifier = {
 		ship_weapon_range_mult = 0.40
 		ship_weapon_damage = 0.40
-		ship_tracking_mult = 0.10
+		ship_accuracy_add = 25
+		ship_jumpdrive_cooldown_mult = -0.25
 	}
 }
 	

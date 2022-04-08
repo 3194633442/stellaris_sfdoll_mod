@@ -1,0 +1,11 @@
+#信标船
+ship_design = {
+	name = "NAME_beacon_ship_sfdoll"
+	ship_size = ship_change_bypass_beacon_sfdoll
+	section = {
+		template = "section_ship_change_bypass_beacon_sfdoll"
+		slot = "mid"
+	}
+	required_component= "COLOSSUS_sfdoll_collapse_REACTOR"
+	required_component= "sfdoll_jump_drive"
+}
