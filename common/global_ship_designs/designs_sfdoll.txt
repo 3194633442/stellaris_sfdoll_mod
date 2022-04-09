@@ -1,7 +1,7 @@
-#信标船
+#信标船设计
 ship_design = {
-	name = "NAME_beacon_ship_sfdoll"
-	ship_size = ship_change_bypass_beacon_sfdoll
+	name = "design_beacon_ship_sfdoll"
+	ship_size = ship_change_hyperlane_beacon_sfdoll
 	section = {
 		template = "section_ship_change_bypass_beacon_sfdoll"
 		slot = "mid"

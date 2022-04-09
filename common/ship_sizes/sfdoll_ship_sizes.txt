@@ -23,7 +23,7 @@
 
 
 #信标船
-ship_change_bypass_beacon_sfdoll = {
+ship_change_hyperlane_beacon_sfdoll = {
 	entity = constructor_entity
 	max_speed = 500
 	acceleration = 0.2
@@ -131,9 +131,9 @@ ship_carrier_2_sfdoll ={
 			has_country_flag = sfdoll_empire
 		}
 	}	
-	# prerequisites = {
-	# 	tech_ship_carrier_2_sfdoll
-	# }
+	prerequisites = {
+		tech_ship_carrier_2_sfdoll
+	}
 	num_target_locators = 10
 	modifier = {
 		starbase_shipyard_capacity_add = 6

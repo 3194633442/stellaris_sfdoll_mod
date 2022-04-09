@@ -60,16 +60,18 @@ country_event = {
 			}
 		}		
 
+		#添加ump45
+		country_event = {
+			id = sfdoll_ump45_event.10
+			days = 5
+		}
+		#添加伊莱莎
 		country_event = {
 			id = sfdoll_elisa_event.1
-			days = 5
+			days = 7
 		}
 		country_event = {
 			id = sfdoll_elisa_event.4
-			days = 5
-		}
-		country_event = {
-			id = sfdoll_ump45_event.10
 			days = 7
 		}
 

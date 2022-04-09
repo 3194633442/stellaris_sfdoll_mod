@@ -37,7 +37,7 @@ tech_sf_doll_modding_system_desc:0 "标准化的机器人模板，可以让铁�
 tech_sf_doll_modding_1:0"二级平层扩展"
 tech_sf_doll_modding_1_desc:0 "对以二级平层为代表的心智系统功能进行改进，提升心智系统的性能和安全性，心智数据的传输和备份也变得更可靠"
 
-tech_sf_doll_modding_2:0 "新型铁血设计"
+tech_sf_doll_modding_2:0 "心智革命"
 tech_sf_doll_modding_2_desc:0"解锁新的物种§H特质§!"
 
 #ship
@@ -77,7 +77,7 @@ tech_gateway_sfdoll:0 "铁血星门"
 tech_gateway_sfdoll_desc:0 "铁血们设计了一种星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
-tech_sfdoll_thruster_desc:0"随心所欲地操纵飞船"
+tech_sfdoll_thruster_desc:0"通过某些奇妙的科技，铁血们得以随心所欲地操纵飞船的运动"
 
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
@@ -87,7 +87,7 @@ tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
 tech_sfdoll_tactical_destroyer_desc:0 "这种被称为指挥舰的飞船，其实是测试某些科技的实验品。她的物理干涉引擎，其作用范围足以覆盖整个星系，从而为周围的舰队提供支援。"
 
 tech_ship_carrier_2_sfdoll:0 "航天母舰"
-tech_ship_carrier_2_sfdoll_desc:0 "过去，我们在战舰H槽里摆上小艇，然后管它们叫舰载机，就好像它们是地球上的航母部队一样。现在，是时候停止自欺欺人了。即将诞生的航天母舰拥有造船和维修功能，它将彻底改变我们的战术。"
+tech_ship_carrier_2_sfdoll_desc:0 "过去，我们在战舰H槽里摆上小艇，然后叫它们航母和舰载机。现在，这种自欺欺人的说法将得到纠正。即将诞生的航天母舰拥有造船和维修功能，它将彻底改变我们的太空军事战术。"
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
 tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改造天体的能力。设计建造她，将会是我们迄今为止最宏伟的太空工程之一。"
