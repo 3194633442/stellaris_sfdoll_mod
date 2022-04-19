@@ -24,8 +24,8 @@ trait_sfdoll_asst_desc:0"铁血人形装备了ASST系统，能够与量身定制
 trait_sfdaoll_battle:0"作战专精"
 trait_sfdaoll_battle_desc:0"这些铁血人形能搭载先进的战斗系统"
 
-trait_sfdoll_logic_engine:0"OGAS逻辑引擎"
-trait_sfdoll_logic_engine_desc:0"模仿OGAS技术而设计的逻辑系统，使这些铁血的心智能够快速进化"
+trait_sfdoll_logic_engine:0"铁血学习算法"
+trait_sfdoll_logic_engine_desc:0"这些铁血人形可以不断学习知识并培养人格，而不必受限于出厂设定。"
 
 trait_sfdoll_conservation:0"节约"
 trait_sfdoll_conservation_desc:0"节约资源是铁血人形的传统美德"

@@ -71,7 +71,8 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ships_upkeep_mult = -1.0
+		ships_alloys_upkeep_mult = -1
+		ships_energy_upkeep_mult = -1
 	}
 	prerequisites = { "tech_sfdoll_aux_quality_rebuilding" }
 	component_set = "sfdoll_aux_quality_rebuilding"

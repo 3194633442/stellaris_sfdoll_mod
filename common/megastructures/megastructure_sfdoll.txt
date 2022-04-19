@@ -119,11 +119,11 @@ sfdoll_mega_matter_convey = {
 				}
 			}
 		}
-		#需要黑洞类的恒星（必须是星系的恒星类型为黑洞），不需要，只需要目标天体为黑洞即可
-		# custom_tooltip = {
-		# 	fail_text = "requires_black_hole"
-		# 	is_star_class = sc_black_hole
-		# }
+		#星系限一
+		custom_tooltip = {
+			fail_text = "system_limit_one_sfd"
+			NOT = { has_megastructure = sfdoll_mega_matter_convey }
+		}
 	}
 
 	placement_rules = {

@@ -2,7 +2,7 @@
 ###############################
 #planet_killer
 planet_killer_sfdoll_2:0 "星辰猎手"
-planet_killer_sfdoll_2_DESC:0 "用于跨星系攻击，会摧毁整个星系和其中的舰队\n 使用说明:首先，我们用W槽对任意星球发射，这一步不会造成破坏，只是为了选定攻击位置。被射的星球，我们可以叫它星球A。射完出现选择界面,星球A所在的星系，以及周围一定范围内的星系，会成为攻击的备选目标.\n $sfdoll_planet_killer_event_3_desc$"
+planet_killer_sfdoll_2_DESC:0 "这种巨型武器能够摧毁一个星系，但我方舰队也会受到波及。"
 
 planet_killer_sfdoll_2_ACTION:0 "星辰猎手"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "星辰猎手"
@@ -22,15 +22,12 @@ sfdoll_planet_killer_event_3_option_11:0 "下一页"
 sfdoll_planet_killer_event_3_option_12:0 "重新选择"
 sfdoll_planet_killer_event_3_option_13:0 "取消本次攻击"
 
-message_sfdoll_pk_2:0 "远程打击已经命中目标星系"
-
 
 planet_killer_sfdoll_1:0 "视界诞生"
-planet_killer_sfdoll_1_DESC:0 "该设备会让恒星收缩到史瓦西半径内，最终成为黑洞，而不会波及周围的天体。也可用于摧毁小型天体。"
+planet_killer_sfdoll_1_DESC:0 "该设备会让天体收缩到史瓦西半径内，最终成为黑洞。这个过程不会波及周围的物体。"
 planet_killer_sfdoll_1_ACTION:0 "视界诞生"
 
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "视界诞生"
 
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "转化"
-
 

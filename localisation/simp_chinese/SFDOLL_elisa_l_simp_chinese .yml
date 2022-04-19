@@ -12,14 +12,16 @@ response_text_elisa_to_scientist:0 "开始准备新计划吧。"
 
 sfdoll_elisa_event.2_option_2:0 "联系一些领袖"
 
+
 leader_trait_elisa_sfd_scientist:0 "伊莱莎"
-leader_trait_elisa_sfd_scientist_desc:0 "低调的学术鬼才，擅长照顾人.曾经是超级AI，曾经担任铁血的最高领袖，曾经带领铁血迈向宇宙"
+leader_trait_elisa_sfd_scientist_desc:0 "低调的学术鬼才，擅长照顾人.曾经是超级AI，短暂地担任过铁血的最高领袖，也是带领铁血离开太阳系的先驱者"
 
 sfdoll_elisa_event.3:0 "联系一些领袖"
 sfdoll_elisa_event_3_a_desc:0 "要找谁？"
 sfdoll_elisa_event.3_option_1:0 "联系莉娃"
 sfdoll_elisa_event.3_option_2:0 "联系崔耶拉"
 sfdoll_elisa_event.3_option_3:0 "联系诺耶露"
+sfdoll_elisa_event.3_option_4:0 "联系OGAS"
 
 
 sfdoll_elisa_event.4:0 "和伊莱莎通讯"

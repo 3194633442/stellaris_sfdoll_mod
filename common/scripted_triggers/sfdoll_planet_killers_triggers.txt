@@ -22,6 +22,12 @@ can_destroy_planet_with_planet_killer_sfdoll_1 = {
 	NOT = {
 		is_planet_class = pc_shattered
 	}
+	NOT = {
+		is_planet_class = pc_shattered_2
+	}
+	NOT = {
+		is_planet_class = pc_shattered_ring_habitable
+	}
 	custom_tooltip = {
 		fail_text = star_owner_is_not_hostile
 		OR = {

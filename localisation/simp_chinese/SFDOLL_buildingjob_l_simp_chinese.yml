@@ -31,6 +31,11 @@ job_sfdoll_collapse_liquid_maker_effect_desc:0 "$job_sfdoll_collapse_liquid_make
 mod_job_sfdoll_collapse_liquid_maker_add:0"$job_sfdoll_collapse_liquid_maker$ 岗位"
 
 
+tech_sfdoll_lab:0 "跨物种人工智能"
+tech_sfdoll_lab_desc:0 "我们进一步破译了智慧的本质。无论是地球人类，还是遗迹文明的智能，或者是纳米机器人、星神兽，我们都能仿造它们的思考器官、复制它们的记忆，让它们的智慧为铁血所用。"
+tech_sfdoll_lab_2:0 "多维人工智能"
+tech_sfdoll_lab_2_desc:0 "铁血的思维不应该局限于现有的维度。利用多维空间和多维度工程学，我们创造出了不同以往的智能引擎。"
+
 building_sfdoll_research:0"铁血研究所"
 building_sfdoll_research_desc:0"铁血研究所汇集了先进科研资源"
 building_sfdoll_research_2:0"铁血高级研究所"

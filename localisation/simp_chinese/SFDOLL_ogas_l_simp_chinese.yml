@@ -11,8 +11,6 @@ project_sfdoll_event.2:0 "研究OGAS"
 project_sfdoll_event.2_desc:0 "我们对莉娃体内的OGAS进行了研究。\n 同时，我们设计了一副人形素体，然后将OGAS转移到这幅新素体上。现在，OGAS不必呆在莉娃体内，她可以自由地行动，甚至能担任领袖。"
 
 
-sfdoll_elisa_event.3_option_4:0 "联系OGAS"
-
 special_leader_sfdoll_event.1:0 "和OGAS通讯中"
 special_leader_sfdoll_event.1_desc:0 "有什么事情呢？"
 ogas40_to_governor:0 "请你处理政务"

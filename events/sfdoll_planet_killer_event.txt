@@ -46,8 +46,18 @@ planet_event = {
 			reset_planet = yes
 		}
 		else = {
-			change_pc = pc_shattered
+			change_variable = {
+				which = planet_size_sfdoll
+				value = trigger:planet_size
+			}
+			divide_variable = {
+				which = planet_size_sfdoll
+				value = 4
+			}
+			change_pc = pc_black_hole
 			clear_deposits = yes
+			set_planet_size = planet_size_sfdoll
+			clear_variable = planet_size_sfdoll
 		}
 		
 		#行星需要缩小
@@ -390,7 +400,7 @@ country_event = {
 	}
 }
 
-#中间事件，转到摧毁星系事件
+#中间事件，从舰队转到被摧毁的恒星，从而让效果的作用域与w槽触发器提供的作用域一致
 fleet_event = {
 	id = sfdoll_planet_killer_event.4
 	hide_window = yes
@@ -416,6 +426,111 @@ planet_event = {
 		from = {
 			owner = {
 				#save_event_target_as = crisis_country
+				add_victory_score = {
+					source = destroyed_stars_score
+					score = 10
+				}
+				#初次炸恒星
+				if = {
+					limit = {
+						NOT = { has_country_flag = cracked_first_star }
+					}
+					set_country_flag = cracked_first_star
+				}
+			}
+		}
+		solar_system = { save_event_target_as = destroyed_system }
+		solar_system = {
+			destroy_star_system = yes
+		}
+		from = {
+			create_message = {
+				type = PLANET_DESTROYED
+				localization = message_sfdoll_pk_2
+				days = 30
+				target = prev
+			}
+		}
+	}
+}
+
+
+#铁血之矛，控制界面
+country_event = {
+	id = sfdoll_planet_killer_event.6
+	title = sfdoll_planet_killer_event.6
+	desc = sfdoll_planet_killer_event.6_desc
+	is_triggered_only = yes
+	picture = GFX_evp_sfdoll_ship_in_orbit
+	#刷新信标船
+	option = {
+		name = sfdoll_planet_killer_event.6_option_a
+		hidden_effect = {
+			effect_create_change_hyperlane_beacon_sfdoll = yes
+		}
+	}
+	#修改航道
+	option = {
+		name = sfdoll_planet_killer_event.6_option_b
+		custom_tooltip = "text_sfdoll_planet_killer_event.6_option_b"
+		hidden_effect = {
+			effect_change_hyperlane_sfdoll = yes
+		}
+	}
+	#摧毁星系，删除信标
+	option = {
+		name = sfdoll_planet_killer_event.6_option_c
+		custom_tooltip = "text_sfdoll_planet_killer_event.6_option_c"
+		hidden_effect = {
+			event_target:fleet_beacon_sfdoll_1={
+				fleet_event = {
+					id = sfdoll_planet_killer_event.7
+				}
+			}
+			event_target:fleet_beacon_sfdoll_2 ={
+				fleet_event = {
+					id = sfdoll_planet_killer_event.7
+				}
+			}
+			delete_fleet = event_target:fleet_beacon_sfdoll_1
+			clear_global_event_target = fleet_beacon_sfdoll_1
+			delete_fleet = event_target:fleet_beacon_sfdoll_2
+			clear_global_event_target = fleet_beacon_sfdoll_2
+		}
+	}
+	#退出
+	option = {
+		name = "sfdoll_break_option"
+		hidden_effect = {
+			break = yes
+		}
+	}
+}
+#从舰队作用域转到被毁的目标恒星
+fleet_event = {
+	id= sfdoll_planet_killer_event.7
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		solar_system = {
+			star = {
+				planet_event = {
+					id = sfdoll_planet_killer_event.8
+				}
+			}
+		}
+	}
+}
+#摧毁所在星系，from为发射的飞船
+planet_event = {
+	id = sfdoll_planet_killer_event.8
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		#威慑值和得分
+		add_threat = { who = from.owner amount = 10 }
+		from = {
+			owner = {
 				add_victory_score = {
 					source = destroyed_stars_score
 					score = 10

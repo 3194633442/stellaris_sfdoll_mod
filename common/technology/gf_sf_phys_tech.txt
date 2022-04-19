@@ -58,3 +58,16 @@ tech_gateway_sfdoll = {
 	prerequisites = {	tech_sfdoll_jump_drive	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
+
+#航道修改巨构
+tech_mega_change_hyperlane_sfdoll = {
+	area = physics
+	tier = 5
+	cost = @tier5cost3
+	is_rare = yes
+	category = { field_manipulation }
+	icon = tech_mega_change_hyperlane_sfdoll
+	weight = @tier5weight3
+	prerequisites = {	tech_gateway_sfdoll	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+}

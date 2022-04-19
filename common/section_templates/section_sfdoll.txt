@@ -26,35 +26,35 @@ ship_section_template = {
 }
 
 #双X战列舰舰首
-ship_section_template = {
-	key = "sfdoll_battleship_bow_x2"
-	ship_size = battleship
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "battleship_bow_XL1_entity"
-	icon = "GFX_ship_part_core_bow"
-	prerequisites = { tech_sfdoll_battleship_bow_x2	}
+# ship_section_template = {
+# 	key = "sfdoll_battleship_bow_x2"
+# 	ship_size = battleship
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "battleship_bow_XL1_entity"
+# 	# icon = "GFX_ship_part_core_bow"
+# 	prerequisites = { tech_sfdoll_battleship_bow_x2	}
 
-	component_slot = {
-		name = "X_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "X_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
+# 	component_slot = {
+# 		name = "X_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "X_02"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
 
-	large_utility_slots = 3
-	aux_utility_slots = 1
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	large_utility_slots = 3
+# 	aux_utility_slots = 1
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 160
+# 		}
+# 	}
+# }
 
 #X槽护卫
 ship_section_template={
@@ -63,49 +63,50 @@ ship_section_template={
 	fits_on_slot=mid  							
 	should_draw_components= yes
 	entity =  "Sewship_entity"
-	icon="GFX_ship_part_core_mid"				
+	# icon="GFX_ship_part_core_mid"				
 	icon_frame=1
 	component_slot={			
 		name = "EXTRA_LARGE_01"					
 		template = "invisible_extra_large_fixed"
 		locatorname = "explosion_locator_01"		
 	}			
-	medium_utility_slots = 4
+	medium_utility_slots = 3
 	aux_utility_slots = 2
 	resources={
 		category=ship_sections
 		cost= {alloys =160}
 	}
 	prerequisites = { tech_sfdoll_battleship_bow_x2 }
+	
 	ai_weight = {weight=1}
 }
 
 # #战列舰T槽
-# ship_section_template = {
-# 	key = "sfdoll_battleship_bow_T1"
-# 	ship_size = battleship
-# 	fits_on_slot = bow
-# 	should_draw_components = yes
-# 	entity = "battleship_bow_XL1_entity"
-# 	icon = "GFX_ship_part_core_bow"
-# 	prerequisites = { tech_sfdoll_battleship_bow_x2	}
+ship_section_template = {
+	key = "sfdoll_battleship_bow_T1"
+	ship_size = battleship
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "battleship_bow_XL1_entity"
+	# icon = "GFX_ship_part_core_bow"
+	prerequisites = { tech_sfdoll_battleship_bow_x2	}
 
-# 	component_slot = {
-# 		name = "t_01"
-# 		template = "invisible_titanic_fixed"
-# 		locatorname = "xl_gun_01"
-# 	}
+	component_slot = {
+		name = "t_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "xl_gun_01"
+	}
 
 
-# 	large_utility_slots = 3
+	large_utility_slots = 3
 
-# 	resources = {
-# 		category = ship_sections
-# 		cost = {
-# 			alloys = 80
-# 		}
-# 	}
-# }
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 160
+		}
+	}
+}
 
 # #战列舰中
 # ship_section_template = {

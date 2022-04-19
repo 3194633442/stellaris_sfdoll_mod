@@ -1,0 +1,91 @@
+#country,生成航道修改信标
+effect_create_change_hyperlane_beacon_sfdoll = {
+	capital_scope = {
+
+		delete_fleet = event_target:fleet_beacon_sfdoll_1
+		clear_global_event_target = fleet_beacon_sfdoll_1
+		delete_fleet = event_target:fleet_beacon_sfdoll_2
+		clear_global_event_target = fleet_beacon_sfdoll_2
+
+		solar_system = {
+			create_fleet = {
+				name = "Name_beacon_ship_sfdoll_fleet"
+				effect = {
+					set_owner = root
+					create_ship = {
+						design = design_beacon_ship_sfdoll
+						name = Name_beacon_ship_sfdoll
+						upgradable = no
+						
+					}
+					set_fleet_flag = lady_naming_fleet
+					set_location = ROOT.capital_scope
+					save_global_event_target_as = fleet_beacon_sfdoll_1
+					# set_event_locked = yes
+				}
+				settings = {
+					can_upgrade = no 
+					uses_naval_capacity = no
+					spawn_debris = no
+					can_disband = yes
+					can_change_leader = no
+					can_change_composition = no
+				}
+			}
+
+			create_fleet = {
+				name = "Name_beacon_ship_sfdoll_fleet"
+				effect = {
+					set_owner = root
+					create_ship = {
+						design = design_beacon_ship_sfdoll
+						name = Name_beacon_ship_sfdoll
+						upgradable = no
+					}
+					set_fleet_flag = lady_naming_fleet
+					set_location = ROOT.capital_scope
+					save_global_event_target_as = fleet_beacon_sfdoll_2
+					# set_event_locked = yes
+				}
+				settings = {
+					can_upgrade = no 
+					uses_naval_capacity = no
+					spawn_debris = no
+					can_disband = yes
+					can_change_leader = no
+					can_change_composition = no
+				}
+			}
+		}
+	}	
+}
+#修改超空间航道
+effect_change_hyperlane_sfdoll={
+	event_target:fleet_beacon_sfdoll_1 = {
+		solar_system = {
+			save_event_target_as = system_beacon_sfdoll_1
+		}
+	}
+	event_target:fleet_beacon_sfdoll_2= {
+		solar_system = {
+			save_event_target_as = system_beacon_sfdoll_2
+		}
+	}
+	if = {
+		limit = { 
+			event_target:system_beacon_sfdoll_1 = {
+				has_hyperlane_to = event_target:system_beacon_sfdoll_2
+			}
+		}
+		remove_hyperlane = {
+			from = event_target:system_beacon_sfdoll_1
+			to = event_target:system_beacon_sfdoll_2
+		}
+	}
+	else = {
+		add_hyperlane = {
+			from = event_target:system_beacon_sfdoll_1
+			to = event_target:system_beacon_sfdoll_2
+		}
+	}	
+}

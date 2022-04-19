@@ -95,15 +95,7 @@ tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改�
 tech_ship_attacker_sfdoll:0 "星际攻击舰"
 tech_ship_attacker_sfdoll_desc:0 "星际攻击舰拥有较强的火力系统，能够摧毁敌对舰船或行星"
 
-tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
-tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船的体积与重量得到大幅缩减。作为这一技术的成果，强化型的战列舰和护卫舰被开发出来。\n解锁舰船设计：$sfdoll_battleship_bow_x2$,$corvette_section_x_sfddoll$"
-
 #building
-tech_sfdoll_lab:0"铁血研究所"
-tech_sfdoll_lab_desc:0"铁血研究所汇集了先进科研资源"
-tech_sfdoll_lab_2:0 "铁血高级研究所"
-tech_sfdoll_lab_2_desc:0 "高级研究所拥有更好的研究条件"
-
 tech_sfdoll_collapse_alloys_produce:0"坍塌技术合金制造工艺"
 tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌液，控制中子等原材料"
 
@@ -114,7 +106,7 @@ tech_sfdoll_chemical:0 "铁血极速化学合成"
 tech_sfdoll_chemical_desc:0 "$building_sfdoll_gases_plant_desc$"
 
 tech_sfdoll_collapse_liquid_produce:0"坍塌粒子合成"
-tech_sfdoll_collapse_liquid_produce_desc:0 "现在，我们完全掌握了坍塌粒子的运作原理，能够合成坍塌粒子，编写坍塌粒子的内部程序，使其实现多种功能。现在，坍塌液不再是灾难的化身，而是我们改造世界的有力工具。"
+tech_sfdoll_collapse_liquid_produce_desc:0 "现在，我们完全掌握了坍塌粒子的运作原理，能够合成坍塌粒子，编写坍塌粒子的内部程序，使其实现多种功能。现在，坍塌液不再是灾害的来源，而是我们改造世界的有力工具。"
 # tech_sfdoll_collapse_liquid_2:0 "坍塌粒子结构优化"
 # tech_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
 

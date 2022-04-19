@@ -27,7 +27,7 @@ tech_sfdoll_reverse_collapse_2 = {
 	weight_modifier = {
 		modifier = {
 			factor = 10
-			years_passed = 30
+			years_passed = 20
 		}
 	}
 }
