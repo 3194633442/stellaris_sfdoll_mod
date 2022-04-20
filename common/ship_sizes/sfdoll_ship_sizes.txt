@@ -59,7 +59,7 @@ ship_change_hyperlane_beacon_sfdoll = {
 	# required_component_set = "combat_computers"
 }
 
-#星际攻击舰
+#攻击舰
 ship_attacker_sfdoll = {
 	entity = SR3_entity
 	max_speed = @speed_very_slow
@@ -67,9 +67,11 @@ ship_attacker_sfdoll = {
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 50000
-	size_multiplier = 16
-	fleet_slot_size = 16
-	section_slots = {"core" = { locator = "part1" }}
+	size_multiplier = 32
+	fleet_slot_size = 32
+	section_slots = {
+		"core" = { locator = "part1" }
+	}
 	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_32
@@ -94,11 +96,11 @@ ship_attacker_sfdoll = {
 }
 
 
-#航天母舰
+#移动船坞
 ship_carrier_2_sfdoll ={
 	formation_priority =  @corvette_formation_priority
 	icon = ship_size_military_32
-	entity = battel_ship_cv_frame_entity
+	entity = stions_frame
 	max_speed = @speed_very_slow
 	acceleration = 0.2
 	rotation_speed = 0.05
@@ -109,14 +111,12 @@ ship_carrier_2_sfdoll ={
 		ship_shield_add = 20000
 	}
 	section_slots = {
-		"bow" = { locator = part2 }
-		"core" = { locator = part2 }
-		"stern"  = { locator = part2 }
+		"core" = { locator = "part1" }
 	}
 	size_multiplier = 32
 	fleet_slot_size = 32
 	class = shipclass_starbase
-	base_buildtime = 1080
+	base_buildtime = 1800
 	can_have_federation_design = no
 	enable_default_design = yes
 	construction_type = starbase_shipyard
@@ -125,6 +125,7 @@ ship_carrier_2_sfdoll ={
     required_component_set = "thruster_components"
     required_component_set = "sensor_components"
     required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
 	default_behavior = carrier
 	combat_disengage_chance = -0.9
 	potential_construction = {
@@ -135,14 +136,14 @@ ship_carrier_2_sfdoll ={
 	prerequisites = {
 		tech_ship_carrier_2_sfdoll
 	}
-	num_target_locators = 10
+	num_target_locators = 8
 	modifier = {
-		starbase_shipyard_capacity_add = 6
+		starbase_shipyard_capacity_add = 20
 	}
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 1000
+			alloys = 20000
 		}
 		upkeep = {
 			energy = 16
@@ -226,7 +227,7 @@ ship_sfdoll_carrier = {
 	num_target_locators = 6
 	is_space_station = no
 	icon = starbase_ship_sizes
-	base_buildtime = 1800
+	base_buildtime = 3600
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
@@ -323,5 +324,59 @@ sfdoll_destroyer= {
 	}
 }
 
+
+#
+sfdoll_fighter = {
+	entity = juggernaut_entity
+	max_speed = @speed_very_slow
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @juggernaut_collision_radius
+	max_hitpoints = 500000
+	modifier = {
+		ship_armor_add = 250000
+		ship_shield_add = 250000
+		ship_piracy_suppression_add = 8
+	}
+	size_multiplier = 20
+	fleet_slot_size = 20
+	section_slots = {
+		"core" = { locator = "part1" }
+	}
+	num_target_locators = 8
+	is_space_station = no
+	icon = ship_size_military_16
+	base_buildtime = 720
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
+	components_add_to_cost = yes
+
+	prerequisites = { "tech_sfdoll_tactical_destroyer" }
+
+	class = shipclass_military
+	icon = ship_size_military_16
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "sensor_components"
+	required_component_set = "thruster_components"
+	required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 960
+		}
+		upkeep = {
+			energy = 4.8
+			alloys = 1.6
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 10
+	}
+}
 
 

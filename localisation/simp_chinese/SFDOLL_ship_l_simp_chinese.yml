@@ -71,15 +71,19 @@ sfdoll_carrier_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 
 sfdoll_ship_reactor_no:0 "空槽"
 
-
+tech_ship_attacker_sfdoll:0 "星际攻击舰"
+tech_ship_attacker_sfdoll_desc:0 "星际攻击舰可搭载足以摧毁星系的重型武器。"
 ship_attacker_sfdoll:0 "星际攻击舰"
-section_ship_attacker_sfdoll:0 "星际攻击舰"
+section_ship_attacker_sfdoll:0 "$ship_attacker_sfdoll$"
 
+tech_ship_carrier_2_sfdoll:0 "移动船坞"
+tech_ship_carrier_2_sfdoll_desc:0 "移动船坞搭载了完整的舰船生产和维护设施。依靠多种尖端宇航技术，这个庞然大物能够自由地航行。"
 
-ship_carrier_2_sfdoll:0 "航天母舰"
-section_bow_ship_carrier_2_sfdoll:0 "舰艏"
-section_core_ship_carrier_2_sfdoll:0 "核心"
-section_stern_ship_carrier_2_sfdoll:0 "舰尾"
+ship_carrier_2_sfdoll:0 "移动船坞"
+section_bow_ship_carrier_2_sfdoll:0 "$ship_carrier_2_sfdoll$"
+
+tech_ship_sfdoll_carrier:0 "深空母舰"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改造天体的能力。设计建造她，将会是一项宏伟的太空工程。"
 
 ship_sfdoll_carrier:0 "深空母舰"
 section_ship_sfdoll_carrier:0 "深空母舰"

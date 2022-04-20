@@ -44,7 +44,9 @@ tech_sfdoll_homeless_ship:0 "零重力工业"
 tech_sfdoll_homeless_ship_desc:0 "星舰城市可充分利用失重环境进行生产，并支持铁血人形的长期生活.\n 大型的星舰城市拥有更多槽位，但造价也更贵"
 
 sfdoll_homeless_ship:0 "星舰城市"
-section_sfdoll_homeless_ship:0 "$sfdoll_homeless_ship$"
+section_sfdoll_homeless_core:0 "星舰城市A区"
+section_sfdoll_homeless_meidm:0 "星舰城市B区"
+section_sfdoll_homeless_end:0 "星舰城市C区"
 sfdoll_homeless_ship_reactor:0 "星舰城市反应堆"
 sfdoll_homeless_ship_thruster_1:0 "星舰城市推进器"
 

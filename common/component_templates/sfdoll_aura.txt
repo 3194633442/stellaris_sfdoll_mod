@@ -103,7 +103,7 @@ utility_component_template = {
 	icon = "GFX_component_aura_sfdoll_carrier"
 	icon_frame = 1
 	power = 0
-	size_restriction = { ship_sfdoll_carrier  }
+	size_restriction = { ship_sfdoll_carrier ship_carrier_2_sfdoll }
 	component_set = "ship_aura_components"
 		
 	friendly_aura = {
