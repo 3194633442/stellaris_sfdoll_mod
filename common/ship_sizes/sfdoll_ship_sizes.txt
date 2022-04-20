@@ -153,19 +153,26 @@ ship_carrier_2_sfdoll ={
 
 #星舰城市
 sfdoll_homeless_ship = {
-	entity = stions_entity
-	max_speed = 100
+	entity = homeship_entity_frame_entity
+	max_speed = 50
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 10000
-	size_multiplier = 16
-	fleet_slot_size = 16
-	section_slots = { core = { locator = "part2" } }
-	num_target_locators = 24
+	max_hitpoints = 150000
+	size_multiplier = 32
+	fleet_slot_size = 32
+	section_slots = {
+		"core" = { locator = "part2" }
+		"meidm" = { locator = "part2" }
+		"end" ={ locator = "part2" }
+	}
+	combat_size_multiplier = 5
+	num_target_locators = 21
+	combat_disengage_chance = 10
 	is_space_station = no
 	icon = ship_size_military_16
-	base_buildtime = 720
+	icon_frame = 7
+	base_buildtime = 1800
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
