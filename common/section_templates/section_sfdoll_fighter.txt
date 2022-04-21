@@ -51,34 +51,34 @@ ship_section_template={
 
 	component_slot = {
 		name = "MEDIUM_GUN_01"
-		template = "medium_turret"
+		template = invisible_point_defence_turret
 		locatorname = "gun_1"
 	}
 	component_slot = {
 		name = "MEDIUM_GUN_02"
-		template = "medium_turret"
+		template = invisible_point_defence_turret
 		locatorname = "gun_2"
 	}
 	component_slot = {
 		name = "MEDIUM_GUN_03"
-		template = "medium_turret"
+		template = invisible_point_defence_turret
 		locatorname = "gun_3"
 	}
 	component_slot = {
 		name = "MEDIUM_GUN_04"
-		template = "medium_turret"
+		template = invisible_point_defence_turret
 		locatorname = "gun_4"
 	}
 	component_slot = {
 		name = "MEDIUM_GUN_05"
-		template = "medium_turret"
+		template = invisible_large_turret
 		locatorname = "gun_5"
 	}
 
 	small_utility_slots = 0
 	medium_utility_slots = 0
-	large_utility_slots = 21
-	aux_utility_slots = 4
+	large_utility_slots = 24
+	aux_utility_slots = 5
 
 	resources = {
 		category = ship_sections

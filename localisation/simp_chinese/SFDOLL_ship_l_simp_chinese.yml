@@ -91,6 +91,14 @@ thruster_sfdoll_carrier:0 "深空母舰推进器"
 component_aura_sfdoll_carrier:0 "移动维护系统"
 friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 
+tech_ship_air_defense_sfdoll:0 "铁血防空战列舰"
+tech_ship_air_defense_sfdoll_desc:0 "防空战列舰拥有比常规战列舰更强的武装，并能够搭载更完备的防空系统"
+ship_air_defense_sfdoll:0 "铁血防空战列舰"
+section_air_defense_sfdoll_bow:0 "舰艏"
+section_air_defense_sfdoll_core:0 "核心"
+section_air_defense_sfdoll_stern:0 "核心"
+
+
 #flag ship
 sfdoll_destroyer:0 "铁血指挥舰"
 bow_section_sfdoll_destroyer:0 "装备A组"

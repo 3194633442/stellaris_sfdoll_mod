@@ -283,6 +283,43 @@ tech_sfdoll_homeless_ship = {
 	weight = @tier5weight1
 }
 
+tech_ship_air_defense_sfdoll= {
+	cost = @tier5cost1
+	tier = 5
+	area = engineering
+	start_tech = no
+	icon = tech_ship_sfdoll_carrier
+	is_rare = no
+	category = { voidcraft }
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_battleships
+	}
+	weight = @tier5weight1
+}
+
+#重型战斗舰
+tech_sfdoll_fighter = {
+	cost = @tier5cost1
+	tier = 5
+	area = engineering
+	start_tech = no
+	icon = tech_ship_sfdoll_carrier
+	is_rare = no
+	category = { voidcraft }
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_battleships
+	}
+	weight = 0
+}
+
 
 #升级星舰城市
 # tech_sfdoll_homeless_ship_update = {

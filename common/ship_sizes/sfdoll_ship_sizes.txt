@@ -21,6 +21,57 @@
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
 
+#防空战列舰
+ship_air_defense_sfdoll = {
+	formation_priority =  @corvette_formation_priority
+	icon = ship_size_military_16
+	entity = battel_ship_cv_frame_entity
+	max_speed = 100
+	acceleration = 0.2
+	rotation_speed = 0.05
+	collision_radius = @corvette_formation_priority
+	max_hitpoints = 50000
+	modifier = {
+		ship_armor_add = 50000
+		ship_shield_add = 25000
+	}
+	section_slots = {
+		"bow" = { locator = part2 }
+		"core" = { locator = part2 }
+		"stern"  = { locator = part2 }
+	}
+	size_multiplier = 16
+	fleet_slot_size = 16
+	class = shipclass_military
+	base_buildtime = 720
+	can_have_federation_design = no
+	enable_default_design = yes
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+    required_component_set = "ftl_components"
+    required_component_set = "thruster_components"
+    required_component_set = "sensor_components"
+    required_component_set = "combat_computers"
+	default_behavior = artillery
+	enable_3dview_in_ship_browser  = no
+	possible_country = {
+		has_authority = auth_gf_sfdoll
+	}
+	prerequisites = {
+		tech_ship_air_defense_sfdoll
+	}
+	num_target_locators = 10
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 960
+		}
+		upkeep = {
+			energy = @titan_upkeep_energy
+			alloys = @titan_upkeep_alloys
+		}
+	}
+}
 
 #信标船
 ship_change_hyperlane_beacon_sfdoll = {
@@ -128,11 +179,9 @@ ship_carrier_2_sfdoll ={
 	required_component_set = "ship_aura_components"
 	default_behavior = carrier
 	combat_disengage_chance = -0.9
-	potential_construction = {
-		owner = {
-			has_country_flag = sfdoll_empire
-		}
-	}	
+	possible_country = {
+		has_authority = auth_gf_sfdoll
+	}
 	prerequisites = {
 		tech_ship_carrier_2_sfdoll
 	}
@@ -181,6 +230,9 @@ sfdoll_homeless_ship = {
 	#记得修改
 	components_add_to_cost = yes
 	prerequisites = { "tech_sfdoll_homeless_ship" }
+	possible_country = {
+		has_authority = auth_gf_sfdoll
+	}
 
 	default_behavior = carrier
 	class = shipclass_military
@@ -233,6 +285,9 @@ ship_sfdoll_carrier = {
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
 
 	prerequisites = { tech_ship_sfdoll_carrier }
+	possible_country = {
+		has_authority = auth_gf_sfdoll
+	}
 	default_behavior = carrier
 	class = shipclass_starbase
 	construction_type = starbase_shipyard
@@ -299,6 +354,9 @@ sfdoll_destroyer= {
 	components_add_to_cost = yes
 
 	prerequisites = { "tech_sfdoll_tactical_destroyer" }
+	possible_country = {
+		has_authority = auth_gf_sfdoll
+	}
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -325,7 +383,7 @@ sfdoll_destroyer= {
 }
 
 
-#
+#重型战斗舰
 sfdoll_fighter = {
 	entity = juggernaut_entity
 	max_speed = @speed_very_slow
@@ -352,7 +410,10 @@ sfdoll_fighter = {
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
 	components_add_to_cost = yes
 
-	prerequisites = { "tech_sfdoll_tactical_destroyer" }
+	prerequisites = { "tech_sfdoll_fighter" }
+	possible_country = {
+		has_authority = auth_gf_sfdoll
+	}
 
 	class = shipclass_military
 	icon = ship_size_military_16
@@ -378,5 +439,9 @@ sfdoll_fighter = {
 		alloys = 10
 	}
 }
+# tech_sfdoll_fighter:0 "大型舰体模块化"
+# tech_sfdoll_fighter_desc:0 "新型移动船坞即将代替主宰，于是，铁血尝试将主宰中蕴含的技术运用到不同方面。\n 以主宰为原型的新一代舰种，舍弃了笨重的船坞系统，转而配备足够灵活的作战和指挥系统，并利用特殊结构组装技术，让这种舰船的组装不必依赖繁冗的装配厂，从而实现量产。"
+# sfdoll_fighter:0 "重型战斗舰"
+# section_sfdoll_fighter:0 "$sfdoll_fighter$"
 
 
