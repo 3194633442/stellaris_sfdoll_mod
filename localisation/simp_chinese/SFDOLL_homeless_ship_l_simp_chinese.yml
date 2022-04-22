@@ -3,45 +3,45 @@
 
 consumer_goods_sfdoll_homeless_2_set:0 "消费品模块"
 consumer_goods_sfdoll_homeless_2_set_DESC:0 "$consumer_goods_sfdoll_homeless_2$"
-consumer_goods_sfdoll_homeless_2:0 "消费品模块\n 生产:\n §Y240 $consumer_goods$§! £consumer_goods£ \n 消耗:\n §Y6 $minerals$§! £minerals£ \n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y1 $consumer_goods$§! £consumer_goods£"
+consumer_goods_sfdoll_homeless_2:0 "消费品模块\n 生产:\n §Y60 $consumer_goods$§! £consumer_goods£ \n 消耗:\n §Y6 $minerals$§! £minerals£ \n §Y1 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
 
 alloys_sfdoll_homeless_2_set:0 "合金模块"
 alloys_sfdoll_homeless_2_set_DESC:0 "$alloys_sfdoll_homeless_2$"
-alloys_sfdoll_homeless_2:0 "合金模块\n 生产:\n §Y120 $alloys$§! £alloys£ \n 消耗:\n §Y6 $minerals$§! £minerals£ \n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y1 $consumer_goods$§! £consumer_goods£"
+alloys_sfdoll_homeless_2:0 "合金模块\n 生产:\n §Y30 $alloys$§! £alloys£ \n 消耗:\n §Y6 $minerals$§! £minerals£ \n §Y1 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y0.5$consumer_goods$§! £consumer_goods£"
 
 
 research_sfdoll_homeless_2_set:0 "科研模块"
 research_sfdoll_homeless_2_set_DESC:0 "$research_sfdoll_homeless_2$"
-research_sfdoll_homeless_2:0 "科研模块\n 生产:\n §Y160 $physics_research$§! £physics_research£ \n §Y160 $society_research$§! £society_research£ \n §Y160 $engineering_research$§! £engineering_research£ \n 消耗:\n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y5 $consumer_goods$§! £consumer_goods£"
-
-
-sr_dark_matter_sfdoll_homeless_set:0 "暗物质模块"
-sr_dark_matter_sfdoll_homeless_set_DESC:0 "$sr_dark_matter_sfdoll_homeless$"
-sr_dark_matter_sfdoll_homeless:0 "暗物质模块\n 生产:\n §Y40 $sr_dark_matter$§! £sr_dark_matter£ \n 消耗:\n §Y20 $energy$§! £energy£\n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£  \n §Y1 $consumer_goods$§! £consumer_goods£"
+research_sfdoll_homeless_2:0 "科研模块\n 生产:\n §Y40$physics_research$§! £physics_research£ \n §Y40 $society_research$§! £society_research£ \n §Y40 $engineering_research$§! £engineering_research£ \n 消耗:\n §Y1 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y2.5 $consumer_goods$§! £consumer_goods£"
 
 
 collapse_liquid_sfdoll_homeless_set:0 "坍塌液模块"
 collapse_liquid_sfdoll_homeless_set_DESC:0 "$collapse_liquid_sfdoll_homeless$"
-collapse_liquid_sfdoll_homeless:0 "坍塌液模块\n 生产:\n §Y80 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n 消耗:\n §Y40 $energy$§! £energy£ \n §Y1 $consumer_goods$§! £consumer_goods£"
+collapse_liquid_sfdoll_homeless:0 "坍塌液模块\n 生产:\n §Y20 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n 消耗:\n §Y20 $energy$§! £energy£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+
+
+sr_dark_matter_sfdoll_homeless_set:0 "暗物质模块"
+sr_dark_matter_sfdoll_homeless_set_DESC:0 "$sr_dark_matter_sfdoll_homeless$"
+sr_dark_matter_sfdoll_homeless:0 "暗物质模块\n 生产:\n §Y10 $sr_dark_matter$§! £sr_dark_matter£ \n 消耗:\n §Y10 $energy$§! £energy£  \n §Y0.5$consumer_goods$§! £consumer_goods£"
 
 
 college_sfdoll_homeless_set:0 "星舰学院"
 college_sfdoll_homeless_set_DESC:0 "$college_sfdoll_homeless$"
-college_sfdoll_homeless:0 "星舰学院\n 生产:\n §Y80 $unity$§! £unity£ \n §Y24 $society_research$§! £society_research£ \n 消耗:\n §Y5 $consumer_goods$§! £consumer_goods£"
+college_sfdoll_homeless:0 "星舰学院\n 生产:\n §Y20 $unity$§! £unity£ \n §Y6 $society_research$§! £society_research£ \n 消耗:\n §Y2.5 $consumer_goods$§! £consumer_goods£"
 
 energy_sfdoll_homeless_set:0 "能源模块"
 energy_sfdoll_homeless_set_DESC:0 "$energy_sfdoll_homeless$"
-energy_sfdoll_homeless:0 "能源模块 \n 生产:\n §Y240 $energy$§! £energy£ \n 消耗:\n §Y1 $consumer_goods$§! £consumer_goods£ \n §Y4 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£"
+energy_sfdoll_homeless:0 "能源模块 \n 生产:\n §Y60 $energy$§! £energy£ \n 消耗:\n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ "
 
 
 minerals_sfdoll_homeless_set:0 "物质合成模块"
 minerals_sfdoll_homeless_set_DESC:0 "$minerals_sfdoll_homeless$"
-minerals_sfdoll_homeless:0 "物质合成模块 \n 生产:\n §Y120 $minerals$§! £minerals£ \n 消耗:\n §Y1 $consumer_goods$§! £consumer_goods£ \n §Y4 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£"
+minerals_sfdoll_homeless:0 "物质合成模块 \n 生产:\n §Y30 $minerals$§! £minerals£ \n 消耗:\n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ "
 
 
 tech_sfdoll_homeless_ship:0 "零重力工业"
-tech_sfdoll_homeless_ship_desc:0 "星舰城市可充分利用失重环境进行生产，并支持铁血人形的长期生活.\n 大型的星舰城市拥有更多槽位，但造价也更贵"
+tech_sfdoll_homeless_ship_desc:0 "利用太空的失重环境，我们可以发展高效的太空工业。同时，通过素体改造，铁血人形能够轻松适应宇宙中的真空、辐射和极端温度的环境。"
 
 sfdoll_homeless_ship:0 "星舰城市"
 section_sfdoll_homeless_core:0 "星舰城市A区"

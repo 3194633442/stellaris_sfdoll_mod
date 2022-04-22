@@ -43,17 +43,18 @@ weapon_component_template = {
 		max = 0
 	}
 	resources = {
+		category = planet_jobs
 		category = ship_components
 		cost = {
 			alloys =400
 		}
 		produces = {
-			consumer_goods = 240
+			consumer_goods = 60
 		}
 		upkeep = {
 			minerals = 6
-			GF_nyto_collapse_liquid = 2
-			consumer_goods = 1
+			GF_nyto_collapse_liquid = 1
+			consumer_goods = 0.5
 		}
 	}
 	size_restriction = { sfdoll_homeless_ship	}
@@ -103,17 +104,17 @@ weapon_component_template = {
 		max = 0
 	}
 	resources = {
-		category = ship_components
+		category = planet_jobs
 		cost = {
 			alloys = 400
 		}
 		produces = {
-			alloys = 120
+			alloys = 30
 		}
 		upkeep = {
 			minerals = 6
-			GF_nyto_collapse_liquid = 2
-			consumer_goods = 1
+			GF_nyto_collapse_liquid = 1
+			consumer_goods = 0.5
 		}
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
@@ -166,18 +167,18 @@ weapon_component_template = {
 		max = 0
 	}
 	resources = {
-		category = ship_components
+		category = planet_jobs
 		cost = {
 			alloys = 400
 		}
 		produces = {
-			physics_research = 160
-			society_research =  160
-			engineering_research =  160
+			physics_research = 40
+			society_research =  40
+			engineering_research =  40
 		}
 		upkeep = {
-			GF_nyto_collapse_liquid = 2
-			consumer_goods = 5
+			GF_nyto_collapse_liquid = 1
+			consumer_goods = 2.5
 		}
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
@@ -201,16 +202,16 @@ weapon_component_template = {
 		max = 0
 	}
 	resources = {
-		category = ship_components
+		category = planet_jobs
 		cost = {
 			alloys = 200
 		}
 		produces = {
-			GF_nyto_collapse_liquid = 80
+			GF_nyto_collapse_liquid = 20
 		}
 		upkeep = {
-			energy = 40
-			consumer_goods = 1
+			energy = 20
+			consumer_goods = 0.5
 		}
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
@@ -232,16 +233,16 @@ weapon_component_template = {
 		max = 0
 	}
 	resources = {
-		category = ship_components
+		category = planet_jobs
 		cost = {
 			alloys = 200
 		}
 		produces = {
-			sr_dark_matter = 40
+			sr_dark_matter = 10
 		}
 		upkeep = {
-			energy = 20
-			consumer_goods = 1
+			energy = 10
+			consumer_goods = 0.5
 		}
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
@@ -262,16 +263,16 @@ weapon_component_template = {
 		max = 0
 	}
 	resources = {
-		category = ship_components
+		category = planet_jobs
 		cost = {
 			alloys = 200
 		}
 		produces = {
-			unity = 80
-			society_research = 24
+			unity = 20
+			society_research = 6
 		}
 		upkeep = {
-			consumer_goods = 5
+			consumer_goods = 2.5
 		}
 	}
 	size_restriction = { sfdoll_homeless_ship	 }
@@ -292,16 +293,16 @@ weapon_component_template = {
 	size_restriction = { sfdoll_homeless_ship		}
 	power = -2000
 	resources = {
-		category = ship_components
+		category = planet_jobs
 		produces = {
-			energy = 240
+			energy = 60
 		}
 		cost = {
 			alloys = 400
 		}		
 		upkeep = {
-			consumer_goods = 1
-			GF_nyto_collapse_liquid = 4
+			GF_nyto_collapse_liquid = 2
+			consumer_goods = 0.5
 		}
 	}
 	damage = {
@@ -326,16 +327,16 @@ weapon_component_template = {
 	size_restriction = { sfdoll_homeless_ship		}
 	power = -2000
 	resources = {
-		category = ship_components
+		category = planet_jobs
 		produces = {
-			minerals  = 120
+			minerals  = 30
 		}
 		cost = {
 			alloys = 400
 		}		
 		upkeep = {
-			consumer_goods = 1
-			GF_nyto_collapse_liquid = 4
+			GF_nyto_collapse_liquid = 2
+			consumer_goods = 0.5
 		}
 	}
 	damage = {

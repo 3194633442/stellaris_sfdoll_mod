@@ -182,3 +182,31 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = sfdoll_mod_version_event.6
+	hide_window = no
+	is_triggered_only = yes
+	immediate = {
+		capital_scope = {
+			solar_system = {
+				create_fleet = {
+					name = "Name_beacon_ship_sfdoll_fleet"
+					effect = {
+						set_owner = root
+						create_ship = {
+							design = 10001
+							name = Name_beacon_ship_sfdoll
+							upgradable = no
+							
+						}
+						set_fleet_flag = lady_naming_fleet
+						set_location = ROOT.capital_scope
+						save_global_event_target_as = fleet_beacon_sfdoll_1
+						# set_event_locked = yes
+					}
+				}
+			}
+		}
+	}
+}
