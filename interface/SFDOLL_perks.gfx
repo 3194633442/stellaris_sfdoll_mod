@@ -3,8 +3,8 @@ spriteTypes = {
 	# ASCENSION PERK ICONS
 	################################################################
 	spriteType = {
-		name = "GFX_ap_digi_mind_update"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_digi_mind_update.dds"
+		name = "GFX_ap_sfdoll_digi_mind_update"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_sfdoll_digi_mind_update.dds"
 		alwaystransparent = yes
 	}
 

@@ -11,7 +11,6 @@ site_noel_sfdoll = {
 	}
 	visible = {
 		has_country_flag = sfdoll_empire
-		#has_ascension_perk = ap_digi_mind_update
 		default_site_visible_trigger = yes
 	}
 	stage = {

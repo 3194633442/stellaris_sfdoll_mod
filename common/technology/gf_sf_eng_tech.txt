@@ -12,19 +12,3 @@ tech_gf_sfdoll_assemble_building= {
 }
 
 
-
-# tech_mind_expansion_project = {
-# 	cost = @tier4cost1
-# 	area = engineering
-# 	tier = 4
-# 	category = { industry }
-# 	is_rare = yes
-# 	weight = @tier4weight1
-
-# 	potential = {
-# 		has_ascension_perk = ap_digi_mind_update
-# 	}
-# 	modifier = {
-# 		SFDOLL_species_trait_points_add = 15
-# 	}
-# }
