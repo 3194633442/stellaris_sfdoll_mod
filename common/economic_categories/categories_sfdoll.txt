@@ -1,5 +1,4 @@
-ship_components = {
-	parent = ships
+economic_sfdoll_homeless_ship = {
 	generate_mult_modifiers = {
 		cost
 		produces

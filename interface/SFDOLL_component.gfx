@@ -111,6 +111,13 @@ spriteTypes = {
 	}
 }
 
+#
+spriteTypes = {
+	spriteType = {
+		name = "GFX_component_aura_ship_support_sfdoll"
+		texturefile = "gfx/interface/icons/ship_parts/component_aura_ship_support_sfdoll.dds"
+	}
+}
 
 
 

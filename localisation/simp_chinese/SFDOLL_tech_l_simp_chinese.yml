@@ -82,15 +82,6 @@ tech_sfdoll_thruster_desc:0"通过某些奇妙的科技，铁血们得以随心�
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
 
-#flag ship
-tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
-tech_sfdoll_tactical_destroyer_desc:0 "这种被称为指挥舰的飞船，其实是测试某些科技的实验品。她的物理干涉引擎，其作用范围足以覆盖整个星系，从而为周围的舰队提供支援。"
-
-
-
-
-
-
 
 #building
 tech_sfdoll_collapse_alloys_produce:0"坍塌技术合金制造工艺"

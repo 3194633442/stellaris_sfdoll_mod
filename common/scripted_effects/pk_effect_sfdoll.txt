@@ -18,7 +18,6 @@ effect_create_change_hyperlane_beacon_sfdoll = {
 						upgradable = no
 						
 					}
-					set_fleet_flag = lady_naming_fleet
 					set_location = ROOT.capital_scope
 					save_global_event_target_as = fleet_beacon_sfdoll_1
 					# set_event_locked = yes
@@ -42,7 +41,6 @@ effect_create_change_hyperlane_beacon_sfdoll = {
 						name = Name_beacon_ship_sfdoll
 						upgradable = no
 					}
-					set_fleet_flag = lady_naming_fleet
 					set_location = ROOT.capital_scope
 					save_global_event_target_as = fleet_beacon_sfdoll_2
 					# set_event_locked = yes

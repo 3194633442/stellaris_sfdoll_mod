@@ -76,11 +76,6 @@ tech_ship_attacker_sfdoll_desc:0 "星际攻击舰可搭载足以摧毁星系的�
 ship_attacker_sfdoll:0 "星际攻击舰"
 section_ship_attacker_sfdoll:0 "$ship_attacker_sfdoll$"
 
-tech_ship_carrier_2_sfdoll:0 "移动船坞"
-tech_ship_carrier_2_sfdoll_desc:0 "移动船坞搭载了完整的舰船生产和维护设施。依靠多种尖端宇航技术，这个庞然大物能够自由地航行。"
-
-ship_carrier_2_sfdoll:0 "移动船坞"
-section_bow_ship_carrier_2_sfdoll:0 "$ship_carrier_2_sfdoll$"
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
 tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改造天体的能力。设计建造她，将会是一项宏伟的太空工程。"
@@ -99,7 +94,18 @@ section_air_defense_sfdoll_core:0 "核心"
 section_air_defense_sfdoll_stern:0 "核心"
 
 
+tech_ship_support_sfdoll:0 "力场支援舰"
+tech_ship_support_sfdoll_desc:0 "力场支援舰没有搭载传统武器。作为替代，她搭载了强大的物理干涉引擎，其作用范围足以覆盖整个星系，用于压制敌对单位并支援友军。"
+ship_support_sfdoll:0 "力场支援舰"
+section_ship_support_sfdoll:0 "$ship_support_sfdoll$"
+
+component_aura_ship_support_sfdoll:0 "范围干涉引擎"
+hostile_aura_ship_support_sfdoll:0 "力场压制"
+
 #flag ship
+tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
+tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰搭载了多项试验性科技，用于强化整个舰队的作战能力。"
+
 sfdoll_destroyer:0 "铁血指挥舰"
 bow_section_sfdoll_destroyer:0 "装备A组"
 core_section_sfdoll_destroyer:0 "装备B组"

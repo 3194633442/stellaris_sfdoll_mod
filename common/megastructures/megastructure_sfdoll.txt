@@ -1,8 +1,7 @@
 #巨型星港
 sfdoll_mega_starport = {
-	entity = "mega_shipyard_01_stage_3_entity"
-	construction_entity = "mega_shipyard_01_stage_3_entity"
-	portrait = GFX_megastructure_background_sfdoll_mega_starport
+	entity = "stions_entity"
+	construction_entity = stions_entity #"mega_shipyard_01_stage_3_entity"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
 	build_time = 3600

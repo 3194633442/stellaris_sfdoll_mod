@@ -1,0 +1,15 @@
+#力场支援舰
+ship_section_template = {
+	key = "section_ship_support_sfdoll"
+	entity = "shiledship_entity"
+	ship_size = ship_support_sfdoll
+	fits_on_slot = mid
+	should_draw_components = yes
+	icon = "GFX_ship_part_core_stern"
+	icon_frame = 1
+	large_utility_slots = 20
+	aux_utility_slots = 3
+	ai_weight = {
+		weight = 1
+	}
+}

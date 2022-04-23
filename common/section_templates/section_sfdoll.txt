@@ -70,7 +70,7 @@ ship_section_template={
 		template = "invisible_extra_large_fixed"
 		locatorname = "explosion_locator_01"		
 	}			
-	medium_utility_slots = 3
+	small_utility_slots = 3
 	aux_utility_slots = 2
 	resources={
 		category=ship_sections

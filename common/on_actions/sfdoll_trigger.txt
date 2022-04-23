@@ -215,6 +215,8 @@ on_fleet_destroyed_victim = {
 	}
 }
 
+
+
 #炸球
 on_destroy_planet_with_planet_killer_sfdoll_1 = {
 	events = {

@@ -360,7 +360,7 @@ utility_component_template = {
 	
 	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
-	size_restriction = { battleship  }	
+	size_restriction = { ship_support_sfdoll battleship }	
 	ai_weight = {	weight = 20	}
 }
 
