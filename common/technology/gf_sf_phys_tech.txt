@@ -1,19 +1,19 @@
 #AI tech
 tech_sfdoll_ogas_ai = {
 	area = physics
-	tier = 4
-	cost = @tier4cost1
+	tier = 3
+	cost = @tier3cost3
 	category = { computing }
 	icon = tech_sfdoll_ogas_ai
 	weight = @tier4weight1
 	prerequisites = {	"tech_self_aware_logic"	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {	num_tech_alternatives_add = 1	}
-	weight = @tier4weight1
+	weight = @tier3weight3
 	weight_modifier = {
 		modifier = {
-			factor = 0
-			is_ai = no
+			factor = 10
+			years_passed > 15
 		}
 	}
 }
@@ -47,6 +47,7 @@ tech_sfdoll_sophon_computer = {
 	}
 }
 
+#铁血星门
 tech_gateway_sfdoll = {
 	area = physics
 	tier = 5

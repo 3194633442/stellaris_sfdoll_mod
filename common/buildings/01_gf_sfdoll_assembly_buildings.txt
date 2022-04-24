@@ -99,6 +99,6 @@ building_sfdoll_assembly_2= {
 	# }	
 	
 	prerequisites = {
-		tech_sfdoll_nanites_goods
+		tech_sf_doll_modding_2
 	}
 }

@@ -32,11 +32,11 @@ building_sfdoll_research = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			exotic_gases = @b3_rare_cost
+			energy = @b3_rare_cost
 		}
 		upkeep = {
 			energy = @b3_upkeep
-			exotic_gases = @b3_rare_upkeep
+			energy = @b3_rare_upkeep
 		}
 	}
 }

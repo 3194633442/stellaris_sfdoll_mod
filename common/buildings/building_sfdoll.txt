@@ -1,5 +1,5 @@
 building_sfdoll_planet_computer = {
-	base_buildtime = @b2_time
+	base_buildtime = @b3_time
 	can_be_disabled = yes
 	base_cap_amount = 1
 	icon = building_sfdoll_planet_computer
@@ -32,12 +32,10 @@ building_sfdoll_planet_computer = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
-			rare_crystals = @b2_rare_cost
+			minerals = @b3_minerals
 		}
 		upkeep = {
-			energy = @b2_upkeep
-			rare_crystals = @b2_rare_upkeep
+			energy = @b3_upkeep
 		}
 	}
 }
