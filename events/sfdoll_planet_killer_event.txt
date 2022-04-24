@@ -558,3 +558,94 @@ planet_event = {
 		}
 	}
 }
+
+
+#T槽：视界之剑
+fleet_event = {
+	id = sfdoll_planet_killer_event.9
+	hide_window = no
+	is_triggered_only = yes
+	trigger = {
+		any_owned_ship = {
+			has_component = sfdoll_weapen_t_7
+		}
+		from = {
+			OR = {
+				is_a_planet = yes
+				is_star = yes
+				is_colony = yes
+			}
+			NOT = {
+				OR = {
+					is_planet_class = pc_black_hole
+					is_planet_class = pc_shattered
+					is_planet_class = pc_shattered_2
+					is_planet_class = pc_shattered_ring_habitable
+					has_planet_flag = attacked_by_sfdoll_weapen_t_7
+				}
+			}
+		}
+	}
+	immediate = {
+		#威慑值和得分
+		owner = {
+			add_threat = { who = from.owner amount = 3 }
+			#save_event_target_as = crisis_country
+			add_victory_score = {
+				source = destroyed_stars_score
+				score = 5
+			}
+		}
+		
+		#planet
+		from = {
+			#处理殖民地
+			if = {
+				limit = { is_colony = yes }
+				every_owned_pop = {
+					kill_pop = yes
+				}
+				destroy_colony = yes
+			}
+			#炸的是恒星
+			if = {
+				limit =  { is_star = yes }
+				from = {
+					owner = {
+						#初次炸恒星
+						if = {
+							limit = {
+								NOT = { has_country_flag = cracked_first_star }
+							}
+							set_country_flag = cracked_first_star
+						}
+					}
+				}
+				#变成黑洞
+				change_pc = pc_black_hole
+				clear_deposits = yes
+				reset_planet = yes
+			}
+			else = {
+				change_variable = {
+					which = planet_size_sfdoll
+					value = trigger:planet_size
+				}
+				divide_variable = {
+					which = planet_size_sfdoll
+					value = 4
+				}
+				change_pc = pc_black_hole
+				clear_deposits = yes
+				set_planet_size = planet_size_sfdoll
+				clear_variable = planet_size_sfdoll
+			}
+			#防止重复触发
+			set_timed_planet_flag = {
+				flag = attacked_by_sfdoll_weapen_t_7
+				days = 1
+			}
+
+		}
+	}
+}

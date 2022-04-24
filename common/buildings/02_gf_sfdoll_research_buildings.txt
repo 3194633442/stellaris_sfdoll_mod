@@ -43,7 +43,7 @@ building_sfdoll_research = {
 building_sfdoll_research_2 = {
 	base_buildtime =  @b2_time
 	category = research
-	icon = building_sfdoll_research
+	icon = building_sfdoll_research_2
 	can_build = no
 	potential = {
 		# 铁血帝国才能造

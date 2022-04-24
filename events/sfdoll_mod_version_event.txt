@@ -189,22 +189,8 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		capital_scope = {
-			solar_system = {
-				create_fleet = {
-					name = "Name_beacon_ship_sfdoll_fleet"
-					effect = {
-						set_owner = root
-						create_ship = {
-							design = 10001
-							name = Name_beacon_ship_sfdoll
-						}
-						set_fleet_flag = lady_naming_fleet
-						set_location = ROOT.capital_scope
-						# set_event_locked = yes
-					}
-				}
-			}
+		give_technology = {
+			tech = tech_sfdoll_weapen_t_7
 		}
 	}
 }

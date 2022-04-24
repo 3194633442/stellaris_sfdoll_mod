@@ -31,3 +31,7 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "视界诞生"
 
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "转化"
 
+
+component_set_sfdoll_weapen_t_7:0 "视界之剑"
+component_set_sfdoll_weapen_t_7_desc:0 "$component_set_sfdoll_weapen_t_7$"
+sfdoll_weapen_t_7:0 "视界之剑"

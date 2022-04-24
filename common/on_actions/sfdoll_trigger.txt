@@ -215,7 +215,13 @@ on_fleet_destroyed_victim = {
 	}
 }
 
-
+#From = Planet/Starbase/Megastructure scope
+#This = Fleet scope
+on_fleet_enter_orbit = {
+	events = {
+		sfdoll_planet_killer_event.9
+	}
+}
 
 #炸球
 on_destroy_planet_with_planet_killer_sfdoll_1 = {
