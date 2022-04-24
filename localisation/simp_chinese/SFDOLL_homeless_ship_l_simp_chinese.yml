@@ -47,6 +47,7 @@ sfdoll_homeless_ship:0 "星舰城市"
 section_sfdoll_homeless_core:0 "星舰城市A区"
 section_sfdoll_homeless_meidm:0 "星舰城市B区"
 section_sfdoll_homeless_end:0 "星舰城市C区"
+section_sfdoll_homeless_4:0 "星舰城市防御系统"
 sfdoll_homeless_ship_reactor:0 "星舰城市反应堆"
 sfdoll_homeless_ship_thruster_1:0 "星舰城市推进器"
 

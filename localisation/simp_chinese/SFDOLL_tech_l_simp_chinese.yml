@@ -11,19 +11,9 @@ tech_sfdoll_sophon_computer_desc:0 "智子是一种基本粒子尺度的超级�
 tech_sfdoll_psychohistory:0 "铁血心理历史学"
 tech_sfdoll_psychohistory_desc:0 "通过对庞大的人口进行统计,我们或许能预见某些未来."
 
-#army
-tech_sfdoll_army:0"火控更新"
-tech_sfdoll_army_desc:0"更好的火控系统"
-tech_sfoll_heavy_army:0"钢铁风暴"
-tech_sfoll_heavy_army_desc:0"用于陆战的先进重型兵器"
-
-tech_sfdoll_army_building:0"基地改良"
-tech_sfdoll_army_building_desc:0"建造更好用的军事基地"
-
-
 #解锁建筑槽位
-tech_sfdoll_social_reform:0 "铁血改革计划"
-tech_sfdoll_social_reform_desc:0 "铁血的世界需要改变"
+tech_sfdoll_social_reform:0 "铁血改革"
+tech_sfdoll_social_reform_desc:0 "在太空国度日渐扩张的当下，我们需要更新自己的国家建设理论。"
 
 
 #eng
@@ -74,10 +64,10 @@ tech_sfdoll_jump_drive:0"铁血跃迁引擎"
 tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上"
 
 tech_gateway_sfdoll:0 "铁血星门"
-tech_gateway_sfdoll_desc:0 "铁血们设计了一种星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
+tech_gateway_sfdoll_desc:0 "参考锡安中的某些传输技术，铁血们设计了一种星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
-tech_sfdoll_thruster_desc:0"通过某些奇妙的科技，铁血们得以随心所欲地操纵飞船的运动"
+tech_sfdoll_thruster_desc:0"这些推进系统可以随心所欲地操纵飞船的运动。它们的运作似乎违反了过去的物理常识。"
 
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
@@ -85,10 +75,10 @@ tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形
 
 #building
 tech_sfdoll_collapse_alloys_produce:0"坍塌技术合金制造工艺"
-tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌液，控制中子等原材料"
+tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌液，控制中子等原材料。"
 
 tech_sfdoll_nanites_goods:0 "坍塌技术工业"
-tech_sfdoll_nanites_goods_desc:0 "得益于坍塌技术，我们的生产效率和工艺水准飞速进步"
+tech_sfdoll_nanites_goods_desc:0 "得益于坍塌技术，我们的生产效率和工艺水准飞速进步。"
 
 tech_sfdoll_chemical:0 "铁血极速化学合成"
 tech_sfdoll_chemical_desc:0 "$building_sfdoll_gases_plant_desc$"

@@ -29,7 +29,8 @@ tech_sfdoll_army = {
 	potential = { has_authority = auth_gf_sfdoll }
 	weight = @tier2weight1
 }
-tech_sfoll_heavy_army = {
+#陆军和基地
+tech_sfdoll_heavy_army = {
 	cost = @tier4cost2 
 	area = society
 	tier = 4
@@ -37,19 +38,6 @@ tech_sfoll_heavy_army = {
 	icon = tech_sfdoll_army
 	potential = { has_authority = auth_gf_sfdoll }
 	weight = @tier4weight2
-}
-
-tech_sfdoll_army_building = {
-	cost = @tier4cost1 
-	area = society
-	tier = 4
-	category = { military_theory }
-	icon = tech_sfdoll_army_building
-	potential = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_global_defense_grid
-	}
-	weight = @tier4weight1
 }
 
 
@@ -136,8 +124,7 @@ tech_sfdoll_social_reform = {
 	modifier = {
 		country_government_civic_points_add = 1
 		country_base_influence_produces_add = 1
-		planet_max_buildings_add = 4
 	}
 
-	weight = @tier3weight3
+	weight = 0
 }

@@ -62,8 +62,7 @@ decision_planet_to_sfdoll_city = {
 	resources = {
 		category = decisions
 		cost = {
-			minerals = 5000
-			GF_nyto_collapse_liquid  = 5000
+			minerals = 10000
 		}
 	}	
 	prerequisites = {
@@ -111,7 +110,7 @@ decision_planet_to_sfdoll_rw = {
 		category = decisions
 		cost = {
 			minerals = 5000
-			GF_nyto_collapse_liquid  = 5000
+			alloys = 5000
 		}
 	}	
 	prerequisites = {

@@ -247,12 +247,12 @@ sfdoll_homeless_ship = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 10000
+			alloys = 40000
 			unity = 480
 		}
 		upkeep = {
-			energy = 120
-			alloys = 60
+			energy = 60
+			alloys = 30
 		}
 	}
 	min_upgrade_cost = {

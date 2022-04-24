@@ -121,8 +121,8 @@ building_sfdoll_museum:0"铁血国家博物馆"
 building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，可为相关研究提供有力支持。门口摆放了莱柯，露尼西亚和指挥官等人的模型。"
 
 #army
-building_sfdoll_army_2:0 "铁血先进军事基地"
-building_sfdoll_army_2_desc:0 "拥有先进设施的基地"
+building_sfdoll_army_2:0 "铁血强化军事基地"
+building_sfdoll_army_2_desc:0 "这些基地配备了铁血的尖端军事设施"
 
 job_sfdoll_tactical:0"战术人形"
 job_sfdoll_tactical_plural:0"战术人形"

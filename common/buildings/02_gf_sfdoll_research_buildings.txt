@@ -36,7 +36,6 @@ building_sfdoll_research = {
 		}
 		upkeep = {
 			energy = @b3_upkeep
-			energy = @b3_rare_upkeep
 		}
 	}
 }

@@ -31,6 +31,9 @@ country_event = {
 	immediate = {
 		capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_DIGI_PROJECT		}	}
 	}
+	option = {
+		name = sfdoll_to_zion_event.2_option
+	}
 }
 
 #成功发掘数据
