@@ -45,73 +45,31 @@ planet_event = {
 			clear_deposits = yes
 			reset_planet = yes
 		}
-		else = {
-			change_variable = {
-				which = planet_size_sfdoll
-				value = trigger:planet_size
+		else_if = {
+			#环世界
+			limit  = {
+				is_ringworld = yes
 			}
-			divide_variable = {
-				which = planet_size_sfdoll
-				value = 4
-			}
-			change_pc = pc_black_hole
+			change_pc = pc_shattered_ring_habitable
 			clear_deposits = yes
-			set_planet_size = planet_size_sfdoll
-			clear_variable = planet_size_sfdoll
 		}
-		
-		#行星需要缩小
-		# if = {
-		# 	limit = { is_star = no }
-		# 	set_planet_size = 25
-		# }
-		
-		# set_planet_entity = {
-		# 	entity = black_hole_sfdoll_entity
-		# }
-
-		# set_planet_entity = {
-		# 	entity = black_hole_sfdoll_entity
-		# }
-		#炸球相关
-		# change_pc = pc_shattered
+		# else = {
+		# 	change_pc = pc_shattered
 		# 	clear_deposits = yes
-		
-		#改星系的star_class为黑洞，可能涉及建造物质解压巨构，会把所有恒星变黑洞
-		# if = {
-		# 	limit = { is_star = yes }
-		# 	solar_system = {
-		# 		set_star_class = sc_black_hole
-		# 	}
 		# }
-
-		# 特效?测试
-		# create_ambient_object = {
-		# 	type = "destroyed_system"
-		# 	location = this
-		# }
-		# last_created_ambient_object = {
-		# 	set_ambient_object_flag = destroyed_system_effect
-		# 	set_location = {
-		# 		target = prev
-		# 		distance = 0
-		# 		angle = random
+		# else = {
+		# 	change_variable = {
+		# 		which = planet_size_sfdoll
+		# 		value = trigger:planet_size
 		# 	}
-		# }
-		# if = {
-		# 	limit = { is_star = yes }
-		# 	create_ambient_object = {
-		# 		type = "star_explosion"
-		# 		play_animation_once = yes
-		# 		location = this
+		# 	divide_variable = {
+		# 		which = planet_size_sfdoll
+		# 		value = 4
 		# 	}
-		# 	last_created_ambient_object = {
-		# 		set_location = {
-		# 			target = prev
-		# 			distance = 0
-		# 			angle = random
-		# 		}
-		# 	}
+		# 	change_pc = pc_black_hole
+		# 	clear_deposits = yes
+		# 	set_planet_size = planet_size_sfdoll
+		# 	clear_variable = planet_size_sfdoll
 		# }
 	}
 }
@@ -560,18 +518,46 @@ planet_event = {
 }
 
 
-#T槽：视界之剑
+#T槽：视界之剑，判断是否可以触发,from  planet
+# fleet_event = {
+# 	id = sfdoll_planet_killer_event.9
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	trigger = {
+# 		owner = {
+# 			has_authority = auth_gf_sfdoll
+# 			NOT = {
+# 				has_edict = sfdoll_weapen_t_7_control
+# 			}
+# 		}
+# 	}
+# 	immediate = {
+# 		fleet_event = {
+# 			id = sfdoll_planet_killer_event.10
+# 		}
+# 	}
+# }
+#from is planet
 fleet_event = {
-	id = sfdoll_planet_killer_event.9
+	id = sfdoll_planet_killer_event.10
+	title = sfdoll_planet_killer_event.10
+	desc = sfdoll_planet_killer_event.10.desc
+	location = this
 	hide_window = no
 	is_triggered_only = yes
 	trigger = {
+		owner = {
+			NOT = {
+				has_edict = sfdoll_weapen_t_7_control
+			}
+		}
 		any_owned_ship = {
 			has_component = sfdoll_weapen_t_7
 		}
 		from = {
 			OR = {
 				is_a_planet = yes
+				is_ringworld = yes
 				is_star = yes
 				is_colony = yes
 			}
@@ -581,71 +567,75 @@ fleet_event = {
 					is_planet_class = pc_shattered
 					is_planet_class = pc_shattered_2
 					is_planet_class = pc_shattered_ring_habitable
-					has_planet_flag = attacked_by_sfdoll_weapen_t_7
 				}
 			}
 		}
 	}
+
 	immediate = {
-		#威慑值和得分
-		owner = {
-			add_threat = { who = from.owner amount = 3 }
-			#save_event_target_as = crisis_country
-			add_victory_score = {
-				source = destroyed_stars_score
-				score = 5
-			}
-		}
-		
-		#planet
 		from = {
-			#处理殖民地
-			if = {
-				limit = { is_colony = yes }
-				every_owned_pop = {
-					kill_pop = yes
+			save_event_target_as = target_planet_sfdoll_weapen_t_7
+		}
+	}
+	#摧毁星球
+	option = {
+		name = sfdoll_planet_killer_event.10_a
+		hidden_effect = {
+			#威慑值和得分
+			owner = {
+				add_threat = { who = from.owner amount = 3 }
+				#save_event_target_as = crisis_country
+				add_victory_score = {
+					source = destroyed_stars_score
+					score = 5
 				}
-				destroy_colony = yes
 			}
-			#炸的是恒星
-			if = {
-				limit =  { is_star = yes }
-				from = {
-					owner = {
-						#初次炸恒星
-						if = {
-							limit = {
-								NOT = { has_country_flag = cracked_first_star }
+			
+			#planet
+			from = {
+				#处理殖民地
+				if = {
+					limit = { is_colony = yes }
+					every_owned_pop = {
+						kill_pop = yes
+					}
+					destroy_colony = yes
+				}
+				#炸的是恒星
+				if = {
+					limit =  { is_star = yes }
+					root = {
+						owner = {
+							#初次炸恒星
+							if = {
+								limit = {
+									NOT = { has_country_flag = cracked_first_star }
+								}
+								set_country_flag = cracked_first_star
 							}
-							set_country_flag = cracked_first_star
 						}
 					}
+					#变成黑洞
+					change_pc = pc_black_hole
+					clear_deposits = yes
+					reset_planet = yes
 				}
-				#变成黑洞
-				change_pc = pc_black_hole
-				clear_deposits = yes
-				reset_planet = yes
-			}
-			else = {
-				change_variable = {
-					which = planet_size_sfdoll
-					value = trigger:planet_size
+				else_if = {
+					#环世界
+					limit  = {
+						is_ringworld = yes
+					}
+					change_pc = pc_shattered_ring_habitable
+					clear_deposits = yes
 				}
-				divide_variable = {
-					which = planet_size_sfdoll
-					value = 4
+				else = {
+					change_pc = pc_shattered
+					clear_deposits = yes
 				}
-				change_pc = pc_black_hole
-				clear_deposits = yes
-				set_planet_size = planet_size_sfdoll
-				clear_variable = planet_size_sfdoll
 			}
-			#防止重复触发
-			set_timed_planet_flag = {
-				flag = attacked_by_sfdoll_weapen_t_7
-				days = 1
-			}
-
 		}
+	}
+	option = {
+		name = sfdoll_break_option
 	}
 }

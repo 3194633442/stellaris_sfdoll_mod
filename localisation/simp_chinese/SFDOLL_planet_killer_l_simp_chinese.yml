@@ -32,6 +32,13 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "视界诞生"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "转化"
 
 
-component_set_sfdoll_weapen_t_7:0 "视界之剑"
-component_set_sfdoll_weapen_t_7_desc:0 "$component_set_sfdoll_weapen_t_7$"
 sfdoll_weapen_t_7:0 "视界之剑"
+component_set_sfdoll_weapen_t_7:0 "视界之剑"
+component_set_sfdoll_weapen_t_7_DESC:0 "用一种场将目标摧毁。即使是光，被锁定后也无法逃逸。装备$component_set_sfdoll_weapen_t_7$的舰队，在进入星球轨道时，可以将星球摧毁。你可以在法令中关闭摧毁星球的功能。"
+
+sfdoll_planet_killer_event.10:0 "$sfdoll_weapen_t_7$：控制界面"
+sfdoll_planet_killer_event.10.desc:0 "装备了§H$sfdoll_weapen_t_7$§!的舰队进入了§H[target_planet_sfdoll_weapen_t_7.name]§!的轨道。是否摧毁该天体？\n你可以在法令中关闭或开启此功能。"
+sfdoll_planet_killer_event.10_a:0 "摧毁§H[target_planet_sfdoll_weapen_t_7.name]§!"
+
+edict_sfdoll_weapen_t_7_control:0 "视界之剑：特殊功能关闭"
+edict_sfdoll_weapen_t_7_control_desc:0 "关闭视界之剑的天体摧毁功能。舰队进入轨道时，不再询问是否摧毁天体。"

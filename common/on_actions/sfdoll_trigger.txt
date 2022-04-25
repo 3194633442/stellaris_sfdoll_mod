@@ -219,7 +219,7 @@ on_fleet_destroyed_victim = {
 #This = Fleet scope
 on_fleet_enter_orbit = {
 	events = {
-		sfdoll_planet_killer_event.9
+		sfdoll_planet_killer_event.10
 	}
 }
 
