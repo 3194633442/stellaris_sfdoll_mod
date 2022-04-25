@@ -54,7 +54,7 @@ building_sfdoll_army_2 = {
 	icon = building_sfdoll_army_2
 	category = army
 
-	prerequisites = { tech_sfoll_heavy_army }
+	prerequisites = { tech_sfdoll_heavy_army }
 	potential = {
 		exists = owner
 		owner = {

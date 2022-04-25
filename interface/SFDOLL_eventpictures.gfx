@@ -173,3 +173,11 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 }
+
+spriteTypes = {	
+	spriteType = {
+		name = GFX_evp_sfdoll_planet_beam
+		texturefile = "gfx/event_pictures/evp_sfdoll_planet_beam.dds"
+		alwaystransparent = yes
+	}
+}

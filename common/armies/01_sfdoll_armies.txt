@@ -38,7 +38,7 @@ sfoll_heavy_army = {
 	health = 10
 	time = 500
 	icon = GFX_army_type_assault
-	prerequisites = {	tech_sfoll_heavy_army }
+	prerequisites = {	tech_sfdoll_heavy_army }
 
 	resources = {
 		category = armies

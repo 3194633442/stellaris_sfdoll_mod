@@ -518,43 +518,39 @@ planet_event = {
 }
 
 
-#T槽：视界之剑，判断是否可以触发,from  planet
-# fleet_event = {
-# 	id = sfdoll_planet_killer_event.9
-# 	hide_window = yes
-# 	is_triggered_only = yes
-# 	trigger = {
-# 		owner = {
-# 			has_authority = auth_gf_sfdoll
-# 			NOT = {
-# 				has_edict = sfdoll_weapen_t_7_control
-# 			}
-# 		}
-# 	}
-# 	immediate = {
-# 		fleet_event = {
-# 			id = sfdoll_planet_killer_event.10
-# 		}
-# 	}
-# }
-#from is planet
+#T槽：视界之剑，判断是否可以触发,from is planet
 fleet_event = {
-	id = sfdoll_planet_killer_event.10
-	title = sfdoll_planet_killer_event.10
-	desc = sfdoll_planet_killer_event.10.desc
-	location = this
-	hide_window = no
+	id = sfdoll_planet_killer_event.9
+	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
 		owner = {
+			is_ai = no
 			NOT = {
 				has_edict = sfdoll_weapen_t_7_control
 			}
 		}
+	}
+	immediate = {
+		fleet_event = {
+			id = sfdoll_planet_killer_event.10
+		}
+	}
+}
+#fromfrom is planet
+fleet_event = {
+	id = sfdoll_planet_killer_event.10
+	title = sfdoll_planet_killer_event.10
+	desc = sfdoll_planet_killer_event.10.desc
+	picture = GFX_evp_sfdoll_planet_beam
+	location = this
+	hide_window = no
+	is_triggered_only = yes
+	trigger = {
 		any_owned_ship = {
 			has_component = sfdoll_weapen_t_7
 		}
-		from = {
+		fromfrom = {
 			OR = {
 				is_a_planet = yes
 				is_ringworld = yes
@@ -569,12 +565,6 @@ fleet_event = {
 					is_planet_class = pc_shattered_ring_habitable
 				}
 			}
-		}
-	}
-
-	immediate = {
-		from = {
-			save_event_target_as = target_planet_sfdoll_weapen_t_7
 		}
 	}
 	#摧毁星球
@@ -592,7 +582,7 @@ fleet_event = {
 			}
 			
 			#planet
-			from = {
+			fromfrom = {
 				#处理殖民地
 				if = {
 					limit = { is_colony = yes }
