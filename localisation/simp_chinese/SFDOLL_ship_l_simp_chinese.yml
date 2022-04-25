@@ -29,8 +29,7 @@ component_set_sfdoll_aux_repair_ship_DESC:0"损管系统可以提高铁血飞船
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
 sfdoll_aux_quality_rebuilding_DESC:0 "质量再生系统可提高飞船的自持力"
 
-aux_sfdoll_collapse_power:0 "坍塌辅助能源"
-aux_sfdoll_collapse_power_DESC:0 "通过坍塌科技压缩体积的高效辅助能源，可以装备在各类舰船上"
+
 
 
 sfdoll_thruster:0"铁血先进机动系统"
@@ -57,6 +56,12 @@ component_set_sfdoll_ship_defense_s:0"铁血飞船防御系统"
 component_set_sfdoll_ship_defense_s_DESC:0"铁血飞船配备的标准防御系统，能够全方位抵御攻击"
 
 sfdoll_ship_sensors:0"铁血舰载传感器"
+
+tech_sfdoll_aux_repair_ship:0"铁血坍塌炉"
+tech_sfdoll_aux_repair_ship_desc:0 "铁血坍塌炉将一组奇点冷冻在可控黑洞中，用于干涉物理法则并提供庞大的能量。"
+
+aux_sfdoll_collapse_power:0 "铁血坍塌炉"
+aux_sfdoll_collapse_power_DESC:0 "通过坍塌科技压缩体积的高效辅助能源，可以装备在各类舰船上"
 
 CORVETTE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
 DESTROYER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"

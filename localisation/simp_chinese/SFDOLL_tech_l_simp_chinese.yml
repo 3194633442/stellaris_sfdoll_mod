@@ -54,8 +54,7 @@ tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
 tech_aux_sfdoll_collapse_power:0 "$aux_sfdoll_collapse_power$"
 tech_aux_sfdoll_collapse_power_desc:0 "$aux_sfdoll_collapse_power_DESC$"
 
-tech_sfdoll_aux_repair_ship:0"$component_set_sfdoll_aux_repair_ship$"
-tech_sfdoll_aux_repair_ship_desc:0"$component_set_sfdoll_aux_repair_ship_DESC$"
+
 
 tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"

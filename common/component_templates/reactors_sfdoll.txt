@@ -274,19 +274,19 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 600
+	power = 1800
 	resources = {
 		category = ship_components
 		cost = {
 			GF_nyto_collapse_liquid	= 2
-			alloys = 10
+			sr_dark_matter = 10
 		}
 		upkeep = {
 			energy = 0.3
 			alloys = 0.05
 		}
 	}
-	prerequisites = { tech_sfdoll_collapse_liquid_produce }
+	prerequisites = { tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
 	size_restriction = { corvette colonizer sponsored_colonizer constructor science transport  }
 	ai_weight = {	weight = 20	}
@@ -297,12 +297,12 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 1300
+	power = 3900
 	resources = {
 		category = ship_components
 		cost = {
 			GF_nyto_collapse_liquid = 6
-			alloys = 20
+			sr_dark_matter = 20
 		}
 		upkeep = {
 			energy = 0.5
@@ -310,7 +310,7 @@ utility_component_template = {
 		}
 	}
 	
-	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
+	prerequisites = {  tech_aux_sfdoll_collapse_power  }
 	component_set = "power_core"
 	size_restriction = { destroyer }
 	ai_weight = {	weight = 20	}
@@ -321,12 +321,12 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 3000
+	power = 9000
 	resources = {
 		category = ship_components
 		cost = {
 			GF_nyto_collapse_liquid = 12
-			alloys = 60
+			sr_dark_matter = 60
 		}
 		upkeep = {
 			energy = 0.8
@@ -334,7 +334,7 @@ utility_component_template = {
 		}
 	}
 	
-	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
+	prerequisites = {  tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
 	size_restriction = { cruiser }
 	ai_weight = {	weight = 20	}
@@ -345,7 +345,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 4800
+	power = 14400
 	resources = {
 		category = ship_components
 		cost = {
@@ -370,7 +370,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 15000
+	power = 45000
 	resources = {
 		category = ship_components
 		cost = {
@@ -395,7 +395,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 40000
+	power = 120000
 	prerequisites = {  tech_sfdoll_collapse_liquid_produce  }
 	component_set = "power_core"
 	size_restriction = {  sfdoll_destroyer   ship_attacker_sfdoll colossus }
@@ -408,7 +408,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 150000
+	power = 450000
 	component_set = "power_core"
 	size_restriction = { ship_sfdoll_carrier }
 	ai_weight = {	weight = 20	}
@@ -420,7 +420,7 @@ utility_component_template = {
 	size = large
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 1500
+	power = 3500
 	resources = {
 		category = ship_components
 		cost = {
@@ -449,7 +449,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
 	icon_frame = 1
-	power = 2500
+	power = 7500
 	resources = {
 		category = ship_components
 		cost = {

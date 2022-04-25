@@ -65,7 +65,7 @@ special_project = {
 #迈向锡安
 special_project = {
 	key = "SFDOLL_TO_ZION_PROJECT"
-	event_chain = sfdoll_to_zion_chain
+	event_chain = sfdoll_search_zion_chain
 	#待修改
 	cost = 0
 	days_to_research = 30
@@ -90,7 +90,7 @@ special_project = {
 #发掘锡安中的数据
 special_project = {
 	key = "SFDOLL_ZION_DIGI_PROJECT"
-	event_chain = sfdoll_to_zion_chain
+	event_chain =sfdoll_search_zion_chain
 	cost = 0
 	days_to_research = 60
 	tech_department = physics_technology
@@ -116,7 +116,7 @@ special_project = {
 #解析飞船中的数据
 special_project = {
 	key = "SFDOLL_ZION_SHIP_DIGI_PROJECT"
-	event_chain = sfdoll_to_zion_chain
+	event_chain = sfdoll_search_zion_chain
 	cost = 0
 	days_to_research = 60
 	tech_department = physics_technology
@@ -143,7 +143,7 @@ special_project = {
 #将母舰带到常规宇宙
 special_project = {
 	key = "SFDOLL_CREATE_MOTHER_SHIP_PROJECT"
-	event_chain = sfdoll_to_zion_chain
+	event_chain = sfdoll_search_zion_chain
 	#待修改
 	cost = 40000
 	# days_to_research = 1
@@ -185,34 +185,6 @@ special_project = {
 		owner = {
 			country_event = {
 				id = sfdoll_gunslinger_girl_event.3
-			}
-		}
-	}
-}
-
-
-#暗物质研究
-special_project = {
-	key = "sfdoll_project_dark_matter"
-	event_chain = sfdoll_search_zion_chain
-	#待修改
-	cost = @tier4cost3
-	tech_department = physics_technology
-
-	#待修改
-	picture = GFX_evp_sfdoll_unknown_civilization_6
-	event_scope = planet_event
-	requirements = {
-		leader = scientist
-	}
-	on_success = {
-		owner = {
-			give_technology = {
-				tech = tech_dark_matter_power_core
-				message = yes
-			}
-			country_event = {
-				id = sfdoll_tech_event.3
 			}
 		}
 	}

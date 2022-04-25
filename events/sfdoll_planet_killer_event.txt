@@ -53,10 +53,11 @@ planet_event = {
 			change_pc = pc_shattered_ring_habitable
 			clear_deposits = yes
 		}
-		# else = {
-		# 	change_pc = pc_shattered
-		# 	clear_deposits = yes
-		# }
+		else = {
+			change_pc = pc_shattered
+			clear_deposits = yes
+		}
+		
 		# else = {
 		# 	change_variable = {
 		# 		which = planet_size_sfdoll
@@ -526,6 +527,7 @@ fleet_event = {
 	trigger = {
 		owner = {
 			is_ai = no
+			has_authority = auth_gf_sfdoll
 			NOT = {
 				has_edict = sfdoll_weapen_t_7_control
 			}

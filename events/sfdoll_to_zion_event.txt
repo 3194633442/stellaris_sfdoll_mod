@@ -104,6 +104,14 @@ country_event = {
 	hide_window = no
 	picture = GFX_evp_sfdoll_unknown_civilization_3
 	option = {	name = sfdoll_to_zion_event_6_option }
+	after = {
+		hidden_effect = {
+			#进一步解析飞船数据，获得科技
+			country_event = {
+				id = sfdoll_to_zion_event.10
+			}
+		}
+	}
 }
 
 # 添加打开传送门项目
@@ -116,7 +124,6 @@ country_event = {
 	picture = GFX_evp_sfdoll_unknown_civilization
 	immediate = {
 		capital_scope = { enable_special_project = {	name = SFDOLL_TO_ZION_PROJECT	}	}
-		begin_event_chain = {	event_chain = sfdoll_to_zion_chain	}
 	}
 }
 
@@ -145,5 +152,18 @@ country_event = {
 			days = 30
 		}
 		
+	}
+}
+
+#了解母舰的损伤，获得T槽
+country_event = {
+	id= sfdoll_to_zion_event.10
+	title = sfdoll_to_zion_event.10
+	desc = sfdoll_to_zion_event.10_desc
+	picture =  GFX_evp_sfdoll_digi_mind
+	is_triggered_only = yes
+	option = {
+		name = sfdoll_to_zion_event.10_option
+		add_research_option = tech_sfdoll_weapen_t_7
 	}
 }

@@ -127,7 +127,7 @@ weapon_component_template = {
 	damage = { min = -999999999999999999 max = 999999999999999999  }
 	#冷却时间要除以10
 	windup = { min = 30 max = 40 }
-	total_fire_time = 900
+	total_fire_time = 350
 	range = 300
 	accuracy = 1.0
 	tracking = 1.0

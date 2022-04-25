@@ -41,15 +41,13 @@ minerals_sfdoll_homeless:0 "质量生成模块 \n 生产:\n §Y30 $minerals$§! 
 
 
 tech_sfdoll_homeless_ship:0 "零重力工业"
-tech_sfdoll_homeless_ship_desc:0 "在星舰城市中，我们可以充分利用失重环境，发展高效工业。同时，通过素体改装，铁血人形能够适应宇宙中的真空、辐射和极端温度等状况，从而在飞船上随心所欲地生活。\n "
+tech_sfdoll_homeless_ship_desc:0 "在星舰城市中，我们可以充分利用失重环境，发展高效工业。同时，通过素体改装，铁血人形能够适应宇宙中的真空、辐射和极端温度等状况，从而在飞船上舒适地生活。\n "
 
 sfdoll_homeless_ship:0 "星舰城市"
-section_sfdoll_homeless_core:0 "星舰城市A区"
-section_sfdoll_homeless_meidm:0 "星舰城市B区"
-section_sfdoll_homeless_end:0 "星舰城市C区"
+section_sfdoll_homeless_core:0 "星舰城市"
 section_sfdoll_homeless_4:0 "星舰城市防御系统"
-sfdoll_homeless_ship_reactor:0 "星舰城市反应堆"
-sfdoll_homeless_ship_thruster_1:0 "星舰城市推进器"
+sfdoll_homeless_ship_reactor:0 "星舰城市能源中心"
+sfdoll_homeless_ship_thruster_1:0 "巨型动力系统"
 
 economic_sfdoll_homeless_ship:0 "$sfdoll_homeless_ship$"
 

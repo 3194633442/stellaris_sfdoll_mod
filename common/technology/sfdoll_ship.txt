@@ -59,6 +59,7 @@ tech_sfdoll_weapen_t_7 = {
 	cost = @tier5cost3
 	area = physics
 	tier = 5
+	is_rare = yes
 	category = { field_manipulation }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapen_t_7
@@ -83,11 +84,12 @@ tech_sfdoll_ship_defense_s = {
 	weight = @tier4weight1
 }
 
+
 #铁血跃迁引擎
 tech_sfdoll_jump_drive = {
-	cost = @tier4cost3
+	cost = @tier5cost2
 	area = physics
-	tier = 4
+	tier = 5
 	category = { field_manipulation }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_jump_drive
@@ -97,7 +99,7 @@ tech_sfdoll_jump_drive = {
 		has_technology =  tech_jump_drive_1
 	}
 	
-	weight = @tier4weight3
+	weight = @tier5weight2
 }
 #推进器
 tech_sfdoll_thruster = {
@@ -127,17 +129,17 @@ tech_sfdoll_ship_computer = {
 	weight = @tier4weight1
 }
 
-#副能源
+#能源
 tech_aux_sfdoll_collapse_power= {
-	cost = @tier4cost3
-	area = engineering
+	cost = @tier5cost2
+	tier = 5
+	area = physics
 	icon = tech_aux_sfdoll_collapse_power
-	category = { voidcraft }
+	category = { particles }
 	is_reverse_engineerable = no
 	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
 	potential = {	has_authority = auth_gf_sfdoll	}
-	tier = 4
-	weight = @tier4weight3
+	weight = @tier5weight2
 }
 
 #舰船修复A槽

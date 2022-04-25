@@ -27,17 +27,17 @@ sfdoll_to_zion_chain_title:0"迈向锡安"
 sfdoll_to_zion_chain_desc:0"前往锡安的方法已经掌握在我们手中。我们将前往避难所，寻找自己的过去与未来。"
 
 sfdoll_to_zion_event_7:0 "迈向锡安"
-sfdoll_to_zion_event_7_desc:0 "经过漫长的探索，科学家们确信，我们已经建立了前往锡安所需的技术体系,是时候展开一项大胆的实验了，用于实验的传送装置已经进行了最后的调试，我们将正式启动它，然后考察队会借助它前往锡安."
+sfdoll_to_zion_event_7_desc:0 "经过漫长的探索，铁血的科学家们认为，我们已经建立了前往锡安所需的技术体系,是时候展开一项大胆的实验了。用于实验的传送装置已经进行了最后的调试，我们将正式启动它，并尝试前往锡安."
 
-SFDOLL_TO_ZION_PROJECT:0"打开通往锡安的传送门"
-SFDOLL_TO_ZION_PROJECT_DESC:0"经过漫长的探索，科学家们确信，我们已经建立了前往锡安所需的技术体系,是时候展开一项大胆的实验了，用于实验的传送装置已经进行了最后的调试，我们将正式启动它，然后考察队会借助它前往锡安."
+SFDOLL_TO_ZION_PROJECT:0 "迈向锡安"
+SFDOLL_TO_ZION_PROJECT_DESC:0"$sfdoll_to_zion_event_7_desc$"
 
 sfdoll_to_zion_event_1:0 "迈向锡安"
 sfdoll_to_zion_event_1_desc:0 "我们的考察队已经进入了某个异空间，目前还在对该空间进行初步观察。"
 sfdoll_to_zion_event_1_option:0 "这会是我们的目的地吗？"
 
 sfdoll_to_zion_event_2:0 "建立港口"
-sfdoll_to_zion_event_2_desc:0 "对异空间的勘探结果，与铁血研究人员的预期一致。或许，我们暂时可以把这里叫做锡安。\n 考察队已经建立了港口，让我们的人员能够更顺畅地往返于两个空间。"
+sfdoll_to_zion_event_2_desc:0 "对异空间的勘探结果，与铁血研究人员的预期一致。暂时地，我们可以把这里当做锡安。\n 考察队已经建立了港口，让我们的人员能够更顺畅地往返于两个空间。"
 sfdoll_to_zion_event.2_option:0 "无论这是何地，我们唯有前进。"
 
 SFDOLL_ZION_DIGI_PROJECT:0"发掘数据"
@@ -52,25 +52,19 @@ sfdoll_to_zion_event_4_desc:0 "毫无预兆地，一艘飞船出现在我们位�
 sfdoll_to_zion_event_4_option:0 "得想办法研究它"
 
 sfdoll_to_zion_event_5:0 "成功进入不明飞船"
-sfdoll_to_zion_event_5_desc:0 "我们总算可以进入不明飞船的内部了..但是，不是我们找到了进入飞船的方法，而是这艘船主动允许我们进去。\n 这艘飞船十分古老，其年龄或许比地球文明还要大。船上的部分设备仍在工作，并表现出远超我们认识的科技水平。\n 飞船上的数据接口和我们的通用接口一致,所以，我们很快读取到了其中的数据，可以进行进一步研究了."
+sfdoll_to_zion_event_5_desc:0 "我们总算可以进入不明飞船的内部了。不是我们找到了进入飞船的方法，而是这艘船主动允许我们进去。\n 这艘飞船十分古老，其年龄或许比地球文明还要大。尽管飞船有部分损坏，但许多设备仍在工作，并表现出远超我们认识的科技水平。\n 飞船上的数据接口和我们的通用接口一致,所以，我们很快读取到了其中的数据，可以进行进一步研究了."
 sfdoll_to_zion_event_5_option:0 "通用接口？..usb3.0 ? "
 
-SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "解析锡安飞船中的数据"
-SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "锡安中的不明飞船蕴含了无比强大的科技。然而，它身上却存在着严重的损伤。为了避免进一步的损坏，我们不能把它带回银河系，只能就地展开研究，分析飞船中的数据。"
+SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "解析飞船中的数据"
+SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "锡安中的不明飞船，身上存在着严重的损伤。我们无法把它带回银河系，只能就地展开研究，解析飞船中的数据。"
 
 sfdoll_to_zion_event_6:0 "成功解析飞船中的数据"
-sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这艘船属于一种大型深空母舰，用于超星系团尺度的深空探索。这种大型母舰，名字叫做 §R耶利米哀歌§! "
+sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这艘船是一种大型深空母舰，用于超星系团尺度的深空探索。它的名字叫 §R耶利米哀歌§! "
 sfdoll_to_zion_event_6_option:0 "有趣的名字。神们也有自己的耶路撒冷吗？"
 
-
-sfdoll_project_dark_matter:0 "铁血暗物质理论"
-sfdoll_project_dark_matter_DESC:0 "我们在实验室里发现了暗物质。暗物质打破了我们的物理常识，我们应该研究它。"
-
-sfdoll_tech_event.2:0 "$sfdoll_project_dark_matter$"
-sfdoll_tech_event.2_desc:0 "$sfdoll_project_dark_matter_DESC$"
-
-sfdoll_tech_event.3:0 "铁血暗物质理论"
-sfdoll_tech_event.3_desc:0 "暗物质研究取得了部分成果"
+sfdoll_to_zion_event.10:0 "向神们追问"
+sfdoll_to_zion_event.10_desc:0 "耶利米哀歌中蕴含着神话般的科技。\n 然而，从耶利米哀歌中的战斗记录来看，它被某种敌对力量击败了。显然，遗迹文明曾经面对无比强大的敌人。\n 在获得了有限的数据后，我们可以模仿这些文明的部分技术。"
+sfdoll_to_zion_event.10_option:0 "你们究竟是谁？"
 
 
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"

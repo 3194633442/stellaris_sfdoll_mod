@@ -29,6 +29,6 @@ sfdoll_weapen_t_7_control = {
 		is_ai = no
 	}	
 	ai_weight = {
-		weight = 0
+		weight = 10
 	}	
 }
