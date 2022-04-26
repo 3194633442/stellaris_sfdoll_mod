@@ -30,7 +30,7 @@ fleet_event = {
 	immediate = {
 		set_timed_fleet_flag = {
 			flag = sfdoll_fleet_revive_lock
-			days = 38
+			days = 28
 		}
 		every_owned_ship = {
 			if = {
@@ -52,7 +52,7 @@ fleet_event = {
 		#循环执行
 		fleet_event = {
 			id = sfdoll_fleet_event.2
-			days = 40
+			days = 30
 		}
 	}
 }
