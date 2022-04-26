@@ -13,18 +13,16 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	#4250
-	damage = { min = 5500 max = 7000 }
+	damage = { min = 14000 max = 22000 }
 	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 125
+	windup = { min = 20 max = 40 }
+	total_fire_time = 170
 	range = 250
 	accuracy = 1.0
-	shield_penetration = 0.5
-	armor_penetration = 0.5
-	shield_damage = 2
-	armor_damage = 2
-	hull_damage = 1
-	power = -600
+	shield_damage = 3
+	armor_damage = 3
+	hull_damage = 4
+	power = -1200
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_1" }
@@ -36,7 +34,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 250
+			alloys = 500
 			GF_nyto_collapse_liquid = 50
 		}		
 		upkeep = {
@@ -67,18 +65,16 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	#8500
-	damage = { min = 14000 max = 22000 }
+	damage = { min = 28000 max = 44000 }
 	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 175
+	windup = { min = 20 max = 40 }
+	total_fire_time = 170
 	range = 300
-	accuracy = 1.0
-	shield_penetration = 0.75
-	armor_penetration = 0.75
-	shield_damage = 2
-	armor_damage = 2
-	hull_damage = 1
-	power = -1200
+	accuracy = 1
+	shield_damage = 3
+	armor_damage = 3
+	hull_damage = 4
+	power = -2400
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapen_t_2" }
@@ -90,7 +86,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 600
+			alloys = 1200
 			GF_nyto_collapse_liquid = 180
 		}		
 		upkeep = {
@@ -110,7 +106,7 @@ weapon_component_template = {
 	}
 }
 
-#T槽2
+#T槽
 weapon_component_template = {
 	key = "sfdoll_weapen_t_7"
 	size = titanic
@@ -126,25 +122,25 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = -999999999999999999 max = 999999999999999999  }
 	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 350
+	windup = { min = 40 max = 60 }
+	total_fire_time = 250
 	range = 300
 	accuracy = 1.0
 	tracking = 1.0
-	power = -20000
+	power = -10000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapen_t_7" }
 	component_set = "component_set_sfdoll_weapen_t_7"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic }
+	tags = { weapon_type_energy  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5000
-			GF_nyto_collapse_liquid = 360
+			alloys = 4000
+			GF_nyto_collapse_liquid = 180
 		}		
 		upkeep = {
 			energy = 50
@@ -174,19 +170,18 @@ weapon_component_template = {
 	projectile_gfx = infrared_laser_m
 	entity = invisible_turret_entity
 	#static_rotation = yes
-	use_ship_kill_target = no
-	#3600 L1800 m900 s450
-	damage = { min = 250 max = 350 }
+	use_ship_kill_target = yes
+	damage = { min = 800 max = 1000 }
 	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 45
+	windup = { min = 20 max = 40 }
+	total_fire_time = 70
 	range = 200
 	accuracy = 1.0
 	tracking = 0.50
-	shield_penetration = 1.0
-	armor_penetration = 1.0
-	hull_damage = 1
-	power = -75
+	shield_damage = 3
+	armor_damage = 3
+	hull_damage = 4
+	power = -150
 	use_ship_kill_target = yes
 	
 	#待修改
@@ -198,7 +193,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 60
 		}		
 		upkeep = {
 			energy = 0.5
@@ -223,19 +218,18 @@ weapon_component_template = {
 	projectile_gfx = infrared_laser_m
 	entity = invisible_turret_entity
 	#static_rotation = yes
-	use_ship_kill_target = no
-	#L1800 m900 s450
-	damage = { min = 500 max = 750 }
+	use_ship_kill_target = yes
+	damage = { min = 1500 max = 2100 }
 	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 45
+	windup = { min = 20 max = 40 }
+	total_fire_time = 70
 	range = 200
 	accuracy = 1.0
 	tracking = 0.50
-	shield_penetration = 1.0
-	armor_penetration = 1.0
-	hull_damage = 1
-	power = -150
+	shield_damage = 3
+	armor_damage = 3
+	hull_damage = 4
+	power = -300
 	use_ship_kill_target = yes
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_s_3" }
@@ -247,7 +241,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 60
+			alloys = 120
 		}		
 		upkeep = {
 			energy = 1.0
@@ -271,19 +265,18 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = infrared_laser_m
 	entity = invisible_turret_entity
-	use_ship_kill_target = no
-	#L1800 m900 s450
-	damage = { min = 1000 max = 1500 }
+	use_ship_kill_target = yes
+	damage = { min = 3000 max = 4200 }
 	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 45
+	windup = { min = 20 max = 40 }
+	total_fire_time = 70
 	range = 200
 	accuracy = 1.0
 	tracking = 0.50
-	shield_penetration = 1.0
-	armor_penetration = 1.0
-	hull_damage = 1
-	power = -300
+	shield_damage = 3
+	armor_damage = 3
+	hull_damage = 4
+	power = -600
 	use_ship_kill_target = yes
 	
 	#待修改
@@ -296,7 +289,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 125
+			alloys = 250
 		}		
 		upkeep = {
 			energy = 2
@@ -320,19 +313,18 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
-	use_ship_kill_target = no
-	#L1800 m900 s450
-	damage = { min =250 max = 350 }
+	use_ship_kill_target = yes
+	damage = { min = 800 max = 1000 }
 	#冷却时间要除以10
-	windup = { min = 30 max = 40 }
-	total_fire_time = 45
+	windup = { min = 20 max = 40 }
+	total_fire_time = 70
 	range = 200
 	accuracy = 1.0
 	tracking = 0.80
-	shield_penetration = 1.0
-	armor_penetration = 1.0
-	hull_damage = 1
-	power = -75
+	shield_damage = 3
+	armor_damage = 3
+	hull_damage = 4
+	power = -150
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_6" }
@@ -344,7 +336,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 60
 		}		
 		upkeep = {
 			energy = 0.5

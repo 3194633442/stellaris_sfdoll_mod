@@ -51,8 +51,6 @@ tech_sfdoll_ship_defense_s_desc:0"新型的防御系统能提供更加可靠的�
 tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
 tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
 
-tech_aux_sfdoll_collapse_power:0 "$aux_sfdoll_collapse_power$"
-tech_aux_sfdoll_collapse_power_desc:0 "$aux_sfdoll_collapse_power_DESC$"
 
 
 

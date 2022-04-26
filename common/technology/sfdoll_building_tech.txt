@@ -134,7 +134,7 @@ tech_sfdoll_nanites = {
 
 #奇点能源
 tech_sfdoll_energy_plant = {
-	cost = @tier5cost3
+	cost = @tier5cost1
 	area = physics
 	tier = 5
 	is_rare = yes
@@ -142,7 +142,7 @@ tech_sfdoll_energy_plant = {
 	icon = tech_sfdoll_energy_plant
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_collapse_liquid_produce	}
-	weight = @tier5weight3
+	weight = @tier5weight1
 	weight_modifier = {
 		modifier = {
 			factor = 10
@@ -152,7 +152,7 @@ tech_sfdoll_energy_plant = {
 }
 #矿物合成
 tech_building_sfdoll_mineral = {
-	cost = @tier5cost3
+	cost = @tier5cost2
 	area = physics
 	tier = 5
 	is_rare = yes
@@ -160,7 +160,7 @@ tech_building_sfdoll_mineral = {
 	icon = tech_building_sfdoll_mineral
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_collapse_liquid_produce	}
-	weight = @tier5weight3
+	weight = @tier5weight2
 	weight_modifier = {
 		modifier = {
 			factor = 10

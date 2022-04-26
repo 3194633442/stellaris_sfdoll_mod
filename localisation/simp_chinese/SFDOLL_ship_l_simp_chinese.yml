@@ -22,8 +22,11 @@ component_set_sfdoll_weapon_p_6_DESC:0"防御性舰载武器，能够对移动�
 
 sfdoll_jump_drive:0"铁血跃迁引擎"
 
-sfdoll_aux_repair_ship:0"舰船损管"
-component_set_sfdoll_aux_repair_ship:0"舰船损管"
+tech_sfdoll_aux_repair_ship:0"损害管理"
+tech_sfdoll_aux_repair_ship_desc:0 "$component_set_sfdoll_aux_repair_ship_DESC$"
+
+sfdoll_aux_repair_ship:0"损害管理"
+component_set_sfdoll_aux_repair_ship:0"损害管理"
 component_set_sfdoll_aux_repair_ship_DESC:0"损管系统可以提高铁血飞船的生存能力"
 
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
@@ -57,13 +60,14 @@ component_set_sfdoll_ship_defense_s_DESC:0"铁血飞船配备的标准防御系�
 
 sfdoll_ship_sensors:0"铁血舰载传感器"
 
-tech_sfdoll_aux_repair_ship:0"铁血坍塌炉"
-tech_sfdoll_aux_repair_ship_desc:0 "铁血坍塌炉将一组奇点冷冻在可控黑洞中，用于干涉物理法则并提供庞大的能量。"
 
-aux_sfdoll_collapse_power:0 "铁血坍塌炉"
+tech_aux_sfdoll_collapse_power:0 "铁血坍塌炉"
+tech_aux_sfdoll_collapse_power_desc:0 "铁血坍塌炉将一组奇点冷冻在可控黑洞中，为舰船提供庞大的能源。"
+
+aux_sfdoll_collapse_power:0 "坍塌副能源"
 aux_sfdoll_collapse_power_DESC:0 "通过坍塌科技压缩体积的高效辅助能源，可以装备在各类舰船上"
 
-CORVETTE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+CORVETTE_sfdoll_collapse_REACTOR:0"铁血坍塌炉"
 DESTROYER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 CRUISER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 BATTLESHIP_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"

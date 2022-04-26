@@ -137,7 +137,7 @@ tech_aux_sfdoll_collapse_power= {
 	icon = tech_aux_sfdoll_collapse_power
 	category = { particles }
 	is_reverse_engineerable = no
-	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
+	prerequisites = {	tech_sfdoll_energy_plant }
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight2
 }
@@ -209,9 +209,11 @@ tech_sfdoll_tactical_destroyer = {
 	is_rare = yes
 	icon = tech_sfdoll_tactical_destroyer
 	category = { voidcraft }
+	prerequisites = {
+		tech_aux_sfdoll_collapse_power
+	}
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_energy_plant
 		has_technology = tech_sfdoll_thruster
 		has_technology = tech_sfdoll_ogas_ai
 	}
@@ -232,7 +234,7 @@ tech_ship_sfdoll_carrier = {
 	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
+		tech_aux_sfdoll_collapse_power
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -251,7 +253,7 @@ tech_ship_attacker_sfdoll = {
 	icon = tech_ship_sfdoll_carrier
 	category = { voidcraft }
 	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
+		tech_aux_sfdoll_collapse_power
 	}
 	potential = {
 		has_technology = tech_sfdoll_thruster
@@ -282,6 +284,7 @@ tech_sfdoll_homeless_ship = {
 	weight = @tier5weight1
 }
 
+#防空战列舰
 tech_ship_air_defense_sfdoll= {
 	cost = @tier5cost1
 	tier = 5
@@ -291,7 +294,7 @@ tech_ship_air_defense_sfdoll= {
 	is_rare = no
 	category = { voidcraft }
 	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
+		tech_aux_sfdoll_collapse_power
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -300,6 +303,7 @@ tech_ship_air_defense_sfdoll= {
 	weight = @tier5weight1
 }
 
+#支援舰
 tech_ship_support_sfdoll= {
 	cost = @tier5cost2
 	tier = 5
@@ -309,7 +313,7 @@ tech_ship_support_sfdoll= {
 	is_rare = no
 	category = { voidcraft }
 	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
+		tech_aux_sfdoll_collapse_power
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -328,7 +332,7 @@ tech_sfdoll_fighter = {
 	is_rare = no
 	category = { voidcraft }
 	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
+		tech_aux_sfdoll_collapse_power
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -337,40 +341,6 @@ tech_sfdoll_fighter = {
 	weight = 0
 }
 
-
-#升级星舰城市
-# tech_sfdoll_homeless_ship_update = {
-# 	cost = @tier5cost1
-# 	area = engineering
-# 	start_tech = no
-# 	icon = tech_sfdoll_tactical_destroyer
-# 	is_rare = yes
-# 	category = { voidcraft }
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 		has_technology = tech_sfdoll_homeless_ship
-# 		has_technology = tech_sfdoll_collapse_liquid_produce
-# 	}
-# 	modifier = {
-# 		country_resource_max_add = 20000
-# 	}
-# 	tier = 5
-# 	weight = @tier5weight1
-# }
-# tech_sfdoll_homeless_ship_update:0 "星舰工业革命"
-# tech_sfdoll_homeless_ship_update_desc:0 "改进星舰城市的产业体系"
-
-# tech_sfdoll_fighter= {
-# 	cost = @tier5cost3
-# 	area = society
-# 	tier = 5
-# 	category = { military_theory }
-# 	is_reverse_engineerable = no
-# 	icon = tech_sfdoll_weapon_s_3
-# 	potential = {	has_authority = auth_gf_sfdoll }
-# 	prerequisites = { tech_sfdoll_lab }
-# 	weight = 0
-# }
 
 # #航天母舰
 # tech_ship_carrier_2_sfdoll = {
