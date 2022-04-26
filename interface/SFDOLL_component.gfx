@@ -125,4 +125,9 @@ spriteTypes = {
 	}
 }
 
-
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_aux_ship_revive"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_aux_ship_revive.dds"
+	}
+}

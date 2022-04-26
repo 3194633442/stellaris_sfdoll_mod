@@ -88,3 +88,32 @@ utility_component_template = {
 	}
 }
 
+#SF空间反转网络
+utility_component_template = {
+	key = "sfdoll_aux_ship_revive"
+	size = aux
+	icon = "GFX_sfdoll_aux_ship_revive"
+	icon_frame = 1
+	power = -600
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 60
+		}
+	}
+	prerequisites = { "tech_sfdoll_aux_ship_revive" }
+	component_set = "sfdoll_aux_ship_revive"
+
+	size_restriction = {
+		ship_air_defense_sfdoll ship_support_sfdoll ship_attacker_sfdoll sfdoll_destroyer ship_sfdoll_carrier   corvette  destroyer cruiser battleship titan  colossus juggernaut
+	}
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = -1
+			NOT = {		has_authority = auth_gf_sfdoll	}
+		}		
+	}
+}
+
+

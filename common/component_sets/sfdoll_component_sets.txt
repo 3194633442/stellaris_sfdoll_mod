@@ -70,3 +70,9 @@ component_set = {
 	icon = GFX_sfdoll_weapen_t_7
 	icon_frame = 1
 }
+
+component_set = {
+	key = "sfdoll_aux_ship_revive"
+	icon = GFX_sfdoll_aux_ship_revive
+	icon_frame = 1
+}

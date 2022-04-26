@@ -32,7 +32,10 @@ component_set_sfdoll_aux_repair_ship_DESC:0"损管系统可以提高铁血飞船
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
 sfdoll_aux_quality_rebuilding_DESC:0 "质量再生系统可提高飞船的自持力"
 
-
+tech_sfdoll_aux_ship_revive:0 "SF空间滤网"
+tech_sfdoll_aux_ship_revive_desc:0 "通过空间干涉技术，SF空间滤网可以隔绝大部分攻击。"
+sfdoll_aux_ship_revive:0 "SF空间滤网"
+sfdoll_aux_ship_revive_DESC:0 "使舰船所受攻击无效化。效果持续10天，效果结束后进行30天的冷却，之后会再次生效。效果无法叠加。"
 
 
 sfdoll_thruster:0"铁血先进机动系统"

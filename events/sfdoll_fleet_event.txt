@@ -1,0 +1,86 @@
+namespace = sfdoll_fleet_event
+
+#通用判断，是否为铁血的舰队
+country_event = {
+	id = sfdoll_fleet_event.1
+	is_triggered_only = yes
+	hide_window = yes
+	title= fleet_sfdoll_event.1
+	trigger = {	has_authority = auth_gf_sfdoll	 }
+	immediate = {
+		fromfrom = {
+			fleet_event = {
+				id = sfdoll_fleet_event.2
+			}
+		}
+	}
+}
+
+#舰队伪无敌
+fleet_event = {
+	id = sfdoll_fleet_event.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_in_combat = yes
+		NOT = {
+			has_fleet_flag = sfdoll_fleet_revive_lock
+		}
+	}
+	immediate = {
+		set_timed_fleet_flag = {
+			flag = sfdoll_fleet_revive_lock
+			days = 38
+		}
+		every_owned_ship = {
+			if = {
+				limit = { has_ship_flag = ship_sfdoll_can_revive }
+				set_disable_at_health = -1
+				remove_ship_flag = ship_sfdoll_can_revive
+			}
+			if = {
+				limit = { has_component = sfdoll_aux_ship_revive	}
+				set_ship_flag = ship_sfdoll_can_revive
+				set_disable_at_health = 0
+				ship_event = {
+					id = sfdoll_fleet_event.3
+					days = 10
+				}
+			}
+		}
+
+		#循环执行
+		fleet_event = {
+			id = sfdoll_fleet_event.2
+			days = 40
+		}
+	}
+}
+
+#清除锁血效果
+ship_event = {
+	id = sfdoll_fleet_event.3
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = { has_ship_flag = ship_sfdoll_can_revive }
+			set_disable_at_health = -1
+			remove_ship_flag = ship_sfdoll_can_revive
+		}	
+	}
+}
+
+#舰船回血和解锁
+ship_event = {
+	id = sfdoll_fleet_event.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_ship_flag = ship_sfdoll_can_revive
+	}
+	immediate = {
+		repair_ship = yes
+		set_disabled = no
+	}
+}

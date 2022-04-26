@@ -168,6 +168,21 @@ tech_sfdoll_aux_quality_rebuilding = {
 	weight = @tier5weight2
 }
 
+#SF空间滤网
+tech_sfdoll_aux_ship_revive = {
+	cost = @tier5cost3
+	area = physics
+	icon = tech_sfdoll_aux_ship_revive
+	category = { field_manipulation }
+	is_rare = yes
+	is_reverse_engineerable = no
+	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 5
+	weight = @tier5weight3
+}
+
+
 #传感器，需要原版传感器前置
 tech_sfdoll_ship_sensors = {
 	cost = @tier4cost1
