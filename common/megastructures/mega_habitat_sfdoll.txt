@@ -4,6 +4,7 @@ sfdoll_habitat_01 ={
 	construction_entity = "habitat_phase_01_entity"
 	show_galactic_map_icon = yes
 	# portrait = "GFX_GFnyto_megastructure_habitat"
+	portrait = "GFX_sfdoll_habitat_01"
 	entity_offset = { x = -7 y = -7 }
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = yes

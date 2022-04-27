@@ -1,8 +1,10 @@
+
+
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_pc_sfdoll_habitat"
-		texturefile = "gfx/interface/icons/planet_backgrounds/pc_sfdoll_habitat.dds"
+		name = "GFX_sfdoll_habitat_01"
+		texturefile = "gfx/interface/planetview/sfdoll_habitat_01.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}
 }
-

@@ -180,7 +180,7 @@ district_rw_generator_sfdoll = {
 }
 
 
-#铁血星球
+#铁血星球和太空城
 #居住区划
 district_sfdoll_house = {
 	base_buildtime = 600
