@@ -189,8 +189,8 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		give_technology = {
-			tech = tech_sfdoll_weapen_t_7
+		capital_scope = {
+			change_pc = pc_GFnyto_portal_star
 		}
 	}
 }

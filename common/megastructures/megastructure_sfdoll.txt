@@ -134,10 +134,10 @@ sfdoll_mega_matter_convey = {
 			}
 		}
 		#星系限一
-		custom_tooltip = {
-			fail_text = "system_limit_one_sfd"
-			NOT = { has_megastructure = sfdoll_mega_matter_convey }
-		}
+		# custom_tooltip = {
+		# 	fail_text = "system_limit_one_sfd"
+		# 	NOT = { has_megastructure = sfdoll_mega_matter_convey }
+		# }
 	}
 
 	placement_rules = {

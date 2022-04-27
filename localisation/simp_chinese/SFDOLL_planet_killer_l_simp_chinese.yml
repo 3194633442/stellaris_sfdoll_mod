@@ -2,14 +2,14 @@
 ###############################
 #planet_killer
 planet_killer_sfdoll_2:0 "星辰猎手"
-planet_killer_sfdoll_2_DESC:0 "这种巨型武器能够摧毁一个星系，但我方舰队也会受到波及。"
+planet_killer_sfdoll_2_DESC:0 "这种巨型武器的攻击可以跨越星系，并摧毁目标星系中的所有天体。跨星系攻击的范围:超光速航道2跳以内，或者探测距离2以内"
 
 planet_killer_sfdoll_2_ACTION:0 "星辰猎手"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "星辰猎手"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "变成发射基址"
 
 sfdoll_planet_killer_event.3:0 "星辰猎手:选择目标星系"
-sfdoll_planet_killer_event_3_desc:0 "跨星系攻击的范围:超光速航道4跳以内，或者探测距离4以内"
+sfdoll_planet_killer_event_3_desc:0 "跨星系攻击的范围:超光速航道2跳以内，或者探测距离2以内"
 
 sfdoll_planet_killer_event_3_option_1:0 "[event_target:target_1_of_pk_sfdoll.GetName]"
 sfdoll_planet_killer_event_3_option_2:0 "[event_target:target_2_of_pk_sfdoll.GetName]"

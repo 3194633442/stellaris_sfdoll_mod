@@ -301,7 +301,6 @@ ship_sfdoll_carrier = {
 		ship_shield_add = 5000000
 		ship_armor_add = 5000000
 	}
-
 	resources = {
 		category = ships
 		cost = {
@@ -339,7 +338,6 @@ sfdoll_destroyer = {
 	section_slots = {
 		"bow" = { locator = part2 }
 		"core" = { locator = part2 }
-		"core2" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
 	num_target_locators = 8

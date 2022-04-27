@@ -117,11 +117,11 @@ country_event = {
 					OR = {
 						distance = {
 							source = event_target:system_source_of_planet_killer
-							max_jumps = 4
+							max_jumps = 2
 						}
 						distance = {
 							source = event_target:system_source_of_planet_killer
-							max_distance = 4
+							max_distance = 2
 						}
 
 					}
@@ -137,7 +137,7 @@ country_event = {
 						value = 1
 					}
 				}
-
+	
 				star = {
 					#为不同选项添加不同的target
 					if = {

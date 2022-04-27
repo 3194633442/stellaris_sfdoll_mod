@@ -1,9 +1,16 @@
 
 
+#巨构图片
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_sfdoll_habitat_01"
 		texturefile = "gfx/interface/planetview/sfdoll_habitat_01.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_megastructure_sfdoll_star_exploit_02"
+		texturefile = "gfx/interface/planetview/megastructure_sfdoll_star_exploit_02.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}
