@@ -88,7 +88,7 @@ utility_component_template = {
 	}
 }
 
-#SF空间反转网络
+#SF空间滤网
 utility_component_template = {
 	key = "sfdoll_aux_ship_revive"
 	size = aux

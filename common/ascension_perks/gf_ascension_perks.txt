@@ -76,7 +76,7 @@ ap_sfdoll_planet= {
 		planet_decision_enact_speed_mult = 0.25
 	}
 	on_enabled = {
-		add_research_option = tech_sfdoll_max_buildings
+		add_research_option = tech_build_sfdoll_city
 	}
 	ai_weight = {	factor = 1	}
 }

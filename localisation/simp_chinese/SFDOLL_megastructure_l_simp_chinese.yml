@@ -32,6 +32,15 @@ gateway_sfdoll_name:0 "铁血星门航道"
 gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
 
 
+sfdoll_habitat_01:0 "铁血太空城"
+sfdoll_habitat_01_DESC:0 "铁血太空城不仅能容纳居民，还拥有庞大的星港，用于支持舰队的运作"
+sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
+sfdoll_habitat_01_complete:0 "我们建造了一座$sfdoll_habitat_01$"
+
+pc_sfdoll_habitis:0 "$sfdoll_habitat_01$"
+pc_sfdoll_habitis_desc:0 "$sfdoll_habitat_01_DESC$"
+
+
 tech_mega_change_hyperlane_sfdoll:0 "超空间工程"
 tech_mega_change_hyperlane_sfdoll_desc:0 "基于超光速空间中独特的物理法则，我们能够完成一些神奇的工程，例如建造超空间航道。"
 

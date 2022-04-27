@@ -36,7 +36,7 @@ mega_change_hyperlane_sfdoll = {
 				type = MEGASTRUCTURE_BUILT
 				localization = build_mega_change_hyperlane_sfdoll
 				days = 30
-				target = prev
+				target = prev.fromfrom
 			}
 		}
 	}

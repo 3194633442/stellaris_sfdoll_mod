@@ -34,17 +34,19 @@ fleet_event = {
 		}
 		every_owned_ship = {
 			if = {
-				limit = { has_ship_flag = ship_sfdoll_can_revive }
-				set_disable_at_health = -1
-				remove_ship_flag = ship_sfdoll_can_revive
-			}
-			if = {
 				limit = { has_component = sfdoll_aux_ship_revive	}
 				set_ship_flag = ship_sfdoll_can_revive
 				set_disable_at_health = 0
 				ship_event = {
 					id = sfdoll_fleet_event.3
 					days = 10
+				}
+			}
+			else = {
+				if = {
+					limit = { has_ship_flag = ship_sfdoll_can_revive }
+					set_disable_at_health = -1
+					remove_ship_flag = ship_sfdoll_can_revive
 				}
 			}
 		}

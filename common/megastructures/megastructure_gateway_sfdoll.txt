@@ -29,7 +29,7 @@ gateway_sfdoll = {
 				type = MEGASTRUCTURE_BUILT
 				localization = build_gateway_sfdoll
 				days = 30
-				target = prev
+				target = prev.fromfrom
 			}
 		}
 	}

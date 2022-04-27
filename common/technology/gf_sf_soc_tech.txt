@@ -102,8 +102,8 @@ tech_sfdoll_heavy_army = {
 # 	weight = @tier4weight3
 # }
 
-#铁血新城市计划，解锁建筑槽位
-tech_sfdoll_max_buildings = {
+#解锁槽位，建立铁血星球
+tech_build_sfdoll_city = {
 	cost = @tier4cost1
 	area = society
 	tier = 4
@@ -114,7 +114,7 @@ tech_sfdoll_max_buildings = {
 	weight = 0
 }
 
-#铁血社会变革，由钢铁之国飞升解锁
+#铁血社会变革
 tech_sfdoll_social_reform = {
 	cost = @tier3cost3
 	area = society

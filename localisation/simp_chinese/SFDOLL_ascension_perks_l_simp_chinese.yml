@@ -14,8 +14,8 @@ gf_sfdoll_ascension_perk_event_0_desc:0 "新型的铁血机体将使用前所未
 
 ap_sfdoll_planet:0 "铁血星球企划"
 ap_sfdoll_planet_desc:0 "建造我们的新世界。"
-tech_sfdoll_max_buildings:0"建立铁血星球"
-tech_sfdoll_max_buildings_desc:0 "新型的城市星球融入了大量先进技术。"
+tech_build_sfdoll_city:0"建立铁血星球"
+tech_build_sfdoll_city_desc:0 "新型的城市星球融入了大量先进技术。"
 
 
 

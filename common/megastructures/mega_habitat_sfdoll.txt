@@ -1,0 +1,133 @@
+sfdoll_habitat_01 ={
+	# entity = "construction_platform_entity"
+	entity = ""
+	construction_entity = "habitat_phase_01_entity"
+	show_galactic_map_icon = yes
+	# portrait = "GFX_GFnyto_megastructure_habitat"
+	entity_offset = { x = -7 y = -7 }
+	place_entity_on_planet_plane = no
+	build_outside_gravity_well = yes
+	# build_time = 1800
+	build_time = 1
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = {
+		owner = {
+			has_authority = auth_gf_sfdoll
+		}
+	}
+	prerequisites = {
+		tech_sfdoll_homeless_ship
+	}
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+
+		#不能有环世界
+		NOT = {
+			OR = {
+				has_star_flag = ring_world_built
+				any_system_planet = {
+					is_planet_class = pc_ringworld_habitable
+					is_planet_class = pc_ringworld_habitable_damaged
+					is_planet_class = pc_ringworld_tech
+					is_planet_class = pc_ringworld_tech_damaged
+					is_planet_class = pc_ringworld_seam
+					is_planet_class = pc_ringworld_seam_damaged
+				}
+			}
+		}
+	}
+	
+	ship_modifier = {
+		ship_starting_experience_add = 200
+	}
+	station_modifier = {
+		starbase_shipyard_capacity_add = 20
+		starbase_shipyard_build_speed_mult = 1
+	}
+	country_modifier = {
+		country_naval_cap_add = 2000
+	}
+	resources = {
+		category = megastructures_habitat
+		cost = {
+			# alloys = 6000
+		}
+	}
+	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
+	on_build_complete = {
+		spawn_planet = {
+			class = pc_sfdoll_habitis
+			location = fromfrom
+			# orbit_location = yes
+			# orbit_angle_offset = 45
+			# orbit_distance_offset = 9.899
+			size = 15
+			has_ring = yes
+			init_effect = {
+				set_name = "HABITAT_PLANET_NAME"
+				set_surveyed = {
+					surveyed = yes
+					surveyor = FROM
+				}
+				set_all_comms_surveyed = yes
+				clear_blockers = yes
+				start_colony = {
+					owner = root
+				}
+				set_planet_entity = {
+					entity = GF_nyto_habita_entity
+				}
+				save_event_target_as = this_planet_habiti
+				set_planet_flag = megastructure
+				set_planet_flag = habitat
+			}
+		}
+		from = {
+			set_country_flag = has_built_or_repaired_megastructure
+			create_message = {
+				type = MEGASTRUCTURE_BUILT
+				localization = sfdoll_habitat_01_complete
+				days = 30
+				target = prev.fromfrom
+			}
+			# country_event = {
+			# 	id = sfdoll_mega_event.1
+			# }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# sfdoll_habitat_02 ={
+# 	on_build_complete = {
+# 		fromfrom.planet = {
+# 			set_planet_flag = has_megastructure
+# 			save_event_target_as = habitat_planet
+# 			if = {
+# 				limit = { has_orbital_station = yes }
+# 				orbital_station = {
+# 					dismantle = yes
+# 				}
+# 			}
+# 		}
+# 	}
+# }

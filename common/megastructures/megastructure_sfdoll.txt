@@ -51,6 +51,21 @@ sfdoll_mega_starport = {
 				}
 			}
 		}
+
+		#不能有环世界
+		NOT = {
+			OR = {
+				has_star_flag = ring_world_built
+				any_system_planet = {
+					is_planet_class = pc_ringworld_habitable
+					is_planet_class = pc_ringworld_habitable_damaged
+					is_planet_class = pc_ringworld_tech
+					is_planet_class = pc_ringworld_tech_damaged
+					is_planet_class = pc_ringworld_seam
+					is_planet_class = pc_ringworld_seam_damaged
+				}
+			}
+		}
 	}
 
 	on_build_complete = {
@@ -60,7 +75,7 @@ sfdoll_mega_starport = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_mega_starport_complete
 				days = 30
-				target = prev
+				target = prev.fromfrom
 			}
 			# country_event = {
 			# 	id = sfdoll_mega_event.1
@@ -147,7 +162,7 @@ sfdoll_mega_matter_convey = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_matter_transport_complete
 				days = 30
-				target = prev
+				target = prev.fromfrom
 			}
 			# country_event = {
 			# 	id = sfdoll_mega_event.2
