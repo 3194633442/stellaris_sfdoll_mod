@@ -18,6 +18,25 @@ tech_sfdoll_mega_starport= {
 	weight = @tier5weight3
 }
 
+tech_sfdoll_habitat_01 = {
+	area = engineering
+	start_tech = no
+	tier = 5
+	cost = @tier5cost3
+	category = { voidcraft }
+	is_rare = yes
+	icon = tech_sfdoll_habitat_01		
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_sfdoll_collapse_liquid_produce
+		has_technology = tech_mega_engineering
+	}
+	modifier = {
+		country_resource_max_add = 20000
+	}
+	weight = @tier5weight3
+}
+
 #物质传输巨构
 tech_sfdoll_mega_matter_convey = {
 	area = physics
