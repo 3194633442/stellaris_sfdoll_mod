@@ -32,11 +32,12 @@ mega_change_hyperlane_sfdoll = {
 	}
 	on_build_complete = {
 		from = {
+			set_country_flag = has_built_or_repaired_megastructure
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
 				localization = build_mega_change_hyperlane_sfdoll
 				days = 30
-				target = prev.fromfrom
+				target = prev
 			}
 		}
 	}

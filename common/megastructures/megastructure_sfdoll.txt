@@ -7,6 +7,7 @@ sfdoll_mega_starport = {
 	build_time = 3600
 	construction_blocked_by_others = yes
 	construction_blocks_others = yes
+	show_galactic_map_icon = yes
 	resources = {
 		category = megastructures
 		cost = {
@@ -75,7 +76,7 @@ sfdoll_mega_starport = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_mega_starport_complete
 				days = 30
-				target = prev.fromfrom
+				target = prev
 			}
 			# country_event = {
 			# 	id = sfdoll_mega_event.1
@@ -162,7 +163,7 @@ sfdoll_mega_matter_convey = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_matter_transport_complete
 				days = 30
-				target = prev.fromfrom
+				target = prev
 			}
 			# country_event = {
 			# 	id = sfdoll_mega_event.2

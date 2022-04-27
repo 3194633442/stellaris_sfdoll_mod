@@ -31,7 +31,7 @@ sfdoll_star_exploit_02_DESC:0 "$sfdoll_star_exploit_01_DESC$ "
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
 tech_sfdoll_star_exploit:0 "恒星加工器"
-tech_sfdoll_star_exploit_desc:0 "$sfdoll_star_exploit_01_DESC$ "
+tech_sfdoll_star_exploit_desc:0 "通过建造巨型的物质坍塌装置，我们可以操纵恒星物质间的基本力，实现对恒星资源的大规模开采利用"
 
 build_sfdoll_star_exploit_01:0 "我们建造了一座$sfdoll_star_exploit_01$"
 build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"

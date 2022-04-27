@@ -105,11 +105,8 @@ sfdoll_habitat_01 ={
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_habitat_01_complete
 				days = 30
-				target = prev.fromfrom
+				target = prev
 			}
-			# country_event = {
-			# 	id = sfdoll_mega_event.1
-			# }
 		}
 	}
 
