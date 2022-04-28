@@ -311,6 +311,7 @@ utility_component_template = {
 		starbase_starfortress
 		starbase_citadel
 		juggernaut
+		ship_sfdoll_starbase
 	}
 	ai_weight = {	weight = 20	}
 }

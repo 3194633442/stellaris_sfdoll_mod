@@ -129,7 +129,8 @@ hostile_aura_sfdoll_1:0 "干扰战术"
 
 #section
 tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
-tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船设备的体积与重量得到大幅缩减。作为这一技术的成果，战列舰和护卫舰得以搭载更强的武器。\n解锁舰船设计：$sfdoll_battleship_bow_T1$,$corvette_section_x_sfddoll$"
+tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船设备的体积与重量得到大幅缩减。作为这一技术的成果，战列舰和护卫舰得以搭载更强的武器。"
+description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_battleship_bow_T1$,$corvette_section_x_sfddoll$"
 
 
 sfdoll_battleship_bow_T1:0 "轻量巨炮舰艏"

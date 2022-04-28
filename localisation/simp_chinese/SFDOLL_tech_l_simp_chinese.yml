@@ -52,16 +52,12 @@ tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
 tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
 
 
-
-
 tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 tech_sfdoll_jump_drive:0"铁血跃迁引擎"
 tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上"
 
-tech_gateway_sfdoll:0 "铁血星门"
-tech_gateway_sfdoll_desc:0 "参考锡安中的某些传输技术，铁血们设计了一种星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
 tech_sfdoll_thruster_desc:0"这些推进系统可以随心所欲地操纵飞船的运动。它们的运作似乎违反了过去的物理常识。"

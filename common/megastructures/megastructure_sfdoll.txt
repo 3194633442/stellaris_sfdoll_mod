@@ -1,19 +1,16 @@
 #巨型星港
 sfdoll_mega_starport = {
 	entity = "stions_entity"
-	construction_entity = stions_entity #"mega_shipyard_01_stage_3_entity"
+	construction_entity = stions_entity 
 	place_entity_on_planet_plane = no
-	entity_offset = { x = -27 y = -27 }
-	build_time = 1 #3600
+	build_time = 1080 
 	construction_blocked_by_others = yes
 	construction_blocks_others = yes
 	show_galactic_map_icon = yes
 	resources = {
 		category = megastructures
 		cost = {
-			# alloys = 35000
-			# unity = 2500
-			# sr_dark_matter = 360
+			alloys = 2000
 		}
 
 		upkeep = {
@@ -78,9 +75,22 @@ sfdoll_mega_starport = {
 				days = 30
 				target = prev
 			}
-			# country_event = {
-			# 	id = sfdoll_mega_event.1
-			# }
+		}
+		fromfrom = {
+			create_fleet = {	
+				effect = {
+					set_owner = root.owner
+					set_location = prev
+					create_ship = {
+						random_existing_design = ship_sfdoll_starbase
+						effect = {
+							#这里要用location里的本地化
+							set_name = "sfdoll_mega_starport"
+						}
+					}
+				}
+			}
+			remove_megastructure = this
 		}
 	}
 }

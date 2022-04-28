@@ -2,16 +2,21 @@
 ##########
 system_limit_one_sfd:0 "一个星系只能造一座"
 
-sfdoll_mega_starport:0 "铁血巨型星港"
-sfdoll_mega_starport_DESC:0 "巨型星港能够高速建造船只，并提高帝国的海军容量"
+
+sfdoll_mega_starport:0 "深空星港"
+sfdoll_mega_starport_DESC:0 "深空星港建造在重力井之外，以便利用低重力环境和FTL航路"
 sfdoll_mega_starport_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_DESC$"
 
-tech_sfdoll_mega_starport:0 "铁血巨型星港"
-tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$ \n 解锁恒星基地模块:§Y$shipyard_sfdoll$§!"
+ship_sfdoll_starbase:0 "$sfdoll_mega_starport$"
+section_sfdoll_starbase_core:0 "$sfdoll_mega_starport$"
+
+tech_sfdoll_mega_starport:0 "深空星港"
+tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$ "
+description_tech_sfdoll_mega_starport:0 "§H解锁恒星基地模块:§! $sm_shipyard_sfdoll$"
 
 sfdoll_mega_starport_complete:0 "我们建造了一座$sfdoll_mega_starport$。"
 
-sm_shipyard_sfdoll:0 "先进军港"
+sm_shipyard_sfdoll:0 "先进船坞"
 
 
 sfdoll_mega_matter_convey:0 "铁血物质传输器"
@@ -42,15 +47,18 @@ gateway_sfdoll_DESC:0 "利用铁血科技打造的快捷交通枢纽"
 gateway_sfdoll_MEGASTRUCTURE_DETAILS:0 "$gateway_sfdoll_DESC$"
 build_gateway_sfdoll:0 "我们建造了一座$gateway_sfdoll$"
 
+tech_gateway_sfdoll:0 "铁血星门"
+tech_gateway_sfdoll_desc:0 "参考锡安中的某些传输技术，铁血们设计了一种星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
+
 gateway_sfdoll_name:0 "铁血星门航道"
 gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
 
 
-sfdoll_habitat_01:0 "铁血太空城基址"
-sfdoll_habitat_01_DESC:0 "太空城市能够支持居民的生活，并拥有先进的宇宙港"
+sfdoll_habitat_01:0 "太空城基址"
+sfdoll_habitat_01_DESC:0 "太空城能够容纳大量居民，并拥有先进的宇宙港"
 sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
 
-sfdoll_habitat_02:0 "铁血太空城"
+sfdoll_habitat_02:0 "太空城造船厂"
 sfdoll_habitat_02_DESC:0 "$sfdoll_habitat_01_DESC$"
 sfdoll_habitat_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
 
@@ -61,7 +69,7 @@ pc_sfdoll_habitis:0 "铁血太空城"
 pc_sfdoll_habitis_desc:0 "$sfdoll_habitat_01_DESC$"
 
 tech_sfdoll_habitat_01:0 "铁血太空城计划"
-tech_sfdoll_habitat_01_desc:0 "利用先进的零重力工程和生产技术，我们可以建立大型的太空城市"
+tech_sfdoll_habitat_01_desc:0 "利用先进的零重力工程和生产技术，我们可以建立大型太空城市"
 
 
 tech_mega_change_hyperlane_sfdoll:0 "超空间工程"

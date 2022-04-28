@@ -10,16 +10,22 @@
 #	potential_home_base = yes/no		# Default no, if yes starbase may be used as homebase for fleets
 #}
 
-# Normal
+#深空基地
+starbase_level_ship_sfdoll_starbase = {
+	ship_size = ship_sfdoll_starbase
+	#next_level = starbase_level_starport
+	show_in_outliner = yes
+	# display_map_icon = yes
+	collects_trade = no
+	level_weight = 4
+	# ai_weight = { weight = 1 }
+	potential_home_base = yes
+}
 
-# starbase_level_doll_base= {
-# 	ship_size = starbase_doll_base
-# 	#next_level = starbase_level_starport
-# 	show_in_outliner = yes
-# 	display_map_icon = yes
-# 	collects_trade = no
-# 	level_weight = 0
-# 	ai_weight = { weight = 1 }
-# 	potential_home_base = yes
-# }
-
+#深空母舰
+starbase_level_ship_sfdoll_carrier = {
+	ship_size = ship_sfdoll_carrier
+	potential_home_base = yes
+	show_in_outliner = no
+	collects_trade = no
+}

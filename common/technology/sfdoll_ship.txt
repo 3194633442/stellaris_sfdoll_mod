@@ -212,6 +212,9 @@ tech_sfdoll_battleship_bow_x2 = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_battleships
 	}
+	modifier = {
+		description = description_tech_sfdoll_battleship_bow_x2
+	}
 	tier = 5
 	weight = @tier5weight1
 }
