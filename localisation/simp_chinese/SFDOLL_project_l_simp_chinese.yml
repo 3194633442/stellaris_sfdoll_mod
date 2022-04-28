@@ -3,24 +3,25 @@
 sfdoll_search_zion_chain_title:0 "铁血探索档案"
 sfdoll_search_zion_chain_desc:0 "铁血的银河探索记录"
 
-SF_SEARCH_ZION_PROJECT:0"解析谜之信号"
-SF_SEARCH_ZION_PROJECT_DESC:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。可以说，那些遗迹是我们起源。\n 近期，铁血的科学家们发现了一类异样的信号。该信号的特征，与地球遗迹出现过的信号非常相似。"
 
 SFDOLL_GATEWAY_PROJECT:0"打开传送门"
 SFDOLL_GATEWAY_PROJECT_DESC:0"我们获得了和超光速传送有关的数据。\n 我们可以利用这些数据，打开通往未知地点的传送门"
 
 #寻找锡安
 sfdoll_search_zion_event_0:"谜之信号"
-sfdoll_search_zion_event_0_desc:"近期，我们的研究人员探测到了某种独特的信号，她们表示，这些信号极有可能与地球遗迹有关，我们必须好好研究一番"
+sfdoll_search_zion_event_0_desc:"近期，我们的研究人员探测到了某种独特的信号。这些信号极有可能与地球遗迹技术有关。信号的内容，似乎指向了某个未知星球。我们必须好好研究一番。"
 
-sfdoll_search_zion_event_1:"不明坐标"
-sfdoll_search_zion_event_1_desc:"我们接收到了某种异常信号，并对其进行了分析。\n 这些信号中，只有一小部分能被我们解读，其主要内容是一组逆向坍塌传送的坐标参数。\n 我们可以利用这些信息，进行一场超光速传送试验。"
+SF_SEARCH_ZION_PROJECT:0"解析谜之信号"
+SF_SEARCH_ZION_PROJECT_DESC:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。可以说，那些遗迹是我们起源。\n $sfdoll_search_zion_event_0_desc$"
 
-sfdoll_search_zion_event_2:"传送门的另一边"
-sfdoll_search_zion_event_2_desc:"我们成功打开了传送门，铁血探险队员们踏上了征程。\n一些队伍在传送后船毁人亡，壮烈牺牲,但它们的努力没有白费，我们收集到了珍贵的数据。\n 接着，我们的探险队成功到达了目标位置。"
+sfdoll_search_zion_event_1:0"不明坐标"
+sfdoll_search_zion_event_1_desc:0"我们对谜之信号进行了深入分析，确认了其中包含的坐标位置。接下来，我们会进行一场超光速传送试验，前往某个未知星球。"
 
-sfdoll_search_zion_event_3:"遗迹"
-sfdoll_search_zion_event_3_desc:"探险队开始对目标地点进行考察。\n 该地点是一颗固态行星，上面存在大型的遗迹，我们需要组织更多人手，才能进行进一步考察。"
+sfdoll_search_zion_event_2:0"传送门的另一边"
+sfdoll_search_zion_event_2_desc:0"我们成功开启了航道，铁血探险队员们踏上了征程。不稳定的航道导致部分探险船失事，不过，我们早已习惯这种危险的旅途。最终，一支队伍到达了目的星系。"
+
+sfdoll_search_zion_event_3:0"遗迹"
+sfdoll_search_zion_event_3_desc:0"探险队对目标星系进行了考察，发现该星系有一颗固态行星，上面似乎存在大型遗迹。我们必须派出更多科研团队来研究它。"
 
 
 sfdoll_to_zion_chain_title:0"迈向锡安"

@@ -3,8 +3,8 @@ special_project = {
 	key = "SF_SEARCH_ZION_PROJECT"
 	event_chain = sfdoll_search_zion_chain
 	#待修改
-	cost = @tier3cost1
-	#days_to_research = 360
+	# cost = @tier3cost1
+	days_to_research = 30
 	tech_department = physics_technology
 
 	#待修改
@@ -32,13 +32,13 @@ special_project = {
 	}
 }
 
-#打开传送门，找到诺耶露坟头
+#打开传送门，生成星系和诺耶露坟头，已废弃
 special_project = {
 	key = "SFDOLL_GATEWAY_PROJECT"
 	event_chain = sfdoll_search_zion_chain
 
-	cost = @tier3cost1
-	#days_to_research = 30
+	# cost = @tier3cost1
+	days_to_research = 30
 	tech_department = physics_technology
 
 	#待修改

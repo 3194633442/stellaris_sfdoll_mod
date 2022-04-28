@@ -10,6 +10,9 @@ country_event = {
 	fire_only_once = yes
 	hide_window = no
 	picture = GFX_evp_sfdoll_digi_mind
+	trigger = {
+		is_ai = no
+	}
 
 	#添加追踪锡安项目
 	immediate = {
@@ -33,10 +36,18 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = no
 	picture = GFX_evp_sfdoll_unknown_civilization
+	after = {
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_search_zion_event.2
+				days = 60
+			}
+		}
+	}
 
 }
 
-#传送门项目
+#传送试验
 country_event = {
 	id = sfdoll_search_zion_event.2
 	title = "sfdoll_search_zion_event_2"
@@ -52,7 +63,7 @@ country_event = {
 	}
 }
 
-#提示，发现坟头
+#生成星系和诺耶露坟头
 country_event = {
 	id = sfdoll_search_zion_event.3
 	title = "sfdoll_search_zion_event_3"
@@ -63,7 +74,14 @@ country_event = {
 	
 	immediate = {
 		capital_scope ={
-			create_archaeological_site = site_noel_sfdoll
+			#create_archaeological_site = site_noel_sfdoll
+			spawn_system = {
+				initializer = sfdoll_system_search_zion
+				hyperlane = yes
+				is_discovered = yes
+				max_distance = 10
+				min_distance = 20
+			}
 		}
 	}
 }

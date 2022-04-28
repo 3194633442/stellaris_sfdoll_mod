@@ -15,9 +15,11 @@ name_noel_country: "诺耶露"
 NAME_sfdoll_triela: "崔耶拉"
 name_sfdoll_triela_country: "崔耶拉"
 
-name_sfdoll_event_leader_species: "遗迹克隆生物"
+name_sfdoll_event_leader_species: "遗迹生物"
 
 
 Name_beacon_ship_sfdoll_fleet: "超光速信标"
 Name_beacon_ship_sfdoll: "超光速信标"
 design_beacon_ship_sfdoll: "铁血之矛"
+
+Name_sfdoll_system_search_zion: "谜之信号源"

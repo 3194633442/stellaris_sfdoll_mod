@@ -1,0 +1,25 @@
+@base_moon_distance = 10
+
+sfdoll_system_search_zion = {
+	name = Name_sfdoll_system_search_zion
+	class = sc_black_hole
+	# usage = sfdoll_system_init
+	planet = {
+		class = pc_black_hole
+		orbit_distance = 0
+		orbit_angle = 0
+	}
+	change_orbit = 45
+	planet = {
+		class = pc_toxic
+		orbit_angle = 30
+		orbit_distance = 30
+		size = 20
+		flags = {
+			sfdoll_system_search_zion_planet_1
+		}
+		init_effect = {
+			create_archaeological_site = site_noel_sfdoll
+		}
+	}
+}
