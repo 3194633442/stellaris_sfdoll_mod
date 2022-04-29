@@ -151,7 +151,7 @@ fleet_event = {
 fleet_event = {
 	id = sfdoll_search_zion_event.7
 	title = "sfdoll_search_zion_event.7"
-	desc = " sfdoll_search_zion_event.7_desc"
+	desc = "sfdoll_search_zion_event.7_desc"
 	is_triggered_only = yes
 	hide_window = no
 	archaeology = yes
@@ -170,7 +170,7 @@ fleet_event = {
 		small_artifact_reward = yes
 		owner = {
 			country_event = {
-				id = sfdoll_arc_site_event.5
+				id = sfdoll_search_zion_event.9
 			}
 			set_country_flag = sfdoll_noel_owner
 			save_global_event_target_as = sfdoll_noel_owner
@@ -223,10 +223,10 @@ country_event = {
 	picture = GFX_evp_sfdoll_noel_sleep
 
 	after = { 
-		#延迟一段时间后触发诺耶露对话事件
+		#延迟一段时间后触发诺耶露状况事件
 		country_event = {
-			id = sfdoll_noel_event.6
-			days = 1080
+			id = sfdoll_noel_event.2
+			#days = 720
 		}
 	}
 	

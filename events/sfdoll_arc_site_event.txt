@@ -5,8 +5,8 @@ namespace = sfdoll_arc_site_event
 #诺耶露坟头 stage1
 fleet_event = {
 	id = sfdoll_arc_site_event.1
-	title = "sfdoll_arc_site_event_1"
-	desc = "sfdoll_arc_site_event_1_desc"
+	title = "sfdoll_search_zion_event.5"
+	desc = "sfdoll_search_zion_event.5_desc"
 	is_triggered_only = yes
 	hide_window = no
 	archaeology = yes
@@ -27,8 +27,8 @@ fleet_event = {
 #stage2
 fleet_event = {
 	id = sfdoll_arc_site_event.2
-	title = "sfdoll_arc_site_event_2"
-	desc = "sfdoll_arc_site_event_2_desc"
+	title = "sfdoll_search_zion_event.6"
+	desc = "sfdoll_search_zion_event.6_desc"
 	is_triggered_only = yes
 	hide_window = no
 	archaeology = yes
@@ -49,8 +49,8 @@ fleet_event = {
 #stage3
 fleet_event = {
 	id = sfdoll_arc_site_event.3
-	title = "sfdoll_arc_site_event_3"
-	desc = "sfdoll_arc_site_event_3_desc"
+	title = "sfdoll_search_zion_event.7"
+	desc = " sfdoll_search_zion_event.7_desc"
 	is_triggered_only = yes
 	hide_window = no
 	archaeology = yes
@@ -69,7 +69,7 @@ fleet_event = {
 		small_artifact_reward = yes
 		owner = {
 			country_event = {
-				id = sfdoll_arc_site_event.5
+				id = sfdoll_search_zion_event.9
 			}
 			set_country_flag = sfdoll_noel_owner
 			save_global_event_target_as = sfdoll_noel_owner
@@ -83,8 +83,8 @@ fleet_event = {
 #stage4
 fleet_event = {
 	id = sfdoll_arc_site_event.4
-	title = "sfdoll_arc_site_event_4"
-	desc = "sfdoll_arc_site_event_4_desc"
+	title = "sfdoll_search_zion_event.8"
+	desc = "sfdoll_search_zion_event.8_desc"
 	is_triggered_only = yes
 	hide_window = no
 	archaeology = yes
@@ -114,8 +114,8 @@ fleet_event = {
 #保护诺耶露，事件提示
 country_event = {
 	id = sfdoll_arc_site_event.5
-	title = "sfdoll_arc_site_event_5"
-	desc = "sfdoll_arc_site_event_5_desc"
+	title = "sfdoll_search_zion_event.9"
+	desc = "sfdoll_search_zion_event.9_desc"
 	is_triggered_only = yes
 	hide_window = no
 
@@ -124,8 +124,8 @@ country_event = {
 	after = { 
 		#延迟一段时间后诺耶露加入
 		country_event = {
-			id = sfdoll_noel_event.6
-			days = 1800
+			id = sfdoll_search_zion_event.9
+			days = 720
 		}
 	}
 	
