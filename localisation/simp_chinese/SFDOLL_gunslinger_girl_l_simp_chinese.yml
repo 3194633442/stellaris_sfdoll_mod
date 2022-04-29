@@ -33,8 +33,8 @@ triela_has_this_job_now:0 "崔耶拉已经在进行这项工作"
 
 response_text_triela_become_governor:0 "包在我身上"
 response_text_triela_become_scientist:0 "看来很复杂呢"
-response_text_triela_become_admiral:0 "出击吧"
-response_text_triela_become_general:0 "我会让他们变得更强"
+response_text_triela_become_admiral:0 "我会让大家平安回来的"
+response_text_triela_become_general:0 "我会让这支队伍变得更强"
 
 #Let life be beautiful like summer flowers and death like autumn leaves
 leader_trait_governor_sfdoll_triela:0 "义体少女"

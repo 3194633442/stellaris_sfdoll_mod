@@ -3,7 +3,7 @@
 sfdoll_system_search_zion = {
 	name = Name_sfdoll_system_search_zion
 	class = sc_black_hole
-	# usage = sfdoll_system_init
+	#usage = sfdoll_system_init
 	planet = {
 		class = pc_black_hole
 		orbit_distance = 0

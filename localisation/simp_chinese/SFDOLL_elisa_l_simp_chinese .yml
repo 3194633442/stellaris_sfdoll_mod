@@ -8,7 +8,7 @@ sfdoll_elisa_event_2_d_desc:0 "要合理安排时间。"
 
 elisa_to_scientist:0 "请你领导科研工作"
 elisa_has_this_job_now:0 "伊莱莎已经在做这项工作"
-response_text_elisa_to_scientist:0 "开始准备新计划吧。"
+response_text_elisa_to_scientist:0 "正合我意。"
 
 sfdoll_elisa_event.2_option_2:0 "联系一些领袖"
 

@@ -1,6 +1,7 @@
 namespace = sfdoll_noel_event
 #id标准写法为namespace的值加上编号
 
+#诺耶露加入
 #创建诺耶露特殊国家用于通讯，现在不创建只加flag
 country_event = {
 	id = sfdoll_noel_event.0
@@ -88,44 +89,46 @@ country_event = {
 	}
 
 	#选项，noel总督
-	# option = {
-	# 	name =  "noel_become_governor"
-	# 	allow = { 
-	# 		custom_tooltip ={
-	# 			fail_text ="noel_has_this_job_now"
-	# 			NOR = {
-	# 				AND = {
-	# 					exists = event_target:sfdoll_leader_noel
-	# 					event_target:sfdoll_leader_noel = { leader_class = governor }
-	# 				}			
-	# 			}
-	# 		}			 
-	# 	}
-	# 	hidden_effect = {
-	# 		country_event = { id = sfdoll_noel_event.2 }
-	# 	}
-	# 	response_text = "response_text_noel_become_governor"
-	# }
+	option = {
+		name =  "noel_become_governor"
+		allow = { 
+			custom_tooltip ={
+				fail_text ="noel_has_this_job_now"
+				NOR = {
+					AND = {
+						exists = event_target:sfdoll_leader_noel
+						event_target:sfdoll_leader_noel = { leader_class = governor }
+					}			
+				}
+			}			 
+		}
+		hidden_effect = {
+			effect_noel_become_governor = yes
+			#country_event = { id = sfdoll_noel_event.2 }
+		}
+		response_text = "response_text_noel_become_governor"
+	}
 
 	# #选项，noel科学家
-	# option = {
-	# 	name =  "noel_become_scientist"
-	# 	allow = { 
-	# 		custom_tooltip ={
-	# 			fail_text ="noel_has_this_job_now"
-	# 			NOR = {
-	# 				AND = {
-	# 					exists = event_target:sfdoll_leader_noel
-	# 					event_target:sfdoll_leader_noel = { leader_class =scientist }
-	# 				}			
-	# 			}
-	# 		}			 
-	# 	}
-	# 	hidden_effect = {
-	# 		country_event = { id = sfdoll_noel_event.3 }
-	# 	}
-	# 	response_text = "response_text_noel_become_scientist"
-	# }
+	option = {
+		name =  "noel_become_scientist"
+		allow = { 
+			custom_tooltip ={
+				fail_text ="noel_has_this_job_now"
+				NOR = {
+					AND = {
+						exists = event_target:sfdoll_leader_noel
+						event_target:sfdoll_leader_noel = { leader_class =scientist }
+					}			
+				}
+			}			 
+		}
+		hidden_effect = {
+			effect_noel_become_scientist = yes
+			#country_event = { id = sfdoll_noel_event.3 }
+		}
+		response_text = "response_text_noel_become_scientist"
+	}
 
 	#选项，noel舰队司令
 	option = {
@@ -142,7 +145,8 @@ country_event = {
 			}			 
 		}
 		hidden_effect = {
-			country_event = { id = sfdoll_noel_event.4 }
+			effect_noel_become_admiral = yes
+			#country_event = { id = sfdoll_noel_event.4 }
 		}
 		response_text = "response_text_noel_become_admiral"
 	}
@@ -162,7 +166,8 @@ country_event = {
 			}			 
 		}
 		hidden_effect = {
-			country_event = { id = sfdoll_noel_event.5 }
+			effect_noel_become_general = yes
+			#country_event = { id = sfdoll_noel_event.5 }
 		}
 		response_text = "response_text_noel_become_general"
 	}
@@ -175,141 +180,8 @@ country_event = {
 
 }
 
-#noel担任总督
-country_event = {
-	id = sfdoll_noel_event.2
-	is_triggered_only = yes
-    hide_window = yes
 
-	immediate = {
-		hidden_effect = {
-			event_target:sfdoll_leader_noel = {
-				kill_leader = {
-					show_notification = no
-					fire = yes
-				}
-			}
-			create_leader = {
-				
-				class = governor
-				species = event_target:species_sfdoll_event_leader
-				name = "NAME_sfdoll_noel"
-				skill = 10
-				set_age = 19
-				immortal = yes
-				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_governor_sfdoll_noel }
-				effect = {
-					change_leader_portrait = GFX_sfdoll_noel
-					set_leader_flag = sfdoll_leader_noel
-					save_global_event_target_as = sfdoll_leader_noel
-				}
-			}
-		}
-	}
-}
-
-#noel担任科学家
-country_event = {
-	id = sfdoll_noel_event.3
-	is_triggered_only = yes
-    hide_window = yes
-
-	immediate = {
-		hidden_effect = {
-			event_target:sfdoll_leader_noel = {
-				kill_leader = {
-					show_notification = no
-					fire = yes
-				}
-			}
-			create_leader = {
-				class = scientist
-				species = event_target:species_sfdoll_event_leader
-				name = "NAME_sfdoll_noel"
-				skill = 10
-				set_age = 19
-				immortal = yes
-				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_scientist_sfdoll_noel }
-				effect = {
-					change_leader_portrait = GFX_sfdoll_noel
-					set_leader_flag = sfdoll_leader_noel
-					save_global_event_target_as = sfdoll_leader_noel
-				}
-			}
-		}
-	}
-}
-
-#noel担任舰队司令
-country_event = {
-	id = sfdoll_noel_event.4
-	is_triggered_only = yes
-    hide_window = yes
-
-	immediate = {
-		hidden_effect = {
-			event_target:sfdoll_leader_noel = {
-				kill_leader = {
-					show_notification = no
-					fire = yes
-				}
-			}
-			create_leader = {
-				class = admiral
-				species = event_target:species_sfdoll_event_leader
-				name = "NAME_sfdoll_noel"
-				skill = 10
-				set_age = 19
-				immortal = yes
-				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_admiral_sfdoll_noel }
-				effect = {
-					change_leader_portrait = GFX_sfdoll_noel
-					set_leader_flag = sfdoll_leader_noel
-					save_global_event_target_as = sfdoll_leader_noel
-				}
-			}
-		}
-	}
-}
-
-#noel担任陆军司令
-country_event = {
-	id = sfdoll_noel_event.5
-	is_triggered_only = yes
-    hide_window = yes
-
-	immediate = {
-		hidden_effect = {
-			event_target:sfdoll_leader_noel = {
-				kill_leader = {
-					show_notification = no
-					fire = yes
-				}
-			}
-			create_leader = {
-				
-				class = general
-				species = event_target:species_sfdoll_event_leader
-				name = "NAME_sfdoll_noel"
-				skill = 10
-				set_age = 19
-				immortal = yes
-				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_general_sfdoll_noel }
-				effect = {
-					change_leader_portrait = GFX_sfdoll_noel
-					set_leader_flag = sfdoll_leader_noel
-					save_global_event_target_as = sfdoll_leader_noel
-				}
-			}
-		}
-	}
-}
-
-# 诺耶露加入，创建诺耶露通讯国家
+# 诺耶露加情况
 country_event = {
 	id = sfdoll_noel_event.6
 	title = "sfdoll_noel_event_6_title"
@@ -326,5 +198,14 @@ country_event = {
 			id = sfdoll_noel_event.0
 		}
 		
+	}
+	option = {
+		name = sfdoll_noel_event.6_option
+		add_resource = {
+			unity = 1000
+			physics_research = 4000
+			society_research = 4000
+			engineering_research = 4000
+		}
 	}
 }

@@ -90,7 +90,7 @@ section_ship_attacker_sfdoll:0 "$ship_attacker_sfdoll$"
 
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改造天体的能力。设计建造她，将会是一项宏伟的太空工程。"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改造天体的能力，她的设计中运用了大量遗迹科技。建造她的过程，无疑会是一项宏伟的太空工程。"
 
 ship_sfdoll_carrier:0 "深空母舰"
 section_ship_sfdoll_carrier:0 "深空母舰"
@@ -99,7 +99,7 @@ component_aura_sfdoll_carrier:0 "移动维护系统"
 friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 
 tech_ship_air_defense_sfdoll:0 "铁血防空战列舰"
-tech_ship_air_defense_sfdoll_desc:0 "防空战列舰拥有比常规战列舰更强的武装，并能够搭载更完备的防空系统"
+tech_ship_air_defense_sfdoll_desc:0 "防空战列舰拥有比常规战列舰更强的武装，并能够搭载完备的防空系统"
 ship_air_defense_sfdoll:0 "铁血防空战列舰"
 section_air_defense_sfdoll_bow:0 "舰艏"
 section_air_defense_sfdoll_core:0 "核心"

@@ -20,6 +20,58 @@
 			#GFX_<key>_top_damaged
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
+
+#诺耶露变身
+ship_sfdoll_noel = {
+	entity = dimensional_horror_entity
+	max_speed = @speed_slow
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 5000000
+	size_multiplier = 0
+	fleet_slot_size = 0
+	# empire_limit = {
+	# 	base = 4
+	# }
+	section_slots = {
+		"core" = { locator = "part1" }
+	}
+	num_target_locators = 1
+	is_space_station = no
+	icon = ship_size_military_32
+	base_buildtime = 1 #3600
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
+	can_be_inspected = no
+	components_add_to_cost = no
+	prerequisites = { tech_ship_sfdoll_carrier }
+	potential_country = {
+		# has_authority = auth_gf_sfdoll
+		# always = no
+	}
+	default_behavior = carrier
+	class = shipclass_military_special
+	construction_type = starbase_shipyard
+	# required_component_set = "power_core"
+	# required_component_set = "ftl_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "combat_computers"
+	# required_component_set = "ship_aura_components"
+	modifier = {
+		ships_upkeep_mult = -1
+		ship_shield_add = 5000000
+		ship_armor_add = 5000000
+		ship_tracking_mult = 1.0
+		ship_evasion_add = 90
+	}
+	min_upgrade_cost = {
+		alloys = 10
+	}
+}
+
 #深空基地
 ship_sfdoll_starbase = {
 	formation_priority =  @corvette_formation_priority
@@ -32,9 +84,9 @@ ship_sfdoll_starbase = {
 	potential_country = {
 		has_authority = auth_gf_sfdoll
 	}
-	prerequisites = {
-		tech_sfdoll_mega_starport
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_mega_starport
+	# }
 	class = shipclass_starbase
 	base_buildtime = 0
 	can_have_federation_design = no
@@ -47,8 +99,8 @@ ship_sfdoll_starbase = {
 	is_civilian = no
 	is_listed = no
 	components_add_to_cost = no
-	can_disable = no
-	is_designable = yes
+	can_disable = yes
+	is_designable = no
 	default_behavior = default
 	auto_upgrade = yes
 	required_component_set = "power_core"
@@ -328,8 +380,8 @@ ship_sfdoll_carrier = {
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 5000000
-	size_multiplier = 64
-	fleet_slot_size = 64
+	size_multiplier = 128
+	fleet_slot_size = 128
 	# empire_limit = {
 	# 	base = 4
 	# }
@@ -358,11 +410,12 @@ ship_sfdoll_carrier = {
 	required_component_set = "combat_computers"
 	required_component_set = "ship_aura_components"
 	modifier = {
+		ships_upkeep_mult = -1
+		ship_shield_add = 5000000
+		ship_armor_add = 5000000
 		starbase_shipyard_capacity_add = 20
 		starbase_shipyard_build_speed_mult = 1
 		ship_starting_experience_add = 200
-		ship_shield_add = 5000000
-		ship_armor_add = 5000000
 	}
 	resources = {
 		category = ships
