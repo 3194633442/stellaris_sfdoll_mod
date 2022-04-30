@@ -48,8 +48,7 @@ ship_sfdoll_noel = {
 	components_add_to_cost = no
 	prerequisites = { tech_ship_sfdoll_carrier }
 	potential_country = {
-		# has_authority = auth_gf_sfdoll
-		# always = no
+		has_country_flag = sfdoll_noel_owner
 	}
 	default_behavior = carrier
 	class = shipclass_military_special

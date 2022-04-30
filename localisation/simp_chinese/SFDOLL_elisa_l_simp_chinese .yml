@@ -3,7 +3,7 @@
 sfdoll_elisa_event.2:0 "伊莱莎"
 sfdoll_elisa_event_2_a_desc:0 "要喝咖啡吗?"
 sfdoll_elisa_event_2_b_desc:0 "别光坐着，多运动!"
-sfdoll_elisa_event_2_c_desc:0 "父亲，露尼西亚..我能追上你们吗?"
+sfdoll_elisa_event_2_c_desc:0 "父亲，露尼西亚。我会赢过你们。"
 sfdoll_elisa_event_2_d_desc:0 "要合理安排时间。"
 
 elisa_to_scientist:0 "请你领导科研工作"
@@ -14,7 +14,7 @@ sfdoll_elisa_event.2_option_2:0 "联系一些领袖"
 
 
 leader_trait_elisa_sfd_scientist:0 "伊莱莎"
-leader_trait_elisa_sfd_scientist_desc:0 "低调的学术鬼才，擅长照顾人.曾经是超级AI，短暂地担任过铁血的最高领袖，也是带领铁血离开太阳系的先驱者"
+leader_trait_elisa_sfd_scientist_desc:0 "伊莱莎曾经是超级AI，短暂地担任过铁血的最高领袖，也是带领铁血离开太阳系的先驱者"
 
 sfdoll_elisa_event.3:0 "联系一些领袖"
 sfdoll_elisa_event_3_a_desc:0 "要找谁？"

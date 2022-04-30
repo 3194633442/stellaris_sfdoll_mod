@@ -60,15 +60,13 @@ country_event = {
 	id = sfdoll_noel_event.1
 	title = "sfdoll_noel_event_1_title"
 	desc = "sfdoll_noel_event_1_a_desc"
+	desc = "sfdoll_noel_event_1_b_desc"
 	desc = "sfdoll_noel_event_1_c_desc"
 	diplomatic = yes
 
 	picture_event_data = {
-		portrait = GFX_sfdoll_noel
-		planet_background = root
-		graphical_culture = root
-		city_level = root
-		room = root
+		portrait = GFX_sfdoll_noel_02
+		room = sfdoll_snow_room
 	}	
 	is_triggered_only = yes
 
@@ -206,20 +204,20 @@ country_event = {
 		name = sfdoll_noel_event.2_option
 		add_resource = {
 			unity = 1000
-			physics_research = 8000
-			society_research = 8000
-			engineering_research = 8000
+			physics_research = 12000
+			society_research = 12000
+			engineering_research = 12000
 		}
 	}
 }
 
-#诺耶露的情况2
+#诺耶露失踪
 country_event = {
 	id = sfdoll_noel_event.3
 	title = "sfdoll_noel_event.3"
 	desc = "sfdoll_noel_event.3_desc"
 	is_triggered_only = yes
-	picture = GFX_evp_sfdoll_noel_sleep
+	picture = GFX_evp_sfdoll_news_room
 	immediate = {
 		hidden_effect = {
 			country_event = {
@@ -239,14 +237,15 @@ country_event = {
 	}
 }
 
-#诺耶露失踪
+#诺耶露回归
 country_event = {
 	id = sfdoll_noel_event.4
 	title = sfdoll_noel_event.4
 	desc = sfdoll_noel_event.4_desc
 	is_triggered_only = yes
-	picture = GFX_evp_sfdoll_news_room
-	immediate = {
+	picture = GFX_evp_sfdoll_nuclear_explosion
+	option = {
+		name = sfdoll_noel_event.4_option
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_noel_event.5
@@ -254,18 +253,24 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = sfdoll_noel_event.4_option
-	}
 }
 
-#诺耶露回归
+#诺耶露归来，与伊莱莎讨论
 country_event = {
 	id = sfdoll_noel_event.5
-	title = sfdoll_noel_event.5
-	desc = sfdoll_noel_event.5_desc
+	title = "sfdoll_noel_event.5"
+	desc = "sfdoll_noel_event.5_desc"
+	diplomatic = yes
 	is_triggered_only = yes
-	picture = GFX_evp_sfdoll_nuclear_explosion
+	picture_event_data = {
+		portrait = GFX_sfdoll_elisa
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}	
+	is_triggered_only = yes
+
 	option = {
 		name = sfdoll_noel_event.5_option
 		hidden_effect = {
@@ -305,94 +310,19 @@ country_event = {
 	}
 }
 
-#诺耶露归来，与伊莱莎讨论
-country_event = {
-	id = sfdoll_noel_event.7
-	title = "sfdoll_noel_event.7"
-	desc = "sfdoll_noel_event.7_desc"
-	diplomatic = yes
-	is_triggered_only = yes
-	picture_event_data = {
-		portrait = GFX_sfdoll_elisa
-		room = this
-		graphical_culture = this
-		planet_background = this
-		city_level = this
-	}	
-	is_triggered_only = yes
-
-	option = {
-		name = sfdoll_noel_event.7_option
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_noel_event.8
-			}
-		}
-	}
-}
-
-#诺耶露归来，与伊莱莎讨论2
-country_event = {
-	id = sfdoll_noel_event.8
-	title = "sfdoll_noel_event.8"
-	desc = "sfdoll_noel_event.8_desc"
-	diplomatic = yes
-	is_triggered_only = yes
-	picture_event_data = {
-		portrait = GFX_sfdoll_elisa
-		room = this
-		graphical_culture = this
-		planet_background = this
-		city_level = this
-	}	
-	is_triggered_only = yes
-
-	option = {
-		name = OK
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_noel_event.9
-			}
-		}
-	}
-}
 
 #协助诺耶露
 country_event = {
-	id = sfdoll_noel_event.9
-	title = sfdoll_noel_event.9
-	desc = sfdoll_noel_event.9_desc
+	id = sfdoll_noel_event.7
+	title = sfdoll_noel_event.7
+	desc = sfdoll_noel_event.7_desc
 	is_triggered_only = yes
 	picture = GFX_evp_sfdoll_ftl
 	option = {
 		name = OK
 		hidden_effect = {
 			country_event = {
-				id = sfdoll_noel_event.10
-			}
-		}
-	}
-}
-
-#解决事件，和诺耶露通讯1
-country_event = {
-	id = sfdoll_noel_event.10
-	title = sfdoll_noel_event.10
-	desc = sfdoll_noel_event.10_desc
-	diplomatic = yes
-	is_triggered_only = yes
-	picture_event_data = {
-		portrait = GFX_sfdoll_noel
-		planet_background = root
-		graphical_culture = root
-		city_level = root
-		room = root
-	}
-	option = {
-		name = sfdoll_noel_event.10_option
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_noel_event.11
+				id = sfdoll_noel_event.8
 			}
 			# 允许和诺耶露通讯
 			country_event = {
@@ -402,13 +332,13 @@ country_event = {
 	}
 }
 
-#解决事件，和诺耶露通讯2
+#解决事件，和诺耶露通讯1
 country_event = {
-	id = sfdoll_noel_event.11
-	title = sfdoll_noel_event.11
-	desc = sfdoll_noel_event.11_desc
-	is_triggered_only = yes
+	id = sfdoll_noel_event.8
+	title = sfdoll_noel_event.8
+	desc = sfdoll_noel_event.8_desc
 	diplomatic = yes
+	is_triggered_only = yes
 	picture_event_data = {
 		portrait = GFX_sfdoll_noel
 		planet_background = root
@@ -417,23 +347,23 @@ country_event = {
 		room = root
 	}
 	option = {
-		name = sfdoll_noel_event.11_option
+		name = sfdoll_noel_event.8_option
 		hidden_effect = {
 			country_event = {
-				id = sfdoll_noel_event.12
+				id = sfdoll_noel_event.9
 			}
+
 		}
 	}
 }
 
-#解决事件，和诺耶露通讯3
+#解决事件，和诺耶露通讯2
 country_event = {
-	id = sfdoll_noel_event.12
-	title = sfdoll_noel_event.12
-	desc = sfdoll_noel_event.12_desc
+	id = sfdoll_noel_event.9
+	title = sfdoll_noel_event.9
+	desc = sfdoll_noel_event.9_desc
 	is_triggered_only = yes
 	diplomatic = yes
-
 	picture_event_data = {
 		portrait = GFX_sfdoll_noel
 		planet_background = root
@@ -442,7 +372,7 @@ country_event = {
 		room = root
 	}
 	option = {
-		name = sfdoll_noel_event.12_option
-		response_text = response_sfdoll_noel_event.12_option
+		name = sfdoll_noel_event.9_option
+		response_text = response_sfdoll_noel_event.9_option
 	}
 }
