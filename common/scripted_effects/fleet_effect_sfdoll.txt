@@ -13,7 +13,3 @@
 # 		add_modifier = { modifier = add_hp_500000_times days = $DAYS$ }
 # 	}
 # }
-
-add_hp_sfd = {
-	
-}

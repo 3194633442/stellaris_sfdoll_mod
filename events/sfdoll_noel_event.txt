@@ -170,6 +170,26 @@ country_event = {
 		response_text = "response_text_noel_become_general"
 	}
 
+	option = {
+		name = option_noel_become_ship
+		allow = {
+			custom_tooltip = {
+				fail_text =  "noel_has_this_job_now"
+				NOT = {
+					exists = event_target:ship_sfdoll_noel
+				}
+			}
+		}
+		hidden_effect = {
+			capital_scope = {
+				solar_system = {
+					effect_create_fleet_sfdoll_noel = yes
+				}
+			}
+		}
+		response_text = response_option_noel_become_ship
+	}
+
 	#退出
 	option = {
 		name =  "sfdoll_ump45_event_1_option"

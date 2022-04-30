@@ -15,8 +15,8 @@ effect_create_change_hyperlane_beacon_sfdoll = {
 					create_ship = {
 						design = design_beacon_ship_sfdoll
 						name = Name_beacon_ship_sfdoll
+						prefix = no
 						upgradable = no
-						
 					}
 					set_location = ROOT.capital_scope
 					save_global_event_target_as = fleet_beacon_sfdoll_1

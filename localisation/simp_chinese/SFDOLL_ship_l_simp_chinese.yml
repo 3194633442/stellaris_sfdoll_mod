@@ -127,6 +127,10 @@ component_aura_sfdoll_1:0 "作战支援"
 friendly_aura_sfdoll_1:0 "作战支援"
 hostile_aura_sfdoll_1:0 "干扰战术"
 
+
+ship_sfdoll_noel:0 "诺耶露"
+section_sfdoll_noel:0 "诺耶露装备箱"
+
 #section
 tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
 tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船设备的体积与重量得到大幅缩减。作为这一技术的成果，战列舰和护卫舰得以搭载更强的武器。"

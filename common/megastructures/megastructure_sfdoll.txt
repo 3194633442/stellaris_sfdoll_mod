@@ -83,6 +83,7 @@ sfdoll_mega_starport = {
 					set_location = prev
 					create_ship = {
 						random_existing_design = ship_sfdoll_starbase
+						prefix = no
 						effect = {
 							#这里要用location里的本地化
 							set_name = "sfdoll_mega_starport"
