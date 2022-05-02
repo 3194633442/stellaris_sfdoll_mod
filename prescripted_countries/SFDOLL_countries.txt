@@ -1,0 +1,84 @@
+"SFDOLL_country"={
+	#	key="帕拉蒂斯"
+	ship_prefix=""
+	species={
+		# class="nyto"
+		# portrait="GFnyto_nyto"
+		class=  "sf_a_doll"
+		portrait= "gf_sf_doll_group"
+		name="PRESCRIPTED_species_sfdoll_1"
+		plural="PRESCRIPTED_species_plural_sfdoll_1"
+		adjective="PRESCRIPTED_species_adjective_sfdoll_1"
+		name_list= "HUM4"
+		# trait="trait_GF_nyto_ogas_agreement"
+		# trait="trait_GF_nyto_collapse_radiation_adaptation"
+		# trait="trait_GF_nyto_the_last_light"
+		# trait="trait_GF_nyto_cell_regeneration"
+		trait= "trait_gf_sfdoll"
+		trait = "trait_sfdoll_ogas_protocol"
+	}
+	name="PRESCRIPTED_name_sfdoll_1"
+	adjective="PRESCRIPTED_adjective_sfdoll_1"
+	# authority="auth_GF_paradeus"
+	# government="gov_civic_GF_nyto_starsea_crusade"
+	authority= "auth_gf_sfdoll"
+	government= "gov_civic_sfdoll_commonwealth"
+	planet_name="PRESCRIPTED_planet_sfdoll_1"
+	# planet_class="pc_continental"
+	planet_class =  "pc_tropical"
+	system_name="PRESCRIPTED_system_sfdoll_1"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category= "sfdoll_flags"
+			file="sfdoll_flag.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "sinus.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	# ruler={
+	# 	gender=female
+	# 	name="失格异构体"
+	# 	portrait="GFnyto_nyto_Isomer_shadow"
+	# 	texture=0
+	# 	hair=0
+	# 	clothes=0
+	# 	leader_class="ruler"
+	# }
+	ruler={
+		gender= indeterminable
+		name="PRESCRIPTED_ruler_sfdoll_1"
+		portrait= "sfdoll_01_sf_0"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="scrappy_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	# ethic= "ethic_materialist"
+	ethic="ethic_fanatic_spiritualist"
+	# civics={
+	# 	"civic_GF_nyto_special_operations_command"
+	# 	"civic_GF_nyoto_armor_train"
+	# }
+	civics={
+		"civic_sfdoll_research"
+		"civic_sfdoll_ogas_manage"
+	}
+	# origin="origin_GF_nyto_the_last_light"
+	origin= "origin_sfdoll_country"
+}
