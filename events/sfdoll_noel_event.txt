@@ -60,7 +60,7 @@ country_event = {
 	id = sfdoll_noel_event.1
 	title = "sfdoll_noel_event_1_title"
 	desc = "sfdoll_noel_event_1_a_desc"
-	desc = "sfdoll_noel_event_1_b_desc"
+	# desc = "sfdoll_noel_event_1_b_desc"
 	desc = "sfdoll_noel_event_1_c_desc"
 	diplomatic = yes
 
@@ -98,7 +98,11 @@ country_event = {
 						event_target:sfdoll_leader_noel = { leader_class = governor }
 					}			
 				}
-			}			 
+			}
+			custom_tooltip = {
+				fail_text =  "sfdoll_noel_is_destroyed"
+				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
+			}
 		}
 		hidden_effect = {
 			effect_noel_become_governor = yes
@@ -119,7 +123,11 @@ country_event = {
 						event_target:sfdoll_leader_noel = { leader_class =scientist }
 					}			
 				}
-			}			 
+			}
+			custom_tooltip = {
+				fail_text =  "sfdoll_noel_is_destroyed"
+				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
+			}		 
 		}
 		hidden_effect = {
 			effect_noel_become_scientist = yes
@@ -140,7 +148,11 @@ country_event = {
 						event_target:sfdoll_leader_noel = { leader_class = admiral }
 					}			
 				}
-			}			 
+			}
+			custom_tooltip = {
+				fail_text =  "sfdoll_noel_is_destroyed"
+				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
+			} 
 		}
 		hidden_effect = {
 			effect_noel_become_admiral = yes
@@ -161,7 +173,11 @@ country_event = {
 						event_target:sfdoll_leader_noel = { leader_class = general }
 					}			
 				}
-			}			 
+			}
+			custom_tooltip = {
+				fail_text =  "sfdoll_noel_is_destroyed"
+				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
+			}	 
 		}
 		hidden_effect = {
 			effect_noel_become_general = yes
@@ -170,14 +186,19 @@ country_event = {
 		response_text = "response_text_noel_become_general"
 	}
 
+	#诺耶露变船
 	option = {
 		name = option_noel_become_ship
 		allow = {
+			# custom_tooltip = {
+			# 	fail_text =  "noel_has_this_job_now"
+			# 	NOT = {
+			# 		exists = event_target:ship_sfdoll_noel
+			# 	}
+			# }
 			custom_tooltip = {
-				fail_text =  "noel_has_this_job_now"
-				NOT = {
-					exists = event_target:ship_sfdoll_noel
-				}
+				fail_text =  "sfdoll_noel_is_destroyed"
+				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
 			}
 		}
 		hidden_effect = {
@@ -188,6 +209,32 @@ country_event = {
 			}
 		}
 		response_text = response_option_noel_become_ship
+	}
+
+	#诺耶露跨星系攻击
+	option = {
+		name = "sfdoll_noel_system_attack"
+		allow = {
+			custom_tooltip = {
+				fail_text =  "noel_must_become_ship"
+				exists = event_target:ship_sfdoll_noel
+			}
+			custom_tooltip = {
+				fail_text = "sfdoll_noel_system_attack_cool_down"
+				NOT = {	has_country_flag = sfdoll_noel_system_attack_cool_down	}
+			}
+			custom_tooltip = {
+				fail_text =  "sfdoll_noel_is_destroyed"
+				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
+			}
+		}
+		hidden_effect = {
+			event_target:fleet_sfdoll_noel = {
+				fleet_event = {
+					id = sfdoll_planet_killer_event.2
+				}
+			}
+		}
 	}
 
 	#退出
@@ -215,7 +262,7 @@ country_event = {
 			#诺耶露情况2
 			country_event = {
 				id = sfdoll_noel_event.3
-				#days = 720
+				days = 720
 			}
 		}
 		
@@ -242,7 +289,7 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_noel_event.4
-				#days = 720
+				days = 180
 			}
 		}
 	}
@@ -269,7 +316,6 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_noel_event.5
-				#days = 180
 			}
 		}
 	}
@@ -395,4 +441,25 @@ country_event = {
 		name = sfdoll_noel_event.9_option
 		response_text = response_sfdoll_noel_event.9_option
 	}
+}
+
+#诺耶露舰船形态受损
+ship_event = {
+	id = sfdoll_noel_event.10
+	title = sfdoll_noel_event.10
+	desc = sfdoll_noel_event.10_desc
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ship_size = ship_sfdoll_noel
+	}
+	immediate = {
+		owner = {
+			set_timed_country_flag = {
+				flag = sfdoll_noel_is_destroyed
+				days = 360
+			}
+		}
+	}
+
 }

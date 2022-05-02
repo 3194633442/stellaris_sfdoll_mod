@@ -131,3 +131,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_aux_ship_revive.dds"
 	}
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_noel_REACTOR"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_noel_REACTOR.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_noel_jump_drive"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_noel_jump_drive.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_ship_sensors_noel"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_ship_sensors_noel.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_thruster_sfdoll_noel"
+		texturefile = "gfx/interface/icons/ship_parts/thruster_sfdoll_noel.dds"
+	}
+}

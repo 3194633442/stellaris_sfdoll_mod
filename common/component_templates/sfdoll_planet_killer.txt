@@ -15,7 +15,7 @@ weapon_component_template = {
     accuracy = 1
     range = 250
 
-	size_restriction = { ship_sfdoll_carrier ship_attacker_sfdoll sfdoll_destroyer }
+	size_restriction = { ship_sfdoll_carrier  ship_attacker_sfdoll }
 	component_set = "planet_killer_sfdoll_2"
 
 	planet_destruction_gfx = "star_destroyer_effect_gfx"
@@ -39,7 +39,7 @@ weapon_component_template = {
     accuracy = 1
     range = 20
 
-	size_restriction = { ship_sfdoll_carrier sfdoll_destroyer ship_attacker_sfdoll colossus star_eater }
+	size_restriction = { ship_sfdoll_noel ship_sfdoll_carrier  ship_attacker_sfdoll  }
 	component_set = "planet_killer_sfdoll_1"
 
 	planet_destruction_gfx = "star_destroyer_effect_gfx"

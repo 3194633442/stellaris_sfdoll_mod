@@ -12,9 +12,10 @@ country_event = {
 	picture = GFX_evp_sfdoll_digi_mind
 	trigger = {
 		is_ai = no
+		has_authority = auth_gf_sfdoll
 	}
 
-	#添加追踪锡安项目
+	#添加分析谜之信号项目
 	immediate = {
 		capital_scope = {
 			enable_special_project = {
@@ -59,6 +60,7 @@ country_event = {
 	after = {
 		country_event = {
 			id = sfdoll_search_zion_event.3
+			days = 60
 		}
 	}
 }
@@ -81,27 +83,32 @@ country_event = {
 				is_discovered = yes
 				max_distance = 10
 				min_distance = 20
+				effect = {
+					set_surveyed = {
+						surveyed = yes
+					}
+				}
 			}
 		}
 	}
 }
 
-#触发事件，添加遗迹遗迹调查项目，需要三级超空间
-country_event = {
-	id = sfdoll_search_zion_event.4
-	is_triggered_only = yes
-	fire_only_once = yes
-	hide_window = yes
-	trigger = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_hyper_drive_2
-	}
-	after = {
-		country_event = {
-			id = sfdoll_search_zion_event.0
-		}
-	}
-}
+#触发事件，添加遗迹遗迹调查项目
+# country_event = {
+# 	id = sfdoll_search_zion_event.4
+# 	is_triggered_only = yes
+# 	fire_only_once = yes
+# 	hide_window = yes
+# 	trigger = {
+# 		has_authority = auth_gf_sfdoll
+# 		has_technology = tech_hyper_drive_2
+# 	}
+# 	after = {
+# 		country_event = {
+# 			id = sfdoll_search_zion_event.0
+# 		}
+# 	}
+# }
 
 #诺耶露坟头 stage1
 fleet_event = {
@@ -226,7 +233,7 @@ country_event = {
 		#延迟一段时间后触发诺耶露状况事件
 		country_event = {
 			id = sfdoll_noel_event.2
-			#days = 720
+			days = 1080
 		}
 	}
 	

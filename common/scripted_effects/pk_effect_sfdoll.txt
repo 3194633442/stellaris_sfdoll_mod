@@ -87,3 +87,17 @@ effect_change_hyperlane_sfdoll={
 		}
 	}	
 }
+
+#摧毁恒星系
+# effect_sfdoll_destroy_star_system = {
+# 	if = {
+# 		limit = { exists = event_target:crisis_country }
+# 		fire_on_action = {
+# 			on_action = on_destroy_star_system
+# 			scopes = { 	from = event_target:crisis_country 	}
+# 		}
+# 	}
+# 	else = {
+# 		fire_on_action = { on_action = on_destroy_star_system }
+# 	}
+# }

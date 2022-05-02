@@ -21,7 +21,7 @@
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
 
-#诺耶露变身
+#诺耶露变身形态
 ship_sfdoll_noel = {
 	entity = dimensional_horror_entity
 	max_speed = @speed_slow
@@ -31,22 +31,18 @@ ship_sfdoll_noel = {
 	max_hitpoints = 5000000
 	size_multiplier = 0
 	fleet_slot_size = 0
-	# empire_limit = {
-	# 	base = 4
-	# }
 	section_slots = {
 		"core" = { locator = "part1" }
 	}
 	num_target_locators = 1
 	is_space_station = no
 	icon = ship_size_military_32
-	base_buildtime = 1 #3600
+	base_buildtime = 0 #3600
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
 	can_be_inspected = no
 	components_add_to_cost = no
-	prerequisites = { tech_ship_sfdoll_carrier }
 	potential_country = {
 		has_country_flag = sfdoll_noel_owner
 	}
@@ -58,66 +54,69 @@ ship_sfdoll_noel = {
 	required_component_set = "sensor_components"
 	required_component_set = "thruster_components"
 	required_component_set = "combat_computers"
-	#required_component_set = "ship_aura_components"
 	modifier = {
 		ships_upkeep_mult = -1
 		ship_shield_add = 5000000
 		ship_armor_add = 5000000
 		ship_tracking_mult = 1.0
 		ship_evasion_add = 90
+		ship_windup_mult = -1.0
+		ship_ftl_jumpdrive_range_mult = 6
+		ship_jumpdrive_cooldown_mult = -1
+		ship_emergency_ftl_min_days_mult = -1.0
 	}
 	min_upgrade_cost = {
 		alloys = 10
 	}
 }
 
-#深空基地
-ship_sfdoll_starbase = {
-	formation_priority =  @corvette_formation_priority
-	entity = stions_frame
-	max_speed = 0
-	max_hitpoints = 200000
-	collision_radius = @corvette_formation_priority
-	size_multiplier = 0
-	fleet_slot_size = 0
-	potential_country = {
-		has_authority = auth_gf_sfdoll
-	}
-	# prerequisites = {
-	# 	tech_sfdoll_mega_starport
-	# }
-	class = shipclass_starbase
-	base_buildtime = 0
-	can_have_federation_design = no
-	enable_default_design = yes
-	combat_disengage_chance = -1
-	num_target_locators = 8
-	enable_default_design = yes
-	is_space_station = no
-	can_have_federation_design = no
-	is_civilian = no
-	is_listed = no
-	components_add_to_cost = no
-	can_disable = yes
-	is_designable = no
-	default_behavior = default
-	auto_upgrade = yes
-	required_component_set = "power_core"
-	required_component_set = "sensor_components"
-	section_slots = {
-		"core" = { locator = "part1" }
-	}
-	modifier = {
-		ships_upkeep_mult = -1
-		ship_armor_add = 100000
-		ship_shield_add = 100000
-		starbase_building_capacity_add = 6
-		starbase_module_capacity_add = 6
-		starbase_shipyard_capacity_add = 10
-		starbase_shipyard_build_speed_mult = 1
-		ship_starting_experience_add = 200
-	}
-}
+# #深空基地
+# ship_sfdoll_starbase = {
+# 	formation_priority =  @corvette_formation_priority
+# 	entity = stions_frame
+# 	max_speed = 0
+# 	max_hitpoints = 200000
+# 	collision_radius = @corvette_formation_priority
+# 	size_multiplier = 0
+# 	fleet_slot_size = 0
+# 	potential_country = {
+# 		has_authority = auth_gf_sfdoll
+# 	}
+# 	# prerequisites = {
+# 	# 	tech_sfdoll_mega_starport
+# 	# }
+# 	class = shipclass_starbase
+# 	base_buildtime = 0
+# 	can_have_federation_design = no
+# 	enable_default_design = yes
+# 	combat_disengage_chance = -1
+# 	num_target_locators = 8
+# 	enable_default_design = yes
+# 	is_space_station = no
+# 	can_have_federation_design = no
+# 	is_civilian = no
+# 	is_listed = no
+# 	components_add_to_cost = no
+# 	can_disable = yes
+# 	is_designable = no
+# 	default_behavior = default
+# 	auto_upgrade = yes
+# 	required_component_set = "power_core"
+# 	required_component_set = "sensor_components"
+# 	section_slots = {
+# 		"core" = { locator = "part1" }
+# 	}
+# 	modifier = {
+# 		ships_upkeep_mult = -1
+# 		ship_armor_add = 100000
+# 		ship_shield_add = 100000
+# 		starbase_building_capacity_add = 6
+# 		starbase_module_capacity_add = 6
+# 		starbase_shipyard_capacity_add = 10
+# 		starbase_shipyard_build_speed_mult = 1
+# 		ship_starting_experience_add = 200
+# 	}
+# }
 
 #力场支援舰
 ship_support_sfdoll = {
@@ -132,7 +131,7 @@ ship_support_sfdoll = {
 		ship_shield_mult = 1
 	}
 	size_multiplier = 32
-	fleet_slot_size = 32
+	fleet_slot_size = 16
 	section_slots = {
 		"mid" = { locator = root }
 	}
@@ -189,8 +188,8 @@ ship_air_defense_sfdoll = {
 		"core" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
-	size_multiplier = 16
-	fleet_slot_size = 16
+	size_multiplier = 24
+	fleet_slot_size = 24
 	class = shipclass_military
 	base_buildtime = 720
 	can_have_federation_design = no
@@ -268,7 +267,7 @@ ship_attacker_sfdoll = {
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 100000
 	size_multiplier = 32
-	fleet_slot_size = 32
+	fleet_slot_size = 16
 	section_slots = {
 		"core" = { locator = "part1" }
 	}
@@ -320,7 +319,7 @@ sfdoll_homeless_ship = {
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 150000
 	size_multiplier = 20
-	fleet_slot_size = 20
+	fleet_slot_size = 16
 	section_slots = {
 		"core" = { locator = "part2" }
 		# "meidm" = { locator = "part2" }

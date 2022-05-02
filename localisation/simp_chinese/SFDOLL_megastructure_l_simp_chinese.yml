@@ -2,13 +2,9 @@
 ##########
 system_limit_one_sfd:0 "一个星系只能造一座"
 
-
 sfdoll_mega_starport:0 "深空星港"
 sfdoll_mega_starport_DESC:0 "深空星港建造在重力井之外，以便利用低重力环境和FTL航路"
 sfdoll_mega_starport_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_DESC$"
-
-ship_sfdoll_starbase:0 "$sfdoll_mega_starport$"
-section_sfdoll_starbase_core:0 "$sfdoll_mega_starport$"
 
 tech_sfdoll_mega_starport:0 "深空星港"
 tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$ "
@@ -28,7 +24,7 @@ tech_sfdoll_mega_matter_convey_desc:0 "$sfdoll_mega_matter_convey_DESC$"
 sfdoll_matter_transport_complete:0 "我们建造了一座$sfdoll_mega_matter_convey$"
 
 sfdoll_star_exploit_01:0 "恒星加工器基址"
-sfdoll_star_exploit_01_DESC:0 "恒星加工器会将恒星压缩保存，然后提取加工其中的物质"
+sfdoll_star_exploit_01_DESC:0 "恒星加工器会将整个恒星压缩保存，然后提取加工其中的物质"
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
 sfdoll_star_exploit_02:0 "恒星加工器"
@@ -55,10 +51,10 @@ gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
 
 
 sfdoll_habitat_01:0 "太空城基址"
-sfdoll_habitat_01_DESC:0 "太空城能够容纳大量居民，并拥有先进的宇宙港"
+sfdoll_habitat_01_DESC:0 "太空城能够容纳大量居民，并发展高效的宇宙工业"
 sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
 
-sfdoll_habitat_02:0 "太空城造船厂"
+sfdoll_habitat_02:0 "铁血太空城"
 sfdoll_habitat_02_DESC:0 "$sfdoll_habitat_01_DESC$"
 sfdoll_habitat_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
 
@@ -94,7 +90,7 @@ text_sfdoll_planet_killer_event.6_option_c:0 "信标所在的星系会被摧毁�
 
 ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"
 
-message_sfdoll_pk_2:0 "一个星系被摧毁了"
+
 
 
 

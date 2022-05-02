@@ -23,9 +23,9 @@ special_project = {
 			}
 		}
 		#添加研究项目
-		enable_special_project = {
-			name = SFDOLL_GATEWAY_PROJECT
-		}
+		# enable_special_project = {
+		# 	name = SFDOLL_GATEWAY_PROJECT
+		# }
 	}
 
 	on_fail = {

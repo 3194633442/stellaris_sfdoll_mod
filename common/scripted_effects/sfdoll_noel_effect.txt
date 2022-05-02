@@ -133,6 +133,12 @@ effect_create_fleet_sfdoll_noel = {
 			fire = yes
 		}
 	}
+	if = {
+		limit = {
+			exists = event_target:fleet_sfdoll_noel
+		}
+		delete_fleet = event_target:fleet_sfdoll_noel
+	}
 	create_fleet = {
 		name = Name_fleet_sfdoll_noel
 		settings = {
@@ -145,7 +151,7 @@ effect_create_fleet_sfdoll_noel = {
 			can_disband = yes
 		}
 		effect = {
-			save_global_event_target_as = system_create_fleet_sfdoll_noel
+			save_global_event_target_as = fleet_sfdoll_noel
 			set_owner = root
 			set_location = root.capital_scope
 			create_ship = {
@@ -154,7 +160,7 @@ effect_create_fleet_sfdoll_noel = {
 				prefix = no
 				upgradable = yes
 				effect = {
-					save_event_target_as = ship_sfdoll_noel
+					save_global_event_target_as = ship_sfdoll_noel
 				}
 			}
 		}

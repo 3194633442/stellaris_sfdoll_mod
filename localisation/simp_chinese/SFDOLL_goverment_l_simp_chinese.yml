@@ -4,7 +4,7 @@
 FLAG_CATEGORY_sfdoll_flags:0"铁血人形"
 
 origin_sfdoll_country:0"流浪的人偶"
-origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物.它们被迫离开了自己的母星,在宇宙中流浪,最终在这个星系定居下来."
+origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物.它们被迫离开了自己的母星,在宇宙中流浪,最终在这个星系定居下来。"
 origin_sfdoll_country_description:0 "开局拥有较少的人口,区划和建筑\n 开局拥有部分人工智能科技和自动探索科技 \n 允许同化部分物种"
 
 auth_gf_sfdoll:0"铁血联盟制"
@@ -29,3 +29,5 @@ gov_civic_sfdoll_military_governmenth_desc:0"铁血人形们掌握着这个政�
 RT_sfdoll_president:0"总统"
 
 GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载,格里芬基地解体后,铁血遭遇迫害,不得不开始逃亡.最终,铁血利用超光速飞船离开太阳系,并在宇宙中找到了新家园.\n 在这个星系里,我们一边开拓新世界,一边探索航天技术,准备重回星际舞台."
+
+sfdoll_country:0 "铁血星际共和国"

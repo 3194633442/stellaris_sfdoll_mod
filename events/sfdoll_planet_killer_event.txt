@@ -75,8 +75,8 @@ planet_event = {
 	}
 }
 
-#跨星系攻击触发
-planet_event = {
+#跨星系攻击触发，改为诺耶露专用,scope = 诺耶露舰船
+fleet_event = {
 	id = sfdoll_planet_killer_event.2
 	hide_window = yes
 	is_triggered_only = yes
@@ -84,9 +84,7 @@ planet_event = {
 		solar_system = {
 			save_event_target_as = system_source_of_planet_killer
 		}
-		from = {
-			save_event_target_as = fleet_source_of_planet_killer
-		}
+		save_event_target_as = fleet_source_of_planet_killer
 		from = {
 			owner = {
 				country_event = {
@@ -105,7 +103,6 @@ country_event = {
 	is_triggered_only = yes
 	picture = GFX_evp_sfdoll_ship_in_orbit
 	immediate = {
-
 		#清除之前留下的event target
 		clear_target_of_pk_sfdoll_effect = yes
 
@@ -117,11 +114,11 @@ country_event = {
 					OR = {
 						distance = {
 							source = event_target:system_source_of_planet_killer
-							max_jumps = 2
+							max_jumps = 1
 						}
 						distance = {
 							source = event_target:system_source_of_planet_killer
-							max_distance = 2
+							max_distance = 1
 						}
 
 					}
@@ -213,6 +210,23 @@ country_event = {
 		}
 		#清除计算target数的变量
 		clear_variable = count_sfdoll_planet_killer_target
+	}
+
+	#摧毁诺耶露所在的星系
+	option = {
+		name = sfdoll_planet_killer_event_3_attack_here
+		event_target:system_source_of_planet_killer = {
+			star = {
+				save_event_target_as = attacked_by_planet_killer
+			}
+		}
+		event_target:fleet_source_of_planet_killer = {
+			fleet_event = {
+				id = sfdoll_planet_killer_event.4
+			}
+		}
+		remove_flag_sfdoll_planet_killer_target_effect = yes
+		clear_target_of_pk_sfdoll_effect = yes
 	}
 
 	option = {
@@ -384,6 +398,11 @@ planet_event = {
 		add_threat = { who = from.owner amount = 10 }
 		from = {
 			owner = {
+				set_timed_country_flag = {
+					flag = sfdoll_noel_system_attack_cool_down
+					days = 30
+				}
+
 				#save_event_target_as = crisis_country
 				add_victory_score = {
 					source = destroyed_stars_score
@@ -405,7 +424,7 @@ planet_event = {
 		from = {
 			create_message = {
 				type = PLANET_DESTROYED
-				localization = message_sfdoll_pk_2
+				localization = message_system_destroyed_sfdoll
 				days = 30
 				target = prev
 			}
@@ -480,7 +499,7 @@ fleet_event = {
 		}
 	}
 }
-#摧毁所在星系，from为发射的飞船
+#铁血之矛，摧毁所在星系，from为发射的舰队
 planet_event = {
 	id = sfdoll_planet_killer_event.8
 	hide_window = yes
@@ -510,7 +529,7 @@ planet_event = {
 		from = {
 			create_message = {
 				type = PLANET_DESTROYED
-				localization = message_sfdoll_pk_2
+				localization = message_system_destroyed_sfdoll
 				days = 30
 				target = prev
 			}
@@ -629,5 +648,43 @@ fleet_event = {
 	}
 	option = {
 		name = sfdoll_break_option
+	}
+}
+
+#星辰猎手，摧毁所在星系，from为发射的舰队
+planet_event = {
+	id = sfdoll_planet_killer_event.11
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		#威慑值和得分
+		add_threat = { who = from.owner amount = 10 }
+		from = {
+			owner = {
+				add_victory_score = {
+					source = destroyed_stars_score
+					score = 10
+				}
+				#初次炸恒星
+				if = {
+					limit = {
+						NOT = { has_country_flag = cracked_first_star }
+					}
+					set_country_flag = cracked_first_star
+				}
+			}
+		}
+		solar_system = {
+			save_event_target_as = destroyed_system
+			destroy_star_system = yes
+		}
+		from = {
+			create_message = {
+				type = PLANET_DESTROYED
+				localization = message_system_destroyed_sfdoll
+				days = 30
+				target = prev
+			}
+		}
 	}
 }

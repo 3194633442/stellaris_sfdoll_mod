@@ -91,16 +91,16 @@ sfdoll_habitat_02 ={
 	upgrade_from = {
 		sfdoll_habitat_01
 	}
-	ship_modifier = {
-		ship_starting_experience_add = 200
-	}
-	station_modifier = {
-		starbase_shipyard_capacity_add = 20
-		starbase_shipyard_build_speed_mult = 1
-	}
-	country_modifier = {
-		country_naval_cap_add = 1000
-	}
+	# ship_modifier = {
+	# 	ship_starting_experience_add = 200
+	# }
+	# station_modifier = {
+	# 	starbase_shipyard_capacity_add = 20
+	# 	starbase_shipyard_build_speed_mult = 1
+	# }
+	# country_modifier = {
+	# 	country_naval_cap_add = 1000
+	# }
 	resources = {
 		category = megastructures_habitat
 		cost = {
@@ -142,6 +142,9 @@ sfdoll_habitat_02 ={
 				days = 30
 				target = prev
 			}
+		}
+		fromfrom = {
+			remove_megastructure = this
 		}
 	}
 

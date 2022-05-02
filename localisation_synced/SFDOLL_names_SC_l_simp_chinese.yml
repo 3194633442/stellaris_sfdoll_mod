@@ -19,10 +19,24 @@ name_sfdoll_triela_country: "崔耶拉"
 
 name_sfdoll_event_leader_species: "遗迹生物"
 
-
 Name_beacon_ship_sfdoll_fleet: "超光速信标"
 Name_beacon_ship_sfdoll: "超光速信标"
 design_beacon_ship_sfdoll: "铁血之矛"
 
-
 Name_sfdoll_system_search_zion: "谜之信号源"
+
+PRESCRIPTED_species_name_sfdoll_1: "铁血人形"
+
+PRESCRIPTED_species_name_plural_sfdoll_1: "铁血人形"
+
+PRESCRIPTED_species_adjective_sfdoll_1: "铁血人形"
+
+Name_sfdoll_country1: "铁血星际共和国"
+
+adjective_sfdoll_country1: "铁血星际共和国"
+
+NAME_start_planet_sfdoll_1: "新地球"
+
+NAME_start_system_sfdoll_1: "新太阳系"
+
+PRESCRIPTED_ruler_name_sfdoll_1: "衔尾蛇"

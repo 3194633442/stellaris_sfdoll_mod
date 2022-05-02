@@ -1,2 +1,17 @@
 namespace = sfdoll_event
 #id标准写法为namespace的值加上编号
+#every year 年检事件统一判断
+country_event = {
+	id = sfdoll_event.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+	immediate = {
+		country_event = {
+			id = sfdoll_search_zion_event.0
+			days = 5
+		}
+	}
+}
