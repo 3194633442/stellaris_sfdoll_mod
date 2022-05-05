@@ -71,18 +71,30 @@ tech_sfdoll_weapen_t_7 = {
 	weight = 0
 }
 
-#防御
+#shield
 tech_sfdoll_ship_defense_s = {
-	cost = @tier4cost1
+	cost = @tier5cost1
 	area = engineering
 	icon = tech_sfdoll_ship_defense_s
 	category = { voidcraft }
 	is_reverse_engineerable = no
 	prerequisites = { tech_sfdoll_weapon_s_3	}
 	potential = {	has_authority = auth_gf_sfdoll	}
-	tier = 4
-	weight = @tier4weight1
+	tier = 5
+	weight = @tier5weight1
 }
+tech_sfdoll_ship_armor_L = {
+	cost = @tier5cost1
+	area = engineering
+	icon = tech_sfdoll_ship_armor_L
+	category = { voidcraft }
+	is_reverse_engineerable = no
+	prerequisites = { tech_sfdoll_weapon_s_3	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 5
+	weight = @tier5weight1
+}
+
 
 
 #铁血跃迁引擎
@@ -262,24 +274,6 @@ tech_ship_sfdoll_carrier = {
 	weight = @tier5weight3
 }
 
-#星际攻击舰
-tech_ship_attacker_sfdoll = {
-	cost = @tier5cost2
-	area = engineering
-	start_tech = no
-	tier = 5
-	icon = tech_ship_sfdoll_carrier
-	category = { voidcraft }
-	prerequisites = {
-		tech_aux_sfdoll_collapse_power
-	}
-	potential = {
-		has_technology = tech_sfdoll_thruster
-	}
-	weight = @tier5weight2
-}
-
-
 #星舰城市
 tech_sfdoll_homeless_ship = {
 	cost = @tier5cost1
@@ -340,24 +334,60 @@ tech_ship_support_sfdoll= {
 	weight = @tier5weight2
 }
 
-#重型战斗舰
-tech_sfdoll_fighter = {
-	cost = @tier5cost1
+#纳米突击舰
+tech_ship_sfdoll_nanite = {
+	cost = @tier5cost3
 	tier = 5
 	area = engineering
 	start_tech = no
 	icon = tech_ship_sfdoll_carrier
-	is_rare = no
+	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {
-		tech_aux_sfdoll_collapse_power
+		tech_sfdoll_nanites
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_battleships
 	}
-	weight = 0
+	weight = 0 # @tier5cost3
 }
+
+#铁血泰坦
+tech_sfdoll_titan = {
+	cost = @tier5cost3
+	tier = 5
+	area = engineering
+	start_tech = no
+	icon = tech_sfdoll_tactical_destroyer
+	category = { voidcraft }
+	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_battleships
+	}
+	weight = @tier5cost3
+}
+
+#重型战斗舰
+# tech_sfdoll_fighter = {
+# 	cost = @tier5cost1
+# 	tier = 5
+# 	area = engineering
+# 	start_tech = no
+# 	icon = tech_ship_sfdoll_carrier
+# 	is_rare = no
+# 	category = { voidcraft }
+# 	prerequisites = {
+# 		tech_aux_sfdoll_collapse_power
+# 	}
+# 	potential = {
+# 		has_authority = auth_gf_sfdoll
+# 		has_technology = tech_battleships
+# 	}
+# 	weight = 0
+# }
+
 
 
 # #航天母舰

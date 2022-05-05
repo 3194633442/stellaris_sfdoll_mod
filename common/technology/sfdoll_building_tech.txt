@@ -122,13 +122,12 @@ tech_sfdoll_dark_matter_plant = {
 
 #超微观人工智能，解锁铁血纳米生产
 tech_sfdoll_nanites = {
-	cost = @tier3cost1
+	cost = @tier4cost3
 	area = engineering
-	tier = 3
+	tier = 4
 	category = { industry }
 	weight = 0
 	potential = {	has_authority = auth_gf_sfdoll	}
-	modifier = {	planet_jobs_produces_mult = 0.15 }
 }
 
 

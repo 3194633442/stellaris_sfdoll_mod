@@ -56,6 +56,7 @@ ship_section_template = {
 # 	}
 # }
 
+#原版改进
 #X槽护卫
 ship_section_template={
 	key="corvette_section_x_sfddoll"						
@@ -107,6 +108,32 @@ ship_section_template = {
 	}
 }
 
+#战列舰尾
+ship_section_template = {
+	key = "battleship_stern_sfdoll"
+	ship_size = battleship
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "battleship_stern_L1_entity"
+	icon = "GFX_ship_part_core_stern"
+	prerequisites = { tech_sfdoll_battleship_bow_x2	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "large_gun_01"
+	}
+
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+}
+
 # #战列舰中
 # ship_section_template = {
 # 	key = "battleship_mid_sfdoll_X2L2"
@@ -149,36 +176,7 @@ ship_section_template = {
 # 	}
 # }
 
-# #战列舰尾
-# ship_section_template = {
-# 	key = "battleship_stern_sfdoll_L2"
-# 	ship_size = battleship
-# 	fits_on_slot = stern
-# 	should_draw_components = yes
-# 	entity = "battleship_stern_M2_entity"
-# 	icon = "GFX_ship_part_core_stern"
-# 	prerequisites = { tech_sfdoll_battleship_bow_x2	}
-# 	component_slot = {
-# 		name = "L_01"
-# 		template = "large_turret"
-# 		locatorname = "medium_gun_01"
 
-# 	}
-# 	component_slot = {
-# 		name = "L_02"
-# 		template = "large_turret"
-# 		locatorname = "medium_gun_02"
-# 	}
-
-# 	aux_utility_slots = 3
-
-# 	resources = {
-# 		category = ship_sections
-# 		cost = {
-# 			alloys = 80
-# 		}
-# 	}
-# }
 
 #巡洋舰头
 # ship_section_template = {

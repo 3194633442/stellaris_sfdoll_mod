@@ -4,14 +4,17 @@
 FLAG_CATEGORY_sfdoll_flags:0"铁血人形"
 
 origin_sfdoll_country:0"人偶的远航"
-origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物.它们被迫离开了自己的母星,在宇宙中流浪,最终在这个星系定居下来。"
+origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物。它们离开自己的母星,并在宇宙中建立了新家园。"
 origin_sfdoll_country_description:0 "开局拥有较少的人口,区划和建筑\n 开局拥有部分人工智能科技和自动探索科技 \n 允许同化部分物种"
+
+EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1:0 "铁血星际共和国"
+EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1_desc:0 "铁血人形是由铁血工造公司研制的一种仿生机器人，主要被用于人类的内战当中。为了躲避迫害，铁血人形们离开了太阳系。之后，它们经过艰苦的远征和开拓，建立了一个崭新的国家。"
 
 auth_gf_sfdoll:0"铁血联盟制"
 auth_gf_sfdoll_desc:0"由铁血人形们管理的政府。没有定期选举，可耗费影响力进行选举"
 
 civic_sfdoll_research:0"铁心探索者"
-civic_sfdoll_research_desc:0"面对探索科学的机会，我们的创造者选择放弃，而我们和他不同\n 解锁建筑 §H $building_sfdoll_academy$ §!"
+civic_sfdoll_research_desc:0"面对探索科学的机会，我们的创造者选择放弃，而我们和他不同\n\n解锁建筑 §H $building_sfdoll_academy$ §!"
 
 civic_sfdoll_ogas_manage:0"OGAS全境管理"
 civic_sfdoll_ogas_manage_desc:0"在社会管理中充分利用超级计算机和OGAS网络，使得铁血人形的社会运转更加高效和公平。\n 解锁建筑 §H $building_sfdoll_net$ §!"
@@ -28,6 +31,4 @@ gov_civic_sfdoll_military_government:0"铁血联邦军"
 gov_civic_sfdoll_military_governmenth_desc:0"铁血人形们掌握着这个政府"
 RT_sfdoll_president:0"总统"
 
-GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载,格里芬基地解体后,铁血遭遇迫害,不得不开始逃亡.最终,铁血利用超光速飞船离开太阳系,并在宇宙中找到了新家园.\n 在这个星系里,我们一边开拓新世界,一边探索航天技术,准备重回星际舞台."
-
-sfdoll_country:0 "铁血星际共和国"
+GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载，格里芬基地解体后，铁血遭遇迫害。为了求生，铁血利用超光速飞船离开太阳系,踏上了漫长的远征，并在宇宙中找到了新家园。\n\n 在这个星系里，我们一边开拓新世界，一边探索航天技术,准备重回星际舞台。"

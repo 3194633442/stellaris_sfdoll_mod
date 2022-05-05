@@ -5,7 +5,7 @@ sfdoll_habitat_01 ={
 	show_galactic_map_icon = yes
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = yes
-	build_time = 360
+	build_time = 2160
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = {
@@ -53,62 +53,17 @@ sfdoll_habitat_01 ={
 	resources = {
 		category = megastructures_habitat
 		cost = {
-			alloys = 2500
+			alloys = 7500
+			unity = 500
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
 	on_build_complete = {
 		from = {
-			create_message = {
-				type = MEGASTRUCTURE_BUILT
-				localization = sfdoll_habitat_01_complete
-				days = 30
-				target = prev
-			}
+
 		}
 	}
 
-	ai_weight = {
-		weight = 0
-	}
-}
-
-#太空城
-sfdoll_habitat_02 ={
-	entity = ""
-	construction_entity = "habitat_phase_01_entity"
-	show_galactic_map_icon = yes
-	portrait = "GFX_sfdoll_habitat_01"
-	place_entity_on_planet_plane = no
-	build_time = 1800
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = {
-		owner = {
-			has_authority = auth_gf_sfdoll
-		}
-	}
-	upgrade_from = {
-		sfdoll_habitat_01
-	}
-	# ship_modifier = {
-	# 	ship_starting_experience_add = 200
-	# }
-	# station_modifier = {
-	# 	starbase_shipyard_capacity_add = 20
-	# 	starbase_shipyard_build_speed_mult = 1
-	# }
-	# country_modifier = {
-	# 	country_naval_cap_add = 1000
-	# }
-	resources = {
-		category = megastructures_habitat
-		cost = {
-			alloys = 5000
-			unity = 500
-		}
-	}
-	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
 	on_build_complete = {
 		spawn_planet = {
 			class = pc_sfdoll_habitis
@@ -138,7 +93,7 @@ sfdoll_habitat_02 ={
 			set_country_flag = has_built_or_repaired_megastructure
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
-				localization = sfdoll_habitat_02_complete
+				localization = sfdoll_habitat_01_complete
 				days = 30
 				target = prev
 			}
@@ -152,3 +107,83 @@ sfdoll_habitat_02 ={
 		weight = 0
 	}
 }
+
+#太空城二段
+# sfdoll_habitat_02 ={
+# 	entity = ""
+# 	construction_entity = "habitat_phase_01_entity"
+# 	show_galactic_map_icon = yes
+# 	portrait = "GFX_sfdoll_habitat_01"
+# 	place_entity_on_planet_plane = no
+# 	build_time = 1800
+# 	construction_blocks_others = no
+# 	construction_blocked_by_others = no
+# 	potential = {
+# 		owner = {
+# 			has_authority = auth_gf_sfdoll
+# 		}
+# 	}
+# 	upgrade_from = {
+# 		sfdoll_habitat_01
+# 	}
+# 	# ship_modifier = {
+# 	# 	ship_starting_experience_add = 200
+# 	# }
+# 	# station_modifier = {
+# 	# 	starbase_shipyard_capacity_add = 20
+# 	# 	starbase_shipyard_build_speed_mult = 1
+# 	# }
+# 	# country_modifier = {
+# 	# 	country_naval_cap_add = 1000
+# 	# }
+# 	resources = {
+# 		category = megastructures_habitat
+# 		cost = {
+# 			alloys = 5000
+# 			unity = 500
+# 		}
+# 	}
+# 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
+# 	on_build_complete = {
+# 		spawn_planet = {
+# 			class = pc_sfdoll_habitis
+# 			location = fromfrom
+# 			size = 15
+# 			has_ring = yes
+# 			init_effect = {
+# 				set_name = "HABITAT_PLANET_NAME"
+# 				set_surveyed = {
+# 					surveyed = yes
+# 					surveyor = FROM
+# 				}
+# 				set_all_comms_surveyed = yes
+# 				clear_blockers = yes
+# 				start_colony = {
+# 					owner = root
+# 				}
+# 				set_planet_entity = {
+# 					entity = GF_nyto_habita_entity
+# 				}
+# 				save_event_target_as = this_planet_habiti
+# 				set_planet_flag = megastructure
+# 				set_planet_flag = habitat
+# 			}
+# 		}
+# 		from = {
+# 			set_country_flag = has_built_or_repaired_megastructure
+# 			create_message = {
+# 				type = MEGASTRUCTURE_BUILT
+# 				localization = sfdoll_habitat_02_complete
+# 				days = 30
+# 				target = prev
+# 			}
+# 		}
+# 		fromfrom = {
+# 			remove_megastructure = this
+# 		}
+# 	}
+
+# 	ai_weight = {
+# 		weight = 0
+# 	}
+# }

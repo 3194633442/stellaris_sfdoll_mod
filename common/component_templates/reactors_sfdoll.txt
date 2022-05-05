@@ -215,7 +215,7 @@ utility_component_template = {
 	
 	prerequisites = {  tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { ship_air_defense_sfdoll titan  }
+	size_restriction = { sfdoll_titan ship_sfdoll_nanite ship_air_defense_sfdoll titan  }
 	ai_weight = {	weight = 20	}
 }
 
@@ -228,7 +228,7 @@ utility_component_template = {
 	power = 80000
 	prerequisites = { tech_aux_sfdoll_collapse_power  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_destroyer   ship_attacker_sfdoll colossus }
+	size_restriction = {  sfdoll_destroyer   colossus }
 	ai_weight = {	weight = 20	}
 }
 

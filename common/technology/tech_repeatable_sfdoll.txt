@@ -1,3 +1,23 @@
+tech_repeatable_weapon_type_sfdoll = {
+	cost = 500000 #@repeatableTechBaseCost
+	cost_per_level = 50000 # @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	levels = -1
+	area = society
+	category = { military_theory }
+	icon = tech_sfdoll_army
+	prerequisites = {	"tech_sfdoll_weapon_s_3"	}
+	weight = @repeatableTechWeight
+	ai_weight = {
+		factor = 10
+	}
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = {
+		weapon_type_sfdoll_weapon_damage_mult = 0.25
+		weapon_type_sfdoll_weapon_fire_rate_mult = 0.25
+	}
+}
+
 # tech_repeatable_improved_sfdoll_homeless_ship = {
 # 	area = society
 # 	cost = 250000

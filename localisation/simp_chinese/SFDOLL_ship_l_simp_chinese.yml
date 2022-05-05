@@ -30,7 +30,9 @@ component_set_sfdoll_aux_repair_ship:0"损害管理"
 component_set_sfdoll_aux_repair_ship_DESC:0"损管系统可以提高铁血飞船的生存能力"
 
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
-sfdoll_aux_quality_rebuilding_DESC:0 "质量再生系统可提高飞船的自持力"
+sfdoll_aux_quality_rebuilding_DESC:0 "通过逆向坍塌技术操纵微观粒子，我们可以构建飞船所使用的物质资源，并大幅提高飞船的自持力"
+tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
+tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 tech_sfdoll_aux_ship_revive:0 "SF空间滤网"
 tech_sfdoll_aux_ship_revive_desc:0 "通过空间干涉技术，SF空间滤网可以隔绝大部分攻击。"
@@ -55,11 +57,21 @@ sfdoll_combat_computer_3:0"铁血战舰AI(航母)"
 COMBAT_COMPUTER_DEFAULT_sfdoll:0 "基础作战电脑"
 
 #defense
-sfdoll_ship_defense_s:0"铁血飞船防御系统"
-sfdoll_ship_defense_m:0"铁血飞船防御系统"
-sfdoll_ship_defense_L:0"铁血飞船防御系统"
-component_set_sfdoll_ship_defense_s:0"铁血飞船防御系统"
-component_set_sfdoll_ship_defense_s_DESC:0"铁血飞船配备的标准防御系统，能够全方位抵御攻击"
+sfdoll_ship_defense_s:0 "加速棱镜"
+sfdoll_ship_defense_m:0"$sfdoll_ship_defense_s$"
+sfdoll_ship_defense_L:0"$sfdoll_ship_defense_s$"
+component_set_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
+component_set_sfdoll_ship_defense_s_DESC:0 "铁血的加速棱镜是一类可进行矢量调节的运动干涉装置。它可以为弹药灌注更大的能量和修正弹道，同时也可以用于抵御攻击。"
+tech_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
+tech_sfdoll_ship_defense_s_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
+
+sfdoll_ship_armor_L:0 "坍塌物质装甲"
+sfdoll_ship_armor_m:0 "$sfdoll_ship_armor_L$"
+sfdoll_ship_armor_s:0 "$sfdoll_ship_armor_L$"
+component_set_sfdoll_ship_armor_L:0"$sfdoll_ship_armor_L$"
+component_set_sfdoll_ship_armor_L_DESC:0 "利用物质坍塌技术处理装甲，以提升强度。此类装甲可适配船体的薄弱部位。"
+tech_sfdoll_ship_armor_L:0"$sfdoll_ship_defense_s$"
+tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
 sfdoll_ship_sensors:0"铁血舰载传感器"
 
@@ -83,16 +95,12 @@ sfdoll_carrier_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 
 sfdoll_ship_reactor_no:0 "空槽"
 
-tech_ship_attacker_sfdoll:0 "星际攻击舰"
-tech_ship_attacker_sfdoll_desc:0 "星际攻击舰可搭载足以摧毁星系的重型武器。"
-ship_attacker_sfdoll:0 "星际攻击舰"
-section_ship_attacker_sfdoll:0 "$ship_attacker_sfdoll$"
-
 
 tech_ship_sfdoll_carrier:0 "深空母舰"
 tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改造天体的能力，她的设计中运用了大量遗迹科技。建造她的过程，无疑会是一项宏伟的太空工程。"
 
 ship_sfdoll_carrier:0 "深空母舰"
+ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
 section_ship_sfdoll_carrier:0 "深空母舰"
 thruster_sfdoll_carrier:0 "深空母舰推进器"
 component_aura_sfdoll_carrier:0 "移动维护系统"
@@ -101,6 +109,7 @@ friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 tech_ship_air_defense_sfdoll:0 "铁血防空战列舰"
 tech_ship_air_defense_sfdoll_desc:0 "防空战列舰拥有比常规战列舰更强的武装，并能够搭载完备的防空系统"
 ship_air_defense_sfdoll:0 "铁血防空战列舰"
+ship_air_defense_sfdoll_plural:0 "$ship_air_defense_sfdoll$"
 section_air_defense_sfdoll_bow:0 "舰艏"
 section_air_defense_sfdoll_core:0 "核心"
 section_air_defense_sfdoll_stern:0 "核心"
@@ -109,16 +118,29 @@ section_air_defense_sfdoll_stern:0 "核心"
 tech_ship_support_sfdoll:0 "力场支援舰"
 tech_ship_support_sfdoll_desc:0 "力场支援舰没有搭载传统武器。作为替代，她搭载了强大的物理干涉引擎，其作用范围足以覆盖整个星系，用于压制敌对单位并支援友军。"
 ship_support_sfdoll:0 "力场支援舰"
+ship_support_sfdoll_plural:0 "$ship_support_sfdoll$"
 section_ship_support_sfdoll:0 "$ship_support_sfdoll$"
 
 component_aura_ship_support_sfdoll:0 "范围干涉引擎"
 hostile_aura_ship_support_sfdoll:0 "力场压制"
+
+
+sfdoll_titan:0 "重型战斗舰"
+sfdoll_titan_plural:0 "$sfdoll_titan$"
+sfdoll_titan_BOW:0 "A区段"
+sfdoll_titan_MID:0 "B区段"
+sfdoll_titan_section_mid2:0 "C区段"
+sfdoll_titan_STERN:0 "D区段"
+
+tech_sfdoll_titan:0 "铁血重型战斗舰"
+tech_sfdoll_titan_desc:0 "铁血人形意识到，模仿堕落帝国的泰坦巨舰并不明智。于是，铁血的泰坦向实用化的方向进化，成为新一代重型战斗舰。她拥有更均衡的配置，且无需臃肿的装配厂和冗杂的流程，可以实现量产。"
 
 #flag ship
 tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
 tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰搭载了多项试验性科技，用于强化整个舰队的作战能力。"
 
 sfdoll_destroyer:0 "铁血指挥舰"
+sfdoll_destroyer_plural:0 "$sfdoll_destroyer$"
 bow_section_sfdoll_destroyer:0 "装备A组"
 core_section_sfdoll_destroyer:0 "装备B组"
 core2_section_sfdoll_destroyer:0 "装备C组"
@@ -127,6 +149,11 @@ component_aura_sfdoll_1:0 "作战支援"
 friendly_aura_sfdoll_1:0 "作战支援"
 hostile_aura_sfdoll_1:0 "干扰战术"
 
+ship_sfdoll_nanite:0 "纳米突击舰"
+ship_sfdoll_nanite_plural:0 "$ship_sfdoll_nanite$"
+section_sfdoll_nanite:0 "武器模块"
+tech_ship_sfdoll_nanite:0 "铁血纳米突击舰"
+tech_ship_sfdoll_nanite_desc:0 "不同于传统的舰船，纳米突击舰以微型致动机组合而成，使得各个模块可以根据需要拆分与重组，在组装效率、维护成本、机动能力等方面有着极大的优势。"
 
 ship_sfdoll_noel:0 "诺耶露"
 section_sfdoll_noel:0 "诺耶露装备箱"
@@ -134,9 +161,16 @@ section_sfdoll_noel:0 "诺耶露装备箱"
 #section
 tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
 tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船设备的体积与重量得到大幅缩减。作为这一技术的成果，战列舰和护卫舰得以搭载更强的武器。"
-description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_battleship_bow_T1$,$corvette_section_x_sfddoll$"
+description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_battleship_bow_T1$,$battleship_stern_sfdoll$,$corvette_section_x_sfddoll$"
 
 
-sfdoll_battleship_bow_T1:0 "轻量巨炮舰艏"
+sfdoll_battleship_bow_T1:0 "强化主炮舰艏"
+battleship_stern_sfdoll:0 "强化舰尾"
 corvette_section_x_sfddoll:0 "重炮护航舰"
 
+
+weapon_type_sfdoll:0 "铁血军工"
+tech_repeatable_weapon_type_sfdoll:0 "铁血国防"
+tech_repeatable_weapon_type_sfdoll_desc:0 "跟随科技发展和星际形势变化，改良我们的军工产品"
+mod_weapon_type_sfdoll_weapon_damage_mult:0 "$weapon_type_sfdoll$伤害"
+mod_weapon_type_sfdoll_weapon_fire_rate_mult:0 "$weapon_type_sfdoll$攻速"

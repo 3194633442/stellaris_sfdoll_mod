@@ -201,3 +201,14 @@ country_event = {
 	}
 }
 
+ship_event = {
+	id = sfdoll_fleet_event.6
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		export_modifier_to_variable = {
+			modifier = ship_armor_add
+			variable = x
+		}
+	}
+}

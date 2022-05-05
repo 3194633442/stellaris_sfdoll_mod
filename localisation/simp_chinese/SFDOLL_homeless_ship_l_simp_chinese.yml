@@ -44,6 +44,7 @@ tech_sfdoll_homeless_ship:0 "零重力工业"
 tech_sfdoll_homeless_ship_desc:0 "在星舰城市中，我们可以充分利用失重环境，发展高效工业。同时，通过素体改装，铁血人形能够适应宇宙中的真空、辐射和极端温度等状况，从而在飞船上舒适地生活。\n "
 
 sfdoll_homeless_ship:0 "星舰城市"
+sfdoll_homeless_ship_plural:0 "$sfdoll_homeless_ship$"
 section_sfdoll_homeless_core:0 "星舰城市"
 section_sfdoll_homeless_4:0 "星舰城市防御系统"
 sfdoll_homeless_ship_reactor:0 "星舰城市能源中心"

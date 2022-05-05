@@ -20,6 +20,91 @@
 			#GFX_<key>_top_damaged
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
+sfdoll_titan = {
+	icon = ship_size_military_16
+	entity = titan_entity
+	formation_priority = @battleship_formation_priority
+	max_speed = @speed_slow
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 20000
+	modifier = {
+		ship_evasion_add = 20
+	}
+	size_multiplier = 16
+	fleet_slot_size = 8
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "mid2" = { locator = "part2" } "stern" = { locator = "part3" }  }
+	class = shipclass_military
+	base_buildtime = 720
+	can_have_federation_design = no
+	enable_default_design = yes
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+    required_component_set = "ftl_components"
+    required_component_set = "thruster_components"
+    required_component_set = "sensor_components"
+    required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
+	default_behavior = artillery
+	enable_3dview_in_ship_browser  = no
+	potential_country = {
+		has_authority = auth_gf_sfdoll
+	}
+	prerequisites = {	"tech_sfdoll_titan"	}
+	num_target_locators = 4
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 480
+		}
+		upkeep = {
+			energy = @titan_upkeep_energy
+			alloys = @titan_upkeep_alloys
+		}
+	}
+}
+
+#纳米突击舰
+ship_sfdoll_nanite = {
+	graphical_culture = no
+	entity = "gatebuilder_01_mothership_entity"
+	max_speed = @speed_default
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+	modifier = {
+		ship_evasion_add = 10
+		ships_upkeep_mult = -1
+	}
+	max_hitpoints = 20000
+	size_multiplier = 16
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" }  }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_military_16
+	class = shipclass_military
+	is_designable = yes
+	prerequisites = {	"tech_sfdoll_nanites"	}
+
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	resources = {
+		category = ships
+		# cost = {
+		# 	alloys = 480
+		# 	nanites = 480
+		# }
+		upkeep = {
+			energy = 5
+			minerals = 5
+		}
+	}
+}
 
 #诺耶露变身形态
 ship_sfdoll_noel = {
@@ -45,6 +130,9 @@ ship_sfdoll_noel = {
 	components_add_to_cost = no
 	potential_country = {
 		has_country_flag = sfdoll_noel_owner
+	}
+	potential_construction = {
+		always = no
 	}
 	default_behavior = carrier
 	class = shipclass_military_special
@@ -118,6 +206,8 @@ ship_sfdoll_noel = {
 # 	}
 # }
 
+
+
 #力场支援舰
 ship_support_sfdoll = {
 	formation_priority = @juggernaut_formation_priority
@@ -130,7 +220,7 @@ ship_support_sfdoll = {
 	modifier = {
 		ship_shield_mult = 1
 	}
-	size_multiplier = 32
+	size_multiplier = 16
 	fleet_slot_size = 16
 	section_slots = {
 		"mid" = { locator = root }
@@ -151,7 +241,7 @@ ship_support_sfdoll = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 960
+			alloys = 480
 		}
 		upkeep = {
 			energy = 5
@@ -188,8 +278,8 @@ ship_air_defense_sfdoll = {
 		"core" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
-	size_multiplier = 24
-	fleet_slot_size = 24
+	size_multiplier = 32
+	fleet_slot_size = 16
 	class = shipclass_military
 	base_buildtime = 720
 	can_have_federation_design = no
@@ -257,58 +347,6 @@ ship_change_hyperlane_beacon_sfdoll = {
 	# required_component_set = "thruster_components"
 	# required_component_set = "combat_computers"
 }
-
-#攻击舰
-ship_attacker_sfdoll = {
-	entity = SR3_entity
-	max_speed = @speed_very_slow
-	acceleration = 0.2
-	rotation_speed = 0.15
-	collision_radius = @titan_collision_radius
-	max_hitpoints = 100000
-	size_multiplier = 32
-	fleet_slot_size = 16
-	section_slots = {
-		"core" = { locator = "part1" }
-	}
-	num_target_locators = 4
-	is_space_station = no
-	icon_frame = 7
-	icon = ship_size_military_32
-	base_buildtime = 1080
-	can_have_federation_design = no
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-
-	components_add_to_cost = yes
-	possible_country = {
-		has_authority = auth_gf_sfdoll
-	}
-	prerequisites = { "tech_ship_attacker_sfdoll" }
-
-	default_behavior = artillery
-	class = shipclass_military_special
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "sensor_components"
-	required_component_set = "thruster_components"
-	required_component_set = "combat_computers"
-	ship_modifier = {
-		ship_armor_add = 100000
-		ship_shield_add = 50000
-	}
-	resources = {
-		category = ships
-		cost = {
-			alloys = 10000
-		}
-		upkeep = {
-			energy = 10
-			alloys = 5
-		}
-	}
-}
-
 
 #星舰城市
 sfdoll_homeless_ship = {
@@ -378,11 +416,8 @@ ship_sfdoll_carrier = {
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 5000000
-	size_multiplier = 128
-	fleet_slot_size = 128
-	# empire_limit = {
-	# 	base = 4
-	# }
+	size_multiplier = 256
+	fleet_slot_size = 16
 	section_slots = {
 		"core" = { locator = "part1" }
 	}
@@ -393,7 +428,7 @@ ship_sfdoll_carrier = {
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
-
+	components_add_to_cost = no
 	prerequisites = { tech_ship_sfdoll_carrier }
 	possible_country = {
 		has_authority = auth_gf_sfdoll
@@ -494,64 +529,110 @@ sfdoll_destroyer = {
 
 
 #重型战斗舰
-sfdoll_fighter = {
-	entity = juggernaut_entity
-	max_speed = @speed_very_slow
-	acceleration = 0.2
-	rotation_speed = 0.15
-	collision_radius = @juggernaut_collision_radius
-	max_hitpoints = 500000
-	modifier = {
-		ship_armor_add = 250000
-		ship_shield_add = 250000
-		ship_piracy_suppression_add = 8
-	}
-	size_multiplier = 20
-	fleet_slot_size = 20
-	section_slots = {
-		"core" = { locator = "part1" }
-	}
-	num_target_locators = 8
-	is_space_station = no
-	icon = ship_size_military_16
-	base_buildtime = 720
-	can_have_federation_design = no
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
-	components_add_to_cost = yes
+# sfdoll_fighter = {
+# 	entity = juggernaut_entity
+# 	max_speed = @speed_very_slow
+# 	acceleration = 0.2
+# 	rotation_speed = 0.15
+# 	collision_radius = @juggernaut_collision_radius
+# 	max_hitpoints = 500000
+# 	modifier = {
+# 		ship_armor_add = 250000
+# 		ship_shield_add = 250000
+# 		ship_piracy_suppression_add = 8
+# 	}
+# 	size_multiplier = 20
+# 	fleet_slot_size = 20
+# 	section_slots = {
+# 		"core" = { locator = "part1" }
+# 	}
+# 	num_target_locators = 8
+# 	is_space_station = no
+# 	icon = ship_size_military_16
+# 	base_buildtime = 720
+# 	can_have_federation_design = no
+# 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+# 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
+# 	components_add_to_cost = yes
 
-	prerequisites = { "tech_sfdoll_fighter" }
-	possible_country = {
-		has_authority = auth_gf_sfdoll
-	}
+# 	prerequisites = { "tech_sfdoll_fighter" }
+# 	possible_country = {
+# 		has_authority = auth_gf_sfdoll
+# 	}
 
-	class = shipclass_military
-	icon = ship_size_military_16
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "sensor_components"
-	required_component_set = "thruster_components"
-	required_component_set = "combat_computers"
-	required_component_set = "ship_aura_components"
+# 	class = shipclass_military
+# 	icon = ship_size_military_16
+# 	construction_type = starbase_shipyard
+# 	required_component_set = "power_core"
+# 	required_component_set = "ftl_components"
+# 	required_component_set = "sensor_components"
+# 	required_component_set = "thruster_components"
+# 	required_component_set = "combat_computers"
+# 	required_component_set = "ship_aura_components"
 
-	resources = {
-		category = ships
-		cost = {
-			alloys = 960
-		}
-		upkeep = {
-			energy = 4.8
-			alloys = 1.6
-		}
-	}
-	min_upgrade_cost = {
-		alloys = 10
-	}
-}
-# tech_sfdoll_fighter:0 "大型舰体模块化"
-# tech_sfdoll_fighter_desc:0 "新型移动船坞即将代替主宰，于是，铁血尝试将主宰中蕴含的技术运用到不同方面。\n 以主宰为原型的新一代舰种，舍弃了笨重的船坞系统，转而配备足够灵活的作战和指挥系统，并利用特殊结构组装技术，让这种舰船的组装不必依赖繁冗的装配厂，从而实现量产。"
-# sfdoll_fighter:0 "重型战斗舰"
-# section_sfdoll_fighter:0 "$sfdoll_fighter$"
+# 	resources = {
+# 		category = ships
+# 		cost = {
+# 			alloys = 960
+# 		}
+# 		upkeep = {
+# 			energy = 4.8
+# 			alloys = 1.6
+# 		}
+# 	}
+# 	min_upgrade_cost = {
+# 		alloys = 10
+# 	}
+# }
 
+#攻击舰
+# ship_attacker_sfdoll = {
+# 	entity = SR3_entity
+# 	max_speed = @speed_very_slow
+# 	acceleration = 0.2
+# 	rotation_speed = 0.15
+# 	collision_radius = @titan_collision_radius
+# 	max_hitpoints = 100000
+# 	size_multiplier = 32
+# 	fleet_slot_size = 16
+# 	section_slots = {
+# 		"core" = { locator = "part1" }
+# 	}
+# 	num_target_locators = 4
+# 	is_space_station = no
+# 	icon_frame = 7
+# 	icon = ship_size_military_32
+# 	base_buildtime = 1080
+# 	can_have_federation_design = no
+# 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+# 	components_add_to_cost = yes
+# 	possible_country = {
+# 		has_authority = auth_gf_sfdoll
+# 	}
+# 	prerequisites = { "tech_ship_attacker_sfdoll" }
+
+# 	default_behavior = artillery
+# 	class = shipclass_military_special
+# 	construction_type = starbase_shipyard
+# 	required_component_set = "power_core"
+# 	required_component_set = "ftl_components"
+# 	required_component_set = "sensor_components"
+# 	required_component_set = "thruster_components"
+# 	required_component_set = "combat_computers"
+# 	ship_modifier = {
+# 		ship_armor_add = 100000
+# 		ship_shield_add = 50000
+# 	}
+# 	resources = {
+# 		category = ships
+# 		cost = {
+# 			alloys = 10000
+# 		}
+# 		upkeep = {
+# 			energy = 10
+# 			alloys = 5
+# 		}
+# 	}
+# }
 

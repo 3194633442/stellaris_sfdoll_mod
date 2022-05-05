@@ -45,15 +45,12 @@ tech_sfdoll_weapon_x_1_desc:0"铁血的标准主炮"
 tech_sfdoll_weapen_t_2:0"铁血计量官级重炮"
 tech_sfdoll_weapen_t_2_desc:0"装备于大型战舰"
 
-tech_sfdoll_ship_defense_s:0"铁血飞船防御系统"
-tech_sfdoll_ship_defense_s_desc:0"新型的防御系统能提供更加可靠的防护"
 
 tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
 tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
 
 
-tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
-tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
+
 
 tech_sfdoll_jump_drive:0"铁血跃迁引擎"
 tech_sfdoll_jump_drive_desc:0"为了前往锡安，铁血进行了大量的研究，其中的部分成果被应用在这款新型超光速引擎上"

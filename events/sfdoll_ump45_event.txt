@@ -160,7 +160,7 @@ country_event = {
 
 	#退出
 	option = {
-		name =  "sfdoll_ump45_event_1_option"
+		name =  "sfdoll_break_option"
 		break = yes
 	}
 

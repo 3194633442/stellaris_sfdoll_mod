@@ -125,7 +125,7 @@ utility_component_template = {
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { destroyer }
+	size_restriction = { ship_sfdoll_nanite destroyer }
 
 	ai_weight = {
 		weight = 5
@@ -186,7 +186,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { battleship  }
+	size_restriction = {  sfdoll_titan battleship  }
 	ai_weight = {
 		weight = 5
 		modifier = {
@@ -245,7 +245,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { ship_attacker_sfdoll colossus	juggernaut 	}
+	size_restriction = { colossus	juggernaut 	}
 	ai_weight = {
 		weight = 5
 		modifier = {
