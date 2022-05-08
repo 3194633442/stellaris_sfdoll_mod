@@ -10,5 +10,3 @@ tech_gf_sfdoll_assemble_building= {
 	gateway = robotics	
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
-
-

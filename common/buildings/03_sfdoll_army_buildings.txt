@@ -53,7 +53,7 @@ building_sfdoll_army_2 = {
 	can_be_disabled = yes
 	icon = building_sfdoll_army_2
 	category = army
-
+	planetary_ftl_inhibitor = yes
 	prerequisites = { tech_sfdoll_heavy_army }
 	potential = {
 		exists = owner

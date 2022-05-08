@@ -94,7 +94,7 @@ sfdoll_habitat_01 ={
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_habitat_01_complete
-				days = 30
+				days = 60
 				target = prev
 			}
 		}

@@ -94,16 +94,6 @@ ship_section_template = {
 		locatorname = "sfdoll_titan_section_02"
 	}
 	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "invisible_large_turret"
-		locatorname = "sfdoll_titan_section_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "invisible_large_turret"
-		locatorname = "sfdoll_titan_section_04"
-	}
-	component_slot = {
 		name = "P_01"
 		template = "invisible_point_defence_turret"
 		locatorname = "sfdoll_titan_section_05"
@@ -112,6 +102,26 @@ ship_section_template = {
 		name = "P_02"
 		template = "invisible_point_defence_turret"
 		locatorname = "sfdoll_titan_section_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "invisible_large_turret"
+		locatorname = "sfdoll_titan_section_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "invisible_large_turret"
+		locatorname = "sfdoll_titan_section_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "invisible_large_turret"
+		locatorname = "sfdoll_titan_section_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "invisible_large_turret"
+		locatorname = "sfdoll_titan_section_10"
 	}
 
 	aux_utility_slots = 1

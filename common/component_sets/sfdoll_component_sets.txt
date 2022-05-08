@@ -36,6 +36,19 @@ component_set = {
 	icon_frame = 1
 }
 
+
+component_set = {
+	key = "component_set_gf_sfdoll_missile"
+	icon = GFX_gf_sfdoll_missile
+	icon_frame = 1
+}
+
+component_set = {
+	key = "component_set_sfdoll_strike_craft"
+	icon = GFX_sfdoll_strike_craft
+	icon_frame = 1
+}
+
 #护盾
 component_set = {
 	key = "component_set_sfdoll_ship_defense_s"

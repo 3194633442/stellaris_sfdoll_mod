@@ -24,6 +24,30 @@ tech_sfdoll_weapon_p_6 = {
 	weight = @tier4weight1
 }
 
+tech_gf_sfdoll_missile = {
+	cost = @tier5cost1
+	area = society
+	tier = 5
+	category = { military_theory }
+	is_reverse_engineerable = no
+	icon = tech_gf_sfdoll_missile
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_sfdoll_weapon_s_3	}
+	weight = @tier5weight1
+}
+
+tech_sfdoll_strike_craft = {
+	cost = @tier5cost1
+	area = society
+	tier = 5
+	category = { military_theory }
+	is_reverse_engineerable = no
+	icon = tech_sfdoll_strike_craft
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_sfdoll_weapon_s_3	}
+	weight = @tier5weight1
+}
+
 #X槽
 tech_sfdoll_weapon_x_1 = {
 	cost = @tier4cost2
@@ -226,6 +250,7 @@ tech_sfdoll_battleship_bow_x2 = {
 	}
 	modifier = {
 		description = description_tech_sfdoll_battleship_bow_x2
+		country_resource_max_add = 20000
 	}
 	tier = 5
 	weight = @tier5weight1
@@ -269,6 +294,9 @@ tech_ship_sfdoll_carrier = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_battleships
+	}
+	modifier = {
+		country_resource_max_add = 20000
 	}
 	tier = 5
 	weight = @tier5weight3
@@ -366,7 +394,10 @@ tech_sfdoll_titan = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_battleships
 	}
-	weight = @tier5cost3
+	modifier = {
+		country_command_limit_add = 200
+	}
+	weight = 0 #@tier5cost3
 }
 
 #重型战斗舰

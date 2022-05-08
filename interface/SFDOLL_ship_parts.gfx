@@ -56,6 +56,20 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_gf_sfdoll_missile"
+		texturefile = "gfx/interface/icons/ship_parts/gf_sfdoll_missile.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_strike_craft"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_strike_craft.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_sfdoll_ship_defense_s"
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_ship_defense_s.dds"
 	}

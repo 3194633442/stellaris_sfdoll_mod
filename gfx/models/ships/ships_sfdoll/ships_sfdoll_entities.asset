@@ -3,12 +3,13 @@ entity = {
 	name = "sfdoll_titan_section_entity"
 	locator = { name = "sfdoll_titan_section_01" 	position = { 3 -1 -22 } }
 	locator = { name = "sfdoll_titan_section_02" 	position = { -3 -1 -22 } }
-	locator = { name = "sfdoll_titan_section_03" 	position = { 6 -1 -8 } }
-	locator = { name = "sfdoll_titan_section_04" 	position = { -6 -1 -8 } }
 	locator = { name = "sfdoll_titan_section_05" 	position = { 6 -3 -4 } }
 	locator = { name = "sfdoll_titan_section_06" 	position = { -6 -3 -4 } }
+	locator = { name = "sfdoll_titan_section_07" 	position = { 6 -1 -8 } }
+	locator = { name = "sfdoll_titan_section_08" 	position = { -6 -1 -8 } }
+	locator = { name = "sfdoll_titan_section_09" 	position = { 6 -1 -4 } }
+	locator = { name = "sfdoll_titan_section_10" 	position = { -6 -1 -4} }
 }
-
 
 # entity = {
 # 	name = "sfdoll_gatebuilder_mothership_section_entity"

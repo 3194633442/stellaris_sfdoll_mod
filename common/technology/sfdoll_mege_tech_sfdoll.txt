@@ -19,6 +19,7 @@ tech_sfdoll_mega_starport= {
 	weight = @tier5weight3
 }
 
+#太空城市
 tech_sfdoll_habitat_01 = {
 	area = engineering
 	start_tech = no
@@ -102,4 +103,7 @@ tech_gateway_sfdoll = {
 	weight = @tier5weight1
 	prerequisites = {	tech_sfdoll_jump_drive	}
 	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {
+		country_resource_max_add = 20000
+	}
 }

@@ -32,6 +32,10 @@ country_event = {
 			tech = tech_self_aware_logic
 			message = no
 		}
+		give_technology = {
+			tech = tech_sapient_ai
+			message = no
+		}
 
 		#首都添加组装建筑，暂时不用，因为添加了合成人帝国flag后会有组装岗位
 		# capital_scope = {

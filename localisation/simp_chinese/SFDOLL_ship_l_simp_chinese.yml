@@ -2,12 +2,12 @@
 ###############################
 
 #componet
-sfdoll_weapon_x_1:0"铁血建筑师级主炮"
-component_set_sfdoll_weapon_x_1:0"铁血建筑师级主炮"
+sfdoll_weapon_x_1:0"建筑师级主炮"
+component_set_sfdoll_weapon_x_1:0"建筑师级主炮"
 component_set_sfdoll_weapon_x_1_DESC:0"这种大型主炮能穿透一般的防护装备"
 
-sfdoll_weapen_t_2:0"铁血计量官级主炮"
-component_set_sfdoll_weapen_t_2:0"铁血计量官级主炮"
+sfdoll_weapen_t_2:0"计量官级主炮"
+component_set_sfdoll_weapen_t_2:0"计量官级主炮"
 component_set_sfdoll_weapen_t_2_DESC:0"这种超大型舰炮可将毁灭性的能量集中于一点"
 
 sfdoll_weapon_s_3:0"铁血蛇式火力系统"
@@ -16,9 +16,21 @@ sfdoll_weapon_L_5:0"铁血蛇式火力系统"
 component_set_sfdoll_weapon_s_3:0"铁血蛇式火力系统"
 component_set_sfdoll_weapon_s_3_DESC:0"这种太空火力系统是铁血战舰的主力武装之一，能够灵活应对多种战况"
 
-sfdoll_weapon_p_6:0"铁血破坏者点防御"
-component_set_sfdoll_weapon_p_6:0"铁血破坏者点防御"
+sfdoll_weapon_p_6:0"破坏者点防御"
+component_set_sfdoll_weapon_p_6:0"破坏者点防御"
 component_set_sfdoll_weapon_p_6_DESC:0"防御性舰载武器，能够对移动目标进行精确打击"
+
+gf_sfdoll_missile:0 "折跃坍塌弹"
+component_set_gf_sfdoll_missile:0 "$gf_sfdoll_missile$"
+component_set_gf_sfdoll_missile_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，再引发物质坍塌以造成破坏。它攻击时不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
+tech_gf_sfdoll_missile:0 "$gf_sfdoll_missile$"
+tech_gf_sfdoll_missile_desc:0 "$component_set_gf_sfdoll_missile_DESC$"
+
+sfdoll_strike_craft:0 "稻草人舰载战机"
+component_set_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
+component_set_sfdoll_strike_craft_DESC:0 "稻草人舰载机使用多种小型化技术来强化防御和火力"
+tech_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
+tech_sfdoll_strike_craft_desc:0 "$component_set_sfdoll_strike_craft_DESC$"
 
 sfdoll_jump_drive:0"铁血跃迁引擎"
 
@@ -133,7 +145,7 @@ sfdoll_titan_section_mid2:0 "C区段"
 sfdoll_titan_STERN:0 "D区段"
 
 tech_sfdoll_titan:0 "铁血重型战斗舰"
-tech_sfdoll_titan_desc:0 "铁血人形意识到，模仿堕落帝国的泰坦巨舰并不明智。于是，铁血的泰坦向实用化的方向进化，成为新一代重型战斗舰。她拥有更均衡的配置，且无需臃肿的装配厂和冗杂的流程，可以实现量产。"
+tech_sfdoll_titan_desc:0 "铁血人形意识到，模仿堕落帝国的泰坦巨舰并不明智。于是，铁血的泰坦向实用化的方向进化，成为新一代重型战斗舰。她拥有更均衡的配置，且无需臃肿的装配厂和冗杂的流程。"
 
 #flag ship
 tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"

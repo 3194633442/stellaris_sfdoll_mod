@@ -28,7 +28,7 @@ gateway_sfdoll = {
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
 				localization = build_gateway_sfdoll
-				days = 30
+				days = 60
 				target = prev
 			}
 		}

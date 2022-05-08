@@ -71,7 +71,12 @@ utility_component_template = {
 			GF_nyto_collapse_liquid = 40
 		}
 	}
+	#这个能显示但没用
 	modifier = {
+		ships_upkeep_mult = -1
+	}
+	#这个有用但不显示
+	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
 	prerequisites = { "tech_sfdoll_aux_quality_rebuilding" }
