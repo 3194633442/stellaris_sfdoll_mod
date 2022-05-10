@@ -1,3 +1,35 @@
+#指挥模块
+utility_component_template = {
+	key = "component_aura_gfsfdoll_command"
+	size = medium
+	icon = "GFX_component_aura_gfsfdoll_command"
+	icon_frame = 1
+	power = 0
+	size_restriction = { sfdoll_titan	 }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "friendly_aura_gfsfdoll_command"
+		radius = 250
+		apply_on = ships
+	
+		stack_info = {
+			id = id_friendly_aura_gfsfdoll_command
+			priority = 1
+		}
+		modifier = {
+			ship_weapon_damage = 0.40
+			ship_fire_rate_mult = 0.40
+			ship_jumpdrive_cooldown_mult = -0.25
+		}
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
 #铁血指挥舰
 utility_component_template = {
 	key = "component_aura_sfdoll_1"

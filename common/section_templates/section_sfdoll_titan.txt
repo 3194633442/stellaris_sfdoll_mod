@@ -9,17 +9,6 @@ ship_section_template = {
 	entity = "titan_bow_entity"
 	icon = "GFX_ship_part_core_bow"
 
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-			NOT = { is_preferred_weapons = weapon_type_explosive }
-		}
-		modifier = {
-			factor = 0.1
-			is_preferred_weapons = weapon_type_explosive
-		}
-	}
-
 	component_slot = {
 		name = "TITANIC_01"
 		template = "invisible_titanic_fixed"
@@ -46,12 +35,12 @@ ship_section_template = {
 
 	component_slot = {
 		name = "LARGE_GUN_01"
-		template = "large_turret"
+		template = "invisible_extra_large_fixed"
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
 		name = "LARGE_GUN_02"
-		template = "large_turret"
+		template = "invisible_extra_large_fixed"
 		locatorname = "large_gun_02"
 	}
 	component_slot = {
@@ -75,64 +64,64 @@ ship_section_template = {
 	}
 }
 
-ship_section_template = {
-	key = "sfdoll_titan_section_mid2"
-	ship_size = sfdoll_titan 
-	fits_on_slot = mid2
-	should_draw_components = yes
-	entity = "sfdoll_titan_section_entity"
-	icon = "GFX_ship_part_core_stern"
+# ship_section_template = {
+# 	key = "sfdoll_titan_section_mid2"
+# 	ship_size = sfdoll_titan 
+# 	fits_on_slot = mid2
+# 	should_draw_components = yes
+# 	entity = "sfdoll_titan_section_entity"
+# 	icon = "GFX_ship_part_core_stern"
 
-	component_slot = {
-		name = "X_01"
-		template =  "invisible_extra_large_fixed"
-		locatorname = "sfdoll_titan_section_01"
-	}
-	component_slot = {
-		name = "X_02"
-		template =  "invisible_extra_large_fixed"
-		locatorname = "sfdoll_titan_section_02"
-	}
-	component_slot = {
-		name = "P_01"
-		template = "invisible_point_defence_turret"
-		locatorname = "sfdoll_titan_section_05"
-	}
-	component_slot = {
-		name = "P_02"
-		template = "invisible_point_defence_turret"
-		locatorname = "sfdoll_titan_section_06"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "invisible_large_turret"
-		locatorname = "sfdoll_titan_section_07"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "invisible_large_turret"
-		locatorname = "sfdoll_titan_section_08"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "invisible_large_turret"
-		locatorname = "sfdoll_titan_section_09"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "invisible_large_turret"
-		locatorname = "sfdoll_titan_section_10"
-	}
+# 	component_slot = {
+# 		name = "X_01"
+# 		template =  "invisible_extra_large_fixed"
+# 		locatorname = "sfdoll_titan_section_01"
+# 	}
+# 	component_slot = {
+# 		name = "X_02"
+# 		template =  "invisible_extra_large_fixed"
+# 		locatorname = "sfdoll_titan_section_02"
+# 	}
+# 	component_slot = {
+# 		name = "P_01"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "sfdoll_titan_section_05"
+# 	}
+# 	component_slot = {
+# 		name = "P_02"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "sfdoll_titan_section_06"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "invisible_large_turret"
+# 		locatorname = "sfdoll_titan_section_07"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "invisible_large_turret"
+# 		locatorname = "sfdoll_titan_section_08"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "invisible_large_turret"
+# 		locatorname = "sfdoll_titan_section_09"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_04"
+# 		template = "invisible_large_turret"
+# 		locatorname = "sfdoll_titan_section_10"
+# 	}
 
-	aux_utility_slots = 1
+# 	aux_utility_slots = 1
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = @section_cost
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = @section_cost
+# 		}
+# 	}
+# }
 
 #STERN
 ship_section_template = {
@@ -154,7 +143,7 @@ ship_section_template = {
 	}
 
 
-	aux_utility_slots = 3
+	aux_utility_slots = 4
 
 	resources = {
 		category = ship_sections

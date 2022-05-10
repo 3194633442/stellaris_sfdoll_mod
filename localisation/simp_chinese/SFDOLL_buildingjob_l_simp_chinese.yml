@@ -19,8 +19,11 @@ job_sfdoll_dark_matter_maker_effect_desc:0 "$job_sfdoll_dark_matter_maker$ 消�
 mod_job_sfdoll_dark_matter_maker_add:0"$job_sfdoll_dark_matter_maker$ 岗位"
 
 #collapse
+tech_sfdoll_collapse_liquid_produce:0"物质坍塌工程学"
+tech_sfdoll_collapse_liquid_produce_desc:0 "物质经过有序坍塌，可成为特殊的流状，该状态下的物质，即是俗称的坍塌液。坍塌液是遗迹文明科技的基石之一。\n\n坍塌液的性质打破了多种旧有的物理法则。目前，我们已经利用坍塌液实现FTL传送与反热力学法则工程。坍塌液构成的计算机和微机械群，能够存储庞大的信息和质量，并进行超高速运算。"
+
 building_sfdoll_collapse_liquid_plant:0"坍塌液工厂"
-building_sfdoll_collapse_liquid_plant_desc:0"在高能量下合成坍塌粒子，编写坍塌粒子的内部程序,使其实现多种功能。"
+building_sfdoll_collapse_liquid_plant_desc:0"在高能量下合成坍塌液，编写坍塌液的内部程序,使其实现多种功能。"
 building_sfdoll_collapse_liquid_2:0 "高级坍塌液工厂"
 building_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
 
@@ -33,8 +36,8 @@ mod_job_sfdoll_collapse_liquid_maker_add:0"$job_sfdoll_collapse_liquid_maker$ �
 
 tech_sfdoll_lab:0 "跨物种人工智能"
 tech_sfdoll_lab_desc:0 "我们进一步破译了智慧的本质。无论是地球人类，还是遗迹文明的智能，或者是纳米机器人、星神兽，我们都能仿造它们的思考器官、复制它们的记忆，让它们的智慧为铁血所用。"
-tech_sfdoll_lab_2:0 "多维人工智能"
-tech_sfdoll_lab_2_desc:0 "铁血的思维不应该局限于现有的维度。利用多维空间和多维度工程学，我们创造出了不同以往的智能引擎。"
+tech_sfdoll_lab_2:0 "超维度人工智能"
+tech_sfdoll_lab_2_desc:0 "铁血的思维不应该局限于现有的维度。基于多维空间中特有的法则，我们可以构建新型的计算机和智能引擎。"
 
 building_sfdoll_research:0"铁血研究所"
 building_sfdoll_research_desc:0"铁血研究所汇集了先进科研资源"
@@ -127,7 +130,7 @@ building_sfdoll_army_2_desc:0 "这些基地配备了铁血的尖端军事设施"
 job_sfdoll_tactical:0"战术人形"
 job_sfdoll_tactical_plural:0"战术人形"
 job_sfdoll_tactical_desc:0"战术人形配备了专业作战系统"
-job_sfdoll_tactical_effect_desc:0"战术人形提供海军容量，凝聚力，并提高星球的稳定度"
+job_sfdoll_tactical_effect_desc:0"战术人形提供海军容量和凝聚力，增加防御部队，戒严时提高星球的稳定度"
 mod_job_sfdoll_tactical_add:0 "战术人形岗位"
 
 building_sfdoll_assembly_plant:0 "铁血人形组装厂"

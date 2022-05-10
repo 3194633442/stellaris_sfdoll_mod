@@ -12,7 +12,6 @@ sfdoll_tactical = {
 	possible_precalc = can_fill_worker_job
 	possible = { has_trait = trait_gf_sfdoll	}
 	
-	planet_modifier = {	planet_stability_add = 5 }
 	triggered_country_modifier = {
 		potential = {
 			exists = planet

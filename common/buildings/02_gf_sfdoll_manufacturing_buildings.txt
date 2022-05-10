@@ -415,7 +415,6 @@ building_sfdoll_energy_plant = {
 		cost = {
 			minerals = @b3_minerals
 			GF_nyto_collapse_liquid = @b3_rare_cost
-			sr_dark_matter = @b3_rare_cost
 		}
 		upkeep = {	energy = @b1_upkeep	}
 	}

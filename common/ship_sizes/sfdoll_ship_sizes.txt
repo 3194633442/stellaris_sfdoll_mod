@@ -34,7 +34,7 @@ sfdoll_titan = {
 	}
 	size_multiplier = 16
 	fleet_slot_size = 8
-	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "mid2" = { locator = "part2" } "stern" = { locator = "part3" }  }
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" }  "stern" = { locator = "part3" }  }
 	class = shipclass_military
 	base_buildtime = 720
 	can_have_federation_design = no
