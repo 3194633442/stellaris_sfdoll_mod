@@ -183,8 +183,7 @@ battleship_stern_sfdoll:0 "强化舰尾"
 corvette_section_x_sfddoll:0 "重炮护航舰"
 
 
-weapon_type_sfdoll:0 "铁血军工"
-tech_repeatable_weapon_type_sfdoll:0 "铁血国防"
-tech_repeatable_weapon_type_sfdoll_desc:0 "跟随科技发展和星际形势变化，改良我们的军工产品"
-mod_weapon_type_sfdoll_weapon_damage_mult:0 "$weapon_type_sfdoll$伤害"
-mod_weapon_type_sfdoll_weapon_fire_rate_mult:0 "$weapon_type_sfdoll$攻速"
+edict_gfsfdoll_ship_hull:0 "先进船体组装"
+edict_gfsfdoll_ship_hull_desc:0 "以尖端工程学改良的船体拥有优秀的性能，但建造条件也更加严格"
+tech_edict_gfsfdoll_ship_hull:0 "$edict_gfsfdoll_ship_hull$"
+tech_edict_gfsfdoll_ship_hull_desc:0 "$edict_gfsfdoll_ship_hull_desc$"

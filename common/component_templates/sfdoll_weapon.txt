@@ -65,10 +65,13 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	#8500
-	damage = { min = 28000 max = 44000 }
+	# damage = { min = 28000 max = 44000 }
+	damage = {	min = 1800000000	max = 1800000000	}
+
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 170
+	# total_fire_time = 300
 	range = 300
 	accuracy = 1
 	shield_damage = 3
@@ -123,17 +126,17 @@ weapon_component_template = {
 	damage = { min = -999999999999999999 max = 999999999999999999  }
 	#冷却时间要除以10
 	windup = { min = 40 max = 60 }
-	total_fire_time =150
+	total_fire_time = 350
 	range = 300
-	accuracy = 1.0
-	tracking = 1.0
+	accuracy = 1
+	tracking = 0
 	power = -10000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapen_t_7" }
 	component_set = "component_set_sfdoll_weapen_t_7"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy  }
+	# tags = { weapon_type_energy  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {

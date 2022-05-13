@@ -22,6 +22,9 @@ add_hp_1500000_times = {
 	ship_hull_add = 10
 }
 
+weapon_damage_test = {
+	weapon_type_kinetic_weapon_damage_mult = 1
+}
 
 # xxx= {
 # 	shiel

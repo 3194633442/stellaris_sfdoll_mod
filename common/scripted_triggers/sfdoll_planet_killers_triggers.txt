@@ -1,4 +1,5 @@
 can_destroy_planet_with_planet_killer_sfdoll_1 = {
+	optimize_memory
 	# custom_tooltip = {
 	# 	fail_text = is_your_megastructure_system
 	# 	NOT = {
@@ -37,56 +38,3 @@ can_destroy_planet_with_planet_killer_sfdoll_1 = {
 		}
 	}
 }
-
-# 爆非恒星的条件
-# NOT = { is_planet_class =  pc_shattered }
-
-# custom_tooltip = {
-# 	fail_text = is_not_a_standard_planet_or_megastructure
-# 	is_a_planet_megastructure = yes
-# }
-
-# custom_tooltip = {
-# 	fail_text = is_shielded
-# 	NOR = {
-# 		is_planet_class = pc_shielded
-# 		is_planet_class = pc_ringworld_shielded
-# 		is_planet_class = pc_habitat_shielded
-# 	}
-# }
-# custom_tooltip = {
-# 	fail_text = star_owner_is_not_hostile
-# 	OR = {
-# 		NOT = { exists = space_owner }
-# 		space_owner = { is_hostile = from.owner }
-# 		space_owner = { is_same_value = from.owner }
-# 	}
-# }
-
-can_destroy_planet_with_planet_killer_sfdoll_2 = {
-}
-
-# 爆非恒星的条件
-# NOT = { is_planet_class =  pc_shattered }
-
-# custom_tooltip = {
-# 	fail_text = is_not_a_standard_planet_or_megastructure
-# 	is_a_planet_megastructure = yes
-# }
-
-# custom_tooltip = {
-# 	fail_text = is_shielded
-# 	NOR = {
-# 		is_planet_class = pc_shielded
-# 		is_planet_class = pc_ringworld_shielded
-# 		is_planet_class = pc_habitat_shielded
-# 	}
-# }
-# custom_tooltip = {
-# 	fail_text = star_owner_is_not_hostile
-# 	OR = {
-# 		NOT = { exists = space_owner }
-# 		space_owner = { is_hostile = from.owner }
-# 		space_owner = { is_same_value = from.owner }
-# 	}
-# }

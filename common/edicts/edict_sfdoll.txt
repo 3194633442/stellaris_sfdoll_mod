@@ -19,7 +19,7 @@ change_hyperlane_sfdoll_window = {
 	}	
 }
 
-#T槽控制
+#T槽碎星控制
 sfdoll_weapen_t_7_control = {
 	length = -1
 	icon = "GFX_edict_type_time"
@@ -30,5 +30,36 @@ sfdoll_weapen_t_7_control = {
 	}	
 	ai_weight = {
 		weight = 10
+	}	
+}
+
+
+#船体强化
+gfsfdoll_ship_hull = {
+	length = -1
+	icon = "GFX_edict_type_time"
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_megastructure = mega_change_hyperlane_sfdoll
+		is_ai = no
+	}
+	prerequisites = {	"tech_edict_gfsfdoll_ship_hull"	}
+	modifier = {
+		shipsize_corvette_build_speed_mult = -0.5
+		shipsize_destroyer_build_speed_mult = -0.5
+		shipsize_cruiser_build_speed_mult = -0.5
+		shipsize_battleship_build_speed_mult = -0.5
+		shipsize_titan_build_speed_mult = -0.5
+		shipsize_gfsfdoll_titan_build_speed_mult = -0.5
+		shipsize_corvette_hull_add = 150000
+		shipsize_destroyer_hull_add = 300000
+		shipsize_cruiser_hull_add = 600000
+		shipsize_battleship_hull_add = 1200000
+		shipsize_titan_hull_add = 2400000
+		shipsize_gfsfdoll_titan_hull_add = 2400000
+	}
+	
+	ai_weight = {
+		weight = 0
 	}	
 }

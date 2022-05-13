@@ -1,15 +1,78 @@
 #{x,z,y}x正向为舰船左方，z正向为上方，y正向为后方，负向为前方
+
 entity = {
-	name = "sfdoll_titan_section_entity"
-	locator = { name = "sfdoll_titan_section_01" 	position = { 3 -1 -22 } }
-	locator = { name = "sfdoll_titan_section_02" 	position = { -3 -1 -22 } }
-	locator = { name = "sfdoll_titan_section_05" 	position = { 6 -3 -4 } }
-	locator = { name = "sfdoll_titan_section_06" 	position = { -6 -3 -4 } }
-	locator = { name = "sfdoll_titan_section_07" 	position = { 6 -1 -8 } }
-	locator = { name = "sfdoll_titan_section_08" 	position = { -6 -1 -8 } }
-	locator = { name = "sfdoll_titan_section_09" 	position = { 6 -1 -4 } }
-	locator = { name = "sfdoll_titan_section_10" 	position = { -6 -1 -4} }
+	name = "gfsfdoll_titan_section_bow_entity"
+	pdxmesh = "Sewship_mesh"
+	default_state = "idle"
+	scale = 2
+
+	locator = { name = "x_01" 	position = { 0.5  0  0 } }
+	locator = { name = "x_02" 	position = { -0.5 0  0 } }
+	locator = { name = "x_03" 	position = { 0  0.5 0 } }
+	locator = { name = "x_04" 	position = { 0  -0.5 0 } }
+	state = {
+		name = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_bass" } }
+		
+	}
+	state = {
+		name = "moving"
+		event = { trigger_once = yes sound = { soundeffect = "moving_out_battleship" } }
+	}
+
+	state = {
+		name = "death"
+		event = { time = 0 node = "target_locator_01" particle = "avian_01_large_ship_explosion_particle" }
+		event = { time = 0 node = "target_locator_02" particle = "avian_01_large_ship_explosion_particle" }
+		event = { time = 0 node = "target_locator_03" particle = "ship_burn_particle" }
+		event = { time = 1.0 node = "explosion_locator_01" particle = "avian_01_large_ship_explosion_particle" }
+		event = { time = 1.0 node = "explosion_locator_01" particle = "ship_burn_particle" }
+	}
+	attach = {
+		explosion_locator_01 = "Sewship_gun_entity"
+	}
 }
+
+entity = {
+	name = "gfsfdoll_titan_section_2_entity"
+	locator = { name = "L_01" 	position = { 6  0  -8 } }
+	locator = { name = "L_02" 	position = { 7.5  0  -5 } }
+	locator = { name = "L_03" 	position = { 8.5  0  -2 } }
+	locator = { name = "L_04" 	position = { 9.5  0  1 } }
+	locator = { name = "L_05" 	position = { 10.5  0  4 } }
+	locator = { name = "L_06" 	position = { 12  0  7 } }
+	locator = { name = "L_07" 	position = { 14  0  10 } }
+	locator = { name = "L_08" 	position = { 16  0  13 } }
+	locator = { name = "P_01" 	position = { 4  8  0 } }
+	locator = { name = "P_02" 	position = { 4  -8  0 } }
+}
+
+entity = {
+	name = "gfsfdoll_titan_section_3_entity"
+	locator = { name = "L_01" 	position = { -6  0  -8 } }
+	locator = { name = "L_02" 	position = { -7.5  0  -5 } }
+	locator = { name = "L_03" 	position = { -8.5  0  -2 } }
+	locator = { name = "L_04" 	position = { -9.5  0  1 } }
+	locator = { name = "L_05" 	position = { -10.5  0  4 } }
+	locator = { name = "L_06" 	position = { -12  0  7 } }
+	locator = { name = "L_07" 	position = { -14  0  10 } }
+	locator = { name = "L_08" 	position = { -16  0  13 } }
+	locator = { name = "P_01" 	position = { -4  8  0 } }
+	locator = { name = "P_02" 	position = { -4  -8  0 } }
+}
+
+# entity = {
+# 	name = "sfdoll_titan_section_entity"
+# 	locator = { name = "sfdoll_titan_section_01" 	position = { 3 -1 -22 } }
+# 	locator = { name = "sfdoll_titan_section_02" 	position = { -3 -1 -22 } }
+# 	locator = { name = "sfdoll_titan_section_05" 	position = { 6 -3 -4 } }
+# 	locator = { name = "sfdoll_titan_section_06" 	position = { -6 -3 -4 } }
+# 	locator = { name = "sfdoll_titan_section_07" 	position = { 6 -1 -8 } }
+# 	locator = { name = "sfdoll_titan_section_08" 	position = { -6 -1 -8 } }
+# 	locator = { name = "sfdoll_titan_section_09" 	position = { 6 -1 -4 } }
+# 	locator = { name = "sfdoll_titan_section_10" 	position = { -6 -1 -4} }
+# }
 
 # entity = {
 # 	name = "sfdoll_gatebuilder_mothership_section_entity"

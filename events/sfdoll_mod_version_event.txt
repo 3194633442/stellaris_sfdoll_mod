@@ -79,10 +79,11 @@ country_event = {
 		# 	change_pc = pc_sfdoll_city
 		# }
 		add_resource = {
-			minerals = 100000
-			alloys = 100000
-			rare_crystals = 100000
-			GF_nyto_collapse_liquid = 100000
+			minerals = 1000000
+			alloys = 1000000
+			rare_crystals = 1000000
+			GF_nyto_collapse_liquid = 1000000
+			sr_dark_matter = 1000000
 		}
 
 	}
@@ -189,8 +190,9 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		capital_scope = {
-			change_pc = pc_GFnyto_portal_star
+		add_modifier = {
+			modifier = weapon_damage_test
+			days = -1
 		}
 	}
 }

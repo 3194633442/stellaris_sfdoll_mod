@@ -256,6 +256,21 @@ tech_sfdoll_battleship_bow_x2 = {
 	weight = @tier5weight1
 }
 
+#船体强化法令
+tech_edict_gfsfdoll_ship_hull = {
+	cost = @tier5cost3
+	area = engineering
+	start_tech = no
+	icon = tech_edict_gfsfdoll_ship_hull
+	category = { voidcraft }
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_battleships
+	}
+	tier = 5
+	weight = 0
+}
+
 #战术驱逐舰
 tech_sfdoll_tactical_destroyer = {
 	cost = @tier5cost2
@@ -276,7 +291,7 @@ tech_sfdoll_tactical_destroyer = {
 		country_command_limit_add = 200
 	}
 	tier = 5
-	weight = @tier5weight2
+	weight = 0
 }
 
 

@@ -1,7 +1,7 @@
 #country,生成航道修改信标
 effect_create_change_hyperlane_beacon_sfdoll = {
+	optimize_memory
 	capital_scope = {
-
 		delete_fleet = event_target:fleet_beacon_sfdoll_1
 		clear_global_event_target = fleet_beacon_sfdoll_1
 		delete_fleet = event_target:fleet_beacon_sfdoll_2
@@ -57,8 +57,10 @@ effect_create_change_hyperlane_beacon_sfdoll = {
 		}
 	}	
 }
+
 #修改超空间航道
 effect_change_hyperlane_sfdoll={
+	optimize_memory
 	event_target:fleet_beacon_sfdoll_1 = {
 		solar_system = {
 			save_event_target_as = system_beacon_sfdoll_1

@@ -20,8 +20,9 @@
 			#GFX_<key>_top_damaged
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
-sfdoll_titan = {
+gfsfdoll_titan = {
 	icon = ship_size_military_16
+	# entity = SANGVIS_FERRI_frame_entity
 	entity = titan_entity
 	formation_priority = @battleship_formation_priority
 	max_speed = @speed_slow
@@ -32,11 +33,15 @@ sfdoll_titan = {
 	modifier = {
 		ship_evasion_add = 20
 	}
-	size_multiplier = 16
+	size_multiplier = 20
 	fleet_slot_size = 8
-	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" }  "stern" = { locator = "part3" }  }
+	section_slots = {
+		"bow" = { locator = part2 }
+		"core" = { locator = part2 }
+		"stern"  = { locator = part2 }
+	}
 	class = shipclass_military
-	base_buildtime = 720
+	base_buildtime = 1080
 	can_have_federation_design = no
 	enable_default_design = yes
 	construction_type = starbase_shipyard
@@ -57,6 +62,8 @@ sfdoll_titan = {
 		category = ship_sections
 		cost = {
 			alloys = 480
+			sr_dark_matter = 240
+			GF_nyto_collapse_liquid = 240
 		}
 		upkeep = {
 			energy = @titan_upkeep_energy
@@ -468,9 +475,6 @@ ship_sfdoll_carrier = {
 #铁血指挥舰
 sfdoll_destroyer = {
 	entity = SANGVIS_FERRI_frame_entity
-	empire_limit = {
-		base = 4
-	}
 	max_speed = @speed_fast
 	acceleration = 0.3
 	rotation_speed = 0.2

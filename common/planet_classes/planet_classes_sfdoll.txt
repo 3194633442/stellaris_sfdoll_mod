@@ -111,7 +111,7 @@ pc_sfdoll_habitis ={
 	ideal = yes
 	uses_alternative_skies_for_moons = no
 	show_city=no
-	# modifier = {
-	# 	planet_housing_add = 50
-	# }
+	modifier = {
+		planet_jobs_produces_mult = 0.25
+	}
 }

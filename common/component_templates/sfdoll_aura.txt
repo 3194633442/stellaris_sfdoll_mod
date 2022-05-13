@@ -5,7 +5,7 @@ utility_component_template = {
 	icon = "GFX_component_aura_gfsfdoll_command"
 	icon_frame = 1
 	power = 0
-	size_restriction = { sfdoll_titan	 }
+	size_restriction = {  gfsfdoll_titan	 }
 	component_set = "ship_aura_components"
 
 	friendly_aura = {

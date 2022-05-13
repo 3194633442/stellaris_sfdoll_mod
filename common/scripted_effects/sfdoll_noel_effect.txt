@@ -1,6 +1,7 @@
 #诺耶露,scope is country
 #诺耶露成为总督
 effect_noel_become_governor = {
+	optimize_memory
 	#删除原有的诺耶露领袖和舰队
 	event_target:sfdoll_leader_noel = {
 		kill_leader = {
@@ -33,6 +34,7 @@ effect_noel_become_governor = {
 }
 #诺耶露成为科学家
 effect_noel_become_scientist = {
+	optimize_memory
 	#删除原有的诺耶露领袖和舰队
 	event_target:sfdoll_leader_noel = {
 		kill_leader = {
@@ -64,6 +66,7 @@ effect_noel_become_scientist = {
 }
 #诺耶露成为舰队司令
 effect_noel_become_admiral = {
+	optimize_memory
 	#删除原有的诺耶露领袖和舰队
 	event_target:sfdoll_leader_noel = {
 		kill_leader = {
@@ -95,6 +98,7 @@ effect_noel_become_admiral = {
 }
 #诺耶露成为陆军统帅
 effect_noel_become_general = {
+	optimize_memory
 	#删除原有的诺耶露领袖和舰队
 	event_target:sfdoll_leader_noel = {
 		kill_leader = {
@@ -127,6 +131,7 @@ effect_noel_become_general = {
 
 #诺耶露变为飞船
 effect_create_fleet_sfdoll_noel = {
+	optimize_memory
 	event_target:sfdoll_leader_noel = {
 		kill_leader = {
 			show_notification = no

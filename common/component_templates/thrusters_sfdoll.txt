@@ -90,7 +90,7 @@ utility_component_template = {
 	}
 	modifier = {
 		ship_base_speed_mult = 12
-		ship_evasion_add = 50
+		ship_evasion_add = 80
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -121,7 +121,7 @@ utility_component_template = {
 	}
 	modifier = {
 		ship_base_speed_mult = 12
-		ship_evasion_add = 40
+		ship_evasion_add = 70
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
@@ -145,12 +145,12 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = -70
+			alloys = -50
 		}
 	}
 	modifier = {
 		ship_base_speed_mult = 12
-		ship_evasion_add = 30
+		ship_evasion_add = 60
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -181,12 +181,12 @@ utility_component_template = {
 	}
 	modifier = {
 		ship_base_speed_mult = 12
-		ship_evasion_add = 20
+		ship_evasion_add = 50
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = {  sfdoll_titan battleship  }
+	size_restriction = {   gfsfdoll_titan battleship  }
 	ai_weight = {
 		weight = 5
 		modifier = {
@@ -211,6 +211,7 @@ utility_component_template = {
 	}
 	modifier = {
 		ship_base_speed_mult = 12
+		ship_evasion_add = 20
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }

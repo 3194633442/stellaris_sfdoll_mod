@@ -83,7 +83,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_quality_rebuilding"
 
 	size_restriction = {
-		sfdoll_titan sfdoll_destroyer ship_sfdoll_carrier  ship_air_defense_sfdoll ship_support_sfdoll corvette  destroyer cruiser battleship titan  colossus juggernaut
+		gfsfdoll_titan sfdoll_destroyer ship_sfdoll_carrier  ship_air_defense_sfdoll ship_support_sfdoll corvette  destroyer cruiser battleship titan  colossus juggernaut
 	}
 	ai_weight = {
 		weight = 20
@@ -111,7 +111,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_ship_revive"
 
 	size_restriction = {
-		sfdoll_titan ship_air_defense_sfdoll ship_support_sfdoll  sfdoll_destroyer ship_sfdoll_carrier   corvette  destroyer cruiser battleship titan  colossus juggernaut
+		gfsfdoll_titan ship_air_defense_sfdoll ship_support_sfdoll  sfdoll_destroyer ship_sfdoll_carrier   corvette  destroyer cruiser battleship titan  colossus juggernaut
 	}
 	ai_weight = {
 		weight = 20

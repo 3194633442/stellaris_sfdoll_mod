@@ -304,7 +304,7 @@ weapon_component_template = {
 			alloys = 400
 		}		
 		upkeep = {
-			GF_nyto_collapse_liquid = 2
+			GF_nyto_collapse_liquid = 1
 			consumer_goods = 0.5
 			energy = 5
 		}
@@ -339,7 +339,7 @@ weapon_component_template = {
 			alloys = 400
 		}		
 		upkeep = {
-			GF_nyto_collapse_liquid = 2
+			GF_nyto_collapse_liquid = 1
 			consumer_goods = 0.5
 			energy = 5
 		}
