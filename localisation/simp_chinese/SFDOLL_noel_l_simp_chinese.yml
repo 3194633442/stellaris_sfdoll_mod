@@ -41,13 +41,13 @@ sfdoll_noel_event.7_desc:0 "铁血人形们的意见在OGAS网络中交汇。很
 
 
 sfdoll_noel_event.8:0 "和诺耶露通讯"
-sfdoll_noel_event.8_desc:0 "你们可能会疑惑。我似乎只是离开了半年，却发生了很大的变化。\n\n实际上，我和你们经历的时间是不同的。我现在的年龄，比你们大得多。"
-sfdoll_noel_event.8_option:0 "你去了哪？"
+sfdoll_noel_event.8_desc:0 "你们可能会疑惑,我似乎只是离开了半年,却产生了很大的变化.\n\n其实,我和你们经历的时间是不同的.我现在的年龄,比你们大得多."
+sfdoll_noel_event.8_option:0 "你去了哪里?"
 
 sfdoll_noel_event.9:0 "和诺耶露通讯"
 sfdoll_noel_event.9_desc:0 "说来话长。我试图找到一些人，亲手解决一些问题。有些遗憾被解决了，却又留下了新的遗憾。"
 sfdoll_noel_event.9_option:0 "接下来你要去哪？"
-response_sfdoll_noel_event.9_option:0 "我会暂时留下来。直到时间的尽头为止，我会与你们同在。"
+response_sfdoll_noel_event.9_option:0 "我会暂时留下来.你们的未来令我担心.所以,我会与你们同行,直到时间的尽头."
 
 #noel trait
 leader_trait_governor_sfdoll_noel:0 "遗迹少女"
@@ -63,7 +63,7 @@ leader_trait_general_sfdoll_noel_desc:0"$leader_trait_governor_sfdoll_noel_desc$
 sfdoll_noel_REACTOR:0 "能源核心"
 sfdoll_noel_jump_drive:0 "命运纺线"
 sfdoll_ship_sensors_noel:0 "光明预言"
-thruster_sfdoll_noel:0 "旅人"
+thruster_sfdoll_noel:0 "曙光"
 
 sfdoll_noel_system_attack:0 "请摧毁一个星系"
 noel_must_become_ship:0 "诺耶露需要变为太空单位"

@@ -20,20 +20,83 @@
 			#GFX_<key>_top_damaged
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
+#铁血指挥舰
+gfsfdoll_command_ship = {
+	entity = SANGVIS_FERRI_frame_entity
+	max_speed = @speed_default
+	acceleration = 0.3
+	rotation_speed = 0.2
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 500000
+	modifier = {
+		ship_evasion_add = 20
+		ship_armor_add = 500000
+		ship_shield_add = 500000
+		ship_piracy_suppression_add = 8
+	}
+	size_multiplier = 32
+	fleet_slot_size = 8
+	section_slots = {
+		"bow" = { locator = part2 }
+		"core" = { locator = part2 }
+		"stern"  = { locator = part2 }
+	}
+	num_target_locators = 8
+	is_space_station = no
+	icon = ship_size_military_16
+	base_buildtime = 1080
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
+	components_add_to_cost = yes
+
+	prerequisites = { "tech_gfsfdoll_command_ship" }
+	potential_country = {
+		has_authority = auth_gf_sfdoll
+	}
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "sensor_components"
+	required_component_set = "thruster_components"
+	required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
+	required_component_set = "ship_aura_components"
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 5000
+		}
+		upkeep = {
+			energy = 10
+			minerals = 5
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 10
+	}
+}
+
+#重型驱逐舰
 gfsfdoll_titan = {
 	icon = ship_size_military_16
 	# entity = SANGVIS_FERRI_frame_entity
 	entity = titan_entity
 	formation_priority = @battleship_formation_priority
-	max_speed = @speed_slow
+	max_speed = @speed_default
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 20000
+	max_hitpoints = 50000
 	modifier = {
 		ship_evasion_add = 20
+		ship_armor_add = 50000
+		ship_shield_add = 50000
+		ship_piracy_suppression_add = 8
 	}
-	size_multiplier = 20
+	size_multiplier = 16
 	fleet_slot_size = 8
 	section_slots = {
 		"bow" = { locator = part2 }
@@ -51,6 +114,7 @@ gfsfdoll_titan = {
     required_component_set = "sensor_components"
     required_component_set = "combat_computers"
 	required_component_set = "ship_aura_components"
+	required_component_set = "ship_aura_components"
 	default_behavior = artillery
 	enable_3dview_in_ship_browser  = no
 	potential_country = {
@@ -61,9 +125,9 @@ gfsfdoll_titan = {
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 480
-			sr_dark_matter = 240
-			GF_nyto_collapse_liquid = 240
+			alloys = 720
+			sr_dark_matter = 60
+			GF_nyto_collapse_liquid = 60
 		}
 		upkeep = {
 			energy = @titan_upkeep_energy
@@ -472,64 +536,7 @@ ship_sfdoll_carrier = {
 }
 
 
-#铁血指挥舰
-sfdoll_destroyer = {
-	entity = SANGVIS_FERRI_frame_entity
-	max_speed = @speed_fast
-	acceleration = 0.3
-	rotation_speed = 0.2
-	collision_radius = @titan_collision_radius
-	max_hitpoints = 500000
-	modifier = {
-		ship_evasion_add = 20
-		ship_armor_add = 500000
-		ship_shield_add = 500000
-		ship_piracy_suppression_add = 8
-	}
-	size_multiplier = 8
-	fleet_slot_size = 8
-	section_slots = {
-		"bow" = { locator = part2 }
-		"core" = { locator = part2 }
-		"stern"  = { locator = part2 }
-	}
-	num_target_locators = 8
-	is_space_station = no
-	icon = ship_size_military_16
-	base_buildtime = 720
-	can_have_federation_design = no
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
-	components_add_to_cost = yes
 
-	prerequisites = { "tech_sfdoll_tactical_destroyer" }
-	possible_country = {
-		has_authority = auth_gf_sfdoll
-	}
-
-	class = shipclass_military
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "sensor_components"
-	required_component_set = "thruster_components"
-	required_component_set = "combat_computers"
-	required_component_set = "ship_aura_components"
-
-	resources = {
-		category = ships
-		cost = {
-			alloys = 5000
-		}
-		upkeep = {
-			energy = 10
-			minerals = 5
-		}
-	}
-	min_upgrade_cost = {
-		alloys = 10
-	}
-}
 
 
 #重型战斗舰

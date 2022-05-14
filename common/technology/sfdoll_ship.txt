@@ -271,8 +271,8 @@ tech_edict_gfsfdoll_ship_hull = {
 	weight = 0
 }
 
-#战术驱逐舰
-tech_sfdoll_tactical_destroyer = {
+#指挥舰
+tech_gfsfdoll_command_ship = {
 	cost = @tier5cost2
 	area = engineering
 	start_tech = no
@@ -355,7 +355,7 @@ tech_ship_air_defense_sfdoll= {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_battleships
 	}
-	weight = @tier5weight1
+	weight = 0
 }
 
 #支援舰
@@ -374,7 +374,7 @@ tech_ship_support_sfdoll= {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_battleships
 	}
-	weight = @tier5weight2
+	weight = 0
 }
 
 #纳米突击舰
@@ -396,7 +396,7 @@ tech_ship_sfdoll_nanite = {
 	weight = 0 # @tier5cost3
 }
 
-#铁血泰坦
+#重型驱逐（铁血泰坦）
 tech_sfdoll_titan = {
 	cost = @tier5cost3
 	tier = 5
@@ -412,99 +412,5 @@ tech_sfdoll_titan = {
 	modifier = {
 		country_command_limit_add = 200
 	}
-	weight = 0 #@tier5cost3
+	weight = @tier5cost3
 }
-
-#重型战斗舰
-# tech_sfdoll_fighter = {
-# 	cost = @tier5cost1
-# 	tier = 5
-# 	area = engineering
-# 	start_tech = no
-# 	icon = tech_ship_sfdoll_carrier
-# 	is_rare = no
-# 	category = { voidcraft }
-# 	prerequisites = {
-# 		tech_aux_sfdoll_collapse_power
-# 	}
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 		has_technology = tech_battleships
-# 	}
-# 	weight = 0
-# }
-
-
-
-# #航天母舰
-# tech_ship_carrier_2_sfdoll = {
-# 	cost = @tier5cost2
-# 	area = engineering
-# 	start_tech = no
-# 	tier = 5
-# 	icon = tech_ship_sfdoll_carrier
-# 	category = { voidcraft }
-# 	prerequisites = {
-# 		tech_sfdoll_collapse_liquid_produce
-# 	}
-# 	potential = {
-# 		has_technology = tech_sfdoll_thruster
-# 	}
-# 	weight = 0
-# }
-# ship_carrier_2_sfdoll ={
-# 	formation_priority =  @corvette_formation_priority
-# 	icon = ship_size_military_32
-# 	entity = stions_frame
-# 	max_speed = @speed_very_slow
-# 	acceleration = 0.2
-# 	rotation_speed = 0.05
-# 	collision_radius = @corvette_formation_priority
-# 	max_hitpoints = 100000
-# 	modifier = {
-# 		ship_armor_add = 70000
-# 		ship_shield_add = 20000
-# 	}
-# 	section_slots = {
-# 		"core" = { locator = "part1" }
-# 	}
-# 	size_multiplier = 32
-# 	fleet_slot_size = 32
-# 	class = shipclass_starbase
-# 	base_buildtime = 1800
-# 	can_have_federation_design = no
-# 	enable_default_design = yes
-# 	construction_type = starbase_shipyard
-# 	required_component_set = "power_core"
-#     required_component_set = "ftl_components"
-#     required_component_set = "thruster_components"
-#     required_component_set = "sensor_components"
-#     required_component_set = "combat_computers"
-# 	required_component_set = "ship_aura_components"
-# 	default_behavior = carrier
-# 	combat_disengage_chance = -0.9
-# 	possible_country = {
-# 		has_authority = auth_gf_sfdoll
-# 	}
-# 	prerequisites = {
-# 		tech_ship_carrier_2_sfdoll
-# 	}
-# 	num_target_locators = 8
-# 	modifier = {
-# 		starbase_shipyard_capacity_add = 20
-# 	}
-# 	resources = {
-# 		category = ship_sections
-# 		cost = {
-# 			alloys = 20000
-# 		}
-# 		upkeep = {
-# 			energy = 16
-# 			alloys = 10
-# 		}
-# 	}
-# }
-# tech_ship_carrier_2_sfdoll:0 "移动船坞"
-# tech_ship_carrier_2_sfdoll_desc:0 "移动船坞搭载了完整的舰船生产和维护设施。依靠多种尖端宇航技术，这个庞然大物能够进行航行。"
-# ship_carrier_2_sfdoll:0 "移动船坞"
-# section_bow_ship_carrier_2_sfdoll:0 "$ship_carrier_2_sfdoll$"

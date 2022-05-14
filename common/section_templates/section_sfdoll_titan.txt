@@ -36,7 +36,7 @@ ship_section_template = {
 	aux_utility_slots = 5
 }
 
-# #中段
+#中段
 ship_section_template = {
 	key = "gfsfdoll_titan_core"
 	ship_size = gfsfdoll_titan
@@ -74,16 +74,6 @@ ship_section_template = {
 		name = "L_06"
 		template = "invisible_large_turret"
 		locatorname = "L_06"
-	}
-	component_slot = {
-		name = "L_07"
-		template = "invisible_large_turret"
-		locatorname = "L_07"
-	}
-	component_slot = {
-		name = "L_08"
-		template = "invisible_large_turret"
-		locatorname = "L_08"
 	}
 	component_slot = {
 		name = p01
@@ -136,16 +126,6 @@ ship_section_template = {
 		name = "L_06"
 		template = "invisible_large_turret"
 		locatorname = "L_06"
-	}
-	component_slot = {
-		name = "L_07"
-		template = "invisible_large_turret"
-		locatorname = "L_07"
-	}
-	component_slot = {
-		name = "L_08"
-		template = "invisible_large_turret"
-		locatorname = "L_08"
 	}
 	component_slot = {
 		name = p01

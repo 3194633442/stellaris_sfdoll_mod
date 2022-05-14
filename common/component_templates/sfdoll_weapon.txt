@@ -123,27 +123,30 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = -999999999999999999 max = 999999999999999999  }
+	# damage = { min = -999999999999999999 max = 999999999999999999  }
+	damage = { min = 300000 max = 300000  }
 	#冷却时间要除以10
-	windup = { min = 40 max = 60 }
-	total_fire_time = 350
+	windup = { min = 20 max = 80 }
+	total_fire_time = 80
+	shield_damage = 5
+	armor_damage = 5
+	hull_damage = 5
 	range = 300
 	accuracy = 1
-	tracking = 0
 	power = -10000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapen_t_7" }
 	component_set = "component_set_sfdoll_weapen_t_7"
 	#projectile_gfx = 武器效果
-	# tags = { weapon_type_energy  }
+	tags = { weapon_type_energy  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 4000
-			GF_nyto_collapse_liquid = 180
+			alloys = 5000
+			GF_nyto_collapse_liquid = 60
 		}		
 		upkeep = {
 			energy = 50

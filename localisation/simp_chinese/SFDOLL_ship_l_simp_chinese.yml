@@ -140,28 +140,27 @@ component_aura_ship_support_sfdoll:0 "范围干涉引擎"
 hostile_aura_ship_support_sfdoll:0 "力场压制"
 
 
-sfdoll_titan:0 "重型战列舰"
-sfdoll_titan_plural:0 "$sfdoll_titan$"
-sfdoll_titan_BOW:0 "A区段"
-sfdoll_titan_MID:0 "B区段"
-sfdoll_titan_STERN:0 "D区段"
+gfsfdoll_titan:0 "重型驱逐舰"
+gfsfdoll_titan_plural:0 "$sfdoll_titan$"
+gfsfdoll_titan_bow:0 "A区段"
+gfsfdoll_titan_core:0 "B区段"
+gfsfdoll_titan_stern:0 "C区段"
 
-tech_sfdoll_titan:0 "铁血重型战列舰"
-tech_sfdoll_titan_desc:0 "模仿堕落帝国的泰坦巨舰并不明智。现在，泰坦经过改良，成为新一代的重型战列舰，她能搭载更为强大的指挥系统，并能够高效地量产。"
+tech_sfdoll_titan:0 "重型驱逐舰"
+tech_sfdoll_titan_desc:0 "重型驱逐舰能搭载先进的指挥系统，并进行高效地量产，她将为铁血的国防提供更有力的保障。"
 
 #flag ship
-tech_sfdoll_tactical_destroyer:0 "铁血指挥舰"
-tech_sfdoll_tactical_destroyer_desc:0 "铁血指挥舰搭载了多项试验性科技，用于强化整个舰队的作战能力。"
+tech_gfsfdoll_command_ship:0 "铁血指挥舰"
+tech_gfsfdoll_command_ship_desc:0 "铁血指挥舰搭载了多项试验性科技，用于强化整个舰队的作战能力。"
 
-sfdoll_destroyer:0 "铁血指挥舰"
-sfdoll_destroyer_plural:0 "$sfdoll_destroyer$"
-bow_section_sfdoll_destroyer:0 "装备A组"
-core_section_sfdoll_destroyer:0 "装备B组"
-core2_section_sfdoll_destroyer:0 "装备C组"
-stern_section_sfdoll_destroyer:0 "装备D组"
-component_aura_sfdoll_1:0 "作战支援"
-friendly_aura_sfdoll_1:0 "作战支援"
-hostile_aura_sfdoll_1:0 "干扰战术"
+gfsfdoll_command_ship:0 "铁血指挥舰"
+gfsfdoll_command_ship_plural:0 "$gfsfdoll_command_ship$"
+bow_gfsfdoll_command_ship:0 "装备A组"
+core_gfsfdoll_command_ship:0 "装备B组"
+stern_gfsfdoll_command_ship:0 "装备C组"
+
+component_aura_sfdoll_1:0 "干扰战术模块"
+hostile_aura_sfdoll_1:0 "战场干扰"
 
 ship_sfdoll_nanite:0 "纳米突击舰"
 ship_sfdoll_nanite_plural:0 "$ship_sfdoll_nanite$"
@@ -174,13 +173,12 @@ section_sfdoll_noel:0 "诺耶露装备箱"
 
 #section
 tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
-tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船设备的体积与重量得到大幅缩减。作为这一技术的成果，战列舰和护卫舰得以搭载更强的武器。"
-description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_battleship_bow_T1$,$battleship_stern_sfdoll$,$corvette_section_x_sfddoll$"
+tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船设备的体积与重量得到大幅缩减。作为这一技术的成果，巡洋舰与战列舰得以搭载更强的武器。"
+description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$,$battleship_stern_sfdoll$"
 
-
+sfdoll_CRUISER_BOW_X1:0 "强化主炮舰艏"
 sfdoll_battleship_bow_T1:0 "强化主炮舰艏"
 battleship_stern_sfdoll:0 "强化舰尾"
-corvette_section_x_sfddoll:0 "重炮护航舰"
 
 
 edict_gfsfdoll_ship_hull:0 "先进船体组装"

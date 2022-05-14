@@ -268,7 +268,7 @@ utility_component_template = {
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { 	sfdoll_destroyer  }
+	size_restriction = { gfsfdoll_titan gfsfdoll_command_ship  }
 	resources = {
 		category = ship_components
 		cost = {
