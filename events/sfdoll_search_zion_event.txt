@@ -207,7 +207,6 @@ fleet_event = {
 	option = {
 		name = "sfdoll_search_zion_event.8_option"
 		owner = {
-			add_research_option = tech_sfdoll_reverse_collapse_1
 			add_resource = {
 				physics_research = 4000
 				society_research = 4000

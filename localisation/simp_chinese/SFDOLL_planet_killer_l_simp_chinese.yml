@@ -20,12 +20,12 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "视界诞生"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "转化"
 
 
-tech_sfdoll_weapen_t_7:0 "视界之剑"
-tech_sfdoll_weapen_t_7_desc:0 "通过研究锡安获得的数据，我们尝试对遗迹文明的技术进行复原。作为这些工作的成果之一，$tech_sfdoll_weapen_t_7$诞生了。"
-
-sfdoll_weapen_t_7:0 "视界之剑"
+sfdoll_weapen_t_7:0 "纺织者轴炮"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
-component_set_sfdoll_weapen_t_7_DESC:0 "该武器不仅能够攻击舰船,也能以高出力模式摧毁行星.§Y装备$component_set_sfdoll_weapen_t_7$的舰队,在进入星球轨道时,可选择将星球摧毁.你可以在法令中关闭摧毁星球的功能.§!"
+component_set_sfdoll_weapen_t_7_DESC:0 "该武器能够摧毁行星,也能以较低的功率进行连续射击，从而准确命中移动的目标.§Y装备$component_set_sfdoll_weapen_t_7$的舰队,在进入星球轨道时,可选择将星球摧毁.你可以在法令中关闭摧毁星球的功能.§!"
+
+tech_sfdoll_weapon_t_7:0 "$sfdoll_weapen_t_7$"
+tech_sfdoll_weapon_t_7_desc:0 "通过研究锡安获得的数据，我们尝试对遗迹文明的技术进行复原。作为这些工作的成果之一，$tech_sfdoll_weapon_t_7$诞生了。"
 
 sfdoll_planet_killer_event.10:0 "$sfdoll_weapen_t_7$：控制界面"
 sfdoll_planet_killer_event.10.desc:0 "装备了§R$sfdoll_weapen_t_7$§!的舰队进入了§H[fromfrom.GetName]§!的轨道。是否摧毁该天体？\n你可以在法令中关闭或开启此功能。"

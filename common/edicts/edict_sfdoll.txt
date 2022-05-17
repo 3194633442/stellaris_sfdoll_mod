@@ -25,7 +25,7 @@ sfdoll_weapen_t_7_control = {
 	icon = "GFX_edict_type_time"
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_weapen_t_7
+		has_technology = tech_sfdoll_weapon_t_7
 		is_ai = no
 	}	
 	ai_weight = {

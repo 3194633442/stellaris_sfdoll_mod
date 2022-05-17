@@ -12,7 +12,7 @@ response_text_ump45_become_governor:0"哎呀，要开始工作了，还来得及
 ump45_become_scientist:0"请你协助我们的科学研究"
 response_text_ump45_become_scientist:0"云端数据库连接完成，让我们开始解谜吧~"
 ump45_become_admiral:0"请你指挥太空舰队"
-response_text_ump45_become_admiral:0"老实说，在地球的日子里，我从未想过，自己会离开大气层，离开太阳系。但如今，对于星际间的空旷黑暗，我竟然有些习惯了。新人们，准备好了吗？太空素体状态OK？那就出发吧，去宇宙。"
+response_text_ump45_become_admiral:0"太空素体状态OK？那就出发吧，去宇宙。"
 ump45_become_general:0"请你率领陆军部队"
 response_text_ump45_become_general:0"要我干我的老本行？虽然我打过一些陆战，不过现在的战斗，与之前可是大不一样了呢，我也得学点新东西。那么，这次又是什么样的怪物？"
 sfdoll_ump45_event_1_option:0"退出"

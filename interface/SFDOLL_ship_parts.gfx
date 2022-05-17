@@ -155,6 +155,27 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_sfdoll_weapon_x_8"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_x_8.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_weapon_L_9"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_L_9.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_weapon_p_12"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_p_12.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_sfdoll_aux_ship_revive"
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_aux_ship_revive.dds"
 	}

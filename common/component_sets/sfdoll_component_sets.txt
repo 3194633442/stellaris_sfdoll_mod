@@ -38,6 +38,31 @@ component_set = {
 
 
 component_set = {
+	key = "component_set_sfdoll_weapen_t_7"
+	icon = "GFX_sfdoll_weapen_t_7"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "component_set_sfdoll_weapon_x_8"
+	icon = "GFX_sfdoll_weapon_x_8"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "component_set_sfdoll_weapon_L_9"
+	icon = "GFX_sfdoll_weapon_L_9"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "component_set_sfdoll_weapon_p_12"
+	icon = "GFX_sfdoll_weapon_p_12"
+	icon_frame = 1
+}
+
+
+component_set = {
 	key = "component_set_gf_sfdoll_missile"
 	icon = GFX_gf_sfdoll_missile
 	icon_frame = 1
@@ -85,11 +110,6 @@ component_set = {
 	icon_frame = 1
 }
 
-component_set = {
-	key = "component_set_sfdoll_weapen_t_7"
-	icon = GFX_sfdoll_weapen_t_7
-	icon_frame = 1
-}
 
 component_set = {
 	key = "sfdoll_aux_ship_revive"

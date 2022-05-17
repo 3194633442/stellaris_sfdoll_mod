@@ -164,6 +164,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = sfdoll_to_zion_event.10_option
-		add_research_option = tech_sfdoll_weapen_t_7
+		add_research_option = tech_sfdoll_weapon_t_7
 	}
 }

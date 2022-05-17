@@ -17,7 +17,7 @@ sfdoll_gunslinger_girl_event_4:0 "大梦初醒"
 sfdoll_gunslinger_girl_event_4_desc:0 "义体少女们的服务器随时可能报废.我们和她们沟通,将她们上传到人形素体中.\n 于是,义体少女们结束了她们的梦境,从百余年的沉睡中醒来,以铁血人形的身份获得了重生."
 
 sfdoll_gunslinger_girl_event_5:0 "和义体少女的代表通信"
-sfdoll_gunslinger_girl_event_5_desc:0 "这身体真的是机械吗?感觉..比以前的身体更像是人类?总之非常感谢."
+sfdoll_gunslinger_girl_event_5_desc:0 "这身体真的是机械吗?感觉,比以前的身体更像是人类?总之非常感谢."
 sfdoll_gunslinger_girl_event_5_option:0 "那么，我们的提议,你考虑得怎么样?"
 sfdoll_gunslinger_girl_event_5_response:0 "我不会浪费这条生命.所以,我愿意加入你们!让我试试，我还能做到些什么."
 
@@ -32,9 +32,9 @@ sfdoll_gunslinger_girl_event_6_break:0 "退出"
 triela_has_this_job_now:0 "崔耶拉已经在进行这项工作"
 
 response_text_triela_become_governor:0 "包在我身上"
-response_text_triela_become_scientist:0 "看来很复杂呢"
-response_text_triela_become_admiral:0 "我会让大家平安回来的"
-response_text_triela_become_general:0 "我会让这支队伍变得更强"
+response_text_triela_become_scientist:0 "看起来很复杂，我得学更多东西才行!"
+response_text_triela_become_admiral:0 "我会让大家平安回来"
+response_text_triela_become_general:0 "开始备战吧"
 
 #Let life be beautiful like summer flowers and death like autumn leaves
 leader_trait_governor_sfdoll_triela:0 "义体少女"
