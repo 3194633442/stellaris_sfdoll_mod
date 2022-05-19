@@ -194,7 +194,7 @@ utility_component_template = {
 	ai_weight = {	weight = 20	}
 }
 
-#泰坦
+#泰坦，战列
 utility_component_template = {
 	key = "TITAN_sfdoll_collapse_REACTOR"
 	size = small
@@ -208,18 +208,18 @@ utility_component_template = {
 			sr_dark_matter = 200
 		}
 		upkeep = {
-			energy = 1
+			energy = 1.6
 			alloys = 1
 		}
 	}
 	
 	prerequisites = {  tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { ship_sfdoll_nanite ship_air_defense_sfdoll titan  }
+	size_restriction = { ship_sfdoll_nanite ship_air_defense_sfdoll titan battleship }
 	ai_weight = {	weight = 20	}
 }
 
-#巨像
+#巨像，铁血泰坦级飞船
 utility_component_template = {
 	key = "COLOSSUS_sfdoll_collapse_REACTOR"
 	size = small
@@ -229,6 +229,17 @@ utility_component_template = {
 	prerequisites = { tech_aux_sfdoll_collapse_power  }
 	component_set = "power_core"
 	size_restriction = {  gfsfdoll_titan gfsfdoll_command_ship   colossus }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 75
+			sr_dark_matter = 400
+		}
+		upkeep = {
+			energy = 3.2
+			alloys = 2
+		}
+	}
 	ai_weight = {	weight = 20	}
 }
 

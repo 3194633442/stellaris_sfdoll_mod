@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxmesh = {
+		name = "sfdoll_my_mesh_02.mesh"
+		file = "gfx/models/ships/ships_sfdoll/my_mesh_02.mesh"
+	}
+
+}

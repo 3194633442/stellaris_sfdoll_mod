@@ -75,6 +75,7 @@ entity = {
 
 entity = {
 	name = "gfsfdoll_titan_section_2_entity"
+	pdxmesh = "sfdoll_my_mesh_02.mesh"
 	locator = { name = "L_01" 	position = { 3  7  -4 } }
 	locator = { name = "L_02" 	position = { 3  7  0 } }
 	locator = { name = "L_03" 	position = { 3  -7  -4 } }

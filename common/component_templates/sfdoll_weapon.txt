@@ -17,7 +17,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 170
-	range = 280
+	range = 400
 	accuracy = 1.0
 	shield_damage = 3
 	armor_damage = 3
@@ -70,7 +70,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 170
-	range = 300
+	range = 500
 	accuracy = 1
 	shield_damage = 3
 	armor_damage = 3
@@ -414,15 +414,16 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 3000000 max = 3000000  }
+	damage = { min = 2000000 max = 2000000  }
 	#冷却时间要除以10
-	windup = { min = 20 max = 80 }
-	total_fire_time = 250
+	#windup = { min = 20 max = 60 }
+	total_fire_time = 110
 	# shield_damage = 5
 	# armor_damage = 5
 	# hull_damage = 5
-	range = 300
+	range = 450
 	accuracy = 1
+	tracking = 1
 	power = -10000
 	
 	#待修改
@@ -436,7 +437,6 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 6000
-
 		}		
 		upkeep = {
 			energy = 24
@@ -455,7 +455,7 @@ weapon_component_template = {
 	}
 }
 
-#X槽
+X槽
 weapon_component_template = {
 	key = "sfdoll_weapon_x_8"
 	size = extra_large

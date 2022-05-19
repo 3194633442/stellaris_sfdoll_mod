@@ -107,7 +107,7 @@ tech_sfdoll_weapon_x_8 = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = @tier5weight1
+	weight = 0
 }
 tech_sfdoll_weapon_L_9 = {
 	cost = @tier5cost3
@@ -121,7 +121,7 @@ tech_sfdoll_weapon_L_9 = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = @tier5weight1
+	weight = 0
 }
 
 tech_sfdoll_weapon_p_12 = {
@@ -136,8 +136,9 @@ tech_sfdoll_weapon_p_12 = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = @tier5weight1
+	weight = 0
 }
+
 
 #shield
 tech_sfdoll_ship_defense_s = {
