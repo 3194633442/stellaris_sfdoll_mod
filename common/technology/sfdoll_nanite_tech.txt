@@ -1,0 +1,60 @@
+#超微观人工智能，解锁铁血纳米生产
+tech_sfdoll_nanites = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { industry }
+	weight = 0
+	potential = {	has_authority = auth_gf_sfdoll	}
+}
+
+tech_sfdoll_nanite_destroyer = {
+	cost = @tier5cost1
+	tier = 5
+	area = society
+	category = { military_theory }
+	potential = {	has_authority = auth_gf_sfdoll	}
+	prerequisites = {	"tech_sfdoll_nanites"	}
+	weight = @tier5weight1
+}
+tech_sfdoll_nanite_battleship = {
+	cost = @tier5cost1
+	tier = 5
+	area = society
+	category = { military_theory }
+	potential = {	has_authority = auth_gf_sfdoll	}
+	prerequisites = {	"tech_sfdoll_nanite_destroyer"	}
+	weight = @tier5weight1
+}
+tech_sfdoll_nanite_titan = {
+	cost = @tier5cost1
+	tier = 5
+	area = society
+	category = { military_theory }
+	potential = {	has_authority = auth_gf_sfdoll	}
+	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
+	weight = @tier5weight1
+}
+
+#指挥舰
+tech_gfsfdoll_command_ship = {
+	cost = @tier5cost2
+	area = engineering
+	start_tech = no
+	is_rare = yes
+	icon = tech_sfdoll_tactical_destroyer
+	category = { voidcraft }
+	prerequisites = {
+		tech_aux_sfdoll_collapse_power
+	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_sfdoll_thruster
+		has_technology = tech_sfdoll_ogas_ai
+	}
+	modifier = {
+		country_command_limit_add = 200
+	}
+	tier = 5
+	weight = 0
+}

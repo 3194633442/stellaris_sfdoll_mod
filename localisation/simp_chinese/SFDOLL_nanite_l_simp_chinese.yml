@@ -1,0 +1,39 @@
+﻿l_simp_chinese:
+###############################
+
+tech_sfdoll_nanite_destroyer:0 "小型纳米战舰"
+tech_sfdoll_nanite_destroyer_desc:0 "纳米技术和逆向坍塌技术,能极大提高飞船组装和维护效率.§Y铁血纳米战舰的维护费会减少100%，组装时无需特殊设施§!"
+
+tech_sfdoll_nanite_battleship:0 "中型纳米战舰"
+tech_sfdoll_nanite_battleship_desc:0 "$tech_sfdoll_nanite_destroyer_desc$"
+
+tech_sfdoll_nanite_titan:0 "$sfdoll_nanite_titan$"
+tech_sfdoll_nanite_titan_desc:0 "$tech_sfdoll_nanite_destroyer_desc$"
+
+sfdoll_nanite_corvette:0 "纳米护卫舰"
+sfdoll_nanite_destroyer:0 "纳米驱逐舰"
+sfdoll_nanite_cruiser:0 "纳米巡洋舰"
+sfdoll_nanite_battleship:0 "纳米战列舰"
+sfdoll_nanite_titan:0 "纳米泰坦"
+
+section_sfdoll_nanite_corvette_L1P2:0 "A"
+section_sfdoll_nanite_corvette_L1S2:0 "B"
+
+section_sfdoll_nanite_destroyer_L2M2:0 "A"
+section_sfdoll_nanite_destroyer_L2S2P2:0 "B"
+
+sfdoll_nanite_cruiser_bow_X1:0 "A"
+sfdoll_nanite_cruiser_mid_L4:0 "B"
+sfdoll_nanite_cruiser_mid_L2M2P4:0 "C"
+
+sfdoll_nanite_battleship_bow_T1:0 "A"
+sfdoll_nanite_battleship_bow_X2:0 "B"
+sfdoll_nanite_battleship_mid_8L:0 "C"
+sfdoll_nanite_battleship_mid_6L2M4P:0 "D"
+
+sfdoll_nanite_titan_bow_T2X2:0 "A"
+sfdoll_nanite_titan_bow_X6:0 "B"
+sfdoll_nanite_titan_mid_L6:0 "C"
+sfdoll_nanite_titan_mid_L4M2P4:0 "D"
+sfdoll_nanite_titan_mid2_L6:0 "E"
+sfdoll_nanite_titan_mid2_L4M2P4:0 "F"

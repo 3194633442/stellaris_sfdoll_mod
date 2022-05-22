@@ -183,12 +183,6 @@ stern_gfsfdoll_command_ship:0 "装备C组"
 component_aura_sfdoll_1:0 "干扰战术模块"
 hostile_aura_sfdoll_1:0 "战场干扰"
 
-ship_sfdoll_nanite:0 "纳米突击舰"
-ship_sfdoll_nanite_plural:0 "$ship_sfdoll_nanite$"
-section_sfdoll_nanite:0 "武器模块"
-tech_ship_sfdoll_nanite:0 "铁血纳米突击舰"
-tech_ship_sfdoll_nanite_desc:0 "不同于传统的舰船，纳米突击舰以微型致动机组合而成，使得各个模块可以根据需要拆分与重组，在组装效率、维护成本、机动能力等方面有着极大的优势。"
-
 ship_sfdoll_noel:0 "诺耶露"
 section_sfdoll_noel:0 "诺耶露装备箱"
 

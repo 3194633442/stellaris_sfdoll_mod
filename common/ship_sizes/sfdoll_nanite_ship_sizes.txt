@@ -41,7 +41,8 @@ sfdoll_nanite_corvette = {
 	icon = ship_size_military_16
 	class = shipclass_military
 	is_designable = yes
-	prerequisites = {	"tech_sfdoll_nanites"	}
+	#共用tech destroyer
+	prerequisites = {	"tech_sfdoll_nanite_destroyer"}
 
 	# required_component_set = "power_core"
 	# required_component_set = "ftl_components"
@@ -81,7 +82,7 @@ sfdoll_nanite_destroyer = {
 	icon = ship_size_military_16
 	class = shipclass_military
 	is_designable = yes
-	prerequisites = {	"tech_sfdoll_nanites"	}
+	prerequisites = {	"tech_sfdoll_nanite_destroyer"	}
 
 	# required_component_set = "power_core"
 	# required_component_set = "ftl_components"
@@ -121,7 +122,8 @@ sfdoll_nanite_cruiser = {
 	icon = ship_size_military_16
 	class = shipclass_military
 	is_designable = yes
-	prerequisites = {	"tech_sfdoll_nanites"	}
+	#和纳米战列共用
+	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
 
 	# required_component_set = "power_core"
 	# required_component_set = "ftl_components"
@@ -161,7 +163,7 @@ sfdoll_nanite_battleship = {
 	icon = ship_size_military_16
 	class = shipclass_military
 	is_designable = yes
-	prerequisites = {	"tech_sfdoll_nanites"	}
+	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
 
 	# required_component_set = "power_core"
 	# required_component_set = "ftl_components"
@@ -201,7 +203,7 @@ sfdoll_nanite_titan = {
 	icon = ship_size_military_16
 	class = shipclass_military
 	is_designable = yes
-	prerequisites = {	"tech_sfdoll_nanites"	}
+	prerequisites = {	"tech_sfdoll_nanite_titan"	}
 
 	# required_component_set = "power_core"
 	# required_component_set = "ftl_components"
