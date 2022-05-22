@@ -28,9 +28,11 @@ sfdoll_nanite_corvette = {
 	acceleration = 0.35
 	rotation_speed = 0.1
 	collision_radius = @corvette_collision_radius
-	max_hitpoints = @corvette_hp
+	max_hitpoints = 2500
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 60
+		ship_armor_add = 600
+		ship_shield_add = 600
 		ship_piracy_suppression_add = 10
 		ships_upkeep_mult = -1
 	}
@@ -39,7 +41,7 @@ sfdoll_nanite_corvette = {
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 4
 	is_space_station = no
-	icon = ship_size_military_16
+	icon = ship_size_military_1
 	class = shipclass_military
 	is_designable = yes
 	#共用tech destroyer
@@ -53,12 +55,8 @@ sfdoll_nanite_corvette = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 100
-			nanites = 20
-		}
-		upkeep = {
-			energy = 5
-			minerals = 5
+			alloys = 60
+			nanites = 15
 		}
 	}
 }
@@ -66,21 +64,24 @@ sfdoll_nanite_corvette = {
 sfdoll_nanite_destroyer = {
 	graphical_culture = no
 	entity = "gatebuilder_01_cruiser_entity"
-	max_speed = @speed_default
-	acceleration = 0.2
-	rotation_speed = 0.15
-	collision_radius = 5
+	max_speed = @speed_fast
+	acceleration = 0.3
+	rotation_speed = 0.2
+	collision_radius = @destroyer_collision_radius
+	max_hitpoints = 6400
 	modifier = {
 		ship_evasion_add = 50
+		ship_armor_add = 1600
+		ship_shield_add = 1600
+		ship_piracy_suppression_add = 10
 		ships_upkeep_mult = -1
 	}
-	max_hitpoints = 20000
-	size_multiplier = 16
-	fleet_slot_size = 16
+	size_multiplier = 2
+	fleet_slot_size = 2
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
 	is_space_station = no
-	icon = ship_size_military_16
+	icon = ship_size_military_2
 	class = shipclass_military
 	is_designable = yes
 	prerequisites = {	"tech_sfdoll_nanite_destroyer"	}
@@ -92,13 +93,9 @@ sfdoll_nanite_destroyer = {
 	required_component_set = "combat_computers"
 	resources = {
 		category = ships
-		# cost = {
-		# 	alloys = 480
-		# 	nanites = 480
-		# }
-		upkeep = {
-			energy = 5
-			minerals = 5
+		cost = {
+			alloys = 120
+			nanites = 30
 		}
 	}
 }
@@ -107,39 +104,38 @@ sfdoll_nanite_cruiser = {
 	graphical_culture = no
 	entity = "gatebuilder_01_cruiser_entity"
 	max_speed = @speed_default
-	acceleration = 0.2
-	rotation_speed = 0.15
-	collision_radius = 5
+	acceleration = 0.25
+	rotation_speed = 0.175
+	collision_radius = @cruiser_collision_radius
+	max_hitpoints = 16000
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 40
+		ship_armor_add = 4000
+		ship_shield_add = 4000
+		ship_piracy_suppression_add = 10
 		ships_upkeep_mult = -1
 	}
-	max_hitpoints = 20000
-	size_multiplier = 16
-	fleet_slot_size = 16
+	size_multiplier = 4
+	fleet_slot_size = 4
 	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } }
 	num_target_locators = 0
 	is_space_station = no
-	icon = ship_size_military_16
+	icon = ship_size_military_4
 	class = shipclass_military
 	is_designable = yes
 	#和纳米战列共用
 	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
 
-	# required_component_set = "power_core"
-	# required_component_set = "ftl_components"
-	# required_component_set = "thruster_components"
-	# required_component_set = "sensor_components"
-	# required_component_set = "combat_computers"
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
 	resources = {
 		category = ships
-		# cost = {
-		# 	alloys = 480
-		# 	nanites = 480
-		# }
-		upkeep = {
-			energy = 5
-			minerals = 5
+		cost = {
+			alloys = 240
+			nanites = 60
 		}
 	}
 }
@@ -147,21 +143,24 @@ sfdoll_nanite_cruiser = {
 sfdoll_nanite_battleship = {
 	graphical_culture = no
 	entity = "gatebuilder_01_mothership_entity"
-	max_speed = @speed_default
+	max_speed = @speed_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
-	collision_radius = 5
+	collision_radius = @battleship_collision_radius
+	max_hitpoints = 40000
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 30
+		ship_armor_add = 10000
+		ship_shield_add = 10000
+		ship_piracy_suppression_add = 10
 		ships_upkeep_mult = -1
 	}
-	max_hitpoints = 20000
-	size_multiplier = 16
-	fleet_slot_size = 16
+	size_multiplier = 8
+	fleet_slot_size = 8
 	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } }
 	num_target_locators = 0
 	is_space_station = no
-	icon = ship_size_military_16
+	icon = ship_size_military_8
 	class = shipclass_military
 	is_designable = yes
 	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
@@ -173,13 +172,9 @@ sfdoll_nanite_battleship = {
 	# required_component_set = "combat_computers"
 	resources = {
 		category = ships
-		# cost = {
-		# 	alloys = 480
-		# 	nanites = 480
-		# }
-		upkeep = {
-			energy = 5
-			minerals = 5
+		cost = {
+			alloys = 240
+			nanites = 60
 		}
 	}
 }
@@ -187,17 +182,20 @@ sfdoll_nanite_battleship = {
 sfdoll_nanite_titan = {
 	graphical_culture = no
 	entity = "gatebuilder_01_mothership_entity"
-	max_speed = @speed_default
+	max_speed = @speed_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
-	collision_radius = 5
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 100000
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 20
+		ship_armor_add = 25000
+		ship_shield_add = 25000
+		ship_piracy_suppression_add = 10
 		ships_upkeep_mult = -1
 	}
-	max_hitpoints = 20000
 	size_multiplier = 16
-	fleet_slot_size = 16
+	fleet_slot_size = 8
 	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } "mid2" = { locator = "part1" } }
 	num_target_locators = 0
 	is_space_station = no
@@ -206,20 +204,124 @@ sfdoll_nanite_titan = {
 	is_designable = yes
 	prerequisites = {	"tech_sfdoll_nanite_titan"	}
 
-	# required_component_set = "power_core"
-	# required_component_set = "ftl_components"
-	# required_component_set = "thruster_components"
-	# required_component_set = "sensor_components"
-	# required_component_set = "combat_computers"
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
 	resources = {
 		category = ships
-		# cost = {
-		# 	alloys = 480
-		# 	nanites = 480
-		# }
-		upkeep = {
-			energy = 5
-			minerals = 5
+		cost = {
+			alloys = 480
+			nanites = 120
 		}
 	}
 }
+
+# @speed_very_slow = 80
+# @speed_slow = 100
+# @speed_default = 120
+# @speed_fast = 140
+# @speed_very_fast = 160
+
+# ##################
+# # CORVETTE
+# ##################
+
+# @corvette_collision_radius = 2.0
+# @corvette_formation_priority = 20
+
+# @corvette_hp = 300
+# @corvette_evasion = 60
+# @corvette_build_time = 60
+
+# @corvette_upkeep_energy = 0.3
+# @corvette_upkeep_alloys = 0.1
+# @corvette_upkeep_minerals = 0.2
+
+# ##################
+# # DESTROYER
+# ##################
+
+# @destroyer_collision_radius = 2.5
+# @destroyer_formation_priority = 10
+
+# @destroyer_hp = 800
+# @destroyer_evasion = 35
+# @destroyer_build_time = 120
+
+# @destroyer_upkeep_energy = 0.6
+# @destroyer_upkeep_alloys = 0.2
+# @destroyer_upkeep_minerals = 0.4
+
+# ##################
+# # CRUISER
+# ##################
+
+# @cruiser_collision_radius = 3.5
+# @cruiser_formation_priority = 30
+
+# @cruiser_hp = 1800
+# @cruiser_evasion = 10
+# @cruiser_build_time = 240
+
+# @cruiser_upkeep_energy = 1.2
+# @cruiser_upkeep_alloys = 0.4
+# @cruiser_upkeep_minerals = 0.8
+
+# ##################
+# # BATTLESHIP
+# ##################
+
+# @battleship_collision_radius = 6
+# @battleship_formation_priority = 50
+
+# @battleship_hp = 3000
+# @battleship_evasion = 5
+# @battleship_build_time = 480
+
+# @battleship_upkeep_energy = 2.4
+# @battleship_upkeep_alloys = 0.8
+
+# ##################
+# # TITAN
+# ##################
+
+# @titan_collision_radius = 12
+# @titan_formation_priority = 40
+
+# @titan_hp = 10000
+# @titan_evasion = 5
+# @titan_build_time = 1800
+
+# @titan_upkeep_energy = 4.8
+# @titan_upkeep_alloys = 1.6
+
+# ##################
+# # COLOSSUS
+# ##################
+
+# @colossus_collision_radius = 4
+# @colossus_formation_priority = 4
+
+# @colossus_hp = 30000
+# @colossus_evasion = 2
+# @colossus_build_time = 3600
+
+# @colossus_upkeep_energy = 30
+# @colossus_upkeep_alloys = 10
+
+# ##################
+# # JUGGERNAUT
+# ##################
+
+# @juggernaut_collision_radius = 4
+# @juggernaut_formation_priority = 4
+
+# @juggernaut_hp = 100000
+# @juggernaut_evasion = 2
+# @juggernaut_build_time = 3600
+
+# @juggernaut_upkeep_energy = 30
+# @juggernaut_upkeep_alloys = 10
