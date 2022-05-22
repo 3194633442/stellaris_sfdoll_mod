@@ -1,37 +1,80 @@
 #{x,z,y}x正向为舰船左方，z正向为上方，y正向为后方，负向为前方
+entity = {
+	name = "sfdoll_corvette_entity"
+	pdxmesh = "gatebuilder_01_strikecraft_mesh"
+	scale = 16
+	locator = { name = "L01" 	position = { 0    0  -1.5 } }
+	locator = { name = "P01" 	position = { -0.1 0  0 } }
+	locator = { name = "P02" 	position = { 0.1  0  0 } }
+}
 
 entity = {
-	name = "gfsfdoll_titan_section_bow_entity"
-	pdxmesh = "Sewship_mesh"
+	name = "section_sfdoll_nanite_destroyer_entity"
+	pdxmesh = "sfdoll_nanite_destroyer_mesh"
+	locator = { name = "L01" 	position = { 0  0  -1.5 } }
+	locator = { name = "M01" 	position = { -1 0  0 } }
+	locator = { name = "M02" 	position = { 1  0  0 } }
+}
+
+#纳米巡洋
+entity = {
+	name = "sfdoll_nanite_cruiser_bow_entity"
+	pdxmesh = "gatebuilder_01_cruiser_mesh"
+	locator = { name = "X01" 	position = { 0  0  -10 } }
+}
+entity = {
+	name = "sfdoll_nanite_cruiser_mid_entity"
+	locator = { name = "L01" 	position = { 2  0  -5 } }
+	locator = { name = "L02" 	position = { -2  0  -5 } }
+	locator = { name = "L03" 	position = { 2  0  0 } }
+	locator = { name = "L04" 	position = { -2  0  0 } }
+}
+
+#纳米战列
+entity = {
+	name = "sfdoll_nanite_battleship_bow_entity"
+	pdxmesh = "gatebuilder_01_mothership_mesh"
+	locator = { name = "T01" 	position = {0 8 -17 } }
+	scale = 0.6
+}
+entity = {
+	name = "sfdoll_nanite_battleship_mid_entity"
+	pdxmesh = "gatebuilder_01_mothership_mesh"
+	locator = { name = "L01" 	position = { 4  8  -10 } }
+	locator = { name = "L02" 	position = { -4  8  -10 } }
+	locator = { name = "L03" 	position = { 4.2  8  -2 } }
+	locator = { name = "L04" 	position = { -4.2  8  -2 } }
+	locator = { name = "L05" 	position = { 4.4  8  6 } }
+	locator = { name = "L06" 	position = { -4.4  8  6 } }
+	locator = { name = "L07" 	position = { 4.6  8  14 } }
+	locator = { name = "L08" 	position = { -4.6  8  14 } }
+	scale = 0.6
+}
+
+#纳米泰坦
+entity = {
+	name = "sfdoll_nanite_titan_bow_entity"
+	pdxmesh = "sfdoll_nanite_titan_bow_mesh"
 	default_state = "idle"
+	locator = { name = "T_01" 	position = { -1.5  0  -11 } }
+	locator = { name = "T_02" 	position = { 1.5  0  -11 } }
 	scale = 2
-
-	locator = { name = "x_01" 	position = { 0.5  0  0 } }
-	locator = { name = "x_02" 	position = { -0.5 0  0 } }
-	locator = { name = "x_03" 	position = { 0  0.5 0 } }
-	locator = { name = "x_04" 	position = { 0  -0.5 0 } }
-	state = {
-		name = "idle"
-		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
-		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_bass" } }
-		
-	}
-	state = {
-		name = "moving"
-		event = { trigger_once = yes sound = { soundeffect = "moving_out_battleship" } }
-	}
-
-	state = {
-		name = "death"
-		event = { time = 0 node = "target_locator_01" particle = "avian_01_large_ship_explosion_particle" }
-		event = { time = 0 node = "target_locator_02" particle = "avian_01_large_ship_explosion_particle" }
-		event = { time = 0 node = "target_locator_03" particle = "ship_burn_particle" }
-		event = { time = 1.0 node = "explosion_locator_01" particle = "avian_01_large_ship_explosion_particle" }
-		event = { time = 1.0 node = "explosion_locator_01" particle = "ship_burn_particle" }
-	}
-	attach = {
-		explosion_locator_01 = "Sewship_gun_entity"
-	}
+}
+entity = {
+	name = "sfdoll_nanite_titan_mid_entity"
+	locator = { name = "L_01" 	position = { -3  0  -10 } }
+	locator = { name = "L_02" 	position = { 3   0  -10 } }
+	locator = { name = "L_03" 	position = { -3  0  -8.5 } }
+	locator = { name = "L_04" 	position = { 3   0  -8.5 } }
+	locator = { name = "L_05" 	position = { -3  0  -7 } }
+	locator = { name = "L_06" 	position = { 3   0  -7 } }
+	locator = { name = "L_07" 	position = { -3  0  -5.5 } }
+	locator = { name = "L_08" 	position = { 3   0  -5.5} }
+	locator = { name = "L_09" 	position = { -3  0  -4 } }
+	locator = { name = "L_10" 	position = { 3   0  -4 } }
+	locator = { name = "L_11" 	position = { -3  0  -2.5 } }
+	locator = { name = "L_12" 	position = { 3  0  -2.5 } }
+	scale = 2
 }
 
 # entity = {
@@ -72,10 +115,10 @@ entity = {
 # 	}
 # }
 
-
+#重型驱逐舰中段entity，用于测试mesh
 entity = {
 	name = "gfsfdoll_titan_section_2_entity"
-	pdxmesh = "sfdoll_my_mesh_02.mesh"
+	pdxmesh =   "gatebuilder_01_cruiser_mesh"
 	locator = { name = "L_01" 	position = { 3  7  -4 } }
 	locator = { name = "L_02" 	position = { 3  7  0 } }
 	locator = { name = "L_03" 	position = { 3  -7  -4 } }
@@ -88,6 +131,7 @@ entity = {
 
 entity = {
 	name = "gfsfdoll_titan_section_3_entity"
+	pdxmesh =  "gatebuilder_01_strikecraft_mesh"
 	locator = { name = "L_01" 	position = { -3  7  -4 } }
 	locator = { name = "L_02" 	position = { -3  7  0 } }
 	locator = { name = "L_03" 	position = { -3  -7  -4 } }

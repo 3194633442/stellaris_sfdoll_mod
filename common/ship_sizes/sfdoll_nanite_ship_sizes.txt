@@ -1,0 +1,222 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+####################
+# NOTE FOR MODDERS #
+####################
+# modifier = { } only takes the following modifiers
+# hull, shield & armor add/mult and regen add perc/static
+# evasion add/mult
+# speed/base speed mult
+# weapon damage mult
+# upkeep mult
+# for other modifiers, use ship_modifier = { }
+# use_shipnames_from = other_size # allows a ship size to use names from another size
+# icon = ship_size_military_1
+		#ship_size_military_1 is default. The following sprite keys are generated from it:
+			#GFX_text_<key>
+			#GFX_<key>
+			#GFX_<key>_top
+			#GFX_<key>_top_damaged
+# icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
+####################
+
+sfdoll_nanite_corvette = {
+	graphical_culture = no
+	entity = "gatebuilder_01_mothership_entity"
+	max_speed = @speed_default
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+	modifier = {
+		ship_evasion_add = 50
+		ships_upkeep_mult = -1
+	}
+	max_hitpoints = 20000
+	size_multiplier = 16
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_military_16
+	class = shipclass_military
+	is_designable = yes
+	prerequisites = {	"tech_sfdoll_nanites"	}
+
+	# required_component_set = "power_core"
+	# required_component_set = "ftl_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "combat_computers"
+	resources = {
+		category = ships
+		# cost = {
+		# 	alloys = 480
+		# 	nanites = 480
+		# }
+		upkeep = {
+			energy = 5
+			minerals = 5
+		}
+	}
+}
+
+sfdoll_nanite_destroyer = {
+	graphical_culture = no
+	entity = "gatebuilder_01_cruiser_entity"
+	max_speed = @speed_default
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+	modifier = {
+		ship_evasion_add = 50
+		ships_upkeep_mult = -1
+	}
+	max_hitpoints = 20000
+	size_multiplier = 16
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_military_16
+	class = shipclass_military
+	is_designable = yes
+	prerequisites = {	"tech_sfdoll_nanites"	}
+
+	# required_component_set = "power_core"
+	# required_component_set = "ftl_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "combat_computers"
+	resources = {
+		category = ships
+		# cost = {
+		# 	alloys = 480
+		# 	nanites = 480
+		# }
+		upkeep = {
+			energy = 5
+			minerals = 5
+		}
+	}
+}
+
+sfdoll_nanite_cruiser = {
+	graphical_culture = no
+	entity = "gatebuilder_01_cruiser_entity"
+	max_speed = @speed_default
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+	modifier = {
+		ship_evasion_add = 50
+		ships_upkeep_mult = -1
+	}
+	max_hitpoints = 20000
+	size_multiplier = 16
+	fleet_slot_size = 16
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_military_16
+	class = shipclass_military
+	is_designable = yes
+	prerequisites = {	"tech_sfdoll_nanites"	}
+
+	# required_component_set = "power_core"
+	# required_component_set = "ftl_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "combat_computers"
+	resources = {
+		category = ships
+		# cost = {
+		# 	alloys = 480
+		# 	nanites = 480
+		# }
+		upkeep = {
+			energy = 5
+			minerals = 5
+		}
+	}
+}
+
+sfdoll_nanite_battleship = {
+	graphical_culture = no
+	entity = "gatebuilder_01_mothership_entity"
+	max_speed = @speed_default
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+	modifier = {
+		ship_evasion_add = 50
+		ships_upkeep_mult = -1
+	}
+	max_hitpoints = 20000
+	size_multiplier = 16
+	fleet_slot_size = 16
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_military_16
+	class = shipclass_military
+	is_designable = yes
+	prerequisites = {	"tech_sfdoll_nanites"	}
+
+	# required_component_set = "power_core"
+	# required_component_set = "ftl_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "combat_computers"
+	resources = {
+		category = ships
+		# cost = {
+		# 	alloys = 480
+		# 	nanites = 480
+		# }
+		upkeep = {
+			energy = 5
+			minerals = 5
+		}
+	}
+}
+
+sfdoll_nanite_titan = {
+	graphical_culture = no
+	entity = "gatebuilder_01_mothership_entity"
+	max_speed = @speed_default
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+	modifier = {
+		ship_evasion_add = 50
+		ships_upkeep_mult = -1
+	}
+	max_hitpoints = 20000
+	size_multiplier = 16
+	fleet_slot_size = 16
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } "mid2" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_military_16
+	class = shipclass_military
+	is_designable = yes
+	prerequisites = {	"tech_sfdoll_nanites"	}
+
+	# required_component_set = "power_core"
+	# required_component_set = "ftl_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "combat_computers"
+	resources = {
+		category = ships
+		# cost = {
+		# 	alloys = 480
+		# 	nanites = 480
+		# }
+		upkeep = {
+			energy = 5
+			minerals = 5
+		}
+	}
+}

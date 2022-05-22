@@ -414,16 +414,14 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 2000000 max = 2000000  }
+	damage = { min = 2500000 max = 2500000  }
 	#冷却时间要除以10
-	#windup = { min = 20 max = 60 }
-	total_fire_time = 110
+	total_fire_time = 130
 	# shield_damage = 5
 	# armor_damage = 5
 	# hull_damage = 5
 	range = 450
 	accuracy = 1
-	tracking = 1
 	power = -10000
 	
 	#待修改
@@ -455,7 +453,7 @@ weapon_component_template = {
 	}
 }
 
-X槽
+# X槽
 weapon_component_template = {
 	key = "sfdoll_weapon_x_8"
 	size = extra_large
@@ -472,9 +470,8 @@ weapon_component_template = {
 	#4250
 	damage = { min = 1000000 max = 1000000 }
 	#冷却时间要除以10
-	windup = { min = 20 max = 80 }
-	total_fire_time = 150
-	range = 370
+	total_fire_time = 130
+	range = 420
 	accuracy = 1.0
 	power = -5000
 	
@@ -597,7 +594,7 @@ weapon_component_template = {
 	size = small
 	type = instant
 	#待修改
-	icon = "GFX_sfdoll_weapon_L_9"
+	icon = "GFX_sfdoll_weapon_p_12"
 	icon_frame = 1
 	projectile_gfx = infrared_laser_m
 	entity = invisible_turret_entity
@@ -614,9 +611,9 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_L_9" }
-	component_set = "component_set_sfdoll_weapon_L_9"
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive  }
+	prerequisites = { "tech_sfdoll_weapon_p_12" }
+	component_set = "component_set_sfdoll_weapon_p_12"
+	tags = { weapon_type_energy weapon_type_kinetic  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -637,7 +634,7 @@ weapon_component_template = {
 	}
 }
 
-#梦想家点防御
+#二级点防御
 weapon_component_template = {
 	key = "sfdoll_weapon_p_12"
 	size = point_defence

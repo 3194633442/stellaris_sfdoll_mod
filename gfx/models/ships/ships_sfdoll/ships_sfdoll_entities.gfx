@@ -3,5 +3,17 @@ objectTypes = {
 		name = "sfdoll_my_mesh_02.mesh"
 		file = "gfx/models/ships/ships_sfdoll/my_mesh_02.mesh"
 	}
+	pdxmesh = {
+		name = "sfdoll_mesh_corvette_01"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_mesh_corvette_01.mesh"
+	}
+	pdxmesh = {
+		name = "sfdoll_nanite_destroyer_mesh"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_nanite_destroyer_mesh.mesh"
+	}
+	pdxmesh = {
+		name = "sfdoll_nanite_titan_bow_mesh"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_nanite_titan_bow_mesh.mesh"
+	}
 
 }

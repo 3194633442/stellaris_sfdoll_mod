@@ -22,7 +22,7 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "转化"
 
 sfdoll_weapen_t_7:0 "铁血对行星炮"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
-component_set_sfdoll_weapen_t_7_DESC:0 "该武器能够快速击碎行星,也能以较低的功率进行连续射击，并准确命中移动的目标.§Y装备$component_set_sfdoll_weapen_t_7$的舰队,在进入星球轨道时,可选择将星球摧毁.你可以在法令中关闭摧毁星球的功能.§!"
+component_set_sfdoll_weapen_t_7_DESC:0 "该武器能够击碎行星,也能以较低的功率进行连续射击，并准确命中移动的目标.§Y装备$component_set_sfdoll_weapen_t_7$的舰队,在进入星球轨道时,可选择将星球摧毁.你可以在法令中关闭摧毁星球的功能.§!"
 
 tech_sfdoll_weapon_t_7:0 "$sfdoll_weapen_t_7$"
 tech_sfdoll_weapon_t_7_desc:0 "通过研究锡安获得的数据，我们尝试对遗迹文明的技术进行复原。作为这些工作的成果之一，$tech_sfdoll_weapon_t_7$诞生了。她的威力足以摧毁行星，且体积轻便，能够安装在常规战舰上。"
