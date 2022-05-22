@@ -1,5 +1,21 @@
 ﻿l_simp_chinese:
 ###############################
+tech_sfdoll_nanites:0"铁血纳米机器应用"
+tech_sfdoll_nanites_desc:0 "开发更多种类的微型机械"
+
+building_sfdoll_nanites_plant:0 "铁血纳米机械厂"
+building_sfdoll_nanites_plant_desc:0 "$building_sfdoll_nanites_plant$"
+job_sfdoll_nanites_maker:0"纳米机械师"
+job_sfdoll_nanites_maker_plural:0"$job_sfdoll_nanites_maker$"
+job_sfdoll_nanites_maker_desc:0"$building_sfdoll_nanites_plant_desc$"
+job_sfdoll_nanites_maker_effect_desc:0 " $job_sfdoll_nanites_maker$ 将 §Y$minerals$§! 转化为 §Y$nanites$§!"
+mod_job_sfdoll_nanites_maker_add:0 "$job_sfdoll_nanites_maker$岗位"
+
+tech_trait_sfdoll_nanite:0 "纳米铁血机体"
+tech_trait_sfdoll_nanite_desc:0 "解锁特质:$trait_sfdoll_nanite$"
+
+trait_sfdoll_nanite:0 "纳米铁血"
+trait_sfdoll_nanite_desc:0 "这些铁血人形可以用纳米机器人来组成身体和心智系统.它们的人口可以像有机体一样自我复制和增长."
 
 tech_sfdoll_nanite_destroyer:0 "小型纳米战舰"
 tech_sfdoll_nanite_destroyer_desc:0 "纳米技术和逆向坍塌技术,能极大提高飞船组装和维护效率.§Y铁血纳米战舰的维护费会减少100%，组装时无需特殊设施§!"

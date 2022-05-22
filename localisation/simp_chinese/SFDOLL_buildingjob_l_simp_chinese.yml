@@ -2,14 +2,6 @@
 #职业本地化包括，职业名称，职业复数形式，职业描述，职业效果（用于显示在提供职业的建筑中），相关修正(mod_XX)的本地化
 
 #produce
-building_sfdoll_nanites_plant:0 "铁血纳米机械厂"
-building_sfdoll_nanites_plant_desc:0 "生产纳米机器"
-job_sfdoll_nanites_maker:0"纳米机械师"
-job_sfdoll_nanites_maker_plural:0"$job_sfdoll_nanites_maker$"
-job_sfdoll_nanites_maker_desc:0"$building_sfdoll_nanites_plant_desc$"
-job_sfdoll_nanites_maker_effect_desc:0 " $job_sfdoll_nanites_maker$ 将 §Y$minerals$§! 转化为 §Y$nanites$§!"
-mod_job_sfdoll_nanites_maker_add:0 "$job_sfdoll_nanites_maker$岗位"
-
 building_sfdoll_dark_matter_plant:0"铁血暗物质工厂"
 building_sfdoll_dark_matter_plant_desc:0"用于合成暗物质"
 job_sfdoll_dark_matter_maker:0"暗物质合成师"
@@ -62,7 +54,8 @@ job_sfdoll_collapse_alloys_maker_desc:0"铁血材料合成师"
 job_sfdoll_collapse_alloys_maker_effect_desc:0 "铁血材料合成师消耗 §Y$minerals$§!，生产§Y$alloys$§!，§Y$engineering_research$§! "
 mod_job_sfdoll_collapse_alloys_maker_add:0"$job_sfdoll_collapse_alloys_maker$ 岗位"
 
-
+tech_sfdoll_nanites_goods:0 "坍塌技术工业"
+tech_sfdoll_nanites_goods_desc:0 "得益于坍塌技术，我们的生产效率和工艺水准飞速进步。"
 building_sfdoll_nanites_goods_plant:0 "铁血消费品工厂"
 building_sfdoll_nanites_goods_plant_desc:0 "强大的制造科技为铁血社会带来了近乎无尽的消费品"
 building_sfdoll_goods_plant_2:0 "铁血高级消费品工厂"

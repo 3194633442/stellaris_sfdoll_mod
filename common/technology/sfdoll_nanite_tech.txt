@@ -1,11 +1,23 @@
-#超微观人工智能，解锁铁血纳米生产
+#解锁铁血纳米生产
 tech_sfdoll_nanites = {
-	cost = @tier4cost3
+	cost = @tier4cost2
 	area = engineering
 	tier = 4
 	category = { industry }
-	weight = 0
+	weight = @tier4weight2
 	potential = {	has_authority = auth_gf_sfdoll	}
+	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
+}
+
+#纳米特质
+tech_trait_sfdoll_nanite = {
+	cost = @tier4cost1
+	tier = 4
+	area = society
+	category = { biology }
+	potential = {	has_authority = auth_gf_sfdoll	}
+	prerequisites = {	"tech_sfdoll_nanites"	}
+	weight = @tier4weight1
 }
 
 tech_sfdoll_nanite_destroyer = {

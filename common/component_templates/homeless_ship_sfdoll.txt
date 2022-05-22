@@ -666,35 +666,32 @@ utility_component_template = {
 # research_sfdoll_homeless_set_DESC:0 "$research_sfdoll_homeless$"
 # research_sfdoll_homeless:0 "科研模块\n 生产:\n §Y8 $physics_research$§! £physics_research£ \n §Y8 $society_research$§! £society_research£ \n §Y8 $engineering_research$§! £engineering_research£ \n 消耗:\n §Y2.5 $consumer_goods$§! £consumer_goods£"
 #纳米机械模块
-# weapon_component_template = {
-# 	key = "nanites_sfdoll_homeless"
-# 	size = large
-# 	icon = "GFX_nanites_sfdoll_homeless"
-# 	icon_frame = 1
-# 	power = 2000
-# 	prerequisites = {
-# 		tech_sfdoll_nanites
-# 	}
-# 	damage = {
-# 		min = 0
-# 		max = 0
-# 	}
-# 	resources = {
-# 		category = ship_components
-# 		cost = {
-# 			alloys = 200
-# 		}
-# 		produces = {
-# 			nanites = 20
-# 		}
-# 		upkeep = {
-# 			minerals = 10
-# 			consumer_goods = 0.5
-# 		}
-# 	}
-# 	size_restriction = { sfdoll_homeless_ship 	}
-# 	component_set = "nanites_sfdoll_homeless_set"
-# }
-# nanites_sfdoll_homeless_set:0 "纳米机械模块"
-# nanites_sfdoll_homeless_set_DESC:0 "$nanites_sfdoll_homeless$"
-# nanites_sfdoll_homeless:0 "纳米机械模块 \n 生产:\n §Y20$nanites$§! £nanites£ \n 消耗:\n §Y10 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+weapon_component_template = {
+	key = "nanites_sfdoll_homeless"
+	size = large
+	icon = "GFX_nanites_sfdoll_homeless"
+	icon_frame = 1
+	power = 2000
+	prerequisites = {
+		tech_sfdoll_nanites
+	}
+	damage = {
+		min = 0
+		max = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 200
+		}
+		produces = {
+			nanites = 20
+		}
+		upkeep = {
+			minerals = 10
+			consumer_goods = 0.5
+		}
+	}
+	size_restriction = { sfdoll_homeless_ship 	}
+	component_set = "nanites_sfdoll_homeless_set"
+}

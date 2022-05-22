@@ -5,7 +5,10 @@ can_species_procreate = {
 	NOR = {
 		has_trait = trait_machine_unit
 		has_trait = trait_mechanical
-		has_trait = trait_gf_sfdoll
+		AND = {
+			has_trait = trait_gf_sfdoll
+			NOT = {		has_trait = trait_sfdoll_nanite	}
+		}
 	}
 	NAND = {
 		root = { has_modifier = slave_colony }
