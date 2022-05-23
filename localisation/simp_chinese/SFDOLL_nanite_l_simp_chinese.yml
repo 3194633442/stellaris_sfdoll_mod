@@ -17,20 +17,20 @@ tech_trait_sfdoll_nanite_desc:0 "解锁特质:$trait_sfdoll_nanite$"
 trait_sfdoll_nanite:0 "纳米铁血"
 trait_sfdoll_nanite_desc:0 "这些铁血人形可以用纳米机器人来组成身体和心智系统.它们的人口可以像有机体一样自我复制和增长."
 
-tech_sfdoll_nanite_destroyer:0 "小型纳米战舰"
+sfdoll_nanite_corvette:0 "铁血纳米护卫舰"
+sfdoll_nanite_destroyer:0 "铁血纳米驱逐舰"
+sfdoll_nanite_cruiser:0 "铁血纳米巡洋舰"
+sfdoll_nanite_battleship:0 "铁血纳米战列舰"
+sfdoll_nanite_titan:0 "铁血纳米泰坦"
+
+tech_sfdoll_nanite_destroyer:0 "轻型纳米战舰"
 tech_sfdoll_nanite_destroyer_desc:0 "纳米技术和逆向坍塌技术,能极大提高飞船组装和维护效率.§Y铁血纳米战舰的维护费会减少100%，组装时无需特殊设施§!"
 
 tech_sfdoll_nanite_battleship:0 "中型纳米战舰"
 tech_sfdoll_nanite_battleship_desc:0 "$tech_sfdoll_nanite_destroyer_desc$"
 
-tech_sfdoll_nanite_titan:0 "$sfdoll_nanite_titan$"
+tech_sfdoll_nanite_titan:0 "重型纳米战舰"
 tech_sfdoll_nanite_titan_desc:0 "$tech_sfdoll_nanite_destroyer_desc$"
-
-sfdoll_nanite_corvette:0 "纳米护卫舰"
-sfdoll_nanite_destroyer:0 "纳米驱逐舰"
-sfdoll_nanite_cruiser:0 "纳米巡洋舰"
-sfdoll_nanite_battleship:0 "纳米战列舰"
-sfdoll_nanite_titan:0 "纳米泰坦"
 
 section_sfdoll_nanite_corvette_L1P2:0 "A"
 section_sfdoll_nanite_corvette_L1S2:0 "B"
