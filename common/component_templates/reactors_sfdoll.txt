@@ -243,14 +243,155 @@ utility_component_template = {
 	ai_weight = {	weight = 20	}
 }
 
+#纳米泰坦
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_1"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 1200000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_nanite_titan }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 60
+			sr_dark_matter = 400
+		}
+		upkeep = {
+			energy = 3.2
+			alloys = 2
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+
+#纳米战列
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_2"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 540000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_nanite_battleship }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 24
+			sr_dark_matter = 160
+		}
+		upkeep = {
+			energy = 1.5
+			alloys = 1
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+#纳米巡洋
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_3"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 270000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_nanite_cruiser }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 10
+			sr_dark_matter = 80
+		}
+		upkeep = {
+			energy = 0.6
+			alloys = 0.4
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+#纳米驱逐
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_4"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 130000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_nanite_destroyer }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 4
+			sr_dark_matter = 32
+		}
+		upkeep = {
+			energy = 0.3
+			alloys = 0.2
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+#纳米护卫
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_5"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 50000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_nanite_corvette }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 2
+			sr_dark_matter = 11
+		}
+		upkeep = {
+			energy = 0.1
+			alloys = 0.1
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+#指挥舰反应堆
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_6"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 1800000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  gfsfdoll_command_ship }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 90
+			sr_dark_matter = 600
+		}
+		upkeep = {
+			energy = 4.8
+			alloys = 3
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+
 #母舰坍塌反应堆
 utility_component_template = {
 	key = "sfdoll_carrier_collapse_REACTOR"
 	size = small
-	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
-	power = 300000
+	power = 4000000
 	component_set = "power_core"
+	prerequisites = { tech_sfdoll_ship_power_2  }
 	size_restriction = { ship_sfdoll_carrier }
 	ai_weight = {	weight = 20	}
 }

@@ -95,7 +95,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = {  corvette colonizer sponsored_colonizer constructor science transport }
+	size_restriction = { sfdoll_nanite_corvette corvette colonizer sponsored_colonizer constructor science transport }
 	
 	ai_weight = {
 		weight = 5
@@ -125,7 +125,7 @@ utility_component_template = {
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { destroyer }
+	size_restriction = { sfdoll_nanite_destroyer destroyer }
 
 	ai_weight = {
 		weight = 5
@@ -155,7 +155,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { cruiser }
+	size_restriction = { sfdoll_nanite_cruiser cruiser }
 
 	ai_weight = {
 		weight = 5
@@ -186,7 +186,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = {   gfsfdoll_titan battleship  }
+	size_restriction = { sfdoll_nanite_battleship sfdoll_nanite_titan  gfsfdoll_titan battleship  }
 	ai_weight = {
 		weight = 5
 		modifier = {

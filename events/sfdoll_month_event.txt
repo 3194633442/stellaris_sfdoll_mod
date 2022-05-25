@@ -1,0 +1,38 @@
+namespace = sfdoll_month_event
+
+#月检更正特殊领袖的头像
+country_event = {
+	id = sfdoll_leader_event.1
+	is_triggered_only = yes
+	trigger = {
+		has_authority = auth_gf_sfdoll
+	}
+	immediate = {
+		if = {
+			limit = {  exists =  event_target:sfdoll_leader_elisa }
+			event_target:sfdoll_leader_elisa = {
+				change_leader_portrait = GFX_sfdoll_elisa
+			}
+		}
+		if = {
+			limit = { exists = event_target:sfdoll_leader_ump45 }
+			event_target:sfdoll_leader_ump45 = {
+				change_leader_portrait = GFX_sfdoll_ump45_03
+			}
+		}
+		if = {
+			limit = { exists = event_target:ogas40_sfdoll_leader }
+			event_target:ogas40_sfdoll_leader = {
+				change_leader_portrait = GFX_portrait_sfdoll_ogas40
+			}
+		}
+		if = {
+			limit = { exists = event_target:sfdoll_leader_triela }
+			event_target:sfdoll_leader_triela = { change_leader_portrait = GFX_sfdoll_triela }
+		}
+		if = {
+			limit = { exists = event_target:sfdoll_leader_noel }
+			event_target:sfdoll_leader_noel = { change_leader_portrait = GFX_sfdoll_noel }
+		}
+	}
+}

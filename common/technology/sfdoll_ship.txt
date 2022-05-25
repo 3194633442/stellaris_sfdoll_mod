@@ -220,9 +220,24 @@ tech_aux_sfdoll_collapse_power= {
 	icon = tech_aux_sfdoll_collapse_power
 	category = { particles }
 	is_reverse_engineerable = no
-	prerequisites = {	tech_sfdoll_energy_plant }
+	prerequisites = {	tech_sfdoll_collapse_liquid_produce }
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight2
+}
+
+
+
+#二级能源
+tech_sfdoll_ship_power_2 = {
+	cost = @tier5cost3
+	tier = 5
+	area = physics
+	icon = tech_sfdoll_ship_power_2
+	category = { particles }
+	is_reverse_engineerable = no
+	prerequisites = {	tech_sfdoll_energy_plant }
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = @tier5weight3
 }
 
 #舰船修复A槽
@@ -318,27 +333,7 @@ tech_edict_gfsfdoll_ship_hull = {
 	weight = 0
 }
 
-#深空母舰
-tech_ship_sfdoll_carrier = {
-	cost = @tier5cost3
-	area = engineering
-	start_tech = no
-	icon = tech_ship_sfdoll_carrier
-	is_rare = yes
-	category = { voidcraft }
-	prerequisites = {
-		tech_aux_sfdoll_collapse_power
-	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_battleships
-	}
-	modifier = {
-		country_resource_max_add = 20000
-	}
-	tier = 5
-	weight = @tier5weight3
-}
+
 
 #星舰城市
 tech_sfdoll_homeless_ship = {

@@ -8,8 +8,7 @@ utility_component_template = {
 	power = -30
 	prerequisites = {	"tech_sfdoll_ship_computer"	}
 	ship_modifier = {
-		ship_weapon_damage = 0.4
-		ship_fire_rate_mult = 0.4
+		ship_fire_rate_mult = 0.25
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 	}
@@ -40,8 +39,8 @@ utility_component_template = {
 	power = -30
 	prerequisites = {	"tech_sfdoll_ship_computer"	}
 	ship_modifier = {
-		ship_weapon_damage = 0.4
-		ship_fire_rate_mult = 0.4
+		ship_weapon_damage = 0.15
+		ship_fire_rate_mult = 0.25
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 	}
@@ -71,8 +70,7 @@ utility_component_template = {
 	power = -30
 	prerequisites = {	"tech_sfdoll_ship_computer"	}
 	ship_modifier = {
-		ship_weapon_damage = 0.4
-		ship_fire_rate_mult = 0.4
+		ship_fire_rate_mult = 0.25
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 		ship_engagement_range_mult = 0.75
@@ -106,5 +104,8 @@ utility_component_template = {
 	component_set = "combat_computers"
 	ai_weight = {
 		weight = 0
+	}
+	prerequisites = {
+		"tech_sfdoll_ship_computer"
 	}
 }

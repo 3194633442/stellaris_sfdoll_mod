@@ -17,7 +17,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 170
-	range = 400
+	range = 250
 	accuracy = 1.0
 	shield_damage = 3
 	armor_damage = 3
@@ -28,7 +28,7 @@ weapon_component_template = {
 	prerequisites = { "tech_sfdoll_weapon_x_1" }
 	component_set = "component_set_sfdoll_weapon_x_1"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive  }
+	tags = { weapon_type_energy weapon_type_kinetic   }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -70,7 +70,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 170
-	range = 500
+	range = 300
 	accuracy = 1
 	shield_damage = 3
 	armor_damage = 3
@@ -81,7 +81,7 @@ weapon_component_template = {
 	prerequisites = { "tech_sfdoll_weapen_t_2" }
 	component_set = "component_set_sfdoll_weapen_t_2"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive  }
+	tags = { weapon_type_energy weapon_type_kinetic  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -123,7 +123,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 70
-	range = 240
+	range = 100
 	accuracy = 1.0
 	tracking = 0.50
 	shield_damage = 3
@@ -135,7 +135,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_s_3" }
 	component_set = "component_set_sfdoll_weapon_s_3"
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive  }
+	tags = { weapon_type_energy weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -171,7 +171,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 70
-	range = 240
+	range = 150
 	accuracy = 1.0
 	tracking = 0.50
 	shield_damage = 3
@@ -183,7 +183,7 @@ weapon_component_template = {
 	prerequisites = { "tech_sfdoll_weapon_s_3" }
 	component_set = "component_set_sfdoll_weapon_s_3"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive  }
+	tags = { weapon_type_energy weapon_type_kinetic}
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -218,7 +218,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 70
-	range = 240
+	range = 200
 	accuracy = 1.0
 	tracking = 0.50
 	shield_damage = 3
@@ -231,7 +231,7 @@ weapon_component_template = {
 	prerequisites = { "tech_sfdoll_weapon_s_3" }
 	component_set = "component_set_sfdoll_weapon_s_3"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive }
+	tags = { weapon_type_energy weapon_type_kinetic }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -266,7 +266,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 40 }
 	total_fire_time = 70
-	range = 200
+	range = 80
 	accuracy = 1.0
 	tracking = 0.80
 	shield_damage = 3
@@ -278,7 +278,7 @@ weapon_component_template = {
 	prerequisites = { "tech_sfdoll_weapon_p_6" }
 	component_set = "component_set_sfdoll_weapon_p_6"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense weapon_type_explosive  }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense }
 	ai_tags = { weapon_role_point_defense }
 	ai_tag_weight = 0
 	resources = {
@@ -318,7 +318,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	windup = { min = 20 max = 20 }
 	total_fire_time = 280
-	range = 220
+	range = 180
 	shield_penetration = 1
 	armor_penetration = 1
 	hull_damage = 4
@@ -394,7 +394,7 @@ strike_craft_component_template = {
 	projectile_gfx = "strike_craft_laser_3"
 	component_set = "component_set_sfdoll_strike_craft"
 	
-	tags = { weapon_type_strike_craft weapon_type_energy weapon_type_explosive weapon_type_point_defense }
+	tags = { weapon_type_strike_craft weapon_type_explosive weapon_type_point_defense }
 	ai_tags = { weapon_role_point_defense }
 }
 
@@ -414,7 +414,7 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 2500000 max = 2500000  }
+	damage = { min = 3000000 max = 3000000  }
 	#冷却时间要除以10
 	total_fire_time = 130
 	# shield_damage = 5
@@ -422,7 +422,7 @@ weapon_component_template = {
 	# hull_damage = 5
 	range = 450
 	accuracy = 1
-	power = -10000
+	power = -200000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_t_7" }
@@ -434,7 +434,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 6000
+			alloys = 5000
 		}		
 		upkeep = {
 			energy = 24
@@ -468,12 +468,12 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 1000000 max = 1000000 }
+	damage = { min = 1200000 max = 1200000 }
 	#冷却时间要除以10
 	total_fire_time = 130
-	range = 420
+	range = 400
 	accuracy = 1.0
-	power = -5000
+	power = -80000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_8" }
@@ -485,7 +485,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 3000
+			alloys = 2500
 		}		
 		upkeep = {
 			energy = 12
@@ -510,14 +510,13 @@ weapon_component_template = {
 	projectile_gfx = infrared_laser_m
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 250000 max = 250000 }
+	damage = { min = 150000 max = 150000 }
 	#冷却时间要除以10
-	windup = { min = 20 max = 60 }
-	total_fire_time = 60
-	range = 320
+	total_fire_time = 65
+	range = 300
 	accuracy = 1
-	tracking = 0.6
-	power = -2500
+	tracking = 0.7
+	power = -32000
 	use_ship_kill_target = yes
 	
 	#待修改
@@ -529,7 +528,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 1500
+			alloys = 1200
 		}		
 		upkeep = {
 			energy = 6
@@ -555,14 +554,13 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 125000 max = 125000 }
+	damage = { min = 60000 max = 60000 }
 	#冷却时间要除以10
-	windup = { min = 20 max = 60 }
-	total_fire_time = 60
-	range = 320
+	total_fire_time = 65
+	range = 225
 	accuracy = 1.0
-	tracking = 0.6
-	power = -1250
+	tracking = 0.75
+	power = -12000
 	use_ship_kill_target = yes
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_9" }
@@ -574,7 +572,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 750
+			alloys = 600
 		}		
 		upkeep = {
 			energy = 3
@@ -600,14 +598,13 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 62500 max = 62500 }
+	damage = { min = 24000 max = 24000 }
 	#冷却时间要除以10
-	windup = { min = 20 max = 60 }
-	total_fire_time = 60
-	range = 320
+	total_fire_time = 65
+	range = 150
 	accuracy = 1
-	tracking = 0.6
-	power = -600
+	tracking = 0.8
+	power = -4800
 	use_ship_kill_target = yes
 	
 	#待修改
@@ -619,7 +616,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 370
+			alloys = 300
 		}		
 		upkeep = {
 			energy = 1.5
@@ -645,14 +642,13 @@ weapon_component_template = {
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 36000 max = 36000 }
+	damage = { min = 24000 max = 24000 }
 	#冷却时间要除以10
-	windup = { min = 20 max = 60 }
-	total_fire_time = 10
-	range = 280
+	total_fire_time = 65
+	range = 120
 	accuracy = 1
-	tracking = 0.8
-	power = -600
+	tracking = 0.9
+	power = -4800
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_12" }
@@ -664,7 +660,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 370
+			alloys = 300
 		}		
 		upkeep = {
 			energy = 1.5

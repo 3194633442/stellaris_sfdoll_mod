@@ -118,7 +118,7 @@ leader_admiral_trait_gf_sfdoll_2 = {
 	requires_traits={ trait_gf_sfdoll }
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_gf_sfdoll_2.dds"
 	modifier = {
-		ship_weapon_damage = 0.25
+		ship_fire_rate_mult = 0.1
 	}
 
 	leader_trait = { admiral }

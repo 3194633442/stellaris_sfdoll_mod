@@ -1,0 +1,9 @@
+namespace = sfdoll_leader_event
+
+#月检更正特殊领袖的头像
+# country_event = {
+# 	id = sfdoll_leader_event.1
+# 	is_triggered_only = yes
+
+
+# }

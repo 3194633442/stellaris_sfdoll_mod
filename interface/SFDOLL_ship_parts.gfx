@@ -95,6 +95,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_sfdoll_collapse_reactor.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_sfdoll_ship_power_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_sfdoll_ship_power_2.dds"
+	}
+}
+
+
 
 spriteTypes = {
 	spriteType = {

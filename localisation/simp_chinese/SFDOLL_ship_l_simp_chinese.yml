@@ -112,14 +112,13 @@ tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 sfdoll_ship_sensors:0"铁血舰载传感器"
 
 
-tech_aux_sfdoll_collapse_power:0 "铁血坍塌炉"
-tech_aux_sfdoll_collapse_power_desc:0 "铁血坍塌炉将一组奇点冷冻在可控黑洞中，为舰船提供庞大的能源。"
-
-aux_sfdoll_collapse_power:0 "坍塌副能源"
+tech_aux_sfdoll_collapse_power:0 "坍塌粒子反应堆"
+tech_aux_sfdoll_collapse_power_desc:0 "利用坍塌粒子制造高性能舰载能源"
+aux_sfdoll_collapse_power:0 "坍塌粒子副能源"
 aux_sfdoll_collapse_power_DESC:0 "通过坍塌科技压缩体积的高效辅助能源，可以装备在各类舰船上"
 
-CORVETTE_sfdoll_collapse_REACTOR:0"铁血坍塌炉"
-DESTROYER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+CORVETTE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+DESTROYER_sfdoll_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 CRUISER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 BATTLESHIP_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 TITAN_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
@@ -127,7 +126,19 @@ COLOSSUS_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 PLATFORM_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 ION_CANNON_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
-sfdoll_carrier_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
+
+
+
+tech_sfdoll_ship_power_2:0 "坍缩炉"
+tech_sfdoll_ship_power_2_desc:0 "坍缩炉利用黑洞控制奇点，并为飞船供能.目前仅有少数舰种可装备."
+sfdoll_REACTOR_2_1:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_2:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_3:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_4:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_5:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
+
 
 sfdoll_ship_reactor_no:0 "空槽"
 
