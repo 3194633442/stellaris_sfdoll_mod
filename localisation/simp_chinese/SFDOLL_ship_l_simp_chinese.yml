@@ -129,8 +129,8 @@ STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 
 
 
-tech_sfdoll_ship_power_2:0 "坍缩炉"
-tech_sfdoll_ship_power_2_desc:0 "坍缩炉利用黑洞控制奇点，并为飞船供能.目前仅有少数舰种可装备."
+tech_sfdoll_ship_power_2:0 "二级坍塌反应堆"
+tech_sfdoll_ship_power_2_desc:0 "利用逆向坍塌现象形成的奇点为飞船供能.目前仅有少数舰种可装备."
 sfdoll_REACTOR_2_1:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_2:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_3:0 "$tech_sfdoll_ship_power_2$"

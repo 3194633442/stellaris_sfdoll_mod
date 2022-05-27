@@ -12,7 +12,7 @@ sfdoll_search_zion_event_0:"谜之信号"
 sfdoll_search_zion_event_0_desc:"近期，我们的研究人员探测到了某种独特的信号。这些信号极有可能与地球遗迹技术有关。信号的内容，似乎指向了某个未知星球。我们必须好好研究一番。"
 
 SF_SEARCH_ZION_PROJECT:0"解析谜之信号"
-SF_SEARCH_ZION_PROJECT_DESC:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。可以说，那些遗迹是我们起源。\n $sfdoll_search_zion_event_0_desc$"
+SF_SEARCH_ZION_PROJECT_DESC:0"过去，某个未知文明在地球留下了遗迹。参考遗迹中的科技，我们的创造者设计了最初的铁血人形。所以，我们一直对遗迹的真相感兴趣。\n $sfdoll_search_zion_event_0_desc$"
 
 sfdoll_search_zion_event_1:0"不明坐标"
 sfdoll_search_zion_event_1_desc:0"我们对谜之信号进行了深入分析，确认了其中包含的坐标位置。接下来，我们会进行一场超光速传送试验，前往某个未知星球。"

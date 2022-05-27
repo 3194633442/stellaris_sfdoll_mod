@@ -182,6 +182,17 @@ country_event = {
 		}
 	}
 
+	#找谢顿
+	option = {
+		name = "sfdoll_elisa_event.3_option_5"
+		trigger = {	has_country_flag = sfdoll_hari_seldon_owner	}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_foundation_event.3
+			}
+		}
+	}
+
 	#退出
 	option = {
 		name =  "sfdoll_break_option"

@@ -6,7 +6,7 @@ tech_sfdoll_nanites = {
 	category = { industry }
 	weight = @tier4weight2
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
+	prerequisites = {	tech_basic_science_lab_3	}
 }
 
 #纳米特质

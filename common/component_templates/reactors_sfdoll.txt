@@ -118,7 +118,7 @@ utility_component_template = {
 	}
 	prerequisites = { tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer sponsored_colonizer constructor science transport  }
+	size_restriction = { sfdoll_nanite_corvette corvette colonizer sponsored_colonizer constructor science transport  }
 	ai_weight = {	weight = 20	}
 }
 #驱逐舰
@@ -142,7 +142,7 @@ utility_component_template = {
 	
 	prerequisites = {  tech_aux_sfdoll_collapse_power  }
 	component_set = "power_core"
-	size_restriction = { destroyer }
+	size_restriction = { sfdoll_nanite_destroyer destroyer }
 	ai_weight = {	weight = 20	}
 }
 #巡洋舰
@@ -166,7 +166,7 @@ utility_component_template = {
 	
 	prerequisites = {  tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { cruiser }
+	size_restriction = { sfdoll_nanite_cruiser cruiser }
 	ai_weight = {	weight = 20	}
 }
 #战列舰
@@ -190,7 +190,7 @@ utility_component_template = {
 	
 	prerequisites = { tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { ship_support_sfdoll battleship }	
+	size_restriction = { sfdoll_nanite_battleship ship_support_sfdoll battleship }	
 	ai_weight = {	weight = 20	}
 }
 
@@ -228,7 +228,7 @@ utility_component_template = {
 	power = 80000
 	prerequisites = { tech_aux_sfdoll_collapse_power  }
 	component_set = "power_core"
-	size_restriction = {  gfsfdoll_titan gfsfdoll_command_ship   colossus }
+	size_restriction = { sfdoll_nanite_titan  gfsfdoll_titan   colossus }
 	resources = {
 		category = ship_components
 		cost = {
