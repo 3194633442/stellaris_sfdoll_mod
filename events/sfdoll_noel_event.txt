@@ -6,9 +6,7 @@ namespace = sfdoll_noel_event
 country_event = {
 	id = sfdoll_noel_event.0
 	hide_window = yes
-
 	is_triggered_only = yes
-
 	trigger = {	has_authority = auth_gf_sfdoll	}
 	immediate = {
 		# create_country = {

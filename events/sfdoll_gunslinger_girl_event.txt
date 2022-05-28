@@ -207,7 +207,7 @@ country_event = {
 
 	#退出
 	option = {
-		name =  "sfdoll_gunslinger_girl_event_6_break"
+		name = "sfdoll_break_option"
 		break = yes
 	}
 }

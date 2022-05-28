@@ -10,11 +10,10 @@ tech_sfdoll_psychohistory = {
 	is_rare = yes
 	category = { statecraft }
 	icon = tech_sfdoll_psychohistory
-	weight = @tier4weight3
+	weight = 0
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {
-		planet_jobs_unity_produces_mult = 0.15
-		empire_size_mult = -0.10
+		empire_size_mult = -0.5
 	}
 }
 

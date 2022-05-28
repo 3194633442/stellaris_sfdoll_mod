@@ -28,13 +28,12 @@ triela_become_governor:0 "请参与政务吧"
 triela_become_scientist:0 "请协助研究吧"
 triela_become_admiral:0 "请指挥舰队吧"
 triela_become_general:0 "请指挥陆军部队吧"
-sfdoll_gunslinger_girl_event_6_break:0 "退出"
 triela_has_this_job_now:0 "崔耶拉已经在进行这项工作"
 
 response_text_triela_become_governor:0 "包在我身上"
 response_text_triela_become_scientist:0 "看起来很复杂，我得学更多东西才行!"
-response_text_triela_become_admiral:0 "我会让大家平安回来"
-response_text_triela_become_general:0 "开始备战吧"
+response_text_triela_become_admiral:0 "我会让大家平安回来的."
+response_text_triela_become_general:0 "准备训练吧!"
 
 #Let life be beautiful like summer flowers and death like autumn leaves
 leader_trait_governor_sfdoll_triela:0 "义体少女"

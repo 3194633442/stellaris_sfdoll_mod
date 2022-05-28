@@ -9,7 +9,7 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	fire_only_once = yes
-	# picture_event_data = {
+	picture = GFX_evt_diplomatic_visit
 	trigger = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_jump_drive_1
@@ -31,7 +31,7 @@ country_event = {
 	desc = "sfdoll_foundation_event.2_desc"
 	hide_window = no
 	is_triggered_only = yes
-	# picture_event_data = {
+	picture = GFX_evt_diplomatic_visit
 	trigger = {
 		has_authority = auth_gf_sfdoll
 	}
@@ -101,7 +101,10 @@ country_event = {
 				set_age = 81
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_scientist_sfd_hari_seldon }
+				traits = {
+					trait = leader_trait_scientist_sfd_hari_seldon
+					trait = leader_trait_maniacal
+				}
 				effect = {
 					change_leader_portrait = GFX_sfdoll_hari_seldon
 					set_leader_flag = sfdoll_leader_hari_seldon

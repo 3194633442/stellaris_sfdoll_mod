@@ -179,12 +179,8 @@ fleet_event = {
 			country_event = {
 				id = sfdoll_search_zion_event.9
 			}
-			set_country_flag = sfdoll_noel_owner
-			save_global_event_target_as = sfdoll_noel_owner
-
 		}
 		small_artifact_reward = yes
-
 	}
 }
 

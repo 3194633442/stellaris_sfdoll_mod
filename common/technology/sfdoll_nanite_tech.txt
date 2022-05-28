@@ -26,6 +26,7 @@ tech_sfdoll_nanite_corvette = {
 	tier = 5
 	area = society
 	category = { military_theory }
+	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	"tech_sfdoll_nanites"	}
 	potential = {
@@ -39,6 +40,7 @@ tech_sfdoll_nanite_destroyer = {
 	tier = 5
 	area = society
 	category = { military_theory }
+	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_nanite_corvette	}
 	weight = @tier2weight1
@@ -48,6 +50,7 @@ tech_sfdoll_nanite_cruiser = {
 	tier = 5
 	area = society
 	category = { military_theory }
+	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	"tech_sfdoll_nanite_destroyer"	}
 	weight = @tier2weight1
@@ -57,6 +60,7 @@ tech_sfdoll_nanite_battleship = {
 	tier = 5
 	area = society
 	category = { military_theory }
+	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_nanite_cruiser	}
 	weight = @tier2weight1
@@ -66,6 +70,7 @@ tech_sfdoll_nanite_titan = {
 	tier = 5
 	area = society
 	category = { military_theory }
+	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
 	weight = @tier2weight1
