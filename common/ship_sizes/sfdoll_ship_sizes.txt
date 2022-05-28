@@ -113,7 +113,6 @@ ship_sfdoll_noel = {
 	required_component_set = "ftl_components"
 	required_component_set = "sensor_components"
 	required_component_set = "thruster_components"
-	required_component_set = "combat_computers"
 	modifier = {
 		ships_upkeep_mult = -1
 		ship_shield_add = 5000000

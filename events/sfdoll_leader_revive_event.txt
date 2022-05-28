@@ -130,20 +130,20 @@ country_event = {
 			}
 
 			if = {
-				limit = { has_leader_flag = sfdoll_leader_ump45 }
-				clear_global_event_target = sfdoll_leader_ump45
-				event_target:new_leader_revive_sfdoll = {
-					set_leader_flag = sfdoll_leader_ump45
-					save_global_event_target_as = sfdoll_leader_ump45
-				}
-			}
-
-			if = {
 				limit = { has_leader_flag = sfdoll_leader_elisa }
 				clear_global_event_target = sfdoll_leader_elisa
 				event_target:new_leader_revive_sfdoll = {
 					set_leader_flag = sfdoll_leader_elisa
 					save_global_event_target_as = sfdoll_leader_elisa
+				}
+			}
+
+			if = {
+				limit = { has_leader_flag = sfdoll_leader_ump45 }
+				clear_global_event_target = sfdoll_leader_ump45
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_ump45
+					save_global_event_target_as = sfdoll_leader_ump45
 				}
 			}
 
@@ -162,6 +162,15 @@ country_event = {
 				event_target:new_leader_revive_sfdoll = {
 					set_leader_flag = sfdoll_leader_triela
 					save_global_event_target_as = sfdoll_leader_triela
+				}
+			}
+
+			if = {
+				limit = {  has_leader_flag = sfdoll_leader_hari_seldon }
+				clear_global_event_target = sfdoll_leader_hari_seldon
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_hari_seldon
+					save_global_event_target_as = sfdoll_leader_hari_seldon
 				}
 			}
 

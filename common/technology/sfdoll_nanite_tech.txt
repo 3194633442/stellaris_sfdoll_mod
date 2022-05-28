@@ -4,20 +4,22 @@ tech_sfdoll_nanites = {
 	area = engineering
 	tier = 4
 	category = { industry }
-	weight = @tier4weight2
+	icon = tech_sfdoll_nanites
+	weight = 1400
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_basic_science_lab_3	}
 }
 
-#纳米特质
+#纳米物种特质
 tech_trait_sfdoll_nanite = {
 	cost = @tier4cost1
 	tier = 4
 	area = society
 	category = { biology }
+	icon = tech_sfdoll_nanites
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	"tech_sfdoll_nanites"	}
-	weight = @tier4weight1
+	weight = 1400
 }
 
 #纳米系列战舰
@@ -33,7 +35,7 @@ tech_sfdoll_nanite_corvette = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sfdoll_ship_power_2
 	}
-	weight = @tier4weight1
+	weight = 0
 }
 tech_sfdoll_nanite_destroyer = {
 	cost = @tier5cost1
@@ -43,7 +45,7 @@ tech_sfdoll_nanite_destroyer = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_nanite_corvette	}
-	weight = @tier2weight1
+	weight = 0
 }
 tech_sfdoll_nanite_cruiser = {
 	cost = @tier5cost1
@@ -53,7 +55,7 @@ tech_sfdoll_nanite_cruiser = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	"tech_sfdoll_nanite_destroyer"	}
-	weight = @tier2weight1
+	weight = 0
 }
 tech_sfdoll_nanite_battleship = {
 	cost = @tier5cost1
@@ -63,7 +65,7 @@ tech_sfdoll_nanite_battleship = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_nanite_cruiser	}
-	weight = @tier2weight1
+	weight = 0
 }
 tech_sfdoll_nanite_titan = {
 	cost = @tier5cost1
@@ -73,7 +75,7 @@ tech_sfdoll_nanite_titan = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
-	weight = @tier2weight1
+	weight = 0
 }
 
 #指挥舰
@@ -84,7 +86,7 @@ tech_gfsfdoll_command_ship = {
 	is_rare = yes
 	icon = tech_sfdoll_tactical_destroyer
 	category = { voidcraft }
-	prerequisites = {	tech_sfdoll_nanite_titan	}
+	prerequisites = {	tech_sfdoll_nanites	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sfdoll_thruster

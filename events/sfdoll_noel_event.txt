@@ -345,35 +345,6 @@ country_event = {
 	}
 }
 
-#诺耶露的情况(旧版，已废弃)
-country_event = {
-	id = sfdoll_noel_event.6
-	title = "sfdoll_noel_event_2_title"
-	desc = "sfdoll_noel_event_2_desc"
-	picture = GFX_evp_sfdoll_noel_sleep
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	trigger = {
-		has_country_flag = sfdoll_empire
-	}
-	immediate = {
-		country_event = {
-			id = sfdoll_noel_event.0
-		}
-		
-	}
-	option = {
-		name = sfdoll_noel_event.2_option
-		add_resource = {
-			unity = 1000
-			physics_research = 4000
-			society_research = 4000
-			engineering_research = 4000
-		}
-	}
-}
-
 
 #协助诺耶露
 country_event = {
@@ -389,8 +360,17 @@ country_event = {
 				id = sfdoll_noel_event.8
 			}
 			# 允许和诺耶露通讯
-			country_event = {
-				id = sfdoll_noel_event.0
+			save_global_event_target_as = sfdoll_noel_owner
+			set_country_flag = sfdoll_noel_owner
+			#创建一个物种，用于生成特殊领袖诺耶露
+			create_species = {
+				name = name_sfdoll_event_leader_species
+				class = sf_a_doll
+				immortal = yes
+				effect = {
+					set_species_flag = species_sfdoll_event_leader
+					save_global_event_target_as = species_sfdoll_event_leader
+				}
 			}
 		}
 	}
