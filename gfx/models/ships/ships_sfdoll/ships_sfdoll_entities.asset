@@ -1,4 +1,23 @@
 #{x,z,y}x正向为舰船左方，z正向为上方，y正向为后方，负向为前方
+entity = {
+	name = "GF_sfdoll_titan_mid_entity"
+	locator = { name = "X01" 	position = { -9  -3  -20 } }
+	locator = { name = "X02" 	position = { 9   -3  -20 } }
+	locator = { name = "L01" 	position = { -9  -3  -17 } }
+	locator = { name = "L02" 	position = { 9   -3  -17 } }
+	locator = { name = "L03" 	position = { -9  -3  -14 } }
+	locator = { name = "L04" 	position = { 9   -3  -14 } }
+	locator = { name = "L05" 	position = { -9  -3  -11 } }
+	locator = { name = "L06" 	position = { 9   -3  -11 } }
+	locator = { name = "L07" 	position = { -10.5  -3  -8 } }
+	locator = { name = "L08" 	position = { 10.5  -3 -8} }
+	locator = { name = "L09" 	position = { -10.5  -3  -5 } }
+	locator = { name = "L10" 	position = { 10.5  -3  -5 } }
+	locator = { name = "L11" 	position = { -10.5  -3  -2 } }
+	locator = { name = "L12" 	position = { 10.5  -3  -2 } }
+}
+
+
 #纳米护卫
 entity = {
 	name = "sfdoll_corvette_entity"

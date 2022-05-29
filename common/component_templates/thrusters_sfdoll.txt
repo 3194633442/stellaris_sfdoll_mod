@@ -186,7 +186,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_nanite_battleship sfdoll_nanite_titan  gfsfdoll_titan battleship  }
+	size_restriction = { sfdoll_nanite_battleship sfdoll_nanite_titan   battleship  }
 	ai_weight = {
 		weight = 5
 		modifier = {
@@ -268,7 +268,7 @@ utility_component_template = {
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { gfsfdoll_titan gfsfdoll_command_ship  }
+	size_restriction = {  gfsfdoll_command_ship  }
 	resources = {
 		category = ship_components
 		cost = {

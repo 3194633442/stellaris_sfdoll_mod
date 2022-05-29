@@ -172,15 +172,6 @@ component_aura_ship_support_sfdoll:0 "范围干涉引擎"
 hostile_aura_ship_support_sfdoll:0 "力场压制"
 
 
-gfsfdoll_titan:0 "重型驱逐舰"
-gfsfdoll_titan_plural:0 "$sfdoll_titan$"
-gfsfdoll_titan_bow:0 "A区段"
-gfsfdoll_titan_core:0 "B区段"
-gfsfdoll_titan_stern:0 "C区段"
-
-tech_sfdoll_titan:0 "重型驱逐舰"
-tech_sfdoll_titan_desc:0 "重型驱逐舰能搭载先进的指挥系统，并进行高效地量产，她将为铁血的国防提供更有力的保障。"
-
 #flag ship
 tech_gfsfdoll_command_ship:0 "铁血指挥舰"
 tech_gfsfdoll_command_ship_desc:0 "铁血指挥舰搭载了多项试验性科技，用于强化整个舰队的作战能力。"

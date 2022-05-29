@@ -21,9 +21,10 @@
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
 
-sfdoll_nanite_corvette = {
+#铁血护卫舰
+sfdoll_corvette = {
 	graphical_culture = no
-	entity = "gatebuilder_01_cruiser_entity"
+	entity = "GF_nyto_01_corvette_entity"
 	max_speed = @speed_very_fast
 	acceleration = 0.35
 	rotation_speed = 0.1
@@ -40,7 +41,7 @@ sfdoll_nanite_corvette = {
 	size_multiplier = 1
 	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
-	num_target_locators = 4
+	num_target_locators = 2
 	is_space_station = no
 	icon = ship_size_military_1
 	class = shipclass_military
@@ -48,7 +49,7 @@ sfdoll_nanite_corvette = {
 	components_add_to_cost = no
 
 	#共用tech destroyer
-	prerequisites = {	"tech_sfdoll_nanite_destroyer"}
+	prerequisites = { tech_sfdoll_corvette	}
 
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -64,9 +65,9 @@ sfdoll_nanite_corvette = {
 	}
 }
 
-sfdoll_nanite_destroyer = {
+sfdoll_destroyer = {
 	graphical_culture = no
-	entity = "gatebuilder_01_cruiser_entity"
+	entity = "GF_nyto_01_destroyer_entity"
 	max_speed = @speed_fast
 	acceleration = 0.3
 	rotation_speed = 0.2
@@ -82,14 +83,14 @@ sfdoll_nanite_destroyer = {
 	}
 	size_multiplier = 2
 	fleet_slot_size = 2
-	section_slots = { "mid" = { locator = "part1" } }
-	num_target_locators = 0
+	section_slots = { "bow" = { locator = "part1" } "stern" = { locator = "part2" } }
+	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_2
 	class = shipclass_military
 	is_designable = yes
 	components_add_to_cost = no
-	prerequisites = {	"tech_sfdoll_nanite_destroyer"	}
+	prerequisites = {	"tech_sfdoll_destroyer"	}
 
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -105,9 +106,9 @@ sfdoll_nanite_destroyer = {
 	}
 }
 
-sfdoll_nanite_cruiser = {
+sfdoll_cruiser = {
 	graphical_culture = no
-	entity = "gatebuilder_01_cruiser_entity"
+	entity = "GF_nyto_01_cruiser_entity"
 	max_speed = @speed_default
 	acceleration = 0.25
 	rotation_speed = 0.175
@@ -122,16 +123,16 @@ sfdoll_nanite_cruiser = {
 		ships_upkeep_mult = -1
 	}
 	size_multiplier = 4
-	fleet_slot_size = 4
-	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } }
-	num_target_locators = 0
+	fleet_slot_size = 3
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_4
 	class = shipclass_military
 	is_designable = yes
 	components_add_to_cost = no
 	#和纳米战列共用
-	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
+	prerequisites = { tech_sfdoll_cruiser	}
 
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -147,9 +148,9 @@ sfdoll_nanite_cruiser = {
 	}
 }
 
-sfdoll_nanite_battleship = {
+sfdoll_battleship = {
 	graphical_culture = no
-	entity = "gatebuilder_01_mothership_entity"
+	entity = "GF_nyto_01_battleship_entity"
 	max_speed = @speed_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
@@ -164,15 +165,15 @@ sfdoll_nanite_battleship = {
 		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
-	fleet_slot_size = 8
-	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } }
-	num_target_locators = 0
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_8
 	class = shipclass_military
 	is_designable = yes
 	components_add_to_cost = no
-	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
+	prerequisites = {	"tech_sfdoll_battleship"	}
 
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -188,9 +189,9 @@ sfdoll_nanite_battleship = {
 	}
 }
 
-sfdoll_nanite_titan = {
+sfdoll_titan = {
 	graphical_culture = no
-	entity = "gatebuilder_01_mothership_entity"
+	entity = "GF_nyto_01_titan_entity"
 	max_speed = @speed_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
@@ -206,14 +207,14 @@ sfdoll_nanite_titan = {
 	components_add_to_cost = no
 	base_buildtime = 600
 	size_multiplier = 16
-	fleet_slot_size = 16
-	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part1" } "mid2" = { locator = "part1" } }
-	num_target_locators = 0
+	fleet_slot_size = 8
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_16
 	class = shipclass_military
 	is_designable = yes
-	prerequisites = {	"tech_sfdoll_nanite_titan"	}
+	prerequisites = {	"tech_sfdoll_titan"	}
 
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -244,7 +245,7 @@ gfsfdoll_command_ship = {
 		ship_shield_add = 500000
 		ship_piracy_suppression_add = 8
 	}
-	size_multiplier = 32
+	size_multiplier = 40
 	fleet_slot_size = 8
 	section_slots = {
 		"bow" = { locator = part2 }
@@ -291,21 +292,21 @@ gfsfdoll_command_ship = {
 
 #深空母舰
 ship_sfdoll_carrier = {
-	entity = Gayr_frame_entity
+	entity = "GF_nyto_01_juggernaut_entity"
 	max_speed = @speed_slow
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 5000000
-	size_multiplier = 256
-	fleet_slot_size = 16
+	max_hitpoints = 1000000
+	size_multiplier = 80
+	fleet_slot_size = 40
+	num_target_locators = 0
 	section_slots = {
 		"core" = { locator = "part1" }
 	}
-	num_target_locators = 6
 	is_space_station = no
 	icon = starbase_ship_sizes
-	base_buildtime = 3600
+	base_buildtime = 1800
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
@@ -325,16 +326,17 @@ ship_sfdoll_carrier = {
 	required_component_set = "ship_aura_components"
 	modifier = {
 		ships_upkeep_mult = -1
-		ship_shield_add = 5000000
-		ship_armor_add = 5000000
-		starbase_shipyard_capacity_add = 20
+		ship_shield_add = 1000000
+		ship_armor_add = 1000000
+		starbase_shipyard_capacity_add = 10
 		starbase_shipyard_build_speed_mult = 1
 		ship_starting_experience_add = 200
+		ship_piracy_suppression_add = 8
 	}
 	resources = {
 		category = ships
 		cost = {
-			alloys = 60000
+			alloys = 50000
 			nanites = 5000
 
 		}

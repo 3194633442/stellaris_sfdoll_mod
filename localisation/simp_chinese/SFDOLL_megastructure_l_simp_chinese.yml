@@ -44,7 +44,7 @@ gateway_sfdoll_MEGASTRUCTURE_DETAILS:0 "$gateway_sfdoll_DESC$"
 build_gateway_sfdoll:0 "我们建造了一座$gateway_sfdoll$"
 
 tech_gateway_sfdoll:0 "铁血星门"
-tech_gateway_sfdoll_desc:0 "参考锡安中的某些传输技术，铁血们设计了一种星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
+tech_gateway_sfdoll_desc:0 "参考遗迹文明的某些传输技术，铁血们设计了一种可以快速组装的星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
 
 gateway_sfdoll_name:0 "铁血星门航道"
 gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"

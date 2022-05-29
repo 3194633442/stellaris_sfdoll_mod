@@ -23,7 +23,7 @@ tech_trait_sfdoll_nanite = {
 }
 
 #纳米系列战舰
-tech_sfdoll_nanite_corvette = {
+tech_sfdoll_corvette = {
 	cost = @tier5cost1
 	tier = 5
 	area = society
@@ -37,44 +37,44 @@ tech_sfdoll_nanite_corvette = {
 	}
 	weight = 0
 }
-tech_sfdoll_nanite_destroyer = {
+tech_sfdoll_destroyer = {
 	cost = @tier5cost1
 	tier = 5
 	area = society
 	category = { military_theory }
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {	tech_sfdoll_nanite_corvette	}
+	prerequisites = {	tech_sfdoll_corvette	}
 	weight = 0
 }
-tech_sfdoll_nanite_cruiser = {
+tech_sfdoll_cruiser = {
 	cost = @tier5cost1
 	tier = 5
 	area = society
 	category = { military_theory }
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {	"tech_sfdoll_nanite_destroyer"	}
+	prerequisites = {	tech_sfdoll_destroyer	}
 	weight = 0
 }
-tech_sfdoll_nanite_battleship = {
+tech_sfdoll_battleship = {
 	cost = @tier5cost1
 	tier = 5
 	area = society
 	category = { military_theory }
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {	tech_sfdoll_nanite_cruiser	}
+	prerequisites = {	tech_sfdoll_cruiser	}
 	weight = 0
 }
-tech_sfdoll_nanite_titan = {
+tech_sfdoll_titan = {
 	cost = @tier5cost1
 	tier = 5
 	area = society
 	category = { military_theory }
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {	"tech_sfdoll_nanite_battleship"	}
+	prerequisites = {	tech_sfdoll_battleship	}
 	weight = 0
 }
 

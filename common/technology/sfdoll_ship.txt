@@ -395,21 +395,21 @@ tech_ship_support_sfdoll= {
 	weight = 0
 }
 
-#重型驱逐（铁血泰坦）
-tech_sfdoll_titan = {
-	cost = @tier5cost3
-	tier = 5
-	area = engineering
-	start_tech = no
-	icon = tech_sfdoll_tactical_destroyer
-	category = { voidcraft }
-	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_battleships
-	}
-	modifier = {
-		country_command_limit_add = 200
-	}
-	weight = @tier5cost3
-}
+#重型驱逐
+# tech_sfdoll_titan = {
+# 	cost = @tier5cost3
+# 	tier = 5
+# 	area = engineering
+# 	start_tech = no
+# 	icon = tech_sfdoll_tactical_destroyer
+# 	category = { voidcraft }
+# 	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
+# 	potential = {
+# 		has_authority = auth_gf_sfdoll
+# 		has_technology = tech_battleships
+# 	}
+# 	modifier = {
+# 		country_command_limit_add = 200
+# 	}
+# 	weight = 0
+# }

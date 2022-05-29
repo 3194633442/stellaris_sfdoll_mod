@@ -95,17 +95,17 @@ ship_section_template = {
 	# }
 	component_slot = {
 		name = p016
-		template = invisible_point_defence_turret
+		template = invisible_large_turret
 		locatorname = p_016
 	}
 	component_slot = {
 		name = p017
-		template = invisible_point_defence_turret
+		template = invisible_large_turret
 		locatorname = p_017
 	}
 	component_slot = {
 		name = p018
-		template = invisible_point_defence_turret
+		template = invisible_large_turret
 		locatorname = p_018
 	}
 	component_slot = {
