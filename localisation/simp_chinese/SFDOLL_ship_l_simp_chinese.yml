@@ -143,15 +143,7 @@ sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_ship_reactor_no:0 "空槽"
 
 
-ship_sfdoll_carrier:0 "深空母舰"
-ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
-section_ship_sfdoll_carrier:0 "深空母舰"
-thruster_sfdoll_carrier:0 "深空母舰推进器"
-component_aura_sfdoll_carrier:0 "移动维护系统"
-friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 
-tech_ship_sfdoll_carrier:0 "深空母舰"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰拥有强大的造船功能和改造天体的能力，她的设计中运用了大量遗迹科技。建造她的过程，无疑会是一项宏伟的太空工程。"
 
 tech_ship_air_defense_sfdoll:0 "铁血防空战列舰"
 tech_ship_air_defense_sfdoll_desc:0 "防空战列舰拥有比常规战列舰更强的武装，并能够搭载完备的防空系统"
@@ -172,18 +164,75 @@ component_aura_ship_support_sfdoll:0 "范围干涉引擎"
 hostile_aura_ship_support_sfdoll:0 "力场压制"
 
 
+sfdoll_corvette:0 "铁血护卫舰"
+sfdoll_destroyer:0 "铁血驱逐舰"
+sfdoll_cruiser:0 "铁血巡洋舰"
+sfdoll_battleship:0 "铁血战列舰"
+sfdoll_titan:0 "铁血泰坦"
+
+tech_sfdoll_corvette:0 "$sfdoll_corvette$"
+tech_sfdoll_corvette_desc:0 "利用微机械和物质坍塌技术,新型飞船系列的建造和维护成本大幅下降,并能够搭载更先进的装备"
+
+tech_sfdoll_destroyer:0 "$sfdoll_destroyer$"
+tech_sfdoll_destroyer_desc:0 "$tech_sfdoll_corvette_desc$"
+
+tech_sfdoll_cruiser:0 "$sfdoll_cruiser$"
+tech_sfdoll_cruiser_desc:0 "$tech_sfdoll_corvette_desc$"
+
+tech_sfdoll_battleship:0 "$sfdoll_battleship$"
+tech_sfdoll_battleship_desc:0 "$tech_sfdoll_corvette_desc$"
+
+tech_sfdoll_titan:0 "$sfdoll_titan$"
+tech_sfdoll_titan_desc:0 "$tech_sfdoll_corvette_desc$"
+
+section_sfdoll_corvette_L1P2:0 "A"
+section_sfdoll_corvette_L1S2:0 "B"
+
+sfdoll_destroyer_bow_L2:0 "A"
+sfdoll_destroyer_stern_P2:0 "B"
+sfdoll_destroyer_stern_S2:0 "C"
+
+GF_sfdoll_cruiser_bow_X1:0 "A"
+sfdoll_cruiser_mid_L3:0 "B"
+sfdoll_cruiser_mid_L2S2P2:0 "C"
+sfdoll_cruiser_stern_L1:0 "D"
+
+GF_sfdoll_battleship_bow_T1:0 "A"
+sfdoll_battleship_bow_X2:0 "B"
+sfdoll_battleship_mid_L6:0 "C"
+sfdoll_battleship_mid_L4M2P4:0 "D"
+sfdoll_battleship_stern_L2:0 "E"
+
+sfdoll_titan_bow_T2:0 "A"
+sfdoll_titan_bow_X4:0 "B"
+sfdoll_titan_mid_L6:0 "C"
+sfdoll_titan_stern_L6:0 "D"
+
+need_sfdoll_mega_starport:0 "需要$sfdoll_mega_starport$或者$mega_shipyard_3$"
+
 #flag ship
 tech_gfsfdoll_command_ship:0 "铁血指挥舰"
-tech_gfsfdoll_command_ship_desc:0 "铁血指挥舰搭载了多项试验性科技，用于强化整个舰队的作战能力。"
+tech_gfsfdoll_command_ship_desc:0 "$tech_gfsfdoll_command_ship$"
 
 gfsfdoll_command_ship:0 "铁血指挥舰"
 gfsfdoll_command_ship_plural:0 "$gfsfdoll_command_ship$"
-bow_gfsfdoll_command_ship:0 "装备A组"
-core_gfsfdoll_command_ship:0 "装备B组"
-stern_gfsfdoll_command_ship:0 "装备C组"
+bow_gfsfdoll_command_ship:0 "A"
+core_gfsfdoll_command_ship:0 "B"
+stern_gfsfdoll_command_ship:0 "C"
 
 component_aura_sfdoll_1:0 "干扰战术模块"
 hostile_aura_sfdoll_1:0 "战场干扰"
+
+
+ship_sfdoll_carrier:0 "深空母舰"
+ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
+section_ship_sfdoll_carrier:0 "深空母舰"
+thruster_sfdoll_carrier:0 "深空母舰推进器"
+component_aura_sfdoll_carrier:0 "移动维护系统"
+friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
+
+tech_ship_sfdoll_carrier:0 "深空母舰"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地,她是我们舰队的有力后盾"
 
 ship_sfdoll_noel:0 "诺耶露"
 section_sfdoll_noel:0 "诺耶露装备箱"

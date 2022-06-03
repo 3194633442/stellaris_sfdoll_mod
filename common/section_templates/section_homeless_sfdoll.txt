@@ -2,110 +2,110 @@
 ship_section_template = {
 	key = "section_sfdoll_homeless_core"
 	ship_size = sfdoll_homeless_ship
-	fits_on_slot = core
+	fits_on_slot = mid
 	should_draw_components = yes
-	entity = homeship_entity
+	entity = "colony_ship_entity"
 	icon = "GFX_ship_part_core_bow"
 	icon_frame = 1
 	component_slot = {
 		name = "L01"
 		template = invisible_large_turret
-		locatorname = "L01"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L02"
 		template = invisible_large_turret
-		locatorname = "L02"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L03"
 		template = invisible_large_turret
-		locatorname = "L03"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L04"
 		template = invisible_large_turret
-		locatorname = "L04"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L05"
 		template = invisible_large_turret
-		locatorname = "L05"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L06"
 		template = invisible_large_turret
-		locatorname = "L06"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L07"
 		template = invisible_large_turret
-		locatorname = "L07"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L08"
 		template = invisible_large_turret
-		locatorname = "L08"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L09"
 		template = invisible_large_turret
-		locatorname = "L09"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L010"
 		template = invisible_large_turret
-		locatorname = "L010"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L011"
 		template = invisible_large_turret
-		locatorname = "L011"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L012"
 		template = invisible_large_turret
-		locatorname = "L012"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L013"
 		template = invisible_large_turret
-		locatorname = "L013"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L014"
 		template = invisible_large_turret
-		locatorname = "L014"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L015"
 		template = invisible_large_turret
-		locatorname = "L015"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L016"
 		template = invisible_large_turret
-		locatorname = "L016"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L017"
 		template = invisible_large_turret
-		locatorname = "L017"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L018"
 		template = invisible_large_turret
-		locatorname = "L018"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L019"
 		template = invisible_large_turret
-		locatorname = "L019"
+		locatorname = root
 	}
 	component_slot = {
 		name = "L020"
 		template = invisible_large_turret
-		locatorname = "L020"
+		locatorname = root
 	}
 	large_utility_slots = 10
 	aux_utility_slots = 2	#防御槽位的简略写法

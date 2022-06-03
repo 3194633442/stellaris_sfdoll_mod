@@ -417,9 +417,6 @@ weapon_component_template = {
 	damage = { min = 3000000 max = 3000000  }
 	#冷却时间要除以10
 	total_fire_time = 130
-	# shield_damage = 5
-	# armor_damage = 5
-	# hull_damage = 5
 	range = 450
 	accuracy = 1
 	power = -200000

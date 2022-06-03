@@ -22,7 +22,7 @@ sfdoll_collapse_liquid_maker = {
 	weight = {	weight = 20	}
 }
 
-#科研
+#科研T1
 sfdoll_researcher = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
@@ -46,14 +46,42 @@ sfdoll_researcher = {
 			engineering_research = 40
 		}
 		upkeep = {
-			consumer_goods = 2
+			consumer_goods = 10
+		}
+	}
+	weight = {	weight = 30	}
+}
+#科研T2
+sfdoll_researcher_2 = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	icon = sfdoll_researcher
+	building_icon = building_sfdoll_research_2
+	clothes_texture_index = 3
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_researchers
+		produces = {
+			physics_research = 80
+			society_research = 80
+			engineering_research = 80
+		}
+		upkeep = {
+			consumer_goods = 16
 		}
 	}
 	weight = {	weight = 30	}
 }
 
 
-#坍塌液合金生产
+#合金岗位
 sfdoll_collapse_alloys_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
@@ -76,11 +104,40 @@ sfdoll_collapse_alloys_maker = {
 			engineering_research = 6
 		}
 		upkeep = {
-			minerals =  6
+			minerals =  60
 		}
 	}
 	weight = {	weight = 20	}
 }
+#T2合金岗位
+sfdoll_alloys_producer_2 = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	#待修改
+	building_icon = building_sfdoll_alloys_2
+	icon = sfdoll_collapse_alloys_maker
+	clothes_texture_index = 3
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_metallurgists
+		produces = {
+			alloys = 60
+			engineering_research = 6
+		}
+		upkeep = {
+			minerals =  96
+		}
+	}
+	weight = {	weight = 20	}
+}
+
 
 #消费品
 sfdoll_nanites_goods_maker = {
@@ -107,7 +164,35 @@ sfdoll_nanites_goods_maker = {
 			engineering_research = 6
 		}
 		upkeep = {
-			minerals = 6
+			minerals = 60
+		}
+	}
+	weight = {
+		weight = 20
+	}
+}
+#T2消费品
+sfdoll_goods_producer_2 = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_sfdoll_nanites_goods_plant
+	clothes_texture_index = 3
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_artisans
+		produces = {
+			consumer_goods = 120
+			engineering_research = 6
+		}
+		upkeep = {
+			minerals = 96
 		}
 	}
 	weight = {
@@ -158,8 +243,10 @@ sfdoll_energy_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_technician
-		produces = {	energy = 60 }
-		upkeep = {	GF_nyto_collapse_liquid = 2	}
+		produces = {	energy = 40 }
+		upkeep = {
+			GF_nyto_collapse_liquid = 2
+		}
 	}
 	weight = {	weight = 20	}
 }
@@ -182,9 +269,9 @@ sfdoll_mineral_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_technician
-		produces = {	minerals = 30  }
+		produces = {	minerals = 40  }
 		upkeep = {
-			GF_nyto_collapse_liquid = 2
+			energy = 40
 		}
 	}
 	weight = {	weight = 20	}

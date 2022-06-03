@@ -16,7 +16,50 @@ entity = {
 	locator = { name = "L11" 	position = { -10.5  -3  -2 } }
 	locator = { name = "L12" 	position = { 10.5  -3  -2 } }
 }
+entity = {
+	name = "GF_sfdoll_carrier_entity"
+	pdxmesh = "sfdoll_carrier01_mesh"
+	locator = { name = "X01" 	position = { -9  -3  -20 } }
+	locator = { name = "X02" 	position = { 9   -3  -20 } }
+	locator = { name = "L01" 	position = { -9  -3  -17 } }
+	locator = { name = "L02" 	position = { 9   -3  -17 } }
+	locator = { name = "L03" 	position = { -9  -3  -14 } }
+	locator = { name = "L04" 	position = { 9   -3  -14 } }
+	locator = { name = "L05" 	position = { -9  -3  -11 } }
+	locator = { name = "L06" 	position = { 9   -3  -11 } }
+	locator = { name = "L07" 	position = { -10.5  -3  -8 } }
+	locator = { name = "L08" 	position = { 10.5  -3 -8} }
+	locator = { name = "L09" 	position = { -10.5  -3  -5 } }
+	locator = { name = "L10" 	position = { 10.5  -3  -5 } }
+	locator = { name = "L11" 	position = { -10.5  -3  -2 } }
+	locator = { name = "L12" 	position = { 10.5  -3  -2 } }
+}
 
+#星舰城市
+entity = {
+	name = "sfdoll_homeless_ship_entity"
+	locator = { name = "X01" 	position = { 0  0  0 } }
+	locator = { name = "L01" 	position = { -5  0  -8 } }
+	locator = { name = "L02" 	position = { 5   0  -8 } }
+	locator = { name = "L03" 	position = { -5  0  -8 } }
+	locator = { name = "L04" 	position = { 5   0  -8 } }
+	locator = { name = "L05" 	position = { -5  0  -8 } }
+	locator = { name = "L06" 	position = { 9   -3  -8 } }
+	locator = { name = "L07" 	position = { -10.5  -3 -8 } }
+	locator = { name = "L08" 	position = { 10.5  -3 -8} }
+	locator = { name = "L09" 	position = { -10.5  -3  -5 } }
+	locator = { name = "L10" 	position = { 10.5  -3  -5 } }
+	locator = { name = "L11" 	position = { -10.5  -3  -2 } }
+	locator = { name = "L12" 	position = { 10.5  -3  -2 } }
+	locator = { name = "L13" 	position = { -9  -3  -17 } }
+	locator = { name = "L14" 	position = { 9   -3  -17 } }
+	locator = { name = "L15" 	position = { -9  -3  -14 } }
+	locator = { name = "L16" 	position = { 9   -3  -14 } }
+	locator = { name = "L17" 	position = { -9  -3  -11 } }
+	locator = { name = "L18" 	position = { 9   -3  -11 } }
+	locator = { name = "L19" 	position = { -10.5  -3  -8 } }
+	locator = { name = "L20" 	position = { 10.5  -3 -8} }
+}
 
 #纳米护卫
 entity = {
@@ -28,15 +71,6 @@ entity = {
 	locator = { name = "P02" 	position = { 0.1  0  0 } }
 }
 
-#纳米驱逐
-entity = {
-	name = "section_sfdoll_nanite_destroyer_entity"
-	pdxmesh = "sfdoll_nanite_destroyer_mesh"
-	scale = 2
-	locator = { name = "L01" 	position = { 0  0  -1.5 } }
-	locator = { name = "M01" 	position = { -1 0  0 } }
-	locator = { name = "M02" 	position = { 1  0  0 } }
-}
 
 #纳米巡洋
 entity = {
@@ -74,15 +108,6 @@ entity = {
 	locator = { name = "L08" 	position = { -4.6  8  14 } }
 }
 
-#纳米泰坦
-entity = {
-	name = "sfdoll_nanite_titan_bow_entity"
-	pdxmesh = "sfdoll_nanite_titan_bow_mesh"
-	default_state = "idle"
-	locator = { name = "T_01" 	position = { -1.5  0  -11 } }
-	locator = { name = "T_02" 	position = { 1.5  0  -11 } }
-	scale = 3.8
-}
 entity = {
 	name = "sfdoll_nanite_titan_mid_entity"
 	locator = { name = "L_01" 	position = { -3  0  -10 } }

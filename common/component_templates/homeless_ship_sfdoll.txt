@@ -298,15 +298,14 @@ weapon_component_template = {
 	resources = {
 		category = economic_sfdoll_homeless_ship
 		produces = {
-			energy = 60
+			energy = 40
 		}
 		cost = {
 			alloys = 400
 		}		
 		upkeep = {
-			GF_nyto_collapse_liquid = 1
 			consumer_goods = 0.5
-			energy = 5
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 	damage = {
@@ -333,15 +332,14 @@ weapon_component_template = {
 	resources = {
 		category = economic_sfdoll_homeless_ship
 		produces = {
-			minerals  = 30
+			minerals  = 40
 		}
 		cost = {
 			alloys = 400
 		}		
 		upkeep = {
-			GF_nyto_collapse_liquid = 1
+			energy = 40
 			consumer_goods = 0.5
-			energy = 5
 		}
 	}
 	damage = {

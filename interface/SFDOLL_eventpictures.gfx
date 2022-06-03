@@ -189,3 +189,11 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 }
+
+spriteTypes = {	
+	spriteType = {
+		name = GFX_evp_sfdoll_elisa
+		texturefile = "gfx/event_pictures/evp_sfdoll_elisa.dds"
+		alwaystransparent = yes
+	}
+}

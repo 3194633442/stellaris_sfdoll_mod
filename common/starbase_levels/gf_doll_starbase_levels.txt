@@ -18,4 +18,7 @@ starbase_level_ship_sfdoll_carrier = {
 	potential_home_base = yes
 	show_in_outliner = no
 	collects_trade = no
+	ai_weight = {
+		weight = 1
+	}
 }

@@ -62,9 +62,6 @@ tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形
 
 
 #building
-tech_sfdoll_collapse_alloys_produce:0"坍塌技术合金制造工艺"
-tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌液，控制中子等原材料。"
-
 
 tech_sfdoll_chemical:0 "铁血极速化学合成"
 tech_sfdoll_chemical_desc:0 "$building_sfdoll_gases_plant_desc$"
@@ -76,8 +73,8 @@ tech_sfdoll_dark_matter_plant_desc:0"铁血在实验室中获得了暗物质,这
 tech_sfdoll_energy_plant:0"铁血奇点能源"
 tech_sfdoll_energy_plant_desc:0"我们能够用一种奇点制造庞大的能量，而不必受限于旧有的热力学法则"
 
-tech_building_sfdoll_mineral:0 "铁血人工智能：麦克斯韦妖"
-tech_building_sfdoll_mineral_desc:0 "铁血们开发了某种特殊计算机，它能够在不消耗能量的情况下运作，并产生负熵。"
+tech_building_sfdoll_mineral:0 "质量构建"
+tech_building_sfdoll_mineral_desc:0 "只要有足够的能量,我们能制造任何所需的物质"
 
 #sfdoll_reverse_collapse
 tech_sfdoll_reverse_collapse_1:0"逆向坍塌Ⅰ"

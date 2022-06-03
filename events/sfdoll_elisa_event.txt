@@ -48,7 +48,7 @@ country_event = {
 	desc = "sfdoll_elisa_event_2_a_desc"
 	desc = "sfdoll_elisa_event_2_b_desc"
 	desc = "sfdoll_elisa_event_2_c_desc"
-	desc = "sfdoll_elisa_event_2_d_desc"	
+	desc = "sfdoll_elisa_event_2_d_desc"
 	diplomatic = yes
 
 	picture_event_data = {

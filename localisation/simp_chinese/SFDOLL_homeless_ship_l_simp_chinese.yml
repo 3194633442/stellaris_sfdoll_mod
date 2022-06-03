@@ -36,20 +36,18 @@ college_sfdoll_homeless:0 "星舰学院\n 生产:\n §Y20 $unity$§! £unity£ \
 
 energy_sfdoll_homeless_set:0 "奇点能源模块"
 energy_sfdoll_homeless_set_DESC:0 "$energy_sfdoll_homeless$"
-energy_sfdoll_homeless:0 "奇点能源模块 \n 生产:\n §Y60 $energy$§! £energy£ \n 消耗:\n §Y1 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+energy_sfdoll_homeless:0 "奇点能源模块 \n 生产:\n §Y40 $energy$§! £energy£ \n 消耗:\n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y2 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ "
 
 minerals_sfdoll_homeless_set:0 "质量构建模块"
 minerals_sfdoll_homeless_set_DESC:0 "$minerals_sfdoll_homeless$"
-minerals_sfdoll_homeless:0 "质量生成模块 \n 生产:\n §Y30 $minerals$§! £minerals£ \n 消耗:\n §Y1 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+minerals_sfdoll_homeless:0 "质量构建模块 \n 生产:\n §Y40 $minerals$§! £minerals£ \n 消耗:\n §Y40 $energy$§! £energy£  \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
-
-tech_sfdoll_homeless_ship:0 "零重力工业"
-tech_sfdoll_homeless_ship_desc:0 "在星舰城市中，我们可以充分利用失重环境，发展高效工业。同时，通过素体改装，铁血人形能够适应宇宙中的真空、辐射和极端温度等状况，从而在飞船上舒适地生活。\n "
+tech_sfdoll_homeless_ship:0 "星舰城市"
+tech_sfdoll_homeless_ship_desc:0 "在殖民船技术的基础上,我们开发了星舰城市.它并非用于在星球上殖民,而是作为一个长久的太空居所. "
 
 sfdoll_homeless_ship:0 "星舰城市"
 sfdoll_homeless_ship_plural:0 "$sfdoll_homeless_ship$"
-section_sfdoll_homeless_core:0 "星舰城市"
-section_sfdoll_homeless_4:0 "星舰城市防御系统"
+section_sfdoll_homeless_core:0 "$sfdoll_homeless_ship$"
 sfdoll_homeless_ship_reactor:0 "星舰城市能源中心"
 sfdoll_homeless_ship_thruster_1:0 "巨型动力系统"
 

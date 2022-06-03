@@ -55,8 +55,9 @@
 	ignore_portrait_duplication=no
 	room= "room_selector"
 	spawn_enabled=yes
-	ethic="ethic_egalitarian"
-	ethic= "ethic_fanatic_materialist"
+	ethic = "ethic_militarist"
+	ethic= "ethic_materialist"
+	ethic= "ethic_egalitarian"
 	civics={
 		"civic_sfdoll_research"
 		"civic_sfdoll_ogas_manage"

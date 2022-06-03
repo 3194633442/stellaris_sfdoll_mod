@@ -39,26 +39,6 @@ tech_sfdoll_habitat_01 = {
 	weight = @tier5weight3
 }
 
-#物质传输巨构
-tech_sfdoll_mega_matter_convey = {
-	area = physics
-	start_tech = no
-	tier = 5
-	cost = @tier5cost3
-	category = { field_manipulation }
-	is_rare = yes
-	icon = tech_sfdoll_mega_matter_convey
-	potential = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_collapse_liquid_produce
-		has_technology = tech_mega_engineering
-	}
-	modifier = {
-		country_resource_max_add = 20000
-	}
-	weight = 0
-}
-
 #恒星加工器
 tech_sfdoll_star_exploit = {
 	area = physics
@@ -76,7 +56,7 @@ tech_sfdoll_star_exploit = {
 	modifier = {
 		country_resource_max_add = 20000
 	}
-	weight = @tier5weight3
+	weight = 0
 }
 
 #航道修改巨构
@@ -88,7 +68,7 @@ tech_mega_change_hyperlane_sfdoll = {
 	is_dangerous = yes
 	category = { field_manipulation }
 	icon = tech_mega_change_hyperlane_sfdoll
-	weight = @tier5weight3
+	weight = 0
 	prerequisites = {	tech_gateway_sfdoll	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
@@ -101,7 +81,7 @@ tech_gateway_sfdoll = {
 	is_rare = yes
 	category = { field_manipulation }
 	icon = tech_gateway_sfdoll
-	weight = @tier5weight1
+	weight = 0
 	prerequisites = {	tech_sfdoll_jump_drive	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {

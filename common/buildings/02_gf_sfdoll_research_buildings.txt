@@ -25,7 +25,7 @@ building_sfdoll_research = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { 	job_sfdoll_researcher_add = 1	}
+		modifier = { 	job_sfdoll_researcher_add = 2	}
 	}
 
 	resources = {
@@ -55,15 +55,13 @@ building_sfdoll_research_2 = {
 		exists = owner
 		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
 	}
-	triggered_desc = {		text = job_sfdoll_researcher_effect_desc	}
-
 	#限定铁血国家生效
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { 	job_sfdoll_researcher_add = 2	}
+		modifier = { 	job_sfdoll_researcher_2_add = 2	}
 	}
 
 	resources = {

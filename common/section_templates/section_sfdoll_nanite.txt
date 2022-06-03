@@ -20,8 +20,9 @@ ship_section_template = {
 		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
-	small_utility_slots = 3
-	aux_utility_slots = 1
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	aux_utility_slots = 2
 }
 ship_section_template = {
 	key = "section_sfdoll_corvette_L1S2"
@@ -44,8 +45,9 @@ ship_section_template = {
 		template = "invisible_small_turret"
 		locatorname = "small_gun_01"
 	}
-	small_utility_slots = 3
-	aux_utility_slots = 1
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	aux_utility_slots = 2
 }
 
 #铁血驱逐舰
@@ -66,6 +68,7 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 	small_utility_slots = 3
+	medium_utility_slots = 3
 }
 ship_section_template = {
 	key = "sfdoll_destroyer_stern_P2"
@@ -83,8 +86,7 @@ ship_section_template = {
 		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
-	small_utility_slots = 3
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 }
 ship_section_template = {
 	key = "sfdoll_destroyer_stern_S2"
@@ -102,8 +104,7 @@ ship_section_template = {
 		template = "invisible_small_turret"
 		locatorname = "small_gun_02"
 	}
-	small_utility_slots = 3
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 }
 
 #巡洋舰
@@ -143,7 +144,7 @@ ship_section_template = {
 		template = invisible_large_turret
 		locatorname = "medium_gun_03"
 	}
-	medium_utility_slots = 4
+	large_utility_slots = 4
 }
 ship_section_template = {
 	key = "sfdoll_cruiser_mid_L2S2P2"
@@ -183,7 +184,7 @@ ship_section_template = {
 		template = invisible_small_turret
 		locatorname = "small_gun_02"
 	}
-	medium_utility_slots = 4
+	large_utility_slots = 4
 }
 #巡洋舰尾
 ship_section_template = {
@@ -197,7 +198,7 @@ ship_section_template = {
 		template = invisible_large_turret
 		locatorname = "medium_gun_01"
 	}
-	aux_utility_slots = 2
+	aux_utility_slots = 3
 }
 
  #战列
@@ -212,7 +213,7 @@ ship_section_template = {
 		template = "invisible_titanic_turret"
 		locatorname = "xl_gun_01"
 	}
-	large_utility_slots = 3
+	large_utility_slots = 4
 }
 ship_section_template = {
 	key = "sfdoll_battleship_bow_X2"
@@ -230,7 +231,7 @@ ship_section_template = {
 		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
-	large_utility_slots = 3
+	large_utility_slots = 4
 }
 
 #战列中
@@ -273,7 +274,7 @@ ship_section_template = {
 		template = invisible_large_turret
 		locatorname = "strike_craft_locator_02"
 	}
-	large_utility_slots = 3
+	large_utility_slots = 5
 }
 ship_section_template = {
 	key = "sfdoll_battleship_mid_L4M2P4"
@@ -334,7 +335,7 @@ ship_section_template = {
 		locatorname = "small_gun_04"
 	}
 
-	large_utility_slots = 3
+	large_utility_slots = 5
 }
 #战列舰尾
 ship_section_template = {
@@ -353,12 +354,12 @@ ship_section_template = {
 		template = invisible_large_turret
 		locatorname = "medium_gun_02"
 	}
-	aux_utility_slots = 2
+	aux_utility_slots = 3
 }
 
 #铁血泰坦
 ship_section_template = {
-	key = "sfdoll_titan_bow_T1X4"
+	key = "sfdoll_titan_bow_T2"
 	ship_size = sfdoll_titan
 	fits_on_slot = bow
 	entity = "GF_nyto_01_titan_bow_entity"
@@ -373,8 +374,37 @@ ship_section_template = {
 		template = "invisible_titanic_turret"
 		locatorname = "xl_gun_01"
 	}
-	large_utility_slots = 6
+	large_utility_slots = 9
 }
+ship_section_template = {
+	key = "sfdoll_titan_bow_X4"
+	ship_size = sfdoll_titan
+	fits_on_slot = bow
+	entity = "GF_nyto_01_titan_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	component_slot = {
+		name = "X_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "X_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "X_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "X_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	large_utility_slots = 9
+}
+#泰坦中
 ship_section_template = {
 	key = "sfdoll_titan_mid_L6"
 	ship_size = sfdoll_titan
@@ -431,7 +461,7 @@ ship_section_template = {
 		template = "invisible_point_defence_turret"
 		locatorname = "L02"
 	}
-	large_utility_slots = 6
+	large_utility_slots = 9
 }
 ship_section_template = {
 	key = "sfdoll_titan_stern_L6"
@@ -469,7 +499,7 @@ ship_section_template = {
 		template = "invisible_large_turret"
 		locatorname = "L12"
 	}
-	aux_utility_slots = 3
+	aux_utility_slots = 4
 }
 
 # ship_section_template = {

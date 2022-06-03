@@ -155,7 +155,7 @@ country_event = {
 	}
 }
 
-#了解母舰的损伤，获得T槽
+#了解母舰的损伤，获得T2武器
 country_event = {
 	id= sfdoll_to_zion_event.10
 	title = sfdoll_to_zion_event.10
@@ -164,6 +164,5 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = sfdoll_to_zion_event.10_option
-		add_research_option = tech_sfdoll_weapon_t_7
 	}
 }

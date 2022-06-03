@@ -88,8 +88,8 @@ sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这�
 sfdoll_to_zion_event_6_option:0 "有趣的名字。神们也有自己的耶路撒冷吗？"
 
 sfdoll_to_zion_event.10:0 "向神们追问"
-sfdoll_to_zion_event.10_desc:0 "耶利米哀歌中蕴含着神话般的科技。\n 然而，从耶利米哀歌中的战斗记录来看，它被某种敌对力量击败了，并留下了我们所见到的伤痕。显然，遗迹文明曾经面对无比强大的敌人。\n 现在，铁血可以尝试复原这些文明的部分技术。"
-sfdoll_to_zion_event.10_option:0 "它们究竟发生了什么？"
+sfdoll_to_zion_event.10_desc:0 "对§R耶利米哀歌§!的数据进一步解读后,我们认为,我们到达的异空间,很可能只是普通的避难所.和地球遗迹所连接的锡安,并非同一存在.\n\n遗迹文明的谜团,还有待进一步的研究."
+sfdoll_to_zion_event.10_option:0 "我们是第几个呢?"
 
 
 # SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"

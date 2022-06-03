@@ -24,30 +24,31 @@ tech_sfdoll_collapse_liquid_produce = {
 
 #研究所
 tech_sfdoll_lab = {
-	cost = @tier3cost3
+	cost = @tier4cost1
 	area = physics
 	icon = tech_sfdoll_lab
-	tier = 3
-	category = { particles }
+	tier = 4
+	category = { computing }
+	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_ascension_perk = ap_sfdoll_digi_mind_update
+		has_technology = tech_sfdoll_lab
 	}
-	weight = @tier3weight3
+	weight = 1500
 }
-
 #高级研究所
 tech_sfdoll_lab_2 = {
-	cost = @tier4cost3
+	cost = @tier5cost1
 	area = physics
 	icon = tech_sfdoll_lab_2
-	tier = 4
-	category = { particles }
+	tier = 5
+	category = { computing }
+	prerequisites = { tech_building_sfdoll_mineral  }
 	potential = {
 		has_authority = auth_gf_sfdoll
+		has_technology = tech_sfdoll_lab_2
 	}
-	prerequisites = { tech_sfdoll_collapse_liquid_produce }
-	weight =  @tier4weight3
+	weight =  1500
 }
 
 
@@ -63,17 +64,20 @@ tech_sfdoll_collapse_alloys_produce = {
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 #高级合金
-# tech_sfdoll_alloys_2= {
-# 	cost = @tier4cost3
-# 	area = engineering
-# 	tier = 4
-# 	category = { industry }
-# 	is_rare = yes
-# 	icon = tech_sfdoll_collapse_alloys_produce
-# 	prerequisites = { tech_sfdoll_lab_2 }
-# 	weight = 0
-# 	potential = {	has_authority = auth_gf_sfdoll	}
-# }
+tech_sfdoll_alloys_2= {
+	cost = @tier5cost1
+	area = engineering
+	tier = 5
+	category = { industry }
+	is_rare = yes
+	icon = tech_sfdoll_collapse_alloys_produce
+	prerequisites = { tech_building_sfdoll_mineral }
+	weight = @tier5weight1
+	potential = {
+		has_authority = auth_gf_sfdoll
+		has_technology = tech_sfdoll_collapse_alloys_produce
+	}
+}
 
 
 #解锁消费品建筑
@@ -87,18 +91,19 @@ tech_sfdoll_nanites_goods= {
 	weight = @tier4weight2
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
-#高级消费品
-# tech_sfdoll_goods_2= {
-# 	cost = @tier4cost1
-# 	area = society
-# 	tier = 4
-# 	is_rare = yes
-# 	icon = tech_sfdoll_nanites_goods
-# 	category = { statecraft }
-# 	prerequisites = { tech_sfdoll_lab_2 }
-# 	weight = 0
-# 	potential = {	has_authority = auth_gf_sfdoll	}
-# }
+#T2消费品
+tech_sfdoll_goods_2= {
+	cost = @tier5cost1
+	area = society
+	tier = 5
+	icon = tech_sfdoll_nanites_goods
+	category = { statecraft }
+	prerequisites = { tech_building_sfdoll_mineral  }
+	weight = @tier5weight1
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+}
 
 #暗物质合成科技
 tech_sfdoll_dark_matter_plant = {
@@ -139,7 +144,8 @@ tech_sfdoll_energy_plant = {
 		}
 	}
 }
-#矿物合成
+
+#矿物合成,解锁铁血T3科技
 tech_building_sfdoll_mineral = {
 	cost = @tier5cost2
 	area = physics
@@ -147,15 +153,9 @@ tech_building_sfdoll_mineral = {
 	is_rare = yes
 	category = { particles }
 	icon = tech_building_sfdoll_mineral
+	prerequisites = {	tech_sfdoll_energy_plant	}
 	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { tech_sfdoll_collapse_liquid_produce	}
-	weight = @tier5weight2
-	weight_modifier = {
-		modifier = {
-			factor = 10
-			years_passed > 40
-		}
-	}
+	weight = 1500
 }
 
 #铁血化工改进，用于解锁三大稀有资源建筑

@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
 ###############################
 trait_gf_sfdoll:0"铁血人形"
-trait_gf_sfdoll_desc:0"铁血人形是一类智能机器人，最早由铁血工造公司研制。铁血人形之间可以通过OGAS协议进行无线通信，从而提高团队合作的效率。它们的心智云图储存了记忆数据，能够转移和备份。"
+trait_gf_sfdoll_desc:0"铁血人形是一类仿生机器人，最早由铁血工造公司研制.\n\n铁血人形之间可以进行无线通信.它们的心智云图储存了记忆，能够转移和备份."
 
 trait_sfdoll_ogas_protocol:0"铁血万能天线"
 trait_sfdoll_ogas_protocol_desc:0"这款素体外置天线可以放大铁血人形的通讯信号，并附带WIFI和遥控器等多种功能"
@@ -25,7 +25,7 @@ trait_sfdaoll_battle:0"作战专精"
 trait_sfdaoll_battle_desc:0"这些铁血人形能搭载先进的战斗系统"
 
 trait_sfdoll_logic_engine:0"铁血学习算法"
-trait_sfdoll_logic_engine_desc:0"这些铁血人形可以不断学习知识并培养人格，而不必受限于出厂设定。"
+trait_sfdoll_logic_engine_desc:0"这些铁血人形可以不断学习知识并培养人格，而不必受限于出厂设定."
 
 trait_sfdoll_conservation:0"节约"
 trait_sfdoll_conservation_desc:0"节约资源是铁血人形的传统美德"
@@ -83,7 +83,7 @@ leader_governor_trait_gf_sfdoll:0"铁血人形"
 leader_governor_trait_gf_sfdoll_desc:0"这位总督是一位铁血人形，能充分利用OGAS网络，合理安排辖区内的事务。"
 
 leader_scientist_trait_gf_sfdoll:0"铁血人形"
-leader_scientist_trait_gf_sfdoll_desc:0"这位科学家是一位铁血人形，能快速连接云端数据库来获取支持。"
+leader_scientist_trait_gf_sfdoll_desc:0"这位科学家是一位铁血人形，能快速连接数据库来获取支持。"
 
 leader_admiral_trait_gf_sfdoll:0"铁血人形"
 leader_admiral_trait_gf_sfdoll_desc:0"这位舰队司令是一位铁血人形，能迅速计算修正舰队的作战方案。"
@@ -99,17 +99,17 @@ leader_ruler_trait_gf_sfdoll_desc:0"这位统治者是一位铁血人形，能�
 leader_governor_trait_gf_sfdoll_2:0"新铁血"
 leader_governor_trait_gf_sfdoll_2_desc:0"这位铁血人形总督进行了升级改造，能够更好地完成它的工作。"
 
-leader_scientist_trait_gf_sfdoll_2:0"新铁血"
-leader_scientist_trait_gf_sfdoll_2_desc:0"这位铁血人形科学家进行升级改造，能够更好地完成它的工作。"
+leader_scientist_trait_gf_sfdoll_2:0 "$leader_governor_trait_gf_sfdoll_2$"
+leader_scientist_trait_gf_sfdoll_2_desc:0"$leader_governor_trait_gf_sfdoll_2_desc$"
 
-leader_admiral_trait_gf_sfdoll_2:0"新铁血"
-leader_admiral_trait_gf_sfdoll_2_desc:0"这位铁血人形舰队司令进行了升级改造，能够更好地完成它的工作。"
+leader_admiral_trait_gf_sfdoll_2:0"$leader_governor_trait_gf_sfdoll_2$"
+leader_admiral_trait_gf_sfdoll_2_desc:0"$leader_governor_trait_gf_sfdoll_2_desc$"
 
-leader_general_trait_gf_sfdoll_2:0"新铁血"
-leader_general_trait_gf_sfdoll_2_desc:0"这位铁血人形陆军将领进行了升级改造，能够更好地完成它的工作。"
+leader_general_trait_gf_sfdoll_2:0"$leader_governor_trait_gf_sfdoll_2$"
+leader_general_trait_gf_sfdoll_2_desc:0"$leader_governor_trait_gf_sfdoll_2_desc$"
 
-leader_ruler_trait_gf_sfdoll_2:0"新铁血"
-leader_ruler_trait_gf_sfdoll_2_desc:0"这位铁血人形统治者进行了升级改造，能够更好地完成它的工作。"
+leader_ruler_trait_gf_sfdoll_2:0"$leader_governor_trait_gf_sfdoll_2$"
+leader_ruler_trait_gf_sfdoll_2_desc:0"$leader_governor_trait_gf_sfdoll_2_desc$"
 
 
 

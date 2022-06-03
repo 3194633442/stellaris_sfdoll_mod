@@ -89,13 +89,13 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 		ship_evasion_add = 80
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_nanite_corvette corvette colonizer sponsored_colonizer constructor science transport }
+	size_restriction = { sfdoll_corvette corvette colonizer sponsored_colonizer constructor science transport }
 	
 	ai_weight = {
 		weight = 5
@@ -120,12 +120,12 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 		ship_evasion_add = 70
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_nanite_destroyer destroyer }
+	size_restriction = { sfdoll_destroyer destroyer }
 
 	ai_weight = {
 		weight = 5
@@ -149,13 +149,13 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 		ship_evasion_add = 60
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_nanite_cruiser cruiser }
+	size_restriction = { sfdoll_cruiser cruiser }
 
 	ai_weight = {
 		weight = 5
@@ -180,13 +180,13 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 		ship_evasion_add = 50
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_nanite_battleship sfdoll_nanite_titan   battleship  }
+	size_restriction = { sfdoll_battleship sfdoll_titan   battleship  }
 	ai_weight = {
 		weight = 5
 		modifier = {
@@ -210,13 +210,13 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 		ship_evasion_add = 20
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { ship_air_defense_sfdoll ship_support_sfdoll  titan }
+	size_restriction = {  ship_air_defense_sfdoll ship_support_sfdoll  titan }
 
 	ai_weight = {
 		weight = 5
@@ -241,7 +241,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -263,7 +263,7 @@ utility_component_template = {
 	icon = "GFX_sfdoll_thruster"
 	icon_frame = 1
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 		ship_evasion_add = 20
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -306,7 +306,7 @@ utility_component_template = {
 		category = ship_components
 	}
 	modifier = {
-		ship_base_speed_mult = 12
+		ship_speed_mult = 9
 	}
 	component_set = "thruster_components"
 	size_restriction = { 	ship_sfdoll_carrier }

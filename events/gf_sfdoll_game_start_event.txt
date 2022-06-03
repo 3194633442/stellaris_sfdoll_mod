@@ -5,6 +5,7 @@ namespace = gf_sfdoll_game_start_event
 country_event = {
 	title= gf_sfdoll_game_start_event_0_title
 	desc = gf_sfdoll_game_start_event_0_desc
+	is_triggered_only = yes
 	id = gf_sfdoll_game_start_event.0  #id标准写法为namespace的值加上编号
 	hide_window = yes
 	trigger = {
@@ -119,6 +120,22 @@ country_event = {
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising
 		set_country_flag = synth_detector
+
+		country_event = {
+			id = gf_sfdoll_game_start_event.1
+			days = 7
+		}
 	}
+	
+}
+
+
+#讲故事
+country_event = {
+	id = gf_sfdoll_game_start_event.1
+	title = gf_sfdoll_game_start_event.1
+	desc = gf_sfdoll_game_start_event.1_desc
 	is_triggered_only = yes
+	hide_window = no
+	picture = GFX_evp_sfdoll_elisa
 }

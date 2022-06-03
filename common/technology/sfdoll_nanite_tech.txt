@@ -33,9 +33,12 @@ tech_sfdoll_corvette = {
 	prerequisites = {	"tech_sfdoll_nanites"	}
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_ship_power_2
+		has_technology = tech_aux_sfdoll_collapse_power
+		has_technology = tech_sfdoll_ship_computer
+		has_technology = tech_sfdoll_thruster
+		has_technology = tech_battleships
 	}
-	weight = 0
+	weight = 1400
 }
 tech_sfdoll_destroyer = {
 	cost = @tier5cost1
@@ -45,7 +48,7 @@ tech_sfdoll_destroyer = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_corvette	}
-	weight = 0
+	weight = 1400
 }
 tech_sfdoll_cruiser = {
 	cost = @tier5cost1
@@ -55,7 +58,7 @@ tech_sfdoll_cruiser = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_destroyer	}
-	weight = 0
+	weight = 1400
 }
 tech_sfdoll_battleship = {
 	cost = @tier5cost1
@@ -65,7 +68,7 @@ tech_sfdoll_battleship = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_cruiser	}
-	weight = 0
+	weight = 1400
 }
 tech_sfdoll_titan = {
 	cost = @tier5cost1
@@ -75,7 +78,7 @@ tech_sfdoll_titan = {
 	icon = tech_ship_sfdoll_carrier
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_battleship	}
-	weight = 0
+	weight = 1400
 }
 
 #指挥舰
@@ -86,7 +89,7 @@ tech_gfsfdoll_command_ship = {
 	is_rare = yes
 	icon = tech_sfdoll_tactical_destroyer
 	category = { voidcraft }
-	prerequisites = {	tech_sfdoll_nanites	}
+	prerequisites = {	tech_sfdoll_titan	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sfdoll_thruster
@@ -96,7 +99,7 @@ tech_gfsfdoll_command_ship = {
 		country_command_limit_add = 200
 	}
 	tier = 5
-	weight = @tier2weight1
+	weight = 1400
 }
 
 #深空母舰
@@ -108,7 +111,7 @@ tech_ship_sfdoll_carrier = {
 	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {
-		tech_gfsfdoll_command_ship
+		tech_sfdoll_titan
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -118,5 +121,5 @@ tech_ship_sfdoll_carrier = {
 		country_resource_max_add = 20000
 	}
 	tier = 5
-	weight = @tier5weight3
+	weight = 1500
 }

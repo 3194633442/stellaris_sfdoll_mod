@@ -1,0 +1,97 @@
+#巨型星港
+sfdoll_mega_starport = {
+	entity = "mega_shipyard_01_stage_3_entity"
+	construction_entity = "construction_platform_entity"
+	place_entity_on_planet_plane = no
+	build_time = 1800
+	construction_blocks_and_blocked_by = multi_stage_type
+	show_galactic_map_icon = yes
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 20000
+			nanites = 500
+			GF_nyto_collapse_liquid = 100
+		}
+		upkeep = {
+			energy = 40
+		}
+	}
+	build_outside_gravity_well = yes
+	prerequisites = { tech_sfdoll_mega_starport }
+	show_prereqs = yes
+
+	ship_modifier = {
+		ship_starting_experience_add = 200
+	}
+	station_modifier = {
+		starbase_shipyard_capacity_add = 25
+		starbase_shipyard_build_speed_mult = 1
+	}
+	country_modifier = {
+		country_naval_cap_add = 500
+	}
+
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+
+		#不能有环世界
+		NOT = {
+			OR = {
+				has_star_flag = ring_world_built
+				any_system_planet = {
+					is_planet_class = pc_ringworld_habitable
+					is_planet_class = pc_ringworld_habitable_damaged
+					is_planet_class = pc_ringworld_tech
+					is_planet_class = pc_ringworld_tech_damaged
+					is_planet_class = pc_ringworld_seam
+					is_planet_class = pc_ringworld_seam_damaged
+				}
+			}
+		}
+	}
+
+	on_build_complete = {
+		from = {
+			set_country_flag = has_built_or_repaired_megastructure
+			create_message = {
+				type = MEGASTRUCTURE_BUILT
+				localization = sfdoll_mega_starport_complete
+				days = 60
+				target = prev
+			}
+		}
+		# fromfrom = {
+		# 	create_fleet = {	
+		# 		effect = {
+		# 			set_owner = root.owner
+		# 			set_location = prev
+		# 			create_ship = {
+		# 				random_existing_design = ship_sfdoll_starbase
+		# 				prefix = no
+		# 				effect = {
+		# 					#这里要用location里的本地化
+		# 					set_name = "sfdoll_mega_starport"
+		# 				}
+		# 			}
+		# 		}
+		# 	}
+		# 	remove_megastructure = this
+		# }
+	}
+}
