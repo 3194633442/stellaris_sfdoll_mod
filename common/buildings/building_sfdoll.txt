@@ -1,44 +1,44 @@
-building_sfdoll_planet_computer = {
-	base_buildtime = @b3_time
-	can_be_disabled = yes
-	base_cap_amount = 1
-	icon = building_sfdoll_planet_computer
-	category = manufacturing
-	potential = {
-		exists = owner
-		owner = {	has_country_flag = sfdoll_empire	}
-	}
-	prerequisites = {
-		tech_sfdoll_planet_computer
-	}
-	destroy_trigger = {
-		exists = owner
-		owner = {
-			NOT = {	has_country_flag = sfdoll_empire }
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_country_flag = sfdoll_empire }
-		}
-		modifier = {	
-			planet_jobs_physics_research_produces_mult = 0.25
-			planet_jobs_society_research_produces_mult = 0.25
-			planet_jobs_engineering_research_produces_mult = 0.25
-			planet_jobs_produces_mult = 0.25
-		}
-	}
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b3_minerals
-		}
-		upkeep = {
-			energy = @b3_upkeep
-		}
-	}
-}
+# building_sfdoll_planet_computer = {
+# 	base_buildtime = @b3_time
+# 	can_be_disabled = yes
+# 	base_cap_amount = 1
+# 	icon = building_sfdoll_planet_computer
+# 	category = manufacturing
+# 	potential = {
+# 		exists = owner
+# 		owner = {	has_country_flag = sfdoll_empire	}
+# 	}
+# 	prerequisites = {
+# 		tech_sfdoll_planet_computer
+# 	}
+# 	destroy_trigger = {
+# 		exists = owner
+# 		owner = {
+# 			NOT = {	has_country_flag = sfdoll_empire }
+# 		}
+# 	}
+# 	triggered_planet_modifier = {
+# 		potential = {
+# 			exists = owner
+# 			owner = { has_country_flag = sfdoll_empire }
+# 		}
+# 		modifier = {	
+# 			planet_jobs_physics_research_produces_mult = 0.25
+# 			planet_jobs_society_research_produces_mult = 0.25
+# 			planet_jobs_engineering_research_produces_mult = 0.25
+# 			planet_jobs_produces_mult = 0.25
+# 		}
+# 	}
+# 	resources = {
+# 		category = planet_buildings
+# 		cost = {
+# 			minerals = @b3_minerals
+# 		}
+# 		upkeep = {
+# 			energy = @b3_upkeep
+# 		}
+# 	}
+# }
 
 
 #作弊

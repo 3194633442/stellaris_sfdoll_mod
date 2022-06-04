@@ -61,21 +61,6 @@ tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
 
 
-#building
-
-tech_sfdoll_chemical:0 "铁血极速化学合成"
-tech_sfdoll_chemical_desc:0 "$building_sfdoll_gases_plant_desc$"
-
-
-tech_sfdoll_dark_matter_plant:0"暗物质合成"
-tech_sfdoll_dark_matter_plant_desc:0"铁血在实验室中获得了暗物质,这种物质打破了我们的物理常识。我们应该设法获取更多暗物质。"
-
-tech_sfdoll_energy_plant:0"铁血奇点能源"
-tech_sfdoll_energy_plant_desc:0"我们能够用一种奇点制造庞大的能量，而不必受限于旧有的热力学法则"
-
-tech_building_sfdoll_mineral:0 "质量构建"
-tech_building_sfdoll_mineral_desc:0 "只要有足够的能量,我们能制造任何所需的物质"
-
 #sfdoll_reverse_collapse
 tech_sfdoll_reverse_collapse_1:0"逆向坍塌Ⅰ"
 tech_sfdoll_reverse_collapse_1_desc:0"未来，也是过去。"

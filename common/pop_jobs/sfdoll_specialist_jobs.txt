@@ -223,7 +223,37 @@ sfdoll_dark_matter_maker = {
 	}
 	weight = {	weight = 20	}
 }
+#铁血纳米机器制造岗位
+sfdoll_nanites_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	
+	building_icon = building_sfdoll_nanites_plant
+	clothes_texture_index = 3
 
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			nanites = 10
+		}
+		upkeep = {
+			minerals = 10
+		}
+	}
+	weight = {
+		weight = 20
+	}
+}
 
 #奇点能源岗位
 sfdoll_energy_maker = {
@@ -337,37 +367,6 @@ sfdoll_artist = {
 	weight = {	weight = 20	}
 }
 
-#铁血纳米机器制造岗位
-sfdoll_nanites_maker = {
-	category = specialist
-	#用于检测工作是否可用的一系列逻辑
-	condition_string = SPECIALIST_JOB_TRIGGER
-	
-	building_icon = building_sfdoll_nanites_plant
-	clothes_texture_index = 3
-
-	possible_pre_triggers = {
-		has_owner = yes
-		is_being_purged = no
-		is_being_assimilated = no
-		is_sapient = yes
-	}
-
-	possible_precalc = can_fill_specialist_job
-
-	resources = {
-		category = planet_jobs
-		produces = {
-			nanites = 10
-		}
-		upkeep = {
-			minerals = 10
-		}
-	}
-	weight = {
-		weight = 20
-	}
-}
 
 #铁血化工
 sfdoll_gases_maker = {

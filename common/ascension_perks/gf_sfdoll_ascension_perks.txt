@@ -58,6 +58,7 @@ ap_sfdoll_reverse_collapse ={
 	}
 	modifier = {
 		all_technology_research_speed= 0.5
+		country_resource_max_add = 20000
 	}
 	ai_weight = {	factor = 1	}
 }
@@ -76,9 +77,12 @@ ap_sfdoll_planet= {
 	}
 	modifier = {
 		planet_decision_enact_speed_mult = 0.25
+		country_resource_max_add = 40000
 	}
+	#星球改造决议和专属居住站
 	on_enabled = {
 		add_research_option = tech_build_sfdoll_city
+		add_research_option = tech_sfdoll_habitat_01
 	}
 	ai_weight = {	factor = 1	}
 }
@@ -102,6 +106,7 @@ ap_sfdoll_4 = {
 		megastructure_build_speed_mult = 0.5
 		country_megastructure_build_cap_add = 2
 		starbase_shipyard_build_speed_mult = 0.5
+		country_resource_max_add = 40000
 	}
 	ai_weight = {	factor = 1	}
 }

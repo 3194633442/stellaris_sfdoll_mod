@@ -6,23 +6,26 @@ pc_sfdoll_city_desc:0 "铁血人形建设的城市星球,可根据需要调节�
 
 district_sfdoll_house:0 "铁血城市"
 district_sfdoll_house_plural:0 "铁血城市"
-district_sfdoll_house_desc:0 "舒适的现代化城市"
+district_sfdoll_house_desc:0 "$district_sfdoll_house$"
 
-district_sfdoll_goods:0 "轻工业区划"
-district_sfdoll_goods_plural:0 "轻工业区划"
-district_sfdoll_goods_desc:0 "这里的产品汇聚了最新设计理念"
+# district_sfdoll_goods:0 "轻工业区划"
+# district_sfdoll_goods_plural:0 "轻工业区划"
+# district_sfdoll_goods_desc:0 "这里的产品汇聚了最新设计理念"
+district_sfdoll_rare:0 "特种工业区划"
+district_sfdoll_rare_plural:0 "特种工业区划"
+district_sfdoll_rare_desc:0 "$district_sfdoll_rare$"
 
-district_sfdoll_alloys:0 "重工业区划"
-district_sfdoll_alloys_plural:0 "重工业区划"
-district_sfdoll_alloys_desc:0 "计算机管控的高效工业区"
+district_sfdoll_alloys:0 "工业区划"
+district_sfdoll_alloys_plural:0 "工业区划"
+district_sfdoll_alloys_desc:0 "$district_sfdoll_alloys$"
 
 district_sfdoll_science:0 "科研区划"
 district_sfdoll_science_plural:0 "科研区划"
-district_sfdoll_science_desc:0 "先进的科研区划"
+district_sfdoll_science_desc:0 "$district_sfdoll_science$"
 
-district_generator_sfdoll_city:0 "基础资源区划"
-district_generator_sfdoll_city_plural:0 "基础资源区划"
-district_generator_sfdoll_city_desc:0 "这些区划能够合成基本的生产物资"
+district_generator_sfdoll_city:0 "资源区划"
+district_generator_sfdoll_city_plural:0 "资源区划"
+district_generator_sfdoll_city_desc:0 "$district_generator_sfdoll_city$"
 
 
 pc_rw_sfdoll:0 "铁血星环"
@@ -32,17 +35,21 @@ district_rw_city_sfdoll:0 "星环城市"
 district_rw_city_sfdoll_plural:0 "星环城市"
 district_rw_city_sfdoll_desc:0 "环形世界的城市区划"
 
-district_rw_science_sfdoll:0 "科学区划"
-district_rw_science_sfdoll_plural:0 "科学区划"
-district_rw_science_sfdoll_desc:0 "这些区划拥有顶尖的科研设施。"
+district_rw_science_sfdoll:0 "科研区划"
+district_rw_science_sfdoll_plural:0 "科研区划"
+district_rw_science_sfdoll_desc:0 "$district_rw_science_sfdoll$"
 
 district_rw_industrial_sfdoll:0 "工业区划"
 district_rw_industrial_sfdoll_plural:0 "工业区划"
-district_rw_industrial_sfdoll_desc:0  "这些工业基地使用坍塌技术进行高效生产"
+district_rw_industrial_sfdoll_desc:0  "$district_rw_industrial_sfdoll$"
 
-district_rw_generator_sfdoll:0 "资源再生区划"
-district_rw_generator_sfdoll_plural:0 "资源再生区划"
-district_rw_generator_sfdoll_desc:0 "这些区划能生产能源与物资"
+district_rw_rare_sfdoll:0 "特种工业区划"
+district_rw_rare_sfdoll_plural:0 "特种工业区划"
+district_rw_rare_sfdoll_desc:0 "$district_rw_rare_sfdoll$"
+
+district_rw_generator_sfdoll:0 "资源区划"
+district_rw_generator_sfdoll_plural:0 "资源区划"
+district_rw_generator_sfdoll_desc:0 "$district_rw_generator_sfdoll$"
 
 
 decision_planet_to_sfdoll_city:0 "建立铁血星球"

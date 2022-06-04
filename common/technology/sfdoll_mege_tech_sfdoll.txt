@@ -36,7 +36,7 @@ tech_sfdoll_habitat_01 = {
 	modifier = {
 		country_resource_max_add = 20000
 	}
-	weight = @tier5weight3
+	weight = 0
 }
 
 #恒星加工器

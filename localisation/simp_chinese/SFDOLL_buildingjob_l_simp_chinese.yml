@@ -2,11 +2,14 @@
 #职业本地化包括，职业名称，职业复数形式，职业描述，职业效果（用于显示在提供职业的建筑中），相关修正(mod_XX)的本地化
 
 #produce
+tech_sfdoll_dark_matter_plant:0"铁血暗物质合成"
+tech_sfdoll_dark_matter_plant_desc:0"暗物质打破了我们的物理常识.显然,我们必须设法获取更多暗物质."
 building_sfdoll_dark_matter_plant:0"铁血暗物质工厂"
-building_sfdoll_dark_matter_plant_desc:0"用于合成暗物质"
+building_sfdoll_dark_matter_plant_desc:0"$building_sfdoll_dark_matter_plant$"
+
 job_sfdoll_dark_matter_maker:0"暗物质合成师"
 job_sfdoll_dark_matter_maker_plural:0"$job_sfdoll_dark_matter_maker$"
-job_sfdoll_dark_matter_maker_desc:0"暗物质合成师可合成暗物质"
+job_sfdoll_dark_matter_maker_desc:0"$job_sfdoll_dark_matter_maker$"
 job_sfdoll_dark_matter_maker_effect_desc:0 "$job_sfdoll_dark_matter_maker$ 消耗 §Y$energy$§! 生产 §Y$sr_dark_matter$§!"
 mod_job_sfdoll_dark_matter_maker_add:0"$job_sfdoll_dark_matter_maker$ 岗位"
 
@@ -95,24 +98,35 @@ job_sfdoll_goods_producer_2_effect_desc:0 "生产消费品"
 mod_job_sfdoll_goods_producer_2_add:0 "$job_sfdoll_goods_producer_2$岗位"
 
 
+tech_sfdoll_energy_plant:0"铁血奇点能源"
+tech_sfdoll_energy_plant_desc:0"奇点能源打破了多种物理法则"
 building_sfdoll_energy_plant:0"铁血奇点发电厂"
 building_sfdoll_energy_plant_desc:0"$building_sfdoll_energy_plant$"
+
 job_sfdoll_energy_maker:0"奇点技师"
 job_sfdoll_energy_maker_plural:0"$job_sfdoll_energy_maker_maker$"
 job_sfdoll_energy_maker_desc:0"$job_sfdoll_energy_maker_maker$"
 job_sfdoll_energy_maker_effect_desc:0 "奇点技师消耗§Y$sr_dark_matter$§!,生产§Y$energy$§! "
 mod_job_sfdoll_energy_maker_add:0"$job_sfdoll_energy_maker$岗位"
 
-building_sfdoll_mineral:0"铁血质量构建厂"
-building_sfdoll_mineral_desc:0"利用逆向坍塌技术，生产我们所需的物质资源"
+
+tech_building_sfdoll_mineral:0 "质量生成"
+tech_building_sfdoll_mineral_desc:0 "只要有足够的能量,我们能制造任何所需的物质"
+building_sfdoll_mineral:0"物质合成厂"
+building_sfdoll_mineral_desc:0"$building_sfdoll_mineral$"
+
 job_sfdoll_mineral_maker:0"物质合成师"
 job_sfdoll_mineral_maker_plural:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_effect_desc:0 "物质合成师消耗§Y$energy$§!,生产 §Y$minerals$§! "
 mod_job_sfdoll_mineral_maker_add:0"$job_sfdoll_mineral_maker$岗位"
 
+
+tech_sfdoll_chemical:0 "铁血极速化学合成"
+tech_sfdoll_chemical_desc:0 "坍塌科技让化学合成变得简单"
+
 building_sfdoll_gases_plant:0 "铁血化学厂"
-building_sfdoll_gases_plant_desc:0 "坍塌科技让化学合成变得轻松。是时候和过去臃肿的化工设施说再见了。"
+building_sfdoll_gases_plant_desc:0 "$building_sfdoll_gases_plant$"
 job_sfdoll_gases_maker:0"铁血化学师"
 job_sfdoll_gases_maker_plural:0"$job_sfdoll_gases_maker$"
 job_sfdoll_gases_maker_desc:0"$job_sfdoll_gases_maker$"
