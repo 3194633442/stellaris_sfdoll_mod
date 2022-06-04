@@ -16,16 +16,17 @@ gf_sfdoll_ascension_perk_event_0_option:0 "这是我们进化的新阶段"
 
 
 #
-ap_sfdoll_planet:0 "铁血新世界工程"
-ap_sfdoll_planet_desc:0 "建造我们的新世界."
-tech_build_sfdoll_city:0"铁血星球企划"
-tech_build_sfdoll_city_desc:0 "铁血星球融入了多种先进的理念和技术."
-gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_planet$"
-gf_sfdoll_ascension_perk_event.2_desc:0 "新型世界的建设方案正在准备中"
-
-
-#
 ap_sfdoll_4:0 "铁血计划:耶梦加得"
 ap_sfdoll_4_desc:0 "我们唯有前进."
 gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
 gf_sfdoll_ascension_perk_event.4_desc:0 "我们要寻找更高层次的真理."
+
+#
+ap_sfdoll_planet:0 "铁血世界"
+ap_sfdoll_planet_desc:0 "唤醒我们的新世界."
+tech_build_sfdoll_city:0"铁血星球企划"
+tech_build_sfdoll_city_desc:0 "铁血星球融入了多种先进的理念和技术."
+gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_planet$"
+gf_sfdoll_ascension_perk_event.2_desc:0 "尖端科技的民用化,可以让我们的世界发生巨变."
+
+

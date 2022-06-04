@@ -93,7 +93,7 @@ sfdoll_destroyer = {
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	is_designable = yes
-	enable_default_design = yes
+	enable_default_design = yes	
 	components_add_to_cost = no
 	prerequisites = {	"tech_sfdoll_destroyer"	}
 

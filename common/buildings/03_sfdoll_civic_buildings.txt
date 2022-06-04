@@ -70,7 +70,7 @@ building_sfdoll_net = {
 			planet_amenities_add = 25
 			planet_building_build_speed_mult = 0.50
 			planet_decision_enact_speed_mult = 0.50
-			planet_jobs_produces_mult = 0.25
+			planet_jobs_produces_mult = 0.30
 		}
 	}
 	country_modifier = {

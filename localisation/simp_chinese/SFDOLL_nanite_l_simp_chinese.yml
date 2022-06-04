@@ -15,4 +15,4 @@ tech_trait_sfdoll_nanite:0 "纳米铁血机体"
 tech_trait_sfdoll_nanite_desc:0 "解锁物种特质:$trait_sfdoll_nanite$"
 
 trait_sfdoll_nanite:0 "纳米铁血"
-trait_sfdoll_nanite_desc:0 "这些铁血人形可以用纳米机器人来组成身体和心智系统.它们的人口可以像有机体一样自我复制和增长."
+trait_sfdoll_nanite_desc:0 "这些铁血人形可以用纳米机器人来组成身体和心智系统.它们的人口可以像有机体一样自我复制."

@@ -47,3 +47,19 @@ tech_sfdoll_sophon_computer = {
 	}
 }
 
+#五级奇点
+tech_sfdoll_singularity = {
+	area = physics
+	tier = 5
+	cost = @tier5cost3
+	is_rare = yes
+	is_dangerous = yes
+	category = { field_manipulation }
+	icon = tech_sfdoll_singularity
+	weight = 1500
+	prerequisites = {	tech_sfdoll_dark_matter_plant	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.5
+	}
+}

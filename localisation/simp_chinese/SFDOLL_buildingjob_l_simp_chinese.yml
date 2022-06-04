@@ -49,7 +49,7 @@ job_sfdoll_researcher_2:0"铁血二级科研员"
 job_sfdoll_researcher_2_plural:0"$job_sfdoll_researcher_2$"
 job_sfdoll_researcher_2_desc:0"$job_sfdoll_researcher_2$"
 job_sfdoll_researcher_2_effect_desc:0 "$job_sfdoll_researcher_2$ 消耗 §Y$consumer_goods$§! ,产出 §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
-mod_jjob_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ 岗位"
+mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ 岗位"
 
 
 tech_sfdoll_collapse_alloys_produce:0"坍塌技术合金制造工艺"
@@ -110,7 +110,7 @@ job_sfdoll_energy_maker_effect_desc:0 "奇点技师消耗§Y$sr_dark_matter$§!,
 mod_job_sfdoll_energy_maker_add:0"$job_sfdoll_energy_maker$岗位"
 
 
-tech_building_sfdoll_mineral:0 "质量生成"
+tech_building_sfdoll_mineral:0 "质量生成工程"
 tech_building_sfdoll_mineral_desc:0 "只要有足够的能量,我们能制造任何所需的物质"
 building_sfdoll_mineral:0"物质合成厂"
 building_sfdoll_mineral_desc:0"$building_sfdoll_mineral$"

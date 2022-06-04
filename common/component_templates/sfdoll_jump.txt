@@ -7,16 +7,16 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			GF_nyto_collapse_liquid = 2
-			alloys = 15
+			GF_nyto_collapse_liquid = 15
+			alloys = 30
 		}
 	}
 	ftl = yes
 	jumpdrive = yes
 	ship_modifier = {
 		ship_windup_mult = -1.0
-		ship_jumpdrive_cooldown_mult = -0.90
-		ship_ftl_jumpdrive_range_mult = 5
+		ship_jumpdrive_cooldown_mult = -1
+		ship_ftl_jumpdrive_range_mult = 7
 		ship_emergency_ftl_min_days_mult = -1.0
 		ship_emergency_ftl_mult = -1
 	}

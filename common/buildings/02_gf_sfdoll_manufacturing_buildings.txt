@@ -191,7 +191,6 @@ building_sfdoll_alloys_2 = {
 			job_sfdoll_alloys_producer_2_add = 2
 		}
 	}
-	triggered_desc = {		text = job_sfdoll_collapse_alloys_maker_effect_desc	}
 	resources = {
 		category = planet_buildings
 		cost = {
@@ -312,7 +311,7 @@ building_sfdoll_nanites_plant = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = {	job_sfdoll_nanites_maker_add = 6	} }
+		modifier = {	job_sfdoll_nanites_maker_add = 2	} }
 
 	resources = {
 		category = planet_buildings

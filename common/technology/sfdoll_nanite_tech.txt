@@ -16,7 +16,7 @@ tech_trait_sfdoll_nanite = {
 	tier = 4
 	area = society
 	category = { biology }
-	icon = tech_sfdoll_nanites
+	icon = tech_trait_sfdoll_nanite
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	"tech_sfdoll_nanites"	}
 	weight = 1400
@@ -26,26 +26,27 @@ tech_trait_sfdoll_nanite = {
 tech_sfdoll_corvette = {
 	cost = @tier5cost1
 	tier = 5
-	area = society
-	category = { military_theory }
-	icon = tech_ship_sfdoll_carrier
+	area = engineering
+	category = { voidcraft }
+	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {	"tech_sfdoll_nanites"	}
+	prerequisites = {
+		tech_sfdoll_ship_power_2
+		tech_sfdoll_ship_computer
+		tech_sfdoll_thruster
+		tech_battleships
+	}
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_aux_sfdoll_collapse_power
-		has_technology = tech_sfdoll_ship_computer
-		has_technology = tech_sfdoll_thruster
-		has_technology = tech_battleships
 	}
-	weight = 1400
+	weight = 1500
 }
 tech_sfdoll_destroyer = {
 	cost = @tier5cost1
 	tier = 5
-	area = society
-	category = { military_theory }
-	icon = tech_ship_sfdoll_carrier
+	area = engineering
+	category = { voidcraft }
+	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_corvette	}
 	weight = 1400
@@ -53,9 +54,9 @@ tech_sfdoll_destroyer = {
 tech_sfdoll_cruiser = {
 	cost = @tier5cost1
 	tier = 5
-	area = society
-	category = { military_theory }
-	icon = tech_ship_sfdoll_carrier
+	area = engineering
+	category = { voidcraft }
+	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_destroyer	}
 	weight = 1400
@@ -63,9 +64,9 @@ tech_sfdoll_cruiser = {
 tech_sfdoll_battleship = {
 	cost = @tier5cost1
 	tier = 5
-	area = society
-	category = { military_theory }
-	icon = tech_ship_sfdoll_carrier
+	area = engineering
+	category = { voidcraft }
+	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_cruiser	}
 	weight = 1400
@@ -73,9 +74,9 @@ tech_sfdoll_battleship = {
 tech_sfdoll_titan = {
 	cost = @tier5cost1
 	tier = 5
-	area = society
-	category = { military_theory }
-	icon = tech_ship_sfdoll_carrier
+	area = engineering
+	category = { voidcraft }
+	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_sfdoll_battleship	}
 	weight = 1400
@@ -87,7 +88,7 @@ tech_gfsfdoll_command_ship = {
 	area = engineering
 	start_tech = no
 	is_rare = yes
-	icon = tech_sfdoll_tactical_destroyer
+	icon = tech_sfdoll_titan
 	category = { voidcraft }
 	prerequisites = {	tech_sfdoll_titan	}
 	potential = {

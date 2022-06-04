@@ -70,7 +70,7 @@ district_rw_science_sfdoll = {
 			owner = { has_authority = auth_gf_sfdoll }
 		}
 		modifier = {
-			job_sfdoll_researcher_add = 15
+			job_sfdoll_researcher_2_add = 15
 		}
 	}
 }
@@ -110,8 +110,8 @@ district_rw_industrial_sfdoll = {
 			}
 		}
 		modifier = {
-			job_sfdoll_collapse_alloys_maker_add = 13
-			job_sfdoll_nanites_goods_maker_add = 2
+			job_sfdoll_alloys_producer_2_add = 13
+			job_sfdoll_goods_producer_2_add = 2
 		}
 	}
 	ai_resource_production = {
@@ -214,9 +214,8 @@ district_rw_generator_sfdoll = {
 		}
 		modifier = {
 			planet_housing_add = 15
-			job_sfdoll_energy_maker_add = 6
-			job_sfdoll_mineral_maker_add = 6
-			job_sfdoll_collapse_liquid_maker_add = 3
+			job_sfdoll_energy_maker_add = 8
+			job_sfdoll_mineral_maker_add = 7
 		}
 	}
 	ai_resource_production = {
@@ -388,7 +387,7 @@ district_sfdoll_rare = {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_sfdoll_collapse_liquid_maker_add = 5
+			job_sfdoll_collapse_liquid_maker_add = 6
 			job_sfdoll_nanites_maker_add = 2
 			job_sfdoll_dark_matter_maker_add = 2
 		}
@@ -454,8 +453,8 @@ district_sfdoll_alloys = {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_sfdoll_collapse_alloys_maker_add = 8
-			job_sfdoll_nanites_goods_maker_add = 1
+			job_sfdoll_alloys_producer_2_add = 9
+			job_sfdoll_goods_producer_2_add = 1
 		}
 	}
 
@@ -509,7 +508,7 @@ district_sfdoll_science = {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_sfdoll_researcher_add = 8
+			job_sfdoll_researcher_2_add = 10
 		}
 	}
 
@@ -632,9 +631,8 @@ district_generator_sfdoll_city  = {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_sfdoll_energy_maker_add = 4
-			job_sfdoll_mineral_maker_add = 4
-			job_sfdoll_collapse_liquid_maker_add = 2
+			job_sfdoll_energy_maker_add = 5
+			job_sfdoll_mineral_maker_add = 5
 		}
 	}
 

@@ -20,8 +20,7 @@ ap_sfdoll_digi_mind_update ={
 	}
 
 	modifier = {
-		SFDOLL_species_trait_points_add = 10
-		modify_species_cost_mult = -0.5
+		all_technology_research_speed= 0.5
 	}
 	ai_weight = {	factor = 1	}
 }
@@ -57,8 +56,39 @@ ap_sfdoll_reverse_collapse ={
 		}
 	}
 	modifier = {
-		all_technology_research_speed= 0.5
+		SFDOLL_species_trait_points_add = 8
+		modify_species_cost_mult = -0.5
 		country_resource_max_add = 20000
+	}
+	ai_weight = {	factor = 1	}
+}
+
+ap_sfdoll_4 = {
+	potential = {
+		has_authority = auth_gf_sfdoll
+		NOT = {
+			has_ascension_perk = ap_sfdoll_4
+		}
+	}
+	possible = {
+		has_technology = tech_sfdoll_jump_drive
+		has_technology = tech_sfdoll_dark_matter_plant
+		has_technology = tech_sfdoll_singularity
+		has_ascension_perk= ap_sfdoll_reverse_collapse
+	}
+	on_enabled = {
+		add_research_option =tech_sfdoll_energy_plant
+		hidden_effect = {
+			country_event = {
+				id = gf_sfdoll_ascension_perk_event.4
+			}
+		}
+	}
+	modifier = {
+		megastructure_build_speed_mult = 0.5
+		country_megastructure_build_cap_add = 2
+		starbase_shipyard_build_speed_mult = 0.5
+		country_resource_max_add = 40000
 	}
 	ai_weight = {	factor = 1	}
 }
@@ -83,30 +113,6 @@ ap_sfdoll_planet= {
 	on_enabled = {
 		add_research_option = tech_build_sfdoll_city
 		add_research_option = tech_sfdoll_habitat_01
-	}
-	ai_weight = {	factor = 1	}
-}
-
-ap_sfdoll_4 = {
-	potential = {
-		has_authority = auth_gf_sfdoll
-		NOT = {
-			has_ascension_perk = ap_sfdoll_4
-		}
-	}
-	possible = {
-		has_technology = tech_sfdoll_energy_plant
-		has_technology = tech_sfdoll_jump_drive
-		has_ascension_perk= ap_sfdoll_reverse_collapse
-	}
-	on_enabled = {
-		add_research_option = tech_building_sfdoll_mineral
-	}
-	modifier = {
-		megastructure_build_speed_mult = 0.5
-		country_megastructure_build_cap_add = 2
-		starbase_shipyard_build_speed_mult = 0.5
-		country_resource_max_add = 40000
 	}
 	ai_weight = {	factor = 1	}
 }

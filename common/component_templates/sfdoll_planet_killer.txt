@@ -38,10 +38,8 @@ weapon_component_template = {
     total_fire_time = 3
     accuracy = 1
     range = 20
-
+	prerequisites = {	tech_sfdoll_star_exploit	}
 	size_restriction = { ship_sfdoll_noel ship_sfdoll_carrier   }
 	component_set = "planet_killer_sfdoll_1"
-
 	planet_destruction_gfx = "star_destroyer_effect_gfx"
-	
 }

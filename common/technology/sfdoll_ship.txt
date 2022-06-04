@@ -223,7 +223,7 @@ tech_aux_sfdoll_collapse_power= {
 	is_reverse_engineerable = no
 	prerequisites = {	tech_sfdoll_collapse_liquid_produce }
 	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = @tier5weight2
+	weight = 1500
 }
 
 #二级能源
