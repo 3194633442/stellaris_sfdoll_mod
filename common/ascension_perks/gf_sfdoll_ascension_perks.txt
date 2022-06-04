@@ -11,7 +11,6 @@ ap_sfdoll_digi_mind_update ={
 	}
 	on_enabled = {
 		add_research_option = tech_sfdoll_reverse_collapse_1
-		add_research_option = tech_sfdoll_planet_computer
 		add_research_option = tech_sfdoll_social_reform
 		hidden_effect = {
 			country_event = {

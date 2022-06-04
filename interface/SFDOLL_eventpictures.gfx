@@ -17,7 +17,7 @@ spriteTypes = {
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_evp_sfdoll_news_room"
-		texturefile = "gfx/event_pictures/evp_sfdoll_news_room.dds"
+		texturefile = "gfx/event_pictures/news_room.dds"
 		alwaystransparent = yes
 	}
 }
@@ -169,7 +169,7 @@ spriteTypes = {
 spriteTypes = {	
 	spriteType = {
 		name = GFX_evp_sfdoll_city
-		texturefile = "gfx/event_pictures/evp_sfdoll_city.dds"
+		texturefile = "gfx/event_pictures/city_planet.dds"
 		alwaystransparent = yes
 	}
 }
@@ -194,6 +194,14 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_evp_sfdoll_elisa
 		texturefile = "gfx/event_pictures/evp_sfdoll_elisa.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = GFX_evp_sfdoll_vortex
+		texturefile = "gfx/event_pictures/evp_sfdoll_vortex.dds"
 		alwaystransparent = yes
 	}
 }

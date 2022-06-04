@@ -102,6 +102,7 @@ tech_sfdoll_goods_2= {
 	weight = @tier5weight1
 	potential = {
 		has_authority = auth_gf_sfdoll
+		has_technology= tech_sfdoll_nanites_goods
 	}
 }
 

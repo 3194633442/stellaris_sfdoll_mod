@@ -93,9 +93,6 @@ decision_planet_to_sfdoll_city = {
 				days = 30
 				target = THIS
 			}
-			# planet_event = {
-			# 	id = gf_sfdoll_ascension_perk_event.2
-			# }
 		}		
 	}
 }
@@ -134,9 +131,6 @@ decision_planet_to_sfdoll_rw = {
 				days = 30
 				target = THIS
 			}
-			# planet_event = {
-			# 	id = gf_sfdoll_ascension_perk_event.3
-			# }
 		}		
 	}
 }

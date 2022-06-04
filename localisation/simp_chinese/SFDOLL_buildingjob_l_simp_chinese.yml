@@ -95,21 +95,21 @@ job_sfdoll_goods_producer_2_effect_desc:0 "生产消费品"
 mod_job_sfdoll_goods_producer_2_add:0 "$job_sfdoll_goods_producer_2$岗位"
 
 
-building_sfdoll_energy_plant:0"SF奇点发电厂"
-building_sfdoll_energy_plant_desc:0"使用奇点能源生产能量"
+building_sfdoll_energy_plant:0"铁血奇点发电厂"
+building_sfdoll_energy_plant_desc:0"$building_sfdoll_energy_plant$"
 job_sfdoll_energy_maker:0"奇点技师"
 job_sfdoll_energy_maker_plural:0"$job_sfdoll_energy_maker_maker$"
 job_sfdoll_energy_maker_desc:0"$job_sfdoll_energy_maker_maker$"
 job_sfdoll_energy_maker_effect_desc:0 "奇点技师消耗§Y$sr_dark_matter$§!,生产§Y$energy$§! "
-mod_job_sfdoll_energy_maker_add:0"奇点技师岗位"
+mod_job_sfdoll_energy_maker_add:0"$job_sfdoll_energy_maker$岗位"
 
-building_sfdoll_mineral:0"SF质量构建厂"
-building_sfdoll_mineral_desc:0"利用逆向坍塌技术，构建我们所需的物质资源"
+building_sfdoll_mineral:0"铁血质量构建厂"
+building_sfdoll_mineral_desc:0"利用逆向坍塌技术，生产我们所需的物质资源"
 job_sfdoll_mineral_maker:0"物质合成师"
 job_sfdoll_mineral_maker_plural:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_effect_desc:0 "物质合成师消耗§Y$energy$§!,生产 §Y$minerals$§! "
-mod_job_sfdoll_mineral_maker_add:0"物质合成师岗位"
+mod_job_sfdoll_mineral_maker_add:0"$job_sfdoll_mineral_maker$岗位"
 
 building_sfdoll_gases_plant:0 "铁血化学厂"
 building_sfdoll_gases_plant_desc:0 "坍塌科技让化学合成变得轻松。是时候和过去臃肿的化工设施说再见了。"
@@ -138,7 +138,7 @@ job_sfdoll_artist_effect_desc:0 "艺术工作者消耗§Y$consumer_goods$§!，�
 mod_job_sfdoll_artist_add:0 "艺术工作者岗位"
 
 building_sfdoll_net:0"OGAS服务网络"
-building_sfdoll_net_desc:0 "高速的网络覆盖了铁血的世界，能够提供各类信息服务，并辅助重大项目的分析决策。"
+building_sfdoll_net_desc:0 "超级计算机和高速网络覆盖了铁血的世界，能够提供各类信息服务，并辅助重大项目的分析决策"
 
 building_sfdoll_museum:0"铁血国家博物馆"
 building_sfdoll_museum_desc:0"这座博物馆汇集了各类文明遗产和资料，可为相关研究提供有力支持。门口摆放了莱柯，露尼西亚和指挥官等人的模型。"
@@ -158,15 +158,6 @@ building_sfdoll_assembly_plant_desc:0 "基于OGAS算法的AI科学，仿生学�
 
 building_sfdoll_assembly_2:0 "铁血先进组装厂"
 building_sfdoll_assembly_2_desc:0 "$building_sfdoll_assembly_plant_desc$"
-
-
-building_sfdoll_planet_computer:0 "铁血行星计算机"
-building_sfdoll_planet_computer_desc:0 "部署在星球各处的大型超级计算机组，可为科研和生产提供算力支援"
-
-tech_sfdoll_planet_computer:0 "铁血行星计算机"
-tech_sfdoll_planet_computer_desc:0 "不同于以往的超级计算机，行星级计算机组的制造与维护需要全新的工程学理念"
-
-
 
 
 # building_sfdoll_crystal_plant:0 "铁血水晶合成厂"

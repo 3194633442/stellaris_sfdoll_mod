@@ -63,9 +63,9 @@ country_event = {
 			}
 		}
 	}
-	# option = {
-	# 	name = "gf_sfdoll_ascension_perk_event_0_option"
-	# }
+	option = {
+		name = "gf_sfdoll_ascension_perk_event_0_option"
+	}
 }
 
 country_event = {
@@ -79,7 +79,7 @@ country_event = {
 	}
 }
 
-#铁血星球改造完成提示
+#铁血星球飞升提示
 planet_event = {
 	id = gf_sfdoll_ascension_perk_event.2
 	title = "gf_sfdoll_ascension_perk_event.2"
@@ -97,6 +97,17 @@ planet_event = {
 	is_triggered_only = yes
 	picture = GFX_evp_sfdoll_city
 	immediate = {
+	}
+}
+
+country_event = {
+	id = gf_sfdoll_ascension_perk_event.4
+	title = "gf_sfdoll_ascension_perk_event.4"
+	desc = "gf_sfdoll_ascension_perk_event.4_desc"
+	is_triggered_only = yes
+	picture = GFX_evp_sfdoll_vortex
+	trigger = {
+		has_authority = auth_gf_sfdoll
 	}
 }
 

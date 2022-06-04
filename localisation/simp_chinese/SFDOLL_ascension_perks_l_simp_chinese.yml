@@ -2,20 +2,30 @@
 ###############################
 # Lycoris
 ap_sfdoll_digi_mind_update:0"铁血计划:莱柯瑞斯"
-ap_sfdoll_digi_mind_update_desc:0"只有离开父母，孩子才会自由。"
-gf_sfdoll_ascension_perk_event.1:0 "OGAS智能"
+ap_sfdoll_digi_mind_update_desc:0"只有离开父母，孩子才会自由."
+gf_sfdoll_ascension_perk_event.1:0 "$ap_sfdoll_digi_mind_update$"
 gf_sfdoll_ascension_perk_event.1_desc:0 "你病得不轻！显然，你有了灵魂。"
+
 
 # Lunasia
 ap_sfdoll_reverse_collapse:0"铁血计划:露尼西亚"
-ap_sfdoll_reverse_collapse_desc:0 "归乡之路."
-gf_sfdoll_ascension_perk_event_0:0 "升级进化"
-gf_sfdoll_ascension_perk_event_0_desc:0 "新型的铁血机体将使用前所未有的设计。"
+ap_sfdoll_reverse_collapse_desc:0 "踏上归乡之路."
+gf_sfdoll_ascension_perk_event_0:0 "$ap_sfdoll_reverse_collapse$"
+gf_sfdoll_ascension_perk_event_0_desc:0 "新型的铁血机体正在开发"
+gf_sfdoll_ascension_perk_event_0_option:0 "这是我们进化的新阶段"
 
-ap_sfdoll_planet:0 "铁血星球企划"
-ap_sfdoll_planet_desc:0 "建造我们的新世界。"
-tech_build_sfdoll_city:0"建立铁血星球"
-tech_build_sfdoll_city_desc:0 "新型的城市星球融入了大量先进技术。"
 
+#
+ap_sfdoll_planet:0 "铁血新世界工程"
+ap_sfdoll_planet_desc:0 "建造我们的新世界."
+tech_build_sfdoll_city:0"铁血星球企划"
+tech_build_sfdoll_city_desc:0 "铁血星球融入了多种先进的理念和技术."
+gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_planet$"
+gf_sfdoll_ascension_perk_event.2_desc:0 "新型世界的建设方案正在准备中"
+
+
+#
 ap_sfdoll_4:0 "铁血计划:耶梦加得"
 ap_sfdoll_4_desc:0 "我们唯有前进."
+gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
+gf_sfdoll_ascension_perk_event.4_desc:0 "我们要寻找更高层次的真理."
