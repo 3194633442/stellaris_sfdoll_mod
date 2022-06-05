@@ -1,19 +1,19 @@
 namespace = sfdoll_planet_killer_event
 #id标准写法为namespace的值加上编号
-
+#对恒星炮
 planet_event = {
 	id = sfdoll_planet_killer_event.1
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {
 		#威慑值和得分
-		add_threat = { who = from.owner amount = 3 }
+		add_threat = { who = from.owner amount = 10 }
 		from = {
 			owner = {
 				#save_event_target_as = crisis_country
 				add_victory_score = {
 					source = destroyed_stars_score
-					score = 5
+					score = 10
 				}
 			}
 		}
@@ -41,9 +41,13 @@ planet_event = {
 				}
 			}
 			#变成黑洞
-			change_pc = pc_black_hole
-			clear_deposits = yes
-			reset_planet = yes
+			# change_pc = pc_black_hole
+			# clear_deposits = yes
+			# reset_planet = yes
+			solar_system = { save_event_target_as = destroyed_system }
+			solar_system = {
+				destroy_star_system = yes
+			}
 		}
 		else_if = {
 			#环世界
@@ -52,26 +56,12 @@ planet_event = {
 			}
 			change_pc = pc_shattered_ring_habitable
 			clear_deposits = yes
+			
 		}
 		else = {
 			change_pc = pc_shattered
 			clear_deposits = yes
 		}
-		
-		# else = {
-		# 	change_variable = {
-		# 		which = planet_size_sfdoll
-		# 		value = trigger:planet_size
-		# 	}
-		# 	divide_variable = {
-		# 		which = planet_size_sfdoll
-		# 		value = 4
-		# 	}
-		# 	change_pc = pc_black_hole
-		# 	clear_deposits = yes
-		# 	set_planet_size = planet_size_sfdoll
-		# 	clear_variable = planet_size_sfdoll
-		# }
 	}
 }
 
@@ -538,7 +528,7 @@ planet_event = {
 }
 
 
-#T槽：视界之剑，判断是否可以触发,from is planet
+#T槽对行星炮，判断是否可以触发,from is planet
 fleet_event = {
 	id = sfdoll_planet_killer_event.9
 	hide_window = yes
@@ -572,14 +562,9 @@ fleet_event = {
 			has_component = sfdoll_weapen_t_7
 		}
 		fromfrom = {
-			OR = {
-				is_a_planet = yes
-				is_ringworld = yes
-				is_star = yes
-				is_colony = yes
-			}
 			NOT = {
 				OR = {
+					is_star = yes
 					is_planet_class = pc_black_hole
 					is_planet_class = pc_shattered
 					is_planet_class = pc_shattered_2
@@ -613,25 +598,25 @@ fleet_event = {
 					destroy_colony = yes
 				}
 				#炸的是恒星
+				# if = {
+				# 	limit =  { is_star = yes }
+				# 	root = {
+				# 		owner = {
+				# 			#初次炸恒星
+				# 			if = {
+				# 				limit = {
+				# 					NOT = { has_country_flag = cracked_first_star }
+				# 				}
+				# 				set_country_flag = cracked_first_star
+				# 			}
+				# 		}
+				# 	}
+				# 	#变成黑洞
+				# 	change_pc = pc_black_hole
+				# 	clear_deposits = yes
+				# 	reset_planet = yes
+				# }
 				if = {
-					limit =  { is_star = yes }
-					root = {
-						owner = {
-							#初次炸恒星
-							if = {
-								limit = {
-									NOT = { has_country_flag = cracked_first_star }
-								}
-								set_country_flag = cracked_first_star
-							}
-						}
-					}
-					#变成黑洞
-					change_pc = pc_black_hole
-					clear_deposits = yes
-					reset_planet = yes
-				}
-				else_if = {
 					#环世界
 					limit  = {
 						is_ringworld = yes
@@ -643,6 +628,12 @@ fleet_event = {
 					change_pc = pc_shattered
 					clear_deposits = yes
 				}
+			}
+			create_message = {
+				type = PLANET_DESTROYED
+				localization = message_planet_destroyed_sfdoll
+				days = 30
+				target = fromfrom
 			}
 		}
 	}

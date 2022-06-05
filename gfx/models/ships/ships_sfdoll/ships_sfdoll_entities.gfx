@@ -4,6 +4,14 @@ objectTypes = {
 		file = "gfx/models/ships/ships_sfdoll/sfdoll_carrier01_mesh.mesh"
 	}
 	# pdxmesh = {
+	# 	name = "sfdoll_nanite_carrier_mesh"
+	# 	file = "gfx/models/ships/ships_sfdoll/sfdoll_nanite_carrier_mesh.mesh"
+	# }
+	pdxmesh = {
+		name = "sfdoll_star_ship_mesh"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_star_ship_mesh.mesh"
+	}
+	# pdxmesh = {
 	# 	name = "sfdoll_homeless_ship_mesh"
 	# 	file = "gfx/models/ships/ships_sfdoll/sfdoll_homeless_ship_mesh.mesh"
 	# }

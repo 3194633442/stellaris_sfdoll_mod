@@ -233,6 +233,8 @@ on_fleet_enter_orbit = {
 	}
 }
 
+# this/root = planet that have been fired upon
+# from = fleet that fired
 #炸球
 on_destroy_planet_with_planet_killer_sfdoll_1 = {
 	events = {
