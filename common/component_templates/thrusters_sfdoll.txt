@@ -95,7 +95,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_corvette corvette colonizer sponsored_colonizer constructor science transport }
+	size_restriction = { sfdoll_warship_1 sfdoll_warship_2  corvette colonizer sponsored_colonizer constructor science transport }
 	
 	ai_weight = {
 		weight = 5
@@ -125,7 +125,7 @@ utility_component_template = {
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_destroyer destroyer }
+	size_restriction = { sfdoll_warship_3 sfdoll_warship_4  destroyer }
 
 	ai_weight = {
 		weight = 5
@@ -155,7 +155,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_cruiser cruiser }
+	size_restriction = {  cruiser }
 
 	ai_weight = {
 		weight = 5
@@ -186,7 +186,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_battleship sfdoll_titan   battleship  }
+	size_restriction = {   battleship  }
 	ai_weight = {
 		weight = 5
 		modifier = {
@@ -216,7 +216,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = {  ship_air_defense_sfdoll ship_support_sfdoll  titan }
+	size_restriction = {   ship_support_sfdoll  titan }
 
 	ai_weight = {
 		weight = 5
@@ -252,27 +252,6 @@ utility_component_template = {
 		modifier = {
 			factor = -4
 			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
-	}
-}
-
-#铁血指挥舰推进器
-utility_component_template = {
-	key = "sfdoll_thruster_7"
-	size = small
-	icon = "GFX_sfdoll_thruster"
-	icon_frame = 1
-	modifier = {
-		ship_speed_mult = 9
-		ship_evasion_add = 20
-	}
-	prerequisites = { "tech_sfdoll_thruster" }
-	component_set = "thruster_components"
-	size_restriction = {  gfsfdoll_command_ship  }
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 200
 		}
 	}
 }

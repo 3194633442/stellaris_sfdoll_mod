@@ -1,8 +1,8 @@
 objectTypes = {
-	pdxmesh = {
-		name = "sfdoll_carrier01_mesh"
-		file = "gfx/models/ships/ships_sfdoll/sfdoll_carrier01_mesh.mesh"
-	}
+	# pdxmesh = {
+	# 	name = "sfdoll_carrier01_mesh"
+	# 	file = "gfx/models/ships/ships_sfdoll/sfdoll_carrier01_mesh.mesh"
+	# }
 	# pdxmesh = {
 	# 	name = "sfdoll_nanite_carrier_mesh"
 	# 	file = "gfx/models/ships/ships_sfdoll/sfdoll_nanite_carrier_mesh.mesh"

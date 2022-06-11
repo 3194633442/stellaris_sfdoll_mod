@@ -141,31 +141,31 @@ special_project = {
 }
 
 #将母舰带到常规宇宙
-special_project = {
-	key = "SFDOLL_CREATE_MOTHER_SHIP_PROJECT"
-	event_chain = sfdoll_search_zion_chain
-	#待修改
-	cost = 40000
-	# days_to_research = 1
-	tech_department = physics_technology
+# special_project = {
+# 	key = "SFDOLL_CREATE_MOTHER_SHIP_PROJECT"
+# 	event_chain = sfdoll_search_zion_chain
+# 	#待修改
+# 	cost = 40000
+# 	# days_to_research = 1
+# 	tech_department = physics_technology
 
-	#待修改
-	picture = GFX_evp_sfdoll_unknown_civilization_4
-	event_scope = planet_event
-	requirements = {
-		leader = scientist
-		#skill = 3
-	}
-	on_success = {
-		owner = {
-			#涅托Mod的effect
-			creat_nyto_ship = yes
-			country_event = {
-				id = sfdoll_to_zion_event.8
-			}
-		}
-	}
-}
+# 	#待修改
+# 	picture = GFX_evp_sfdoll_unknown_civilization_4
+# 	event_scope = planet_event
+# 	requirements = {
+# 		leader = scientist
+# 		#skill = 3
+# 	}
+# 	on_success = {
+# 		owner = {
+# 			#涅托Mod的effect
+# 			creat_nyto_ship = yes
+# 			country_event = {
+# 				id = sfdoll_to_zion_event.8
+# 			}
+# 		}
+# 	}
+# }
 
 #义体少女
 special_project = {

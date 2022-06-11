@@ -4,10 +4,10 @@ entity = {
 	name = "sfdoll_star_ship_entity"
 	pdxmesh = "sfdoll_star_ship_mesh"
 }
-# entity = {
-# 	name = "sfdoll_nanite_carrier_entity"
-# 	pdxmesh = "sfdoll_nanite_carrier_mesh"
-# }
+entity = {
+	name = "sfdoll_nanite_carrier_entity"
+	pdxmesh = "sfdoll_star_ship_mesh"
+}
 
 entity = {
 	name = "GF_sfdoll_titan_mid_entity"

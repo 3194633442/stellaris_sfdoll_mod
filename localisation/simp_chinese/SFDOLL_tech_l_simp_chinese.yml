@@ -35,30 +35,6 @@ tech_sf_doll_modding_2_desc:0"解锁新的物种§H特质§!"
 
 #ship
 #component
-tech_sfdoll_weapon_s_3:0"铁血蛇式火力系统"
-tech_sfdoll_weapon_s_3_desc:0"我们需要更加灵活可靠的太空武器"
-
-tech_sfdoll_weapon_p_6:0"铁血破坏者点防御"
-tech_sfdoll_weapon_p_6_desc:0"防御性舰载武器"
-
-tech_sfdoll_weapon_x_1:0"铁血建筑师级主炮"
-tech_sfdoll_weapon_x_1_desc:0"铁血的标准主炮"
-
-
-tech_sfdoll_weapen_t_2:0"铁血计量官级重炮"
-tech_sfdoll_weapen_t_2_desc:0"装备于大型战舰"
-
-
-tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
-tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
-
-
-tech_sfdoll_thruster:0"$sfdoll_thruster$"
-tech_sfdoll_thruster_desc:0"这些推进系统可以随心所欲地操纵飞船的运动。它们的运作似乎违反了过去的物理常识。"
-
-tech_sfdoll_ship_computer:0"铁血战舰AI"
-tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
-
 
 #sfdoll_reverse_collapse
 tech_sfdoll_reverse_collapse_1:0"逆向坍塌Ⅰ"

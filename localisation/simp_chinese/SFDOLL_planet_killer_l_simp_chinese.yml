@@ -12,7 +12,7 @@ message_system_destroyed_sfdoll:0 "一个星系被摧毁了"
 message_planet_destroyed_sfdoll:0 "一个星球被摧毁了"
 
 planet_killer_sfdoll_1:0 "对恒星炮"
-planet_killer_sfdoll_1_DESC:0 "该设备会引发恒星的爆发,进而摧毁星系.它也可以轻易摧毁行星.."
+planet_killer_sfdoll_1_DESC:0 "该设备可以引发恒星爆发,并摧毁整个星系.同时,它也可以攻击行星,行星摧毁时不会波及周围的天体."
 planet_killer_sfdoll_1_ACTION:0 "$planet_killer_sfdoll_1$"
 
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"

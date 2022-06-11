@@ -18,20 +18,20 @@ component_set = {
 }
 
 component_set = {
-	key = "component_set_sfdoll_weapon_s_3"
-	icon = GFX_sfdoll_weapon_s_3
+	key = "component_set_sfdoll_weapon_s_1"
+	icon = GFX_sfdoll_weapon_s_1
 	icon_frame = 1
 }
 
 component_set = {
-	key = "component_set_sfdoll_weapon_p_6"
-	icon = GFX_sfdoll_weapon_p_6
+	key = "component_set_sfdoll_weapon_p_1"
+	icon = GFX_sfdoll_weapon_p_1
 	icon_frame = 1
 }
 
 component_set = {
-	key = "component_set_sfdoll_weapen_t_2"
-	icon = GFX_sfdoll_weapen_t_2
+	key = "component_set_sfdoll_weapen_t_1"
+	icon = GFX_sfdoll_weapen_t_1
 	icon_frame = 1
 }
 
@@ -43,20 +43,20 @@ component_set = {
 }
 
 component_set = {
-	key = "component_set_sfdoll_weapon_x_8"
-	icon = "GFX_sfdoll_weapon_x_8"
+	key = "component_set_sfdoll_weapon_x_2"
+	icon = "GFX_sfdoll_weapon_x_2"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "component_set_sfdoll_weapon_L_9"
-	icon = "GFX_sfdoll_weapon_L_9"
+	key = component_set_sfdoll_weapon_L_2
+	icon = "GFX_sfdoll_weapon_L_2"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "component_set_sfdoll_weapon_p_12"
-	icon = "GFX_sfdoll_weapon_p_12"
+	key = "component_set_sfdoll_weapon_p_2"
+	icon = "GFX_sfdoll_weapon_p_2"
 	icon_frame = 1
 }
 

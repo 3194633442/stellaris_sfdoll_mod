@@ -118,7 +118,7 @@ utility_component_template = {
 	}
 	prerequisites = { tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { sfdoll_corvette corvette colonizer sponsored_colonizer constructor science transport  }
+	size_restriction = { corvette colonizer sponsored_colonizer constructor science transport  }
 	ai_weight = {	weight = 20	}
 }
 #驱逐舰
@@ -142,7 +142,7 @@ utility_component_template = {
 	
 	prerequisites = {  tech_aux_sfdoll_collapse_power  }
 	component_set = "power_core"
-	size_restriction = { sfdoll_destroyer destroyer }
+	size_restriction = { destroyer }
 	ai_weight = {	weight = 20	}
 }
 #巡洋舰
@@ -166,7 +166,7 @@ utility_component_template = {
 	
 	prerequisites = {  tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { sfdoll_cruiser cruiser }
+	size_restriction = {  cruiser }
 	ai_weight = {	weight = 20	}
 }
 #战列舰
@@ -190,7 +190,7 @@ utility_component_template = {
 	
 	prerequisites = { tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { sfdoll_battleship ship_support_sfdoll battleship }	
+	size_restriction = {  ship_support_sfdoll battleship }	
 	ai_weight = {	weight = 20	}
 }
 
@@ -215,7 +215,7 @@ utility_component_template = {
 	
 	prerequisites = {  tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { ship_air_defense_sfdoll titan battleship }
+	size_restriction = {  titan battleship }
 	ai_weight = {	weight = 20	}
 }
 
@@ -228,7 +228,7 @@ utility_component_template = {
 	power = 80000
 	prerequisites = { tech_aux_sfdoll_collapse_power  }
 	component_set = "power_core"
-	size_restriction = { sfdoll_titan     colossus }
+	size_restriction = {  colossus }
 	resources = {
 		category = ship_components
 		cost = {
@@ -243,16 +243,17 @@ utility_component_template = {
 	ai_weight = {	weight = 20	}
 }
 
-#纳米泰坦
+
+#T2推进器
 utility_component_template = {
 	key = "sfdoll_REACTOR_2_1"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
-	power = 1200000
+	power = 1500000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_titan }
+	size_restriction = {  sfdoll_warship_3 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -266,17 +267,15 @@ utility_component_template = {
 	}
 	ai_weight = {	weight = 20	}
 }
-
-#纳米战列
 utility_component_template = {
 	key = "sfdoll_REACTOR_2_2"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
-	power = 540000
+	power = 600000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_battleship }
+	size_restriction = {  sfdoll_warship_2 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -290,16 +289,15 @@ utility_component_template = {
 	}
 	ai_weight = {	weight = 20	}
 }
-#纳米巡洋
 utility_component_template = {
 	key = "sfdoll_REACTOR_2_3"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
-	power = 270000
+	power = 260000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_cruiser }
+	size_restriction = {  sfdoll_warship_1 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -313,62 +311,15 @@ utility_component_template = {
 	}
 	ai_weight = {	weight = 20	}
 }
-#纳米驱逐
-utility_component_template = {
-	key = "sfdoll_REACTOR_2_4"
-	size = small
-	icon = "GFX_ship_part_sfdoll_ship_power_2"
-	icon_frame = 1
-	power = 130000
-	prerequisites = { tech_sfdoll_ship_power_2  }
-	component_set = "power_core"
-	size_restriction = {  sfdoll_destroyer }
-	resources = {
-		category = ship_components
-		cost = {
-			GF_nyto_collapse_liquid = 4
-			sr_dark_matter = 32
-		}
-		upkeep = {
-			energy = 0.3
-			alloys = 0.2
-		}
-	}
-	ai_weight = {	weight = 20	}
-}
-#纳米护卫
-utility_component_template = {
-	key = "sfdoll_REACTOR_2_5"
-	size = small
-	icon = "GFX_ship_part_sfdoll_ship_power_2"
-	icon_frame = 1
-	power = 50000
-	prerequisites = { tech_sfdoll_ship_power_2  }
-	component_set = "power_core"
-	size_restriction = {  sfdoll_corvette }
-	resources = {
-		category = ship_components
-		cost = {
-			GF_nyto_collapse_liquid = 2
-			sr_dark_matter = 11
-		}
-		upkeep = {
-			energy = 0.1
-			alloys = 0.1
-		}
-	}
-	ai_weight = {	weight = 20	}
-}
-#指挥舰反应堆
 utility_component_template = {
 	key = "sfdoll_REACTOR_2_6"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
-	power = 1800000
+	power = 3600000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  gfsfdoll_command_ship }
+	size_restriction = {  sfdoll_warship_4 }
 	resources = {
 		category = ship_components
 		cost = {

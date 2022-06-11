@@ -35,22 +35,22 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapon_s_3"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_s_3.dds"
+		name = "GFX_sfdoll_weapon_s_1"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_s_1.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapon_p_6"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_p_6.dds"
+		name = "GFX_sfdoll_weapon_p_1"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_p_1.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapen_t_2"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapen_t_2.dds"
+		name = "GFX_sfdoll_weapen_t_1"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapen_t_1.dds"
 	}
 }
 
@@ -163,22 +163,22 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapon_x_8"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_x_8.dds"
+		name = "GFX_sfdoll_weapon_x_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_x_2.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapon_L_9"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_L_9.dds"
+		name = "GFX_sfdoll_weapon_L_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_L_2.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapon_p_12"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_p_12.dds"
+		name = "GFX_sfdoll_weapon_p_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_p_2.dds"
 	}
 }
 

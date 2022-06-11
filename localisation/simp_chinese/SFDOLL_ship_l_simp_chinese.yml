@@ -1,24 +1,35 @@
 ﻿l_simp_chinese:
 ###############################
-
 #componet
+tech_sfdoll_weapon_x_1:0"建筑师级主炮"
+tech_sfdoll_weapon_x_1_desc:0"铁血的标准主炮"
 sfdoll_weapon_x_1:0"建筑师级舰炮"
 component_set_sfdoll_weapon_x_1:0"建筑师级主炮"
 component_set_sfdoll_weapon_x_1_DESC:0"这种大型主炮能穿透一般的防护装备"
 
-sfdoll_weapen_t_2:0"计量官级舰炮"
-component_set_sfdoll_weapen_t_2:0"计量官级主炮"
-component_set_sfdoll_weapen_t_2_DESC:0"这种超大型舰炮可将毁灭性的能量集中于一点"
 
-sfdoll_weapon_s_3:0"蛇式火力系统"
-sfdoll_weapon_m_4:0"蛇式火力系统"
-sfdoll_weapon_L_5:0"蛇式火力系统"
-component_set_sfdoll_weapon_s_3:0"蛇式火力系统"
-component_set_sfdoll_weapon_s_3_DESC:0"这种太空火力系统是铁血战舰的主力武装之一，能够灵活应对多种战况"
+tech_sfdoll_weapen_t_1:0"计量官级重炮"
+tech_sfdoll_weapen_t_1_desc:0"装备于大型战舰"
+sfdoll_weapen_t_1:0"计量官级舰炮"
+component_set_sfdoll_weapen_t_1:0"计量官级重炮"
+component_set_sfdoll_weapen_t_1_DESC:0"这种超大型舰炮可将毁灭性的能量集中于一点"
 
-sfdoll_weapon_p_6:0"破坏者点防御"
-component_set_sfdoll_weapon_p_6:0"破坏者点防御"
-component_set_sfdoll_weapon_p_6_DESC:0"防御性舰载武器，能够对移动目标进行精确打击"
+
+tech_sfdoll_weapon_s_1:0"蛇式火力系统"
+tech_sfdoll_weapon_s_1_desc:0"我们需要更加灵活可靠的太空武器"
+sfdoll_weapon_s_1:0"蛇式火力系统"
+sfdoll_weapon_m_1:0 "$sfdoll_weapon_s_1$"
+sfdoll_weapon_L_1:0 "$sfdoll_weapon_s_1$"
+component_set_sfdoll_weapon_s_1:0 "$sfdoll_weapon_s_1$"
+component_set_sfdoll_weapon_s_1_DESC:0"这种太空火力系统是铁血战舰的主力武装之一，能够灵活应对多种战况"
+
+
+tech_sfdoll_weapon_p_1:0"破坏者点防御"
+tech_sfdoll_weapon_p_1_desc:0"防御性舰载武器"
+sfdoll_weapon_p_1:0"破坏者点防御"
+component_set_sfdoll_weapon_p_1:0"$sfdoll_weapon_p_1$"
+component_set_sfdoll_weapon_p_1_DESC:0"防御性舰载武器，能够对移动目标进行精确打击"
+
 
 gf_sfdoll_missile:0 "折跃坍塌弹"
 component_set_gf_sfdoll_missile:0 "$gf_sfdoll_missile$"
@@ -33,27 +44,28 @@ tech_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
 tech_sfdoll_strike_craft_desc:0 "$component_set_sfdoll_strike_craft_DESC$"
 
 
-sfdoll_weapon_x_8:0 "铁血毒牙舰炮"
-component_set_sfdoll_weapon_x_8:0 "$sfdoll_weapon_x_8$"
-component_set_sfdoll_weapon_x_8_DESC:0 "相比于过去的主力武器，这种轴基炮的威力有了质的提升"
-tech_sfdoll_weapon_x_8:0 "$sfdoll_weapon_x_8$"
-tech_sfdoll_weapon_x_8_desc:0 "$component_set_sfdoll_weapon_x_8_DESC$"
+sfdoll_weapon_x_2:0 "铁血毒牙舰炮"
+component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+component_set_sfdoll_weapon_x_2_DESC:0 "相比于过去的主力武器，这种轴基炮的威力有了质的提升"
+tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
 
 
-component_set_sfdoll_weapon_L_9:0 "铁血猎隼火力系统"
-component_set_sfdoll_weapon_L_9_DESC:0 "这些火炮兼具高威力和全方位攻击的能力"
-sfdoll_weapon_L_9:0 "$component_set_sfdoll_weapon_L_9$"
-sfdoll_weapon_m_10:0 "$component_set_sfdoll_weapon_L_9$"
-tech_sfdoll_weapon_L_9:0 "$component_set_sfdoll_weapon_L_9$"
-tech_sfdoll_weapon_L_9_desc:0 "$component_set_sfdoll_weapon_L_9_DESC$"
+component_set_sfdoll_weapon_L_2:0 "铁血猎隼火力系统"
+component_set_sfdoll_weapon_L_2_DESC:0 "这些火炮兼具高威力和全方位攻击的能力"
+sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
+sfdoll_weapon_m_2:0 "$component_set_sfdoll_weapon_L_2$"
+tech_sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
+tech_sfdoll_weapon_L_2_desc:0 "$component_set_sfdoll_weapon_L_2_DESC$"
 
 
-component_set_sfdoll_weapon_p_12:0 "铁血螳刀轻型机炮"
-component_set_sfdoll_weapon_p_12_DESC:0 "随着微型化技术的升级,这些小巧的武器可以发挥惊人的火力."
-sfdoll_weapon_p_12:0 "$component_set_sfdoll_weapon_p_12$"
-sfdoll_weapon_s_11:0 "$component_set_sfdoll_weapon_p_12$"
-tech_sfdoll_weapon_p_12:0 "$component_set_sfdoll_weapon_p_12$"
-tech_sfdoll_weapon_p_12_desc:0 "$component_set_sfdoll_weapon_p_12_DESC$"
+component_set_sfdoll_weapon_p_2:0 "铁血螳刀轻型机炮"
+component_set_sfdoll_weapon_p_2_DESC:0 "随着微型化技术的升级,这些小巧的武器可以发挥惊人的火力."
+sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
+sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
+tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
+tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
+
 
 tech_sfdoll_jump_drive:0"逆向坍塌:质量重建"
 tech_sfdoll_jump_drive_desc:0"质量重建理论的逐步完善,揭示了新一代FTL技术的发展方向.整个银河,将任我们畅游."
@@ -77,16 +89,19 @@ sfdoll_aux_ship_revive:0 "SF空间滤网"
 sfdoll_aux_ship_revive_DESC:0 "交战开始时启动，使舰船所受攻击无效化。效果持续10天，效果结束后进行20天的冷却，之后会再次启动。效果无法叠加。"
 
 
+tech_sfdoll_thruster:0"$sfdoll_thruster$"
+tech_sfdoll_thruster_desc:0"这些推进系统可以随心所欲地操纵飞船的运动。它们的运作似乎违反了过去的物理常识。"
 sfdoll_thruster:0"铁血先进机动系统"
 sfdoll_thruster_2:0"$sfdoll_thruster$"
 sfdoll_thruster_3:0 "$sfdoll_thruster$"
 sfdoll_thruster_4:0 "$sfdoll_thruster$"
 sfdoll_thruster_5:0 "$sfdoll_thruster$"
 sfdoll_thruster_6:0 "$sfdoll_thruster$"
-sfdoll_thruster_7:0 "$sfdoll_thruster$"
 
 
 #computer
+tech_sfdoll_ship_computer:0"铁血战舰AI"
+tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
 sfdoll_combat_computer_1:0"铁血战舰AI(手动)"
 sfdoll_combat_computer_2:0"铁血战舰AI(炮击)"
 sfdoll_combat_computer_3:0"铁血战舰AI(航母)"
@@ -110,6 +125,9 @@ component_set_sfdoll_ship_armor_L_DESC:0 "利用物质坍塌技术处理装甲�
 tech_sfdoll_ship_armor_L:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
+
+tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
+tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
 sfdoll_ship_sensors:0"铁血舰载传感器"
 
 
@@ -129,29 +147,16 @@ ION_CANNON_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 
 
-
 tech_sfdoll_ship_power_2:0 "二级坍塌反应堆"
 tech_sfdoll_ship_power_2_desc:0 "利用逆向坍塌现象形成的奇点为飞船供能.目前仅有少数舰种可装备."
 sfdoll_REACTOR_2_1:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_2:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_3:0 "$tech_sfdoll_ship_power_2$"
-sfdoll_REACTOR_2_4:0 "$tech_sfdoll_ship_power_2$"
-sfdoll_REACTOR_2_5:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
 
 
 sfdoll_ship_reactor_no:0 "空槽"
-
-
-tech_ship_air_defense_sfdoll:0 "铁血防空战列舰"
-tech_ship_air_defense_sfdoll_desc:0 "防空战列舰拥有比常规战列舰更强的武装，并能够搭载完备的防空系统"
-ship_air_defense_sfdoll:0 "铁血防空战列舰"
-ship_air_defense_sfdoll_plural:0 "$ship_air_defense_sfdoll$"
-section_air_defense_sfdoll_bow:0 "舰艏"
-section_air_defense_sfdoll_core:0 "核心"
-section_air_defense_sfdoll_stern:0 "核心"
-
 
 tech_ship_support_sfdoll:0 "力场支援舰"
 tech_ship_support_sfdoll_desc:0 "力场支援舰没有搭载传统武器。作为替代，她搭载了强大的物理干涉引擎，其作用范围足以覆盖整个星系，用于压制敌对单位并支援友军。"
@@ -163,61 +168,51 @@ component_aura_ship_support_sfdoll:0 "范围干涉引擎"
 hostile_aura_ship_support_sfdoll:0 "力场压制"
 
 
-sfdoll_corvette:0 "铁血护卫舰"
-sfdoll_destroyer:0 "铁血驱逐舰"
-sfdoll_cruiser:0 "铁血巡洋舰"
-sfdoll_battleship:0 "铁血战列舰"
-sfdoll_titan:0 "铁血泰坦"
+sfdoll_warship_1:0 "C-15轻型护卫舰"
+sfdoll_warship_2:0 "C-17重炮护卫舰"
+sfdoll_warship_3:0 "D-21驱逐舰"
+sfdoll_warship_4:0 "D-23重型驱逐舰"
 
-tech_sfdoll_corvette:0 "$sfdoll_corvette$"
-tech_sfdoll_corvette_desc:0 "利用微机械和物质坍塌技术,新型飞船系列的建造和维护成本大幅下降,并能够搭载更先进的装备"
+sfdoll_warship_1_plural:0 "$sfdoll_warship_1$"
+sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"
+sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
+sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
 
-tech_sfdoll_destroyer:0 "$sfdoll_destroyer$"
-tech_sfdoll_destroyer_desc:0 "$tech_sfdoll_corvette_desc$"
+tech_sfdoll_warship_1:0 "$sfdoll_warship_1$"
+tech_sfdoll_warship_1_desc:0 "$sfdoll_warship_1$ 是新世代战舰的实验型.暗物质工程和物质坍塌技术的应用,大幅降低了它的建造和维护成本."
 
-tech_sfdoll_cruiser:0 "$sfdoll_cruiser$"
-tech_sfdoll_cruiser_desc:0 "$tech_sfdoll_corvette_desc$"
+tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
+tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$ 具备更强的火力,同时保持了很好的机动力"
 
-tech_sfdoll_battleship:0 "$sfdoll_battleship$"
-tech_sfdoll_battleship_desc:0 "$tech_sfdoll_corvette_desc$"
+tech_sfdoll_warship_3:0 "$sfdoll_warship_3$"
+tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$ 拥有均衡的攻防能力"
 
-tech_sfdoll_titan:0 "$sfdoll_titan$"
-tech_sfdoll_titan_desc:0 "$tech_sfdoll_corvette_desc$"
+tech_sfdoll_warship_4:0 "$sfdoll_warship_4$"
+tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$ 搭载了多联装重火力"
 
-section_sfdoll_corvette_L1P2:0 "A"
-section_sfdoll_corvette_L1S2:0 "B"
+GF_sfdoll_warship_1_bow_X1:0 "A"
+sfdoll_warship_1_mid_L3:0 "B"
+sfdoll_warship_1_mid_L2S2P2:0 "C"
+sfdoll_warship_1_stern_L1:0 "D"
 
-sfdoll_destroyer_bow_L2:0 "A"
-sfdoll_destroyer_stern_P2:0 "B"
-sfdoll_destroyer_stern_S2:0 "C"
+GF_sfdoll_warship_2_bow_T1:0 "A"
+sfdoll_warship_2_bow_X2:0 "B"
+sfdoll_warship_2_mid_L6:0 "C"
+sfdoll_warship_2_mid_L4M2P4:0 "D"
+sfdoll_warship_2_stern_L2:0 "E"
 
-GF_sfdoll_cruiser_bow_X1:0 "A"
-sfdoll_cruiser_mid_L3:0 "B"
-sfdoll_cruiser_mid_L2S2P2:0 "C"
-sfdoll_cruiser_stern_L1:0 "D"
+sfdoll_warship_3_bow:0 "A"
+GF_nyto_01_sfdoll_warship_3_core:0 "B"
+sfdoll_warship_3_stern:0 "C"
 
-GF_sfdoll_battleship_bow_T1:0 "A"
-sfdoll_battleship_bow_X2:0 "B"
-sfdoll_battleship_mid_L6:0 "C"
-sfdoll_battleship_mid_L4M2P4:0 "D"
-sfdoll_battleship_stern_L2:0 "E"
-
-sfdoll_titan_bow_T2:0 "A"
-sfdoll_titan_bow_X4:0 "B"
-sfdoll_titan_mid_L6:0 "C"
-sfdoll_titan_stern_L6:0 "D"
+sfdoll_warship_4_bow:0 "A"
+sfdoll_warship_4_mid:0 "B"
+sfdoll_warship_4_mid2:0 "C"
+sfdoll_warship_4_stern:0 "D"
 
 need_sfdoll_mega_starport:0 "需要$sfdoll_mega_starport$或者$mega_shipyard_3$"
 
 #flag ship
-tech_gfsfdoll_command_ship:0 "铁血指挥舰"
-tech_gfsfdoll_command_ship_desc:0 "$tech_gfsfdoll_command_ship$"
-
-gfsfdoll_command_ship:0 "铁血指挥舰"
-gfsfdoll_command_ship_plural:0 "$gfsfdoll_command_ship$"
-bow_gfsfdoll_command_ship:0 "A"
-core_gfsfdoll_command_ship:0 "B"
-stern_gfsfdoll_command_ship:0 "C"
 
 component_aura_sfdoll_1:0 "干扰战术模块"
 hostile_aura_sfdoll_1:0 "战场干扰"
