@@ -248,6 +248,5 @@ on_destroy_planet_with_planet_killer_sfdoll_1 = {
 #炸星系
 on_destroy_planet_with_planet_killer_sfdoll_2 = {
 	events = {
-		sfdoll_planet_killer_event.11
 	}
 }

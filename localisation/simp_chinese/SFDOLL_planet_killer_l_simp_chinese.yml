@@ -20,16 +20,23 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "摧毁"
 
 
-sfdoll_weapen_t_7:0 "对行星炮"
+sfdoll_weapen_t_7:0 "视界之剑"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
-component_set_sfdoll_weapen_t_7_DESC:0 "该武器能够击碎行星,也能以较低的功率进行连续射击，并准确命中移动的目标.§Y装备$component_set_sfdoll_weapen_t_7$的舰队,在进入星球轨道时,可选择将星球摧毁.你可以在法令中关闭摧毁星球的功能.§!"
+component_set_sfdoll_weapen_t_7_DESC:0 "该武器会引发指定范围的质量坍塌，一旦被锁定，光也无法逃逸,天体可能被压缩至史瓦西半径以内.\n\n§Y装备该武器的舰队,在进入星球轨道时,可将星球摧毁.你可以在法令中关闭摧毁星球的功能§!"
+
+sfdoll_weapon_x_2:0 "毒牙舰炮"
+component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+component_set_sfdoll_weapon_x_2_DESC:0 "毒牙舰炮能以快子束破坏天体,也能进行低功率的连续瞄准射击.\n\n§Y装备该武器的舰队,在进入星球轨道时,可将星球摧毁.你可以在法令中关闭摧毁星球的功能§!"
+
+tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
 
 tech_sfdoll_weapon_t_7:0 "$sfdoll_weapen_t_7$"
 tech_sfdoll_weapon_t_7_desc:0 "$component_set_sfdoll_weapen_t_7_DESC$"
 
-sfdoll_planet_killer_event.10:0 "$sfdoll_weapen_t_7$：控制界面"
-sfdoll_planet_killer_event.10.desc:0 "装备了§R$sfdoll_weapen_t_7$§!的舰队进入了§H[fromfrom.GetName]§!的轨道。是否摧毁该天体？\n你可以在法令中关闭或开启此功能。"
+sfdoll_planet_killer_event.10:0 "铁血对星武器：控制界面"
+sfdoll_planet_killer_event.10.desc:0 "装备了对星武器的舰队进入了§H[fromfrom.GetName]§!的轨道。是否摧毁该天体？\n你可以在法令中关闭或开启此功能。"
 sfdoll_planet_killer_event.10_a:0 "摧毁§H[fromfrom.GetName]§!"
 
-edict_sfdoll_weapen_t_7_control:0 "$sfdoll_weapen_t_7$：关闭特殊功能"
-edict_sfdoll_weapen_t_7_control_desc:0 "这个法令用于关闭$sfdoll_weapen_t_7$的天体摧毁功能。法令生效期间，舰队进入轨道时，不会询问是否摧毁天体。"
+edict_sfdoll_weapen_t_7_control:0 "铁血对星武器：关闭特殊功能"
+edict_sfdoll_weapen_t_7_control_desc:0 "这个法令用于关闭天体摧毁功能。法令生效期间，舰队进入轨道时，不会询问是否摧毁天体。"

@@ -25,7 +25,7 @@ weapon_component_template = {
 	power = -1200
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_x_1" }
+	prerequisites = { tech_sfdoll_weapon_s_1 }
 	component_set = "component_set_sfdoll_weapon_x_1"
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic   }
@@ -78,7 +78,7 @@ weapon_component_template = {
 	power = -2400
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapen_t_1" }
+	prerequisites = { tech_sfdoll_weapon_s_1 }
 	component_set = "component_set_sfdoll_weapen_t_1"
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic  }
@@ -275,7 +275,7 @@ weapon_component_template = {
 	power = -150
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_p_1" }
+	prerequisites = { tech_sfdoll_weapon_s_1 }
 	component_set = "component_set_sfdoll_weapon_p_1"
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense }
@@ -307,7 +307,7 @@ weapon_component_template = {
 	icon = "GFX_gf_sfdoll_missile"
 	icon_frame = 1
 	power = -100
-	prerequisites = {	"tech_gf_sfdoll_missile"}
+	prerequisites = {	tech_sfdoll_weapon_s_1}
 	component_set = "component_set_gf_sfdoll_missile"
 	projectile_gfx = "GF_large_torpedo_03"
 	tags = {	weapon_type_explosive weapon_type_energy 	}
@@ -353,7 +353,7 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_entity"
 	power = -100
-	prerequisites = {	"tech_sfdoll_strike_craft"	}
+	prerequisites = {	tech_sfdoll_weapon_s_1	}
 
 	resources = {
 		category = ship_components
