@@ -178,12 +178,11 @@ weapon_component_template = {
 			engineering_research =  40
 		}
 		upkeep = {
-			GF_nyto_collapse_liquid = 1
 			consumer_goods = 2.5
 			energy = 5
 		}
 	}
-	size_restriction = { sfdoll_homeless_ship 	}
+	size_restriction = { ship_sfdoll_carrier sfdoll_homeless_ship 	}
 	component_set = research_sfdoll_homeless_2_set
 }
 

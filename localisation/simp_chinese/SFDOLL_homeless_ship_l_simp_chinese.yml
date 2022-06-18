@@ -11,11 +11,6 @@ alloys_sfdoll_homeless_2_set_DESC:0 "$alloys_sfdoll_homeless_2$"
 alloys_sfdoll_homeless_2:0 "合金模块\n 生产:\n §Y30 $alloys$§! £alloys£ \n 消耗:\n §Y6 $minerals$§! £minerals£ \n §Y1 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y0.5$consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
 
 
-research_sfdoll_homeless_2_set:0 "科研模块"
-research_sfdoll_homeless_2_set_DESC:0 "$research_sfdoll_homeless_2$"
-research_sfdoll_homeless_2:0 "科研模块\n 生产:\n §Y40$physics_research$§! £physics_research£ \n §Y40 $society_research$§! £society_research£ \n §Y40 $engineering_research$§! £engineering_research£ \n 消耗:\n §Y1 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
-
-
 collapse_liquid_sfdoll_homeless_set:0 "坍塌液模块"
 collapse_liquid_sfdoll_homeless_set_DESC:0 "$collapse_liquid_sfdoll_homeless$"
 collapse_liquid_sfdoll_homeless:0 "坍塌液模块\n 生产:\n §Y20 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n 消耗:\n §Y25 $energy$§! £energy£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"

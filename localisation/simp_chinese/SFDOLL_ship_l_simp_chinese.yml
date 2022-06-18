@@ -158,15 +158,6 @@ sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
 
 sfdoll_ship_reactor_no:0 "空槽"
 
-tech_ship_support_sfdoll:0 "力场支援舰"
-tech_ship_support_sfdoll_desc:0 "力场支援舰没有搭载传统武器。作为替代，她搭载了强大的物理干涉引擎，其作用范围足以覆盖整个星系，用于压制敌对单位并支援友军。"
-ship_support_sfdoll:0 "力场支援舰"
-ship_support_sfdoll_plural:0 "$ship_support_sfdoll$"
-section_ship_support_sfdoll:0 "$ship_support_sfdoll$"
-
-component_aura_ship_support_sfdoll:0 "范围干涉引擎"
-hostile_aura_ship_support_sfdoll:0 "力场压制"
-
 
 sfdoll_warship_1:0 "C-15 轻型护卫舰"
 sfdoll_warship_2:0 "C-17 重炮护卫舰"
@@ -178,17 +169,17 @@ sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"
 sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
 sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
 
-tech_sfdoll_warship_1:0 "$sfdoll_warship_1$"
-tech_sfdoll_warship_1_desc:0 "暗物质工程和物质坍塌技术的应用,大幅降低了新舰种的建造和维护成本."
+tech_sfdoll_warship_1:0 "质量再生系统"
+tech_sfdoll_warship_1_desc:0 "暗物质工程和物质坍塌技术的应用,大幅提高了新舰种的建造效率和自持力."
 
 tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
-tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$ 具备更强的火力,同时保持了很好的机动力"
+tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$"
 
 tech_sfdoll_warship_3:0 "$sfdoll_warship_3$"
-tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$ 拥有均衡的攻防能力"
+tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$"
 
 tech_sfdoll_warship_4:0 "$sfdoll_warship_4$"
-tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$ 搭载了多联装重火力"
+tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$"
 
 GF_sfdoll_warship_1_bow_X1:0 "A"
 sfdoll_warship_1_mid_L3:0 "B"
@@ -210,7 +201,7 @@ sfdoll_warship_4_mid:0 "B"
 sfdoll_warship_4_mid2:0 "C"
 sfdoll_warship_4_stern:0 "D"
 
-need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
+need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
 
 #flag ship
 

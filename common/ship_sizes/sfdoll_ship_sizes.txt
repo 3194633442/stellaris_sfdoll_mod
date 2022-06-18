@@ -288,61 +288,6 @@ ship_sfdoll_noel = {
 # 	}
 # }
 
-
-
-#力场支援舰
-ship_support_sfdoll = {
-	formation_priority = @juggernaut_formation_priority
-	entity = shiledship_entity
-	max_speed = 100
-	acceleration = 0.46
-	rotation_speed = 0.03
-	max_hitpoints = 10000
-	collision_radius = @juggernaut_collision_radius
-	modifier = {
-		ship_shield_mult = 1
-	}
-	size_multiplier = 16
-	fleet_slot_size = 16
-	section_slots = {
-		"mid" = { locator = root }
-	}
-	num_target_locators = 6
-	is_space_station = no
-	icon_frame = 5
-	base_buildtime = 1080
-	can_have_federation_design = yes
-	enable_default_design = yes
-	default_behavior = artillery
-	combat_disengage_chance = 0
-	class = shipclass_military
-	construction_type = starbase_shipyard
-	possible_country = {
-		has_authority = auth_gf_sfdoll
-	}
-	resources = {
-		category = ships
-		cost = {
-			alloys = 480
-		}
-		upkeep = {
-			energy = 5
-		}
-	}
-	can_disable = yes
-	required_component_set = "power_core" #右侧的部件设定,下同
-    required_component_set = "ftl_components"
-    required_component_set = "thruster_components"
-    required_component_set = "sensor_components"
-    required_component_set = "combat_computers"
-	required_component_set = "ship_aura_components"
-	prerequisites = {
-		tech_ship_support_sfdoll
-	}
-}
-
-
-
 #信标船
 ship_change_hyperlane_beacon_sfdoll = {
 	entity = constructor_entity

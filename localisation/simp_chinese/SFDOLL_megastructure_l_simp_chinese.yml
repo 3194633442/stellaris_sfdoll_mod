@@ -2,17 +2,18 @@
 ##########
 # system_limit_one_sfd:0 "一个星系只能造一座"
 
-sfdoll_mega_starport:0 "铁血船坞"
-sfdoll_mega_starport_DESC:0 "$sfdoll_mega_starport$建造在重力井之外，以便利用低重力环境和FTL航路"
-sfdoll_mega_starport_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_DESC$"
+sfdoll_mega_starport_01:0 "铁血船坞基址"
+sfdoll_mega_starport_01_DESC:0 "铁血船坞建造在重力井之外，以便利用低重力环境和FTL航路"
+sfdoll_mega_starport_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
+sfdoll_mega_starport_01_complete:0 "$sfdoll_mega_starport_01$建造完成"
+
+sfdoll_mega_starport_02:0 "铁血船坞"
+sfdoll_mega_starport_02_DESC:0 "铁血船坞建造在重力井之外，以便利用低重力环境和FTL航路"
+sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_02_DESC$"
+sfdoll_mega_starport_02_complete:0 "$sfdoll_mega_starport_02$建造完成"
 
 tech_sfdoll_mega_starport:0 "$sfdoll_mega_starport$"
 tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_DESC$ "
-description_tech_sfdoll_mega_starport:0 "§H解锁恒星基地模块:§! $sm_shipyard_sfdoll$"
-
-sfdoll_mega_starport_complete:0 "我们建造了一座$sfdoll_mega_starport$。"
-
-sm_shipyard_sfdoll:0 "先进船坞"
 
 
 sfdoll_habitat_01:0 "铁血太空城基址"
@@ -44,7 +45,11 @@ friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 Name_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
 
 tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地,她是我们舰队的有力后盾"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地.未来,她将参与河外星系探索计划."
+
+research_sfdoll_homeless_2_set:0 "科研模块"
+research_sfdoll_homeless_2_set_DESC:0 "深空母舰可以装备多种尖端科研设备\n\n$research_sfdoll_homeless_2$"
+research_sfdoll_homeless_2:0 "科研模块\n 生产:\n §Y40$physics_research$§! £physics_research£ \n §Y40 $society_research$§! £society_research£ \n §Y40 $engineering_research$§! £engineering_research£ \n 维护:\n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
 
 mega_sfdoll_carrier_01:0 "深空母舰基址"
 mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
@@ -81,7 +86,7 @@ mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$
 
 
 sfdoll_star_exploit_01:0 "恒星加工器基址"
-sfdoll_star_exploit_01_DESC:0 "该巨构可将恒星压缩保存,并进行加工"
+sfdoll_star_exploit_01_DESC:0 "恒星加工器可以将恒星压缩保存,并提取恒星物质"
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
 sfdoll_star_exploit_02:0 "恒星加工器"
@@ -89,7 +94,7 @@ sfdoll_star_exploit_02_DESC:0 "$sfdoll_star_exploit_01_DESC$ "
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
 tech_sfdoll_star_exploit:0 "大质量工程"
-tech_sfdoll_star_exploit_desc:0 "利用物质坍塌技术操纵基本力,我们可以压缩整个恒星,并将其冻结在可控黑洞之中,随心所欲地提取恒星物质."
+tech_sfdoll_star_exploit_desc:0 "利用物质坍塌技术操纵基本力,我们可以压缩整个恒星,并将其冻结在可控黑洞之中,随心所欲地开采恒星物质."
 
 build_sfdoll_star_exploit_01:0 "我们建造了一座$sfdoll_star_exploit_01$"
 build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"

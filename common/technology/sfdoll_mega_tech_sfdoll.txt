@@ -16,7 +16,6 @@ tech_sfdoll_mega_starport= {
 	}
 	modifier = {
 		country_resource_max_add = 20000
-		description = description_tech_sfdoll_mega_starport
 	}
 	weight = @tier5weight3
 }

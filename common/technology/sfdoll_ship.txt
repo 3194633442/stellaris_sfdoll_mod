@@ -259,7 +259,7 @@ tech_sfdoll_aux_quality_rebuilding = {
 	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
-	weight = @tier5weight2
+	weight = 0
 }
 
 #SF空间滤网
@@ -348,28 +348,8 @@ tech_sfdoll_homeless_ship = {
 		country_resource_max_add = 20000
 		country_command_limit_add = 200
 	}
-	weight = @tier5weight1
-}
-
-#支援舰
-tech_ship_support_sfdoll= {
-	cost = @tier5cost2
-	tier = 5
-	area = engineering
-	start_tech = no
-	icon = tech_ship_sfdoll_carrier
-	is_rare = no
-	category = { voidcraft }
-	prerequisites = {
-		tech_aux_sfdoll_collapse_power
-	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_battleships
-	}
 	weight = 0
 }
-
 
 #系列战舰
 tech_sfdoll_warship_1 = {

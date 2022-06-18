@@ -1,6 +1,6 @@
 mega_change_hyperlane_sfdoll = {
-	entity = "ps_en_1" #"ps_en_2" 
-	construction_entity = "error_entity"
+	entity = "" #"ps_en_2" 
+	construction_entity = ""
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = yes
 	show_galactic_map_icon = yes

@@ -4,44 +4,6 @@
 # SCIENCE_STARBASE_SECTION
 # HANGAR_STARBASE_SECTION
 # ASSEMBLYYARD_STARBASE_SECTION
-#
-
-#先进军港
-shipyard_sfdoll  = {
-	icon = "GFX_starbase_shipyard_sfdoll"
-	section = "ASSEMBLYYARD_STARBASE_SECTION"
-	construction_days = 360
-	potential = {
-		owner = {
-			has_technology = tech_sfdoll_mega_starport
-		}
-	}
-	resources = {
-		category = starbase_modules
-		cost = {
-			alloys = 2000
-		}
-
-		upkeep = {
-			energy = 8
-		}
-	}
-
-	station_modifier = {
-		starbase_shipyard_capacity_add = 2
-	}
-	country_modifier = {
-		country_naval_cap_add = 200
-	}
-
-	ai_build_at_chokepoint = no
-	ai_build_outside_chokepoint = yes
-	ai_weight = {
-		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
-	}
-}
-
-
 
 # anchorage = {
 # 	icon = "GFX_starbase_anchorage"
