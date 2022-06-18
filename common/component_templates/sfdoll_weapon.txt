@@ -415,9 +415,9 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 3000000 max = 3000000  }
+	damage = { min = 2500000 max = 2500000  }
 	#冷却时间要除以10
-	total_fire_time = 130
+	total_fire_time = 90
 	range = 450
 	accuracy = 1
 	tracking = 0.2
@@ -433,7 +433,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5000
+			alloys = 50000
 		}		
 		upkeep = {
 			energy = 24
@@ -467,9 +467,9 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 1200000 max = 1200000 }
+	damage = { min = 1000000 max = 1000000 }
 	#冷却时间要除以10
-	total_fire_time = 130
+	total_fire_time = 90
 	range = 400
 	accuracy = 1
 	tracking = 0.3
@@ -485,7 +485,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 2500
+			alloys = 20000
 		}		
 		upkeep = {
 			energy = 12
@@ -510,9 +510,9 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 150000 max = 150000 }
+	damage = { min = 160000 max = 160000 }
 	#冷却时间要除以10
-	total_fire_time = 65
+	total_fire_time = 45
 	range = 300
 	accuracy = 1
 	tracking = 0.7
@@ -528,7 +528,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 1200
+			alloys = 8000
 		}		
 		upkeep = {
 			energy = 6
@@ -554,9 +554,9 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 60000 max = 60000 }
+	damage = { min = 64000 max = 64000 }
 	#冷却时间要除以10
-	total_fire_time = 65
+	total_fire_time = 45
 	range = 225
 	accuracy = 1.0
 	tracking = 0.75
@@ -572,7 +572,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 600
+			alloys = 3200
 		}		
 		upkeep = {
 			energy = 3
@@ -600,7 +600,7 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 24000 max = 24000 }
 	#冷却时间要除以10
-	total_fire_time = 65
+	total_fire_time = 45
 	range = 150
 	accuracy = 1
 	tracking = 0.8
@@ -616,7 +616,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 300
+			alloys = 1300
 		}		
 		upkeep = {
 			energy = 1.5
@@ -642,9 +642,9 @@ weapon_component_template = {
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 24000 max = 24000 }
+	damage = { min = 20000 max = 20000 }
 	#冷却时间要除以10
-	total_fire_time = 65
+	total_fire_time = 45
 	range = 120
 	accuracy = 1
 	tracking = 0.9
@@ -660,7 +660,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 300
+			alloys = 1300
 		}		
 		upkeep = {
 			energy = 1.5

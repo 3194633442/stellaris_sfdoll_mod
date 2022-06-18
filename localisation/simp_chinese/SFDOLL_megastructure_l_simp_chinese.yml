@@ -31,6 +31,32 @@ tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
 
+ship_sfdoll_carrier:0 "深空母舰"
+ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
+sfdoll_carrier_section1:0 "A"
+sfdoll_carrier_section2:0 "B"
+sfdoll_carrier_section3:0 "C"
+sfdoll_carrier_section4:0 "D"
+sfdoll_carrier_section5:0 "E"
+thruster_sfdoll_carrier:0 "推进器"
+component_aura_sfdoll_carrier:0 "移动维护系统"
+friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
+Name_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
+
+tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
+tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地,她是我们舰队的有力后盾"
+
+mega_sfdoll_carrier_01:0 "深空母舰基址"
+mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
+mega_sfdoll_carrier_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_01_DESC$"
+mega_sfdoll_carrier_01_complete:0 "我们建造了一座$mega_sfdoll_carrier_01$"
+
+mega_sfdoll_carrier_02:0 "深空母舰"
+mega_sfdoll_carrier_02_DESC:0 "你需要拥有至少一个深空母舰的设计,才能顺利完成它"
+mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
+mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
+
+
 # tech_mega_change_hyperlane_sfdoll:0 "超空间工程"
 # tech_mega_change_hyperlane_sfdoll_desc:0 "基于超光速空间中独特的物理法则，我们能够完成一些神奇的工程，例如建造超空间航道。"
 

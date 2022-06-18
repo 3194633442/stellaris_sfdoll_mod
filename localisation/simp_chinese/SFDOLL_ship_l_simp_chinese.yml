@@ -3,7 +3,7 @@
 #componet
 tech_sfdoll_weapon_s_1:0"铁血武装升级"
 tech_sfdoll_weapon_s_1_desc:0"我们需要更加灵活可靠的太空武器"
-sfdoll_weapon_s_1:0"猎手火力系统"
+sfdoll_weapon_s_1:0"蛇式火力系统"
 sfdoll_weapon_m_1:0 "$sfdoll_weapon_s_1$"
 sfdoll_weapon_L_1:0 "$sfdoll_weapon_s_1$"
 component_set_sfdoll_weapon_s_1:0 "$sfdoll_weapon_s_1$"
@@ -45,11 +45,13 @@ component_set_sfdoll_strike_craft_DESC:0 "$sfdoll_strike_craft$"
 # tech_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
 # tech_sfdoll_strike_craft_desc:0 "$component_set_sfdoll_strike_craft_DESC$"
 
+sfdoll_weapon_x_2:0 "毒牙舰炮"
+component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+component_set_sfdoll_weapon_x_2_DESC:0 "这种轴炮的每次攻击都是致命的"
+tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
 
-
-
-
-component_set_sfdoll_weapon_L_2:0 "蛇式火力系统"
+component_set_sfdoll_weapon_L_2:0 "猎隼火力系统"
 component_set_sfdoll_weapon_L_2_DESC:0 "新一代火力系统兼具高威力和全方位攻击的能力"
 sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
 sfdoll_weapon_m_2:0 "$component_set_sfdoll_weapon_L_2$"
@@ -58,7 +60,7 @@ tech_sfdoll_weapon_L_2_desc:0 "$component_set_sfdoll_weapon_L_2_DESC$"
 
 
 component_set_sfdoll_weapon_p_2:0 "豹式轻武器组"
-component_set_sfdoll_weapon_p_2_DESC:0 "随着微型化技术的升级,这些小巧的武器可以发挥惊人的火力."
+component_set_sfdoll_weapon_p_2_DESC:0 "这些小巧的武器可以发挥惊人的火力."
 sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
@@ -166,10 +168,10 @@ component_aura_ship_support_sfdoll:0 "范围干涉引擎"
 hostile_aura_ship_support_sfdoll:0 "力场压制"
 
 
-sfdoll_warship_1:0 "C-15轻型护卫舰"
-sfdoll_warship_2:0 "C-17重炮护卫舰"
-sfdoll_warship_3:0 "D-21驱逐舰"
-sfdoll_warship_4:0 "D-23重型驱逐舰"
+sfdoll_warship_1:0 "C-15 轻型护卫舰"
+sfdoll_warship_2:0 "C-17 重炮护卫舰"
+sfdoll_warship_3:0 "D-21 轻型驱逐舰"
+sfdoll_warship_4:0 "D-23 重型驱逐舰"
 
 sfdoll_warship_1_plural:0 "$sfdoll_warship_1$"
 sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"
@@ -177,7 +179,7 @@ sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
 sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
 
 tech_sfdoll_warship_1:0 "$sfdoll_warship_1$"
-tech_sfdoll_warship_1_desc:0 "$sfdoll_warship_1$ 是新世代战舰的实验型.暗物质工程和物质坍塌技术的应用,大幅降低了它的建造和维护成本."
+tech_sfdoll_warship_1_desc:0 "暗物质工程和物质坍塌技术的应用,大幅降低了新舰种的建造和维护成本."
 
 tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
 tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$ 具备更强的火力,同时保持了很好的机动力"
@@ -208,23 +210,13 @@ sfdoll_warship_4_mid:0 "B"
 sfdoll_warship_4_mid2:0 "C"
 sfdoll_warship_4_stern:0 "D"
 
-need_sfdoll_mega_starport:0 "需要$sfdoll_mega_starport$或者$mega_shipyard_3$"
+need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
 
 #flag ship
 
 component_aura_sfdoll_1:0 "干扰战术模块"
 hostile_aura_sfdoll_1:0 "战场干扰"
 
-
-ship_sfdoll_carrier:0 "深空母舰"
-ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
-section_ship_sfdoll_carrier:0 "深空母舰"
-thruster_sfdoll_carrier:0 "深空母舰推进器"
-component_aura_sfdoll_carrier:0 "移动维护系统"
-friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
-
-tech_ship_sfdoll_carrier:0 "深空母舰"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地,她是我们舰队的有力后盾"
 
 ship_sfdoll_noel:0 "诺耶露"
 section_sfdoll_noel:0 "诺耶露装备箱"

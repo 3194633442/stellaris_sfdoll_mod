@@ -7,13 +7,8 @@ utility_component_template = {
 	modifier = {
 		ship_shield_add = 900
 		ship_shield_regen_add_static = 90
-		ship_weapon_damage = 0.01
-		ship_accuracy_add = 5
-		ship_emergency_ftl_mult = -0.10
 	}
 	ship_modifier = {
-		ship_weapon_damage = 0.01
-		ship_accuracy_add = 5
 		ship_emergency_ftl_mult = -0.10
 	}
 	prerequisites = { "tech_sfdoll_ship_defense_s" }
@@ -47,13 +42,8 @@ utility_component_template  = {
 	modifier = {
 		ship_shield_add = 1800
 		ship_shield_regen_add_static = 180
-		ship_weapon_damage = 0.02
-		ship_accuracy_add = 5
-		ship_emergency_ftl_mult = -0.10
 	}
 	ship_modifier = {
-		ship_weapon_damage = 0.02
-		ship_accuracy_add = 5
 		ship_emergency_ftl_mult = -0.10
 	}
 
@@ -89,13 +79,8 @@ utility_component_template = {
 	modifier = {
 		ship_shield_add = 3600
 		ship_shield_regen_add_static = 360
-		ship_weapon_damage = 0.05
-		ship_accuracy_add = 5
-		ship_emergency_ftl_mult = -0.10
 	}
 	ship_modifier = {
-		ship_weapon_damage = 0.05
-		ship_accuracy_add = 5
 		ship_emergency_ftl_mult = -0.10
 	}
 
@@ -132,7 +117,6 @@ utility_component_template = {
 		ship_hull_add = 2400
 		ship_armor_regen_add_static = 120
 		ship_hull_regen_add_static = 120
-		ship_emergency_ftl_mult = -0.10
 	}
 	ship_modifier = {
 		ship_emergency_ftl_mult = -0.10
@@ -170,7 +154,6 @@ utility_component_template = {
 		ship_hull_add = 1200
 		ship_armor_regen_add_static = 60
 		ship_hull_regen_add_static = 60
-		ship_emergency_ftl_mult = -0.10
 	}
 	ship_modifier = {
 		ship_emergency_ftl_mult = -0.10
@@ -208,7 +191,6 @@ utility_component_template = {
 		ship_hull_add = 600
 		ship_armor_regen_add_static = 30
 		ship_hull_regen_add_static = 30
-		ship_emergency_ftl_mult = -0.10
 	}
 	ship_modifier = {
 		ship_emergency_ftl_mult = -0.10

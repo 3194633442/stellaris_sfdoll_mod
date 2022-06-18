@@ -25,7 +25,7 @@ sfdoll_mega_starport = {
 		ship_starting_experience_add = 200
 	}
 	station_modifier = {
-		starbase_shipyard_capacity_add = 25
+		starbase_shipyard_capacity_add = 20
 		starbase_shipyard_build_speed_mult = 1
 	}
 	country_modifier = {

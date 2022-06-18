@@ -528,7 +528,7 @@ planet_event = {
 }
 
 
-#TX槽对行星炮，判断是否可以触发,from is planet
+#T槽碎星炮，判断是否可以触发,from is planet
 fleet_event = {
 	id = sfdoll_planet_killer_event.9
 	hide_window = yes
@@ -560,7 +560,6 @@ fleet_event = {
 	trigger = {
 		any_owned_ship = {
 			OR = {
-				has_component = sfdoll_weapon_x_2
 				has_component = sfdoll_weapen_t_7
 			}
 			
@@ -650,7 +649,7 @@ fleet_event = {
 	}
 }
 
-#XT槽对星武器,from = fleet，和W槽触发时的作用域保持一致
+#T槽对星武器,from = fleet，和W槽触发时的作用域保持一致
 planet_event = {
 	id = sfdoll_planet_killer_event.11
 	hide_window = yes
@@ -695,20 +694,16 @@ planet_event = {
 				destroy_star_system = yes
 			}
 		}
+		# else= {
+		# 	#变成黑洞
+		# 	change_pc = pc_black_hole
+		# 	clear_deposits = yes
+		# 	reset_planet = yes
+		# 	set_planet_entity = {
+		# 		entity = sfdoll_black_hole_entity
+		# 	}
+		# }
 		#用T槽碎行星
-		else_if= {
-			limit = {
-				from = {
-					any_owned_ship = {
-						has_component = sfdoll_weapen_t_7
-					}
-				}
-			}
-			#变成黑洞
-			change_pc = pc_black_hole
-			clear_deposits = yes
-			reset_planet = yes
-		}
 		else_if = {
 			#环世界
 			limit  = {

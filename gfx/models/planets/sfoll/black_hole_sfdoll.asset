@@ -1,8 +1,8 @@
 entity = {
-	name = "black_hole_sfdoll_entity"
+	name = "sfdoll_black_hole_entity"
 	pdxmesh = "black_hole_new_mesh"
 	
-	scale = 0.3
+	scale = 0.2
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
 		event = { time = 0 particle = "black_hole_particle" trigger_once = yes keep_particle = yes }
@@ -18,4 +18,3 @@ entity = {
 		bloom_factor = 5
 	}
 }
-

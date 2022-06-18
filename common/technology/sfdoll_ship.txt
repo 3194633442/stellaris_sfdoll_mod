@@ -164,7 +164,6 @@ tech_sfdoll_ship_armor_L = {
 }
 
 
-
 #铁血跃迁引擎
 tech_sfdoll_jump_drive = {
 	cost = @tier5cost2
@@ -444,5 +443,5 @@ tech_ship_sfdoll_carrier = {
 		country_resource_max_add = 20000
 	}
 	tier = 5
-	weight = 0
+	weight = 1400
 }

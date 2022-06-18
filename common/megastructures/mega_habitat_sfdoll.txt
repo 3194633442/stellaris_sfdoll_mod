@@ -59,13 +59,7 @@ sfdoll_habitat_01 ={
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
 	on_build_complete = {
 		from = {
-
-		}
-	}
-
-	on_build_complete = {
-		from = {
-			set_country_flag = has_built_or_repaired_megastructure
+			#set_country_flag = has_built_or_repaired_megastructure
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_habitat_01_complete

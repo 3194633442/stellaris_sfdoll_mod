@@ -107,11 +107,11 @@ utility_component_template = {
 			GF_nyto_collapse_liquid = 60
 		}
 	}
-	prerequisites = { "tech_sfdoll_aux_ship_revive" }
+	prerequisites = { tech_sfdoll_ship_power_2 }
 	component_set = "sfdoll_aux_ship_revive"
 
 	size_restriction = {
-		ship_support_sfdoll    ship_sfdoll_carrier   corvette  destroyer cruiser battleship titan  colossus juggernaut
+		ship_sfdoll_carrier   sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4
 	}
 	ai_weight = {
 		weight = 20
