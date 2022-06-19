@@ -82,10 +82,16 @@ country_event = {
 				hyperlane = yes
 				is_discovered = yes
 				max_distance = 10
-				min_distance = 20
+				min_distance = 30
 				effect = {
 					set_surveyed = {
 						surveyed = yes
+					}
+					solar_system = {
+						add_hyperlane = {
+							from = THIS
+							to = root.capital_scope.solar_system
+						}
 					}
 				}
 			}
@@ -201,7 +207,8 @@ fleet_event = {
 		from = { set_site_progress_locked = no } 
 	}
 	option = {
-		name = "sfdoll_search_zion_event.8_option"
+		# name = "sfdoll_search_zion_event.8_option"
+		name = OK
 		owner = {
 			add_resource = {
 				physics_research = 4000

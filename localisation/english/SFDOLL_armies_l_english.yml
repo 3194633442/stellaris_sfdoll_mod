@@ -1,0 +1,17 @@
+﻿l_english:
+###############################
+#army
+tech_sfdoll_army:0 "Fire Control Core Update"
+tech_sfdoll_army_desc:0 "New fire control cores will improve armies performance"
+tech_sfdoll_heavy_army:0 "Steel Storm"
+tech_sfdoll_heavy_army_desc:0 "Develope heavy troops"
+
+sfdoll_army:0"Sangvis Ferri Elite Troop"
+sfdoll_army_desc:0"$sfdoll_army$"
+
+sfoll_heavy_army:0"Sangvis Ferri Heavy Troop"
+sfoll_heavy_army_desc:0 "These troops equipped with air battleships and multifunctional mecha"
+
+bombardment_sfdoll_precise:0 "Precision Bombing"
+bombardment_sfdoll_precise_name:0 "Precision Bombing"
+bombardment_sfdoll_precise_desc:0 "SF dolls will use advanced sennors to bombard.\n\nCauses huge damage to the planet and armies,causes medium damage to the population."

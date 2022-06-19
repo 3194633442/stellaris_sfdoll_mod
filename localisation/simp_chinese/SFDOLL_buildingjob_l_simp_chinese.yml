@@ -30,7 +30,7 @@ mod_job_sfdoll_collapse_liquid_maker_add:0"$job_sfdoll_collapse_liquid_maker$ �
 
 
 tech_sfdoll_lab:0 "跨物种人工智能"
-tech_sfdoll_lab_desc:0 "我们进一步破译了智慧的本质。无论是地球人类，还是遗迹文明的智能，或者是纳米机器人、星神兽，我们都能仿造它们的思考器官、复制它们的记忆，让它们的智慧为铁血所用。"
+tech_sfdoll_lab_desc:0 "任何物种的智慧都应该为我们所用."
 tech_sfdoll_lab_2:0 "超维人工智能"
 tech_sfdoll_lab_2_desc:0 "铁血的思维不应该局限于现有的维度。基于高维空间中的法则，我们的逻辑引擎可以进行升级。"
 
@@ -45,16 +45,16 @@ job_sfdoll_researcher_desc:0"$job_sfdoll_researcher$"
 job_sfdoll_researcher_effect_desc:0 "$job_sfdoll_researcher$ 消耗 §Y$consumer_goods$§! ,产出 §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
 mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ 岗位"
 
-job_sfdoll_researcher_2:0"铁血二级科研员"
+job_sfdoll_researcher_2:0"铁血高级科研员"
 job_sfdoll_researcher_2_plural:0"$job_sfdoll_researcher_2$"
 job_sfdoll_researcher_2_desc:0"$job_sfdoll_researcher_2$"
 job_sfdoll_researcher_2_effect_desc:0 "$job_sfdoll_researcher_2$ 消耗 §Y$consumer_goods$§! ,产出 §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
 mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ 岗位"
 
 
-tech_sfdoll_collapse_alloys_produce:0"坍塌技术合金制造工艺"
-tech_sfdoll_collapse_alloys_produce_desc:0"利用坍塌液，控制中子等原材料。"
-tech_sfdoll_alloys_2:0 "铁血2级合金制造工艺"
+tech_sfdoll_collapse_alloys_produce:0"坍塌合金制造工艺"
+tech_sfdoll_collapse_alloys_produce_desc:0"$tech_sfdoll_collapse_alloys_produce$"
+tech_sfdoll_alloys_2:0 "坍塌合金制造工艺改进"
 tech_sfdoll_alloys_2_desc:0 "$tech_sfdoll_alloys_2$"
 
 building_sfdoll_alloys:0"铁血合金工厂"
@@ -151,7 +151,7 @@ job_sfdoll_artist_desc:0 "艺术工作者"
 job_sfdoll_artist_effect_desc:0 "艺术工作者消耗§Y$consumer_goods$§!，产出§Y$unity$§!,§Y$society_research$§!, 提高舒适度"
 mod_job_sfdoll_artist_add:0 "艺术工作者岗位"
 
-building_sfdoll_net:0"OGAS服务网络"
+building_sfdoll_net:0"OGAS网络"
 building_sfdoll_net_desc:0 "超级计算机和高速网络覆盖了铁血的世界，能够提供各类信息服务，并辅助重大项目的分析决策"
 
 building_sfdoll_museum:0"铁血国家博物馆"

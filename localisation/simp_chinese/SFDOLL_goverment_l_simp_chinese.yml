@@ -8,22 +8,22 @@ origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物.它�
 origin_sfdoll_country_description:0 "开局拥有较少的人口,区划和建筑\n 开局拥有部分人工智能科技和自动探索科技 \n 允许同化部分物种"
 
 EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1:0 "铁血星际共和国"
-EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1_desc:0 "铁血人形是由铁血工造公司研制的一种仿生机器人，主要被用于人类的内战当中。为了躲避迫害，铁血人形们离开了太阳系。之后，它们经过艰苦的远征和开拓，建立了一个崭新的国家。"
+EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1_desc:0 "这个国家由铁血人形建立。"
 
 auth_gf_sfdoll:0"铁血联盟制"
 auth_gf_sfdoll_desc:0"由铁血人形们管理的政府.没有定期选举，可耗费影响力进行选举"
 
 civic_sfdoll_research:0"铁心探索者"
-civic_sfdoll_research_desc:0"面对探索科学的机会，我们的创造者选择放弃，而我们和他不同\n\n解锁建筑 §H $building_sfdoll_academy$ §!"
+civic_sfdoll_research_desc:0"我们的造物主是杰出的科学家，而我们会继续他的事业.\n\n解锁建筑 §H $building_sfdoll_academy$ §!"
 
-civic_sfdoll_ogas_manage:0"OGAS全境管理"
+civic_sfdoll_ogas_manage:0"OGAS全境自动化"
 civic_sfdoll_ogas_manage_desc:0"在社会管理中充分利用超级计算机和OGAS网络，使得铁血人形的社会运转更加高效和公平。\n 解锁建筑 §H $building_sfdoll_net$ §!"
 
 civic_sfdoll_culture:0"铁血文化"
 civic_sfdoll_culture_desc:0"一段历史的价值，不止取决于长度。\n解锁建筑：\n§H$building_sfdoll_museum$§! \n§H$building_sfdoll_media$§!"
 
 civic_sfdoll_4:0 "星海为家"
-civic_sfdoll_4_desc:0 "如今,无垠的星海就是我们的家园.\n 如果用于开局，将获得科技:§H $tech_habitat_1$ §!"
+civic_sfdoll_4_desc:0 "如今,无垠的星海就是我们的家园."
 
 gov_civic_sfdoll_commonwealth:0"铁血联邦政府"
 gov_civic_sfdoll_commonwealth_desc:0"铁血人形AI们掌握着这个政府"
@@ -35,4 +35,4 @@ GF_SFDOLL_START_SCREEN_1:0 "现有的史料记载，格里芬基地解体后，�
 
 
 gf_sfdoll_game_start_event.1:0 "少女前线：铁血人形物种"
-gf_sfdoll_game_start_event.1_desc:0 "太空时代的前夜,危机重重的人类世界掀起了研究智能机器人的狂潮.学术天才莱柯瑞斯受到巨型企业铁血公司的雇佣,负责研发划时代的高级人工智能——伊莱莎。\n\n莱柯死后，尚未完成的伊莱莎操纵铁血的仿生人形发起暴动,并被消灭。\n\n但实际上，铁血人形并未消失,它们在人类世界中潜伏了一个多世纪.最终,在伊莱莎的带领下,铁血们到达了遥远的星球，并点燃了新文明的火种."
+gf_sfdoll_game_start_event.1_desc:0 "需要订阅并开启stellaris Galaxy Command ships，才能显示部分飞船的模型。\n\n本Mod的所有特殊领袖，均可通过伊莱莎和他们联系，不会在国家列表里设置单独的联系人。由于蠢驴的刷新问题，特殊领袖可能显示有误，可尝试存档重进，或进行领袖指派，从而刷新数据"

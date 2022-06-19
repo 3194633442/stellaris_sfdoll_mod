@@ -15,43 +15,43 @@ option_noel_become_ship_desc:0 "需要有至少一个诺耶露舰船设计"
 
 response_text_noel_become_governor:0 "这是属于你们的新世界，好好建设它们吧。"
 response_text_noel_become_scientist:0 "无论是最终的答案，还是解决问题的过程，都有其价值。"
-response_text_noel_become_admiral:0"根据手头的信息，制定合理的战术，否则，代价会很大的。"
+response_text_noel_become_admiral:0"要制定合理的战术。"
 response_text_noel_become_general:0"跟我出击。"
 response_option_noel_become_ship:0 "请注意，在这个形态下，我如果被击坠，必须花费大约一年的时间才能回到你们的世界。"
 
 sfdoll_noel_event_2_title:0"诺耶露的近况"
 sfdoll_noel_event_2_desc:0"我们在遗迹中发现的少女诺耶露，目前看起来很健康，但似乎失去了遇到我们之前的记忆。这几年里，她生活在铁血人形的社会里，像一个普通的人类少女一样成长。\n\n 诺耶露为我们的遗迹研究带来了许多启发，我们则帮她控制自己的精神与力量，教给她知识。"
-sfdoll_noel_event.2_option:0 "我们要设法揭开她的秘密。"
+sfdoll_noel_event.2_option:0 "我们要揭开她的秘密。"
 
 
 sfdoll_noel_event.3:0 "§R诺耶露失踪§!"
-sfdoll_noel_event.3_desc:0 "研究诺耶露的项目发生了意外！诺耶露和监护人们外出时，她劫持了一艘星际飞船，之后就消失得无影无踪。\n\n 我们的网络和武器设备都受到了精准攻击，船上的乘员都被送了出来。我们的所有搜索行动都以失败告终。\n\n我们低估了她心智与能力的成长，或许她故意隐藏了自身的力量。"
-sfdoll_noel_event.3_option:0 "也许该说再见了。"
+sfdoll_noel_event.3_desc:0 "研究诺耶露的项目发生了意外！诺耶露和监护人们外出时，她劫持了一艘星际飞船，之后就消失得无影无踪。\n\n 我们的所有搜索行动都以失败告终。"
+sfdoll_noel_event.3_option:0 "我们低估了她能力的成长"
 
 sfdoll_noel_event.4:0 "诺耶露？"
-sfdoll_noel_event.4_desc:0 "在我们星域的轨道上，出现了某个通往其他维度的裂缝，其中倾泻出大量的危险的物质流。我们的地面护盾在冲击下逐渐损耗。专家预测，这个裂缝在未来会以超光速扩张，并成为威胁银河系的天灾。\n\n几乎在同一时间，失踪的诺耶露出现在附近的太空中。我们观察到，她依靠某种力量，削弱了来自裂缝的洪流。\n\n现在，诺耶露要求我们派出最精锐的舰队，跟随她前往裂缝的另一边，并协助她关闭次元裂缝。但我们注意到，诺耶露和之前相比，在物理构造和性质上有着巨大的差异，性格行为特征也存在疑点。"
-sfdoll_noel_event.4_option:0 "她要帮我们吗?"
+sfdoll_noel_event.4_desc:0 "在我们星球的上空，出现了通往其他次元的裂缝，其中倾泻出大量物质流，让我们的星球处于危险中。\n\n在同一时间，诺耶露出现在附近的太空中。诺耶露要求我们派出最精锐的舰队，跟随她前往裂缝的另一边，协助她关闭次元裂缝。\n\n我们注意到，诺耶露和之前相比，存在巨大的差异"
+sfdoll_noel_event.4_option:0 "她会帮我们吗?"
 
 sfdoll_noel_event.5:0 "紧急会议"
-sfdoll_noel_event.5_desc:0 "如各位所见。诺耶露要求我们派出舰队，协助她关闭次元裂缝。她的身份很可疑，她的力量也超出了我们的认知。和她合作确实存在风险。你们怎么看？"
-sfdoll_noel_event.5_option:0 "§E露尼西亚§!如果在这里，肯定会选择相信她。"
+sfdoll_noel_event.5_desc:0 "如各位所见,现在的诺耶露很可疑,和她合作存在风险.你们怎么看?"
+sfdoll_noel_event.5_option:0 "露尼西亚如果在这里，肯定会选择相信她。"
 
 sfdoll_noel_event.7:0 "协助诺耶露"
-sfdoll_noel_event.7_desc:0 "铁血人形们的意见在OGAS网络中交汇。很快，它们作出了最终的决定。铁血的队伍集结在裂缝面前，跟随诺耶露开始了救灾工作。\n\n其后，次元裂缝的反应逐步减弱，星球恢复了安全。"
+sfdoll_noel_event.7_desc:0 "铁血们的意见在OGAS网络中交汇。很快，它们作出了的决定，跟随诺耶露开始了救灾工作。\n\n次元裂缝的反应逐步减弱，星球恢复了安全。"
 
 
 sfdoll_noel_event.8:0 "和诺耶露通讯"
-sfdoll_noel_event.8_desc:0 "你们可能会疑惑,我似乎只是离开了半年,却产生了很大的变化.\n\n其实,我和你们经历的时间是不同的.我现在的年龄,比你们大得多."
+sfdoll_noel_event.8_desc:0 "我看起来很很可疑吧?其实,我和你们经历的时间是不同的.我现在的年龄,比你们大得多."
 sfdoll_noel_event.8_option:0 "你去了哪里?"
 
 sfdoll_noel_event.9:0 "和诺耶露通讯"
-sfdoll_noel_event.9_desc:0 "说来话长。我试图找到一些人，亲手解决一些问题。有些遗憾被解决了，却又留下了新的遗憾。"
+sfdoll_noel_event.9_desc:0 "说来话长。我试图找到一些人，亲手解决一些问题。有些遗憾被消除了，却又留下了新的遗憾。"
 sfdoll_noel_event.9_option:0 "接下来你要去哪？"
-response_sfdoll_noel_event.9_option:0 "我会暂时留下来.你们的未来令我担心.所以,我会与你们同行,直到时间的尽头."
+response_sfdoll_noel_event.9_option:0 "我会暂时留下来.我有些担心你们的未来.我会与你们同行,直到时间的尽头."
 
 #noel trait
 leader_trait_governor_sfdoll_noel:0 "遗迹少女"
-leader_trait_governor_sfdoll_noel_desc:0 "诺耶露是铁血从某个遗迹中发现的人造生命。\n\n她拥有人类和某个未知物种的特征，还有和铁血人形相似的心智空间，并能操纵逆向坍塌现象，这让她拥有重组肉体和穿越时空等一系列能力"
+leader_trait_governor_sfdoll_noel_desc:0 "诺耶露是铁血从某个遗迹中发现的人造生命。\n\n她拥有人类和某个未知物种的特征"
 
 leader_trait_scientist_sfdoll_noel:0 "$leader_trait_governor_sfdoll_noel$"
 leader_trait_scientist_sfdoll_noel_desc:0 "$leader_trait_governor_sfdoll_noel_desc$"
@@ -62,7 +62,7 @@ leader_trait_general_sfdoll_noel_desc:0"$leader_trait_governor_sfdoll_noel_desc$
 
 sfdoll_noel_REACTOR:0 "能源核心"
 sfdoll_noel_jump_drive:0 "命运纺线"
-sfdoll_ship_sensors_noel:0 "光明预言"
+sfdoll_ship_sensors_noel:0 "传感器"
 thruster_sfdoll_noel:0 "曙光"
 
 sfdoll_noel_system_attack:0 "请摧毁一个星系"

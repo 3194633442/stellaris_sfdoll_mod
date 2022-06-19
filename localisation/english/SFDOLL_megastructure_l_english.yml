@@ -1,67 +1,67 @@
-﻿l_simp_chinese:
+﻿l_english:
 ##########
 # system_limit_one_sfd:0 "一个星系只能造一座"
 
-sfdoll_mega_starport_01:0 "铁血船坞基址"
-sfdoll_mega_starport_01_DESC:0 "铁血船坞建造在重力井之外，以便利用低重力环境和FTL航路"
+sfdoll_mega_starport_01:0 "Sangvis Ferri Shipyard Site"
+sfdoll_mega_starport_01_DESC:0 "$sfdoll_mega_starport_02$ will be built outside gravity well to use low gravity environment and hyperlane"
 sfdoll_mega_starport_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
-sfdoll_mega_starport_01_complete:0 "$sfdoll_mega_starport_01$建造完成"
+sfdoll_mega_starport_01_complete:0 "$sfdoll_mega_starport_01$ completed"
 
-sfdoll_mega_starport_02:0 "铁血船坞"
-sfdoll_mega_starport_02_DESC:0 "铁血船坞建造在重力井之外，以便利用低重力环境和FTL航路"
-sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_02_DESC$"
-sfdoll_mega_starport_02_complete:0 "$sfdoll_mega_starport_02$建造完成"
+sfdoll_mega_starport_02:0 "Sangvis Ferri Shipyard"
+sfdoll_mega_starport_02_DESC:0 "$sfdoll_mega_starport_01_DESC$"
+sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
+sfdoll_mega_starport_02_complete:0 "$sfdoll_mega_starport_02$ completed"
 
 tech_sfdoll_mega_starport:0 "$sfdoll_mega_starport_02$"
 tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_02_DESC$ "
 
 
-sfdoll_habitat_01:0 "铁血太空城基址"
-sfdoll_habitat_01_DESC:0 "通过先进的FTL和能源技术,铁血太空城可以在远离恒星的位置上运转"
+sfdoll_habitat_01:0 "Sangvis Ferri Space City Site"
+sfdoll_habitat_01_DESC:0 "Through advanced FTL and energy technology, Sangvis Ferri Space City can operate far from the stars."
 sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
-sfdoll_habitat_01_complete:0 "我们建造了一座$sfdoll_habitat_01$"
+sfdoll_habitat_01_complete:0 "$sfdoll_habitat_01$ completed"
 
-sfdoll_habitat_02:0 "铁血太空城"
-sfdoll_habitat_02_DESC:0 "通过先进的FTL和能源技术,铁血太空城可以在远离恒星的位置上运转"
+sfdoll_habitat_02:0 "Sangvis Ferri Space City"
+sfdoll_habitat_02_DESC:0 "$sfdoll_habitat_01_DESC$"
 sfdoll_habitat_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_02_DESC$"
-sfdoll_habitat_02_complete:0 "我们建造了一座$sfdoll_habitat_02$"
+sfdoll_habitat_02_complete:0 "$sfdoll_habitat_02$ completed"
 
-pc_sfdoll_habitis:0 "铁血太空城"
-pc_sfdoll_habitis_desc:0 "通过先进的FTL和能源技术,铁血太空城可以在远离恒星的位置上运转"
+pc_sfdoll_habitis:0 "Sangvis Ferri Space City"
+pc_sfdoll_habitis_desc:0 "$sfdoll_habitat_01_DESC$"
+
 tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
 
-ship_sfdoll_carrier:0 "深空母舰"
+ship_sfdoll_carrier:0 "Deep Space Carrier"
 ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
 sfdoll_carrier_section1:0 "A"
 sfdoll_carrier_section2:0 "B"
 sfdoll_carrier_section3:0 "C"
 sfdoll_carrier_section4:0 "D"
 sfdoll_carrier_section5:0 "E"
-thruster_sfdoll_carrier:0 "推进器"
-component_aura_sfdoll_carrier:0 "移动维护系统"
+thruster_sfdoll_carrier:0 "Thruster"
+component_aura_sfdoll_carrier:0 "Maintenance System"
 friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 Name_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
 
 tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地.未来,她将参与河外星系探索计划."
+tech_ship_sfdoll_carrier_desc:0 "A deep space carrier is a mobile base with multiple functions. In the future, she will participate in the exploration of extragalactic."
 
-research_sfdoll_homeless_2:0 "星舰实验室\n 生产:\n §Y40$physics_research$§! £physics_research£ \n §Y40 $society_research$§! £society_research£ \n §Y40 $engineering_research$§! £engineering_research£ \n 维护:\n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+research_sfdoll_homeless_2:0 "Starship Laboratory \n\n produce:\n §Y40$physics_research$§! £physics_research£ \n §Y40 $society_research$§! £society_research£ \n §Y40 $engineering_research$§! £engineering_research£ \n upkeep:\n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
 
-research_sfdoll_homeless_2_set:0 "星舰实验室"
-research_sfdoll_homeless_2_set_DESC:0 "\n\n$research_sfdoll_homeless_2$"
+research_sfdoll_homeless_2_set:0 "Starship Laboratory"
+research_sfdoll_homeless_2_set_DESC:0 "$research_sfdoll_homeless_2$"
 
-
-mega_sfdoll_carrier_01:0 "深空母舰基址"
-mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
+mega_sfdoll_carrier_01:0 "Deep Space Carrier Site"
+mega_sfdoll_carrier_01_DESC:0 "Deep space carriers need to be built through mega-engineering"
 mega_sfdoll_carrier_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_01_DESC$"
-mega_sfdoll_carrier_01_complete:0 "我们建造了一座$mega_sfdoll_carrier_01$"
+mega_sfdoll_carrier_01_complete:0 "$mega_sfdoll_carrier_01$ completed"
 
-mega_sfdoll_carrier_02:0 "深空母舰"
-mega_sfdoll_carrier_02_DESC:0 "你需要拥有至少一个深空母舰的设计,才能顺利完成它"
+mega_sfdoll_carrier_02:0 "Deep Space Carrier"
+mega_sfdoll_carrier_02_DESC:0 "You need to have at least one deep carrier design to complete construction."
 mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
-mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
+mega_sfdoll_carrier_02_complete:0 "$mega_sfdoll_carrier_02$ completed"
 
 
 # tech_mega_change_hyperlane_sfdoll:0 "超空间工程"
@@ -87,19 +87,19 @@ mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$
 # ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"
 
 
-sfdoll_star_exploit_01:0 "恒星加工器基址"
-sfdoll_star_exploit_01_DESC:0 "恒星加工器可以将恒星压缩保存,并提取恒星物质"
+sfdoll_star_exploit_01:0 "Star Mining Tool Site"
+sfdoll_star_exploit_01_DESC:0 "Star Mining Tool can compress a star and exploit it."
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
-sfdoll_star_exploit_02:0 "恒星加工器"
+sfdoll_star_exploit_02:0 "Star Mining Tool"
 sfdoll_star_exploit_02_DESC:0 "$sfdoll_star_exploit_01_DESC$ "
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
-tech_sfdoll_star_exploit:0 "大质量工程"
-tech_sfdoll_star_exploit_desc:0 "利用物质坍塌技术操纵基本力,我们可以压缩整个恒星,并将其冻结在可控黑洞之中,随心所欲地开采恒星物质."
+tech_sfdoll_star_exploit:0 "Massive Celestial Engineering"
+tech_sfdoll_star_exploit_desc:0 "Using matter-collapse techniques, we can compress an entire star and freeze it in a controllable black hole, mining star matter at will."
 
-build_sfdoll_star_exploit_01:0 "我们建造了一座$sfdoll_star_exploit_01$"
-build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"
+build_sfdoll_star_exploit_01:0 "$sfdoll_star_exploit_01$ completed"
+build_sfdoll_star_exploit_02:0 "$sfdoll_star_exploit_02$ completed"
 
 
 # gateway_sfdoll:0 "铁血星门"

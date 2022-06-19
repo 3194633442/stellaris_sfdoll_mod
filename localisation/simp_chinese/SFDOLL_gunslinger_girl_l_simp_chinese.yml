@@ -1,20 +1,20 @@
 ﻿l_simp_chinese:
 ##gunslinger girl
 sfdoll_gunslinger_girl_event_1:0 "来自地球的飞船"
-sfdoll_gunslinger_girl_event_1_desc:0 "在搜索遗迹文明的线索时，我们意外发现了一个疑似源自人类的信号.我们追踪该信号，在某个星系找到了一艘宇宙飞船.\n 对该飞船的初步鉴定表明，这是一艘由地球人制造的飞船. 我们的人员已经回收了飞船,正在对其进行调查."
+sfdoll_gunslinger_girl_event_1_desc:0 "我们意外发现了一个疑似源自人类的信号.我们追踪该信号，找到了一艘宇宙飞船.\n 对该飞船的初步鉴定表明，这是一艘由地球人制造的飞船. 我们的人员已经回收了飞船,正在对其进行调查."
 
 sfdoll_gunslinger_girl_event_2:0 "来自地球的飞船"
-sfdoll_gunslinger_girl_event_2_desc:0 "我们对来自地球的飞船进行了检查.\n 这艘船似乎是为了躲避战火而被送到外太空,但它的功能显然无法支撑人类的生存. 在这艘飞船上，我们能找到的只有一堆过时的设备。\n其中唯一引起我们注意的，是一台巨大而老旧的心智服务器，它的年龄在一个世纪以上，但似乎还能运作.\n 一些科学家认为，我们能从这台服务器中找到人形科技的原始样本。\n 我们将开始一个特殊项目，对它进行研究"
+sfdoll_gunslinger_girl_event_2_desc:0 "我们对来自地球的飞船进行了检查.\n 这艘船似乎是为了躲避战火而被送到外太空,但它的功能显然无法支撑人类的生存. 在这艘飞船上，我们能找到的只有一堆过时的设备。\n其中唯一引起我们注意的，是一台巨大而老旧的心智服务器.\n 我们将开始一个特殊项目，对它进行研究"
 
 sfdoll_gunslinger_girl_rescue_project:0 "古董心智服务器"
-sfdoll_gunslinger_girl_rescue_project_DESC:0 "我们在一艘老旧的人类飞船上发现了一台心智服务器.我们将展开一个项目,研究这台服务器的内容."
+sfdoll_gunslinger_girl_rescue_project_DESC:0 "我们在一艘人类飞船上发现了一台老旧的心智服务器.我们将展开一个项目,研究这台服务器的内容."
 
 sfdoll_gunslinger_girl_event_3:0 "义体少女?"
-sfdoll_gunslinger_girl_event_3_desc:0 "我们成功访问了心智服务器中的内容，并在在服务器内发现数个人类少女的心智! \n 调查显示，这些心智进入服务器的时间，比铁血人形的诞生还要早数十年.这些人类少女,都曾经被改造为战斗用途的义体人.她们牺牲后，心智被上传到这台服务器中. \n 这些心智在服务器中建立了一个虚拟现实空间.她们沉浸在这个虚构的世界中，几乎忘记了自己的真实处境."
+sfdoll_gunslinger_girl_event_3_desc:0 "我们成功访问了心智服务器中的内容，并在在服务器内发现数个人类少女的心智! \n 调查显示，这些人类少女,都曾经被改造为战斗用途的义体人.她们去世后，心智被上传到这台服务器中. \n 这些心智在服务器中建立了一个虚拟现实空间.她们沉浸在这个虚构的世界中，几乎忘记了自己的真实处境."
 sfdoll_gunslinger_girl_event_3_option:0 "原始但有趣的把戏"
 
 sfdoll_gunslinger_girl_event_4:0 "大梦初醒"
-sfdoll_gunslinger_girl_event_4_desc:0 "义体少女们的服务器随时可能报废.我们和她们沟通,将她们上传到人形素体中.\n 于是,义体少女们结束了她们的梦境,从百余年的沉睡中醒来,以铁血人形的身份获得了重生."
+sfdoll_gunslinger_girl_event_4_desc:0 "义体少女们的服务器随时可能报废.我们和她们沟通,将她们上传到人形素体中.\n 义体少女们就此结束了她们的梦境,以铁血人形的身份获得了重生."
 
 sfdoll_gunslinger_girl_event_5:0 "和义体少女的代表通信"
 sfdoll_gunslinger_girl_event_5_desc:0 "这身体真的是机械吗?感觉,比以前的身体更像是人类?总之非常感谢."
@@ -32,11 +32,11 @@ triela_has_this_job_now:0 "崔耶拉已经在进行这项工作"
 
 response_text_triela_become_governor:0 "包在我身上"
 response_text_triela_become_scientist:0 "看起来很复杂，我得学更多东西才行!"
-response_text_triela_become_admiral:0 "我会让大家平安回来的."
+response_text_triela_become_admiral:0 "我会让大家平安回来的!"
 response_text_triela_become_general:0 "准备训练吧!"
 
 #Let life be beautiful like summer flowers and death like autumn leaves
-leader_trait_governor_sfdoll_triela:0 "义体少女"
+leader_trait_governor_sfdoll_triela:0 "义体人"
 leader_trait_governor_sfdoll_triela_desc:0 "生如夏花之绚烂，死如秋叶之静美"
 
 leader_trait_scientist_sfdoll_triela:0 "$leader_trait_governor_sfdoll_triela$"

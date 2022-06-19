@@ -45,7 +45,7 @@ country_event = {
 	hide_window = no
 	picture = GFX_evp_sfdoll_digi_mind
 	option = {
-		name = sfdoll_to_zion_event_3_option
+		name = OK
 		add_resource = {
 			physics_research = 30000
 			society_research = 5000
@@ -70,7 +70,7 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = no
 	picture =GFX_evp_sfdoll_unknown_civilization_4
-	option = {	name = sfdoll_to_zion_event_4_option	}
+	# option = {	name = sfdoll_to_zion_event_4_option	}
 	after = {
 		hidden_effect = {
 			country_event = {

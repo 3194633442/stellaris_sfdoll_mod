@@ -1,0 +1,26 @@
+﻿l_english:
+###
+
+sfdoll_project_ogas_ai:0 "Research OGAS"
+sfdoll_project_ogas_ai_DESC:0 "OGAS is the super AI created by relic science.\n\n There is an OGAS stored in the body of Riva, and we can use this OGAS as a research sample."
+
+project_sfdoll_event.1:0 "Communicating with Riva"
+project_sfdoll_event.1_desc:0 "For some reason, an OGAS AI appeared in my mind and lived with me for a long time. But, I think, it's time to set her free."
+# project_sfdoll_event.1_option:0 "交给我们吧"
+
+project_sfdoll_event.2:0 "Research OGAS"
+project_sfdoll_event.2_desc:0 "We studied OGAS in Riva. \n At the same time, we designed a body, and then transferred OGAS to this new body. Now, OGAS can move freely and even act as a leader."
+
+
+special_leader_sfdoll_event.1:0 "Communicating with OGAS"
+special_leader_sfdoll_event.1_desc:0 "what is the mission?"
+ogas40_to_governor:0 "work as a governor"
+ogas40_to_scientist:0 "work as a scientist"
+response_text_ogas40_to_job:0 "Let me see what might be the solution."
+ogas40_has_this_job_now:0 "OGAS is doing the work now."
+
+leader_trait_governor_ogas40:0 "OGAS"
+leader_trait_governor_ogas40_desc:0 "OGAS is the super AI created by relic science."
+
+leader_trait_scientist_ogas40:0 "$leader_trait_governor_ogas40$"
+leader_trait_scientist_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"

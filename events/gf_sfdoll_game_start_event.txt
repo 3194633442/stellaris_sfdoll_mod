@@ -88,15 +88,15 @@ country_event = {
 			}
 		}
 		#拥有星海为家理念，解锁居住站
-		if = {
-			limit = {
-				has_civic = civic_sfdoll_4
-			}
-			give_technology =  {
-				tech = tech_habitat_1
-				message = no
-			}
-		}		
+		# if = {
+		# 	limit = {
+		# 		has_civic = civic_sfdoll_4
+		# 	}
+		# 	give_technology =  {
+		# 		tech = tech_habitat_1
+		# 		message = no
+		# 	}
+		# }		
 		#添加ump45
 		country_event = {
 			id = sfdoll_ump45_event.10

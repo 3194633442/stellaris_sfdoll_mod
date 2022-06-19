@@ -160,6 +160,6 @@ tech_sfdoll_chemical = {
 	tier = 4
 	category = { industry }
 	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
-	weight = @tier4weight1
+	weight = 0
 	potential = {	has_authority = auth_gf_sfdoll	}
 }

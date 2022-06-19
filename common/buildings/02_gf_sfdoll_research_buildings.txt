@@ -17,7 +17,6 @@ building_sfdoll_research = {
 		exists = owner
 		owner = { 	not = { has_authority = auth_gf_sfdoll }	}
 	}
-	triggered_desc = {		text = job_sfdoll_researcher_effect_desc	}
 
 	#限定铁血国家生效
 	triggered_planet_modifier = {

@@ -1,0 +1,69 @@
+﻿l_english:
+###############################
+
+pc_sfdoll_city:0 "Sangvis Ferri Planet"
+pc_sfdoll_city_desc:0 "This planet can adjust the climate and ecosystem as needed."
+
+district_sfdoll_house:0 "SF City"
+district_sfdoll_house_plural:0 "SF Cities"
+district_sfdoll_house_desc:0 "$district_sfdoll_house$"
+
+# district_sfdoll_goods:0 "轻工业区划"
+# district_sfdoll_goods_plural:0 "轻工业区划"
+# district_sfdoll_goods_desc:0 "这里的产品汇聚了最新设计理念"
+district_sfdoll_rare:0 "Special Industrial District"
+district_sfdoll_rare_plural:0 "Special Industrial Districts"
+district_sfdoll_rare_desc:0 "$district_sfdoll_rare$"
+
+district_sfdoll_alloys:0 "Industrial District"
+district_sfdoll_alloys_plural:0 "Industrial Districts"
+district_sfdoll_alloys_desc:0 "$district_sfdoll_alloys$"
+
+district_sfdoll_science:0 "Science District"
+district_sfdoll_science_plural:0 "Science Districts"
+district_sfdoll_science_desc:0 "$district_sfdoll_science$"
+
+district_generator_sfdoll_city:0 "Resource  District"
+district_generator_sfdoll_city_plural:0 "Resource  Districts"
+district_generator_sfdoll_city_desc:0 "$district_generator_sfdoll_city$"
+
+
+pc_rw_sfdoll:0 "Sangvis Ferri Star Ring"
+pc_rw_sfdoll_desc:0 "SF Dolls use the latest technology to upgrade the ring world."
+
+district_rw_city_sfdoll:0 "Star Ring City"
+district_rw_city_sfdoll_plural:0 "Star Ring Cities"
+district_rw_city_sfdoll_desc:0 "$district_rw_city_sfdoll$"
+
+district_rw_science_sfdoll:0 "Science District"
+district_rw_science_sfdoll_plural:0 "Science Districts"
+district_rw_science_sfdoll_desc:0 "$district_rw_science_sfdoll$"
+
+district_rw_industrial_sfdoll:0 "Industrial District"
+district_rw_industrial_sfdoll_plural:0 "Industrial Districts"
+district_rw_industrial_sfdoll_desc:0  "$district_rw_industrial_sfdoll$"
+
+district_rw_rare_sfdoll:0 "Special Industrial District"
+district_rw_rare_sfdoll_plural:0 "Special Industrial Districts"
+district_rw_rare_sfdoll_desc:0 "$district_rw_rare_sfdoll$"
+
+district_rw_generator_sfdoll:0 "Resource  District"
+district_rw_generator_sfdoll_plural:0 "Resource  Districts"
+district_rw_generator_sfdoll_desc:0 "$district_rw_generator_sfdoll$"
+
+
+decision_planet_to_sfdoll_city:0 "built a Sangvis Ferri Planet"
+decision_planet_to_sfdoll_city_desc:0 "built a Sangvis Ferri Planet"
+decision_planet_to_sfdoll_city_effects_short:0 "The planet type will be changed to Sangvis Ferri Planet, and the original districts will be removed"
+
+decision_planet_to_sfdoll_rw:0 "built a Sangvis Ferri Star Ring"
+decision_planet_to_sfdoll_rw_desc:0 "$decision_planet_to_sfdoll_rw$"
+decision_planet_to_sfdoll_rw_effects:0 "The ring world will become $pc_rw_sfdoll$, and the original districts will be removed"
+
+TERRAFORM_sfdoll_city:0 "terraforming completed"
+TERRAFORM_sfdoll_rw:0 "terraforming completed"
+
+decision_planet_pop_to_sfdoll:0 "SF Doll Remodeling Surgery"
+decision_planet_pop_to_sfdoll_desc:0 "即使你是机器人或者蜂巢子个体，也有机会成为光荣的铁血人形"
+decision_planet_pop_to_sfdoll_effects_short:0 "Population which is not SF Doll Species will be changed to SF Dolls."
+

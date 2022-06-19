@@ -22,7 +22,6 @@ building_sfdoll_collapse_liquid_plant = {
 		}
 		modifier = {	job_sfdoll_collapse_liquid_maker_add = 2	}
 	}
-	triggered_desc = {		text = job_sfdoll_collapse_liquid_maker_effect_desc	}
 
 	resources = {
 		category = planet_buildings
@@ -60,7 +59,7 @@ building_sfdoll_collapse_liquid_plant = {
 # 		}
 # 		modifier = {	job_sfdoll_collapse_liquid_maker_add = 6	}
 # 	}
-# 	triggered_desc = {		text = job_sfdoll_collapse_liquid_maker_effect_desc	}
+
 
 # 	resources = {
 # 		category = planet_buildings

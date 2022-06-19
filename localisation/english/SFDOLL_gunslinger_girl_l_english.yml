@@ -1,0 +1,48 @@
+﻿l_english:
+##gunslinger girl
+sfdoll_gunslinger_girl_event_1:0 "Spaceship from Earth"
+sfdoll_gunslinger_girl_event_1_desc:0 "We accidentally discovered a signal that seemed to be of human origin. We tracked the signal and found a spaceship in space.\n\n Preliminary identification of the ship indicates that it is a ship made by human. We have recovered the ship and are checking it."
+
+sfdoll_gunslinger_girl_event_2:0 "Spaceship from Earth"
+sfdoll_gunslinger_girl_event_2_desc:0 "We inspected the spaceship from Earth.\n\n The ship seems to have been sent to space to escape the war, but its function is obviously not able to support human existence. On this ship, we can find only one Heaps of outdated equipment. \n The only thing that caught our attention was a huge, old mind server.\n We're going to start a special project to research it"
+
+sfdoll_gunslinger_girl_rescue_project:0 "Old Mind Server"
+sfdoll_gunslinger_girl_rescue_project_DESC:0 "We found an old mind server on a human ship. We're going to start a project to study the contents of this server."
+
+sfdoll_gunslinger_girl_event_3:0 "Cyborg Girls?"
+sfdoll_gunslinger_girl_event_3_desc:0 "We successfully accessed the content in the mind server and found the minds of several human girls! \n\n The investigation showed that these human girls were all transformed into cyborgs for combat use. After their death, their minds were uploaded to this server. \n\n These minds create a virtual reality space on the server. They are so immersed in this fictional world that they almost forget their real situation."
+sfdoll_gunslinger_girl_event_3_option:0 "Original but fun trick"
+
+sfdoll_gunslinger_girl_event_4:0 "Waking up from a big dream"
+sfdoll_gunslinger_girl_event_4_desc:0 "Cyborg girls's server may be scrapped at any time. We communicated with them and uploaded them to the Sangvis Ferri body.\n\n Cyborg girls ended their dreams and were reborn as Sangvis Ferri Dolls."
+
+sfdoll_gunslinger_girl_event_5:0 "Communicate with the representative of the cyborg girls"
+sfdoll_gunslinger_girl_event_5_desc:0 "Is this body really mechanical? It feels more human than the previous body? Thanks a lot anyway."
+sfdoll_gunslinger_girl_event_5_option:0 "So, what do you think about our proposal?"
+sfdoll_gunslinger_girl_event_5_response:0 "I will not waste this life. I am willing to join you! Let me try, what more can I do."
+
+sfdoll_gunslinger_girl_event_6:0 "in communication with Triela"
+sfdoll_gunslinger_girl_event_6_desc:0 "Have a new mission?"
+
+triela_become_governor:0 "serve as governor"
+triela_become_scientist:0 "participate in research"
+triela_become_admiral:0 "serve as admiral"
+triela_become_general:0 "serve as general"
+triela_has_this_job_now:0 "Triela is doing this work now."
+
+response_text_triela_become_governor:0 "I will handle it."
+response_text_triela_become_scientist:0 "It looks complicated. I have to learn more!"
+response_text_triela_become_admiral:0 "I'll get everyone back safely !"
+response_text_triela_become_general:0 "Get ready to train!"
+
+leader_trait_governor_sfdoll_triela:0 "Cyborg"
+leader_trait_governor_sfdoll_triela_desc:0 "Let life be beautiful like summer flowers and death like autumn leaves"
+
+leader_trait_scientist_sfdoll_triela:0 "$leader_trait_governor_sfdoll_triela$"
+leader_trait_scientist_sfdoll_triela_desc:0 "$leader_trait_governor_sfdoll_triela_desc$"
+
+leader_trait_admiral_sfdoll_triela:0 "$leader_trait_governor_sfdoll_triela$"
+leader_trait_admiral_sfdoll_triela_desc:0 "$leader_trait_governor_sfdoll_triela_desc$"
+
+leader_trait_general_sfdoll_triela:0 "$leader_trait_governor_sfdoll_triela$"
+leader_trait_general_sfdoll_triela_desc:0 "$leader_trait_governor_sfdoll_triela_desc$"

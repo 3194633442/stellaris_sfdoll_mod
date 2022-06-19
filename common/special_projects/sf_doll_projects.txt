@@ -22,45 +22,11 @@ special_project = {
 				id = sfdoll_search_zion_event.1
 			}
 		}
-		#添加研究项目
-		# enable_special_project = {
-		# 	name = SFDOLL_GATEWAY_PROJECT
-		# }
 	}
 
 	on_fail = {
 	}
 }
-
-#打开传送门，生成星系和诺耶露坟头，已废弃
-special_project = {
-	key = "SFDOLL_GATEWAY_PROJECT"
-	event_chain = sfdoll_search_zion_chain
-
-	# cost = @tier3cost1
-	days_to_research = 30
-	tech_department = physics_technology
-
-	#待修改
-	picture = GFX_evp_sfdoll_ftl
-	event_scope = planet_event
-	requirements = {
-		leader = scientist
-		#skill = 3
-	}
-
-	on_success = {
-		owner = {
-			country_event = {
-				id = sfdoll_search_zion_event.2
-			}
-		}
-	}
-
-	on_fail = {
-	}
-}
-
 
 #迈向锡安
 special_project = {

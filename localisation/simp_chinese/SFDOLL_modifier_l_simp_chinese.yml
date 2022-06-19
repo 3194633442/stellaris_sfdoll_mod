@@ -10,6 +10,3 @@ mod_planet_pops_robotics_energy_upkeep_mult:0 "机械人口$energy$ £energy£ �
 mod_planet_jobs_sr_dark_matter_produces_mult:0 "岗位产出的 §Y$sr_dark_matter$§! £sr_dark_matter£ "
 
 mod_planet_jobs_GF_nyto_collapse_liquid_produces_mult:0 "岗位产出的 §Y$GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ "
-
-mod_ships_alloys_upkeep_mult:0 "舰船合金维护费"
-mod_ships_energy_upkeep_mult:0 "舰船能量币维护费"

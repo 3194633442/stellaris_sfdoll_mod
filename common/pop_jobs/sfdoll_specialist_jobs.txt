@@ -275,7 +275,7 @@ sfdoll_energy_maker = {
 		category = planet_technician
 		produces = {	energy = 40 }
 		upkeep = {
-			GF_nyto_collapse_liquid = 2
+			sr_dark_matter = 2
 		}
 	}
 	weight = {	weight = 20	}

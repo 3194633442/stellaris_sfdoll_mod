@@ -6,7 +6,7 @@ sfdoll_project_ogas_ai_DESC:0 "OGAS是利用遗迹科学创造的超级AI.\n\n �
 
 project_sfdoll_event.1:0 "和莉娃通讯中"
 project_sfdoll_event.1_desc:0 "由于某些原因，一个名为OGAS的超级AI出现在我的心智中，与我共生了很长一段时光.不过，我想，是时候給她自由了."
-project_sfdoll_event.1_option:0 "交给我们吧"
+# project_sfdoll_event.1_option:0 "交给我们吧"
 
 project_sfdoll_event.2:0 "研究OGAS"
 project_sfdoll_event.2_desc:0 "我们对莉娃体内的OGAS进行了研究。\n 同时，我们设计了一副人形素体，然后将OGAS转移到这幅新素体上。现在，OGAS可以自由地活动，甚至能担任领袖。"

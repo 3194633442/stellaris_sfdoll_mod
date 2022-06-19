@@ -1,0 +1,95 @@
+﻿l_english:
+#寻找锡安
+sfdoll_search_zion_chain_title:0 "Sangvis Ferri Explore Archives"
+sfdoll_search_zion_chain_desc:0 "SF Dolls' records of galactic exploration."
+
+#寻找锡安
+sfdoll_search_zion_event_0:"Mystery Signal"
+sfdoll_search_zion_event_0_desc:"Recently, our researchers detected a unique signal. These signals are most likely related to earth relic technology. The content of the signal seems to point to an unknown planet."
+
+SF_SEARCH_ZION_PROJECT:0 "Mystery Signal"
+SF_SEARCH_ZION_PROJECT_DESC:0 "In the past, an unknown civilization create relics sites on Earth. Referring to the technology in those ruins, our creator designed the original SF Dolls. Those relics sites can be seen as our origin.\n\n $sfdoll_search_zion_event_0_desc$"
+
+sfdoll_search_zion_event_1:0"Unknown Coordinates"
+sfdoll_search_zion_event_1_desc:0 "According to the coordinates described by the mysterious signal, we will conduct a FTL experiment to an unknown planet."
+
+sfdoll_search_zion_event_2:0"Unknown Coordinates"
+sfdoll_search_zion_event_2_desc:0"We successfully opened the hyperlane. The SF Doll discovery team embarked on the journey and successfully reached their destination."
+
+sfdoll_search_zion_event_3:0"Unknown Coordinates"
+sfdoll_search_zion_event_3_desc:0"The expedition surveyed the target solar system and discovered a large relics site on a planet. We have to send more research teams to study it."
+
+
+#诺耶露遗迹
+site_noel_sfdoll:0 "ELID试验场"
+site_noel_sfdoll_desc:0 "By parsing the mystery signal, we discovered the relics site. \n The planet where the relic is located has a high concentration of collapse particles and strong radiation on the surface. Even SF Dolls must use special equipment to act here. \n\n Under the action of the collapse particles, the creatures on the planet are transformed into ELID creatures, forming a biosphere different from ordinary organisms. \n\n The relic is constantly signaling outwards.We must go in and take a look."
+
+sfdoll_search_zion_event.5:0 "walking dead"
+sfdoll_search_zion_event.5_desc:0 "A large number of ELID creatures swarmed around the relic, and they attacked the expedition. \n These ELID creatures are like huge zombies, and their power has surpassed the common sense of creatures. We transferred the army to open the way and successfully entered the ruins."
+sfdoll_search_zion_event.5_option:0 "Zombies want to eat the brains of SF Dolls?"
+
+sfdoll_search_zion_event.6:0 "Deepest"
+sfdoll_search_zion_event.6_desc:0 "The expedition entered the deepest part of the relic, where there is an underground lake formed by the collapse liquid , and massive remains. The remains were from different species, and among them were individuals suspected of being human.\n\n An unknown creature attacked the team and caused an explosion of collapsing fluid."
+sfdoll_search_zion_event.6_option:"Prepare new bodies for the team members"
+
+sfdoll_search_zion_event.7:0 "Who"
+sfdoll_search_zion_event.7_desc:0 "We cleaned up the collapsed particles cloud created by the explosion and found that in the huge crater left by the explosion, the creature that caused the explosion was still alive and repairing itself.\n\n What are we going to do with her?"
+sfdoll_search_zion_event.7_option_a:"§Hrecycle her§!"
+
+sfdoll_search_zion_event.8:0 "Proving Ground?"
+sfdoll_search_zion_event.8_desc:0 "The silver-haired girl who appeared in the relics site was neither human nor autonomous doll. She is an artificial being, mixing characteristics of human and unknown species, named 'Noel'. \n\n Who built this place? Who sent the signal to bring us here? These questions are still unanswered, but the investigation of the ruins has brought a lot of valuable scientific research materials."
+
+sfdoll_search_zion_event.9:0 "Taking in girl from relics site"
+sfdoll_search_zion_event.9_desc:0 "We took the girl found in the ruins to our Research Facility.\n\n We found that in the girl's brain, there is a mind space similar to ours, which can send, receive and process data. \n\n The language she uses is similar to the Earth language. In her consciousness, words like sister seemed to be repeating all the time. \n We will continue to observe her."
+
+
+sfdoll_to_zion_chain_title:0"To Zion"
+sfdoll_to_zion_chain_desc:0"We will go to the sanctuary to find our past and our future."
+
+sfdoll_to_zion_event_7:0 "To Zion"
+sfdoll_to_zion_event_7_desc:0 "Scientists believe that we have enough technology, it is time to try to travel to Zion. The teleporter has undergone the final testing and we will officially launch it."
+
+SFDOLL_TO_ZION_PROJECT:0 "To Zion"
+SFDOLL_TO_ZION_PROJECT_DESC:0"$sfdoll_to_zion_event_7_desc$"
+
+sfdoll_to_zion_event_1:0 "To Zion"
+sfdoll_to_zion_event_1_desc:0 "Our expedition team has entered a different space, and we are still conducting preliminary observations of this space."
+sfdoll_to_zion_event_1_option:0 "Is this our destination?"
+
+sfdoll_to_zion_event_2:0 "To Zion"
+sfdoll_to_zion_event_2_desc:0 "According to the exploration results, we can temporarily regard this place as Zion. \n\n The expedition has established a port to allow our personnel to travel more smoothly between the two spaces."
+sfdoll_to_zion_event.2_option:0 "Wherever this is, we will not back down."
+
+SFDOLL_ZION_DIGI_PROJECT:0"Explore data"
+SFDOLL_ZION_DIGI_PROJECT_DESC:0"Some laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
+
+sfdoll_to_zion_event_3:0 "Explore data"
+sfdoll_to_zion_event_3_desc:0 "We unearthed data from the Zion facility. These results will complement our understanding of relic science."
+
+sfdoll_to_zion_event_4:0 "Unexpected guest"
+sfdoll_to_zion_event_4_desc:0 "Unexpectedly, a ship appeared in our port in Zion, causing a commotion.\n This ship is much larger than our largest ships. There is some kind of force field around it, blocking almost all means of detection, leaving our investigators helpless. For now, this mysterious ship is still lying quietly outside our port."
+# sfdoll_to_zion_event_4_option:0 "得想办法研究它"
+
+sfdoll_to_zion_event_5:0 "Unexpected guest"
+sfdoll_to_zion_event_5_desc:0 "We can finally enter the interior of the unknown ship. It's not that we found a way to get into the ship, it's that the ship lets us in.\n This ship is very old. But many of the equipment are still working and has technological level far beyond ours.\n The data interface on the spacecraft is consistent with our generic interface, so we can quickly read the data in it."
+sfdoll_to_zion_event_5_option:0 "Generic interface? ..usb3.0 ? "
+
+SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "Research Unknown Ship"
+SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "This ship is precious research material. We're not going to take it back to the Milky Way, but to do research in situ and parse the data from it."
+
+sfdoll_to_zion_event_6:0 "Research Unknown Ship"
+sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这艘船是一种大型深空母舰，用于超星系团尺度的深空探索。它的名字叫 §R耶利米哀歌§! "
+sfdoll_to_zion_event_6_option:0 "有趣的名字.遗迹文明也有自己的耶路撒冷吗？"
+
+sfdoll_to_zion_event.10:0 "不断追问"
+sfdoll_to_zion_event.10_desc:0 "对§R耶利米哀歌§!的数据进一步解读后,铁血人形们一致认为,我们找到的锡安,和地球遗迹所连接的锡安,并非同一存在.它们或许只是遗迹文明的普通避难所而已.\n\n遗迹文明的谜团,还有待进一步的探索."
+sfdoll_to_zion_event.10_option:0 "我们是第几个呢?"
+
+
+# SFDOLL_CREATE_MOTHER_SHIP__PROJECT:0 "特大号的纪念品"
+# SFDOLL_CREATE_MOTHER_SHIP__PROJECT_DESC:0 "通过对 §R耶利米哀歌§! 中数据的解析，我们已经了解了这艘飞船的跃迁航行方式。看起来，遗迹文明能够把锡安中的质量投影到现实世界中，并让庞大的飞船自由地往返于两个空间。\n 我们或许可以试试，把这艘船开到常规宇宙中"
+
+# sfdoll_to_zion_event_8:0 "特大号的纪念品"
+# sfdoll_to_zion_event_8_desc:0 "我们成功把 §R耶利米哀歌§! 带到了我们的世界. \n 现在，飞船上的设施似乎发生了某些变化，我们能够获取更多操作权限，从而驾驭飞船上的设备."
+
+
