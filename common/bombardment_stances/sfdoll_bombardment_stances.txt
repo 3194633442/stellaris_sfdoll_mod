@@ -33,7 +33,7 @@ sfdoll_precise = {
 		trigger = {
 			owner = {
 				has_authority = auth_gf_sfdoll
-				has_technology = tech_sfdoll_weapen_t_2
+				has_technology = tech_sfdoll_weapon_t_7
 			}
 		}
 	

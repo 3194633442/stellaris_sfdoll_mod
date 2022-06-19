@@ -32,49 +32,49 @@ sf_a_doll = {
 	resources = {}
 }
 
-#铁血立绘的普通有机体
-HUM_sfdoll_portrait = {
-	archetype = BIOLOGICAL
-	gender = yes
-	use_climate_preference = yes
-	portrait_modding = yes
-	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+# #铁血立绘的普通有机体
+# HUM_sfdoll_portrait = {
+# 	archetype = BIOLOGICAL
+# 	gender = yes
+# 	use_climate_preference = yes
+# 	portrait_modding = yes
+# 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 	
-	custom_portraits = {
-		#添加物种肖像
-		portraits = {
-			"gf_sf_doll_group"
-		}
-	}
-	graphical_culture = mammalian_01
-	move_pop_sound_effect = "moving_pop_confirmation"
-}
-#铁血立绘的智械
-MACHINE_sfdoll_portrait = {
-	archetype = MACHINE
+# 	custom_portraits = {
+# 		#添加物种肖像
+# 		portraits = {
+# 			"gf_sf_doll_group"
+# 		}
+# 	}
+# 	graphical_culture = mammalian_01
+# 	move_pop_sound_effect = "moving_pop_confirmation"
+# }
+# #铁血立绘的智械
+# MACHINE_sfdoll_portrait = {
+# 	archetype = MACHINE
 
-	randomized = {
-		# The create_species effect can't properly take the possible trigger below into account.
-		# Work around this by disabling this class for species randomization after game start.
-		NOT = { has_global_flag = game_started }
-	}
-	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
-	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
+# 	randomized = {
+# 		# The create_species effect can't properly take the possible trigger below into account.
+# 		# Work around this by disabling this class for species randomization after game start.
+# 		NOT = { has_global_flag = game_started }
+# 	}
+# 	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+# 	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
 
-	gender = no
-	use_climate_preference = no
-	portrait_modding = yes
+# 	gender = no
+# 	use_climate_preference = no
+# 	portrait_modding = yes
 
-	leader_age_min = 2
-	leader_age_max = 10
+# 	leader_age_min = 2
+# 	leader_age_max = 10
 
-	custom_portraits = {
-		portraits = {
-			"gf_sf_doll_group"
-		}
-	}
-	graphical_culture = mammalian_01
-	move_pop_sound_effect = "robot_pops_move"
+# 	custom_portraits = {
+# 		portraits = {
+# 			"gf_sf_doll_group"
+# 		}
+# 	}
+# 	graphical_culture = mammalian_01
+# 	move_pop_sound_effect = "robot_pops_move"
 
-	resources = {}
-}
+# 	resources = {}
+# }

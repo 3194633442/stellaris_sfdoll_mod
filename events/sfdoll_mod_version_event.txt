@@ -161,17 +161,17 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = sfdoll_mod_version_event.6
-	hide_window = no
-	is_triggered_only = yes
-	immediate = {
-		capital_scope = {
-			solar_system = {
-				spawn_megastructure = {
-					type = sfdoll_mega_starport
-				}
-			}
-		}
-	}
-}
+# country_event = {
+# 	id = sfdoll_mod_version_event.6
+# 	hide_window = no
+# 	is_triggered_only = yes
+# 	immediate = {
+# 		capital_scope = {
+# 			solar_system = {
+# 				spawn_megastructure = {
+# 					type = sfdoll_mega_starport
+# 				}
+# 			}
+# 		}
+# 	}
+# }

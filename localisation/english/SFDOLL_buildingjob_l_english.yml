@@ -163,6 +163,10 @@ job_sfdoll_tactical_desc:0"Tatical Doll equiped with  "
 job_sfdoll_tactical_effect_desc:0"$job_sfdoll_tactical$ produces naval capacity and $unity$，increases defense forces, improves the stability during martial law."
 mod_job_sfdoll_tactical_add:0 "$job_sfdoll_tactical$ jobs"
 
+
+tech_gf_sfdoll_assemble_building:0 "SF Doll Assembling"
+tech_gf_sfdoll_assemble_building_desc:0 "$building_sfdoll_assembly_plant_desc$"
+
 building_sfdoll_assembly_plant:0 "Sangvis Ferri Doll Assembly Plant"
 building_sfdoll_assembly_plant_desc:0 "The AI science based on the OGAS algorithm, bionics, and mechanics , all of which form the basis for assembling Sangvis Ferri Doll."
 

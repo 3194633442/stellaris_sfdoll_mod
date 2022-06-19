@@ -356,7 +356,7 @@ country_event = {
 	}
 	option = {
 		#取消本次攻击
-		name = sfdoll_planet_killer_event_3_option_13
+		name = QUIT
 		remove_flag_sfdoll_planet_killer_target_effect = yes
 		clear_target_of_pk_sfdoll_effect = yes
 		break = yes

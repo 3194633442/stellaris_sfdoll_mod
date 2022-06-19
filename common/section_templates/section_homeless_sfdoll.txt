@@ -358,59 +358,59 @@ ship_section_template = {
 # 	}
 # }
 
-ship_section_template = {
-	key = "section_sfdoll_homeless_4"
-	ship_size = sfdoll_homeless_ship
-	fits_on_slot = weapon
-	should_draw_components = yes
-	entity = homeship_entity_loctor_mesh_entity
-	icon = "GFX_ship_part_core_bow"
-	icon_frame = 1
-	component_slot = {
-		name = "L061"
-		template = invisible_extra_large_fixed
-		locatorname = "L061"
-	}
-	component_slot = {
-		name = "L062"
-		template = invisible_point_defence_turret
-		locatorname = "L062"
-	}
-	component_slot = {
-		name = "L063"
-		template = invisible_point_defence_turret
-		locatorname = "L063"
-	}
-	component_slot = {
-		name = "L064"
-		template = invisible_point_defence_turret
-		locatorname = "L064"
-	}
-	component_slot = {
-		name = "L065"
-		template = invisible_point_defence_turret
-		locatorname = "L065"
-	}
-	component_slot = {
-		name = "L066"
-		template = invisible_point_defence_turret
-		locatorname = "L066"
-	}
-	component_slot = {
-		name = "L067"
-		template = invisible_point_defence_turret
-		locatorname = "L067"
-	}
-	component_slot = {
-		name = "L068"
-		template = invisible_point_defence_turret
-		locatorname = "L068"
-	}
-	component_slot = {
-		name = "L069"
-		template = invisible_point_defence_turret
-		locatorname = "L069"
-	}
-	large_utility_slots = 15
-	aux_utility_slots = 3
-}
+# ship_section_template = {
+# 	key = "section_sfdoll_homeless_4"
+# 	ship_size = sfdoll_homeless_ship
+# 	fits_on_slot = weapon
+# 	should_draw_components = yes
+# 	entity = homeship_entity_loctor_mesh_entity
+# 	icon = "GFX_ship_part_core_bow"
+# 	icon_frame = 1
+# 	component_slot = {
+# 		name = "L061"
+# 		template = invisible_extra_large_fixed
+# 		locatorname = "L061"
+# 	}
+# 	component_slot = {
+# 		name = "L062"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L062"
+# 	}
+# 	component_slot = {
+# 		name = "L063"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L063"
+# 	}
+# 	component_slot = {
+# 		name = "L064"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L064"
+# 	}
+# 	component_slot = {
+# 		name = "L065"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L065"
+# 	}
+# 	component_slot = {
+# 		name = "L066"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L066"
+# 	}
+# 	component_slot = {
+# 		name = "L067"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L067"
+# 	}
+# 	component_slot = {
+# 		name = "L068"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L068"
+# 	}
+# 	component_slot = {
+# 		name = "L069"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "L069"
+# 	}
+# 	large_utility_slots = 15
+# 	aux_utility_slots = 3
+# }

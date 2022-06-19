@@ -1,0 +1,220 @@
+﻿l_english:
+###############################
+#componet
+tech_sfdoll_weapon_s_1:0"Sangvis Ferri Armament Upgrade"
+tech_sfdoll_weapon_s_1_desc:0"We need more reliable space weapons"
+sfdoll_weapon_s_1:0"Snake Fire System"
+sfdoll_weapon_m_1:0 "$sfdoll_weapon_s_1$"
+sfdoll_weapon_L_1:0 "$sfdoll_weapon_s_1$"
+component_set_sfdoll_weapon_s_1:0 "$sfdoll_weapon_s_1$"
+component_set_sfdoll_weapon_s_1_DESC:0 "$sfdoll_weapon_s_1$"
+
+sfdoll_weapon_x_1:0"Architect Gun"
+component_set_sfdoll_weapon_x_1:0"$sfdoll_weapon_x_1$"
+component_set_sfdoll_weapon_x_1_DESC:0 "$sfdoll_weapon_x_1$"
+
+sfdoll_weapen_t_1:0"Gager Gun"
+component_set_sfdoll_weapen_t_1:0"$sfdoll_weapen_t_1$"
+component_set_sfdoll_weapen_t_1_DESC:0"$sfdoll_weapen_t_1$"
+
+sfdoll_weapon_p_1:0"Destroyer Point Defense"
+component_set_sfdoll_weapon_p_1:0"$sfdoll_weapon_p_1$"
+component_set_sfdoll_weapon_p_1_DESC:0"$sfdoll_weapon_p_1$"
+
+gf_sfdoll_missile:0 "SF Jump Missile"
+component_set_gf_sfdoll_missile:0 "$gf_sfdoll_missile$"
+component_set_gf_sfdoll_missile_DESC:0 "The $gf_sfdoll_missile$ is transmitted to the enemy ship with a small FTL device, and does not need to fly as slowly as a conventional missile, so it will not be intercepted by the enemy's anti-aircraft fire."
+
+sfdoll_strike_craft:0 "Scarecrow Strike Craft"
+component_set_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
+component_set_sfdoll_strike_craft_DESC:0 "$sfdoll_strike_craft$"
+
+
+# tech_sfdoll_weapon_x_1:0"建筑师级主炮"
+# tech_sfdoll_weapon_x_1_desc:0"铁血的标准主炮"
+
+# tech_sfdoll_weapen_t_1:0"计量官级重炮"
+# tech_sfdoll_weapen_t_1_desc:0"装备于大型战舰"
+
+# tech_sfdoll_weapon_p_1:0"破坏者点防御"
+# tech_sfdoll_weapon_p_1_desc:0"防御性舰载武器"
+
+# tech_gf_sfdoll_missile:0 "$gf_sfdoll_missile$"
+# tech_gf_sfdoll_missile_desc:0 "$component_set_gf_sfdoll_missile_DESC$"
+
+# tech_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
+# tech_sfdoll_strike_craft_desc:0 "$component_set_sfdoll_strike_craft_DESC$"
+
+sfdoll_weapon_x_2:0 "Venomous Fang Gun"
+component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+component_set_sfdoll_weapon_x_2_DESC:0 "Every hit from this axial gun is lethal"
+tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
+tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
+
+component_set_sfdoll_weapon_L_2:0 "Falcon Fire System"
+component_set_sfdoll_weapon_L_2_DESC:0 "$component_set_sfdoll_weapon_L_2$"
+sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
+sfdoll_weapon_m_2:0 "$component_set_sfdoll_weapon_L_2$"
+tech_sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
+tech_sfdoll_weapon_L_2_desc:0 "$component_set_sfdoll_weapon_L_2_DESC$"
+
+component_set_sfdoll_weapon_p_2:0 "Seal Weapons"
+component_set_sfdoll_weapon_p_2_DESC:0 "These tiny weapons can unleash incredible firepower"
+sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
+sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
+tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
+tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
+
+
+tech_sfdoll_jump_drive:0"Reverse Collapse:Rebuild Quality"
+tech_sfdoll_jump_drive_desc:0 "The gradual improvement of the collapse technology reveals the development direction of FTL technology."
+sfdoll_jump_drive:0"SF Jump Drive"
+
+tech_sfdoll_aux_repair_ship:0"$sfdoll_aux_repair_ship$"
+tech_sfdoll_aux_repair_ship_desc:0 "$component_set_sfdoll_aux_repair_ship_DESC$"
+
+sfdoll_aux_repair_ship:0"Damage Control System"
+component_set_sfdoll_aux_repair_ship:0"$sfdoll_aux_repair_ship$"
+component_set_sfdoll_aux_repair_ship_DESC:0"Damage control system improves ship survivability"
+
+# sfdoll_aux_quality_rebuilding:0 "质量再生系统"
+# sfdoll_aux_quality_rebuilding_DESC:0 "通过逆向坍塌技术操纵微观粒子，我们可以构建飞船所使用的物质资源，并大幅提高飞船的自持力"
+# tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
+# tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
+
+tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
+tech_sfdoll_aux_ship_revive_desc:0 "Most attacks can be blocked by space interference technology"
+sfdoll_aux_ship_revive:0 "SF Space Filter"
+sfdoll_aux_ship_revive_DESC:0 "Activated at the start of an engagement, blocking attacks on the ship. The effect lasts for 10 days,then it will activate again after a 20-day cooldown. Effects do not stack."
+
+
+tech_sfdoll_thruster:0"$sfdoll_thruster$"
+tech_sfdoll_thruster_desc:0" These thrusters systems seem to defy common sense physics of the past."
+sfdoll_thruster:0"SF Advanced Thruster"
+sfdoll_thruster_2:0"$sfdoll_thruster$"
+sfdoll_thruster_3:0 "$sfdoll_thruster$"
+sfdoll_thruster_4:0 "$sfdoll_thruster$"
+sfdoll_thruster_5:0 "$sfdoll_thruster$"
+sfdoll_thruster_6:0 "$sfdoll_thruster$"
+
+
+#computer
+tech_sfdoll_ship_computer:0"SF Warship AI"
+tech_sfdoll_ship_computer_desc:0"The highly intelligent battleship AI is regarded as a member of SF Dolls. However, SF Dolls is originally a group of combat AI."
+sfdoll_combat_computer_1:0"SF Warship AI - manual control"
+sfdoll_combat_computer_2:0"SF Warship AI - artillery"
+sfdoll_combat_computer_3:0"SF Warship AI - Carrier"
+
+
+#defense
+sfdoll_ship_defense_s:0 "Acceleration Prism"
+sfdoll_ship_defense_m:0"$sfdoll_ship_defense_s$"
+sfdoll_ship_defense_L:0"$sfdoll_ship_defense_s$"
+
+component_set_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
+component_set_sfdoll_ship_defense_s_DESC:0 "$sfdoll_ship_defense_s$ can deflect enemy fire"
+
+tech_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
+tech_sfdoll_ship_defense_s_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
+
+sfdoll_ship_armor_L:0 "Collapse Matter Armor"
+sfdoll_ship_armor_m:0 "$sfdoll_ship_armor_L$"
+sfdoll_ship_armor_s:0 "$sfdoll_ship_armor_L$"
+
+component_set_sfdoll_ship_armor_L:0"$sfdoll_ship_armor_L$"
+component_set_sfdoll_ship_armor_L_DESC:0 "Armor treated with collapse technology for increased strength"
+
+tech_sfdoll_ship_armor_L:0"$sfdoll_ship_defense_s$"
+tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
+
+
+sfdoll_ship_sensors:0"SF Advanced Sensors"
+tech_sfdoll_ship_sensors:0 "$sfdoll_ship_sensors$"
+tech_sfdoll_ship_sensors_desc:0 "$sfdoll_ship_sensors$"
+
+
+tech_aux_sfdoll_collapse_power:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
+tech_aux_sfdoll_collapse_power_desc:0 "Use Collapse Particles to procuce energy"
+aux_sfdoll_collapse_power:0 "Collapse Auxiliary Power"
+aux_sfdoll_collapse_power_DESC:0 "Efficient auxiliary energy for compressing volume through collapse technology"
+
+CORVETTE_sfdoll_collapse_REACTOR:0"Collapse Reactor"
+DESTROYER_sfdoll_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
+CRUISER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+BATTLESHIP_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+TITAN_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+COLOSSUS_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+PLATFORM_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+ION_CANNON_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+
+
+tech_sfdoll_ship_power_2:0 "Collapse Reactor Class-2"
+tech_sfdoll_ship_power_2_desc:0 "Use the singularity formed by the collapse of matter to power the ship. Currently only a few ship types can be equipped."
+sfdoll_REACTOR_2_1:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_2:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_3:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
+
+
+sfdoll_warship_1:0 "C-15 Light Corvette"
+sfdoll_warship_2:0 "C-17 Heavy Weapon Corvette"
+sfdoll_warship_3:0 "D-21 Light Destroyer"
+sfdoll_warship_4:0 "D-23 Heavy Destroyer"
+
+sfdoll_warship_1_plural:0 "C-15 Light Corvettes"
+sfdoll_warship_2_plural:0 "C-17 Heavy Weapon Corvettes"
+sfdoll_warship_3_plural:0 "D-21 Light Destroyers"
+sfdoll_warship_4_plural:0 "D-23 Heavy Destroyers"
+
+tech_sfdoll_warship_1:0 "Quality Regenerate System"
+tech_sfdoll_warship_1_desc:0 "The application of dark matter engineering and matter collapse technology has greatly improved the self-sustainability of the new ships."
+
+tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
+tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$"
+
+tech_sfdoll_warship_3:0 "$sfdoll_warship_3$"
+tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$"
+
+tech_sfdoll_warship_4:0 "$sfdoll_warship_4$"
+tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$"
+
+GF_sfdoll_warship_1_bow_X1:0 "A"
+sfdoll_warship_1_mid_L3:0 "B"
+sfdoll_warship_1_mid_L2S2P2:0 "C"
+sfdoll_warship_1_stern_L1:0 "D"
+
+GF_sfdoll_warship_2_bow_T1:0 "A"
+sfdoll_warship_2_bow_X2:0 "B"
+sfdoll_warship_2_mid_L6:0 "C"
+sfdoll_warship_2_mid_L4M2P4:0 "D"
+sfdoll_warship_2_stern_L2:0 "E"
+
+sfdoll_warship_3_bow:0 "A"
+GF_nyto_01_sfdoll_warship_3_core:0 "B"
+sfdoll_warship_3_stern:0 "C"
+
+sfdoll_warship_4_bow:0 "A"
+sfdoll_warship_4_mid:0 "B"
+sfdoll_warship_4_mid2:0 "C"
+sfdoll_warship_4_stern:0 "D"
+
+need_sfdoll_mega_starport:0 "It can be built in the following places:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
+
+#flag ship
+
+component_aura_sfdoll_1:0 "Jamming Device"
+hostile_aura_sfdoll_1:0 "Jamming Device"
+
+
+ship_sfdoll_noel:0 "Noel"
+section_sfdoll_noel:0 "Noel"
+
+#section
+tech_sfdoll_battleship_bow_x2:0 "SF Military Industry:Lightweight Weapon"
+tech_sfdoll_battleship_bow_x2_desc:0 "Lightweight heavy weapons to make them compatible with more ship types"
+description_tech_sfdoll_battleship_bow_x2:0 "§HUnlocks Sections:§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$"
+
+sfdoll_CRUISER_BOW_X1:0 "Lightweight Weapon Bow"
+sfdoll_battleship_bow_T1:0 "Lightweight Weapon Bow"

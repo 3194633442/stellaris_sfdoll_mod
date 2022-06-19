@@ -38,7 +38,7 @@ tech_sfdoll_sophon_computer = {
 	is_rare = yes
 	category = { particles }
 	icon = tech_sfdoll_sophon_computer
-	weight = @tier4weight3
+	weight = 0
 	prerequisites = {	tech_zero_point_power	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {

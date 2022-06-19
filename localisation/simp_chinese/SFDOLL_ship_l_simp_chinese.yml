@@ -23,7 +23,7 @@ component_set_sfdoll_weapon_p_1_DESC:0"$sfdoll_weapon_p_1$"
 
 gf_sfdoll_missile:0 "折跃坍塌弹"
 component_set_gf_sfdoll_missile:0 "$gf_sfdoll_missile$"
-component_set_gf_sfdoll_missile_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，再引发物质坍塌以造成破坏。它攻击时不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
+component_set_gf_sfdoll_missile_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
 
 sfdoll_strike_craft:0 "稻草人舰载战机"
 component_set_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
@@ -68,7 +68,7 @@ tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
 
 
 tech_sfdoll_jump_drive:0"逆向坍塌:质量重建"
-tech_sfdoll_jump_drive_desc:0"质量重建理论的逐步完善,揭示了新一代FTL技术的发展方向.整个银河,将任我们畅游."
+tech_sfdoll_jump_drive_desc:0"质量重建理论的逐步完善,揭示了新一代FTL技术的发展方向."
 sfdoll_jump_drive:0"铁血跃迁引擎"
 
 tech_sfdoll_aux_repair_ship:0"损害管理"
@@ -84,13 +84,13 @@ tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 tech_sfdoll_aux_ship_revive:0 "SF空间滤网"
-tech_sfdoll_aux_ship_revive_desc:0 "通过空间干涉技术，SF空间滤网可以隔绝大部分攻击。"
+tech_sfdoll_aux_ship_revive_desc:0 "通过空间干涉技术，大部分攻击可以被抵挡。"
 sfdoll_aux_ship_revive:0 "SF空间滤网"
 sfdoll_aux_ship_revive_DESC:0 "交战开始时启动，使舰船所受攻击无效化。效果持续10天，效果结束后进行20天的冷却，之后会再次启动。效果无法叠加。"
 
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
-tech_sfdoll_thruster_desc:0"这些推进系统可以随心所欲地操纵飞船的运动。它们的运作似乎违反了过去的物理常识。"
+tech_sfdoll_thruster_desc:0"这些推进系统似乎违反了过去的物理常识。"
 sfdoll_thruster:0"铁血先进机动系统"
 sfdoll_thruster_2:0"$sfdoll_thruster$"
 sfdoll_thruster_3:0 "$sfdoll_thruster$"
@@ -101,19 +101,17 @@ sfdoll_thruster_6:0 "$sfdoll_thruster$"
 
 #computer
 tech_sfdoll_ship_computer:0"铁血战舰AI"
-tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI，被视为铁血人形的一员"
+tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI,被视为铁血人形的一员.当然了，铁血本来就是一群作战AI."
 sfdoll_combat_computer_1:0"铁血战舰AI(手动)"
 sfdoll_combat_computer_2:0"铁血战舰AI(炮击)"
 sfdoll_combat_computer_3:0"铁血战舰AI(航母)"
-
-COMBAT_COMPUTER_DEFAULT_sfdoll:0 "基础作战电脑"
 
 #defense
 sfdoll_ship_defense_s:0 "加速棱镜"
 sfdoll_ship_defense_m:0"$sfdoll_ship_defense_s$"
 sfdoll_ship_defense_L:0"$sfdoll_ship_defense_s$"
 component_set_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
-component_set_sfdoll_ship_defense_s_DESC:0 "铁血的加速棱镜是一类可进行矢量调节的运动干涉装置。它可以为弹药灌注更大的能量和修正弹道，同时也可以用于抵御攻击。"
+component_set_sfdoll_ship_defense_s_DESC:0 "$sfdoll_ship_defense_s$可以偏转敌方火力"
 tech_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_defense_s_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
@@ -121,22 +119,22 @@ sfdoll_ship_armor_L:0 "坍塌物质装甲"
 sfdoll_ship_armor_m:0 "$sfdoll_ship_armor_L$"
 sfdoll_ship_armor_s:0 "$sfdoll_ship_armor_L$"
 component_set_sfdoll_ship_armor_L:0"$sfdoll_ship_armor_L$"
-component_set_sfdoll_ship_armor_L_DESC:0 "利用物质坍塌技术处理装甲，以提升强度。此类装甲可适配船体的薄弱部位。"
+component_set_sfdoll_ship_armor_L_DESC:0 "利用物质坍塌技术处理装甲，以提升强度"
 tech_sfdoll_ship_armor_L:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
 
-tech_sfdoll_ship_sensors:0"铁血先进舰载传感器"
-tech_sfdoll_ship_sensors_desc:0"铁血最为尖端的舰载传感器"
-sfdoll_ship_sensors:0"铁血舰载传感器"
+sfdoll_ship_sensors:0"铁血先进传感器"
+tech_sfdoll_ship_sensors:0 "$sfdoll_ship_sensors$"
+tech_sfdoll_ship_sensors_desc:0 "$sfdoll_ship_sensors$"
 
 
-tech_aux_sfdoll_collapse_power:0 "坍塌粒子反应堆"
-tech_aux_sfdoll_collapse_power_desc:0 "利用坍塌粒子制造高性能舰载能源"
+tech_aux_sfdoll_collapse_power:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
+tech_aux_sfdoll_collapse_power_desc:0 "利用坍塌粒子提供能源"
 aux_sfdoll_collapse_power:0 "坍塌粒子副能源"
-aux_sfdoll_collapse_power_DESC:0 "通过坍塌科技压缩体积的高效辅助能源，可以装备在各类舰船上"
+aux_sfdoll_collapse_power_DESC:0 "通过坍塌科技压缩体积的高效辅助能源"
 
-CORVETTE_sfdoll_collapse_REACTOR:0"坍塌粒子反应堆"
+CORVETTE_sfdoll_collapse_REACTOR:0"坍塌反应堆"
 DESTROYER_sfdoll_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 CRUISER_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 BATTLESHIP_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
@@ -148,7 +146,7 @@ STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 
 
 tech_sfdoll_ship_power_2:0 "二级坍塌反应堆"
-tech_sfdoll_ship_power_2_desc:0 "利用逆向坍塌现象形成的奇点为飞船供能.目前仅有少数舰种可装备."
+tech_sfdoll_ship_power_2_desc:0 "利用物质坍塌形成的奇点为飞船供能.目前仅有少数舰种可装备."
 sfdoll_REACTOR_2_1:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_2:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_3:0 "$tech_sfdoll_ship_power_2$"
@@ -170,7 +168,7 @@ sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
 sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
 
 tech_sfdoll_warship_1:0 "质量再生系统"
-tech_sfdoll_warship_1_desc:0 "暗物质工程和物质坍塌技术的应用,大幅提高了新舰种的建造效率和自持力."
+tech_sfdoll_warship_1_desc:0 "暗物质工程和坍塌技术的应用,大幅提高了新舰种的自持力."
 
 tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
 tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$"
@@ -213,16 +211,9 @@ ship_sfdoll_noel:0 "诺耶露"
 section_sfdoll_noel:0 "诺耶露装备箱"
 
 #section
-tech_sfdoll_battleship_bow_x2:0 "铁血军工:武装轻量化"
-tech_sfdoll_battleship_bow_x2_desc:0 "利用物质坍塌工程学，舰船设备的体积与重量得到大幅缩减。作为这一技术的成果，巡洋舰与战列舰得以搭载更强的武器。"
-description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$,$battleship_stern_sfdoll$"
+tech_sfdoll_battleship_bow_x2:0 "铁血军工:轻量化武器"
+tech_sfdoll_battleship_bow_x2_desc:0 "对重型武器进行轻量化，使其兼容更多舰船类型"
+description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$"
 
 sfdoll_CRUISER_BOW_X1:0 "强化主炮舰艏"
 sfdoll_battleship_bow_T1:0 "强化主炮舰艏"
-battleship_stern_sfdoll:0 "强化舰尾"
-
-
-edict_gfsfdoll_ship_hull:0 "先进船体组装"
-edict_gfsfdoll_ship_hull_desc:0 "以尖端工程学改良的船体拥有优秀的性能，但建造条件也更加严格"
-tech_edict_gfsfdoll_ship_hull:0 "$edict_gfsfdoll_ship_hull$"
-tech_edict_gfsfdoll_ship_hull_desc:0 "$edict_gfsfdoll_ship_hull_desc$"

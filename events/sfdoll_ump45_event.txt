@@ -160,10 +160,9 @@ country_event = {
 
 	#退出
 	option = {
-		name =  "sfdoll_break_option"
+		name =  EXIT
 		break = yes
 	}
-
 }
 
 #45担任总督

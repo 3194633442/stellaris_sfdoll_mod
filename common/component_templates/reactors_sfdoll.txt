@@ -419,15 +419,15 @@ utility_component_template = {
 }
 
 #无反应堆
-utility_component_template = {
-	key = "sfdoll_ship_reactor_no"
-	size = small
-	icon = "GFX_ship_sfdoll_empty"
-	icon_frame = 1
-	resources = {
-		category = ship_components
-	}
-	component_set = "power_core"
-	size_restriction = { 	  }
-	ai_weight = {	weight = -100	}
-}
+# utility_component_template = {
+# 	key = "sfdoll_ship_reactor_no"
+# 	size = small
+# 	icon = "GFX_ship_sfdoll_empty"
+# 	icon_frame = 1
+# 	resources = {
+# 		category = ship_components
+# 	}
+# 	component_set = "power_core"
+# 	size_restriction = { 	  }
+# 	ai_weight = {	weight = -100	}
+# }

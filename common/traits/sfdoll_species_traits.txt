@@ -160,20 +160,6 @@ trait_sfdoll_assembly = {
 	modifier = {	pop_assembly_speed = 0.15	}
 }
 
-trait_doll_regeneration= {
-		cost = 1
-		initial = yes
-		randomized = yes
-		forced_happiness = no
-		advanced_trait = no
-		icon = "gfx/interface/icons/traits/sfdoll/trait_doll_regeneration.dds"
-		allowed_archetypes = { SFDOLL }
-		modifier = {
-			pop_amenities_usage_mult = -0.10
-			army_health = 0.20
-		}
-	}
-
 #轻量素体
 trait_light_sfdoll = {
 	cost = 1

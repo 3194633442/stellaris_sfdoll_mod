@@ -31,5 +31,4 @@ sfdoll_planet_killer_event.10.desc:0 "A fleet equipped with $sfdoll_weapen_t_7$ 
 sfdoll_planet_killer_event.10_a:0 "destroy §H[fromfrom.GetName]§!"
 
 edict_sfdoll_weapen_t_7_control:0 "$sfdoll_weapen_t_7$ stop function"
-edict_sfdoll_weapen_t_7_control_desc:0 "This edict is used to close
-$sfdoll_weapen_t_7$ celestial destruction function. While the edict is in effect, the game will not ask to destroy celestial bodies when fleets enter orbits."
+edict_sfdoll_weapen_t_7_control_desc:0 "This edict is used to close $sfdoll_weapen_t_7$ celestial destruction function. While the edict is in effect , the game will not ask to destroy celestial bodies when fleets enter orbits."

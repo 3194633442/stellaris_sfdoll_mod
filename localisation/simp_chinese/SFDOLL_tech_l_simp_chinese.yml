@@ -2,13 +2,13 @@
 
 #phy
 tech_sfdoll_ogas_ai:0 "OGAS人工智能"
-tech_sfdoll_ogas_ai_desc:0 "铁血人形的心智系统来源于遗迹的OGAS技术。随着对OGAS技术的深入解读，我们现有的计算机和AI科学获得了新的启示。"
+tech_sfdoll_ogas_ai_desc:0 "铁血人形的心智系统来源于遗迹的OGAS技术。随着对OGAS技术的深入解读，我们的计算机和人形科学获得了新的发展。"
 
 tech_sfdoll_sophon_computer:0 "铁血智子计算机"
 tech_sfdoll_sophon_computer_desc:0 "智子是一种基本粒子尺度的超级计算机,能以极小的质量和尺度产生巨大的算力,并进入不同维度的空间."
 
 tech_sfdoll_singularity:0 "五级奇点"
-tech_sfdoll_singularity_desc:0 "我们的理论正加速发展至某个瓶颈"
+tech_sfdoll_singularity_desc:0 "我们的物理学正发展至一个关键阶段"
 
 #soc
 tech_sfdoll_psychohistory:0 "铁血心理历史学"
@@ -16,7 +16,7 @@ tech_sfdoll_psychohistory_desc:0 "通过对庞大的人口进行统计,我们或
 
 #解锁建筑槽位
 tech_sfdoll_social_reform:0 "铁血改革"
-tech_sfdoll_social_reform_desc:0 "在太空国度日渐扩张的当下，我们需要更新自己的国家建设理论。"
+tech_sfdoll_social_reform_desc:0 "在太空国度日渐扩张的当下，我们需要进行变革"
 
 
 #eng
@@ -28,7 +28,7 @@ tech_sf_doll_modding_system:0 "铁血人形改造系统"
 tech_sf_doll_modding_system_desc:0 "标准化的机器人模板，可以让铁血人形进行高效的改造"
 
 tech_sf_doll_modding_1:0"二级平层扩展"
-tech_sf_doll_modding_1_desc:0 "对以二级平层为代表的心智系统功能进行改进，提升心智系统的性能和安全性，心智数据的传输和备份也变得更可靠"
+tech_sf_doll_modding_1_desc:0 "提升心智系统的性能和容量，心智数据的传输和备份也变得更可靠"
 
 tech_sf_doll_modding_2:0 "心智革命"
 tech_sf_doll_modding_2_desc:0"解锁新的物种§H特质§!"
@@ -37,10 +37,10 @@ tech_sf_doll_modding_2_desc:0"解锁新的物种§H特质§!"
 #component
 
 #sfdoll_reverse_collapse
-tech_sfdoll_reverse_collapse_1:0"逆向坍塌Ⅰ"
+tech_sfdoll_reverse_collapse_1:0"逆向坍塌 Ⅰ"
 tech_sfdoll_reverse_collapse_1_desc:0"未来，也是过去。"
-tech_sfdoll_reverse_collapse_2:0"逆向坍塌Ⅱ"
+tech_sfdoll_reverse_collapse_2:0"逆向坍塌 Ⅱ"
 tech_sfdoll_reverse_collapse_2_desc:0"人的生命不止一次。未完成的将在下辈子结束。而爱也是如此。"
-tech_sfdoll_reverse_collapse_3:0"逆向坍塌Ⅲ"
+tech_sfdoll_reverse_collapse_3:0"逆向坍塌 Ⅲ"
 tech_sfdoll_reverse_collapse_3_desc:0"不要哀伤:\n新的永昼很快就要降临"
 

@@ -92,20 +92,3 @@ utility_component_template = {
 		}
 	}
 }
-
-#默认
-utility_component_template = {
-	key = "COMBAT_COMPUTER_DEFAULT_sfdoll"
-	size = small
-	icon = "GFX_ship_part_computer_default"
-	icon_frame = 1
-	ship_behavior = "default"
-
-	component_set = "combat_computers"
-	ai_weight = {
-		weight = 0
-	}
-	prerequisites = {
-		"tech_sfdoll_ship_computer"
-	}
-}
