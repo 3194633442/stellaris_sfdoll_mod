@@ -21,23 +21,23 @@ sfdoll_search_zion_event_3_desc:0"探险队对目标星系进行了考察，在�
 
 
 #诺耶露遗迹
-site_noel_sfdoll:0 "ELID试验场"
-site_noel_sfdoll_desc:0 "通过解析谜之信号，我们发现了这处遗迹。\n 遗迹所在的星球，表面存在高浓度坍塌粒子和强辐射，即使是铁血人形,也必须换上专用的设备才能在这里行动。\n 坍塌粒子将星球上的生物转变为ELID生物，形成了不同于一般有机体的生物圈。\n 遗迹中持续向外发出信号，我们必须进去瞧瞧。"
+site_noel_sfdoll:0 "ELID星球"
+site_noel_sfdoll_desc:0 "通过解析谜之信号，我们发现了这处遗迹。\n\n 星球表面充满坍塌粒子,导致星球上的生物转变为ELID生物，形成了不同于一般有机体的生物圈。\n\n 遗迹中持续向外发出信号，我们必须进去瞧瞧。"
 
 sfdoll_search_zion_event.5:0 "丧尸堆"
-sfdoll_search_zion_event.5_desc:0 "遗迹周围盘踞着大量的ELID生物,它们向探险队发起了进攻。\n 这些ELID生物犹如体型巨大的丧尸，其力量超越了生物的常识，我们调来军队开路,成功进入遗迹里。"
-sfdoll_search_zion_event.5_option:0 "僵尸也想吃掉铁血的脑子"
+sfdoll_search_zion_event.5_desc:0 "遗迹周围盘踞着大量的ELID生物,它们向探险队发起了进攻。\n\n 这些ELID生物犹如体型巨大的丧尸，其力量超越了生物的常识，我们调来军队开路,成功进入遗迹里。"
+sfdoll_search_zion_event.5_option:0 "僵尸也想吃掉铁血的脑子?"
 
 sfdoll_search_zion_event.6:0 "最深处"
 sfdoll_search_zion_event.6_desc:0 "探险队进入了遗迹的最深处，那里有坍塌液形成的地下湖,并存在大量生物的遗体。这些遗体来自不同的物种,其中有疑似人类的个体.\n\n 一头不明生物袭击了队员们，并引发了坍塌液的爆炸。"
 sfdoll_search_zion_event.6_option:"给队员们准备新的身体吧"
 
 sfdoll_search_zion_event.7:0 "是谁"
-sfdoll_search_zion_event.7_desc:0 "我们清理了爆炸产生的坍塌粒子云，发现在爆炸留下的巨坑中,引发爆炸的生物依然活着,并正在进行自我修复.\n\n 我们要怎么处置她呢?"
+sfdoll_search_zion_event.7_desc:0 "我们清理了爆炸产生的坍塌粒子云，发现引发爆炸的生物依然活着,并正在进行自我修复."
 sfdoll_search_zion_event.7_option_a:"§H回收她§!"
 
 sfdoll_search_zion_event.8:0 "是谁"
-sfdoll_search_zion_event.8_desc:0 "遗迹中出现的银发少女，既不是人类也不是仿生人形。她是一种人造生命，混合了人类和未知物种的特征，名称为'诺耶露'。\n\n 是谁建造了这个地方?又是谁发出信号，把我们带到这里？这些问题仍没有答案，但对遗迹的调查，还是带来了大量宝贵的科研资料"
+sfdoll_search_zion_event.8_desc:0 "遗迹中出现的少女是一种人造生命，混合了人类和未知物种的特征，名称为'诺耶露'。\n\n 是谁建造了这个地方?又是谁发出信号，把我们带到这里？这些问题仍没有答案，但对遗迹的调查，还是带来了大量宝贵的科研资料"
 
 sfdoll_search_zion_event.9:0 "收留遗迹中的少女"
 sfdoll_search_zion_event.9_desc:0 "我们把遗迹中发现的少女带到铁血的科研设施.\n 我们发现，这名少女的大脑中，存在一个和我们相似的心智空间，能够收发和处理数据。 \n她使用的语言和地球语种很接近。她的意识里，似乎一直在重复着姐姐之类的字眼。\n 我们将继续观察她。"

@@ -10,14 +10,14 @@ elisa_to_scientist:0 "Please lead research work"
 elisa_has_this_job_now:0 "Elisa doing this job now."
 response_text_elisa_to_scientist:0 "Exactly what I want."
 
-sfdoll_elisa_event.2_option_2:0 "contact some leaders"
+sfdoll_elisa_event.2_option_2:0 "Contact some leaders"
 
 
 leader_trait_elisa_sfd_scientist:0 "Elisa"
 leader_trait_elisa_sfd_scientist_desc:0 "Elisa used to be a super AI and the mastermind of Sangvis Ferri.But she is a ordinary doll now."
 
 sfdoll_elisa_event.3:0 "Contact some leaders"
-sfdoll_elisa_event_3_a_desc:0 "who to look for?"
+sfdoll_elisa_event_3_a_desc:0 "Who to look for?"
 sfdoll_elisa_event.3_option_1:0 "Riva"
 sfdoll_elisa_event.3_option_2:0 "Triela"
 sfdoll_elisa_event.3_option_3:0 "Noel"
@@ -25,5 +25,5 @@ sfdoll_elisa_event.3_option_4:0 "OGAS-ump40"
 sfdoll_elisa_event.3_option_5:0 "Hari Seldon"
 
 
-sfdoll_elisa_event.4:0 "communicate with Elisa"
+sfdoll_elisa_event.4:0 "Communicate with Elisa"
 sfdoll_elisa_event_4_a_desc:0 "We're back in the universe, and there's a lot to do. You can discuss something with me."

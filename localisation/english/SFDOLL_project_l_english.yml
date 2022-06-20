@@ -21,10 +21,10 @@ sfdoll_search_zion_event_3_desc:0"The expedition surveyed the target solar syste
 
 
 #诺耶露遗迹
-site_noel_sfdoll:0 "ELID试验场"
-site_noel_sfdoll_desc:0 "By parsing the mystery signal, we discovered the relic site. \n The planet where the relic is located has a high concentration of collapse particles and strong radiation on the surface. Even SF Dolls must use special equipment to act here. \n\n Under the action of the collapse particles, the creatures on the planet are transformed into ELID creatures, forming a biosphere different from ordinary organisms. \n\n The relic is constantly signaling outwards.We must go in and take a look."
+site_noel_sfdoll:0 "ELID Planet"
+site_noel_sfdoll_desc:0 "By parsing the mystery signal, we discovered the relic site. \n\n This planet has a high concentration of collapse particles, which cause the creatures on the planet are transformed into ELID creatures, forming a biosphere different from ordinary organisms. \n\n The relic is constantly signaling outwards.We must go in and take a look."
 
-sfdoll_search_zion_event.5:0 "walking dead"
+sfdoll_search_zion_event.5:0 "Walking Dead"
 sfdoll_search_zion_event.5_desc:0 "A large number of ELID creatures swarmed around the relic, and they attacked the expedition. \n These ELID creatures are like huge zombies, and their power has surpassed the common sense of creatures. We transferred the army to open the way and successfully entered the ruins."
 sfdoll_search_zion_event.5_option:0 "Zombies want to eat the brains of SF Dolls?"
 
@@ -33,11 +33,11 @@ sfdoll_search_zion_event.6_desc:0 "The expedition entered the deepest part of th
 sfdoll_search_zion_event.6_option:"Prepare new bodies for the team members"
 
 sfdoll_search_zion_event.7:0 "Who"
-sfdoll_search_zion_event.7_desc:0 "We cleaned up the collapsed particles cloud created by the explosion and found that in the huge crater left by the explosion, the creature that caused the explosion was still alive and repairing itself.\n\n What are we going to do with her?"
+sfdoll_search_zion_event.7_desc:0 "We cleaned up the collapsed particles cloud created by the explosion and found that the creature that caused the explosion was still alive and repairing itself."
 sfdoll_search_zion_event.7_option_a:"§Hrecycle her§!"
 
 sfdoll_search_zion_event.8:0 "Proving Ground?"
-sfdoll_search_zion_event.8_desc:0 "The silver-haired girl who appeared in the relic site was neither human nor autonomous doll. She is an artificial being, mixing characteristics of human and unknown species, named 'Noel'. \n\n Who built this place? Who sent the signal to bring us here? These questions are still unanswered, but the investigation of the ruins has brought a lot of valuable scientific research materials."
+sfdoll_search_zion_event.8_desc:0 "The girl who appeared in the relic site is an artificial being, mixing characteristics of human and unknown species, named 'Noel'. \n\n Who built this place? Who sent the signal to bring us here? These questions are still unanswered, but the investigation of the ruins has brought a lot of valuable scientific research materials."
 
 sfdoll_search_zion_event.9:0 "Taking in girl from relic site"
 sfdoll_search_zion_event.9_desc:0 "We took the girl found in the ruins to our Research Facility.\n\n We found that in the girl's brain, there is a mind space similar to ours, which can send, receive and process data. \n\n The language she uses is similar to the Earth language. In her consciousness, words like sister seemed to be repeating all the time. \n We will continue to observe her."

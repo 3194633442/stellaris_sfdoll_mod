@@ -22,7 +22,7 @@ gf_sfdoll_ascension_perk_event.4_desc:0 "We will seek further truth."
 
 #
 ap_sfdoll_planet:0 "Sangvis Ferri World"
-ap_sfdoll_planet_desc:0 "Awaken our new world."
+ap_sfdoll_planet_desc:0 "Awaken our new worlds."
 tech_build_sfdoll_city:0"Sangvis Ferri Project"
 tech_build_sfdoll_city_desc:0 "Sangvis Ferri Planet incorporates a variety of advanced concepts and technologies."
 gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_planet$"

@@ -15,7 +15,7 @@ sfdoll_foundation_event.3:0 "Communication with Seldon"
 sfdoll_foundation_event.3_desc_a:0 "Sometimes I think of my old wife and friends. There are huge differences between you and them, and so many similarities."
 sfdoll_foundation_event.3_desc_b:0 "Is there a problem?"
 
-hari_seldon_become_scientist:0 "please be a scientist"
+hari_seldon_become_scientist:0 "Please serve as scientist"
 hari_seldon_has_this_job_now:0 "Seldon is doing this work now."
 response_text_sfd_hari_seldon_become_scientist:0 "Finally got something to do."
 
