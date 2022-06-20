@@ -4,16 +4,16 @@ tech_sfdoll_nanites:0"Micro AI"
 tech_sfdoll_nanites_desc:0 "Tiny structures can also run complex programs"
 
 building_sfdoll_nanites_plant:0 "Nanites Factory"
-building_sfdoll_nanites_plant_desc:0 "$building_sfdoll_nanites_plant$"
+building_sfdoll_nanites_plant_desc:0 "$tech_sfdoll_nanites_desc$"
 
-job_sfdoll_nanites_maker:0"Nanites Maker"
-job_sfdoll_nanites_maker_plural:0"$job_sfdoll_nanites_maker$"
+job_sfdoll_nanites_maker:0"Nanites Mechanician"
+job_sfdoll_nanites_maker_plural:0"Nanites Mechanicians"
 job_sfdoll_nanites_maker_desc:0"$building_sfdoll_nanites_plant_desc$"
 job_sfdoll_nanites_maker_effect_desc:0 " $job_sfdoll_nanites_maker$ consumes §Y$minerals$§! , produces §Y$nanites$§!"
 mod_job_sfdoll_nanites_maker_add:0 "$job_sfdoll_nanites_maker$ jobs"
 
 tech_trait_sfdoll_nanite:0 "Nanite SF Doll Body"
-tech_trait_sfdoll_nanite_desc:0 "Allow to use species trait: $trait_sfdoll_nanite$"
+tech_trait_sfdoll_nanite_desc:0 "Unlocks species trait: $trait_sfdoll_nanite$"
 
 trait_sfdoll_nanite:0 "Nanite SF Dolls"
 trait_sfdoll_nanite_desc:0 "These SF Dolls can use nanites to constitute their bodies. They can self-replicate like organisms."

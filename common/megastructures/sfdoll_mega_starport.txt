@@ -10,8 +10,7 @@ sfdoll_mega_starport_01 = {
 		category = megastructures
 		cost = {
 			alloys = 5000
-			nanites = 100
-			GF_nyto_collapse_liquid = 100
+			nanites = 200
 		}
 		upkeep = {
 			energy = 10
@@ -80,11 +79,11 @@ sfdoll_mega_starport_02 = {
 		category = megastructures
 		cost = {
 			alloys = 15000
-			nanites = 400
-			GF_nyto_collapse_liquid = 400
+			nanites = 1000
 		}
 		upkeep = {
-			energy = 40
+			energy = 30
+			nanites = 20
 		}
 	}
 	build_outside_gravity_well = yes

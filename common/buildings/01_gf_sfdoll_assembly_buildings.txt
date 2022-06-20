@@ -79,7 +79,7 @@ building_sfdoll_assembly_2= {
 	}
 
 	planet_modifier = {
-		planet_pop_assembly_add = 9
+		planet_pop_assembly_add = 6
 	}
 	
 	resources = {
@@ -88,7 +88,7 @@ building_sfdoll_assembly_2= {
 			minerals = @b2_minerals
 		}
 		upkeep = {
-			alloys = 6
+			nanites = 6
 			energy = 2
 		}
 	}

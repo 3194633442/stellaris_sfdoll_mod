@@ -38,6 +38,7 @@ mega_sfdoll_carrier_01 = {
 		category = megastructures_habitat
 		cost = {
 			alloys = 5000
+			nanites = 500
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
@@ -79,9 +80,10 @@ mega_sfdoll_carrier_02 = {
 	resources = {
 		category = megastructures_habitat
 		cost = {
-			alloys = 60000
+			alloys = 50000
 			sr_dark_matter = 5000
-			GF_nyto_collapse_liquid = 5000
+			nanites = 2500
+			GF_nyto_collapse_liquid = 2500
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure

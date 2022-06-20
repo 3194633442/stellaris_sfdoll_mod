@@ -64,6 +64,6 @@ TERRAFORM_sfdoll_city:0 "terraforming completed"
 TERRAFORM_sfdoll_rw:0 "terraforming completed"
 
 decision_planet_pop_to_sfdoll:0 "SF Doll Remodeling Surgery"
-decision_planet_pop_to_sfdoll_desc:0 "即使你是机器人或者蜂巢子个体，也有机会成为光荣的铁血人形"
-decision_planet_pop_to_sfdoll_effects_short:0 "Population which is not SF Doll Species will be changed to SF Dolls."
+decision_planet_pop_to_sfdoll_desc:0 "Population which is not SF Doll Species will be changed to SF Dolls."
+decision_planet_pop_to_sfdoll_effects_short:0 "$decision_planet_pop_to_sfdoll_desc$"
 

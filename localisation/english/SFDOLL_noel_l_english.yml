@@ -1,6 +1,6 @@
 ﻿l_english:
 #
-sfdoll_noel_event_1_title:0 "in communication with Noel"
+sfdoll_noel_event_1_title:0 "In communication with Noel"
 sfdoll_noel_event_1_a_desc:0 "I can transform my shape freely.Why I became this image? Because I want to commemorate certain days."
 sfdoll_noel_event_1_c_desc:0 "What's matter?"
 noel_has_this_job_now:0 "Noel is in this role."
@@ -40,11 +40,11 @@ sfdoll_noel_event.7:0 "Assist Noel"
 sfdoll_noel_event.7_desc:0 "SF Dolls' opinions converge on the OGAS network. Soon, they made a decision and followed Noel to start the disaster relief work. \n\n The reaction of the dimensional crack gradually weakened, and the planet returned to safety."
 
 
-sfdoll_noel_event.8:0 "in communication with Noel"
+sfdoll_noel_event.8:0 "In communication with Noel"
 sfdoll_noel_event.8_desc:0 "I look suspicious, don't I? Actually, I experienced a different time from you. I am now much older than you."
 sfdoll_noel_event.8_option:0 "where did you go?"
 
-sfdoll_noel_event.9:0 "in communication with Noel"
+sfdoll_noel_event.9:0 "In communication with Noel"
 sfdoll_noel_event.9_desc:0 "Long story. I'm trying to find some people and solve some problems myself. Some regrets are removed, but new ones are left behind."
 sfdoll_noel_event.9_option:0 "Where are you going next?"
 response_sfdoll_noel_event.9_option:0 "I will stay for now. I am a little worried about your future. I will walk with you until the end of time."
@@ -69,7 +69,7 @@ sfdoll_noel_system_attack:0 "Destroy a solar system"
 noel_must_become_ship:0 "Noel must be a space unit"
 sfdoll_noel_system_attack_cool_down:0 "Skill is cooling down"
 
-sfdoll_planet_killer_event.3:0 "Noel:Interstellar Attack"
+sfdoll_planet_killer_event.3:0 "Noel: Interstellar Attack"
 sfdoll_planet_killer_event_3_desc:0 "Noel can attacks on surrounding stars faster than light. Range limit:within 1 hyperlane range, or within 1 sensors range"
 
 sfdoll_planet_killer_event_3_attack_here:0 "Destroy the solar system Noel is in"

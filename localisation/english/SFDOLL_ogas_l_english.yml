@@ -13,7 +13,7 @@ project_sfdoll_event.2_desc:0 "We studied OGAS in Riva. \n At the same time, we 
 
 
 special_leader_sfdoll_event.1:0 "Communicating with OGAS"
-special_leader_sfdoll_event.1_desc:0 "what is the mission?"
+special_leader_sfdoll_event.1_desc:0 "What is the mission?"
 ogas40_to_governor:0 "Work as a governor"
 ogas40_to_scientist:0 "Work as a scientist"
 response_text_ogas40_to_job:0 "Let me see what might be the solution."
