@@ -10,7 +10,7 @@ decision_planet_pop_to_sfdoll = {
 			nanites = 50
 		}
 	}	
-	prerequisites = { tech_sfdoll_lab }
+	prerequisites = { tech_trait_sfdoll_nanite }
 	potential = {
 		owner = { 
 			is_regular_empire = yes 
