@@ -110,8 +110,8 @@ district_rw_industrial_sfdoll = {
 			}
 		}
 		modifier = {
-			job_sfdoll_collapse_alloys_maker_add = 13
-			job_sfdoll_nanites_goods_maker_add = 2
+			job_sfdoll_alloys_maker_add = 13
+			job_sfdoll_goods_maker_add = 2
 		}
 	}
 	ai_resource_production = {
@@ -453,8 +453,8 @@ district_sfdoll_alloys = {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_sfdoll_collapse_alloys_maker_add = 9
-			job_sfdoll_nanites_goods_maker_add = 1
+			job_sfdoll_alloys_maker_add = 9
+			job_sfdoll_goods_maker_add = 1
 		}
 	}
 

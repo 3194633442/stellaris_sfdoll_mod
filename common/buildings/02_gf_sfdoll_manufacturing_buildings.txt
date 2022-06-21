@@ -129,7 +129,7 @@ building_sfdoll_alloys = {
 		# 铁血帝国才能造
 		owner = { has_authority = auth_gf_sfdoll }
 	}
-	prerequisites = { "tech_sfdoll_collapse_alloys_produce" }
+	prerequisites = { tech_sfdoll_alloys_produce}
 	upgrades = {	building_sfdoll_alloys_2	}
 	destroy_trigger = {
 		free_building_slots = 0
@@ -143,9 +143,9 @@ building_sfdoll_alloys = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_collapse_alloys_maker_add = 1	}
+		modifier = { job_sfdoll_alloys_maker_add = 1	}
 	}
-	triggered_desc = {		text = job_sfdoll_collapse_alloys_maker_effect_desc	}
+	triggered_desc = {		text = job_sfdoll_alloys_maker_effect_desc	}
 	resources = {
 		category = planet_buildings
 		cost = {
@@ -187,7 +187,7 @@ building_sfdoll_alloys_2 = {
 			owner = { has_country_flag = sfdoll_empire	}
 		}
 		modifier = { 
-			job_sfdoll_collapse_alloys_maker_add = 2
+			job_sfdoll_alloys_maker_add = 2
 		}
 	}
 	resources = {
@@ -210,22 +210,22 @@ building_sfdoll_alloys_2 = {
 
 
 #铁血消费品工厂
-building_sfdoll_nanites_goods_plant = {
+building_sfdoll_goods_plant = {
 	base_buildtime = 360
 	category = manufacturing
-	icon = building_sfdoll_nanites_goods_plant 
+	icon = building_sfdoll_goods_plant
 	potential = {
 		# 铁血帝国才能造
 		owner = {		has_country_flag = sfdoll_empire	}
 	}
-	prerequisites = {	"tech_sfdoll_nanites_goods" }
+	prerequisites = {	tech_sfdoll_goods }
 	upgrades = {	building_sfdoll_goods_plant_2	}
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = {		job_sfdoll_nanites_goods_maker_add = 1	}
+		modifier = {		job_sfdoll_goods_maker_add = 1	}
 	}
 
 	resources = {
@@ -261,7 +261,7 @@ building_sfdoll_goods_plant_2 = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_nanites_goods_maker_add = 2	}
+		modifier = { job_sfdoll_goods_maker_add = 2	}
 	}
 
 	resources = {

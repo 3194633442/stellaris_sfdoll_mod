@@ -136,13 +136,13 @@ sfdoll_researcher_2 = {
 
 
 #合金岗位
-sfdoll_collapse_alloys_maker = {
+sfdoll_alloys_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
 	condition_string = SPECIALIST_JOB_TRIGGER
 	#待修改
 	building_icon = building_sfdoll_alloys
-	icon = sfdoll_collapse_alloys_maker
+	icon = sfdoll_alloys_maker
 	clothes_texture_index = 3
 	possible_pre_triggers = {
 		has_owner = yes
@@ -164,42 +164,42 @@ sfdoll_collapse_alloys_maker = {
 	weight = {	weight = 20	}
 }
 #T2合金岗位
-sfdoll_alloys_producer_2 = {
-	category = specialist
-	#用于检测工作是否可用的一系列逻辑
-	condition_string = SPECIALIST_JOB_TRIGGER
-	#待修改
-	building_icon = building_sfdoll_alloys_2
-	icon = sfdoll_collapse_alloys_maker
-	clothes_texture_index = 3
-	possible_pre_triggers = {
-		has_owner = yes
-		is_being_purged = no
-		is_being_assimilated = no
-		is_sapient = yes
-	}
-	possible_precalc = can_fill_specialist_job
-	resources = {
-		category = planet_metallurgists
-		produces = {
-			alloys = 60
-			engineering_research = 6
-		}
-		upkeep = {
-			minerals =  96
-		}
-	}
-	weight = {	weight = 20	}
-}
+# sfdoll_alloys_producer_2 = {
+# 	category = specialist
+# 	#用于检测工作是否可用的一系列逻辑
+# 	condition_string = SPECIALIST_JOB_TRIGGER
+# 	#待修改
+# 	building_icon = building_sfdoll_alloys_2
+# 	icon = sfdoll_collapse_alloys_maker
+# 	clothes_texture_index = 3
+# 	possible_pre_triggers = {
+# 		has_owner = yes
+# 		is_being_purged = no
+# 		is_being_assimilated = no
+# 		is_sapient = yes
+# 	}
+# 	possible_precalc = can_fill_specialist_job
+# 	resources = {
+# 		category = planet_metallurgists
+# 		produces = {
+# 			alloys = 60
+# 			engineering_research = 6
+# 		}
+# 		upkeep = {
+# 			minerals =  96
+# 		}
+# 	}
+# 	weight = {	weight = 20	}
+# }
 
 
 #消费品
-sfdoll_nanites_goods_maker = {
+sfdoll_goods_maker = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
 	condition_string = SPECIALIST_JOB_TRIGGER
-	
-	building_icon = building_sfdoll_nanites_goods_plant
+	building_icon = building_sfdoll_goods_plant
+	icon = sfdoll_goods_maker
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -230,7 +230,8 @@ sfdoll_goods_producer_2 = {
 	category = specialist
 	#用于检测工作是否可用的一系列逻辑
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_sfdoll_nanites_goods_plant
+	building_icon = building_sfdoll_goods_plant
+	icon = sfdoll_goods_maker
 	clothes_texture_index = 3
 	possible_pre_triggers = {
 		has_owner = yes
