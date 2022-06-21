@@ -52,8 +52,8 @@ sfdoll_habitat_01 ={
 	resources = {
 		category = megastructures_habitat
 		cost = {
-			alloys = 2000
-			nanites = 400
+			alloys = 5000
+			nanites = 500
 			unity = 150
 		}
 	}
@@ -96,8 +96,8 @@ sfdoll_habitat_02 ={
 	resources = {
 		category = megastructures_habitat
 		cost = {
-			alloys = 6000
-			nanites = 1000
+			alloys = 20000
+			nanites = 2000
 			unity = 450
 		}
 	}
@@ -106,7 +106,7 @@ sfdoll_habitat_02 ={
 		spawn_planet = {
 			class = pc_sfdoll_habitis
 			location = fromfrom
-			size = 15
+			size = 10
 			has_ring = yes
 			init_effect = {
 				set_name = "HABITAT_PLANET_NAME"

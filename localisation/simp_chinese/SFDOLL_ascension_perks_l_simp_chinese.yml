@@ -19,7 +19,7 @@ gf_sfdoll_ascension_perk_event_0_option:0 "这是我们进化的新阶段"
 ap_sfdoll_4:0 "铁血计划:耶梦加得"
 ap_sfdoll_4_desc:0 "我们唯有前进."
 gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
-gf_sfdoll_ascension_perk_event.4_desc:0 "我们要寻找更高层次的真理."
+gf_sfdoll_ascension_perk_event.4_desc:0 "我们渴求更高层次的真理."
 
 #
 ap_sfdoll_planet:0 "铁血世界"

@@ -24,17 +24,18 @@ building_sfdoll_research = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { 	job_sfdoll_researcher_add = 2	}
+		modifier = { 	job_sfdoll_researcher_add = 1	}
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
-			energy = @b3_rare_cost
+			minerals = @b2_minerals
+			GF_nyto_collapse_liquid = @b2_rare_cost
 		}
 		upkeep = {
-			energy = @b3_upkeep
+			energy = @b2_upkeep
+			GF_nyto_collapse_liquid = @b2_rare_upkeep
 		}
 	}
 }
@@ -60,7 +61,7 @@ building_sfdoll_research_2 = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { 	job_sfdoll_researcher_2_add = 2	}
+		modifier = { 	job_sfdoll_researcher_add = 2	}
 	}
 
 	resources = {

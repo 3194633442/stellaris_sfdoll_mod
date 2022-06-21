@@ -67,9 +67,9 @@ tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
 
 
-tech_sfdoll_jump_drive:0"逆向坍塌:质量重建"
-tech_sfdoll_jump_drive_desc:0"质量重建理论的逐步完善,揭示了新一代FTL技术的发展方向."
-sfdoll_jump_drive:0"铁血跃迁引擎"
+tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
+tech_sfdoll_jump_drive_desc:0 "质量重建理论的逐步完善,揭示了新一代FTL技术的发展方向."
+sfdoll_jump_drive:0 "铁血跃迁引擎"
 
 tech_sfdoll_aux_repair_ship:0"损害管理"
 tech_sfdoll_aux_repair_ship_desc:0 "$component_set_sfdoll_aux_repair_ship_DESC$"
@@ -157,10 +157,10 @@ sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_ship_reactor_no:0 "空槽"
 
 
-sfdoll_warship_1:0 "C-15 轻型护卫舰"
-sfdoll_warship_2:0 "C-17 重炮护卫舰"
-sfdoll_warship_3:0 "D-21 轻型驱逐舰"
-sfdoll_warship_4:0 "D-23 重型驱逐舰"
+sfdoll_warship_1:0 "铁血轻型护卫舰"
+sfdoll_warship_2:0 "铁血重炮护卫舰"
+sfdoll_warship_3:0 "铁血轻型驱逐舰"
+sfdoll_warship_4:0 "铁血重型驱逐舰"
 
 sfdoll_warship_1_plural:0 "$sfdoll_warship_1$"
 sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"

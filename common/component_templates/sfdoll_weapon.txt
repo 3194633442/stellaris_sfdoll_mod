@@ -417,10 +417,10 @@ weapon_component_template = {
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
 	damage = { min = 2500000 max = 2500000  }
 	#冷却时间要除以10
-	total_fire_time = 90
+	total_fire_time = 87.1
 	range = 450
 	accuracy = 1
-	tracking = 0.2
+	tracking = 0.1
 	power = -200000
 	
 	#待修改
@@ -469,10 +469,10 @@ weapon_component_template = {
 	#4250
 	damage = { min = 1000000 max = 1000000 }
 	#冷却时间要除以10
-	total_fire_time = 90
+	total_fire_time = 87.1
 	range = 400
 	accuracy = 1
-	tracking = 0.3
+	tracking = 0.2
 	power = -80000
 	
 	#待修改

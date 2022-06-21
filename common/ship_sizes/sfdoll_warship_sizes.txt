@@ -297,12 +297,12 @@ sfdoll_warship_4 = {
 
 #母舰
 ship_sfdoll_carrier = {
-	entity = "Gayr_frame_entity"
+	entity = "sfdoll_GF_nyto_01_juggernaut_entity"
 	max_speed = @speed_default
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 4000000
+	max_hitpoints = 3000000
 	size_multiplier = 64
 	fleet_slot_size = 32
 	num_target_locators = 0
@@ -334,8 +334,8 @@ ship_sfdoll_carrier = {
 	required_component_set = "combat_computers"
 	required_component_set = "ship_aura_components"
 	modifier = {
-		ship_shield_add = 4000000
-		ship_armor_add = 4000000
+		ship_shield_add = 3000000
+		ship_armor_add = 3000000
 		ship_base_speed_mult = 0.5
 		starbase_shipyard_capacity_add = 20
 		starbase_shipyard_build_speed_mult = 1

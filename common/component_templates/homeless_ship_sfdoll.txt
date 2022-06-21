@@ -182,7 +182,7 @@ weapon_component_template = {
 			energy = 5
 		}
 	}
-	size_restriction = { ship_sfdoll_carrier sfdoll_homeless_ship 	}
+	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = research_sfdoll_homeless_2_set
 }
 

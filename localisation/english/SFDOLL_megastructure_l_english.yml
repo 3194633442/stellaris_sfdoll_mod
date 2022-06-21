@@ -2,12 +2,12 @@
 ##########
 # system_limit_one_sfd:0 "一个星系只能造一座"
 
-sfdoll_mega_starport_01:0 "Sangvis Ferri Shipyard Site"
+sfdoll_mega_starport_01:0 "SF Shipyard Site"
 sfdoll_mega_starport_01_DESC:0 "$sfdoll_mega_starport_02$ will be built outside gravity well to use low gravity environment and hyperlane"
 sfdoll_mega_starport_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
 sfdoll_mega_starport_01_complete:0 "$sfdoll_mega_starport_01$ completed"
 
-sfdoll_mega_starport_02:0 "Sangvis Ferri Shipyard"
+sfdoll_mega_starport_02:0 "SF Shipyard"
 sfdoll_mega_starport_02_DESC:0 "$sfdoll_mega_starport_01_DESC$"
 sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
 sfdoll_mega_starport_02_complete:0 "$sfdoll_mega_starport_02$ completed"
@@ -87,11 +87,11 @@ mega_sfdoll_carrier_02_complete:0 "$mega_sfdoll_carrier_02$ completed"
 # ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"
 
 
-sfdoll_star_exploit_01:0 "Star Mining Tool Site"
+sfdoll_star_exploit_01:0 "Star Collapsing Tool Site"
 sfdoll_star_exploit_01_DESC:0 "Star Mining Tool can compress a star and exploit it."
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
-sfdoll_star_exploit_02:0 "Star Mining Tool"
+sfdoll_star_exploit_02:0 "Star Collapsing Tool"
 sfdoll_star_exploit_02_DESC:0 "$sfdoll_star_exploit_01_DESC$ "
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 

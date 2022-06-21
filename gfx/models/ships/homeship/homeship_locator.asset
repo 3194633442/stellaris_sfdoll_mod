@@ -1,4 +1,0 @@
-entity = {
-	name = "homeship_locator_entity"
-	pdxmesh = "homeship_locator_mesh"
-}

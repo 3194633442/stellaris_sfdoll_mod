@@ -66,7 +66,7 @@ tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
 
 
-tech_sfdoll_jump_drive:0"Reverse Collapse:Rebuild Quality"
+tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
 tech_sfdoll_jump_drive_desc:0 "The gradual improvement of the collapse technology reveals the development direction of FTL technology."
 sfdoll_jump_drive:0"SF Jump Drive"
 
@@ -158,15 +158,15 @@ sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
 
 
-sfdoll_warship_1:0 "C-15 Light Corvette"
-sfdoll_warship_2:0 "C-17 Heavy Weapon Corvette"
-sfdoll_warship_3:0 "D-21 Light Destroyer"
-sfdoll_warship_4:0 "D-23 Heavy Destroyer"
+sfdoll_warship_1:0 "SF Light Corvette"
+sfdoll_warship_2:0 "SF Heavy Weapon Corvette"
+sfdoll_warship_3:0 "SF Light Destroyer"
+sfdoll_warship_4:0 "SF Heavy Destroyer"
 
-sfdoll_warship_1_plural:0 "C-15 Light Corvettes"
-sfdoll_warship_2_plural:0 "C-17 Heavy Weapon Corvettes"
-sfdoll_warship_3_plural:0 "D-21 Light Destroyers"
-sfdoll_warship_4_plural:0 "D-23 Heavy Destroyers"
+sfdoll_warship_1_plural:0 "$sfdoll_warship_1$s"
+sfdoll_warship_2_plural:0 "$sfdoll_warship_2$s"
+sfdoll_warship_3_plural:0 "$sfdoll_warship_3$s"
+sfdoll_warship_4_plural:0 "$sfdoll_warship_4$s"
 
 tech_sfdoll_warship_1:0 "Quality Regenerate System"
 tech_sfdoll_warship_1_desc:0 "The application of dark matter engineering and matter collapse technology has greatly improved the self-sustainability of the new ships."

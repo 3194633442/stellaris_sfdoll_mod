@@ -59,7 +59,4 @@ tech_sfdoll_singularity = {
 	weight = 1500
 	prerequisites = {	tech_sfdoll_dark_matter_plant	}
 	potential = {	has_authority = auth_gf_sfdoll	}
-	modifier = {
-		planet_jobs_energy_produces_mult = 0.5
-	}
 }

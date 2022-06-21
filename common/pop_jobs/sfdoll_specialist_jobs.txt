@@ -95,12 +95,12 @@ sfdoll_researcher = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			physics_research = 40
-			society_research = 40
-			engineering_research = 40
+			physics_research = 60
+			society_research = 60
+			engineering_research = 60
 		}
 		upkeep = {
-			consumer_goods = 10
+			consumer_goods = 12
 		}
 	}
 	weight = {	weight = 30	}
@@ -123,12 +123,12 @@ sfdoll_researcher_2 = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			physics_research = 80
-			society_research = 80
-			engineering_research = 80
+			physics_research = 60
+			society_research = 60
+			engineering_research = 60
 		}
 		upkeep = {
-			consumer_goods = 16
+			consumer_goods = 10
 		}
 	}
 	weight = {	weight = 30	}
@@ -154,7 +154,7 @@ sfdoll_collapse_alloys_maker = {
 	resources = {
 		category = planet_metallurgists
 		produces = {
-			alloys = 30
+			alloys = 45
 			engineering_research = 6
 		}
 		upkeep = {
@@ -214,7 +214,7 @@ sfdoll_nanites_goods_maker = {
 	resources = {
 		category = planet_artisans
 		produces = {
-			consumer_goods = 60
+			consumer_goods = 90
 			engineering_research = 6
 		}
 		upkeep = {

@@ -107,7 +107,7 @@ utility_component_template = {
 			GF_nyto_collapse_liquid = 60
 		}
 	}
-	prerequisites = { tech_sfdoll_ship_power_2 }
+	prerequisites = { tech_sfdoll_aux_ship_revive }
 	component_set = "sfdoll_aux_ship_revive"
 
 	size_restriction = {

@@ -86,6 +86,7 @@ building_sfdoll_assembly_2= {
 		category = planet_buildings
 		cost = {
 			minerals = @b2_minerals
+			nanites = @b2_rare_cost
 		}
 		upkeep = {
 			nanites = 6

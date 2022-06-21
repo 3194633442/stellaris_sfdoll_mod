@@ -143,18 +143,18 @@ building_sfdoll_alloys = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_collapse_alloys_maker_add = 2	}
+		modifier = { job_sfdoll_collapse_alloys_maker_add = 1	}
 	}
 	triggered_desc = {		text = job_sfdoll_collapse_alloys_maker_effect_desc	}
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = @b3_rare_cost
+			minerals = @b2_minerals
+			GF_nyto_collapse_liquid = @b2_rare_cost
 		}
 		upkeep = {
-			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = @b3_rare_upkeep
+			energy = @b2_upkeep
+			GF_nyto_collapse_liquid = @b2_rare_upkeep
 		}
 	}
 
@@ -187,7 +187,7 @@ building_sfdoll_alloys_2 = {
 			owner = { has_country_flag = sfdoll_empire	}
 		}
 		modifier = { 
-			job_sfdoll_alloys_producer_2_add = 2
+			job_sfdoll_collapse_alloys_maker_add = 2
 		}
 	}
 	resources = {
@@ -225,18 +225,18 @@ building_sfdoll_nanites_goods_plant = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = {		job_sfdoll_nanites_goods_maker_add = 2	}
+		modifier = {		job_sfdoll_nanites_goods_maker_add = 1	}
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = @b3_rare_cost
+			minerals = @b2_minerals
+			GF_nyto_collapse_liquid = @b2_rare_cost
 		}
 		upkeep = {
-			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = @b3_rare_upkeep
+			energy = @b2_upkeep
+			GF_nyto_collapse_liquid = @b2_rare_upkeep
 		}
 	}
 	ai_resource_production = {
@@ -261,7 +261,7 @@ building_sfdoll_goods_plant_2 = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { job_sfdoll_goods_producer_2_add = 2	}
+		modifier = { job_sfdoll_nanites_goods_maker_add = 2	}
 	}
 
 	resources = {

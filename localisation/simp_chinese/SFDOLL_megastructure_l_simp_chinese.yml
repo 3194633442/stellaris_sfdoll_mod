@@ -87,11 +87,11 @@ mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$
 # ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"
 
 
-sfdoll_star_exploit_01:0 "恒星加工器基址"
+sfdoll_star_exploit_01:0 "恒星坍塌器基址"
 sfdoll_star_exploit_01_DESC:0 "恒星加工器可以将恒星压缩保存,并提取恒星物质"
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
-sfdoll_star_exploit_02:0 "恒星加工器"
+sfdoll_star_exploit_02:0 "恒星坍塌器"
 sfdoll_star_exploit_02_DESC:0 "$sfdoll_star_exploit_01_DESC$ "
 sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
 
