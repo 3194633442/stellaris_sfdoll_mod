@@ -82,10 +82,10 @@ component_set_sfdoll_aux_repair_ship_DESC:0"Damage control system improves ship 
 # tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 # tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
-tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
-tech_sfdoll_aux_ship_revive_desc:0 "Most attacks can be blocked by space interference technology"
 sfdoll_aux_ship_revive:0 "SF Space Filter"
 sfdoll_aux_ship_revive_DESC:0 "Activated at the start of an engagement, blocking attacks on the ship. The effect lasts for 10 days,then it will activate again after a 20-day cooldown. Effects do not stack."
+tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
+tech_sfdoll_aux_ship_revive_desc:0 "Most attacks can be blocked by space interference technology"
 
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"

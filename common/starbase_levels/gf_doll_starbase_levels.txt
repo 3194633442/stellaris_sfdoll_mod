@@ -16,6 +16,6 @@
 starbase_level_ship_sfdoll_carrier = {
 	ship_size = ship_sfdoll_carrier
 	potential_home_base = yes
-	show_in_outliner = no
+	show_in_outliner = yes #no
 	collects_trade = no
 }

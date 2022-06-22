@@ -115,3 +115,8 @@ component_set = {
 	icon = GFX_sfdoll_aux_ship_revive
 	icon_frame = 1
 }
+component_set = {
+	key = "sfdoll_aux_ship_revive_2"
+	icon = GFX_sfdoll_aux_ship_revive_2
+	icon_frame = 1
+}

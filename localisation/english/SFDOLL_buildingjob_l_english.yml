@@ -42,11 +42,11 @@ job_sfdoll_researcher_desc:0"$job_sfdoll_researcher$"
 job_sfdoll_researcher_effect_desc:0 "$job_sfdoll_researcher$ consumes §Y$consumer_goods$§! ,produces §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
 mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ jobs"
 
-job_sfdoll_researcher_2:0"SF Senior Researcher"
-job_sfdoll_researcher_2_plural:0"SF Senior Researchers"
-job_sfdoll_researcher_2_desc:0"$job_sfdoll_researcher_2$"
-job_sfdoll_researcher_2_effect_desc:0 "$job_sfdoll_researcher_2$ consumes §Y$consumer_goods$§! ,produces §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
-mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ jobs"
+# job_sfdoll_researcher_2:0"SF Senior Researcher"
+# job_sfdoll_researcher_2_plural:0"SF Senior Researchers"
+# job_sfdoll_researcher_2_desc:0"$job_sfdoll_researcher_2$"
+# job_sfdoll_researcher_2_effect_desc:0 "$job_sfdoll_researcher_2$ consumes §Y$consumer_goods$§! ,produces §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
+# mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ jobs"
 
 
 tech_sfdoll_alloys_produce:0"Collapse Technology Alloys Process"
@@ -63,7 +63,7 @@ job_sfdoll_alloys_maker:0 "SF Alloys Maker"
 job_sfdoll_alloys_maker_plural:0 "$job_sfdoll_alloys_maker$s"
 job_sfdoll_alloys_maker_desc:0 "$job_sfdoll_alloys_maker$"
 job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$ consumes §Y$minerals$§!, produces §Y$alloys$§!, §Y$engineering_research$§!"
-mod_jjob_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ jobs"
+mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ jobs"
 
 # job_sfdoll_alloys_producer_2:0"SF Alloys Senior Maker"
 # job_sfdoll_alloys_producer_2_plural:0"SF Alloys Senior Makers"
@@ -131,8 +131,8 @@ mod_job_sfdoll_mineral_maker_add:0"$job_sfdoll_mineral_maker$ jobs"
 
 
 #civic
-building_sfdoll_academy:0"Sangvis Ferri Collage"
-building_sfdoll_academy_desc:0"Althogh SF Dolls can download much knowledge to their neural clouds,they need practice and training."
+building_sfdoll_academy:0 "Sangvis Ferri Collage"
+building_sfdoll_academy_desc:0 "Althogh SF Dolls can download much knowledge to their brains, practice and training is necessary."
 
 job_sfdoll_educator:0"Educator"
 job_sfdoll_educator_plural:0"Educators"

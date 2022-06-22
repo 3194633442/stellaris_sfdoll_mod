@@ -42,6 +42,7 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 1
 		ship_armor_regen_add_perc = 1 
 		ship_hull_regen_add_perc = 1
+		#逃离概率写在modifier里
 		ship_disengage_chance_mult = 0.20 
 		ship_emergency_ftl_mult = -0.20
 	}
@@ -94,7 +95,7 @@ utility_component_template = {
 	}
 }
 
-#SF空间滤网
+#不被破坏
 utility_component_template = {
 	key = "sfdoll_aux_ship_revive"
 	size = aux
@@ -122,4 +123,30 @@ utility_component_template = {
 	}
 }
 
+#复活
+utility_component_template = {
+	key = "sfdoll_aux_ship_revive_2"
+	size = aux
+	icon = "GFX_sfdoll_aux_ship_revive_2"
+	icon_frame = 1
+	power = -600
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 60
+		}
+	}
+	prerequisites = { tech_sfdoll_aux_ship_revive_2 }
+	component_set = "sfdoll_aux_ship_revive_2"
 
+	size_restriction = {
+		ship_sfdoll_carrier   sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4
+	}
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = -1
+			NOT = {		has_authority = auth_gf_sfdoll	}
+		}		
+	}
+}

@@ -117,7 +117,7 @@ entity = {
 		event = { time = 13.2 node = "part1" particle = "juggernaut_explosion_particle" sound = { soundeffect = ship_destroyed } }
 	}
  
-    scale = 1.25
+    scale = 1.4
 	game_data = {
 		size = 35
 		emissive_recolor_crunch = 5.0

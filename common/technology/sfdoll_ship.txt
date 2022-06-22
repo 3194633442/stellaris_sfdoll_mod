@@ -275,6 +275,19 @@ tech_sfdoll_aux_ship_revive = {
 	tier = 5
 	weight = @tier5weight3
 }
+#复活
+tech_sfdoll_aux_ship_revive_2 = {
+	cost = @tier5cost3
+	area = physics
+	icon = tech_sfdoll_aux_ship_revive_2
+	category = { field_manipulation }
+	is_rare = yes
+	is_reverse_engineerable = no
+	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 5
+	weight = 0
+}
 
 
 #传感器，需要原版传感器前置
@@ -320,7 +333,7 @@ tech_sfdoll_homeless_ship = {
 	tier = 5
 	area = engineering
 	start_tech = no
-	icon = tech_sfdoll_homeless_ship
+	icon = tech_sfdoll_alloys_produce
 	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {

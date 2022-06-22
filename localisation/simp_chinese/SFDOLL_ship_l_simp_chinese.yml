@@ -83,10 +83,16 @@ sfdoll_aux_quality_rebuilding_DESC:0 "通过逆向坍塌技术操纵微观粒子
 tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
-tech_sfdoll_aux_ship_revive:0 "SF空间滤网"
-tech_sfdoll_aux_ship_revive_desc:0 "通过空间干涉技术，大部分攻击可以被抵挡。"
+
 sfdoll_aux_ship_revive:0 "SF空间滤网"
 sfdoll_aux_ship_revive_DESC:0 "交战开始时启动，使舰船所受攻击无效化。效果持续10天，效果结束后进行20天的冷却，之后会再次启动。效果无法叠加。"
+tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
+tech_sfdoll_aux_ship_revive_desc:0 "通过空间干涉技术，大部分攻击可以被抵挡。"
+
+sfdoll_aux_ship_revive_2:0 "维度锚救生舱"
+sfdoll_aux_ship_revive_2_DESC:0 "装备$sfdoll_aux_ship_revive_2$舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_ship_revive_2$"
+tech_sfdoll_aux_ship_revive_2:0 "$sfdoll_aux_ship_revive_2$"
+tech_sfdoll_aux_ship_revive_2_desc:0 "维度转换装置可在受到致命攻击时保护核心机能,并短暂潜入其他维度,再利用冗余备份来修复舰船."
 
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
