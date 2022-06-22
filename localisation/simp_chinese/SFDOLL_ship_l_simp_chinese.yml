@@ -85,14 +85,15 @@ tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 
 sfdoll_aux_ship_revive:0 "SF空间滤网"
-sfdoll_aux_ship_revive_DESC:0 "交战开始时启动，使舰船所受攻击无效化。效果持续10天，效果结束后进行20天的冷却，之后会再次启动。效果无法叠加。"
+sfdoll_aux_ship_revive_DESC:0 "$sfdoll_aux_ship_revive$能抵挡飞船受到的致命攻击,同时停止飞船自身攻击,并回复船体.$sfdoll_aux_ship_revive$会在交战开始时启动,每经过10天,需要进行20天的冷却后再次启动.效果无法叠加."
 tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
-tech_sfdoll_aux_ship_revive_desc:0 "通过空间干涉技术，大部分攻击可以被抵挡。"
+tech_sfdoll_aux_ship_revive_desc:0 "$sfdoll_aux_ship_revive$可以隔绝部分敌对攻击"
 
 sfdoll_aux_ship_revive_2:0 "维度锚救生舱"
-sfdoll_aux_ship_revive_2_DESC:0 "装备$sfdoll_aux_ship_revive_2$舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_ship_revive_2$"
+sfdoll_aux_ship_revive_2_DESC:0 "装备$sfdoll_aux_ship_revive_2$的舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_ship_revive_2$"
+
 tech_sfdoll_aux_ship_revive_2:0 "$sfdoll_aux_ship_revive_2$"
-tech_sfdoll_aux_ship_revive_2_desc:0 "维度转换装置可在受到致命攻击时保护核心机能,并短暂潜入其他维度,再利用冗余备份来修复舰船."
+tech_sfdoll_aux_ship_revive_2_desc:0 "利用$sfdoll_aux_ship_revive_2$,飞船可在受到致命攻击时保护核心机能,并短暂潜入其他维度,再利用冗余备份来修复舰船."
 
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
@@ -209,8 +210,7 @@ need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_0
 
 #flag ship
 
-component_aura_sfdoll_1:0 "干扰战术模块"
-hostile_aura_sfdoll_1:0 "战场干扰"
+component_aura_sfdoll_1:0 "干扰战术模块\n\n交战开始时,降低敌方舰队的武器伤害,命中,射速和射程.效果持续30天,不可叠加."
 
 
 ship_sfdoll_noel:0 "诺耶露"

@@ -83,9 +83,16 @@ component_set_sfdoll_aux_repair_ship_DESC:0"Damage control system improves ship 
 # tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 sfdoll_aux_ship_revive:0 "SF Space Filter"
-sfdoll_aux_ship_revive_DESC:0 "Activated at the start of an engagement, blocking attacks on the ship. The effect lasts for 10 days,then it will activate again after a 20-day cooldown. Effects do not stack."
+sfdoll_aux_ship_revive_DESC:0 "$sfdoll_aux_ship_revive$ can withstand the fatal attack on the ship, stop its own attack and restore its hull. $sfdoll_aux_ship_revive$ will startup at the beginning of the engagement, and every 10 days will require a 20-day cooldown to startup again. The effect does not stack."
+
 tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
-tech_sfdoll_aux_ship_revive_desc:0 "Most attacks can be blocked by space interference technology"
+tech_sfdoll_aux_ship_revive_desc:0 "$sfdoll_aux_ship_revive$ can block some hostile attacks"
+
+sfdoll_aux_ship_revive_2:0 "Dimensional-Anchor Escape Capsule"
+sfdoll_aux_ship_revive_2_DESC:0 "When a ship equipped with $sfdoll_aux_ship_revive_2$ is destroyed, a ship of the same type will be spawned based on a existing ship design. It will take 30 days for the new ship to use $sfdoll_aux_ship_revive_2$ again"
+
+tech_sfdoll_aux_ship_revive_2:0 "$sfdoll_aux_ship_revive_2$"
+tech_sfdoll_aux_ship_revive_2_desc:0 "Using the $sfdoll_aux_ship_revive_2$, the ship can protect the core function when it is fatally attacked, and sneak into other dimensions briefly, and then use the redundant backup to repair the ship."
 
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"
@@ -204,8 +211,7 @@ need_sfdoll_mega_starport:0 "It can be built in the following places:$sfdoll_meg
 
 #flag ship
 
-component_aura_sfdoll_1:0 "Jamming Device"
-hostile_aura_sfdoll_1:0 "Jamming Device"
+component_aura_sfdoll_1:0 "Jamming Device\n\n At the beginning of the engagement, reduce the damage, hit, rate of fire and range of enemy weapons. The effect lasts for 30 days and cannot be stacked."
 
 
 ship_sfdoll_noel:0 "Noel"

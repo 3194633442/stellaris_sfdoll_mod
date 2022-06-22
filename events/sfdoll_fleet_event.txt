@@ -1,6 +1,6 @@
 namespace = sfdoll_fleet_event
 
-#通用判断，是否为铁血的舰队
+#on_entering_battle,是否为铁血的舰队，This = owner of fleet 1,FromFrom = fleet 1,FromFromFrom = fleet 2
 country_event = {
 	id = sfdoll_fleet_event.1
 	is_triggered_only = yes
@@ -11,6 +11,18 @@ country_event = {
 		fromfrom = {
 			fleet_event = {
 				id = sfdoll_fleet_event.2
+			}
+			if = {
+				limit = {
+					any_owned_ship = {
+						has_component = component_aura_sfdoll_1
+					}
+				}
+				root.fromfromfrom = {
+					fleet_event = {
+						id = sfdoll_fleet_event.6
+					}
+				}
 			}
 		}
 	}
@@ -42,12 +54,10 @@ fleet_event = {
 					days = 10
 				}
 			}
-			else = {
-				if = {
-					limit = { has_ship_flag = ship_sfdoll_can_revive }
-					set_disable_at_health = -1
-					remove_ship_flag = ship_sfdoll_can_revive
-				}
+			else_if = {
+				limit = { has_ship_flag = ship_sfdoll_can_revive }
+				set_disable_at_health = -1
+				remove_ship_flag = ship_sfdoll_can_revive
 			}
 		}
 
@@ -205,109 +215,28 @@ country_event = {
 				}
 
 			}
-
-			# if = {
-			# 	limit = { is_ship_size = corvette  }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = corvette
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = destroyer }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = destroyer
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = cruiser }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = cruiser
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = battleship }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = battleship
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = titan }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = titan
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = ship_air_defense_sfdoll }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = ship_air_defense_sfdoll
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = sfdoll_destroyer }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = sfdoll_destroyer
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = ship_support_sfdoll }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = ship_support_sfdoll
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = ship_attacker_sfdoll }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = ship_attacker_sfdoll
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { is_ship_size = ship_sfdoll_carrier }
-			# 	fleet = {
-			# 		create_ship = {
-			# 			name = prev
-			# 			random_existing_design = ship_sfdoll_carrier
-			# 		}
-			# 	}
-			# }
 		}
 	}
 }
 
-ship_event = {
+#开战30天火力压制
+fleet_event = {
 	id = sfdoll_fleet_event.6
 	hide_window = yes
 	is_triggered_only = yes
+	trigger = {
+		NOT = {
+			has_fleet_flag = flag_aura_sfdoll_1
+		}
+	}
 	immediate = {
-		export_modifier_to_variable = {
-			modifier = ship_armor_add
-			variable = x
+		add_modifier = {
+			modifier = aura_sfdoll_1_modifier
+			days = 30
+		}
+		set_timed_fleet_flag = {
+			flag = flag_aura_sfdoll_1
+			days = 30
 		}
 	}
 }
