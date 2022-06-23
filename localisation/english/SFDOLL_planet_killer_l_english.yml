@@ -11,8 +11,11 @@
 message_system_destroyed_sfdoll:0 "a solar system was destroyed"
 message_planet_destroyed_sfdoll:0 "a planet was destroyed"
 
-planet_killer_sfdoll_1:0 "anti-star weapon"
-planet_killer_sfdoll_1_DESC:0 "This device can cause stellar explosions and destroy entire solar system. It can also attack planets without affecting the surrounding celestial bodies."
+planet_killer_sfdoll_1:0 "Shooting Star"
+planet_killer_sfdoll_1_DESC:0 "This device will wipe out all existence around the star, only your own fleet will not be affected."
+tech_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"
+tech_planet_killer_sfdoll_1_desc:0 "$planet_killer_sfdoll_1_DESC$"
+
 planet_killer_sfdoll_1_ACTION:0 "$planet_killer_sfdoll_1$"
 
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"

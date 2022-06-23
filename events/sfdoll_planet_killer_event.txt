@@ -9,8 +9,9 @@ planet_event = {
 		#威慑值和得分
 		add_threat = { who = from.owner amount = 10 }
 		from = {
+			save_event_target_as = sfdoll_planet_killer_fleet
 			owner = {
-				#save_event_target_as = crisis_country
+				save_event_target_as = crisis_country
 				add_victory_score = {
 					source = destroyed_stars_score
 					score = 10
@@ -717,6 +718,49 @@ planet_event = {
 		else = {
 			change_pc = pc_shattered
 			clear_deposits = yes
+		}
+	}
+}
+
+#清空星系
+planet_event = {
+	id = sfdoll_planet_killer_event.12
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		#威慑值和得分
+		add_threat = { who = from.owner amount = 10 }
+		from = {
+			save_event_target_as = sfdoll_planet_killer_fleet
+			owner = {
+				save_event_target_as = crisis_country
+				add_victory_score = {
+					source = destroyed_stars_score
+					score = 10
+				}
+			}
+		}
+		from = {
+			owner = {
+				#初次炸恒星
+				if = {
+					limit = {
+						NOT = { has_country_flag = cracked_first_star }
+					}
+					set_country_flag = cracked_first_star
+				}
+				# create_message = {
+				# 	type = STAR_DESTROYED
+				# 	localization = message_system_destroyed_sfdoll
+				# 	target = root
+				# 	days = 30
+				# }
+			}
+		}
+
+		solar_system = { save_event_target_as = destroyed_system }
+		solar_system = {
+			effect_sfdoll_empty_system = yes
 		}
 	}
 }

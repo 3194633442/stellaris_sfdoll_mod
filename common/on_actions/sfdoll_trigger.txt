@@ -219,12 +219,6 @@ on_fleet_disbanded = {
 	}
 }
 
-on_fleet_destroyed_victim = {
-	events = {
-
-	}
-}
-
 #From = Planet/Starbase/Megastructure scope
 #This = Fleet scope
 on_fleet_enter_orbit = {
@@ -235,10 +229,10 @@ on_fleet_enter_orbit = {
 
 # this/root = planet that have been fired upon
 # from = fleet that fired
-#炸球
 on_destroy_planet_with_planet_killer_sfdoll_1 = {
 	events = {
-		sfdoll_planet_killer_event.1
+		# sfdoll_planet_killer_event.1
+		sfdoll_planet_killer_event.12
 
 		#焚天神兵的事件
 		#crisis.4550

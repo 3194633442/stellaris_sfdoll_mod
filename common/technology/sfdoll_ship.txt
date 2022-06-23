@@ -147,11 +147,11 @@ tech_sfdoll_missile_2 = {
 	category = { particles }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_missile_2
-	prerequisites = {	tech_sfdoll_weapon_x_2	}
+	prerequisites = {	tech_sfdoll_weapon_t_7	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 1000
+	weight = 1500
 }
 tech_sfdoll_strike_craft_2 = {
 	cost = @tier5cost3
@@ -166,6 +166,22 @@ tech_sfdoll_strike_craft_2 = {
 		has_authority = auth_gf_sfdoll
 	}
 	weight = 1000
+}
+#W槽
+tech_planet_killer_sfdoll_1 = {
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	is_dangerous = yes
+	category = { particles }
+	is_reverse_engineerable = no
+	icon = tech_planet_killer_sfdoll_1
+	prerequisites = {	tech_sfdoll_missile_2	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	weight = 1500
 }
 
 #shield
@@ -312,12 +328,11 @@ tech_sfdoll_aux_ship_revive_2 = {
 	category = { field_manipulation }
 	is_rare = yes
 	is_reverse_engineerable = no
-	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
+	prerequisites = {	tech_sfdoll_aux_ship_revive	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
-	weight = 0
+	weight = 1500
 }
-
 
 #传感器，需要原版传感器前置
 tech_sfdoll_ship_sensors = {
