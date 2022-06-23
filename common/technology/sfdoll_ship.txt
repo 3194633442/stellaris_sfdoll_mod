@@ -138,6 +138,35 @@ tech_sfdoll_weapon_t_7 = {
 	}
 	weight = 1500
 }
+tech_sfdoll_missile_2 = {
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	is_dangerous = yes
+	category = { particles }
+	is_reverse_engineerable = no
+	icon = tech_sfdoll_missile_2
+	prerequisites = {	tech_sfdoll_weapon_x_2	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	weight = 1000
+}
+tech_sfdoll_strike_craft_2 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	is_rare = yes
+	category = { voidcraft }
+	is_reverse_engineerable = no
+	icon = tech_sfdoll_strike_craft_2
+	prerequisites = {	tech_sfdoll_weapon_x_2	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	weight = 1000
+}
 
 #shield
 tech_sfdoll_ship_defense_s = {

@@ -188,12 +188,12 @@ country_event = {
 	option = {
 		name = option_noel_become_ship
 		allow = {
-			# custom_tooltip = {
-			# 	fail_text =  "noel_has_this_job_now"
-			# 	NOT = {
-			# 		exists = event_target:ship_sfdoll_noel
-			# 	}
-			# }
+			custom_tooltip = {
+				fail_text =  "noel_has_this_job_now"
+				NOT = {
+					exists = event_target:fleet_sfdoll_noel
+				}
+			}
 			custom_tooltip = {
 				fail_text =  "sfdoll_noel_is_destroyed"
 				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }

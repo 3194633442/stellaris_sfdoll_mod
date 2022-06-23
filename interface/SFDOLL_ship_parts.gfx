@@ -149,13 +149,6 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_component_aura_ship_support_sfdoll"
-		texturefile = "gfx/interface/icons/ship_parts/component_aura_ship_support_sfdoll.dds"
-	}
-}
-
-spriteTypes = {
-	spriteType = {
 		name = "GFX_sfdoll_weapen_t_7"
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapen_t_7.dds"
 	}
@@ -179,6 +172,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sfdoll_weapon_p_2"
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_p_2.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_missile_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_missile_2.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_strike_craft_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_strike_craft_2.dds"
 	}
 }
 

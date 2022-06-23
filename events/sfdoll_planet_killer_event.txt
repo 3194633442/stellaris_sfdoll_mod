@@ -561,6 +561,7 @@ fleet_event = {
 		any_owned_ship = {
 			OR = {
 				has_component = sfdoll_weapen_t_7
+				has_component = sfdoll_missile_2
 			}
 			
 		}

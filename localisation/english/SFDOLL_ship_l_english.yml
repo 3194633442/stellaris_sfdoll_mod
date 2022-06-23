@@ -65,6 +65,18 @@ sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
 
+sfdoll_missile_2:0 "SF M2 Missile"
+sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"
+
+tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
+tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2$ can peel and teleport matter within a certain range to other dimensions. It can also perform directional teleportation, thereby compressing matter within a Schwarzschild radius. $sfdoll_missile_2$ will approach the target by short-distance jump, which means it cannot be intercepted by anti-aircraft weapons."
+
+
+sfdoll_strike_craft_2:0 "killer Whale Stealth Fighter"
+sfdoll_strike_craft_2_DESC:0 "$sfdoll_strike_craft_2$ hides itself with a special hull."
+tech_sfdoll_strike_craft_2:0 "$sfdoll_strike_craft_2$"
+tech_sfdoll_strike_craft_2_desc:0 "$sfdoll_strike_craft_2_DESC$"
+
 
 tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
 tech_sfdoll_jump_drive_desc:0 "The gradual improvement of the collapse technology reveals the development direction of FTL technology."
@@ -89,7 +101,7 @@ tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
 tech_sfdoll_aux_ship_revive_desc:0 "$sfdoll_aux_ship_revive$ can block some hostile attacks"
 
 sfdoll_aux_ship_revive_2:0 "Dimensional-Anchor Escape Capsule"
-sfdoll_aux_ship_revive_2_DESC:0 "When a ship equipped with $sfdoll_aux_ship_revive_2$ is destroyed, a ship of the same type will be spawned based on a existing ship design. It will take 30 days for the new ship to use $sfdoll_aux_ship_revive_2$ again"
+sfdoll_aux_ship_revive_2_DESC:0 "When a ship equipped with $sfdoll_aux_ship_revive_2$ is destroyed, a ship of the same type will be spawned based on a existing ship design. It will take 30 days for the new ship to use $sfdoll_aux_ship_revive_2$ again. The effect does not stack."
 
 tech_sfdoll_aux_ship_revive_2:0 "$sfdoll_aux_ship_revive_2$"
 tech_sfdoll_aux_ship_revive_2_desc:0 "Using the $sfdoll_aux_ship_revive_2$, the ship can protect the core function when it is fatally attacked, and sneak into other dimensions briefly, and then use the redundant backup to repair the ship."

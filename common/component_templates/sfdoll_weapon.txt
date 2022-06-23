@@ -309,7 +309,7 @@ weapon_component_template = {
 	power = -100
 	prerequisites = {	tech_sfdoll_weapon_s_1}
 	component_set = "component_set_gf_sfdoll_missile"
-	projectile_gfx = "GF_large_torpedo_03"
+	projectile_gfx = "neutron_torpedoes"
 	tags = {	weapon_type_explosive weapon_type_energy 	}
 	ai_tags = {
 		weapon_role_anti_armor
@@ -420,7 +420,7 @@ weapon_component_template = {
 	total_fire_time = 87.1
 	range = 450
 	accuracy = 1
-	tracking = 0.1
+	tracking = 0.15
 	power = -200000
 	
 	#待修改
@@ -673,4 +673,97 @@ weapon_component_template = {
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
+}
+
+#二级导弹
+weapon_component_template = {
+	key = "sfdoll_missile_2"
+	size = torpedo
+	type = instant
+	icon = "GFX_sfdoll_missile_2"
+	icon_frame = 1
+	power = -10000
+	prerequisites = {	tech_sfdoll_missile_2 }
+	component_set = "sfdoll_missile_2"
+	projectile_gfx = "neutron_torpedoes"
+	# tags = {	weapon_type_explosive weapon_type_energy 	}
+	ai_tags = {
+		weapon_role_anti_hull
+	}
+	damage = { min = -999999999999999999 max = 999999999999999999  }
+	#冷却时间要除以10
+	total_fire_time = 400
+	range = 450
+	prio_projectile = yes
+	accuracy = 0.80
+	tracking = 0.05
+	resources = {
+		category = ship_components
+		cost = {			
+			alloys = 5000
+			GF_nyto_collapse_liquid = 5000
+		}
+		upkeep = {
+			GF_nyto_collapse_liquid = 30
+		}
+	}
+	size_restriction = {
+		sfdoll_warship_4 ship_sfdoll_carrier
+	}
+	ai_weight = {
+		weight = 50
+		modifier = {
+			factor = -4
+			NOT = {		has_authority = auth_gf_sfdoll		}
+		}
+	}
+}
+
+#二级舰载机
+strike_craft_component_template = {
+	key = "sfdoll_strike_craft_2"
+	icon = "GFX_sfdoll_strike_craft_2"
+	icon_frame = 1
+	size = LARGE
+	entity = "" #"bomber_entity"
+	power = -40000
+	prerequisites = {	tech_sfdoll_strike_craft_2	}
+
+	resources = {
+		category = ship_components
+		cost = {
+			sr_dark_matter = 10000
+			nanites = 2000
+		}
+		upkeep = {
+			sr_dark_matter= 100
+		}
+	}
+	count = 1
+	regeneration_per_day = 0.02
+	launch_time = 0  #1.0
+	
+	damage = { min = 160000 max = 160000 }
+	cooldown = 2.3
+	range = 300
+	engagement_range = 800
+	accuracy = 1
+	tracking = 0.9
+	
+	health = 200000
+	armor = 200000
+	shield = 200000
+	evasion = 1
+	
+	speed = 3000
+	rotation_speed = 0.8
+	acceleration = 0.9
+	
+	ship_behavior = sfdoll_fighters_behaviory
+	weapon_type = instant
+	projectile_gfx = "" #"titan_laser"
+	component_set = "sfdoll_strike_craft_2"
+	
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft }
+	ai_tags = { weapon_role_artillery }
 }
