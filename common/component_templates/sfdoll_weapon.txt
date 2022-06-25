@@ -690,8 +690,8 @@ weapon_component_template = {
 	ai_tags = {
 		weapon_role_anti_hull
 	}
-	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = -999999999999999 max = 999999999999999  }
+	damage = { min = -999999999999999999 max = 999999999999999999  }
+	# damage = { min = -999999999999999 max = 999999999999999  }
 	#冷却时间要除以10
 	total_fire_time = 400
 

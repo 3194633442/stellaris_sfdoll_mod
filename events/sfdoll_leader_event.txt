@@ -37,6 +37,10 @@ country_event = {
 			limit = { exists = event_target:sfdoll_leader_hari_seldon }
 			event_target:sfdoll_leader_hari_seldon = { change_leader_portrait = GFX_sfdoll_hari_seldon }
 		}
+		if = {
+			limit = { exists = event_target:sfdoll_leader_dingyi }
+			event_target:sfdoll_leader_dingyi = { change_leader_portrait = GFX_sfdoll_dingyi }
+		}
 	}
 
 }
