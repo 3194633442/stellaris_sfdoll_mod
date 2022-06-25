@@ -1,18 +1,19 @@
 ﻿l_simp_chinese:
 ###############################
 #planet_killer
-# planet_killer_sfdoll_2:0 "黄昏降临"
-# planet_killer_sfdoll_2_DESC:0 "这种武器会引发整个星系的质量坍塌，最终摧毁星系"
-
-# planet_killer_sfdoll_2_ACTION:0 "黄昏降临"
-# FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "黄昏降临"
-# MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "摧毁"
-
 message_system_destroyed_sfdoll:0 "一个星系被摧毁了"
 message_planet_destroyed_sfdoll:0 "一个星球被摧毁了"
 
+planet_killer_sfdoll_2:0 "对恒星炮"
+planet_killer_sfdoll_2_DESC:0 "这种武器可以摧毁整个星球.摧毁恒星会波及周围的天体"
+
+planet_killer_sfdoll_2_ACTION:0 "$planet_killer_sfdoll_2$"
+FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "$planet_killer_sfdoll_2$"
+MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "摧毁"
+
+
 planet_killer_sfdoll_1:0 "星辰灼啸"
-planet_killer_sfdoll_1_DESC:0 "该设备会将恒星周围的所有存在消灭,仅有己方舰队可以幸免."
+planet_killer_sfdoll_1_DESC:0 "该设备会将星系中的所有存在消灭,仅有己方舰队可以幸免."
 tech_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"
 tech_planet_killer_sfdoll_1_desc:0 "$planet_killer_sfdoll_1_DESC$"
 

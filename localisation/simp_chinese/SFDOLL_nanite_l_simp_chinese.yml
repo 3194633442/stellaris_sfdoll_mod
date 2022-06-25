@@ -16,3 +16,8 @@ tech_trait_sfdoll_nanite_desc:0 "解锁物种特质:$trait_sfdoll_nanite$"
 
 trait_sfdoll_nanite:0 "纳米铁血"
 trait_sfdoll_nanite_desc:0 "这些铁血人形可以用纳米机器人来组成身体和心智系统.它们的人口可以像有机体一样自我复制."
+
+sm_sfdoll_starbase_building_chemical:0 "自动化学工厂"
+sm_sfdoll_starbase_building_chemical_desc:0 "纳米科技让化学合成变得简单"
+tech_sfdoll_chemical:0 "$sm_sfdoll_starbase_building_chemical$"
+tech_sfdoll_chemical_desc:0 "$sm_sfdoll_starbase_building_chemical_desc$"

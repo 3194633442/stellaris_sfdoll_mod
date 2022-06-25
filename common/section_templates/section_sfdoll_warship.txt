@@ -100,7 +100,7 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_mid"
 	component_slot = {
 		name = "T01"
-		template = "invisible_titanic_turret"
+		template = invisible_titanic_fixed
 		locatorname = "xl_gun_01"
 	}
 	large_utility_slots = 6
@@ -518,64 +518,64 @@ ship_section_template = {
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
-		name = "C_01"
-		template = large_strike_craft
-		locatorname = "sf_M1"
-	}
-	component_slot = {
-		name = "C_02"
-		template = large_strike_craft
-		locatorname = "sf_M1"
-	}
-	component_slot = {
-		name = "M_01"
-		template = invisible_missile_turret
-		locatorname = "sf_M1"
-	}
-	component_slot = {
-		name = "M_02"
-		template = invisible_missile_turret
-		locatorname = "sf_M1"
-	}
-	component_slot = {
 		name = "missle_01"
-		template = invisible_point_defence_turret
+		template = invisible_missile_turret
 		locatorname = "missile_01"
 	}
 	component_slot = {
 		name = "missle_02"
-		template = invisible_point_defence_turret
+		template = invisible_missile_turret
 		locatorname = "missile_02"
 	}
 	component_slot = {
 		name = "missle_03"
-		template = invisible_point_defence_turret
+		template = invisible_missile_fixed
 		locatorname = "missile_03"
 	}
 	component_slot = {
 		name = "missle_04"
-		template = invisible_point_defence_turret
+		template = invisible_missile_fixed
 		locatorname = "missile_04"
 	}
 	component_slot = {
-		name = "missle_010"
+		name = "P_01"
+		template = invisible_point_defence_turret
+		locatorname = "missile_05"
+	}
+	component_slot = {
+		name = "P_02"
+		template = invisible_point_defence_turret
+		locatorname = "missile_06"
+	}
+	component_slot = {
+		name = "P_03"
+		template = invisible_point_defence_turret
+		locatorname = "missile_07"
+	}
+	component_slot = {
+		name = "P_04"
+		template = invisible_point_defence_turret
+		locatorname = "missile_08"
+	}
+	component_slot = {
+		name = "P_05"
+		template = invisible_point_defence_turret
+		locatorname = "missile_09"
+	}
+	component_slot = {
+		name = "P_06"
 		template = invisible_point_defence_turret
 		locatorname = "missile_010"
 	}
 	component_slot = {
-		name = "missle_011"
+		name = "P_07"
 		template = invisible_point_defence_turret
 		locatorname = "missile_011"
 	}
 	component_slot = {
-		name = "missle_012"
+		name = "P_08"
 		template = invisible_point_defence_turret
 		locatorname = "missile_012"
-	}
-	component_slot = {
-		name = "missle_013"
-		template = invisible_point_defence_turret
-		locatorname = "missile_013"
 	}
 	large_utility_slots = 16
 }

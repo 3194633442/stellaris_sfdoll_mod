@@ -190,6 +190,14 @@ on_ship_built = {
 	}
 }
 
+# Planet has taken damage from orbital bombardment - Damage is applied daily
+# This = Planet
+# From = Bombarder
+on_planet_bombarded = {
+	events = {
+	}
+}
+
 # this = ship
 # 星球压制舰被制造 / 升级时触发
 # on_wg_pod_built = {
@@ -242,5 +250,6 @@ on_destroy_planet_with_planet_killer_sfdoll_1 = {
 #炸星系
 on_destroy_planet_with_planet_killer_sfdoll_2 = {
 	events = {
+		sfdoll_planet_killer_event.1
 	}
 }

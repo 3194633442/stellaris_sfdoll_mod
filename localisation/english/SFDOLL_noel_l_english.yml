@@ -65,14 +65,14 @@ sfdoll_noel_jump_drive:0 "Spinning Thread of Destiny"
 sfdoll_ship_sensors_noel:0 "Sensor"
 thruster_sfdoll_noel:0 "Dawn"
 
-sfdoll_noel_system_attack:0 "Destroy a solar system"
+sfdoll_noel_system_attack:0 "Destroy a system"
 noel_must_become_ship:0 "Noel must be a space unit"
 sfdoll_noel_system_attack_cool_down:0 "Skill is cooling down"
 
 sfdoll_planet_killer_event.3:0 "Noel: Interstellar Attack"
 sfdoll_planet_killer_event_3_desc:0 "Noel can attacks on surrounding stars faster than light. Range limit:within 1 hyperlane range, or within 1 sensors range"
 
-sfdoll_planet_killer_event_3_attack_here:0 "Destroy the solar system Noel is in"
+sfdoll_planet_killer_event_3_attack_here:0 "Destroy the system Noel is in"
 
 sfdoll_planet_killer_event_3_option_1:0 "[event_target:target_1_of_pk_sfdoll.GetName]"
 sfdoll_planet_killer_event_3_option_2:0 "[event_target:target_2_of_pk_sfdoll.GetName]"

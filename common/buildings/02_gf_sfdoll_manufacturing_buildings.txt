@@ -335,10 +335,11 @@ building_sfdoll_gases_plant = {
 	category = manufacturing
 	icon = building_sfdoll_gases_plant
 	potential = {
+		always = no
 		# 铁血帝国才能造
-		owner = {	has_country_flag = sfdoll_empire	}
+		# owner = {	has_country_flag = sfdoll_empire	}
 	}
-	prerequisites = {	tech_sfdoll_chemical }
+	# prerequisites = {	tech_sfdoll_chemical }
 	destroy_trigger = {
 		free_building_slots = 0
 		exists = owner

@@ -1,15 +1,97 @@
-# scope: ship
-# add_hp_sfd_ship = {
-# 	if = {
-# 		limit = { has_hp < 500000 }
-# 		add_modifier = { modifier = add_hp_1500000_times days = $DAYS$ }
-# 	}
-# 	else_if = {
-# 		limit = { has_hp < 1000000 }
-# 		add_modifier = { modifier = add_hp_1000000_times days = $DAYS$ }
-# 	}
-# 	else_if = {
-# 		limit = { has_hp < 1500000 }
-# 		add_modifier = { modifier = add_hp_500000_times days = $DAYS$ }
-# 	}
-# }
+# this = ship destroyed , root = ship , root.fromfrom = ship destroyed
+sfdoll_warship_rebuild = {
+	if = {
+		limit = { is_ship_size = sfdoll_warship_1 }
+		fleet = {
+			create_ship = {
+				name = prev
+				random_existing_design = sfdoll_warship_1
+				effect = {
+					set_timed_ship_flag = {
+						flag = flag_sfdoll_aux_rebuild
+						days = 30
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = { is_ship_size = sfdoll_warship_2 }
+		fleet = {
+			create_ship = {
+				name = prev
+				random_existing_design = sfdoll_warship_2
+				effect = {
+					set_timed_ship_flag = {
+						flag = flag_sfdoll_aux_rebuild
+						days = 30
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = { is_ship_size = sfdoll_warship_3 }
+		fleet = {
+			create_ship = {
+				name = prev
+				random_existing_design = sfdoll_warship_3
+				effect = {
+					set_timed_ship_flag = {
+						flag = flag_sfdoll_aux_rebuild
+						days = 30
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = { is_ship_size = sfdoll_warship_4 }
+		fleet = {
+			create_ship = {
+				name = prev
+				random_existing_design = sfdoll_warship_4
+				effect = {
+					set_timed_ship_flag = {
+						flag = flag_sfdoll_aux_rebuild
+						days = 30
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = { is_ship_size = ship_sfdoll_carrier }
+		create_fleet = {
+			name = root.fromfrom.fleet
+			effect = {
+				set_owner = root
+				create_ship = {
+					random_existing_design = ship_sfdoll_carrier
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+					}
+				}
+				set_location = root.fromfrom
+			}
+			settings = {
+				can_upgrade = yes
+				uses_naval_capacity = yes
+				spawn_debris = no
+				can_disband = yes
+				can_change_leader = yes
+				can_change_composition = no
+			}
+		}
+	}
+}
+
+#this = new fleet , prev = a ship destroyed , root = country , root.fromfrom = old fleet
+sfdoll_warship_rebuild_2 = {
+	
+}
+

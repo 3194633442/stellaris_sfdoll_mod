@@ -157,13 +157,13 @@ tech_building_sfdoll_mineral = {
 	weight = 1500
 }
 
-#铁血化工改进，用于解锁三大稀有资源建筑
+#化工
 tech_sfdoll_chemical = {
-	cost = @tier4cost1
+	cost = @tier3cost1
 	area = engineering
-	tier = 4
+	tier = 3
 	category = { industry }
-	prerequisites = { "tech_sfdoll_collapse_liquid_produce" }
-	weight = 0
+	prerequisites = { tech_sfdoll_nanites }
+	weight = 1500
 	potential = {	has_authority = auth_gf_sfdoll	}
 }

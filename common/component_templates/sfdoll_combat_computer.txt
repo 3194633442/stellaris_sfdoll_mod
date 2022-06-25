@@ -9,6 +9,7 @@ utility_component_template = {
 	prerequisites = {	"tech_sfdoll_ship_computer"	}
 	ship_modifier = {
 		ship_fire_rate_mult = 0.3
+		ship_accuracy_mult = 0.25
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 	}
@@ -36,6 +37,7 @@ utility_component_template = {
 	ship_modifier = {
 		ship_weapon_damage = 0.2
 		ship_fire_rate_mult = 0.3
+		ship_accuracy_mult = 0.25
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 	}
@@ -66,6 +68,7 @@ utility_component_template = {
 	prerequisites = {	"tech_sfdoll_ship_computer"	}
 	ship_modifier = {
 		ship_fire_rate_mult = 0.3
+		ship_accuracy_mult = 0.25
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 		ship_engagement_range_mult = 0.75

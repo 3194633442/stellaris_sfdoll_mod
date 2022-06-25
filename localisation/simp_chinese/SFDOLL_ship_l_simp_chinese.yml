@@ -45,13 +45,13 @@ component_set_sfdoll_strike_craft_DESC:0 "$sfdoll_strike_craft$"
 # tech_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
 # tech_sfdoll_strike_craft_desc:0 "$component_set_sfdoll_strike_craft_DESC$"
 
-sfdoll_weapon_x_2:0 "毒牙舰炮"
+sfdoll_weapon_x_2:0 "终末辉光"
 component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
 component_set_sfdoll_weapon_x_2_DESC:0 "这种轴炮的每次攻击都是致命的"
 tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
 tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
 
-component_set_sfdoll_weapon_L_2:0 "猎隼火力系统"
+component_set_sfdoll_weapon_L_2:0 "毒牙火力系统"
 component_set_sfdoll_weapon_L_2_DESC:0 "新一代火力系统兼具高威力和全方位攻击的能力"
 sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
 sfdoll_weapon_m_2:0 "$component_set_sfdoll_weapon_L_2$"
@@ -65,7 +65,6 @@ sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
-
 
 sfdoll_missile_2:0 "铁血M2导弹"
 sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"
@@ -101,11 +100,11 @@ sfdoll_aux_ship_revive_DESC:0 "$sfdoll_aux_ship_revive$能抵挡飞船受到的�
 tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
 tech_sfdoll_aux_ship_revive_desc:0 "$sfdoll_aux_ship_revive$可以隔绝部分敌对攻击"
 
-sfdoll_aux_ship_revive_2:0 "维度锚救生舱"
-sfdoll_aux_ship_revive_2_DESC:0 "装备$sfdoll_aux_ship_revive_2$的舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_ship_revive_2$. 效果无法叠加."
+sfdoll_aux_rebuild:0 "维度锚救生舱"
+sfdoll_aux_rebuild_DESC:0 "装备$sfdoll_aux_rebuild$的舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_rebuild$. 效果无法叠加."
 
-tech_sfdoll_aux_ship_revive_2:0 "$sfdoll_aux_ship_revive_2$"
-tech_sfdoll_aux_ship_revive_2_desc:0 "利用$sfdoll_aux_ship_revive_2$,飞船可在受到致命攻击时保护核心机能,并短暂潜入其他维度,再利用冗余备份来修复舰船."
+tech_sfdoll_aux_rebuild:0 "$sfdoll_aux_rebuild$"
+tech_sfdoll_aux_rebuild_desc:0 "利用$sfdoll_aux_rebuild$,飞船可在受到致命攻击时保护核心机能,并短暂潜入其他维度,再利用冗余备份来修复舰船."
 
 
 tech_sfdoll_thruster:0"$sfdoll_thruster$"

@@ -118,8 +118,7 @@ job_sfdoll_mineral_maker_effect_desc:0 "$job_sfdoll_mineral_maker$ consumes §Y$
 mod_job_sfdoll_mineral_maker_add:0"$job_sfdoll_mineral_maker$ jobs"
 
 
-# tech_sfdoll_chemical:0 "铁血极速化学合成"
-# tech_sfdoll_chemical_desc:0 "坍塌科技让化学合成变得简单"
+
 
 # building_sfdoll_gases_plant:0 "铁血化学厂"
 # building_sfdoll_gases_plant_desc:0 "$building_sfdoll_gases_plant$"

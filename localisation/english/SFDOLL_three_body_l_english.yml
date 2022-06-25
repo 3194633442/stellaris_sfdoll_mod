@@ -1,0 +1,18 @@
+﻿l_english:
+###############################
+sfdoll_the_leader_is_doing_this_job:0 "The leader is doing this work."
+
+sfdoll_three_body_event.1:0 "Communication with Ding Yi"
+sfdoll_three_body_event.1_desc:0 "I seem to have been sleeping for a long time, but it seems that I am still alive. Homesto and physical transformation, it feels bad enough ... cooperating with you really makes me suffer a lot."
+sfdoll_three_body_event.1_option:0 "Do you regret it?"
+sfdoll_three_body_event.1_option_response:0 "Regret? I have no regrets. Physics is my everything, and I can do anything for it.\n\n Your Creator, Lycoris, created you which is a new species! But he was actually afraid, and even gave up the super AI he pursued throughout his life. I can understand how painful he has experienced.\n\n I am different from Lycoris, and I will never give up. For the mystery of the universe, let's continue to work hard."
+
+sfdoll_three_body_event.2:0 "Communication with Ding Yi"
+sfdoll_three_body_event.2_desc_a:0 My life already has a master, that is, physics."
+sfdoll_three_body_event.2_desc_b:0 "Facing the universe, keep humble. Arrogance will be the greatest danger."
+
+sfdoll_three_body_event.2_option_a:0 "Please be a scientist"
+sfdoll_three_body_event.2_option_a_response:0 "I have been waiting for a long time."
+
+leader_trait_sfdoll_dingyi:0 "Sextant"
+leader_trait_sfdoll_dingyi_desc:0 "Death in the evening is acceptable if the truth is learned in the morning."

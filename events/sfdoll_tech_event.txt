@@ -29,7 +29,7 @@ country_event = {
 
 		#神枪少女
 		if = {
-			limit = {	has_technology = tech_sapient_ai }
+			limit = {	has_technology = tech_hyper_drive_2 }
 			country_event = {
 				id = sfdoll_gunslinger_girl_event.1
 				days = 30

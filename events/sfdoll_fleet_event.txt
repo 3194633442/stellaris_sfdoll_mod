@@ -9,9 +9,9 @@ country_event = {
 	trigger = {	has_authority = auth_gf_sfdoll	 }
 	immediate = {
 		fromfrom = {
-			fleet_event = {
-				id = sfdoll_fleet_event.2
-			}
+			# fleet_event = {
+			# 	id = sfdoll_fleet_event.2
+			# }
 			if = {
 				limit = {
 					any_owned_ship = {
@@ -120,100 +120,12 @@ country_event = {
 			
 			if = {
 				limit = {
-					has_component = sfdoll_aux_ship_revive_2
+					has_component = sfdoll_aux_rebuild
 					NOT = {
-						has_ship_flag = flag_sfdoll_aux_ship_revive_2
+						has_ship_flag = flag_sfdoll_aux_rebuild
 					}
 				}
-				if = {
-					limit = { is_ship_size = sfdoll_warship_1 }
-					fleet = {
-						create_ship = {
-							name = prev
-							random_existing_design = sfdoll_warship_1
-							effect = {
-								set_timed_ship_flag = {
-									flag = flag_sfdoll_aux_ship_revive_2
-									days = 30
-								}
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = { is_ship_size = sfdoll_warship_2 }
-					fleet = {
-						create_ship = {
-							name = prev
-							random_existing_design = sfdoll_warship_2
-							effect = {
-								set_timed_ship_flag = {
-									flag = flag_sfdoll_aux_ship_revive_2
-									days = 30
-								}
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = { is_ship_size = sfdoll_warship_3 }
-					fleet = {
-						create_ship = {
-							name = prev
-							random_existing_design = sfdoll_warship_3
-							effect = {
-								set_timed_ship_flag = {
-									flag = flag_sfdoll_aux_ship_revive_2
-									days = 30
-								}
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = { is_ship_size = sfdoll_warship_4 }
-					fleet = {
-						create_ship = {
-							name = prev
-							random_existing_design = sfdoll_warship_4
-							effect = {
-								set_timed_ship_flag = {
-									flag = flag_sfdoll_aux_ship_revive_2
-									days = 30
-								}
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = { is_ship_size = ship_sfdoll_carrier }
-					create_fleet = {
-						name = root.fromfrom.fleet
-						effect = {
-							set_owner = root
-							create_ship = {
-								random_existing_design = ship_sfdoll_carrier
-								name = root.fromfrom
-								effect = {
-									set_timed_ship_flag = {
-										flag = flag_sfdoll_aux_ship_revive_2
-										days = 30
-									}
-								}
-							}
-							set_location = root.fromfrom
-						}
-						settings = {
-							can_upgrade = yes
-							uses_naval_capacity = yes
-							spawn_debris = no
-							can_disband = yes
-							can_change_leader = yes
-							can_change_composition = no
-						}
-					}
-				}
-
+				sfdoll_warship_rebuild = yes
 			}
 		}
 	}
@@ -255,46 +167,105 @@ country_event = {
 	}
 	immediate = {
 		fromfrom = {
-			# if = {
-			# 	limit = {
-			# 		any_owned_ship = {
-			# 			has_component = sfdoll_aux_ship_revive_2
-			# 			NOT = {
-			# 				has_ship_flag = flag_sfdoll_aux_ship_revive_2
-			# 			}
-			# 		}
-			# 	}
-			# 	save_event_target_as = sfdoll_fleet_rivive_old
-			# 	solar_system = {
-			# 		create_fleet = {
-			# 			name = root.fromfrom
-			# 			effect = {
-			# 				set_owner = root
-			# 				set_location = root.fromfrom
-			# 				save_event_target_as = sfdoll
-			# 				event_target:sfdoll_fleet_rivive = {
-			# 					every_owned_ship = {
-			# 						limit = {
-			# 							has_component = sfdoll_aux_ship_revive_2
-			# 							NOT = {
-			# 								has_ship_flag = flag_sfdoll_aux_ship_revive_2
-			# 							}
-			# 						}
-
-			# 					}
-			# 				}
-			# 			}
-			# 			settings = {
-			# 				can_upgrade = yes
-			# 				uses_naval_capacity = yes
-			# 				spawn_debris = yes
-			# 				can_disband = yes
-			# 				can_change_leader = yes
-			# 				can_change_composition = yes
-			# 			}
-			# 		}
-			# 	}
-			# }
+			if = {
+				limit = {
+					any_owned_ship = {
+						has_component = sfdoll_aux_rebuild
+						NOT = {
+							has_ship_flag = flag_sfdoll_aux_rebuild
+						}
+					}
+				}
+				# save_event_target_as = sfdoll_fleet_rebuilt_old
+				solar_system = {
+					create_fleet = {
+						name = root.fromfrom
+						effect = {
+							set_owner = root
+							set_location = root.fromfrom
+							save_event_target_as = sfdoll_fleet_rebuilt_new
+							root.fromfrom = {
+								every_owned_ship = {
+									limit = {
+										has_component = sfdoll_aux_rebuild
+										NOT = {
+											has_ship_flag = flag_sfdoll_aux_rebuild
+										}
+									}
+									if = {
+										limit = { is_ship_size = sfdoll_warship_1 }
+										event_target:sfdoll_fleet_rebuilt_new = {
+											create_ship = {
+												name = prev
+												random_existing_design = sfdoll_warship_1
+												effect = {
+													set_timed_ship_flag = {
+														flag = flag_sfdoll_aux_rebuild
+														days = 30
+													}
+												}
+											}
+										}
+									}
+									else_if = {
+										limit = { is_ship_size = sfdoll_warship_2 }
+										event_target:sfdoll_fleet_rebuilt_new = {
+											create_ship = {
+												name = prev
+												random_existing_design = sfdoll_warship_2
+												effect = {
+													set_timed_ship_flag = {
+														flag = flag_sfdoll_aux_rebuild
+														days = 30
+													}
+												}
+											}
+										}
+									}
+									else_if = {
+										limit = { is_ship_size = sfdoll_warship_3 }
+										event_target:sfdoll_fleet_rebuilt_new = {
+											create_ship = {
+												name = prev
+												random_existing_design = sfdoll_warship_3
+												effect = {
+													set_timed_ship_flag = {
+														flag = flag_sfdoll_aux_rebuild
+														days = 30
+													}
+												}
+											}
+										}
+									}
+									else_if = {
+										limit = { is_ship_size = sfdoll_warship_4 }
+										event_target:sfdoll_fleet_rebuilt_new = {
+											create_ship = {
+												name = prev
+												random_existing_design = sfdoll_warship_4
+												effect = {
+													set_timed_ship_flag = {
+														flag = flag_sfdoll_aux_rebuild
+														days = 30
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						settings = {
+							can_upgrade = yes
+							uses_naval_capacity = yes
+							spawn_debris = yes
+							can_disband = yes
+							can_change_leader = yes
+							can_change_composition = yes
+						}
+					}
+				}
+			}
 		}
 	}
 }

@@ -7,4 +7,5 @@ portraits = {
 	GFX_sfdoll_triela = { textureFile = "gfx/models/portraits/gf_sfdoll_02/triela.dds" }
 	GFX_portrait_sfdoll_ogas40 = { textureFile = "gfx/models/portraits/gf_sfdoll_02/ogas40.dds" }
 	GFX_sfdoll_hari_seldon = { textureFile = "gfx/models/portraits/gf_sfdoll_02/gf_sfdoll_hari_seldon.dds" }
+	GFX_sfdoll_dingyi = { textureFile = "gfx/models/portraits/gf_sfdoll_02/dingyi.dds" }
 }

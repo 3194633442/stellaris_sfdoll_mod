@@ -598,9 +598,9 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 24000 max = 24000 }
+	damage = { min = 12000 max = 12000 }
 	#冷却时间要除以10
-	total_fire_time = 45
+	total_fire_time = 22
 	range = 150
 	accuracy = 1
 	tracking = 0.8
@@ -642,9 +642,9 @@ weapon_component_template = {
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 20000 max = 20000 }
+	damage = { min = 10000 max = 10000 }
 	#冷却时间要除以10
-	total_fire_time = 45
+	total_fire_time = 22
 	range = 120
 	accuracy = 1
 	tracking = 0.9
@@ -691,13 +691,13 @@ weapon_component_template = {
 		weapon_role_anti_hull
 	}
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = -99999999999 max = 999999999999  }
+	damage = { min = -999999999999999 max = 999999999999999  }
 	#冷却时间要除以10
 	total_fire_time = 400
 
 	range = 450
 	prio_projectile = yes
-	accuracy = 0.9
+	accuracy = 0.8
 	tracking = 0.1
 	resources = {
 		category = ship_components
@@ -742,28 +742,29 @@ strike_craft_component_template = {
 		}
 	}
 	count = 1
-	regeneration_per_day = 0.02
-	launch_time = 0  #1.0
+	regeneration_per_day = 0.03
+	launch_time = 0.2 #1.0
 	
-	damage = { min = 160000 max = 160000 }
-	cooldown = 3.3
+	damage = { min = 240000 max = 240000 }
+	#舰载机的不需要除10
+	cooldown = 4.5
 	range = 300
-	engagement_range = 800
+	#engagement_range = 800
 	accuracy = 1
 	tracking = 0.9
 	
 	health = 200000
 	armor = 200000
 	shield = 200000
-	evasion = 1
+	evasion = 0.9
 	
 	speed = 3000
 	rotation_speed = 0.8
 	acceleration = 0.9
 	
-	ship_behavior = sfdoll_fighters_behaviory
+	ship_behavior = bombers_behavior
 	weapon_type = instant
-	projectile_gfx = "" #"titan_laser"
+	projectile_gfx = ""
 	component_set = "sfdoll_strike_craft_2"
 	
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft }

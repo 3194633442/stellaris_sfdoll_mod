@@ -1,18 +1,19 @@
 ﻿l_english:
 ###############################
 #planet_killer
-# planet_killer_sfdoll_2:0 "黄昏降临"
-# planet_killer_sfdoll_2_DESC:0 "这种武器会引发整个星系的质量坍塌，最终摧毁星系"
-
-# planet_killer_sfdoll_2_ACTION:0 "黄昏降临"
-# FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "黄昏降临"
-# MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "摧毁"
-
-message_system_destroyed_sfdoll:0 "a solar system was destroyed"
+message_system_destroyed_sfdoll:0 "a system was destroyed"
 message_planet_destroyed_sfdoll:0 "a planet was destroyed"
 
+planet_killer_sfdoll_2:0 "Anti-Star Gun"
+planet_killer_sfdoll_2_DESC:0 "This weapon can destroy a planet or a star. Destroying a star will spread to surrounding celestial bodies."
+
+planet_killer_sfdoll_2_ACTION:0 "$planet_killer_sfdoll_2$"
+FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "$planet_killer_sfdoll_2$"
+MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "destroyed"
+
+
 planet_killer_sfdoll_1:0 "Shooting Star"
-planet_killer_sfdoll_1_DESC:0 "This device will wipe out all existence around the star, only your own fleet will not be affected."
+planet_killer_sfdoll_1_DESC:0 "This device will wipe out all existence in the system, only your own fleet will not be affected."
 tech_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"
 tech_planet_killer_sfdoll_1_desc:0 "$planet_killer_sfdoll_1_DESC$"
 

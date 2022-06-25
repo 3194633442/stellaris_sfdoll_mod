@@ -18,11 +18,12 @@ leader_trait_elisa_sfd_scientist_desc:0 "伊莱莎曾经是一个搭载OGAS的�
 
 sfdoll_elisa_event.3:0 "联系一些领袖"
 sfdoll_elisa_event_3_a_desc:0 "要找谁？"
-sfdoll_elisa_event.3_option_1:0 "联系莉娃"
-sfdoll_elisa_event.3_option_2:0 "联系崔耶拉"
-sfdoll_elisa_event.3_option_3:0 "联系诺耶露"
-sfdoll_elisa_event.3_option_4:0 "联系OGAS"
-sfdoll_elisa_event.3_option_5:0 "联系谢顿"
+sfdoll_elisa_event.3_option_1:0 "莉娃"
+sfdoll_elisa_event.3_option_2:0 "崔耶拉"
+sfdoll_elisa_event.3_option_3:0 "诺耶露"
+sfdoll_elisa_event.3_option_4:0 "OGAS"
+sfdoll_elisa_event.3_option_5:0 "谢顿"
+sfdoll_elisa_event.3_option_6:0 "丁仪"
 
 
 sfdoll_elisa_event.4:0 "和伊莱莎通讯"

@@ -13,7 +13,6 @@ utility_component_template = {
 	}
 	ftl = yes
 	jumpdrive = yes
-	ftl_inhibitor = yes
 	ship_modifier = {
 		ship_windup_mult = -1.0
 		ship_jumpdrive_cooldown_mult = -1

@@ -192,6 +192,16 @@ country_event = {
 			}
 		}
 	}
+	#找丁仪
+	option = {
+		name = "sfdoll_elisa_event.3_option_6"
+		trigger = {	has_country_flag = sfdoll_dingyi_owner	}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_three_body_event.2
+			}
+		}
+	}
 
 	#退出
 	option = {
