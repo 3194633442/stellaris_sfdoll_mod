@@ -686,14 +686,14 @@ weapon_component_template = {
 	prerequisites = {	tech_sfdoll_missile_2 }
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
-	# tags = {	weapon_type_explosive weapon_type_energy 	}
+	tags = { weapon_type_energy weapon_type_kinetic	}
 	ai_tags = {
 		weapon_role_anti_hull
 	}
-	damage = { min = -999999999999999999 max = 999999999999999999  }
-	# damage = { min = -999999999999999 max = 999999999999999  }
+	# damage = { min = -999999999999999999 max = 999999999999999999  }
+	damage = { min = 2500000 max = 2500000  }
 	#冷却时间要除以10
-	total_fire_time = 400
+	total_fire_time = 190
 
 	range = 450
 	prio_projectile = yes

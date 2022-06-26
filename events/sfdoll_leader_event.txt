@@ -42,5 +42,4 @@ country_event = {
 			event_target:sfdoll_leader_dingyi = { change_leader_portrait = GFX_sfdoll_dingyi }
 		}
 	}
-
 }
