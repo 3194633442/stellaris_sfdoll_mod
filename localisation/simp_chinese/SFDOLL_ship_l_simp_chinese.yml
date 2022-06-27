@@ -95,10 +95,10 @@ tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 
-sfdoll_aux_ship_revive:0 "SF空间滤网"
-sfdoll_aux_ship_revive_DESC:0 "$sfdoll_aux_ship_revive$能抵挡飞船受到的致命攻击,同时停止飞船自身攻击,并回复船体.$sfdoll_aux_ship_revive$会在交战开始时启动,每经过10天,需要进行20天的冷却后再次启动.效果无法叠加."
-tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
-tech_sfdoll_aux_ship_revive_desc:0 "$sfdoll_aux_ship_revive$可以隔绝部分敌对攻击"
+sfdoll_aux_rebuild_2:0 "SF空间滤网"
+sfdoll_aux_rebuild_2_DESC:0 "$sfdoll_aux_rebuild_2$能抵挡飞船受到的致命攻击,同时停止飞船自身攻击,并回复船体.$sfdoll_aux_rebuild_2$会在交战开始时启动,每经过10天,需要进行20天的冷却后再次启动.效果无法叠加."
+tech_sfdoll_aux_rebuild_2:0 "$sfdoll_aux_rebuild_2$"
+tech_sfdoll_aux_rebuild_2_desc:0 "$sfdoll_aux_rebuild_2$可以隔绝部分敌对攻击"
 
 sfdoll_aux_rebuild:0 "维度锚救生舱"
 sfdoll_aux_rebuild_DESC:0 "装备$sfdoll_aux_rebuild$的舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_rebuild$. 效果无法叠加."
@@ -220,12 +220,11 @@ sfdoll_warship_4_stern:0 "D"
 need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
 
 #flag ship
-
-component_aura_sfdoll_1:0 "干扰战术模块\n\n交战开始时,降低敌方舰队的武器伤害,命中,射速和射程.效果持续30天,不可叠加."
+component_aura_sfdoll_1:0 "时间停止特技\n\n交战开始时,降低敌方舰队的武器伤害,命中,射速和射程.效果持续30天,不可叠加."
 
 
 ship_sfdoll_noel:0 "诺耶露"
-section_sfdoll_noel:0 "诺耶露装备箱"
+section_sfdoll_noel:0 "诺耶露"
 
 #section
 tech_sfdoll_battleship_bow_x2:0 "铁血军工:轻量化武器"

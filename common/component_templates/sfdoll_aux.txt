@@ -97,11 +97,10 @@ utility_component_template = {
 
 #不被破坏
 utility_component_template = {
-	key = "sfdoll_aux_ship_revive"
+	key = "sfdoll_aux_rebuild_2"
 	size = aux
-	icon = "GFX_sfdoll_aux_ship_revive"
+	icon = "GFX_sfdoll_aux_rebuild_2"
 	icon_frame = 1
-	hidden = yes
 	power = -600
 	resources = {
 		category = ship_components
@@ -109,11 +108,11 @@ utility_component_template = {
 			GF_nyto_collapse_liquid = 60
 		}
 	}
-	prerequisites = { tech_sfdoll_aux_ship_revive }
-	component_set = "sfdoll_aux_ship_revive"
+	prerequisites = { tech_sfdoll_aux_rebuild_2 }
+	component_set = "sfdoll_aux_rebuild_2"
 
 	size_restriction = {
-		ship_sfdoll_carrier   sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4
+		ship_sfdoll_carrier sfdoll_warship_3 sfdoll_warship_4
 	}
 	ai_weight = {
 		weight = 20
@@ -153,7 +152,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "sfdoll_aux_ship_rebuild"
+	key = "sfdoll_aux_rebuild"
 	size = aux
 	icon = "GFX_sfdoll_aux_rebuild"
 	icon_frame = 1

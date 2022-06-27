@@ -112,6 +112,9 @@ mega_sfdoll_carrier_02 = {
 						name = "Name_sfdoll_carrier"
 						prefix = no
 						upgradable = yes
+						effect = {
+							set_disable_at_health = 0
+						}
 					}
 					set_location = fromfrom
 				}

@@ -94,11 +94,11 @@ component_set_sfdoll_aux_repair_ship_DESC:0"Damage control system improves ship 
 # tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"
 # tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
-sfdoll_aux_ship_revive:0 "SF Space Filter"
-sfdoll_aux_ship_revive_DESC:0 "$sfdoll_aux_ship_revive$ can withstand the fatal attack on the ship, stop its own attack and restore its hull. $sfdoll_aux_ship_revive$ will startup at the beginning of the engagement, and every 10 days will require a 20-day cooldown to startup again. The effect does not stack."
+sfdoll_aux_rebuild_2:0 "SF Space Filter"
+sfdoll_aux_rebuild_2_DESC:0 "$sfdoll_aux_rebuild_2$ can withstand the fatal attack on the ship, stop its own attack and restore its hull. $sfdoll_aux_rebuild_2$ will startup at the beginning of the engagement, and every 10 days will require a 20-day cooldown to startup again. The effect does not stack."
 
-tech_sfdoll_aux_ship_revive:0 "$sfdoll_aux_ship_revive$"
-tech_sfdoll_aux_ship_revive_desc:0 "$sfdoll_aux_ship_revive$ can block some hostile attacks"
+tech_sfdoll_aux_rebuild_2:0 "$sfdoll_aux_rebuild_2$"
+tech_sfdoll_aux_rebuild_2_desc:0 "$sfdoll_aux_rebuild_2$ can block some hostile attacks"
 
 
 sfdoll_aux_rebuild:0 "Dimensional-Anchor Escape Capsule"
@@ -223,8 +223,7 @@ sfdoll_warship_4_stern:0 "D"
 need_sfdoll_mega_starport:0 "It can be built in the following places:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
 
 #flag ship
-
-component_aura_sfdoll_1:0 "Jamming Device\n\n At the beginning of the engagement, reduce the damage, hit, rate of fire and range of enemy weapons. The effect lasts for 30 days and cannot be stacked."
+component_aura_sfdoll_1:0 "Time Stop Special\n\n At the beginning of the engagement, reduce the damage, hit, rate of fire and range of enemy weapons. The effect lasts for 30 days and cannot be stacked."
 
 
 ship_sfdoll_noel:0 "Noel"

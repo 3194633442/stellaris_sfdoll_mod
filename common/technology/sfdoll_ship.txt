@@ -308,10 +308,10 @@ tech_sfdoll_aux_quality_rebuilding = {
 }
 
 #SF空间滤网
-tech_sfdoll_aux_ship_revive = {
+tech_sfdoll_aux_rebuild_2 = {
 	cost = @tier5cost3
 	area = physics
-	icon = tech_sfdoll_aux_ship_revive
+	icon = tech_sfdoll_aux_rebuild_2
 	category = { field_manipulation }
 	is_rare = yes
 	is_reverse_engineerable = no
@@ -328,7 +328,7 @@ tech_sfdoll_aux_rebuild = {
 	category = { field_manipulation }
 	is_rare = yes
 	is_reverse_engineerable = no
-	prerequisites = {	tech_sfdoll_aux_ship_revive	}
+	prerequisites = {	tech_sfdoll_aux_rebuild_2	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
 	weight = 1500
