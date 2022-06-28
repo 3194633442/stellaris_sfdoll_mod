@@ -41,8 +41,6 @@ sfdoll_warship_rebuild = {
 						flag = flag_sfdoll_aux_rebuild
 						days = 30
 					}
-
-					set_disable_at_health = 0
 				}
 			}
 		}

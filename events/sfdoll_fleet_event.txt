@@ -98,13 +98,18 @@ ship_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			is_ship_size = sfdoll_warship_3
-			is_ship_size = sfdoll_warship_4
-		}
+		is_ship_size = sfdoll_warship_4
 	}
 	immediate = {
 		set_disable_at_health = 0
+		owner = {
+			create_message = {
+				type = ALIEN_MEGASTRUCTURE_BUILT
+				localization = x
+				days = 60
+				target = THIS
+			}
+		}
 	}
 }
 ship_event = {
@@ -113,7 +118,6 @@ ship_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			is_ship_size = sfdoll_warship_3
 			is_ship_size = sfdoll_warship_4
 			is_ship_size = ship_sfdoll_carrier
 		}
@@ -122,32 +126,40 @@ ship_event = {
 		if = {
 			limit = {
 				has_component = sfdoll_aux_rebuild_2
-				check_variable = {
-					which = sfdoll_aux_rebuild_2
-					value <4
+				NOT = {
+					has_ship_flag = flag_sfdoll_aux_rebuild_2
+					has_ship_flag = flag_sfdoll_aux_rebuild
 				}
+				# check_variable = {
+				# 	which = sfdoll_aux_rebuild_2
+				# 	value <4
+				# }
 			}
 			repair_ship = yes
 			set_disabled = no
-			change_variable = {
-				which = sfdoll_aux_rebuild_2
-				value = 1
+			set_timed_ship_flag = {
+				flag = flag_sfdoll_aux_rebuild_2
+				days = 30
 			}
-			if = {
-				limit = {
-					NOT = {
-						has_ship_flag = flag_sfdoll_aux_rebuild_2
-					}
-				}
-				set_timed_ship_flag = {
-					flag = flag_sfdoll_aux_rebuild_2
-					days = 28
-				}
-				ship_event = {
-					id = sfdoll_fleet_event.8
-					days = 30
-				}
-			}
+			# change_variable = {
+			# 	which = sfdoll_aux_rebuild_2
+			# 	value = 1
+			# }
+			# if = {
+			# 	limit = {
+			# 		NOT = {
+			# 			has_ship_flag = flag_sfdoll_aux_rebuild_2
+			# 		}
+			# 	}
+			# 	set_timed_ship_flag = {
+			# 		flag = flag_sfdoll_aux_rebuild_2
+			# 		days = 28
+			# 	}
+			# 	ship_event = {
+			# 		id = sfdoll_fleet_event.8
+			# 		days = 30
+			# 	}
+			# }
 
 		}
 		else = {
@@ -190,7 +202,7 @@ country_event = {
 	}
 }
 
-#开战30天火力压制
+#30天火力压制
 fleet_event = {
 	id = sfdoll_fleet_event.6
 	hide_window = yes
@@ -328,11 +340,16 @@ country_event = {
 	}
 }
 
-ship_event = {
-	id = sfdoll_fleet_event.8
-	hide_window = yes
-	is_triggered_only = yes
-	immediate = {
-		clear_variable = sfdoll_aux_rebuild_2
-	}
-}
+# ship_event = {
+# 	id = sfdoll_fleet_event.8
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	immediate = {
+# 		clear_variable = sfdoll_aux_rebuild_2
+# 		if = {
+# 			limit = {
+# 				is_in_combat = yes
+# 			}
+# 		}
+# 	}
+# }

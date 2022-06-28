@@ -101,7 +101,7 @@ utility_component_template = {
 	size = aux
 	icon = "GFX_sfdoll_aux_rebuild_2"
 	icon_frame = 1
-	power = -600
+	power = -2000
 	resources = {
 		category = ship_components
 		cost = {
@@ -112,7 +112,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_rebuild_2"
 
 	size_restriction = {
-		ship_sfdoll_carrier sfdoll_warship_3 sfdoll_warship_4
+		ship_sfdoll_carrier sfdoll_warship_4
 	}
 	ai_weight = {
 		weight = 20

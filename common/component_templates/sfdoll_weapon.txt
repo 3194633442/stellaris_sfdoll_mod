@@ -413,9 +413,9 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 2500000 max = 2500000  }
+	damage = { min = 1200000 max = 1200000  }
 	#冷却时间要除以10
-	total_fire_time = 87.1
+	total_fire_time = 41
 	range = 450
 	accuracy = 1
 	tracking = 0.15
@@ -465,9 +465,9 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 1000000 max = 1000000 }
+	damage = { min = 480000 max = 480000 }
 	#冷却时间要除以10
-	total_fire_time = 87.1
+	total_fire_time = 41
 	range = 400
 	accuracy = 1
 	tracking = 0.2
@@ -508,10 +508,10 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 160000 max = 160000 }
+	damage = { min = 190000 max = 190000 }
 	#冷却时间要除以10
-	total_fire_time = 45
-	range = 300
+	total_fire_time = 41
+	range = 360
 	accuracy = 1
 	tracking = 0.7
 	power = -32000
@@ -551,10 +551,10 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 64000 max = 64000 }
+	damage = { min = 76000 max = 76000 }
 	#冷却时间要除以10
-	total_fire_time = 45
-	range = 225
+	total_fire_time = 41
+	range = 330
 	accuracy = 1.0
 	tracking = 0.75
 	power = -12000
@@ -594,10 +594,10 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 12000 max = 12000 }
+	damage = { min = 30000 max = 30000 }
 	#冷却时间要除以10
-	total_fire_time = 22
-	range = 150
+	total_fire_time = 41
+	range = 300
 	accuracy = 1
 	tracking = 0.8
 	power = -4800
@@ -637,10 +637,10 @@ weapon_component_template = {
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 10000 max = 10000 }
+	damage = { min = 30000 max = 30000 }
 	#冷却时间要除以10
-	total_fire_time = 22
-	range = 120
+	total_fire_time = 21
+	range = 300
 	accuracy = 1
 	tracking = 0.9
 	power = -4800
@@ -687,9 +687,9 @@ weapon_component_template = {
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 2500000 max = 2500000  }
+	damage = { min = 1200000 max = 1200000  }
 	#冷却时间要除以10
-	total_fire_time = 189
+	total_fire_time = 83
 
 	range = 350
 	prio_projectile = yes
