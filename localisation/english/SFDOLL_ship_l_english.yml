@@ -65,12 +65,6 @@ sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
 
-sfdoll_missile_2:0 "SF M2 Missile"
-sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"
-
-tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
-tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2$ can peel and teleport matter within a certain range to other dimensions. It can also perform directional teleportation, thereby compressing matter within a Schwarzschild radius. $sfdoll_missile_2$ will approach the target by short-distance jump, which means it cannot be intercepted by anti-aircraft weapons."
-
 
 sfdoll_strike_craft_2:0 "killer Whale Stealth Fighter"
 sfdoll_strike_craft_2_DESC:0 "$sfdoll_strike_craft_2$ hides itself with a special hull."
@@ -95,7 +89,7 @@ component_set_sfdoll_aux_repair_ship_DESC:0"Damage control system improves ship 
 # tech_sfdoll_aux_quality_rebuilding_desc:0 "$sfdoll_aux_quality_rebuilding_DESC$"
 
 sfdoll_aux_rebuild_2:0 "SF Space Filter"
-sfdoll_aux_rebuild_2_DESC:0 "$sfdoll_aux_rebuild_2$ will resist the fatal attack of the ship, stop the ship's own attacks, and repair the hull. $sfdoll_aux_rebuild_2$ requires a 30-day cooldown after each effect, and cannot be activated during the cooldown of $sfdoll_aux_rebuild$. Its effect cannot be stacked."
+sfdoll_aux_rebuild_2_DESC:0 "§Y$sfdoll_aux_rebuild_2$§! will resist the fatal attack of the ship, stop the ship's own attacks, and repair the hull. §Y$sfdoll_aux_rebuild_2$§! requires a 30-day cooldown after each effect, and cannot be activated during the cooldown of §Y$sfdoll_aux_rebuild$§!. Its effect cannot be stacked."
 
 tech_sfdoll_aux_rebuild_2:0 "$sfdoll_aux_rebuild_2$"
 tech_sfdoll_aux_rebuild_2_desc:0 "$sfdoll_aux_rebuild_2$ can block some hostile attacks"
@@ -223,7 +217,7 @@ sfdoll_warship_4_stern:0 "D"
 need_sfdoll_mega_starport:0 "It can be built in the following places:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
 
 #flag ship
-component_aura_sfdoll_1:0 "Time Stop Special\n\n At the beginning of the engagement, reduce the damage, hit, rate of fire and range of enemy weapons. The effect lasts for 30 days and cannot be stacked."
+component_aura_sfdoll_1:0 "Time Stop Special\n\n Reduces the enemy fleet's weapon damage, accuracy, rate of fire, range, evasion, and the effect cannot be stacked. It is activated at the beginning of the battle, and every 30 days it takes effect, it will be activated again after a 30-day cooldown."
 
 
 ship_sfdoll_noel:0 "Noel"

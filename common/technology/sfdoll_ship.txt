@@ -165,7 +165,7 @@ tech_sfdoll_strike_craft_2 = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 1000
+	weight = 0
 }
 #W槽
 tech_planet_killer_sfdoll_1 = {
@@ -276,7 +276,7 @@ tech_sfdoll_ship_power_2 = {
 	icon = tech_sfdoll_ship_power_2
 	category = { particles }
 	is_reverse_engineerable = no
-	prerequisites = { tech_building_sfdoll_mineral }
+	prerequisites = { tech_sfdoll_star_exploit }
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight3
 }
@@ -403,7 +403,7 @@ tech_sfdoll_warship_1 = {
 	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {
-		tech_building_sfdoll_mineral
+		tech_sfdoll_star_exploit
 		tech_sfdoll_thruster
 		tech_sfdoll_ship_power_2
 		tech_battleships

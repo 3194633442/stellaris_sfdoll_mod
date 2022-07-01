@@ -63,9 +63,9 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = "gf_sfdoll_ascension_perk_event_0_option"
-	}
+	# option = {
+	# 	name = "gf_sfdoll_ascension_perk_event_0_option"
+	# }
 }
 
 country_event = {

@@ -12,20 +12,20 @@ ap_sfdoll_reverse_collapse:0"Sangvis Ferri Project: Lunasia"
 ap_sfdoll_reverse_collapse_desc:0 "On the way home."
 gf_sfdoll_ascension_perk_event_0:0 "$ap_sfdoll_reverse_collapse$"
 gf_sfdoll_ascension_perk_event_0_desc:0 "We will develope new body."
-gf_sfdoll_ascension_perk_event_0_option:0 "This is a new stage of our evolution."
+# gf_sfdoll_ascension_perk_event_0_option:0 "This is a new stage of our evolution."
 
 #
-ap_sfdoll_4:0 "Sangvis Ferri Project: Jormungand"
-ap_sfdoll_4_desc:0 "We can only move forward."
-gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
+ap_sfdoll_3:0 "Sangvis Ferri Project: Jormungand"
+ap_sfdoll_3_desc:0 "We can only move forward."
+gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_3$"
 gf_sfdoll_ascension_perk_event.4_desc:0 "We crave further truth."
 
 #
-ap_sfdoll_planet:0 "Sangvis Ferri World"
-ap_sfdoll_planet_desc:0 "Awaken our new worlds."
+ap_sfdoll_4:0 "Sangvis Ferri World"
+ap_sfdoll_4_desc:0 "Awaken our new worlds."
 tech_build_sfdoll_city:0"Sangvis Ferri Project"
 tech_build_sfdoll_city_desc:0 "Sangvis Ferri Planet incorporates a variety of advanced concepts and technologies."
-gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_planet$"
+gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_4$"
 gf_sfdoll_ascension_perk_event.2_desc:0 "New technologies will change our world."
 
 

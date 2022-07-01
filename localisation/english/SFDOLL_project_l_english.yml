@@ -75,13 +75,13 @@ sfdoll_to_zion_event_5_desc:0 "We can finally enter the interior of the unknown 
 sfdoll_to_zion_event_5_option:0 "Generic interface? ..usb3.0 ? "
 
 SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "Research Unknown Ship"
-SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "This ship is precious research material. We're not going to take it back to the Milky Way, but to do research in situ and parse the data from it."
+SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "This ship is precious research material. We're going to do research in situ and parse the data from it."
 
 sfdoll_to_zion_event_6:0 "Research Unknown Ship"
 sfdoll_to_zion_event_6_desc:0 "According to data in the unknown ship, we learned that the ship is a large deep space carrier for deep space exploration on a supercluster scale.The name of this ship is §R Lamentations§!"
 sfdoll_to_zion_event_6_option:0 "Interesting name. Does the relic sites civilization also have its own Jerusalem?"
 
 sfdoll_to_zion_event.10:0 "never stop asking"
-sfdoll_to_zion_event.10_desc:0 "After further interpretation of the data of §R Lamentations§!, SF Dolls agreed that the Zion we found and the Zion connected to the relic sites in earth are not the same existence. They may just be ordinary refuges for the relic civilization .\n\n The mystery of the relic civilization still needs to be further explored."
+sfdoll_to_zion_event.10_desc:0 "After further interpretation of the data of §R Lamentations§!, we agreed that the Zion we found may just be refuges for the relic civilization . The mystery of the relic civilization still needs to be further explored.\n\n Although §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old man, after a long journey, should get rest."
 sfdoll_to_zion_event.10_option:0 "Are we the first one?"
 

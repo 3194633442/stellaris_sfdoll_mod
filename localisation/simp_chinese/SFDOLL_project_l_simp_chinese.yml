@@ -75,14 +75,14 @@ sfdoll_to_zion_event_5_desc:0 "我们总算可以进入不明飞船的内部了.
 sfdoll_to_zion_event_5_option:0 "通用接口？..usb3.0 ? "
 
 SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "研究未知飞船"
-SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "这艘飞船是珍贵的研究材料。我们不打算把它带回银河系，而是就地展开研究，解析飞船中的数据。"
+SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "这艘飞船是珍贵的研究材料。我们会就地展开研究，解析飞船中的数据。"
 
 sfdoll_to_zion_event_6:0 "成功解析飞船中的数据"
 sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这艘船是一种大型深空母舰，用于超星系团尺度的深空探索。它的名字叫 §R耶利米哀歌§! "
 sfdoll_to_zion_event_6_option:0 "有趣的名字.遗迹文明也有自己的耶路撒冷吗？"
 
 sfdoll_to_zion_event.10:0 "不断追问"
-sfdoll_to_zion_event.10_desc:0 "对§R耶利米哀歌§!的数据进一步解读后,铁血人形们一致认为,我们找到的锡安,和地球遗迹所连接的锡安,并非同一存在.它们或许只是遗迹文明的普通避难所而已.\n\n遗迹文明的谜团,还有待进一步的探索."
+sfdoll_to_zion_event.10_desc:0 "对§R耶利米哀歌§!的数据进一步解读后,我们认为,我们找到的锡安,只是遗迹文明的避难所.遗迹文明的谜团,还有待进一步的探索.\n\n尽管§R耶利米哀歌§!已经将我们视为主人,但我们并不打算把它开回银河系.我们已经得到了想要的情报,而这位老前辈,在经过漫长的旅途后,应该得到休息."
 sfdoll_to_zion_event.10_option:0 "我们是第几个呢?"
 
 

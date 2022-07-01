@@ -24,12 +24,13 @@ tech_sfdoll_collapse_liquid_produce = {
 
 #研究所
 tech_sfdoll_lab = {
-	cost = @tier4cost1
+	cost = @tier3cost1
 	area = physics
 	icon = tech_sfdoll_lab
-	tier = 4
+	tier = 3
+	is_rare = yes
 	category = { computing }
-	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
+	prerequisites = {	tech_sfdoll_nanites	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}

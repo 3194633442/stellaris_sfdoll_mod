@@ -11,8 +11,7 @@ planet_killer_sfdoll_2_ACTION:0 "$planet_killer_sfdoll_2$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "$planet_killer_sfdoll_2$"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "destroyed"
 
-
-planet_killer_sfdoll_1:0 "Shooting Star"
+planet_killer_sfdoll_1:0 "Black Wings Of Corrosion"
 planet_killer_sfdoll_1_DESC:0 "This device will wipe out all existence in the system, only your own fleet will not be affected."
 tech_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"
 tech_planet_killer_sfdoll_1_desc:0 "$planet_killer_sfdoll_1_DESC$"
@@ -23,7 +22,7 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1
 
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "destroyed"
 
-sfdoll_weapen_t_7:0 "Horizon Sword"
+sfdoll_weapen_t_7:0 "Shooting Star"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
 component_set_sfdoll_weapen_t_7_DESC:0 "§Y The fleet equipped with this weapon can destroy a planet or a star when it enters the orbit of the celestial body. You can use an edict to stop this function §!"
 
@@ -36,3 +35,9 @@ sfdoll_planet_killer_event.10_a:0 "destroy §H[fromfrom.GetName]§!"
 
 edict_sfdoll_weapen_t_7_control:0 "Stop Anti-Star Weapon Function"
 edict_sfdoll_weapen_t_7_control_desc:0 "This edict is used to close celestial destruction function. While the edict is in effect , the game will not ask to destroy celestial bodies when fleets enter orbits."
+
+sfdoll_missile_2:0 "Horizon Sword"
+sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"
+
+tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
+tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2$ can peel and teleport matter within a certain range to other dimensions. It can also perform directional teleportation, thereby compressing matter within a Schwarzschild radius. $sfdoll_missile_2$ will approach the target by short-distance jump, which means it cannot be intercepted by anti-aircraft weapons."

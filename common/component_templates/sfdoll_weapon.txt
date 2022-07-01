@@ -412,13 +412,15 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 1200000 max = 1200000  }
+	damage = { min = 590000 max = 590000  }
 	#冷却时间要除以10
-	total_fire_time = 41
-	range = 450
+	total_fire_time = 20
+	range = 400
 	accuracy = 1
 	tracking = 0.15
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 2
 	power = -200000
 	
 	#待修改
@@ -465,12 +467,15 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 480000 max = 480000 }
+	damage = { min = 240000 max = 240000 }
 	#冷却时间要除以10
-	total_fire_time = 41
-	range = 400
+	total_fire_time = 20
+	range = 380
 	accuracy = 1
 	tracking = 0.2
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 2
 	power = -80000
 	
 	#待修改
@@ -508,12 +513,15 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 190000 max = 190000 }
+	damage = { min = 96000 max = 96000 }
 	#冷却时间要除以10
-	total_fire_time = 41
-	range = 360
+	total_fire_time = 20
+	range = 350
 	accuracy = 1
 	tracking = 0.7
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 2
 	power = -32000
 	
 	#待修改
@@ -551,12 +559,15 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 76000 max = 76000 }
+	damage = { min = 39000 max = 39000 }
 	#冷却时间要除以10
-	total_fire_time = 41
-	range = 330
+	total_fire_time = 20
+	range = 325
 	accuracy = 1.0
 	tracking = 0.75
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 2
 	power = -12000
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
@@ -594,12 +605,15 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 30000 max = 30000 }
+	damage = { min = 15600 max = 15600 }
 	#冷却时间要除以10
-	total_fire_time = 41
+	total_fire_time = 20
 	range = 300
 	accuracy = 1
 	tracking = 0.8
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 2
 	power = -4800
 	
 	#待修改
@@ -637,12 +651,15 @@ weapon_component_template = {
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 30000 max = 30000 }
+	damage = { min = 15600 max = 15600 }
 	#冷却时间要除以10
-	total_fire_time = 21
+	total_fire_time = 20
 	range = 300
 	accuracy = 1
 	tracking = 0.9
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 2
 	power = -4800
 	
 	#待修改
@@ -687,14 +704,16 @@ weapon_component_template = {
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 1200000 max = 1200000  }
+	damage = { min = 590000 max = 590000  }
 	#冷却时间要除以10
-	total_fire_time = 83
-
+	total_fire_time = 20
 	range = 350
 	prio_projectile = yes
 	accuracy = 0.8
 	tracking = 0.3
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 2
 	resources = {
 		category = ship_components
 		cost = {			
@@ -741,9 +760,9 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.03
 	launch_time = 0.2 #1.0
 	
-	damage = { min = 240000 max = 240000 }
+	damage = { min = 120000 max = 120000 }
 	#舰载机的不需要除10
-	cooldown = 4.5
+	cooldown = 2
 	range = 300
 	#engagement_range = 800
 	accuracy = 1

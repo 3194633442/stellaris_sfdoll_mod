@@ -12,8 +12,8 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "$planet_killer_sfdoll_2
 MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "摧毁"
 
 
-planet_killer_sfdoll_1:0 "星辰灼啸"
-planet_killer_sfdoll_1_DESC:0 "该设备会将星系中的所有存在消灭,仅有己方舰队可以幸免."
+planet_killer_sfdoll_1:0 "侵蚀之黑翼"
+planet_killer_sfdoll_1_DESC:0 "该设备会将星系中的所有存在消灭,仅有己方舰队可以免受影响."
 tech_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"
 tech_planet_killer_sfdoll_1_desc:0 "$planet_killer_sfdoll_1_DESC$"
 
@@ -23,7 +23,7 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1
 
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "摧毁"
 
-sfdoll_weapen_t_7:0 "视界之剑"
+sfdoll_weapen_t_7:0 "星辰灼啸"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
 component_set_sfdoll_weapen_t_7_DESC:0 "§Y装备该武器的舰队,在进入星球轨道时,可将星球摧毁.摧毁恒星会波及整个星系.你可以在法令中关闭摧毁星球的功能§!"
 
@@ -36,3 +36,8 @@ sfdoll_planet_killer_event.10_a:0 "摧毁§H[fromfrom.GetName]§!"
 
 edict_sfdoll_weapen_t_7_control:0 "关闭对星功能"
 edict_sfdoll_weapen_t_7_control_desc:0 "这个法令用于关闭铁血武器的对星功能。法令生效期间，舰队进入轨道时，不会询问是否摧毁天体。"
+
+sfdoll_missile_2:0 "视界之剑"
+sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"
+tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
+tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2$可将一定范围内的物质剥离并传送到其他维度.它也能进行定向传送,从而将物质压缩到史瓦西半径以内.$sfdoll_missile_2$会通过短距离跃迁来接近目标,这意味着它无法被防空武器拦截."

@@ -31,11 +31,11 @@ building_sfdoll_research = {
 		category = planet_buildings
 		cost = {
 			minerals = @b2_minerals
-			GF_nyto_collapse_liquid = @b2_rare_cost
+			nanites = @b2_rare_cost
 		}
 		upkeep = {
 			energy = @b2_upkeep
-			GF_nyto_collapse_liquid = @b2_rare_upkeep
+			nanites = @b2_rare_upkeep
 		}
 	}
 }

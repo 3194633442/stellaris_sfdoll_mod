@@ -60,7 +60,7 @@ tech_sfdoll_star_exploit = {
 	modifier = {
 		country_resource_max_add = 20000
 	}
-	weight = 1500
+	weight = 0
 }
 
 #航道修改巨构
