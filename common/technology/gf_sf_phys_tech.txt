@@ -57,6 +57,6 @@ tech_sfdoll_singularity = {
 	category = { field_manipulation }
 	icon = tech_sfdoll_singularity
 	weight = 1500
-	prerequisites = {	tech_sfdoll_dark_matter_plant	}
+	prerequisites = {	tech_sfdoll_star_exploit	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 }

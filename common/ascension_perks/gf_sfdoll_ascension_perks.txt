@@ -69,13 +69,11 @@ ap_sfdoll_3 = {
 	}
 	possible = {
 		has_technology = tech_sfdoll_dark_matter_plant
-		has_technology = tech_sfdoll_singularity
 		has_technology = tech_jump_drive_1
-		has_technology = tech_sfdoll_jump_drive
 		has_ascension_perk= ap_sfdoll_reverse_collapse
 	}
 	on_enabled = {
-		add_research_option =tech_sfdoll_energy_plant
+		add_research_option = tech_sfdoll_star_exploit
 		hidden_effect = {
 			country_event = {
 				id = gf_sfdoll_ascension_perk_event.4
@@ -100,9 +98,8 @@ ap_sfdoll_4= {
 		}
 	}
 	possible = {
-		has_technology = tech_climate_restoration
-		has_technology = tech_sfdoll_energy_plant
-		has_technology = tech_building_sfdoll_mineral
+		has_technology = tech_sfdoll_singularity
+		has_technology = tech_sfdoll_jump_drive
 	}
 	modifier = {
 		planet_decision_enact_speed_mult = 0.25
@@ -112,7 +109,7 @@ ap_sfdoll_4= {
 	}
 	#星球改造决议,专属居住站,恒星巨构
 	on_enabled = {
-		add_research_option = tech_sfdoll_star_exploit
+		add_research_option =tech_sfdoll_energy_plant
 		add_research_option = tech_build_sfdoll_city
 		add_research_option = tech_sfdoll_habitat_01
 	}

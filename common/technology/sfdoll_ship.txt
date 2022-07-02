@@ -219,10 +219,12 @@ tech_sfdoll_jump_drive = {
 	is_reverse_engineerable = no
 	category = { field_manipulation }
 	icon = tech_sfdoll_jump_drive
-	prerequisites = { tech_sfdoll_weapon_s_1	}
+	prerequisites = {
+		tech_sfdoll_star_exploit
+		tech_jump_drive_1
+	}
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology =  tech_jump_drive_1
 	}
 	
 	weight = @tier5weight2
