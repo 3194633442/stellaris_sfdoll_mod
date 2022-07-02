@@ -47,11 +47,6 @@ Name_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
 tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
 tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地.未来,她将参与河外星系探索计划."
 
-research_sfdoll_homeless_2:0 "星舰实验室\n 生产:\n §Y40$physics_research$§! £physics_research£ \n §Y40 $society_research$§! £society_research£ \n §Y40 $engineering_research$§! £engineering_research£ \n 维护:\n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
-
-research_sfdoll_homeless_2_set:0 "星舰实验室"
-research_sfdoll_homeless_2_set_DESC:0 "\n\n$research_sfdoll_homeless_2$"
-
 
 mega_sfdoll_carrier_01:0 "深空母舰基址"
 mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"

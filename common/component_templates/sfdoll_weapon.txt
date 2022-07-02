@@ -414,10 +414,10 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 3000000 max = 3000000  }
 	#冷却时间要除以10
-	total_fire_time = 11
+	total_fire_time = 110
 	range = 400
 	accuracy = 1
-	tracking = 0.25
+	tracking = 0.2
 	shield_penetration = 1
 	armor_penetration = 1
 	power = -200000
@@ -700,7 +700,7 @@ weapon_component_template = {
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
 	damage = { min = 3000000 max = 3000000  }
 	#冷却时间要除以10
-	total_fire_time = 114
+	total_fire_time = 110
 	range = 350
 	prio_projectile = yes
 	accuracy = 0.8
@@ -755,8 +755,8 @@ strike_craft_component_template = {
 	
 	damage = { min = 640000 max = 640000 }
 	#舰载机的不需要除10
-	cooldown = 7
-	range = 300
+	cooldown = 7.4
+	range = 350
 	#engagement_range = 800
 	accuracy = 1
 	tracking = 0.9

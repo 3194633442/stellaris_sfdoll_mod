@@ -48,10 +48,6 @@ Name_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
 tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
 tech_ship_sfdoll_carrier_desc:0 "A deep space carrier is a mobile base with multiple functions. In the future, she will participate in the exploration of extragalactic."
 
-research_sfdoll_homeless_2:0 "Starship Laboratory \n\n produce:\n §Y40$physics_research$§! £physics_research£ \n §Y40 $society_research$§! £society_research£ \n §Y40 $engineering_research$§! £engineering_research£ \n upkeep:\n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
-
-research_sfdoll_homeless_2_set:0 "Starship Laboratory"
-research_sfdoll_homeless_2_set_DESC:0 "$research_sfdoll_homeless_2$"
 
 mega_sfdoll_carrier_01:0 "Deep Space Carrier Site"
 mega_sfdoll_carrier_01_DESC:0 "Deep space carriers need to be built through mega-engineering"

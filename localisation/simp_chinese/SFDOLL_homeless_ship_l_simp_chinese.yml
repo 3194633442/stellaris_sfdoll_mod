@@ -1,34 +1,43 @@
 ﻿l_simp_chinese:
 #industry ships
-consumer_goods_sfdoll_homeles_set:0 "消费品模块"
-consumer_goods_sfdoll_homeles_set_DESC:0 "$consumer_goods_sfdoll_homeles$"
-consumer_goods_sfdoll_homeles:0 "$consumer_goods_sfdoll_homeles_set$\n 生产:\n §Y12 $consumer_goods$§! £consumer_goods£ \n 维护:\n §Y6 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£ "
+consumer_goods_sfdoll_homeless_set:0 "小型消费品模块"
+consumer_goods_sfdoll_homeless_set_DESC:0 "$consumer_goods_sfdoll_homeless$"
+consumer_goods_sfdoll_homeless:0 "$consumer_goods_sfdoll_homeless_set$\n 生产:\n §Y12 $consumer_goods$§! £consumer_goods£ \n 维护:\n §Y6 $minerals$§! £minerals£ \n §Y2 $energy$§! £energy£  \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
-consumer_goods_sfdoll_homeless_2_set:0 "高级消费品模块"
+consumer_goods_sfdoll_homeless_2_set:0 "消费品模块"
 consumer_goods_sfdoll_homeless_2_set_DESC:0 "$consumer_goods_sfdoll_homeless_2$"
-consumer_goods_sfdoll_homeless_2:0 "$consumer_goods_sfdoll_homeless_2_set$\n 生产:\n §Y120 $consumer_goods$§! £consumer_goods£ \n 维护:\n §Y36 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£ "
+consumer_goods_sfdoll_homeless_2:0 "$consumer_goods_sfdoll_homeless_2_set$\n 生产:\n §Y120 $consumer_goods$§! £consumer_goods£ \n 维护:\n §Y36 $minerals$§! £minerals£ \n §Y5 $energy$§! £energy£  \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
-alloys_sfdoll_homeless_set:0 "合金模块"
+alloys_sfdoll_homeless_set:0 "小型合金模块"
 alloys_sfdoll_homeless_set_DESC:0 "$alloys_sfdoll_homeless$"
-alloys_sfdoll_homeless:0 "$alloys_sfdoll_homeless_set$\n 生产:\n §Y6 $alloys$§! £alloys£ \n 维护:\n §Y6 $minerals$§! £minerals£ \n §Y0.5$consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+alloys_sfdoll_homeless:0 "$alloys_sfdoll_homeless_set$\n 生产:\n §Y6 $alloys$§! £alloys£ \n 维护:\n §Y6 $minerals$§! £minerals£ \n §Y0.5$consumer_goods$§! £consumer_goods£ \n §Y2 $energy$§! £energy£"
 
-alloys_sfdoll_homeless_2_set:0 "高级合金模块"
+alloys_sfdoll_homeless_2_set:0 "合金模块"
 alloys_sfdoll_homeless_2_set_DESC:0 "$alloys_sfdoll_homeless_2$"
 alloys_sfdoll_homeless_2:0 "$alloys_sfdoll_homeless_2_set$\n 生产:\n §Y60 $alloys$§! £alloys£ \n 维护:\n §Y36 $minerals$§! £minerals£ \n §Y0.5$consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
 
 
+research_sfdoll_homeless_set:0 "小型研究所"
+research_sfdoll_homeless_set_DESC:0 "$research_sfdoll_homeless$"
+research_sfdoll_homeless:0 "$research_sfdoll_homeless_set$\n 生产:\n §Y8$physics_research$§! £physics_research£ \n §Y8 $society_research$§! £society_research£ \n §Y8 $engineering_research$§! £engineering_research£ \n 维护:\n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y2 $energy$§! £energy£"
+
+research_sfdoll_homeless_2_set:0 "太空研究所"
+research_sfdoll_homeless_2_set_DESC:0 "\n\n$research_sfdoll_homeless_2$"
+research_sfdoll_homeless_2:0 "$research_sfdoll_homeless_2_set$\n 生产:\n §Y80$physics_research$§! £physics_research£ \n §Y80 $society_research$§! £society_research£ \n §Y80 $engineering_research$§! £engineering_research£ \n 维护:\n §Y12.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+
+
 collapse_liquid_sfdoll_homeless_set:0 "坍塌液模块"
 collapse_liquid_sfdoll_homeless_set_DESC:0 "$collapse_liquid_sfdoll_homeless$"
-collapse_liquid_sfdoll_homeless:0 "$collapse_liquid_sfdoll_homeless_set$\n 生产:\n §Y6 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n 维护:\n §Y10 $energy$§! £energy£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+collapse_liquid_sfdoll_homeless:0 "$collapse_liquid_sfdoll_homeless_set$\n 生产:\n §Y6 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n 维护:\n §Y15 $energy$§! £energy£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
 
 sr_dark_matter_sfdoll_homeless_set:0 "暗物质模块"
 sr_dark_matter_sfdoll_homeless_set_DESC:0 "$sr_dark_matter_sfdoll_homeless$"
-sr_dark_matter_sfdoll_homeless:0 "$sr_dark_matter_sfdoll_homeless_set$\n 生产:\n §Y6 $sr_dark_matter$§! £sr_dark_matter£ \n 维护:\n §Y10 $energy$§! £energy£  \n §Y0.5$consumer_goods$§! £consumer_goods£"
+sr_dark_matter_sfdoll_homeless:0 "$sr_dark_matter_sfdoll_homeless_set$\n 生产:\n §Y6 $sr_dark_matter$§! £sr_dark_matter£ \n 维护:\n §Y15 $energy$§! £energy£  \n §Y0.5$consumer_goods$§! £consumer_goods£"
 
 nanites_sfdoll_homeless_set:0 "纳米机械模块"
 nanites_sfdoll_homeless_set_DESC:0 "$nanites_sfdoll_homeless$"
-nanites_sfdoll_homeless:0 "$nanites_sfdoll_homeless_set$ \n 生产:\n §Y12$nanites$§! £nanites£ \n 维护:\n §Y10 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+nanites_sfdoll_homeless:0 "$nanites_sfdoll_homeless_set$ \n 生产:\n §Y12$nanites$§! £nanites£ \n 维护:\n §Y10 $minerals$§! £minerals£\n §Y5 $energy$§! £energy£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
 
 college_sfdoll_homeless_set:0 "星舰学院"
@@ -43,10 +52,16 @@ minerals_sfdoll_homeless_set:0 "矿物模块"
 minerals_sfdoll_homeless_set_DESC:0 "$minerals_sfdoll_homeless$"
 minerals_sfdoll_homeless:0 "$minerals_sfdoll_homeless_set$ \n 生产:\n §Y200 $minerals$§! £minerals£ \n 维护:\n §Y200 $energy$§! £energy£  \n §Y0.5 $consumer_goods$§! £consumer_goods£"
 
+manpower_sfdoll_homeless_set:0 "维护中心"
+manpower_sfdoll_homeless_set_DESC:0 "$manpower_sfdoll_homeless$"
+manpower_sfdoll_homeless:0 "$manpower_sfdoll_homeless_set$\n 生产:\n §Y5 $manpower$§! £manpower£ \n 维护:\n §Y2 $alloys$§! £alloys£"
+
 tech_sfdoll_homeless_ship:0 "星舰城市"
 tech_sfdoll_homeless_ship_desc:0 "铁血人形的素体能够适应宇宙环境,同时,长期的太空旅行也让铁血积累了太空生存的经验.利用这些条件,在早期殖民船的基础上,我们设计建造了可移动的太空居所. "
+
 tech_sfdoll_homeless_section_2:0 "零重力工业化"
 tech_sfdoll_homeless_section_2_desc:0 "利用低重力环境,我们可以发展大规模的太空工业\n\n解锁$sfdoll_homeless_ship$区段"
+
 tech_sfdoll_homeless_section_3:0 "星间漫游"
 tech_sfdoll_homeless_section_3_desc:0 "新技术的运用,令我们的舰队世界更为繁荣\n\n解锁$sfdoll_homeless_ship$区段"
 
@@ -71,3 +86,7 @@ sfdoll_large_homeless_ship_section_2:0 "B"
 sfdoll_large_homeless_ship_section_3:0 "C"
 sfdoll_large_homeless_ship_section_4:0 "D"
 sfdoll_large_homeless_ship_reactor:0 "$sfdoll_homeless_ship_reactor$"
+
+manpower:0 "人力"
+manpower_desc:0 "§H$manpower$§!§E（£manpower£）是对家园舰上参与各种生产和长期定居于此的人员的一类总称。§!"
+homeless_ship:0 "家园舰"
