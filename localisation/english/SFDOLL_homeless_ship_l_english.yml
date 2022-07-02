@@ -1,0 +1,70 @@
+﻿l_english:
+#industry ships
+consumer_goods_sfdoll_homeles_set:0 "Junior Goods Module"
+consumer_goods_sfdoll_homeles_set_DESC:0 "$consumer_goods_sfdoll_homeles$"
+consumer_goods_sfdoll_homeles:0 "$consumer_goods_sfdoll_homeles_set$\n Produce:\n §Y12 $consumer_goods$§! £consumer_goods£ \n Upkeep:\n §Y6 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£ "
+
+consumer_goods_sfdoll_homeless_2_set:0 "Goods Module"
+consumer_goods_sfdoll_homeless_2_set_DESC:0 "$consumer_goods_sfdoll_homeless_2$"
+consumer_goods_sfdoll_homeless_2:0 "$consumer_goods_sfdoll_homeless_2_set$\n Produce:\n §Y120 $consumer_goods$§! £consumer_goods£ \n Upkeep:\n §Y36 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£ "
+
+alloys_sfdoll_homeless_set:0 "Junior Alloys Module"
+alloys_sfdoll_homeless_set_DESC:0 "$alloys_sfdoll_homeless$"
+alloys_sfdoll_homeless:0 "$alloys_sfdoll_homeless_set$\n Produce:\n §Y6 $alloys$§! £alloys£ \n Upkeep:\n §Y6 $minerals$§! £minerals£ \n §Y0.5$consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+
+alloys_sfdoll_homeless_2_set:0 "Alloys Module"
+alloys_sfdoll_homeless_2_set_DESC:0 "$alloys_sfdoll_homeless_2$"
+alloys_sfdoll_homeless_2:0 "$alloys_sfdoll_homeless_2_set$\n Produce:\n §Y60 $alloys$§! £alloys£ \n Upkeep:\n §Y36 $minerals$§! £minerals£ \n §Y0.5$consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+
+collapse_liquid_sfdoll_homeless_set:0 "Collapse Fluid Module"
+collapse_liquid_sfdoll_homeless_set_DESC:0 "$collapse_liquid_sfdoll_homeless$"
+collapse_liquid_sfdoll_homeless:0 "$collapse_liquid_sfdoll_homeless_set$\n Produce:\n §Y6 $GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ \n Upkeep:\n §Y10 $energy$§! £energy£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+
+sr_dark_matter_sfdoll_homeless_set:0 "Dark Matter Module"
+sr_dark_matter_sfdoll_homeless_set_DESC:0 "$sr_dark_matter_sfdoll_homeless$"
+sr_dark_matter_sfdoll_homeless:0 "$sr_dark_matter_sfdoll_homeless_set$\n Produce:\n §Y6 $sr_dark_matter$§! £sr_dark_matter£ \n Upkeep:\n §Y10 $energy$§! £energy£  \n §Y0.5$consumer_goods$§! £consumer_goods£"
+
+nanites_sfdoll_homeless_set:0 "Nanites Module"
+nanites_sfdoll_homeless_set_DESC:0 "$nanites_sfdoll_homeless$"
+nanites_sfdoll_homeless:0 "$nanites_sfdoll_homeless_set$ \n Produce:\n §Y12$nanites$§! £nanites£ \n Upkeep:\n §Y10 $minerals$§! £minerals£ \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+
+college_sfdoll_homeless_set:0 "Star-Ship College"
+college_sfdoll_homeless_set_DESC:0 "$college_sfdoll_homeless$"
+college_sfdoll_homeless:0 "$college_sfdoll_homeless_set$\n Produce:\n §Y20 $unity$§! £unity£ \n §Y6 $society_research$§! £society_research£ \n Upkeep:\n §Y2.5 $consumer_goods$§! £consumer_goods£ \n §Y5 $energy$§! £energy£"
+
+energy_sfdoll_homeless_set:0 "Energy Module"
+energy_sfdoll_homeless_set_DESC:0 "$energy_sfdoll_homeless$"
+energy_sfdoll_homeless:0 "$energy_sfdoll_homeless_set$ \n Produce:\n §Y250 $energy$§! £energy£ \n Upkeep:\n §Y0.5 $consumer_goods$§! £consumer_goods£ \n §Y2 $sr_dark_matter$§! £sr_dark_matter£ "
+
+minerals_sfdoll_homeless_set:0 "Minerals Module"
+minerals_sfdoll_homeless_set_DESC:0 "$minerals_sfdoll_homeless$"
+minerals_sfdoll_homeless:0 "$minerals_sfdoll_homeless_set$ \n Produce:\n §Y200 $minerals$§! £minerals£ \n Upkeep:\n §Y200 $energy$§! £energy£  \n §Y0.5 $consumer_goods$§! £consumer_goods£"
+
+tech_sfdoll_homeless_ship:0 "Star-Ship City"
+tech_sfdoll_homeless_ship_desc:0 "The body of SF Dolls can adapt to the cosmic environment, and at the same time, the long-term space travel has also allowed SF Dolls to accumulate the experience of space survival. Using these conditions, on the basis of the early colonial ships, we designed and built the movable space residence."
+tech_sfdoll_homeless_section_2:0 "Zero Gravity Industry"
+tech_sfdoll_homeless_section_2_desc:0 "Using the low gravity environment, we can develop a large-scale space industry.\n\n Unlocks $sfdoll_homeless_ship$ section"
+tech_sfdoll_homeless_section_3:0 "Interstellar Wandering"
+tech_sfdoll_homeless_section_3_desc:0 "New technologies make our fleet world more prosperous.\n\n Unlocks $sfdoll_homeless_ship$ section"
+
+sfdoll_homeless_ship:0 "Star-Ship City"
+sfdoll_homeless_ship_plural:0 "$sfdoll_homeless_ship$s"
+section_sfdoll_homeless_1:0 "A"
+section_sfdoll_homeless_2:0 "B"
+section_sfdoll_homeless_3:0 "C"
+sfdoll_homeless_ship_reactor:0 "Star-Ship City Energy Center"
+sfdoll_homeless_ship_thruster_1:0 "Giant Propulsion System"
+
+economic_sfdoll_homeless_ship:0 "$sfdoll_homeless_ship$"
+
+
+tech_sfdoll_homeless_ship_2:0 "$sfdoll_homeless_ship_2$"
+tech_sfdoll_homeless_ship_2_desc:0 "$sfdoll_homeless_ship_2$"
+
+sfdoll_homeless_ship_2:0 "Large-Star-Ship City"
+sfdoll_homeless_ship_2_plural:0 "$sfdoll_homeless_ship_2$s"
+sfdoll_homeless_ship_2_section_1:0 "A"
+sfdoll_homeless_ship_2_section_2:0 "B"
+sfdoll_homeless_ship_2_section_3:0 "C"
+sfdoll_homeless_ship_2_section_4:0 "D"
+sfdoll_homeless_ship_2_reactor:0 "$sfdoll_homeless_ship_reactor$"
