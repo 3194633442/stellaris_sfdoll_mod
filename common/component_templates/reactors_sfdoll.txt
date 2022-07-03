@@ -242,9 +242,32 @@ utility_component_template = {
 	}
 	ai_weight = {	weight = 20	}
 }
+#移动船坞
+utility_component_template = {
+	key = "Mobile_Starbase_sfdoll_collapse_REACTOR"
+	size = small
+	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
+	icon_frame = 1
+	power = 1800000
+	prerequisites = { tech_aux_sfdoll_collapse_power  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_mobile_starbase }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 75
+			sr_dark_matter = 400
+		}
+		upkeep = {
+			energy = 3.2
+			alloys = 2
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
 
 
-#T2推进器
+#T2反应堆
 utility_component_template = {
 	key = "sfdoll_REACTOR_2_1"
 	size = small

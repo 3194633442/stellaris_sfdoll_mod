@@ -32,7 +32,7 @@ tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
 
-ship_sfdoll_carrier:0 "深空母舰"
+ship_sfdoll_carrier:0 "重装支援舰"
 ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
 sfdoll_carrier_section1:0 "A"
 sfdoll_carrier_section2:0 "B"
@@ -40,37 +40,31 @@ sfdoll_carrier_section3:0 "C"
 sfdoll_carrier_section3_b:0 "F"
 sfdoll_carrier_section4:0 "D"
 sfdoll_carrier_section5:0 "E"
-component_aura_sfdoll_carrier:0 "移动维护系统"
-friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
-Name_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
 
 tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
-tech_ship_sfdoll_carrier_desc:0 "深空母舰是拥有多种功能的移动基地.未来,她将参与河外星系探索计划."
+tech_ship_sfdoll_carrier_desc:0 "$ship_sfdoll_carrier$ 是舰队中的多面手,拥有战场干扰和重火力支援等多种能力"
+
+# mega_sfdoll_carrier_01:0 "$ship_sfdoll_carrier$基址"
+# mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
+# mega_sfdoll_carrier_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_01_DESC$"
+# mega_sfdoll_carrier_01_complete:0 "我们建造了一座$mega_sfdoll_carrier_01$"
+
+# mega_sfdoll_carrier_02:0 "深空母舰"
+# mega_sfdoll_carrier_02_DESC:0 "你需要拥有至少一个深空母舰的设计,才能顺利完成它"
+# mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
+# mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
 
 
-mega_sfdoll_carrier_01:0 "深空母舰基址"
-mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
-mega_sfdoll_carrier_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_01_DESC$"
-mega_sfdoll_carrier_01_complete:0 "我们建造了一座$mega_sfdoll_carrier_01$"
-
-mega_sfdoll_carrier_02:0 "深空母舰"
-mega_sfdoll_carrier_02_DESC:0 "你需要拥有至少一个深空母舰的设计,才能顺利完成它"
-mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
-mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
-
-
-sfdoll_mobile_starbase:0 "移动船坞"
+sfdoll_mobile_starbase:0 "深空母舰"
 sfdoll_mobile_starbase_plural:0 "$sfdoll_mobile_starbase$s"
 sfdoll_mobile_starbase_section_1:0 "A"
 sfdoll_mobile_starbase_section_2:0 "B"
 sfdoll_mobile_starbase_section_3:0 "C"
 sfdoll_mobile_starbase_section_4:0 "D"
-
 thruster_sfdoll_mobile_starbase:0 "推进器"
 
 tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
-tech_sfdoll_mobile_starbase_desc:0 "移动船坞是拥有造船功能的移动基地,她将成为我们舰队的可靠后盾."
-
+tech_sfdoll_mobile_starbase_desc:0 "深空母舰是拥有大型船坞的移动基地.未来,她将参与河外星系探索计划."
 
 mega_sfdoll_mobile_starbase_01:0 "$sfdoll_mobile_starbase$基址"
 mega_sfdoll_mobile_starbase_01_DESC:0 "$sfdoll_mobile_starbase$需要通过巨构工程来建造"
@@ -81,8 +75,6 @@ mega_sfdoll_mobile_starbase_02:0 "$sfdoll_mobile_starbase$"
 mega_sfdoll_mobile_starbase_02_DESC:0 "你需要拥有至少一个$sfdoll_mobile_starbase$的设计,才能顺利完成它"
 mega_sfdoll_mobile_starbase_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_02_DESC$"
 mega_sfdoll_mobile_starbase_02_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_02$"
-
-
 
 
 sfdoll_star_exploit_01:0 "恒星坍塌器基址"

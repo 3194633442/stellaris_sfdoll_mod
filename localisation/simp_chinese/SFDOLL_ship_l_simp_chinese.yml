@@ -156,6 +156,7 @@ COLOSSUS_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 PLATFORM_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 ION_CANNON_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
+Mobile_Starbase_sfdoll_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 
 
 tech_sfdoll_ship_power_2:0 "二级坍塌反应堆"
@@ -210,6 +211,7 @@ sfdoll_warship_3_stern:0 "C"
 sfdoll_warship_4_bow:0 "A"
 sfdoll_warship_4_mid:0 "B"
 sfdoll_warship_4_mid2:0 "C"
+sfdoll_warship_4_mid2_b:0 "E"
 sfdoll_warship_4_stern:0 "D"
 
 need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"

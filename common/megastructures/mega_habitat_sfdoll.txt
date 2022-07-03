@@ -12,6 +12,7 @@ sfdoll_habitat_01 ={
 			has_authority = auth_gf_sfdoll
 		}
 	}
+	show_prereqs = yes
 	prerequisites = {
 		tech_sfdoll_habitat_01
 	}

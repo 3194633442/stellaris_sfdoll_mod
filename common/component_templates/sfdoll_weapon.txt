@@ -700,7 +700,7 @@ weapon_component_template = {
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
 	damage = { min = 3000000 max = 3000000  }
 	#冷却时间要除以10
-	total_fire_time = 110
+	total_fire_time = 140
 	range = 350
 	prio_projectile = yes
 	accuracy = 0.8
