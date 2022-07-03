@@ -416,7 +416,7 @@ weapon_component_template = {
 	#冷却时间要除以10
 	total_fire_time = 110
 	range = 400
-	accuracy = 1
+	accuracy = 0.85
 	tracking = 0.2
 	shield_penetration = 1
 	armor_penetration = 1
@@ -470,8 +470,8 @@ weapon_component_template = {
 	#冷却时间要除以10
 	total_fire_time = 74
 	range = 380
-	accuracy = 1
-	tracking = 0.3
+	accuracy = 0.9
+	tracking = 0.25
 	shield_penetration = 1
 	armor_penetration = 1
 	power = -80000

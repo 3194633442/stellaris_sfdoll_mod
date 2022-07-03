@@ -33,9 +33,9 @@ weapon_component_template = {
 	size = large
 	icon = "GFX_consumer_goods_sfdoll_homeless"
 	icon_frame = 1
-	prerequisites = {
-		tech_sfdoll_goods
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_goods
+	# }
 
 	power = -2000
 	damage = {
@@ -96,9 +96,9 @@ weapon_component_template = {
 	size = large
 	icon = "GFX_alloys_sfdoll_homeless"
 	icon_frame = 1
-	prerequisites = {
-		tech_sfdoll_alloys_produce
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_alloys_produce
+	# }
 	power = -2000
 	damage = {
 		min = 0
@@ -198,9 +198,9 @@ weapon_component_template = {
 	#entity = "empty_set_entity_ev"
 	icon = "GFX_collapse_liquid_sfdoll_homeless"
 	icon_frame = 1
-	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_collapse_liquid_produce
+	# }
 	power = -2000
 	damage = {
 		min = 0
@@ -231,9 +231,9 @@ weapon_component_template = {
 	icon = "GFX_sr_dark_matter_sfdoll_homeless"
 	icon_frame = 1
 	power = -2000
-	prerequisites = {
-		tech_sfdoll_dark_matter_plant
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_dark_matter_plant
+	# }
 	damage = {
 		min = 0
 		max = 0
@@ -263,9 +263,9 @@ weapon_component_template = {
 	icon = "GFX_nanites_sfdoll_homeless"
 	icon_frame = 1
 	power = 2000
-	prerequisites = {
-		tech_sfdoll_nanites
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_nanites
+	# }
 	damage = {
 		min = 0
 		max = 0
@@ -365,7 +365,7 @@ weapon_component_template = {
 	icon_frame = 1
 	#待修改
 	component_set = "minerals_sfdoll_homeless_set"
-	prerequisites = {	tech_building_sfdoll_mineral	}
+	# prerequisites = {	tech_building_sfdoll_mineral	}
 	size_restriction = { sfdoll_homeless_ship		}
 	power = -2000
 	resources = {

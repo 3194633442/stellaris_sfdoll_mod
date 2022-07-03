@@ -4,8 +4,10 @@ entity = {
 	name = "sfdoll_carrier_entity"
 	locator = { name = "T01" 	position = { -4  3  -50 } }
 	locator = { name = "T02" 	position = { 4   3  -50 } }
-	locator = { name = "T03" 	position = { -2  3  -50 } }
-	locator = { name = "T04" 	position = { 2   3  -50 } }
+	locator = { name = "T03" 	position = { -3  3  -50 } }
+	locator = { name = "T04" 	position = { 3   3  -50 } }
+	locator = { name = "T05" 	position = { -2  3  -50 } }
+	locator = { name = "T06" 	position = { 2   3  -50 } }
 
 	locator = { name = "X01" 	position = { -7  3 -50 } }
 	locator = { name = "X02" 	position = { 7   3 -50 } }
@@ -30,8 +32,21 @@ entity = {
 	locator = { name = "L08" 	position = { 12   3  20 } }
 	locator = { name = "L09" 	position = { -12  3  25 } }
 	locator = { name = "L10" 	position = { 12  3  25 } }
-	locator = { name = "L11" 	position = { -13  3  30 } }
-	locator = { name = "L12" 	position = { 13  3  30 } }
+	locator = { name = "L11" 	position = { -12  3  27 } }
+	locator = { name = "L12" 	position = { 12  3  27 } }
+
+	locator = { name = "L13" 	position = { -13  3  30 } }
+	locator = { name = "L14" 	position = { 13  3  30 } }
+	locator = { name = "L15" 	position = { -13  3  32 } }
+	locator = { name = "L16" 	position = {  13  3  32 } }
+	locator = { name = "L17" 	position = { -14  3  34 } }
+	locator = { name = "L18" 	position = {  14  3  34 } }
+	locator = { name = "L19" 	position = { -14  3  36 } }
+	locator = { name = "L20" 	position = { 14   3  36 } }
+	locator = { name = "L21" 	position = { -15  3  38 } }
+	locator = { name = "L22" 	position = { 15  3  38 } }
+	locator = { name = "L23" 	position = { -16  3  40 } }
+	locator = { name = "L24" 	position = { 16  3  40 } }
 }
 
 
