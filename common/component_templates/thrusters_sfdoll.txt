@@ -277,7 +277,7 @@ utility_component_template = {
 
 #深空母舰推进器
 utility_component_template = {
-	key = "thruster_sfdoll_carrier"
+	key = "thruster_sfdoll_mobile_starbase"
 	size = small
 	icon = "GFX_ship_part_thruster_5"
 	icon_frame = 1
@@ -288,7 +288,7 @@ utility_component_template = {
 		ship_speed_mult = 9
 	}
 	component_set = "thruster_components"
-	size_restriction = { 	ship_sfdoll_carrier }
+	size_restriction = { sfdoll_mobile_starbase }
 }
 
 

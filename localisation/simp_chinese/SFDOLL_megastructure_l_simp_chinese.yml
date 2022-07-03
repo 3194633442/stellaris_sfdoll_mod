@@ -40,7 +40,6 @@ sfdoll_carrier_section3:0 "C"
 sfdoll_carrier_section3_b:0 "F"
 sfdoll_carrier_section4:0 "D"
 sfdoll_carrier_section5:0 "E"
-thruster_sfdoll_carrier:0 "推进器"
 component_aura_sfdoll_carrier:0 "移动维护系统"
 friendly_aura_sfdoll_carrier:0 "$component_aura_sfdoll_carrier$"
 Name_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
@@ -60,27 +59,30 @@ mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
 mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
 
 
-# tech_mega_change_hyperlane_sfdoll:0 "超空间工程"
-# tech_mega_change_hyperlane_sfdoll_desc:0 "基于超光速空间中独特的物理法则，我们能够完成一些神奇的工程，例如建造超空间航道。"
+sfdoll_mobile_starbase:0 "移动船坞"
+sfdoll_mobile_starbase_plural:0 "$sfdoll_mobile_starbase$s"
+sfdoll_mobile_starbase_section_1:0 "A"
+sfdoll_mobile_starbase_section_2:0 "B"
+sfdoll_mobile_starbase_section_3:0 "C"
+sfdoll_mobile_starbase_section_4:0 "D"
 
-# mega_change_hyperlane_sfdoll:0 "铁血之矛"
-# mega_change_hyperlane_sfdoll_DESC:0 "这个装置能够跨越星系输送庞大的能量。用于修改超空间航道，或摧毁星系。"
-# mega_change_hyperlane_sfdoll_MEGASTRUCTURE_DETAILS:0 "$mega_change_hyperlane_sfdoll_DESC$\n 通过法令来启动它"
+thruster_sfdoll_mobile_starbase:0 "推进器"
 
-# build_mega_change_hyperlane_sfdoll:0 "我们建造了$mega_change_hyperlane_sfdoll$"
+tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
+tech_sfdoll_mobile_starbase_desc:0 "移动船坞是拥有造船功能的移动基地,她将成为我们舰队的可靠后盾."
 
-# edict_change_hyperlane_sfdoll_window:0 "启动铁血之矛"
-# edict_change_hyperlane_sfdoll_window_desc:0 "$change_hyperlane_sfdoll_window$"
 
-# sfdoll_planet_killer_event.6:0 "铁血之矛:操作界面"
-# sfdoll_planet_killer_event.6_desc:0 "生成两个信标后，将它们移动到任意星系，用于定位。"
-# sfdoll_planet_killer_event.6_option_a:0 "生成两个信标（旧的信标会被删除）"
-# sfdoll_planet_killer_event.6_option_b:0 "修改航道"
-# text_sfdoll_planet_killer_event.6_option_b:0 "信标所在的星系之间，如果有航道，就删除航道；如果没有航道，就生成航道。信标可以重复使用。"
-# sfdoll_planet_killer_event.6_option_c:0 "摧毁星系"
-# text_sfdoll_planet_killer_event.6_option_c:0 "信标所在的星系会被摧毁，信标也会被破坏。"
+mega_sfdoll_mobile_starbase_01:0 "$sfdoll_mobile_starbase$基址"
+mega_sfdoll_mobile_starbase_01_DESC:0 "$sfdoll_mobile_starbase$需要通过巨构工程来建造"
+mega_sfdoll_mobile_starbase_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_01_DESC$"
+mega_sfdoll_mobile_starbase_01_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_01$"
 
-# ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"
+mega_sfdoll_mobile_starbase_02:0 "$sfdoll_mobile_starbase$"
+mega_sfdoll_mobile_starbase_02_DESC:0 "你需要拥有至少一个$sfdoll_mobile_starbase$的设计,才能顺利完成它"
+mega_sfdoll_mobile_starbase_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_02_DESC$"
+mega_sfdoll_mobile_starbase_02_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_02$"
+
+
 
 
 sfdoll_star_exploit_01:0 "恒星坍塌器基址"
@@ -108,3 +110,25 @@ build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"
 
 # gateway_sfdoll_name:0 "铁血星门航道"
 # gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
+
+# tech_mega_change_hyperlane_sfdoll:0 "超空间工程"
+# tech_mega_change_hyperlane_sfdoll_desc:0 "基于超光速空间中独特的物理法则，我们能够完成一些神奇的工程，例如建造超空间航道。"
+
+# mega_change_hyperlane_sfdoll:0 "铁血之矛"
+# mega_change_hyperlane_sfdoll_DESC:0 "这个装置能够跨越星系输送庞大的能量。用于修改超空间航道，或摧毁星系。"
+# mega_change_hyperlane_sfdoll_MEGASTRUCTURE_DETAILS:0 "$mega_change_hyperlane_sfdoll_DESC$\n 通过法令来启动它"
+
+# build_mega_change_hyperlane_sfdoll:0 "我们建造了$mega_change_hyperlane_sfdoll$"
+
+# edict_change_hyperlane_sfdoll_window:0 "启动铁血之矛"
+# edict_change_hyperlane_sfdoll_window_desc:0 "$change_hyperlane_sfdoll_window$"
+
+# sfdoll_planet_killer_event.6:0 "铁血之矛:操作界面"
+# sfdoll_planet_killer_event.6_desc:0 "生成两个信标后，将它们移动到任意星系，用于定位。"
+# sfdoll_planet_killer_event.6_option_a:0 "生成两个信标（旧的信标会被删除）"
+# sfdoll_planet_killer_event.6_option_b:0 "修改航道"
+# text_sfdoll_planet_killer_event.6_option_b:0 "信标所在的星系之间，如果有航道，就删除航道；如果没有航道，就生成航道。信标可以重复使用。"
+# sfdoll_planet_killer_event.6_option_c:0 "摧毁星系"
+# text_sfdoll_planet_killer_event.6_option_c:0 "信标所在的星系会被摧毁，信标也会被破坏。"
+
+# ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"

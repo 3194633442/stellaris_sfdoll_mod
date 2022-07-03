@@ -311,7 +311,7 @@ ship_sfdoll_carrier = {
 	}
 	is_space_station = no
 	icon = ship_size_military_16
-	base_buildtime = 1800
+	base_buildtime = 1080
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
@@ -345,9 +345,10 @@ ship_sfdoll_carrier = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 10000
-			GF_nyto_collapse_liquid = 2000
-			nanites = 2000
+			alloys = 20000
+			sr_dark_matter = 1600
+			nanites = 1600
+			GF_nyto_collapse_liquid = 1600
 		}
 		upkeep = {
 			energy = 100
