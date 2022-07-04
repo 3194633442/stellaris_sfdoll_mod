@@ -15,8 +15,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ap_sfdoll_planet"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_sfdoll_planet.dds"
+		name = "GFX_ap_sfdoll_3"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_sfdoll_3.dds"
 		alwaystransparent = yes
 	}
 

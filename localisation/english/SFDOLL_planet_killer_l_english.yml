@@ -11,6 +11,7 @@ planet_killer_sfdoll_2_ACTION:0 "$planet_killer_sfdoll_2$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "$planet_killer_sfdoll_2$"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "destroyed"
 
+#Black Wings Of Corrosion
 planet_killer_sfdoll_1:0 "Black Wings Of Corrosion"
 planet_killer_sfdoll_1_DESC:0 "This device will wipe out all existence in the system, only your own fleet will not be affected."
 tech_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1$"
@@ -22,7 +23,7 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_1:0 "$planet_killer_sfdoll_1
 
 MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "destroyed"
 
-sfdoll_weapen_t_7:0 "Shooting Star"
+sfdoll_weapen_t_7:0 "Stars Blazing"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
 component_set_sfdoll_weapen_t_7_DESC:0 "§Y The fleet equipped with this weapon can destroy a planet or a star when it enters the orbit of the celestial body. You can use an edict to stop this function §!"
 

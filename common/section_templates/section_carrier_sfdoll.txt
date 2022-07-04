@@ -149,32 +149,32 @@ ship_section_template={
 	icon_frame=1
 	component_slot = {
 		name = "X_LARGE_01"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X07
 	}
 	component_slot = {
 		name = "X_LARGE_02"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X08
 	}
 	component_slot = {
 		name = "X_LARGE_03"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X09
 	}
 	component_slot = {
 		name = "X_LARGE_04"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X10
 	}
 	component_slot = {
 		name = "X_LARGE_05"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X11
 	}
 	component_slot = {
 		name = "X_LARGE_06"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X12
 	}
 	component_slot = {
@@ -219,62 +219,62 @@ ship_section_template={
 	icon_frame=1
 	component_slot = {
 		name = "X_LARGE_01"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X07
 	}
 	component_slot = {
 		name = "X_LARGE_02"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X08
 	}
 	component_slot = {
 		name = "X_LARGE_03"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X09
 	}
 	component_slot = {
 		name = "X_LARGE_04"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X10
 	}
 	component_slot = {
 		name = "X_LARGE_05"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X11
 	}
 	component_slot = {
 		name = "X_LARGE_06"
-		template = invisible_large_turret
+		template = invisible_extra_large_fixed
 		locatorname = X12
 	}
 	component_slot = {
 		name = "M_01"
-		template = invisible_large_turret
+		template = invisible_medium_turret
 		locatorname = L01
 	}
 	component_slot = {
 		name = "M_02"
-		template = invisible_large_turret
+		template = invisible_medium_turret
 		locatorname = L02
 	}
 	component_slot = {
 		name = "M_03"
-		template = invisible_large_turret
+		template = invisible_medium_turret
 		locatorname = L03
 	}
 	component_slot = {
 		name = "M_04"
-		template = invisible_large_turret
+		template = invisible_medium_turret
 		locatorname = L04
 	}
 	component_slot = {
 		name = "M_05"
-		template = invisible_large_turret
+		template = invisible_medium_turret
 		locatorname = L05
 	}
 	component_slot = {
 		name = "M_06"
-		template = invisible_large_turret
+		template = invisible_medium_turret
 		locatorname = L06
 	}
 	large_utility_slots = 15
@@ -315,37 +315,37 @@ ship_section_template={
 	}
 	component_slot = {
 		name = "LARGE_06"
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L06
 	}
 	component_slot = {
 		name = "LARGE_07"
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L07
 	}
 	component_slot = {
 		name = "LARGE_08"
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L08
 	}
 	component_slot = {
 		name = "LARGE_09"
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L09
 	}
 	component_slot = {
 		name = "LARGE_10"
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L10
 	}
 	component_slot = {
 		name = "LARGE_11"
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L11
 	}
 	component_slot = {
 		name = "LARGE_12"
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L12
 	}
 	large_utility_slots = 15
@@ -416,6 +416,76 @@ ship_section_template={
 	component_slot = {
 		name = "LARGE_12"
 		template = invisible_large_turret
+		locatorname = L24
+	}
+	aux_utility_slots = 6
+}
+ship_section_template={
+	key= "sfdoll_carrier_section5_b"	
+	ship_size= ship_sfdoll_carrier
+	fits_on_slot= section5
+	should_draw_components= no
+	entity = sfdoll_carrier_entity
+	icon = "GFX_ship_part_core_stern"
+	icon_frame=1
+	component_slot = {
+		name = "LARGE_01"
+		template = invisible_large_turret
+		locatorname = L13
+	}
+	component_slot = {
+		name = "LARGE_02"
+		template = invisible_large_turret
+		locatorname = L14
+	}
+	component_slot = {
+		name = "LARGE_03"
+		template = invisible_large_turret
+		locatorname = L15
+	}
+	component_slot = {
+		name = "LARGE_04"
+		template = invisible_large_turret
+		locatorname = L16
+	}
+	component_slot = {
+		name = "LARGE_05"
+		template = invisible_large_turret
+		locatorname = L17
+	}
+	component_slot = {
+		name = "LARGE_06"
+		template = invisible_large_turret
+		locatorname = L18
+	}
+	component_slot = {
+		name = "LARGE_07"
+		template = invisible_large_turret
+		locatorname = L19
+	}
+	component_slot = {
+		name = "LARGE_08"
+		template = invisible_large_turret
+		locatorname = L20
+	}
+	component_slot = {
+		name = "LARGE_09"
+		template = invisible_large_turret
+		locatorname = L21
+	}
+	component_slot = {
+		name = "LARGE_10"
+		template = invisible_large_turret
+		locatorname = L22
+	}
+	component_slot = {
+		name = "LARGE_11"
+		template = large_strike_craft
+		locatorname = L23
+	}
+	component_slot = {
+		name = "LARGE_12"
+		template = large_strike_craft
 		locatorname = L24
 	}
 	aux_utility_slots = 6

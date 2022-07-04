@@ -751,9 +751,11 @@ strike_craft_component_template = {
 	}
 	count = 1
 	regeneration_per_day = 0.03
-	launch_time = 0.2 #1.0
+	launch_time = 1.5
 	
 	damage = { min = 640000 max = 640000 }
+	shield_penetration = 1
+	armor_penetration = 1
 	#舰载机的不需要除10
 	cooldown = 7.4
 	range = 350

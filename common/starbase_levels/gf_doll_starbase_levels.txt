@@ -13,8 +13,8 @@
 
 
 #深空母舰
-starbase_level_ship_sfdoll_carrier = {
-	ship_size = ship_sfdoll_carrier
+starbase_level_sfdoll_mobile_starbase = {
+	ship_size = sfdoll_mobile_starbase
 	potential_home_base = yes
 	show_in_outliner = yes #no
 	collects_trade = no

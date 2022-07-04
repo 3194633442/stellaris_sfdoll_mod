@@ -1,4 +1,28 @@
 #{x,z,y}x正向为舰船左方，z正向为上方，y正向为后方，负向为前方
+#rotation里x为上下轴,y为左右轴,z为前后轴
+#星际攻击舰
+entity = {
+	name = "ship_sfdoll_attacker_entity"
+	pdxmesh = "ship_sfdoll_attacker_mesh"
+	locator = { name = "root" 	position = { 0  0  0 } rotation = {0 0 180 } }
+	locator = { name = "root2" 	position = { 0  -200  0 } rotation = {0 0 0 } }
+	scale = 1
+	# attach = {
+	# 	root = "nemesis_01_colossus_ship_entity"
+	# }
+	attach = {
+		root = "ship_sfdoll_attacker_stern_entity"
+	}
+	attach = {
+		root2 = "sfdoll_black_hole_2_entity"
+	}
+}
+entity = {
+	name = "ship_sfdoll_attacker_stern_entity"
+	pdxmesh = "ship_sfdoll_attacker_stern_mesh"
+	scale = 1
+}
+
 # 搭配涅托主宰的点位
 entity = {
 	name = "sfdoll_carrier_entity"

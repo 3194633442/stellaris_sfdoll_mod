@@ -2,7 +2,7 @@
 ###############################
 # Lycoris
 ap_sfdoll_digi_mind_update:0 "Evolutionary Theory Of AI"
-ap_sfdoll_digi_mind_update_desc:0 "We have accomplished the great work of building a planetary civilization. Now, before our eyes is an unknown road."
+ap_sfdoll_digi_mind_update_desc:0 "We have accomplished the great work of building a planetary civilization. Now, before our eyes is an unknown way."
 gf_sfdoll_ascension_perk_event.1:0 "$ap_sfdoll_digi_mind_update$"
 gf_sfdoll_ascension_perk_event.1_desc:0 "You are very sick! Apparently you have a soul."
 

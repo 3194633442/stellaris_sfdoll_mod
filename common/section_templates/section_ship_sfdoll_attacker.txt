@@ -1,0 +1,9 @@
+ship_section_template={
+	key= "ship_sfdoll_attacker_section1"	
+	ship_size= ship_sfdoll_attacker
+	fits_on_slot= section1
+	should_draw_components= no
+	entity = "ship_sfdoll_attacker_entity"
+	icon = "GFX_ship_part_core_stern"
+	icon_frame=1
+}

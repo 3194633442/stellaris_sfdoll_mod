@@ -73,7 +73,7 @@ tech_sfdoll_mobile_starbase = {
 	is_rare = yes
 	icon = tech_sfdoll_mobile_starbase
 	prerequisites = {
-		tech_sfdoll_star_exploit
+		tech_building_sfdoll_mineral
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll

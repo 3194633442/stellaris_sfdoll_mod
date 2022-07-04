@@ -4,7 +4,7 @@ mega_sfdoll_mobile_starbase_01 = {
 	show_galactic_map_icon = yes
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = yes
-	build_time = 1 #720
+	build_time = 720
 	construction_blocks_and_blocked_by = multi_stage_type
 	potential = {
 		owner = {
@@ -36,10 +36,10 @@ mega_sfdoll_mobile_starbase_01 = {
 
 	resources = {
 		category = megastructures_habitat
-		# cost = {
-		# 	alloys = 10000
-		# 	nanites = 500
-		# }
+		cost = {
+			alloys = 10000
+			nanites = 500
+		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
 
@@ -65,7 +65,7 @@ mega_sfdoll_mobile_starbase_02 = {
 	construction_entity = "construction_platform_entity"
 	show_galactic_map_icon = yes
 	place_entity_on_planet_plane = no
-	build_time = 1 #2880
+	build_time = 2880
 	construction_blocks_and_blocked_by = multi_stage_type
 	potential = {
 		owner = {
@@ -78,12 +78,12 @@ mega_sfdoll_mobile_starbase_02 = {
 
 	resources = {
 		category = megastructures_habitat
-		# cost = {
-		# 	alloys = 25000
-		# 	sr_dark_matter = 2000
-		# 	nanites = 2000
-		# 	GF_nyto_collapse_liquid = 2000
-		# }
+		cost = {
+			alloys = 25000
+			sr_dark_matter = 2000
+			nanites = 2000
+			GF_nyto_collapse_liquid = 2000
+		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
 	on_build_complete = {
@@ -108,7 +108,7 @@ mega_sfdoll_mobile_starbase_02 = {
 					set_owner = from
 					create_ship = {
 						random_existing_design = sfdoll_mobile_starbase
-						name = "sfdoll_mobie_starbase"
+						name = "sfdoll_mobile_starbase"
 						prefix = no
 						upgradable = yes
 					}
