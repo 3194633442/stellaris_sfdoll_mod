@@ -361,7 +361,7 @@ ship_sfdoll_carrier = {
 	}
 }
 
-ship_sfdoll_attacker = {
+sfdoll_star_attacker = {
 	entity = "sfdoll_GF_nyto_01_juggernaut_entity"
 	max_speed = @speed_fast
 	acceleration = 0.2

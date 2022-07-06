@@ -1,25 +1,35 @@
-#{x,z,y}x正向为舰船左方，z正向为上方，y正向为后方，负向为前方
-#rotation里x为上下轴,y为左右轴,z为前后轴
+#点位位置{x,z,y},三个参数为舰船左方，z正向为上方，y正向为后方，负向为前方
+#rotation里的参数为上下轴,左右轴,前后轴
 #星际攻击舰
 entity = {
-	name = "ship_sfdoll_attacker_entity"
-	pdxmesh = "ship_sfdoll_attacker_mesh"
-	locator = { name = "root" 	position = { 0  0  0 } rotation = {0 0 180 } }
-	locator = { name = "root2" 	position = { 0  -200  0 } rotation = {0 0 0 } }
+	name = "sfdoll_star_attacker_entity"
+	pdxmesh = "sfdoll_star_attacker_mesh"
+	locator = { name = "root" 	position = { 0  0  0 } rotation = { 0 0 0 } }
+	locator = { name = "black_0" 	position = { 0  0  0 }   scale = 3 }
+	locator = { name = "black_1" 	position = { 13  0  -20 } }
+	locator = { name = "black_2" 	position = { -13  0  -20 }  }
+	locator = { name = "black_3" 	position = { 0  13  -20 }  }
+	locator = { name = "black_4" 	position = { 0  -13  -20 }  }
 	scale = 1
-	# attach = {
-	# 	root = "nemesis_01_colossus_ship_entity"
-	# }
 	attach = {
-		root = "ship_sfdoll_attacker_stern_entity"
+		black_0 = "sfdoll_black_hole_2_entity"
 	}
 	attach = {
-		root2 = "sfdoll_black_hole_2_entity"
+		black_1 = "sfdoll_black_hole_2_entity"
+		black_2 = "sfdoll_black_hole_2_entity"
+		black_3 = "sfdoll_black_hole_2_entity"
+		black_4 = "sfdoll_black_hole_2_entity"
 	}
 }
 entity = {
-	name = "ship_sfdoll_attacker_stern_entity"
-	pdxmesh = "ship_sfdoll_attacker_stern_mesh"
+	name = "sfdoll_star_attacker_stern_entity"
+	pdxmesh = "sfdoll_star_attacker_stern_mesh"
+	scale = 1
+}
+
+entity = {
+	name = "sfdoll_star_attacker_mid_entity"
+	pdxmesh = "sfdoll_star_attacker_mid_mesh"
 	scale = 1
 }
 
@@ -75,43 +85,43 @@ entity = {
 
 
 # 搭配涅托母舰模型的点位
-# entity = {
-# 	name = "sfdoll_carrier_entity"
-# 	locator = { name = "T01" 	position = { -9  -3  -50 } }
-# 	locator = { name = "T02" 	position = { 9   -3  -50 } }
-# 	locator = { name = "T03" 	position = { -18  -3  -50 } }
-# 	locator = { name = "T04" 	position = { 18   -3  -50 } }
+entity = {
+	name = "sfdoll_nyto_mathership_locator_entity"
+	locator = { name = "T01" 	position = { -9  -3  -50 } }
+	locator = { name = "T02" 	position = { 9   -3  -50 } }
+	locator = { name = "T03" 	position = { -18  -3  -50 } }
+	locator = { name = "T04" 	position = { 18   -3  -50 } }
 
-# 	locator = { name = "X01" 	position = { -16  -3 -100 } }
-# 	locator = { name = "X02" 	position = { 16   -3 -100 } }
-# 	locator = { name = "X03" 	position = { -16  -3  -80 } }
-# 	locator = { name = "X04" 	position = { 16  -3  -80 } }
-# 	locator = { name = "X05" 	position = { -16  -3  -60 } }
-# 	locator = { name = "X06" 	position = { 16   -3  -60 } }
-# 	locator = { name = "X07" 	position = { -16  -3  -40 } }
-# 	locator = { name = "X08" 	position = { 16   -3  -40 } }
-# 	locator = { name = "X09" 	position = { -16  -3  -20 } }
-# 	locator = { name = "X10" 	position = { 16  -3 -20} }
-# 	locator = { name = "X11" 	position = { -16  -3  -0 } }
-# 	locator = { name = "X12" 	position = { 16  -3  -0 } }
+	locator = { name = "X01" 	position = { -16  -3 -100 } }
+	locator = { name = "X02" 	position = { 16   -3 -100 } }
+	locator = { name = "X03" 	position = { -16  -3  -80 } }
+	locator = { name = "X04" 	position = { 16  -3  -80 } }
+	locator = { name = "X05" 	position = { -16  -3  -60 } }
+	locator = { name = "X06" 	position = { 16   -3  -60 } }
+	locator = { name = "X07" 	position = { -16  -3  -40 } }
+	locator = { name = "X08" 	position = { 16   -3  -40 } }
+	locator = { name = "X09" 	position = { -16  -3  -20 } }
+	locator = { name = "X10" 	position = { 16  -3 -20} }
+	locator = { name = "X11" 	position = { -16  -3  -0 } }
+	locator = { name = "X12" 	position = { 16  -3  -0 } }
 
-# 	locator = { name = "L01" 	position = { -24  -3  20 } }
-# 	locator = { name = "L02" 	position = { 24  -3  20 } }
-# 	locator = { name = "L03" 	position = { -24  -3  40 } }
-# 	locator = { name = "L04" 	position = { 24  -3  40 } }
-# 	locator = { name = "L05" 	position = { -24  -3  60 } }
-# 	locator = { name = "L06" 	position = { 24  -3  60 } }
-# 	locator = { name = "L07" 	position = { -26  -3  80 } }
-# 	locator = { name = "L08" 	position = { 26   -3  80 } }
-# 	locator = { name = "L09" 	position = { -26  -3  100 } }
-# 	locator = { name = "L10" 	position = { 26  -3  100 } }
-# 	locator = { name = "L11" 	position = { -26  -3  120 } }
-# 	locator = { name = "L12" 	position = { 26  -3  120 } }
-# }
-# entity = {
-# 	name = "sfdoll_star_ship_entity"
-# 	pdxmesh = "sfdoll_star_ship_mesh"
-# }
+	locator = { name = "L01" 	position = { -24  -3  20 } }
+	locator = { name = "L02" 	position = { 24  -3  20 } }
+	locator = { name = "L03" 	position = { -24  -3  40 } }
+	locator = { name = "L04" 	position = { 24  -3  40 } }
+	locator = { name = "L05" 	position = { -24  -3  60 } }
+	locator = { name = "L06" 	position = { 24  -3  60 } }
+	locator = { name = "L07" 	position = { -26  -3  80 } }
+	locator = { name = "L08" 	position = { 26   -3  80 } }
+	locator = { name = "L09" 	position = { -26  -3  100 } }
+	locator = { name = "L10" 	position = { 26  -3  100 } }
+	locator = { name = "L11" 	position = { -26  -3  120 } }
+	locator = { name = "L12" 	position = { 26  -3  120 } }
+}
+entity = {
+	name = "sfdoll_star_ship_entity"
+	pdxmesh = "sfdoll_star_ship_mesh"
+}
 
 # entity = {
 # 	name = "GF_sfdoll_titan_mid_entity"

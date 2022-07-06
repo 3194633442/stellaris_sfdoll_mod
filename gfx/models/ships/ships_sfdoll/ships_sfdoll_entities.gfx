@@ -1,11 +1,15 @@
 objectTypes = {
 	pdxmesh = {
-		name = "ship_sfdoll_attacker_mesh"
-		file = "gfx/models/ships/ships_sfdoll/ship_sfdoll_attacker_mesh.mesh"
+		name = "sfdoll_star_attacker_mesh"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_star_attacker_mesh.mesh"
 	}
 	pdxmesh = {
-		name = "ship_sfdoll_attacker_stern_mesh"
-		file = "gfx/models/ships/ships_sfdoll/ship_sfdoll_attacker_stern_mesh.mesh"
+		name = "sfdoll_star_attacker_stern_mesh"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_star_attacker_stern_mesh.mesh"
+	}
+	pdxmesh = {
+		name = "sfdoll_star_attacker_mid_mesh"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_star_attacker_mid_mesh.mesh"
 	}
 	pdxmesh = {
 		name = "sfdoll_star_ship_mesh"

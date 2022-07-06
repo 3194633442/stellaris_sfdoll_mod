@@ -1,9 +1,20 @@
 ship_section_template={
-	key= "ship_sfdoll_attacker_section1"	
-	ship_size= ship_sfdoll_attacker
+	key= "sfdoll_star_attacker_section1"	
+	ship_size= sfdoll_star_attacker
 	fits_on_slot= section1
 	should_draw_components= no
-	entity = "ship_sfdoll_attacker_entity"
+	entity = "sfdoll_star_attacker_entity"
 	icon = "GFX_ship_part_core_stern"
 	icon_frame=1
 }
+
+ship_section_template={
+	key= "sfdoll_star_attacker_section1_b"	
+	ship_size= sfdoll_star_attacker
+	fits_on_slot= section1
+	should_draw_components= no
+	entity = "sfdoll_star_attacker_mid_entity"
+	icon = "GFX_ship_part_core_stern"
+	icon_frame=1
+}
+
