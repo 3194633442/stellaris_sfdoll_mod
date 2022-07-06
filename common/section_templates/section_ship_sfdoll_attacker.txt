@@ -3,18 +3,56 @@ ship_section_template={
 	ship_size= sfdoll_star_attacker
 	fits_on_slot= section1
 	should_draw_components= no
+	entity = ""
+	icon = "GFX_ship_part_core_stern"
+	icon_frame=1
+}
+ship_section_template={
+	key= "sfdoll_star_attacker_section1_b"	
+	ship_size= sfdoll_star_attacker
+	fits_on_slot= section1
+	should_draw_components= no
 	entity = "sfdoll_star_attacker_entity"
 	icon = "GFX_ship_part_core_stern"
 	icon_frame=1
 }
 
 ship_section_template={
-	key= "sfdoll_star_attacker_section1_b"	
+	key= "sfdoll_star_attacker_section2"	
 	ship_size= sfdoll_star_attacker
-	fits_on_slot= section1
+	fits_on_slot= "section2"
 	should_draw_components= no
-	entity = "sfdoll_star_attacker_mid_entity"
+	entity = "sfdoll_nyto_mathership_locator_entity"
 	icon = "GFX_ship_part_core_stern"
 	icon_frame=1
 }
 
+ship_section_template={
+	key= "sfdoll_star_attacker_section3"	
+	ship_size= sfdoll_star_attacker
+	fits_on_slot= section3
+	should_draw_components= no
+	entity = "sfdoll_nyto_mathership_locator_entity"
+	icon = "GFX_ship_part_core_stern"
+	icon_frame=1
+}
+
+ship_section_template={
+	key= "sfdoll_star_attacker_section4"	
+	ship_size= sfdoll_star_attacker
+	fits_on_slot= section4
+	should_draw_components= no
+	entity = "sfdoll_nyto_mathership_locator_entity"
+	icon = "GFX_ship_part_core_stern"
+	icon_frame=1
+}
+
+ship_section_template={
+	key= "sfdoll_star_attacker_section5"	
+	ship_size= sfdoll_star_attacker
+	fits_on_slot= section5
+	should_draw_components= no
+	entity = "sfdoll_nyto_mathership_locator_entity"
+	icon = "GFX_ship_part_core_stern"
+	icon_frame=1
+}

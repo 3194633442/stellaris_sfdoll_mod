@@ -21,17 +21,12 @@ entity = {
 		black_4 = "sfdoll_black_hole_2_entity"
 	}
 }
-entity = {
-	name = "sfdoll_star_attacker_stern_entity"
-	pdxmesh = "sfdoll_star_attacker_stern_mesh"
-	scale = 1
-}
 
-entity = {
-	name = "sfdoll_star_attacker_mid_entity"
-	pdxmesh = "sfdoll_star_attacker_mid_mesh"
-	scale = 1
-}
+# entity = {
+# 	name = "sfdoll_star_attacker_mid_entity"
+# 	pdxmesh = "sfdoll_star_attacker_mid_mesh"
+# 	scale = 1
+# }
 
 # 搭配涅托主宰的点位
 entity = {
@@ -117,10 +112,6 @@ entity = {
 	locator = { name = "L10" 	position = { 26  -3  100 } }
 	locator = { name = "L11" 	position = { -26  -3  120 } }
 	locator = { name = "L12" 	position = { 26  -3  120 } }
-}
-entity = {
-	name = "sfdoll_star_ship_entity"
-	pdxmesh = "sfdoll_star_ship_mesh"
 }
 
 # entity = {

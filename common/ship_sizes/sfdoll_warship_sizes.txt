@@ -362,23 +362,24 @@ ship_sfdoll_carrier = {
 }
 
 sfdoll_star_attacker = {
-	entity = "sfdoll_GF_nyto_01_juggernaut_entity"
-	max_speed = @speed_fast
+	entity = Gayr_frame_entity
+	max_speed = @speed_very_fast
 	acceleration = 0.2
 	rotation_speed = 0.15
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 2000000
 	size_multiplier = 64
-	fleet_slot_size = 32
+	fleet_slot_size = 128
 	num_target_locators = 0
 	section_slots = {
 		"section1" = { locator = "part1" }
-		# "section2" = { locator = "part1" }
-		# "section3" = { locator = "part1" }
-		# "section4" = { locator = "part1" }
-		# "section5" = { locator = "part1" }
+		"section2" = { locator = "part1" }
+		"section3" = { locator = "part1" }
+		"section4" = { locator = "part1" }
+		"section5" = { locator = "part1" }
 	}
 	is_space_station = no
+	icon_frame = 2
 	icon = ship_size_military_16
 	base_buildtime = 1080
 	can_have_federation_design = no
@@ -389,7 +390,7 @@ sfdoll_star_attacker = {
 	possible_country = {
 		has_authority = auth_gf_sfdoll
 	}
-	default_behavior = carrier
+	default_behavior = artillery
 	class = shipclass_military_special
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -397,6 +398,7 @@ sfdoll_star_attacker = {
 	required_component_set = "sensor_components"
 	required_component_set = "thruster_components"
 	required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
 	required_component_set = "ship_aura_components"
 	modifier = {
 		ship_shield_add = 2000000

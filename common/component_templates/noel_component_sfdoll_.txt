@@ -1,12 +1,12 @@
-#诺耶露能源
+#诺耶露能源.和恒星攻击舰共用
 utility_component_template = {
 	key = "sfdoll_noel_REACTOR"
 	size = small
 	icon = "GFX_sfdoll_noel_REACTOR"
 	icon_frame = 1
-	power = 300000
+	power = 8000000
 	component_set = "power_core"
-	size_restriction = { ship_sfdoll_noel }
+	size_restriction = {  sfdoll_star_attacker ship_sfdoll_noel }
 	ai_weight = {	weight = 20	}
 }
 
