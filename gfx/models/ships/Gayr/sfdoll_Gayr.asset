@@ -4,7 +4,7 @@ entity = {
 	
 	default_state = "idle"
 	scale = 1.0
-	
+	locator = { name = "W01" 	position = { 0  6  -40 } }
 	state = { name = "idle"
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_bass" } }

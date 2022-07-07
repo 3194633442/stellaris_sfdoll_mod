@@ -459,12 +459,11 @@ tech_ship_sfdoll_carrier = {
 		tech_sfdoll_warship_4
 	}
 	potential = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_battleships
+		always = no
 	}
 	modifier = {
 		country_resource_max_add = 20000
 	}
 	tier = 5
-	weight = 1400
+	weight = 0
 }

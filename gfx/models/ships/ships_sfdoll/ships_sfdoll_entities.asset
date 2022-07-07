@@ -82,10 +82,18 @@ entity = {
 # 搭配涅托母舰模型的点位
 entity = {
 	name = "sfdoll_nyto_mathership_locator_entity"
-	locator = { name = "T01" 	position = { -9  -3  -50 } }
-	locator = { name = "T02" 	position = { 9   -3  -50 } }
-	locator = { name = "T03" 	position = { -18  -3  -50 } }
-	locator = { name = "T04" 	position = { 18   -3  -50 } }
+	locator = { name = "T01" 	position = { -6  -3  -50 } }
+	locator = { name = "T02" 	position = { 6   -3  -50 } }
+	locator = { name = "T03" 	position = { -12  -3  -50 } }
+	locator = { name = "T04" 	position = { 12   -3  -50 } }
+	locator = { name = "T05" 	position = { -18  -3  -50 } }
+	locator = { name = "T06" 	position = { 18   -3  -50 } }
+	locator = { name = "T07" 	position = { -6  -3  -50 } }
+	locator = { name = "T08" 	position = { 6   -3  -50 } }
+	locator = { name = "T09" 	position = { -12  -3  -50 } }
+	locator = { name = "T10" 	position = { 12   -3  -50 } }
+	locator = { name = "T11" 	position = { -18  -3  -50 } }
+	locator = { name = "T12" 	position = { 18   -3  -50 } }
 
 	locator = { name = "X01" 	position = { -16  -3 -100 } }
 	locator = { name = "X02" 	position = { 16   -3 -100 } }

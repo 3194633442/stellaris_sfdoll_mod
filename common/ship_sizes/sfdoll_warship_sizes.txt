@@ -321,7 +321,7 @@ ship_sfdoll_carrier = {
 		has_authority = auth_gf_sfdoll
 	}
 	default_behavior = carrier
-	class = shipclass_military_special
+	class = shipclass_starbase
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -330,9 +330,11 @@ ship_sfdoll_carrier = {
 	required_component_set = "combat_computers"
 	required_component_set = "ship_aura_components"
 	modifier = {
+		starbase_shipyard_capacity_add = 20
+		starbase_shipyard_build_speed_mult = 2
+		ship_starting_experience_add = 200
 		ship_shield_add = 2000000
 		ship_armor_add = 2000000
-		ship_starting_experience_add = 200
 		ship_piracy_suppression_add = 10
 		ships_upkeep_mult = -1
 	}
@@ -400,10 +402,10 @@ sfdoll_star_attacker = {
 	required_component_set = "combat_computers"
 	required_component_set = "ship_aura_components"
 	required_component_set = "ship_aura_components"
+	required_component_set = "ship_aura_components"
 	modifier = {
 		ship_shield_add = 2000000
 		ship_armor_add = 2000000
-		ship_starting_experience_add = 200
 		ship_piracy_suppression_add = 10
 		ships_upkeep_mult = -1
 	}
