@@ -33,19 +33,29 @@ tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
 
-ship_sfdoll_carrier:0 "Heavy Support Ship"
-ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$s"
-sfdoll_carrier_section1:0 "A"
-sfdoll_carrier_section2:0 "B"
-sfdoll_carrier_section3:0 "C"
-sfdoll_carrier_section3_b:0 "F"
-sfdoll_carrier_section4:0 "D"
-sfdoll_carrier_section5:0 "E"
-sfdoll_carrier_section5_b:0 "G"
+sfdoll_star_attacker:0 "Star Attacker"
+sfdoll_star_attacker_plural:0 "$sfdoll_star_attacker$s"
+sfdoll_star_attacker_section1:0 "A"
+sfdoll_star_attacker_section2:0 "B"
+sfdoll_star_attacker_section2_b:0 "C"
+sfdoll_star_attacker_section3:0 "D"
+sfdoll_star_attacker_section3_b:0 "E"
+sfdoll_star_attacker_section4:0 "F"
+sfdoll_star_attacker_section4_b:0 "G"
+sfdoll_star_attacker_section5:0 "H"
 
+tech_sfdoll_star_attacker:0 "$sfdoll_star_attacker$"
+tech_sfdoll_star_attacker_desc:0 "$sfdoll_star_attacker$ can carry a variety of large equipment to support fleet operations and attack"
 
-tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
-tech_ship_sfdoll_carrier_desc:0 "$ship_sfdoll_carrier$ is an all-rounder in the fleet, with capabilities such as battlefield jamming and heavy fire support."
+mega_sfdoll_star_attacker_01:0 "$sfdoll_star_attacker$ Site"
+mega_sfdoll_star_attacker_01_DESC:0 "§Y$sfdoll_star_attacker$§! need to be built through mega-engineering"
+mega_sfdoll_star_attacker_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_star_attacker_01_DESC$"
+mega_sfdoll_star_attacker_01_complete:0 "§Y$mega_sfdoll_star_attacker_01$§! completed"
+
+mega_sfdoll_star_attacker_02:0 "$sfdoll_star_attacker$"
+mega_sfdoll_star_attacker_02_DESC:0 "You need to have at least one  design of §Y$sfdoll_star_attacker$§! to complete construction."
+mega_sfdoll_star_attacker_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_star_attacker_02_DESC$"
+mega_sfdoll_star_attacker_02_complete:0 "§Y$mega_sfdoll_star_attacker_02$§Y  completed"
 
 
 sfdoll_mobile_starbase:0 "Deep Space Carrier"
@@ -118,3 +128,4 @@ build_sfdoll_star_exploit_02:0 "$sfdoll_star_exploit_02$ completed"
 
 # gateway_sfdoll_name:0 "铁血星门航道"
 # gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
+

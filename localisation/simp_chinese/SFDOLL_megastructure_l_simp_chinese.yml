@@ -31,20 +31,6 @@ pc_sfdoll_habitis_desc:0 "通过先进的FTL和能源技术,铁血太空城可�
 tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
-
-ship_sfdoll_carrier:0 "重装支援舰"
-ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
-sfdoll_carrier_section1:0 "A"
-sfdoll_carrier_section2:0 "B"
-sfdoll_carrier_section3:0 "C"
-sfdoll_carrier_section3_b:0 "F"
-sfdoll_carrier_section4:0 "D"
-sfdoll_carrier_section5:0 "E"
-sfdoll_carrier_section5_b:0 "G"
-
-tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
-tech_ship_sfdoll_carrier_desc:0 "$ship_sfdoll_carrier$ 是舰队中的多面手,拥有战场干扰和重火力支援等多种能力"
-
 # mega_sfdoll_carrier_01:0 "$ship_sfdoll_carrier$基址"
 # mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
 # mega_sfdoll_carrier_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_01_DESC$"
@@ -54,6 +40,30 @@ tech_ship_sfdoll_carrier_desc:0 "$ship_sfdoll_carrier$ 是舰队中的多面手,
 # mega_sfdoll_carrier_02_DESC:0 "你需要拥有至少一个深空母舰的设计,才能顺利完成它"
 # mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
 # mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
+
+sfdoll_star_attacker:0 "恒星攻击舰"
+sfdoll_star_attacker_plural:0 "$sfdoll_star_attacker$s"
+sfdoll_star_attacker_section1:0 "A"
+sfdoll_star_attacker_section2:0 "B"
+sfdoll_star_attacker_section2_b:0 "C"
+sfdoll_star_attacker_section3:0 "D"
+sfdoll_star_attacker_section3_b:0 "E"
+sfdoll_star_attacker_section4:0 "F"
+sfdoll_star_attacker_section4_b:0 "G"
+sfdoll_star_attacker_section5:0 "H"
+
+tech_sfdoll_star_attacker:0 "$sfdoll_star_attacker$"
+tech_sfdoll_star_attacker_desc:0 "$sfdoll_star_attacker$可搭载多种大型设备,用于支援舰队作战和攻坚"
+
+mega_sfdoll_star_attacker_01:0 "$sfdoll_star_attacker$基址"
+mega_sfdoll_star_attacker_01_DESC:0 "§Y$sfdoll_star_attacker$§!需要通过巨构工程来建造"
+mega_sfdoll_star_attacker_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_star_attacker_01_DESC$"
+mega_sfdoll_star_attacker_01_complete:0 "我们建造了一座§Y$mega_sfdoll_star_attacker_01$§!"
+
+mega_sfdoll_star_attacker_02:0 "$sfdoll_star_attacker$"
+mega_sfdoll_star_attacker_02_DESC:0 "你需要拥有至少一个§Y$sfdoll_star_attacker$§!的设计,才能顺利完成它"
+mega_sfdoll_star_attacker_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_star_attacker_02_DESC$"
+mega_sfdoll_star_attacker_02_complete:0 "我们建造了一座§Y$mega_sfdoll_star_attacker_02$§!"
 
 
 sfdoll_mobile_starbase:0 "深空母舰"
@@ -125,3 +135,16 @@ build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"
 # text_sfdoll_planet_killer_event.6_option_c:0 "信标所在的星系会被摧毁，信标也会被破坏。"
 
 # ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"
+
+# ship_sfdoll_carrier:0 "重装支援舰"
+# ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
+# sfdoll_carrier_section1:0 "A"
+# sfdoll_carrier_section2:0 "B"
+# sfdoll_carrier_section3:0 "C"
+# sfdoll_carrier_section3_b:0 "F"
+# sfdoll_carrier_section4:0 "D"
+# sfdoll_carrier_section5:0 "E"
+# sfdoll_carrier_section5_b:0 "G"
+
+# tech_ship_sfdoll_carrier:0 "$ship_sfdoll_carrier$"
+# tech_ship_sfdoll_carrier_desc:0 "$ship_sfdoll_carrier$ 是舰队中的多面手,拥有战场干扰和重火力支援等多种能力"

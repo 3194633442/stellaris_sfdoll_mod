@@ -63,6 +63,23 @@ tech_sfdoll_star_exploit = {
 	weight = 0
 }
 
+tech_sfdoll_star_attacker = {
+	area = engineering
+	start_tech = no
+	tier = 5
+	cost = @tier5cost3
+	category = { voidcraft }
+	is_rare = yes
+	icon = tech_sfdoll_titan
+	prerequisites = {
+		tech_sfdoll_warship_4
+	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	weight = 1000
+}
+
 #移动船坞
 tech_sfdoll_mobile_starbase = {
 	area = engineering

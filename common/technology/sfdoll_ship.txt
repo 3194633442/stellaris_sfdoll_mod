@@ -447,6 +447,9 @@ tech_sfdoll_warship_4 = {
 	tier = 5
 	weight = 1400
 }
+
+
+
 #深空母舰
 tech_ship_sfdoll_carrier = {
 	cost = @tier5cost3

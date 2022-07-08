@@ -4,7 +4,20 @@ entity = {
 	
 	default_state = "idle"
 	scale = 1.0
-	locator = { name = "W01" 	position = { 0  6  -40 } }
+	locator = { name = "W01" 	position = { 0  6  -50 } }
+	locator = { name = "T01" 	position = { -6  -3  -50 } }
+	locator = { name = "T02" 	position = { 6   -3  -50 } }
+	locator = { name = "T03" 	position = { -12  -3  -50 } }
+	locator = { name = "T04" 	position = { 12   -3  -50 } }
+	locator = { name = "T05" 	position = { -18  -3  -50 } }
+	locator = { name = "T06" 	position = { 18   -3  -50 } }
+
+	locator = { name = "T07" 	position = { -40 -13  50 } }
+	locator = { name = "T08" 	position = { 40  -13  50 } }
+	locator = { name = "T09" 	position = { -45  -13  40 } }
+	locator = { name = "T10" 	position = { 45   -13  40 } }
+	locator = { name = "T11" 	position = { -50  -13  30 } }
+	locator = { name = "T12" 	position = { 50   -13  30 } }
 	state = { name = "idle"
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_bass" } }

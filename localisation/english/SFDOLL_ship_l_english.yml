@@ -174,7 +174,7 @@ sfdoll_carrier_collapse_REACTOR:0 "$tech_sfdoll_ship_power_2$"
 
 
 sfdoll_warship_1:0 "SF Light Corvette"
-sfdoll_warship_2:0 "SF Heavy Weapon Corvette"
+sfdoll_warship_2:0 "SF Heavy Corvette"
 sfdoll_warship_3:0 "SF Light Destroyer"
 sfdoll_warship_4:0 "SF Heavy Destroyer"
 
@@ -216,7 +216,7 @@ sfdoll_warship_4_mid2:0 "C"
 sfdoll_warship_4_mid2_b:0 "E"
 sfdoll_warship_4_stern:0 "D"
 
-need_sfdoll_mega_starport:0 "It can be built in the following places:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
+need_sfdoll_mega_starport:0 "It can be built in the following places:$sfdoll_mega_starport_02$,$sfdoll_mobile_starbase$,$mega_shipyard_3$"
 
 #flag ship
 component_aura_sfdoll_1:0 "Time Stop Special\n\n Reduces the enemy fleet's weapon damage, accuracy, rate of fire, range, evasion, and the effect cannot be stacked. It is activated at the beginning of the battle, and every 30 days it takes effect, it will be activated again after a 30-day cooldown."

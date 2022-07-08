@@ -172,7 +172,7 @@ sfdoll_ship_reactor_no:0 "空槽"
 
 
 sfdoll_warship_1:0 "铁血轻型护卫舰"
-sfdoll_warship_2:0 "铁血重炮护卫舰"
+sfdoll_warship_2:0 "铁血重型护卫舰"
 sfdoll_warship_3:0 "铁血轻型驱逐舰"
 sfdoll_warship_4:0 "铁血重型驱逐舰"
 
@@ -214,7 +214,7 @@ sfdoll_warship_4_mid2:0 "C"
 sfdoll_warship_4_mid2_b:0 "E"
 sfdoll_warship_4_stern:0 "D"
 
-need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$ship_sfdoll_carrier$,$mega_shipyard_3$"
+need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$sfdoll_mobile_starbase$,$mega_shipyard_3$"
 
 #flag ship
 component_aura_sfdoll_1:0 "时间停止特技\n\n降低敌方舰队的武器伤害,命中,射速,射程,闪避,效果不可叠加.交战开始时启动,每生效30天,会进行30天冷却后再次启动"
