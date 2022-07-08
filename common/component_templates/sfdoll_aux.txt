@@ -84,7 +84,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_quality_rebuilding"
 
 	size_restriction = {
-		  ship_sfdoll_carrier   corvette  destroyer cruiser battleship titan  colossus juggernaut
+	   corvette  destroyer cruiser battleship titan  colossus juggernaut
 	}
 	ai_weight = {
 		weight = 20
@@ -101,6 +101,7 @@ utility_component_template = {
 	size = aux
 	icon = "GFX_sfdoll_aux_rebuild_2"
 	icon_frame = 1
+	hidden = yes
 	power = -2000
 	resources = {
 		category = ship_components
@@ -112,7 +113,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_rebuild_2"
 
 	size_restriction = {
-		ship_sfdoll_carrier sfdoll_warship_4
+		sfdoll_star_attacker sfdoll_warship_4
 	}
 	ai_weight = {
 		weight = 20
@@ -140,34 +141,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_rebuild"
 
 	size_restriction = {
-		ship_sfdoll_carrier   sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4
-	}
-	ai_weight = {
-		weight = 20
-		modifier = {
-			factor = -1
-			NOT = {		has_authority = auth_gf_sfdoll	}
-		}		
-	}
-}
-
-utility_component_template = {
-	key = "sfdoll_aux_rebuild"
-	size = aux
-	icon = "GFX_sfdoll_aux_rebuild"
-	icon_frame = 1
-	power = -600
-	resources = {
-		category = ship_components
-		cost = {
-			GF_nyto_collapse_liquid = 60
-		}
-	}
-	prerequisites = { tech_sfdoll_aux_rebuild }
-	component_set = "sfdoll_aux_rebuild"
-
-	size_restriction = {
-		ship_sfdoll_carrier   sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4
+		sfdoll_star_attacker   sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4
 	}
 	ai_weight = {
 		weight = 20

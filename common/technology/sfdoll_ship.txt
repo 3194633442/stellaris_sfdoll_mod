@@ -318,7 +318,7 @@ tech_sfdoll_aux_rebuild_2 = {
 	is_rare = yes
 	is_reverse_engineerable = no
 	prerequisites = {	"tech_sfdoll_collapse_liquid_produce"	}
-	potential = {	has_authority = auth_gf_sfdoll	}
+	potential = {	always = no	}
 	tier = 5
 	weight = 0
 }

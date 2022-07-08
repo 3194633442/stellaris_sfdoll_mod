@@ -91,7 +91,7 @@ decision_planet_to_sfdoll_city = {
 	potential = {
 		owner = { 
 			has_authority = auth_gf_sfdoll
-			has_ascension_perk = ap_sfdoll_planet
+			has_technology = tech_build_sfdoll_city
 		}
 		NOR = {
 			is_planet_class = pc_sfdoll_city
@@ -136,7 +136,7 @@ decision_planet_to_sfdoll_rw = {
 	potential = {
 		owner = { 
 			has_authority = auth_gf_sfdoll
-			has_ascension_perk = ap_sfdoll_planet
+			has_technology = tech_build_sfdoll_city
 		}
 		is_planet_class = pc_ringworld_habitable
 	}

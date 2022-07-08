@@ -71,6 +71,7 @@ ship_section_template={
 		template = invisible_titanic_fixed
 		locatorname = T12
 	}
+	large_utility_slots = 15
 }
 # ship_section_template={
 # 	key= "sfdoll_star_attacker_section1_b"	
@@ -150,6 +151,7 @@ ship_section_template={
 		template = invisible_extra_large_fixed
 		locatorname = X12
 	}
+	large_utility_slots = 15
 }
 ship_section_template={
 	key= "sfdoll_star_attacker_section2_b"	
@@ -279,6 +281,7 @@ ship_section_template={
 		template = invisible_large_turret
 		locatorname = X12
 	}
+	large_utility_slots = 15
 }
 
 ship_section_template={
@@ -350,6 +353,7 @@ ship_section_template={
 		template = invisible_large_turret
 		locatorname = L12
 	}
+	large_utility_slots = 15
 }
 ship_section_template={
 	key= "sfdoll_star_attacker_section3_b"	
@@ -419,6 +423,7 @@ ship_section_template={
 		template = invisible_large_turret
 		locatorname = L12
 	}
+	large_utility_slots = 15
 }
 
 ship_section_template={
@@ -558,6 +563,7 @@ ship_section_template={
 		template = invisible_large_turret
 		locatorname = L12
 	}
+	large_utility_slots = 15
 }
 
 ship_section_template={
@@ -688,4 +694,5 @@ ship_section_template={
 		template = invisible_point_defence_turret
 		locatorname = L12
 	}
+	aux_utility_slots = 10
 }

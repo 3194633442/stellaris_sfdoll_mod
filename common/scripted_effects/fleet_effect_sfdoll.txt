@@ -56,8 +56,6 @@ sfdoll_warship_rebuild = {
 						flag = flag_sfdoll_aux_rebuild
 						days = 30
 					}
-
-					set_disable_at_health = 0
 				}
 			}
 		}
@@ -80,21 +78,19 @@ sfdoll_warship_rebuild = {
 	# 	}
 	# }
 	else_if = {
-		limit = { is_ship_size = ship_sfdoll_carrier }
+		limit = { is_ship_size = sfdoll_star_attacker }
 		create_fleet = {
 			name = root.fromfrom.fleet
 			effect = {
 				set_owner = root
 				create_ship = {
-					random_existing_design = ship_sfdoll_carrier
+					random_existing_design = sfdoll_star_attacker
 					name = root.fromfrom
 					effect = {
 						set_timed_ship_flag = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-
-						set_disable_at_health = 0
 					}
 				}
 				set_location = root.fromfrom

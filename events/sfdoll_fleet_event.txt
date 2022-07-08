@@ -105,9 +105,9 @@ ship_event = {
 	trigger = {
 		is_ship_size = sfdoll_warship_4
 	}
-	immediate = {
-		set_disable_at_health = 0
-	}
+	# immediate = {
+	# 	set_disable_at_health = 0
+	# }
 }
 ship_event = {
 	id = sfdoll_fleet_event.4
@@ -116,7 +116,7 @@ ship_event = {
 	trigger = {
 		OR = {
 			is_ship_size = sfdoll_warship_4
-			is_ship_size = ship_sfdoll_carrier
+			is_ship_size = sfdoll_star_attacker
 		}
 	}
 	immediate = {
