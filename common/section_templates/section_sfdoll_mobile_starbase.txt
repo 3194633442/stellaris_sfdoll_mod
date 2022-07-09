@@ -91,51 +91,51 @@ ship_section_template = {
 		template = large_strike_craft
 		locatorname = h_weapon_01
 	}
-	component_slot = {
-		name = H02
-		template = large_strike_craft
-		locatorname = h_weapon_02
-	}
-	component_slot = {
-		name = H03
-		template = large_strike_craft
-		locatorname = h_weapon_03
-	}
-	component_slot = {
-		name = H04
-		template = large_strike_craft
-		locatorname = h_weapon_04
-	}
-	component_slot = {
-		name = H05
-		template = large_strike_craft
-		locatorname = h_weapon_05
-	}
-	component_slot = {
-		name = H06
-		template = large_strike_craft
-		locatorname = h_weapon_06
-	}
-	component_slot = {
-		name = g01
-		template = invisible_missile_fixed
-		locatorname = g_weapon_01
-	}
-	component_slot = {
-		name = g02
-		template = invisible_missile_fixed
-		locatorname = g_weapon_02
-	}
-	component_slot = {
-		name = g03
-		template = invisible_missile_fixed
-		locatorname = g_weapon_03
-	}
-	component_slot = {
-		name = g04
-		template = invisible_missile_fixed
-		locatorname = g_weapon_04
-	}
+	# component_slot = {
+	# 	name = H02
+	# 	template = large_strike_craft
+	# 	locatorname = h_weapon_02
+	# }
+	# component_slot = {
+	# 	name = H03
+	# 	template = large_strike_craft
+	# 	locatorname = h_weapon_03
+	# }
+	# component_slot = {
+	# 	name = H04
+	# 	template = large_strike_craft
+	# 	locatorname = h_weapon_04
+	# }
+	# component_slot = {
+	# 	name = H05
+	# 	template = large_strike_craft
+	# 	locatorname = h_weapon_05
+	# }
+	# component_slot = {
+	# 	name = H06
+	# 	template = large_strike_craft
+	# 	locatorname = h_weapon_06
+	# }
+	# component_slot = {
+	# 	name = g01
+	# 	template = invisible_missile_fixed
+	# 	locatorname = g_weapon_01
+	# }
+	# component_slot = {
+	# 	name = g02
+	# 	template = invisible_missile_fixed
+	# 	locatorname = g_weapon_02
+	# }
+	# component_slot = {
+	# 	name = g03
+	# 	template = invisible_missile_fixed
+	# 	locatorname = g_weapon_03
+	# }
+	# component_slot = {
+	# 	name = g04
+	# 	template = invisible_missile_fixed
+	# 	locatorname = g_weapon_04
+	# }
 	component_slot = {
 		name = p01
 		template = invisible_point_defence_turret

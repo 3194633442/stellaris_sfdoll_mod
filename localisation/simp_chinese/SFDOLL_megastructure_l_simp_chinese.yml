@@ -41,7 +41,7 @@ tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 # mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
 # mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
 
-sfdoll_star_attacker:0 "恒星攻击舰"
+sfdoll_star_attacker:0 "重装支援舰"
 sfdoll_star_attacker_plural:0 "$sfdoll_star_attacker$s"
 sfdoll_star_attacker_section1:0 "A"
 sfdoll_star_attacker_section2:0 "B"
@@ -51,6 +51,9 @@ sfdoll_star_attacker_section3_b:0 "E"
 sfdoll_star_attacker_section4:0 "F"
 sfdoll_star_attacker_section4_b:0 "G"
 sfdoll_star_attacker_section5:0 "H"
+
+component_aura_sfdoll_2:0 "干扰系统"
+hostile_aura_sfdoll_2:0 "$component_aura_sfdoll_2$"
 
 tech_sfdoll_star_attacker:0 "$sfdoll_star_attacker$"
 tech_sfdoll_star_attacker_desc:0 "$sfdoll_star_attacker$可搭载多种大型设备,用于支援舰队作战和攻坚"

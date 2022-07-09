@@ -21,6 +21,37 @@ utility_component_template = {
 		weight = 1
 	}
 }
+utility_component_template = {
+	key = "component_aura_sfdoll_2"
+	size = medium
+	icon = "GFX_component_aura_sfdoll_2"
+	icon_frame = 1
+	power = 0
+	size_restriction = { sfdoll_star_attacker }
+	component_set = "ship_aura_components"
+	
+	hostile_aura = {
+		name = "hostile_aura_sfdoll_2"
+		radius = 400
+		apply_on = fleets
+		stack_info = {
+			id = id_hostile_aura_sfdoll_2
+			priority = 1
+		}
+		modifier = {
+			ship_accuracy_mult = -4
+			ship_jumpdrive_cooldown_mult = 5
+			ship_emergency_ftl_mult = 4
+			ship_disengage_chance_mult = -2
+			ship_shield_penetration_mult = -2
+			ship_armor_penetration_mult = -2
+			ship_shield_mult = -1
+		}
+	}
+	ai_weight = {
+		weight = 1
+	}
+}
 
 #指挥模块
 # utility_component_template = {
@@ -101,36 +132,36 @@ utility_component_template = {
 # }
 
 #母舰光环
-utility_component_template = {
-	key = "component_aura_sfdoll_carrier"
-	size = medium
-	icon = "GFX_component_aura_sfdoll_carrier"
-	icon_frame = 1
-	power = 0
-	hidden = yes
-	size_restriction = { ship_sfdoll_carrier  }
-	component_set = "ship_aura_components"
+# utility_component_template = {
+# 	key = "component_aura_sfdoll_carrier"
+# 	size = medium
+# 	icon = "GFX_component_aura_sfdoll_carrier"
+# 	icon_frame = 1
+# 	power = 0
+# 	hidden = yes
+# 	size_restriction = { ship_sfdoll_carrier  }
+# 	component_set = "ship_aura_components"
 		
-	friendly_aura = {
-		name = "friendly_aura_sfdoll_carrier"
-		radius = 250
-		apply_on = fleets
+# 	friendly_aura = {
+# 		name = "friendly_aura_sfdoll_carrier"
+# 		radius = 250
+# 		apply_on = fleets
 		
-		stack_info = {
-			id = id_friendly_sfdoll_carrier
-			priority = 1
-		}
+# 		stack_info = {
+# 			id = id_friendly_sfdoll_carrier
+# 			priority = 1
+# 		}
 		
-		modifier = {		
-			ship_shield_regen_add_perc = 1
-			ship_armor_regen_add_perc = 1
-			ship_hull_regen_add_perc = 1
-		}
-	}
-	ai_weight = {
-		weight = -10
-	}
-}
+# 		modifier = {		
+# 			ship_shield_regen_add_perc = 1
+# 			ship_armor_regen_add_perc = 1
+# 			ship_hull_regen_add_perc = 1
+# 		}
+# 	}
+# 	ai_weight = {
+# 		weight = -10
+# 	}
+# }
 
 
 #潜航系统

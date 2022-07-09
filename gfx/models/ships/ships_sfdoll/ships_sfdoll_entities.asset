@@ -4,8 +4,35 @@
 entity = {
 	name = "sfdoll_star_attacker_entity"
 	pdxmesh = "sfdoll_star_attacker_mesh"
+	locator = { name = "W01" 	position = { 0  0  -25 }}
+
+	locator = { name = "T01" 	position = { 6  6  -5 }  }
+	locator = { name = "T02" 	position = { 6  -6  -5 }  }
+	locator = { name = "T03" 	position = { -6  6  -5 }  }
+	locator = { name = "T04" 	position = { -6  -6  -5 }  }
+
+	locator = { name = "L01" 	position = { 8  8  3 }  }
+	locator = { name = "L02" 	position = { 8  -8  3 }  }
+	locator = { name = "L03" 	position = { -8  8  3 }  }
+	locator = { name = "L04" 	position = { -8  -8  3 }  }
+
+	locator = { name = "L05" 	position = { 10  10  9 }  }
+	locator = { name = "L06" 	position = { 10  -10  9 }  }
+	locator = { name = "L07" 	position = { -10  10  9 }  }
+	locator = { name = "L08" 	position = { -10  -10  9 }  }
+
+	locator = { name = "L09" 	position = { 12  12  15 }  }
+	locator = { name = "L10" 	position = { 12  -12  15 }  }
+	locator = { name = "L11" 	position = { -12  12  15 }  }
+	locator = { name = "L12" 	position = { -12  -12  15 }  }
+
+	locator = { name = "L13" 	position = { 14  14  18 }  }
+	locator = { name = "L14" 	position = { 14  -14  18 }  }
+	locator = { name = "L15" 	position = { -14  14  18 }  }
+	locator = { name = "L16" 	position = { -14  -14  18 }  }
+	
 	locator = { name = "root" 	position = { 0  0  0 } rotation = { 0 0 0 } }
-	locator = { name = "black_0" 	position = { 0  0  0 }   scale = 3 }
+	locator = { name = "black_0" 	position = { 0  0  -2 }   scale = 2 }
 	locator = { name = "black_1" 	position = { 13  0  -20 } }
 	locator = { name = "black_2" 	position = { -13  0  -20 }  }
 	locator = { name = "black_3" 	position = { 0  13  -20 }  }

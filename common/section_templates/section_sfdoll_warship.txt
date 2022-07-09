@@ -381,6 +381,56 @@ ship_section_template = {
 	}
 	aux_utility_slots = 4
 }
+ship_section_template = {
+	key = sfdoll_warship_3_stern_b
+	ship_size = sfdoll_warship_3
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+	icon = GFX_ship_part_core_bow
+	icon_frame = 1
+	component_slot = {
+		name = x03
+		template = invisible_extra_large_fixed
+		locatorname = x_gun02
+	}
+	component_slot = {
+		name = x04
+		template = invisible_extra_large_fixed
+		locatorname = x_gun04
+	}
+	component_slot = {
+		name = "L015"
+		template = invisible_large_turret
+		locatorname = "l_gun013"
+	}
+	component_slot = {
+		name = "L016"
+		template = invisible_large_turret
+		locatorname = "l_gun014"
+	}
+	component_slot = {
+		name = "L019"
+		template = invisible_medium_turret
+		locatorname = "l_gun015"
+	}
+	component_slot = {
+		name = "L020"
+		template = invisible_medium_turret
+		locatorname = "l_gun016"
+	}
+	component_slot = {
+		name = "M_01"
+		template = invisible_missile_turret
+		locatorname = "l_gun015"
+	}
+	component_slot = {
+		name = "M_01"
+		template = invisible_missile_turret
+		locatorname = "l_gun016"
+	}
+	aux_utility_slots = 4
+}
 
 #重型驱逐
 #舰首

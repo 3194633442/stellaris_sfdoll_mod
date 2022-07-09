@@ -209,6 +209,7 @@ sfdoll_warship_2_stern_L2:0 "E"
 sfdoll_warship_3_bow:0 "A"
 GF_nyto_01_sfdoll_warship_3_core:0 "B"
 sfdoll_warship_3_stern:0 "C"
+sfdoll_warship_3_stern_b:0 "D"
 
 sfdoll_warship_4_bow:0 "A"
 sfdoll_warship_4_mid:0 "B"
