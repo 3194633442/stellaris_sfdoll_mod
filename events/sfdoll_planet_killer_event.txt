@@ -775,3 +775,23 @@ planet_event = {
 
 	}
 }
+
+
+#殖民W槽
+planet_event = {
+	id = sfdoll_planet_killer_event.13
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_anomaly = no
+		can_colonize = {
+			who = root.from.owner
+			status = yes
+		}
+	}
+	immediate = {
+		start_colony = {
+			owner = from.owner
+		}
+	}
+}

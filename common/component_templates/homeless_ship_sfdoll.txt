@@ -428,6 +428,7 @@ utility_component_template = {
 
 	size_restriction = {
 		  sfdoll_homeless_ship
+		  sfdoll_large_homeship
 	}
 	ai_weight = {
 		weight = 20

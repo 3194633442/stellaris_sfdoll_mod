@@ -42,3 +42,11 @@ sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"
 
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2$ can peel and teleport matter within a certain range to other dimensions. It can also perform directional teleportation, thereby compressing matter within a Schwarzschild radius. $sfdoll_missile_2$ will approach the target by short-distance jump, which means it cannot be intercepted by anti-aircraft weapons."
+
+
+planet_killer_sfdoll_colonizer:0 "Colonial Space Shuttle"
+planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$ can transport personnel and materials to the planet and support the initial development of the planet."
+
+planet_killer_sfdoll_colonizer_ACTION:0 "$planet_killer_sfdoll_colonizer$"
+FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_colonizer:0 "$planet_killer_sfdoll_colonizer$"
+MESSAGE_DESC_FOR_planet_killer_sfdoll_colonizer:0 "start colonization"

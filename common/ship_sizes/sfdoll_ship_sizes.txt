@@ -92,7 +92,7 @@ sfdoll_homeless_ship = {
 	is_space_station = no
 	icon = ship_size_military_16
 	icon_frame = 7
-	base_buildtime = 1800
+	base_buildtime = 720
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
@@ -117,12 +117,12 @@ sfdoll_homeless_ship = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 20000
-			unity = 480
+			alloys = 1000
+			unity = 200
 		}
 		upkeep = {
-			energy = 30
-			alloys = 15
+			energy = 5
+			minerals = 2
 		}
 	}
 	min_upgrade_cost = {

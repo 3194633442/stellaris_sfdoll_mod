@@ -1,3 +1,10 @@
+#殖民w槽
+component_set = {
+	key = "planet_killer_sfdoll_colonizer"
+	icon = "GFX_planet_killer_sfdoll_colonizer"
+	icon_frame = 1
+}
+
 #消费品
 component_set = {
 	key = "consumer_goods_sfdoll_homeless_set"

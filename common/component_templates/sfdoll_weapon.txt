@@ -459,7 +459,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapon_x_2"
 	icon_frame = 1
-	projectile_gfx = "ion_cannon"
+	projectile_gfx = "perdition_beam"
 	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0

@@ -161,19 +161,19 @@ entity = {
 	locator = { name = "L03" 	position = { -5  0  -8 } }
 	locator = { name = "L04" 	position = { 5   0  -8 } }
 	locator = { name = "L05" 	position = { -5  0  -6 } }
-	locator = { name = "L06" 	position = { 5   -3  -6 } }
-	locator = { name = "L07" 	position = { -5  -3 -4 } }
-	locator = { name = "L08" 	position = { 5  -3 -4} }
-	locator = { name = "L09" 	position = { -5  -3  -2 } }
-	locator = { name = "L10" 	position = { 5  -3  -2 } }
-	locator = { name = "L11" 	position = { -5  -3  0 } }
-	locator = { name = "L12" 	position = { 5  -3  0 } }
-	locator = { name = "L13" 	position = { -5  -3  2 } }
-	locator = { name = "L14" 	position = { 5  -3  2 } }
-	locator = { name = "L15" 	position = { -5  -3  4 } }
-	locator = { name = "L16" 	position = { 5   -3  4 } }
-	locator = { name = "L17" 	position = { -5  -3  6 } }
-	locator = { name = "L18" 	position = { 5   -3  6 } }
-	locator = { name = "L19" 	position = { -5  -3  8 } }
-	locator = { name = "L20" 	position = { 5  -3  8} }
+	locator = { name = "L06" 	position = { 5   0  -6 } }
+	locator = { name = "L07" 	position = { -5  0 -4 } }
+	locator = { name = "L08" 	position = { 5   0 -4} }
+	locator = { name = "L09" 	position = { -5  0 -2 } }
+	locator = { name = "L10" 	position = { 5  0  -2 } }
+	locator = { name = "L11" 	position = { -5  0  0 } }
+	locator = { name = "L12" 	position = { 5  0  0 } }
+	locator = { name = "L13" 	position = { -5  0  2 } }
+	locator = { name = "L14" 	position = { 5  0  2 } }
+	locator = { name = "L15" 	position = { -5 0  4 } }
+	locator = { name = "L16" 	position = { 5  0  4 } }
+	locator = { name = "L17" 	position = { -5  0  6 } }
+	locator = { name = "L18" 	position = { 5   0 6 } }
+	locator = { name = "L19" 	position = { -5  0 8 } }
+	locator = { name = "L20" 	position = { 5  0  8} }
 }

@@ -80,6 +80,19 @@ can_destroy_planet_with_planet_killer_sfdoll_2 = {
 	}
 }
 
+can_destroy_planet_with_planet_killer_sfdoll_colonizer = {
+	owner = {
+		exists = this
+		is_same_value = root.from.owner
+	}
+	has_anomaly = no
+	is_colonizable = yes
+	is_colony = no
+	can_colonize = {
+		who = root.from.owner
+		status = yes
+	}
+}
 # 爆非恒星的条件
 # NOT = { is_planet_class =  pc_shattered }
 

@@ -43,3 +43,23 @@ weapon_component_template = {
 	component_set = "planet_killer_sfdoll_2"
 	planet_destruction_gfx = "star_destroyer_effect_gfx"	
 }
+
+weapon_component_template = {
+	key = "planet_killer_sfdoll_colonizer"
+	size = planet_killer
+	type = planet_killer
+	use_ship_kill_target = no
+	can_destroy_stars = yes
+	icon = GFX_planet_killer_sfdoll_colonizer
+	icon_frame = 1
+	windup = {
+		min = 30
+		max = 30
+	}
+    total_fire_time = 30
+    accuracy = 1
+    range = 0
+	size_restriction = { sfdoll_homeless_ship sfdoll_large_homeship }
+	component_set = "planet_killer_sfdoll_colonizer"
+	planet_destruction_gfx = "star_destroyer_effect_gfx"	
+}

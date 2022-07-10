@@ -235,6 +235,8 @@ on_fleet_enter_orbit = {
 	}
 }
 
+
+#W槽触发器
 # this/root = planet that have been fired upon
 # from = fleet that fired
 on_destroy_planet_with_planet_killer_sfdoll_1 = {
@@ -251,5 +253,11 @@ on_destroy_planet_with_planet_killer_sfdoll_1 = {
 on_destroy_planet_with_planet_killer_sfdoll_2 = {
 	events = {
 		sfdoll_planet_killer_event.1
+	}
+}
+
+on_destroy_planet_with_planet_killer_sfdoll_colonizer = {
+	events = {
+		sfdoll_planet_killer_event.13
 	}
 }
