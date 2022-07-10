@@ -17,14 +17,14 @@ gf_sfdoll_ascension_perk_event_0_desc:0 "Thank you, father;\n\nGoodbye, father."
 #
 ap_sfdoll_3:0 "Sangvis Ferri Project: Lunasia"
 ap_sfdoll_3_desc:0 "On the way home."
-gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_3$"
-gf_sfdoll_ascension_perk_event.4_desc:0 "We can only move forward."
 
 #
 ap_sfdoll_4:0 "Sangvis Ferri Project: Jormungand"
 ap_sfdoll_4_desc:0 "We crave further truth."
-gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_4$"
-gf_sfdoll_ascension_perk_event.2_desc:0 "Awaken our new worlds."
+# gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_4$"
+# gf_sfdoll_ascension_perk_event.2_desc:0 "Awaken our new worlds."
+gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
+gf_sfdoll_ascension_perk_event.4_desc:0 "We have no choice but to move forward."
 
 
 tech_build_sfdoll_city:0"Sangvis Ferri Project"

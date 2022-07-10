@@ -9,4 +9,6 @@ mod_planet_pops_robotics_energy_upkeep_mult:0 "机械人口$energy$ £energy£ �
 
 mod_planet_jobs_sr_dark_matter_produces_mult:0 "岗位产出的 §Y$sr_dark_matter$§! £sr_dark_matter£ "
 
+mod_planet_jobs_nanites_produces_mult:0 "岗位产出的 £nanites£ $nanites$"
+
 mod_planet_jobs_GF_nyto_collapse_liquid_produces_mult:0 "岗位产出的 §Y$GF_nyto_collapse_liquid$§! £GF_nyto_collapse_liquid£ "

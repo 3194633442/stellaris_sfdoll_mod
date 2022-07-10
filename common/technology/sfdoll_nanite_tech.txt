@@ -1,8 +1,8 @@
 #解锁铁血纳米生产
 tech_sfdoll_nanites = {
-	cost = @tier4cost2
+	cost = @tier3cost2
 	area = engineering
-	tier = 4
+	tier = 3
 	category = { industry }
 	icon = tech_sfdoll_nanites
 	weight = 1400

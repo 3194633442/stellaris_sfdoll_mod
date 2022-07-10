@@ -9,9 +9,10 @@ tech_sfdoll_homeless_ship = {
 	is_rare = yes
 	category = { voidcraft }
 	potential = {
+		always = no
 		has_authority = auth_gf_sfdoll
 	}
-	weight = @tier1weight1
+	weight = 0
 }
 
 tech_sfdoll_homeless_section_2 = {
@@ -27,9 +28,10 @@ tech_sfdoll_homeless_section_2 = {
 		tech_sfdoll_collapse_liquid_produce
 	}
 	potential = {
+		always = no
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 1000
+	weight = 0
 }
 
 tech_sfdoll_homeless_section_3 = {
@@ -45,9 +47,10 @@ tech_sfdoll_homeless_section_3 = {
 		tech_sfdoll_star_exploit
 	}
 	potential = {
+		always = no
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 1000
+	weight = 0
 }
 
 tech_sfdoll_large_homeship = {
@@ -63,7 +66,8 @@ tech_sfdoll_large_homeship = {
 		tech_building_sfdoll_mineral
 	}
 	potential = {
+		always = no
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 1000
+	weight = 0
 }

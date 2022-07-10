@@ -104,8 +104,8 @@ sfdoll_homeless_ship = {
 	}
 
 	default_behavior = carrier
-	class = shipclass_constructor
-	is_civilian = no
+	class = shipclass_military
+	is_civilian = yes
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -183,7 +183,7 @@ sfdoll_large_homeship = {
 	}
 
 	default_behavior = carrier
-	class = shipclass_constructor
+	class = shipclass_military
 	is_civilian = yes
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -200,8 +200,8 @@ sfdoll_large_homeship = {
 			unity = 480
 		}
 		upkeep = {
-			energy = 30
-			alloys = 15
+			energy = 100
+			alloys = 25
 		}
 	}
 	min_upgrade_cost = {

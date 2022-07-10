@@ -12,6 +12,7 @@ ap_sfdoll_digi_mind_update ={
 	on_enabled = {
 		add_research_option = tech_sfdoll_reverse_collapse_1
 		add_research_option = tech_sfdoll_social_reform
+		add_research_option = tech_sfdoll_nanites
 		hidden_effect = {
 			country_event = {
 				id = gf_sfdoll_ascension_perk_event.1
@@ -74,11 +75,6 @@ ap_sfdoll_3 = {
 	}
 	on_enabled = {
 		add_research_option = tech_sfdoll_star_exploit
-		hidden_effect = {
-			country_event = {
-				id = gf_sfdoll_ascension_perk_event.4
-			}
-		}
 		country_event = {
 			id = sfdoll_to_zion_event.7
 		}
@@ -109,6 +105,11 @@ ap_sfdoll_4= {
 	}
 	#星球改造决议,专属居住站,恒星巨构
 	on_enabled = {
+		hidden_effect = {
+			country_event = {
+				id = gf_sfdoll_ascension_perk_event.4
+			}
+		}
 		add_research_option =tech_sfdoll_energy_plant
 		add_research_option = tech_build_sfdoll_city
 		add_research_option = tech_sfdoll_habitat_01

@@ -14,26 +14,20 @@ tech_sfdoll_reverse_collapse_1 = {
 }
 
 tech_sfdoll_reverse_collapse_2 = {
-	cost = @tier4cost2
+	cost = @tier3cost3
 	area = society
-	tier = 4
+	tier = 3
 	is_rare = yes
 	category = { military_theory }
 	icon = tech_sfdoll_reverse_collapse_1
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_reverse_collapse_1	}
 	modifier = {	shroud_research_speed = 0.15 }
-	weight = @tier3weight3
-	weight_modifier = {
-		modifier = {
-			factor = 10
-			years_passed > 20
-		}
-	}
+	weight = 1500
 }
 
 tech_sfdoll_reverse_collapse_3 = {
-	cost = @tier4cost3
+	cost = @tier4cost1
 	area = engineering
 	tier = 4
 	is_rare = yes
@@ -45,11 +39,11 @@ tech_sfdoll_reverse_collapse_3 = {
 		has_technology = tech_zero_point_power
 	}
 	modifier = {  planet_jobs_produces_mult = 0.15		}
-	weight = @tier4weight3
+	weight = @tier4weight1
 	weight_modifier = {
 		modifier = {
 			factor = 10
-			years_passed > 30
+			years_passed > 20
 		}
 	}
 }
