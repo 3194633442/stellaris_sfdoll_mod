@@ -1,6 +1,7 @@
 #点位位置{x,z,y},三个参数为舰船左方，z正向为上方，y正向为后方，负向为前方
 #rotation里的参数为上下轴,左右轴,前后轴
-#星际攻击舰
+
+#搭配泰坦头四合一
 entity = {
 	name = "sfdoll_star_attacker_entity"
 	pdxmesh = "sfdoll_star_attacker_mesh"
@@ -149,64 +150,30 @@ entity = {
 	locator = { name = "L12" 	position = { 26  -3  120 } }
 }
 
-# entity = {
-# 	name = "GF_sfdoll_titan_mid_entity"
-# 	locator = { name = "X01" 	position = { -9  -3  -20 } }
-# 	locator = { name = "X02" 	position = { 9   -3  -20 } }
-# 	locator = { name = "L01" 	position = { -9  -3  -17 } }
-# 	locator = { name = "L02" 	position = { 9   -3  -17 } }
-# 	locator = { name = "L03" 	position = { -9  -3  -14 } }
-# 	locator = { name = "L04" 	position = { 9   -3  -14 } }
-# 	locator = { name = "L05" 	position = { -9  -3  -11 } }
-# 	locator = { name = "L06" 	position = { 9   -3  -11 } }
-# 	locator = { name = "L07" 	position = { -10.5  -3  -8 } }
-# 	locator = { name = "L08" 	position = { 10.5  -3 -8} }
-# 	locator = { name = "L09" 	position = { -10.5  -3  -5 } }
-# 	locator = { name = "L10" 	position = { 10.5  -3  -5 } }
-# 	locator = { name = "L11" 	position = { -10.5  -3  -2 } }
-# 	locator = { name = "L12" 	position = { 10.5  -3  -2 } }
-# }
-# entity = {
-# 	name = "GF_sfdoll_carrier_entity"
-# 	pdxmesh = "sfdoll_carrier01_mesh"
-# 	locator = { name = "X01" 	position = { -9  -3  -20 } }
-# 	locator = { name = "X02" 	position = { 9   -3  -20 } }
-# 	locator = { name = "L01" 	position = { -9  -3  -17 } }
-# 	locator = { name = "L02" 	position = { 9   -3  -17 } }
-# 	locator = { name = "L03" 	position = { -9  -3  -14 } }
-# 	locator = { name = "L04" 	position = { 9   -3  -14 } }
-# 	locator = { name = "L05" 	position = { -9  -3  -11 } }
-# 	locator = { name = "L06" 	position = { 9   -3  -11 } }
-# 	locator = { name = "L07" 	position = { -10.5  -3  -8 } }
-# 	locator = { name = "L08" 	position = { 10.5  -3 -8} }
-# 	locator = { name = "L09" 	position = { -10.5  -3  -5 } }
-# 	locator = { name = "L10" 	position = { 10.5  -3  -5 } }
-# 	locator = { name = "L11" 	position = { -10.5  -3  -2 } }
-# 	locator = { name = "L12" 	position = { 10.5  -3  -2 } }
-# }
 
 #星舰城市
 entity = {
 	name = "sfdoll_homeless_ship_entity"
-	locator = { name = "X01" 	position = { 0  0  0 } }
-	locator = { name = "L01" 	position = { -5  0  -8 } }
-	locator = { name = "L02" 	position = { 5   0  -8 } }
+	pdxmesh = "sfdoll_homeless_ship_mesh"
+	locator = { name = "W01" 	position = { 0  0  0 } }
+	locator = { name = "L01" 	position = { -5  0  -10 } }
+	locator = { name = "L02" 	position = { 5   0  -10 } }
 	locator = { name = "L03" 	position = { -5  0  -8 } }
 	locator = { name = "L04" 	position = { 5   0  -8 } }
-	locator = { name = "L05" 	position = { -5  0  -8 } }
-	locator = { name = "L06" 	position = { 9   -3  -8 } }
-	locator = { name = "L07" 	position = { -10.5  -3 -8 } }
-	locator = { name = "L08" 	position = { 10.5  -3 -8} }
-	locator = { name = "L09" 	position = { -10.5  -3  -5 } }
-	locator = { name = "L10" 	position = { 10.5  -3  -5 } }
-	locator = { name = "L11" 	position = { -10.5  -3  -2 } }
-	locator = { name = "L12" 	position = { 10.5  -3  -2 } }
-	locator = { name = "L13" 	position = { -9  -3  -17 } }
-	locator = { name = "L14" 	position = { 9   -3  -17 } }
-	locator = { name = "L15" 	position = { -9  -3  -14 } }
-	locator = { name = "L16" 	position = { 9   -3  -14 } }
-	locator = { name = "L17" 	position = { -9  -3  -11 } }
-	locator = { name = "L18" 	position = { 9   -3  -11 } }
-	locator = { name = "L19" 	position = { -10.5  -3  -8 } }
-	locator = { name = "L20" 	position = { 10.5  -3 -8} }
+	locator = { name = "L05" 	position = { -5  0  -6 } }
+	locator = { name = "L06" 	position = { 5   -3  -6 } }
+	locator = { name = "L07" 	position = { -5  -3 -4 } }
+	locator = { name = "L08" 	position = { 5  -3 -4} }
+	locator = { name = "L09" 	position = { -5  -3  -2 } }
+	locator = { name = "L10" 	position = { 5  -3  -2 } }
+	locator = { name = "L11" 	position = { -5  -3  0 } }
+	locator = { name = "L12" 	position = { 5  -3  0 } }
+	locator = { name = "L13" 	position = { -5  -3  2 } }
+	locator = { name = "L14" 	position = { 5  -3  2 } }
+	locator = { name = "L15" 	position = { -5  -3  4 } }
+	locator = { name = "L16" 	position = { 5   -3  4 } }
+	locator = { name = "L17" 	position = { -5  -3  6 } }
+	locator = { name = "L18" 	position = { 5   -3  6 } }
+	locator = { name = "L19" 	position = { -5  -3  8 } }
+	locator = { name = "L20" 	position = { 5  -3  8} }
 }

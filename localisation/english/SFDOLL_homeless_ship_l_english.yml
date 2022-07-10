@@ -56,36 +56,41 @@ manpower_sfdoll_homeless_set_DESC:0 "$manpower_sfdoll_homeless$"
 manpower_sfdoll_homeless:0 "$manpower_sfdoll_homeless_set$\n Produce:\n §Y5 $manpower$§! £manpower£ \n Upkeep:\n §Y2 $alloys$§! £alloys£"
 
 
+sfdoll_homeless_ship:0 "SF Homeship"
+sfdoll_homeless_ship_plural:0 "$sfdoll_homeless_ship$s"
+section_sfdoll_homeless_1:0 "A"
+section_sfdoll_homeless_2:0 "B"
+section_sfdoll_homeless_3:0 "C"
+
+sfdoll_large_homeship:0 "SF Large Homeship"
+sfdoll_large_homeship_plural:0 "$sfdoll_large_homeship$"
+sfdoll_large_homeship_section_1:0 "A"
+sfdoll_large_homeship_section_2:0 "B"
+sfdoll_large_homeship_section_3:0 "C"
+sfdoll_large_homeship_section_4:0 "D"
+
+
 tech_sfdoll_homeless_ship:0 "Star-Ship City"
-tech_sfdoll_homeless_ship_desc:0 "The body of SF Dolls can adapt to the cosmic environment, and at the same time, the long-term space travel has also allowed SF Dolls to accumulate the experience of space survival. Using these conditions, on the basis of the early colonial ships, we designed and built the movable space residence."
+tech_sfdoll_homeless_ship_desc:0 "The body of SF Dolls can adapt to the cosmic environment, which makes life in space possible. On the basis of the early colonial ships, we designed and built the movable space residence.\n\n$manpower_desc$"
 
 tech_sfdoll_homeless_section_2:0 "Zero Gravity Industry"
 tech_sfdoll_homeless_section_2_desc:0 "Using the low gravity environment, we can develop a large-scale space industry.\n\n Unlocks $sfdoll_homeless_ship$ section"
 
 tech_sfdoll_homeless_section_3:0 "Interstellar Wandering"
-tech_sfdoll_homeless_section_3_desc:0 "New technologies make our fleet world more prosperous.\n\n Unlocks $sfdoll_homeless_ship$ section"
+tech_sfdoll_homeless_section_3_desc:0 "After gaining experience in space survival, we can improve the $sfdoll_homeless_ship$.\n\n Unlocks $sfdoll_homeless_ship$ section"
 
-sfdoll_homeless_ship:0 "Star-Ship City"
-sfdoll_homeless_ship_plural:0 "$sfdoll_homeless_ship$s"
-section_sfdoll_homeless_1:0 "A"
-section_sfdoll_homeless_2:0 "B"
-section_sfdoll_homeless_3:0 "C"
+tech_sfdoll_large_homeship:0 "$sfdoll_large_homeship$"
+tech_sfdoll_large_homeship_desc:0 "New technologies make our fleet world more prosperous."
+
+
 sfdoll_homeless_ship_reactor:0 "Star-Ship City Energy Center"
+sfdoll_homeless_ship_reactor_2:0 "$sfdoll_homeless_ship_reactor$"
+sfdoll_homeless_ship_reactor_3:0 "$sfdoll_homeless_ship_reactor$"
+
 sfdoll_homeless_ship_thruster_1:0 "Giant Propulsion System"
+sfdoll_homeless_ship_thruster_2:0 "$sfdoll_homeless_ship_thruster_1$"
 
 economic_sfdoll_homeless_ship:0 "$sfdoll_homeless_ship$"
-
-
-tech_sfdoll_homeless_ship_2:0 "$sfdoll_homeless_ship_2$"
-tech_sfdoll_homeless_ship_2_desc:0 "$sfdoll_homeless_ship_2$"
-
-sfdoll_homeless_ship_2:0 "Large-Star-Ship City"
-sfdoll_homeless_ship_2_plural:0 "$sfdoll_homeless_ship_2$s"
-sfdoll_homeless_ship_2_section_1:0 "A"
-sfdoll_homeless_ship_2_section_2:0 "B"
-sfdoll_homeless_ship_2_section_3:0 "C"
-sfdoll_homeless_ship_2_section_4:0 "D"
-sfdoll_homeless_ship_2_reactor:0 "$sfdoll_homeless_ship_reactor$"
 
 manpower:0 "Manpower"
 manpower_desc:0 "§H$manpower$§!§E(£manpower£)is a general term for the people involved in various productions and long-term settlements on the $homeless_ship$.§!"

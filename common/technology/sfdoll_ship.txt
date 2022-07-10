@@ -373,27 +373,6 @@ tech_sfdoll_battleship_bow_x2 = {
 	weight = @tier5weight1
 }
 
-#星舰城市
-tech_sfdoll_homeless_ship = {
-	cost = @tier5cost1
-	tier = 5
-	area = engineering
-	start_tech = no
-	icon = tech_sfdoll_alloys_produce
-	is_rare = yes
-	category = { voidcraft }
-	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
-	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	modifier = {
-		country_resource_max_add = 20000
-		country_command_limit_add = 200
-	}
-	weight = 0
-}
 
 #系列战舰
 tech_sfdoll_warship_1 = {

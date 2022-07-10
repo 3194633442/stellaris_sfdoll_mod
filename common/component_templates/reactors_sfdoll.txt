@@ -357,18 +357,6 @@ utility_component_template = {
 	ai_weight = {	weight = 20	}
 }
 
-#母舰坍塌反应堆
-utility_component_template = {
-	key = "sfdoll_carrier_collapse_REACTOR"
-	size = small
-	icon = "GFX_ship_part_sfdoll_ship_power_2"
-	icon_frame = 1
-	power = 4000000
-	component_set = "power_core"
-	prerequisites = { tech_sfdoll_ship_power_2  }
-	size_restriction = { ship_sfdoll_carrier }
-	ai_weight = {	weight = 20	}
-}
 
 #防御平台
 utility_component_template = {

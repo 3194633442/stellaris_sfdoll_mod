@@ -20,7 +20,13 @@ country_event = {
 		#添加合成人帝国flag，会被判定为二段机飞国家
 		set_country_flag = synthetic_empire
 
-		#自动探索
+		#家园舰科技
+		give_technology = {
+			tech = tech_sfdoll_homeless_ship
+			message = yes
+		}
+
+		#自动探索和ai科技
 		give_technology = {
 			tech = tech_automated_exploration
 			message = no
@@ -131,7 +137,6 @@ country_event = {
 			days = 7
 		}
 	}
-	
 }
 
 

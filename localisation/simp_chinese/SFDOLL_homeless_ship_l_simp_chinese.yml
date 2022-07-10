@@ -56,36 +56,42 @@ manpower_sfdoll_homeless_set:0 "维护中心"
 manpower_sfdoll_homeless_set_DESC:0 "$manpower_sfdoll_homeless$"
 manpower_sfdoll_homeless:0 "$manpower_sfdoll_homeless_set$\n 生产:\n §Y5 $manpower$§! £manpower£ \n 维护:\n §Y2 $alloys$§! £alloys£"
 
-tech_sfdoll_homeless_ship:0 "星舰城市"
-tech_sfdoll_homeless_ship_desc:0 "铁血人形的素体能够适应宇宙环境,同时,长期的太空旅行也让铁血积累了太空生存的经验.利用这些条件,在早期殖民船的基础上,我们设计建造了可移动的太空居所. "
+
+
+sfdoll_homeless_ship:0 "铁血家园舰"
+sfdoll_homeless_ship_plural:0 "$sfdoll_homeless_ship$"
+sfdoll_homeless_section_1:0 "A"
+sfdoll_homeless_section_2:0 "B"
+sfdoll_homeless_section_3:0 "C"
+
+sfdoll_large_homeship:0 "铁血大型家园舰"
+sfdoll_large_homeship_plural:0 "$sfdoll_large_homeship$"
+sfdoll_large_homeship_section_1:0 "A"
+sfdoll_large_homeship_section_2:0 "B"
+sfdoll_large_homeship_section_3:0 "C"
+sfdoll_large_homeship_section_4:0 "D"
+
+tech_sfdoll_homeless_ship:0 "星舰之城"
+tech_sfdoll_homeless_ship_desc:0 "铁血人形的素体能够适应宇宙环境,这让太空生活成为可能.在早期殖民船的基础上,我们设计建造了可移动的太空居所. \n\n$manpower_desc$"
 
 tech_sfdoll_homeless_section_2:0 "零重力工业化"
 tech_sfdoll_homeless_section_2_desc:0 "利用低重力环境,我们可以发展大规模的太空工业\n\n解锁$sfdoll_homeless_ship$区段"
 
 tech_sfdoll_homeless_section_3:0 "星间漫游"
-tech_sfdoll_homeless_section_3_desc:0 "新技术的运用,令我们的舰队世界更为繁荣\n\n解锁$sfdoll_homeless_ship$区段"
+tech_sfdoll_homeless_section_3_desc:0 "在积累了太空生存的经验后,我们可以改进$sfdoll_homeless_ship$.\n\n解锁$sfdoll_homeless_ship$区段"
 
-sfdoll_homeless_ship:0 "星舰城市"
-sfdoll_homeless_ship_plural:0 "$sfdoll_homeless_ship$"
-sfdoll_homeless_section_1:0 "A"
-sfdoll_homeless_section_2:0 "B"
-sfdoll_homeless_section_3:0 "C"
+tech_sfdoll_large_homeship:0 "$sfdoll_large_homeship$"
+tech_sfdoll_large_homeship_desc:0 "崭新的技术将令我们的舰队世界更为繁荣"
+
+
 sfdoll_homeless_ship_reactor:0 "星舰城市能源中心"
+sfdoll_homeless_ship_reactor_2:0 "$sfdoll_homeless_ship_reactor$"
+sfdoll_homeless_ship_reactor_3:0 "$sfdoll_homeless_ship_reactor$"
+
 sfdoll_homeless_ship_thruster_1:0 "巨型动力系统"
+sfdoll_homeless_ship_thruster_2:0 "$sfdoll_homeless_ship_thruster_1$"
 
 economic_sfdoll_homeless_ship:0 "$sfdoll_homeless_ship$"
-
-
-tech_sfdoll_homeless_ship_2:0 "$sfdoll_homeless_ship_2$"
-tech_sfdoll_homeless_ship_2_desc:0 "$sfdoll_homeless_ship_2$"
-
-sfdoll_large_homeless_ship:0 "大型星舰城市"
-sfdoll_large_homeless_ship_plural:0 "$sfdoll_large_homeless_ship$s"
-sfdoll_large_homeless_ship_section_1:0 "A"
-sfdoll_large_homeless_ship_section_2:0 "B"
-sfdoll_large_homeless_ship_section_3:0 "C"
-sfdoll_large_homeless_ship_section_4:0 "D"
-sfdoll_large_homeless_ship_reactor:0 "$sfdoll_homeless_ship_reactor$"
 
 manpower:0 "人力"
 manpower_desc:0 "§H$manpower$§!§E（£manpower£）是对家园舰上参与各种生产和长期定居于此的人员的一类总称。§!"

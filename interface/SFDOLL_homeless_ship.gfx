@@ -73,6 +73,13 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_manpower_sfdoll_homeless"
+		textureFile = "gfx/interface/icons/ship_parts/manpower_sfdoll_homeless.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_rare_crystals_sfdoll_homeless"
 		textureFile = "gfx/interface/icons/ship_parts/rare_crystals_sfdoll_homeless.dds"
 	}

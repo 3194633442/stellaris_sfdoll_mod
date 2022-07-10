@@ -57,6 +57,9 @@ weapon_component_template = {
 			consumer_goods = 0.5
 		}
 	}
+	prerequisites = {
+		tech_sfdoll_goods
+	}
 	size_restriction = { sfdoll_homeless_ship	}
 	component_set = consumer_goods_sfdoll_homeless_2_set
 }
@@ -118,6 +121,9 @@ weapon_component_template = {
 			energy = 5
 			consumer_goods = 0.5
 		}
+	}
+	prerequisites = {
+		tech_sfdoll_alloys_2
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = alloys_sfdoll_homeless_2_set
@@ -186,6 +192,9 @@ weapon_component_template = {
 			consumer_goods = 12.5
 		}
 	}
+	prerequisites = {
+		tech_sfdoll_lab_2
+	}
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = research_sfdoll_homeless_2_set
 }
@@ -220,6 +229,9 @@ weapon_component_template = {
 			consumer_goods = 0.5
 		}
 	}
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "collapse_liquid_sfdoll_homeless_set"
 }
@@ -251,6 +263,9 @@ weapon_component_template = {
 			energy = 15
 			consumer_goods = 0.5
 		}
+	}
+	prerequisites = {
+		tech_sfdoll_dark_matter_plant
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "sr_dark_matter_sfdoll_homeless_set"
@@ -284,6 +299,9 @@ weapon_component_template = {
 			energy = 5
 			consumer_goods = 0.5
 		}
+	}
+	prerequisites = {
+		tech_sfdoll_nanites
 	}
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "nanites_sfdoll_homeless_set"
@@ -365,7 +383,7 @@ weapon_component_template = {
 	icon_frame = 1
 	#待修改
 	component_set = "minerals_sfdoll_homeless_set"
-	# prerequisites = {	tech_building_sfdoll_mineral	}
+	prerequisites = {	tech_building_sfdoll_mineral	}
 	size_restriction = { sfdoll_homeless_ship		}
 	power = -2000
 	resources = {
@@ -403,10 +421,9 @@ utility_component_template = {
 			alloys = 200
 		}
 		produces = {
-			manpower = 5
+			manpower = 3
 		}
 	}
-	# prerequisites = { "tech_sfdoll_aux_quality_rebuilding" }
 	component_set = "manpower_sfdoll_homeless_set"
 
 	size_restriction = {
@@ -427,70 +444,70 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_reactor_1"
 	icon_frame = 1
-	power = 150000
-	resources = {
-		category = ship_components
-		upkeep = {
-			minerals = 5
-		}
-		cost = {
-			alloys = 50
-		}
-	}
+	power = 1000
 	component_set = "power_core"
 	size_restriction = { sfdoll_homeless_ship	 }	
 	ai_weight = {	weight = 20	}
 }
-#高级反应堆
-# utility_component_template = {
-# 	key = "sfdoll_homeless_ship_reactor_2"
-# 	size = small
-# 	icon = "GFX_ship_part_sfdoll_collapse_REACTOR"
-# 	icon_frame = 1
-# 	power = 150000
-# 	resources = {
-# 		category = ship_components
-# 		produces = {
-# 			energy = 80
-# 		}
-# 		upkeep = {
-# 			GF_nyto_collapse_liquid = 10
-# 		}
-# 		cost = {
-# 			GF_nyto_collapse_liquid = 50
-# 			alloys = 400
-# 		}
-# 	}
-# 	prerequisites = { "tech_sfdoll_collapse_energy" }
-# 	component_set = "power_core"
-# 	size_restriction = { sfdoll_homeless_ship 	 }
-# 	ai_weight = {	weight = 20	}
-# }
+#更大的家园舰反应堆
+utility_component_template = {
+	key = "sfdoll_homeless_ship_reactor_2"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = 10000
+	component_set = "power_core"
+	prerequisites = { tech_sfdoll_homeless_section_3  }
+	size_restriction = { sfdoll_homeless_ship }
+	ai_weight = {	weight = 20	}
+}
+
+#大型家园舰能源
+utility_component_template = {
+	key = "sfdoll_homeless_ship_reactor_3"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = 3000000
+	component_set = "power_core"
+	size_restriction = { sfdoll_large_homeship }
+	ai_weight = {	weight = 20	}
+}
 
 #推进器
 utility_component_template = {
 	key = "sfdoll_homeless_ship_thruster_1"
 	size = small
-	icon = "GFX_ship_part_thruster_4"
+	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = -600
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 50
-		}
-	}
-
-	modifier = {
-	}
-	# prerequisites = { "tech_thrusters_1" }
 	component_set = "thruster_components"
 	size_restriction = { sfdoll_homeless_ship  }
-	# upgrades_to = "SCIENCE_SFDOLL_THRUSTER_2"
 	ai_weight = {
 		weight = 1
 	}
 }
+
+#大型家园舰推进器
+utility_component_template = {
+	key = "sfdoll_homeless_ship_thruster_2"
+	size = small
+	icon = "GFX_ship_part_thruster_4"
+	icon_frame = 1
+	power = -2000
+	modifier = {
+		ship_speed_mult = 1
+	}
+	component_set = "thruster_components"
+	prerequisites = {
+		tech_sfdoll_homeless_section_3
+	}
+	size_restriction = { sfdoll_homeless_ship sfdoll_large_homeship }
+	ai_weight = {
+		weight = 1
+	}
+}
+
 
 
 # #化学模块

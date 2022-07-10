@@ -2,7 +2,7 @@ entity = {
 	name = "sfdoll_SANGVIS_FERRI_flag_ship_entity"
 	pdxmesh = "SANGVIS_FERRI_flag_ship_mesh"
 	scale = 1.0
-
+	locator = { name = W01 position = { 0 0 -40 } }
 	default_state = "idle"
 
 	state = { name = "idle"

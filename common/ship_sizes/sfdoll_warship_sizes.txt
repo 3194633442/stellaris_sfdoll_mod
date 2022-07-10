@@ -208,7 +208,7 @@ sfdoll_warship_3 = {
 #重型驱逐舰
 sfdoll_warship_4 = {
 	graphical_culture = no
-	entity = sfdoll_SANGVIS_FERRI_frame_entity #sfdoll_SANGVIS_FERRI_frame_entity
+	entity = "GF_nyto_01_SANGVIS_FERRI_frame_entity" #sfdoll_SANGVIS_FERRI_frame_entity
 	max_speed = @speed_very_fast
 	acceleration = 0.3
 	rotation_speed = 0.2
@@ -300,13 +300,12 @@ sfdoll_star_attacker = {
 	max_hitpoints = 2000000
 	size_multiplier = 64
 	fleet_slot_size = 128
-	num_target_locators = 0
+	num_target_locators = 8
 	section_slots = {
-		"section1" = { locator = "part1" }
-		# "section2" = { locator = "part1" }
-		# "section3" = { locator = "part1" }
-		# "section4" = { locator = "part1" }
-		# "section5" = { locator = "part1" }
+		"bow" = { locator = part2 }
+		"core" = { locator = part2 }
+		"core2" = { locator = part2 }
+		"stern"  = { locator = part2 }
 	}
 	is_space_station = no
 	icon_frame = 2
