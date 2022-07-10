@@ -127,3 +127,17 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/ship_parts/nanites_sfdoll_homeless.dds"
 	}
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_planet_killer_sfdoll_colonizer"
+		textureFile = "gfx/interface/icons/ship_parts/planet_killer_sfdoll_colonizer.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_homeship_exploit"
+		textureFile = "gfx/interface/icons/ship_parts/sfdoll_homeship_exploit.dds"
+	}
+}

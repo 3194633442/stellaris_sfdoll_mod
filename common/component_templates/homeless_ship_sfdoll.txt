@@ -439,6 +439,37 @@ utility_component_template = {
 	}
 }
 
+utility_component_template = {
+	key = "sfdoll_homeship_exploit"
+	size = aux
+	icon = "GFX_sfdoll_homeship_exploit"
+	icon_frame = 1
+	power = -10
+	resources = {
+		category = economic_sfdoll_homeless_ship
+		cost = {
+			alloys = 200
+		}
+		produces = {
+			minerals = 3
+			energy = 3
+		}
+	}
+	component_set = "sfdoll_homeship_exploit_set"
+
+	size_restriction = {
+		  sfdoll_homeless_ship
+		  sfdoll_large_homeship
+	}
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = -1
+			NOT = {		has_authority = auth_gf_sfdoll	}
+		}		
+	}
+}
+
 #基础反应堆
 utility_component_template = {
 	key = "sfdoll_homeless_ship_reactor"

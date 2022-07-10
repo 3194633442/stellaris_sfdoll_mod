@@ -620,5 +620,5 @@ ship_section_template = {
 		template = invisible_point_defence_turret
 		locatorname = "L069"
 	}
-	aux_utility_slots = 4
+	aux_utility_slots = 2
 }

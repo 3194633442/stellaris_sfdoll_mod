@@ -128,6 +128,28 @@ country_event = {
 			event_chain = sfdoll_search_zion_chain
 		}
 
+		#添加家园舰
+		capital_scope = {
+			create_fleet = {
+				name = sfdoll_homeless_ship
+				effect = {
+					set_owner = root
+					create_ship = {
+						design = design_sfdoll_homeless_ship_game_start
+						name = sfdoll_homeless_ship
+					}
+				}
+				settings = {
+					can_upgrade = yes
+					uses_naval_capacity = yes
+					spawn_debris = no
+					can_disband = yes
+					can_change_leader = yes
+					can_change_composition = no
+				}
+			}
+		}
+
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising
 		set_country_flag = synth_detector
