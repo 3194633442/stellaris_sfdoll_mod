@@ -171,26 +171,30 @@ sfdoll_ship_reactor_no:0 "空槽"
 
 
 sfdoll_warship_1:0 "铁血轻型护卫舰"
-sfdoll_warship_2:0 "铁血重型护卫舰"
-sfdoll_warship_3:0 "铁血轻型驱逐舰"
-sfdoll_warship_4:0 "铁血重型驱逐舰"
-
 sfdoll_warship_1_plural:0 "$sfdoll_warship_1$"
-sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"
-sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
-sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
-
 tech_sfdoll_warship_1:0 "质量再生系统"
 tech_sfdoll_warship_1_desc:0 "暗物质工程和坍塌技术的应用,大幅提高了新舰种的自持力."
 
+sfdoll_warship_2:0 "铁血重型护卫舰"
+sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"
 tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
 tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$"
 
+sfdoll_warship_3:0 "铁血轻型驱逐舰"
+sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
 tech_sfdoll_warship_3:0 "$sfdoll_warship_3$"
 tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$"
 
+sfdoll_warship_4:0 "铁血重型驱逐舰"
+sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
 tech_sfdoll_warship_4:0 "$sfdoll_warship_4$"
 tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$"
+
+sfdoll_warship_5:0 "铁血星际巡航舰"
+sfdoll_warship_5_plural:0 "$sfdoll_warship_5$"
+tech_sfdoll_warship_5:0 "$sfdoll_warship_5$"
+tech_sfdoll_warship_5_desc:0 "$sfdoll_warship_5$"
+
 
 GF_sfdoll_warship_1_bow_X1:0 "A"
 sfdoll_warship_1_mid_L3:0 "B"
@@ -213,7 +217,7 @@ sfdoll_warship_4_mid2:0 "C"
 sfdoll_warship_4_mid2_b:0 "E"
 sfdoll_warship_4_stern:0 "D"
 
-need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$sfdoll_mobile_starbase$,$mega_shipyard_3$"
+need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$$sfdoll_mobile_starbase$$,$mega_shipyard_3$"
 
 #flag ship
 component_aura_sfdoll_1:0 "时间停止特技\n\n降低敌方舰队的武器伤害,命中,射速,射程,闪避,效果不可叠加.交战开始时启动,每生效30天,会进行30天冷却后再次启动"

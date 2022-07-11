@@ -394,6 +394,7 @@ tech_sfdoll_warship_2 = {
 	cost = @tier5cost2
 	tier = 5
 	area = engineering
+	is_rare = yes
 	category = { voidcraft }
 	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
@@ -404,6 +405,7 @@ tech_sfdoll_warship_3 = {
 	cost = @tier5cost3
 	tier = 5
 	area = engineering
+	is_rare = yes
 	category = { voidcraft }
 	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
@@ -415,6 +417,7 @@ tech_sfdoll_warship_4 = {
 	area = engineering
 	start_tech = no
 	icon = tech_sfdoll_titan
+	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {	tech_sfdoll_warship_3	}
 	potential = {
@@ -426,7 +429,20 @@ tech_sfdoll_warship_4 = {
 	tier = 5
 	weight = 1400
 }
-
+tech_sfdoll_warship_5 = {
+	cost = @tier5cost3
+	area = engineering
+	start_tech = no
+	icon = tech_sfdoll_titan
+	is_rare = yes
+	category = { voidcraft }
+	prerequisites = {	tech_sfdoll_warship_4	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	tier = 5
+	weight = 1400
+}
 
 
 #深空母舰

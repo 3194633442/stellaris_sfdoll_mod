@@ -54,7 +54,7 @@ minerals_sfdoll_homeless:0 "$minerals_sfdoll_homeless_set$ \n 生产:\n §Y200 $
 
 manpower_sfdoll_homeless_set:0 "维护中心"
 manpower_sfdoll_homeless_set_DESC:0 "$manpower_sfdoll_homeless$"
-manpower_sfdoll_homeless:0 "$manpower_sfdoll_homeless_set$\n 生产:\n §Y3 $manpower$§! £manpower£ \n 维护:\n §Y2 $alloys$§! £alloys£"
+manpower_sfdoll_homeless:0 "$manpower_sfdoll_homeless_set$\n 生产:\n 2 §Y$manpower$§! £manpower£ \n 维护:\n 2 §Y$alloys$§! £alloys£"
 
 sfdoll_homeship_exploit_set:0 "太空开采船"
 sfdoll_homeship_exploit_set_DESC:0 "$sfdoll_homeship_exploit$"

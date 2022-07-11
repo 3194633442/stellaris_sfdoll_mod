@@ -6,7 +6,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = 8000000
 	component_set = "power_core"
-	size_restriction = {  sfdoll_star_attacker ship_sfdoll_noel }
+	size_restriction = { sfdoll_warship_5 sfdoll_star_attacker ship_sfdoll_noel }
 	ai_weight = {	weight = 20	}
 }
 

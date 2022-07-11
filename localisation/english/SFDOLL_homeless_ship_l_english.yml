@@ -53,7 +53,7 @@ minerals_sfdoll_homeless:0 "$minerals_sfdoll_homeless_set$ \n Produce:\n §Y200 
 
 manpower_sfdoll_homeless_set:0 "Maintenance Center"
 manpower_sfdoll_homeless_set_DESC:0 "$manpower_sfdoll_homeless$"
-manpower_sfdoll_homeless:0 "$manpower_sfdoll_homeless_set$\n Produce:\n §Y3 $manpower$§! £manpower£ \n Upkeep:\n §Y2 $alloys$§! £alloys£"
+manpower_sfdoll_homeless:0 "$manpower_sfdoll_homeless_set$\n Produce:\n 2 §Y$manpower$§! £manpower£ \n Upkeep:\n 2 §Y$alloys$§! £alloys£"
 
 
 sfdoll_homeship_exploit_set:0 "Space Mining Ships"

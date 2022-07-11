@@ -421,7 +421,7 @@ utility_component_template = {
 			alloys = 200
 		}
 		produces = {
-			manpower = 3
+			manpower = 2
 		}
 	}
 	component_set = "manpower_sfdoll_homeless_set"

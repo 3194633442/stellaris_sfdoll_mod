@@ -31,8 +31,6 @@ tech_sfdoll_habitat_01 = {
 	icon = tech_sfdoll_habitat_01		
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_collapse_liquid_produce
-		has_technology = tech_mega_engineering
 	}
 	modifier = {
 		country_resource_max_add = 20000
@@ -56,6 +54,9 @@ tech_sfdoll_star_exploit = {
 	}
 	potential = {
 		has_authority = auth_gf_sfdoll
+	}
+	feature_flags = {
+		megaengineering
 	}
 	modifier = {
 		country_resource_max_add = 20000

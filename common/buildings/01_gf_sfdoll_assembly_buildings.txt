@@ -34,9 +34,6 @@ building_sfdoll_assembly_plant = {
 	
 	resources = {
 		category = planet_buildings
-		produces = {
-			manpower = 3
-		}
 		cost = {
 			minerals = 250
 		}
@@ -87,9 +84,6 @@ building_sfdoll_assembly_2= {
 	
 	resources = {
 		category = planet_buildings
-		produces = {
-			manpower = 6
-		}
 		cost = {
 			minerals = @b2_minerals
 			nanites = @b2_rare_cost

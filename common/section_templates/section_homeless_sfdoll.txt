@@ -582,12 +582,12 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "L062"
-		template = invisible_extra_large_fixed
+		template = invisible_point_defence_turret
 		locatorname = "L062"
 	}
 	component_slot = {
 		name = "L063"
-		template = invisible_extra_large_fixed
+		template = invisible_point_defence_turret
 		locatorname = "L063"
 	}
 	component_slot = {

@@ -20,12 +20,6 @@ country_event = {
 		#添加合成人帝国flag，会被判定为二段机飞国家
 		set_country_flag = synthetic_empire
 
-		#家园舰科技
-		give_technology = {
-			tech = tech_sfdoll_homeless_ship
-			message = yes
-		}
-
 		#自动探索和ai科技
 		give_technology = {
 			tech = tech_automated_exploration
@@ -128,7 +122,12 @@ country_event = {
 			event_chain = sfdoll_search_zion_chain
 		}
 
-		#添加家园舰
+		#家园舰科技
+		# give_technology = {
+		# 	tech = tech_sfdoll_homeless_ship
+		# 	message = yes
+		# }
+		# #添加家园舰
 		# create_fleet = {
 		# 	name = sfdoll_homeless_ship
 		# 	effect = {
@@ -148,6 +147,7 @@ country_event = {
 		# 		can_change_composition = no
 		# 	}
 		# }
+
 		# 防机械叛乱
 		set_country_flag = no_machine_uprising
 		set_country_flag = synth_detector
