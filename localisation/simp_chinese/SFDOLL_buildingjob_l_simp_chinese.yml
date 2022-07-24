@@ -52,8 +52,8 @@ mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ 岗位"
 # mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ 岗位"
 
 
-tech_sfdoll_alloys_produce:0"坍塌技术合金工艺"
-tech_sfdoll_alloys_produce_desc:0"$tech_sfdoll_alloys_produce$"
+tech_sfdoll_alloys_produce:0"零素仿生学"
+tech_sfdoll_alloys_produce_desc:0"基于强相互作用和重子的加工技术,将被推广到不同领域"
 tech_sfdoll_alloys_2:0 "坍塌技术合金工艺改进"
 tech_sfdoll_alloys_2_desc:0 "$tech_sfdoll_alloys_2$"
 
@@ -65,7 +65,7 @@ building_sfdoll_alloys_2_desc:0 "$building_sfdoll_alloys_2$"
 job_sfdoll_alloys_maker:0"铁血材料合成师"
 job_sfdoll_alloys_maker_plural:0"$job_sfdoll_alloys_maker$s"
 job_sfdoll_alloys_maker_desc:0"$job_sfdoll_alloys_maker$"
-job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$消耗 §Y$minerals$§!，生产§Y$alloys$§!，§Y$engineering_research$§! "
+job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$消耗 §Y$minerals$§!，生产§Y$alloys$§!,§Y$sr_living_metal$§! ,§Y$engineering_research$§! "
 mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ 岗位"
 
 # job_sfdoll_alloys_producer_2:0"铁血高级材料合成师"

@@ -155,6 +155,7 @@ sfdoll_alloys_maker = {
 		category = planet_metallurgists
 		produces = {
 			alloys = 45
+			sr_living_metal = 3
 			engineering_research = 6
 		}
 		upkeep = {

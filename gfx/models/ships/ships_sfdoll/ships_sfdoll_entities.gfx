@@ -4,6 +4,10 @@ objectTypes = {
 		file = "gfx/models/ships/ships_sfdoll/sfdoll_star_attacker_mesh.mesh"
 	}
 	pdxmesh = {
+		name = "sfdoll_star_attacker_mid_mesh"
+		file = "gfx/models/ships/ships_sfdoll/sfdoll_star_attacker_mid_mesh.mesh"
+	}
+	pdxmesh = {
 		name = "sfdoll_homeless_ship_mesh"
 		file = "gfx/models/ships/ships_sfdoll/sfdoll_homeless_ship_mesh.mesh"
 	}

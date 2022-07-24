@@ -60,6 +60,21 @@ sfdoll_warship_rebuild = {
 			}
 		}
 	}
+	else_if = {
+		limit = { is_ship_size = sfdoll_warship_5 }
+		fleet = {
+			create_ship = {
+				name = prev
+				random_existing_design = sfdoll_warship_5
+				effect = {
+					set_timed_ship_flag = {
+						flag = flag_sfdoll_aux_rebuild
+						days = 30
+					}
+				}
+			}
+		}
+	}
 	# else_if = {
 	# 	limit = { is_ship_size = ship_sfdoll_carrier }
 	# 	fleet = {

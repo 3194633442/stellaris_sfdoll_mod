@@ -41,6 +41,7 @@ entity = {
 	scale = 2
 	attach = {
 		black_0 = "sfdoll_black_hole_2_entity"
+		root = "sfdoll_star_attacker_mid_entity"
 	}
 	attach = {
 		black_1 = "sfdoll_black_hole_2_entity"
@@ -48,6 +49,10 @@ entity = {
 		black_3 = "sfdoll_black_hole_2_entity"
 		black_4 = "sfdoll_black_hole_2_entity"
 	}
+}
+entity = {
+	name = "sfdoll_star_attacker_mid_entity"
+	pdxmesh = "sfdoll_star_attacker_mid_mesh"
 }
 
 entity = {

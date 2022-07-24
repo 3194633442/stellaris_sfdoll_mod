@@ -37,14 +37,14 @@ country_event = {
 		}
 
 		#判断是否为noel
-		if = {
-			limit = { 
-				event_target:leader_revive_sfdoll = {  has_leader_flag = sfdoll_leader_noel }
-			}
-			country_event = {
-				id = sfdoll_leader_revive_event.3
-			}
-		}
+		# if = {
+		# 	limit = { 
+		# 		event_target:leader_revive_sfdoll = {  has_leader_flag = sfdoll_leader_noel }
+		# 	}
+		# 	country_event = {
+		# 		id = sfdoll_leader_revive_event.3
+		# 	}
+		# }
 	}
 }
 
@@ -129,6 +129,7 @@ country_event = {
 				}
 			}
 
+			#特殊领袖
 			if = {
 				limit = { has_leader_flag = sfdoll_leader_elisa }
 				clear_global_event_target = sfdoll_leader_elisa
@@ -171,6 +172,14 @@ country_event = {
 				event_target:new_leader_revive_sfdoll = {
 					set_leader_flag = sfdoll_leader_hari_seldon
 					save_global_event_target_as = sfdoll_leader_hari_seldon
+				}
+			}
+			if = {
+				limit = {  has_leader_flag = sfdoll_leader_dingyi }
+				clear_global_event_target = sfdoll_leader_dingyi
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_dingyi
+					save_global_event_target_as = sfdoll_leader_dingyi
 				}
 			}
 

@@ -120,7 +120,7 @@ building_sfdoll_dark_matter_plant = {
 
 
 
-#坍塌液合金生产
+#合金生产
 building_sfdoll_alloys = {
 	base_buildtime =  @b2_time
 	category = manufacturing
@@ -145,16 +145,15 @@ building_sfdoll_alloys = {
 		}
 		modifier = { job_sfdoll_alloys_maker_add = 1	}
 	}
-	triggered_desc = {		text = job_sfdoll_alloys_maker_effect_desc	}
+	triggered_desc = {	text = job_sfdoll_alloys_maker_effect_desc	}
 	resources = {
 		category = planet_buildings
 		cost = {
 			minerals = @b2_minerals
-			GF_nyto_collapse_liquid = @b2_rare_cost
+			nanites = @b2_rare_cost
 		}
 		upkeep = {
 			energy = @b2_upkeep
-			GF_nyto_collapse_liquid = @b2_rare_upkeep
 		}
 	}
 
@@ -190,6 +189,7 @@ building_sfdoll_alloys_2 = {
 			job_sfdoll_alloys_maker_add = 2
 		}
 	}
+	triggered_desc = {	text = job_sfdoll_alloys_maker_effect_desc	}
 	resources = {
 		category = planet_buildings
 		cost = {

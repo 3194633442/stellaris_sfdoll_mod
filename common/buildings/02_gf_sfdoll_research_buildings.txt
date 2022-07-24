@@ -35,7 +35,6 @@ building_sfdoll_research = {
 		}
 		upkeep = {
 			energy = @b2_upkeep
-			nanites = @b2_rare_upkeep
 		}
 	}
 }

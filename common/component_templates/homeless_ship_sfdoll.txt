@@ -57,9 +57,9 @@ weapon_component_template = {
 			consumer_goods = 0.5
 		}
 	}
-	prerequisites = {
-		tech_sfdoll_goods
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_goods
+	# }
 	size_restriction = { sfdoll_homeless_ship	}
 	component_set = consumer_goods_sfdoll_homeless_2_set
 }
@@ -122,9 +122,9 @@ weapon_component_template = {
 			consumer_goods = 0.5
 		}
 	}
-	prerequisites = {
-		tech_sfdoll_alloys_2
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_alloys_2
+	# }
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = alloys_sfdoll_homeless_2_set
 }
@@ -192,9 +192,9 @@ weapon_component_template = {
 			consumer_goods = 12.5
 		}
 	}
-	prerequisites = {
-		tech_sfdoll_lab_2
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_lab_2
+	# }
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = research_sfdoll_homeless_2_set
 }
@@ -229,9 +229,9 @@ weapon_component_template = {
 			consumer_goods = 0.5
 		}
 	}
-	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_collapse_liquid_produce
+	# }
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "collapse_liquid_sfdoll_homeless_set"
 }
@@ -243,9 +243,9 @@ weapon_component_template = {
 	icon = "GFX_sr_dark_matter_sfdoll_homeless"
 	icon_frame = 1
 	power = -2000
-	# prerequisites = {
-	# 	tech_sfdoll_dark_matter_plant
-	# }
+	prerequisites = {
+		tech_sfdoll_dark_matter_plant
+	}
 	damage = {
 		min = 0
 		max = 0
@@ -264,9 +264,9 @@ weapon_component_template = {
 			consumer_goods = 0.5
 		}
 	}
-	prerequisites = {
-		tech_sfdoll_dark_matter_plant
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_dark_matter_plant
+	# }
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "sr_dark_matter_sfdoll_homeless_set"
 }
@@ -278,9 +278,9 @@ weapon_component_template = {
 	icon = "GFX_nanites_sfdoll_homeless"
 	icon_frame = 1
 	power = 2000
-	# prerequisites = {
-	# 	tech_sfdoll_nanites
-	# }
+	prerequisites = {
+		tech_sfdoll_nanites
+	}
 	damage = {
 		min = 0
 		max = 0
@@ -300,9 +300,9 @@ weapon_component_template = {
 			consumer_goods = 0.5
 		}
 	}
-	prerequisites = {
-		tech_sfdoll_nanites
-	}
+	# prerequisites = {
+	# 	tech_sfdoll_nanites
+	# }
 	size_restriction = { sfdoll_homeless_ship 	}
 	component_set = "nanites_sfdoll_homeless_set"
 }
@@ -348,7 +348,7 @@ weapon_component_template = {
 	icon_frame = 1
 	#待修改
 	component_set = "energy_sfdoll_homeless_set"
-	prerequisites = {	tech_sfdoll_energy_plant	}
+	# prerequisites = {	tech_sfdoll_energy_plant	}
 	size_restriction = { sfdoll_homeless_ship		}
 	power = -2000
 	resources = {
@@ -383,7 +383,7 @@ weapon_component_template = {
 	icon_frame = 1
 	#待修改
 	component_set = "minerals_sfdoll_homeless_set"
-	prerequisites = {	tech_building_sfdoll_mineral	}
+	# prerequisites = {	tech_building_sfdoll_mineral	}
 	size_restriction = { sfdoll_homeless_ship		}
 	power = -2000
 	resources = {
@@ -500,7 +500,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_reactor_5"
 	icon_frame = 1
-	power = 3000000
+	power = 50000
 	component_set = "power_core"
 	size_restriction = { sfdoll_large_homeship }
 	ai_weight = {	weight = 20	}

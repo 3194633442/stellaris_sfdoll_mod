@@ -76,7 +76,7 @@ sfdoll_large_homeship_section_4:0 "D"
 
 
 tech_sfdoll_homeless_ship:0 "Star-Ship City"
-tech_sfdoll_homeless_ship_desc:0 "The body of SF Dolls can adapt to the cosmic environment, which makes life in space possible. On the basis of the early colonial ships, we designed and built the movable space residence.\n\n$manpower_desc$"
+tech_sfdoll_homeless_ship_desc:0 "In the long-term space wandering, SF Dolls had gradually evolved a culture of space life. They believe that it is not wise to rely too much on unmovable habitats. Based on the early colonial ships, SF Dolls designed and built $sfdoll_homeless_ship$.\n\n $sfdoll_homeless_ship$ is a mobile home with functions such as production and colonization. Using a unique modular assembly technology, it can be assembled in a small shipyard. Its assembly requires $manpower$.\n\n$manpower_desc$"
 
 tech_sfdoll_homeless_section_2:0 "Zero Gravity Industry"
 tech_sfdoll_homeless_section_2_desc:0 "Using the low gravity environment, we can develop a large-scale space industry.\n\n Unlocks $sfdoll_homeless_ship$ section"

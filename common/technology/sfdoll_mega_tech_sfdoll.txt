@@ -28,14 +28,17 @@ tech_sfdoll_habitat_01 = {
 	cost = @tier5cost3
 	category = { voidcraft }
 	is_rare = yes
-	icon = tech_sfdoll_habitat_01		
+	icon = tech_sfdoll_habitat_01
+	prerequisites = {
+		tech_building_sfdoll_mineral
+	}	
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
 	modifier = {
 		country_resource_max_add = 20000
 	}
-	weight = 0
+	weight = 1000
 }
 
 #恒星加工器

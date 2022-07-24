@@ -76,7 +76,7 @@ sfdoll_large_homeship_section_3:0 "C"
 sfdoll_large_homeship_section_4:0 "D"
 
 tech_sfdoll_homeless_ship:0 "星舰之城"
-tech_sfdoll_homeless_ship_desc:0 "铁血人形的素体能够适应宇宙环境,这让太空生活成为可能.在早期殖民船的基础上,我们设计建造了可移动的太空居所. \n\n$manpower_desc$"
+tech_sfdoll_homeless_ship_desc:0 "在长期的太空流浪中,铁血逐渐演化出了太空生活的文化,它们认为,过于依赖固定的栖息地并不明智,在早期殖民船的基础上,铁血设计建造了$sfdoll_homeless_ship$.\n\n$sfdoll_homeless_ship$是拥有生产和殖民等功能的移动居所.利用独特的模块化装配技术,它能在小型船坞中进行装配.它的装配需要消耗$manpower$. \n\n$manpower_desc$"
 
 tech_sfdoll_homeless_section_2:0 "零重力工业化"
 tech_sfdoll_homeless_section_2_desc:0 "利用低重力环境,我们可以发展大规模的太空工业\n\n解锁$sfdoll_homeless_ship$区段"

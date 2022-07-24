@@ -330,7 +330,7 @@ tech_sfdoll_aux_rebuild = {
 	category = { field_manipulation }
 	is_rare = yes
 	is_reverse_engineerable = no
-	prerequisites = {	tech_sfdoll_aux_rebuild_2	}
+	prerequisites = {	tech_sfdoll_warship_1	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
 	weight = 1500
@@ -441,7 +441,7 @@ tech_sfdoll_warship_5 = {
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 5
-	weight = 1400
+	weight = 1500
 }
 
 

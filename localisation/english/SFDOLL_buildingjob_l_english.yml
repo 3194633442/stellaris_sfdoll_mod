@@ -49,8 +49,8 @@ mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ jobs"
 # mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ jobs"
 
 
-tech_sfdoll_alloys_produce:0"Collapse Technology Alloys Process"
-tech_sfdoll_alloys_produce_desc:0"$tech_sfdoll_alloys_produce$"
+tech_sfdoll_alloys_produce:0 "Neutronium Bionics"
+tech_sfdoll_alloys_produce_desc:0 "Processing technology based on strong interaction and baryon will be extended to different fields"
 tech_sfdoll_alloys_2:0 "Collapse Technology Alloys Process Improvement"
 tech_sfdoll_alloys_2_desc:0 "$tech_sfdoll_alloys_2$"
 
@@ -62,7 +62,7 @@ building_sfdoll_alloys_2_desc:0 "$building_sfdoll_alloys_2$"
 job_sfdoll_alloys_maker:0 "SF Alloys Maker"
 job_sfdoll_alloys_maker_plural:0 "$job_sfdoll_alloys_maker$s"
 job_sfdoll_alloys_maker_desc:0 "$job_sfdoll_alloys_maker$"
-job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$ consumes §Y$minerals$§!, produces §Y$alloys$§!, §Y$engineering_research$§!"
+job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$ consumes §Y$minerals$§!, produces §Y$alloys$§!,§Y$sr_living_metal$§! , §Y$engineering_research$§!"
 mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ jobs"
 
 # job_sfdoll_alloys_producer_2:0"SF Alloys Senior Maker"
