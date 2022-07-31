@@ -62,7 +62,7 @@ building_sfdoll_alloys_2_desc:0 "$building_sfdoll_alloys_2$"
 job_sfdoll_alloys_maker:0 "SF Alloys Maker"
 job_sfdoll_alloys_maker_plural:0 "$job_sfdoll_alloys_maker$s"
 job_sfdoll_alloys_maker_desc:0 "$job_sfdoll_alloys_maker$"
-job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$ consumes §Y$minerals$§!, produces §Y$alloys$§!,§Y$sr_living_metal$§! , §Y$engineering_research$§!"
+job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$ consumes §Y$minerals$§!, produces §Y$alloys$§!"
 mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ jobs"
 
 # job_sfdoll_alloys_producer_2:0"SF Alloys Senior Maker"
@@ -116,8 +116,6 @@ job_sfdoll_mineral_maker_plural:0 "SF Matter Makers"
 job_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_effect_desc:0 "$job_sfdoll_mineral_maker$ consumes §Y$energy$§!,produces §Y$minerals$§! "
 mod_job_sfdoll_mineral_maker_add:0"$job_sfdoll_mineral_maker$ jobs"
-
-
 
 
 # building_sfdoll_gases_plant:0 "铁血化学厂"

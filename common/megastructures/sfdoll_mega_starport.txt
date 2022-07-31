@@ -69,7 +69,7 @@ sfdoll_mega_starport_01 = {
 }
 
 sfdoll_mega_starport_02 = {
-	entity = "mega_shipyard_01_stage_3_entity"
+	entity = "stions_entity"
 	construction_entity = "mega_shipyard_01_stage_3_entity"
 	place_entity_on_planet_plane = no
 	build_time = 1800

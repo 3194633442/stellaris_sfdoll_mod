@@ -37,8 +37,10 @@ mega_sfdoll_mobile_starbase_01 = {
 	resources = {
 		category = megastructures_habitat
 		cost = {
-			alloys = 10000
-			nanites = 500
+			alloys = 15000
+			nanites = 5000
+			sr_dark_matter = 5000
+			GF_nyto_collapse_liquid = 5000
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
@@ -78,10 +80,10 @@ mega_sfdoll_mobile_starbase_02 = {
 	resources = {
 		category = megastructures_habitat
 		cost = {
-			alloys = 25000
-			sr_dark_matter = 2000
-			nanites = 2000
-			GF_nyto_collapse_liquid = 2000
+			alloys = 35000
+			nanites = 5000
+			sr_dark_matter = 5000
+			GF_nyto_collapse_liquid = 5000
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure

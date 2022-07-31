@@ -86,7 +86,7 @@ pc_rw_sfdoll = {
 
 #居住站,铁血太空城
 pc_sfdoll_habitis ={
-	entity = "city_planet" #"orbital_habitat"
+	entity = GF_nyto_habita_entity #"orbital_habitat"
 	entity_scale = @planet_standard_scale
 	icon = GFX_planet_type_habitat
 	picture = pc_sfdoll_habitis

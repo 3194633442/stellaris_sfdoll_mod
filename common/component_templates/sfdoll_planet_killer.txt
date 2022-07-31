@@ -15,7 +15,7 @@ weapon_component_template = {
     accuracy = 1
     range = 500
 	prerequisites = {	tech_planet_killer_sfdoll_1	}
-	size_restriction = { sfdoll_star_attacker ship_sfdoll_noel  }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_star_attacker ship_sfdoll_noel  }
 	component_set = "planet_killer_sfdoll_1"
 	planet_destruction_gfx = "star_destroyer_effect_gfx"
 }
@@ -39,7 +39,7 @@ weapon_component_template = {
 	prerequisites = {
 		tech_sfdoll_star_exploit
 	}
-	size_restriction = { sfdoll_star_attacker ship_sfdoll_noel colossus star_eater  }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_star_attacker ship_sfdoll_noel colossus star_eater  }
 	component_set = "planet_killer_sfdoll_2"
 	planet_destruction_gfx = "star_destroyer_effect_gfx"	
 }
@@ -59,7 +59,7 @@ weapon_component_template = {
     total_fire_time = 30
     accuracy = 1
     range = 0
-	size_restriction = { sfdoll_homeless_ship sfdoll_large_homeship }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_homeless_ship sfdoll_large_homeship }
 	component_set = "planet_killer_sfdoll_colonizer"
 	planet_destruction_gfx = "star_destroyer_effect_gfx"	
 }

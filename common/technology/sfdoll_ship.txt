@@ -438,10 +438,11 @@ tech_sfdoll_warship_5 = {
 	category = { voidcraft }
 	prerequisites = {	tech_sfdoll_warship_4	}
 	potential = {
+		always = no
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 5
-	weight = 1500
+	weight = 0
 }
 
 

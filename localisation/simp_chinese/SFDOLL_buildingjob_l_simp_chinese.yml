@@ -65,7 +65,7 @@ building_sfdoll_alloys_2_desc:0 "$building_sfdoll_alloys_2$"
 job_sfdoll_alloys_maker:0"铁血材料合成师"
 job_sfdoll_alloys_maker_plural:0"$job_sfdoll_alloys_maker$s"
 job_sfdoll_alloys_maker_desc:0"$job_sfdoll_alloys_maker$"
-job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$消耗 §Y$minerals$§!，生产§Y$alloys$§!,§Y$sr_living_metal$§! ,§Y$engineering_research$§! "
+job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$消耗 §Y$minerals$§!，生产§Y$alloys$§!"
 mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ 岗位"
 
 # job_sfdoll_alloys_producer_2:0"铁血高级材料合成师"

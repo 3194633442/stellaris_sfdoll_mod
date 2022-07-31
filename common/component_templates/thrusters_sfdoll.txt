@@ -155,7 +155,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_warship_5 sfdoll_star_attacker cruiser }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_star_attacker cruiser }
 
 	ai_weight = {
 		weight = 5
@@ -279,6 +279,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "thruster_sfdoll_mobile_starbase"
 	size = small
+	hidden = yes
 	icon = "GFX_ship_part_thruster_5"
 	icon_frame = 1
 	resources = {

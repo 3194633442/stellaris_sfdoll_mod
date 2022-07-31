@@ -910,7 +910,6 @@ ship_section_template = {
 	large_utility_slots = 16
 }
 
-#导弹发射阵列
 ship_section_template = {
 	key = sfdoll_warship_5_mid2
 	ship_size = sfdoll_warship_5
