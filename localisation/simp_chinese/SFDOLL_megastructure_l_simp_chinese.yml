@@ -78,7 +78,7 @@ sfdoll_mobile_starbase_section_4:0 "D"
 thruster_sfdoll_mobile_starbase:0 "推进器"
 
 tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
-tech_sfdoll_mobile_starbase_desc:0 "深空母舰是拥有30个船坞的移动基地.未来,她将参与河外星系探索计划."
+tech_sfdoll_mobile_starbase_desc:0 "深空母舰是拥有20个船坞的移动基地.未来,她将参与河外星系探索计划."
 
 mega_sfdoll_mobile_starbase_01:0 "$sfdoll_mobile_starbase$基址"
 mega_sfdoll_mobile_starbase_01_DESC:0 "$sfdoll_mobile_starbase$需要通过巨构工程来建造"
