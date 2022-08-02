@@ -5,7 +5,7 @@ tech_sfdoll_nanites = {
 	tier = 3
 	category = { industry }
 	icon = tech_sfdoll_nanites
-	weight = 1400
+	weight = 0
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {	tech_basic_science_lab_3	}
 }

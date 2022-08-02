@@ -59,6 +59,14 @@ country_event = {
 
 	immediate = {
 		event_target:leader_revive_sfdoll = {
+			#如果是灰风,终止复活
+			if = {
+				limit = {
+					is_same_value = event_target:gray_governor
+				}
+				break = yes
+			}
+
 			if = {
 				limit = { leader_class = governor }
 				owner = {

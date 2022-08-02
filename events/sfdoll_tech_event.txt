@@ -29,7 +29,10 @@ country_event = {
 
 		#神枪少女
 		if = {
-			limit = {	has_technology = tech_hyper_drive_2 }
+			limit = {
+				has_technology = tech_hyper_drive_2
+				is_ai = no
+			}
 			country_event = {
 				id = sfdoll_gunslinger_girl_event.1
 				days = 30
@@ -42,6 +45,7 @@ country_event = {
 				NOT = {
 					has_country_flag = ogas40_owner_sfdoll
 				}
+				is_ai = no
 			}
 			country_event = {
 				id = project_sfdoll_event.1

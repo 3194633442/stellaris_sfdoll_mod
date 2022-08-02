@@ -26,8 +26,8 @@ job_sfdoll_collapse_liquid_maker_desc:0"$job_sfdoll_collapse_liquid_maker$"
 mod_job_sfdoll_collapse_liquid_maker_add:0 "$job_sfdoll_collapse_liquid_maker$ jobs"
 
 
-tech_sfdoll_lab:0 "Across Species AI"
-tech_sfdoll_lab_desc:0 "The intelligence of all species should be exploited."
+tech_sfdoll_lab:0 "Collapse Computer"
+tech_sfdoll_lab_desc:0 "The application of reverse collapse technology has greatly improved the performance of SF Doll's computer."
 tech_sfdoll_lab_2:0 "Hyperdimensional AI"
 tech_sfdoll_lab_2_desc:0 "Sangvis Ferri's thinking should not be limited to normal dimensions."
 

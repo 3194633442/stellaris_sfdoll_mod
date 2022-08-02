@@ -11,6 +11,12 @@ triela_become_governor_sfdoll_effect = {
 				fire = yes
 			}
 		}
+		event_target:sfdoll_leader_triela = {
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
 		create_leader = {
 			class = governor
 			species = owner_species
@@ -39,6 +45,13 @@ triela_become_scientist_sfdoll_effect = {
 			limit = {
 				has_leader_flag = sfdoll_leader_triela
 			}
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+
+		event_target:sfdoll_leader_triela = {
 			kill_leader = {
 				show_notification = no
 				fire = yes
@@ -74,6 +87,13 @@ triela_become_admiral_sfdoll_effect = {
 				fire = yes
 			}
 		}
+
+		event_target:sfdoll_leader_triela = {
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
 		create_leader = {
 			class = admiral
 			species = owner_species
@@ -104,6 +124,13 @@ triela_become_general_sfdoll_effect = {
 				fire = yes
 			}
 		}
+
+		event_target:sfdoll_leader_triela = {
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
 		create_leader = {
 			class = general
 			species = owner_species
@@ -126,10 +153,16 @@ triela_become_general_sfdoll_effect = {
 elisa_to_scientist_sfd_effect = {
 	optimize_memory
 	hidden_effect = {
-		every_owned_leader = {
-			limit = {
-				has_leader_flag = sfdoll_leader_elisa
-			}
+		# every_owned_leader = {
+		# 	limit = {
+		# 		has_leader_flag = sfdoll_leader_elisa
+		# 	}
+		# 	kill_leader = {
+		# 		show_notification = no
+		# 		fire = yes
+		# 	}
+		# }
+		event_target:sfdoll_leader_elisa = {
 			kill_leader = {
 				show_notification = no
 				fire = yes
@@ -161,16 +194,22 @@ elisa_to_scientist_sfd_effect = {
 ogas40_become_governor_effect = {
 	optimize_memory
 	hidden_effect = {
-		if = {
-			limit = { exists = event_target:ogas40_sfdoll_leader }
-			event_target:ogas40_sfdoll_leader = {
-				kill_leader = {
-					show_notification = no
-					fire = yes
-				}
+		# if = {
+		# 	limit = { exists = event_target:ogas40_sfdoll_leader }
+		# 	event_target:ogas40_sfdoll_leader = {
+		# 		kill_leader = {
+		# 			show_notification = no
+		# 			fire = yes
+		# 		}
+		# 	}
+		# }
+
+		event_target:ogas40_sfdoll_leader = {
+			kill_leader = {
+				show_notification = no
+				fire = yes
 			}
 		}
-
 		create_leader = {
 			class = governor
 			species = owner_species
@@ -196,16 +235,22 @@ ogas40_become_governor_effect = {
 ogas40_become_scientist_effect = {
 	optimize_memory
 	hidden_effect = {
-		if = {
-			limit = { exists = event_target:ogas40_sfdoll_leader }
-			event_target:ogas40_sfdoll_leader = {
-				kill_leader = {
-					show_notification = no
-					fire = yes
-				}
+		# if = {
+		# 	limit = { exists = event_target:ogas40_sfdoll_leader }
+		# 	event_target:ogas40_sfdoll_leader = {
+		# 		kill_leader = {
+		# 			show_notification = no
+		# 			fire = yes
+		# 		}
+		# 	}
+		# }
+		
+		event_target:ogas40_sfdoll_leader = {
+			kill_leader = {
+				show_notification = no
+				fire = yes
 			}
 		}
-
 		create_leader = {
 			class = scientist
 			species = owner_species

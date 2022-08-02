@@ -78,17 +78,17 @@ country_event = {
 	#选项，45总督
 	option = {
 		name =  "ump45_become_governor"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="ump45_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_ump45
-						event_target:sfdoll_leader_ump45 = { leader_class = governor }
-					}			
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="ump45_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_ump45
+		# 				event_target:sfdoll_leader_ump45 = { leader_class = governor }
+		# 			}			
+		# 		}
+		# 	}			 
+		# }
 		hidden_effect = {
 			country_event = { id = sfdoll_ump45_event.2 }
 		}
@@ -120,18 +120,18 @@ country_event = {
 	#45舰队司令
 	option = {
 		name =   "ump45_become_admiral"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="ump45_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_ump45
-						event_target:sfdoll_leader_ump45 = { leader_class = admiral }					
-					}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="ump45_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_ump45
+		# 				event_target:sfdoll_leader_ump45 = { leader_class = admiral }					
+		# 			}
 
-				}
-			}			 
-		}
+		# 		}
+		# 	}			 
+		# }
 		hidden_effect = {
 			country_event = { id = sfdoll_ump45_event.4 }
 		}
@@ -141,17 +141,17 @@ country_event = {
 	#45陆军司令
 	option = {
 		name =  "ump45_become_general"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="ump45_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_ump45
-						event_target:sfdoll_leader_ump45 = { leader_class = general }						
-					}
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="ump45_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_ump45
+		# 				event_target:sfdoll_leader_ump45 = { leader_class = general }						
+		# 			}
+		# 		}
+		# 	}			 
+		# }
 		hidden_effect = {
 			country_event = { id = sfdoll_ump45_event.5 }
 		}
@@ -179,6 +179,12 @@ country_event = {
 				limit = {
 					has_leader_flag = sfdoll_leader_ump45
 				}
+				kill_leader = {
+					show_notification = no
+					fire = yes
+				}
+			}
+			event_target:sfdoll_leader_ump45 = {
 				kill_leader = {
 					show_notification = no
 					fire = yes
@@ -226,6 +232,12 @@ country_event = {
 					fire = yes
 				}
 			}
+			event_target:sfdoll_leader_ump45 = {
+				kill_leader = {
+					show_notification = no
+					fire = yes
+				}
+			}
 			create_leader = {
 				class = scientist
 				species = owner_species
@@ -266,6 +278,12 @@ country_event = {
 					fire = yes
 				}
 			}
+			event_target:sfdoll_leader_ump45 = {
+				kill_leader = {
+					show_notification = no
+					fire = yes
+				}
+			}
 			create_leader = {
 				class = admiral
 				species = owner_species
@@ -300,6 +318,12 @@ country_event = {
 				limit = {
 					has_leader_flag = sfdoll_leader_ump45
 				}
+				kill_leader = {
+					show_notification = no
+					fire = yes
+				}
+			}
+			event_target:sfdoll_leader_ump45 = {
 				kill_leader = {
 					show_notification = no
 					fire = yes

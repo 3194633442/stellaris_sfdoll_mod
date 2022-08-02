@@ -59,7 +59,7 @@ tech_sfdoll_alloys_produce = {
 	tier = 4
 	category = { industry }
 	icon = tech_sfdoll_alloys_produce
-	prerequisites = { tech_sfdoll_nanites }
+	prerequisites = { tech_sfdoll_collapse_liquid_produce }
 	weight = 1500
 	potential = {	has_authority = auth_gf_sfdoll	}
 }

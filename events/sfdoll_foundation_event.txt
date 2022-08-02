@@ -72,22 +72,29 @@ country_event = {
 	#选项，科学家
 	option = {
 		name =  "hari_seldon_become_scientist"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="hari_seldon_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_hari_seldon
-						event_target:sfdoll_leader_hari_seldon = { leader_class = scientist }
-					}			
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="hari_seldon_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_hari_seldon
+		# 				event_target:sfdoll_leader_hari_seldon = { leader_class = scientist }
+		# 			}			
+		# 		}
+		# 	}			 
+		# }
 		hidden_effect = {
-			every_owned_leader = {
-				limit = {
-					has_leader_flag = sfdoll_leader_hari_seldon
-				}
+			# every_owned_leader = {
+			# 	limit = {
+			# 		has_leader_flag = sfdoll_leader_hari_seldon
+			# 	}
+			# 	kill_leader = {
+			# 		show_notification = no
+			# 		fire = yes
+			# 	}
+			# }
+
+			event_target:sfdoll_leader_hari_seldon = {
 				kill_leader = {
 					show_notification = no
 					fire = yes

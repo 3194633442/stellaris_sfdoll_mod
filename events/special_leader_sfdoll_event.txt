@@ -34,17 +34,17 @@ country_event = {
 	#选项，40变总督
 	option = {
 		name =  "ogas40_to_governor"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="ogas40_has_this_job_now"
-				NOT = {
-					AND = {
-						exists = event_target:ogas40_sfdoll_leader
-						event_target:ogas40_sfdoll_leader = { leader_class = governor }
-					}
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="ogas40_has_this_job_now"
+		# 		NOT = {
+		# 			AND = {
+		# 				exists = event_target:ogas40_sfdoll_leader
+		# 				event_target:ogas40_sfdoll_leader = { leader_class = governor }
+		# 			}
+		# 		}
+		# 	}			 
+		# }
 		ogas40_become_governor_effect =  yes
 		response_text = "response_text_ogas40_to_job"
 	}
@@ -52,17 +52,17 @@ country_event = {
 	#ogas40变科学家
 	option = {
 		name =  "ogas40_to_scientist"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="ogas40_has_this_job_now"
-				NOT = {
-					AND = {
-						exists = event_target:ogas40_sfdoll_leader
-						event_target:ogas40_sfdoll_leader = { leader_class = scientist }
-					}
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="ogas40_has_this_job_now"
+		# 		NOT = {
+		# 			AND = {
+		# 				exists = event_target:ogas40_sfdoll_leader
+		# 				event_target:ogas40_sfdoll_leader = { leader_class = scientist }
+		# 			}
+		# 		}
+		# 	}			 
+		# }
 		ogas40_become_scientist_effect = yes
 		response_text = "response_text_ogas40_to_job"
 	}

@@ -135,17 +135,17 @@ country_event = {
 	#选项，总督
 	option = {
 		name =  "triela_become_governor"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="triela_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_triela
-						event_target:sfdoll_leader_triela = { leader_class = governor }
-					}			
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="triela_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_triela
+		# 				event_target:sfdoll_leader_triela = { leader_class = governor }
+		# 			}			
+		# 		}
+		# 	}			 
+		# }
 		triela_become_governor_sfdoll_effect = yes
 		response_text = "response_text_triela_become_governor"
 	}
@@ -153,17 +153,17 @@ country_event = {
 	#选项，科学家
 	option = {
 		name =  "triela_become_scientist"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="triela_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_triela
-						event_target:sfdoll_leader_triela = { leader_class = scientist }
-					}			
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="triela_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_triela
+		# 				event_target:sfdoll_leader_triela = { leader_class = scientist }
+		# 			}			
+		# 		}
+		# 	}			 
+		# }
 		triela_become_scientist_sfdoll_effect = yes
 		response_text = "response_text_triela_become_scientist"
 	}
@@ -171,17 +171,17 @@ country_event = {
 	#选项，舰队司令
 	option = {
 		name =  "triela_become_admiral"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="triela_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_triela
-						event_target:sfdoll_leader_triela = { leader_class = admiral }
-					}			
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="triela_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_triela
+		# 				event_target:sfdoll_leader_triela = { leader_class = admiral }
+		# 			}			
+		# 		}
+		# 	}			 
+		# }
 		triela_become_admiral_sfdoll_effect = yes
 		response_text = "response_text_triela_become_admiral"
 	}
@@ -189,17 +189,17 @@ country_event = {
 	#选项，陆军指挥
 	option = {
 		name =  "triela_become_general"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="triela_has_this_job_now"
-				NOR = {
-					AND = {
-						exists = event_target:sfdoll_leader_triela
-						event_target:sfdoll_leader_triela = { leader_class = general }
-					}			
-				}
-			}			 
-		}
+		# allow = { 
+		# 	custom_tooltip ={
+		# 		fail_text ="triela_has_this_job_now"
+		# 		NOR = {
+		# 			AND = {
+		# 				exists = event_target:sfdoll_leader_triela
+		# 				event_target:sfdoll_leader_triela = { leader_class = general }
+		# 			}			
+		# 		}
+		# 	}			 
+		# }
 		triela_become_general_sfdoll_effect = yes
 		response_text = "response_text_triela_become_general"
 	}

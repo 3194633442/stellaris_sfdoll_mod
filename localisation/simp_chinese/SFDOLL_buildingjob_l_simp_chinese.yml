@@ -29,8 +29,8 @@ job_sfdoll_collapse_liquid_maker_effect_desc:0 "$job_sfdoll_collapse_liquid_make
 mod_job_sfdoll_collapse_liquid_maker_add:0"$job_sfdoll_collapse_liquid_maker$ 岗位"
 
 
-tech_sfdoll_lab:0 "跨物种人工智能"
-tech_sfdoll_lab_desc:0 "任何物种的智慧都应该为我们所用."
+tech_sfdoll_lab:0 "坍塌计算机"
+tech_sfdoll_lab_desc:0 "逆向坍塌科技的应用,令铁血的计算机的性能大幅提升."
 tech_sfdoll_lab_2:0 "超维人工智能"
 tech_sfdoll_lab_2_desc:0 "铁血的思维不应该局限于现有的维度。基于高维空间中的法则，我们的逻辑引擎可以进行升级。"
 

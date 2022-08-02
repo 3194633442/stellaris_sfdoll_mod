@@ -150,10 +150,11 @@ building_sfdoll_alloys = {
 		category = planet_buildings
 		cost = {
 			minerals = @b2_minerals
-			nanites = @b2_rare_cost
+			GF_nyto_collapse_liquid = @b2_rare_cost
 		}
 		upkeep = {
 			energy = @b2_upkeep
+			GF_nyto_collapse_liquid = @b2_rare_upkeep
 		}
 	}
 
