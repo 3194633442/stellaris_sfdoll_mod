@@ -61,15 +61,18 @@ country_event = {
 	option = {
 		name = sfdoll_three_body_event.2_option_a
 		response_text = sfdoll_three_body_event.2_option_a_response
-		# allow = {
-		# 	custom_tooltip = {
-		# 		fail_text = "sfdoll_the_leader_is_doing_this_job"
-		# 		NOT = {
-		# 			exists = event_target:sfdoll_leader_dingyi
-		# 			event_target:sfdoll_leader_dingyi = { leader_class = scientist }
-		# 		}
-		# 	}
-		# }
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_the_leader_is_doing_this_job"
+				NOT = {
+					exists = event_target:sfdoll_leader_dingyi
+					event_target:sfdoll_leader_dingyi = { leader_class = scientist }
+					owner = {
+						is_same_value = root
+					}
+				}
+			}
+		}
 		hidden_effect = {
 			# every_owned_leader = {
 			# 	limit = {

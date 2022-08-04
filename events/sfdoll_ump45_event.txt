@@ -78,17 +78,20 @@ country_event = {
 	#选项，45总督
 	option = {
 		name =  "ump45_become_governor"
-		# allow = { 
-		# 	custom_tooltip ={
-		# 		fail_text ="ump45_has_this_job_now"
-		# 		NOR = {
-		# 			AND = {
-		# 				exists = event_target:sfdoll_leader_ump45
-		# 				event_target:sfdoll_leader_ump45 = { leader_class = governor }
-		# 			}			
-		# 		}
-		# 	}			 
-		# }
+		allow = { 
+			custom_tooltip ={
+				fail_text ="ump45_has_this_job_now"
+				NOT = {
+					AND = {
+						exists = event_target:sfdoll_leader_ump45
+						event_target:sfdoll_leader_ump45 = { leader_class = governor }
+						owner = {
+							is_same_value = root
+						}
+					}			
+				}
+			}			 
+		}
 		hidden_effect = {
 			country_event = { id = sfdoll_ump45_event.2 }
 		}
@@ -120,18 +123,21 @@ country_event = {
 	#45舰队司令
 	option = {
 		name =   "ump45_become_admiral"
-		# allow = { 
-		# 	custom_tooltip ={
-		# 		fail_text ="ump45_has_this_job_now"
-		# 		NOR = {
-		# 			AND = {
-		# 				exists = event_target:sfdoll_leader_ump45
-		# 				event_target:sfdoll_leader_ump45 = { leader_class = admiral }					
-		# 			}
+		allow = { 
+			custom_tooltip ={
+				fail_text ="ump45_has_this_job_now"
+				NOR = {
+					AND = {
+						exists = event_target:sfdoll_leader_ump45
+						event_target:sfdoll_leader_ump45 = { leader_class = admiral }					
+						owner = {
+							is_same_value = root
+						}
+					}
 
-		# 		}
-		# 	}			 
-		# }
+				}
+			}			 
+		}
 		hidden_effect = {
 			country_event = { id = sfdoll_ump45_event.4 }
 		}
@@ -141,17 +147,20 @@ country_event = {
 	#45陆军司令
 	option = {
 		name =  "ump45_become_general"
-		# allow = { 
-		# 	custom_tooltip ={
-		# 		fail_text ="ump45_has_this_job_now"
-		# 		NOR = {
-		# 			AND = {
-		# 				exists = event_target:sfdoll_leader_ump45
-		# 				event_target:sfdoll_leader_ump45 = { leader_class = general }						
-		# 			}
-		# 		}
-		# 	}			 
-		# }
+		allow = { 
+			custom_tooltip ={
+				fail_text ="ump45_has_this_job_now"
+				NOT = {
+					AND = {
+						exists = event_target:sfdoll_leader_ump45
+						event_target:sfdoll_leader_ump45 = { leader_class = general }						
+						owner = {
+							is_same_value = root
+						}
+					}
+				}
+			}			 
+		}
 		hidden_effect = {
 			country_event = { id = sfdoll_ump45_event.5 }
 		}

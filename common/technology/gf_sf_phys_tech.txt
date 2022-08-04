@@ -5,6 +5,7 @@ tech_sfdoll_ogas_ai = {
 	cost = @tier3cost3
 	category = { computing }
 	icon = tech_sfdoll_ogas_ai
+	is_rare = yes
 	weight = @tier4weight1
 	prerequisites = {	"tech_self_aware_logic"	}
 	potential = {	has_authority = auth_gf_sfdoll	}
@@ -24,6 +25,7 @@ tech_sfdoll_planet_computer = {
 	cost = @tier3cost2
 	category = { computing }
 	icon = tech_sfdoll_planet_computer
+	is_rare = yes
 	weight = @tier4weight1
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = 0
