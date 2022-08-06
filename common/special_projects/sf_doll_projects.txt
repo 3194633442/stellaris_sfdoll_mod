@@ -83,9 +83,9 @@ special_project = {
 special_project = {
 	key = "SFDOLL_ZION_SHIP_DIGI_PROJECT"
 	event_chain = sfdoll_search_zion_chain
-	cost = 0
-	days_to_research = 60
-	tech_department = physics_technology
+	cost = @tier5cost3
+	# days_to_research = 60
+	tech_department = engineering_technology
 
 	#待修改
 	picture = GFX_evp_sfdoll_unknown_civilization_3

@@ -41,3 +41,12 @@ tech_sfdoll_reverse_collapse_2_desc:0 "Human life is more than once. The unfinis
 tech_sfdoll_reverse_collapse_3:0"Reverse Collapse 3"
 tech_sfdoll_reverse_collapse_3_desc:0 "Do not mourn:\n\nThe new eternal day will come soon."
 
+
+tech_repeatable_sfdoll_phy:0 "Rule Overwriting Engineering"
+tech_repeatable_sfdoll_phy_desc:0 "With the help of new theory, we can modify the environment of the Milky Way."
+
+tech_repeatable_sfdoll_soc:0 "Virtual-Reality Exchange"
+tech_repeatable_sfdoll_soc_desc:0 "Imitate the equipment of Zion world, complete the unique material transformation."
+
+tech_repeatable_sfdoll_eng:0 "Reality Projection"
+tech_repeatable_sfdoll_eng_desc:0 "§H Awaken our new worlds.§! "

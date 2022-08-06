@@ -52,6 +52,20 @@ country_event = {
 				days = 30
 			}
 		}
+
+		if = {
+			limit = { 
+				or = {
+					last_increased_tech = tech_repeatable_sfdoll_phy
+					last_increased_tech = tech_repeatable_sfdoll_soc
+					last_increased_tech = tech_repeatable_sfdoll_eng
+				}
+			}
+			change_variable = {
+				which = count_unlock_sfdoll_ap4
+				value = 1
+			}
+		}
 	}
 }
 

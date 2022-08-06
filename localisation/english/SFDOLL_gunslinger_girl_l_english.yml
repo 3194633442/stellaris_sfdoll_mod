@@ -31,7 +31,7 @@ triela_become_general:0 "Serve as general"
 triela_has_this_job_now:0 "Triela is doing this work now."
 
 response_text_triela_become_governor:0 "I will handle it."
-response_text_triela_become_scientist:0 "It looks complicated. I have to learn more!"
+response_text_triela_become_scientist:0 "It looks complicated. I have to learn more."
 response_text_triela_become_admiral:0 "I'll get everyone back safely!"
 response_text_triela_become_general:0 "Get ready to train!"
 

@@ -96,8 +96,13 @@ ap_sfdoll_4= {
 		}
 	}
 	possible = {
-		has_technology = tech_sfdoll_singularity
-		has_technology = tech_sfdoll_jump_drive
+		# has_technology = tech_sfdoll_singularity
+		# has_technology = tech_sfdoll_jump_drive
+		check_variable = {
+			which = count_unlock_sfdoll_ap4
+			value >= 9
+		}
+
 	}
 	modifier = {
 		planet_decision_enact_speed_mult = 0.25

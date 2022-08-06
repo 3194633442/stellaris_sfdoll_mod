@@ -69,7 +69,7 @@ sfdoll_mobile_starbase_section_4:0 "D"
 thruster_sfdoll_mobile_starbase:0 "Thruster"
 
 tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
-tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$ is a mobile base with 20 shipyards. In the future, she will participate in the exploration of extragalactic."
+tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$ is a mobile base with shipyards. In the future, she will participate in the exploration of extragalactic."
 
 mega_sfdoll_mobile_starbase_01:0 "$sfdoll_mobile_starbase$ Site"
 mega_sfdoll_mobile_starbase_01_DESC:0 "$sfdoll_mobile_starbase_plural$ need to be built through mega-engineering"

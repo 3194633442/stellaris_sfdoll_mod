@@ -29,7 +29,13 @@ country_event = {
 	hide_window = no
 	picture = GFX_evp_sfdoll_unknown_civilization_5
 	immediate = {
-		capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_DIGI_PROJECT		}	}
+		#capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_DIGI_PROJECT		}	}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_to_zion_event.3
+				days = 60
+			}
+		}
 	}
 	option = {
 		name = sfdoll_to_zion_event.2_option
@@ -89,8 +95,8 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = no
 	picture = GFX_evp_sfdoll_unknown_civilization_3
-	option = {	name = sfdoll_to_zion_event_5_option }
-	immediate = {
+	option = {
+		name = sfdoll_to_zion_event_5_option
 		capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_SHIP_DIGI_PROJECT	}	}
 	}
 }
@@ -122,7 +128,7 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = no
 	picture = GFX_evp_sfdoll_unknown_civilization
-	immediate = {
+	after = {
 		capital_scope = { enable_special_project = {	name = SFDOLL_TO_ZION_PROJECT	}	}
 	}
 }
@@ -155,14 +161,22 @@ country_event = {
 	}
 }
 
-#了解母舰的损伤，获得T2武器
+#结局
 country_event = {
 	id= sfdoll_to_zion_event.10
 	title = sfdoll_to_zion_event.10
 	desc = sfdoll_to_zion_event.10_desc
 	picture =  GFX_evp_sfdoll_digi_mind
 	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			set_country_flag = tech_repeatable_sfdoll_phy_unlocked
+		}
+	}
 	option = {
 		name = sfdoll_to_zion_event.10_option
+		add_research_option = tech_repeatable_sfdoll_phy
+		add_research_option = tech_repeatable_sfdoll_soc
+		add_research_option = tech_repeatable_sfdoll_eng
 	}
 }

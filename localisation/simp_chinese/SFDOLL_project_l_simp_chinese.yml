@@ -56,12 +56,12 @@ sfdoll_to_zion_event_1:0 "迈向锡安"
 sfdoll_to_zion_event_1_desc:0 "我们的考察队已经进入了某个异空间，目前还在对该空间进行初步观察。"
 sfdoll_to_zion_event_1_option:0 "这会是我们的目的地吗？"
 
-sfdoll_to_zion_event_2:0 ""迈向锡安"
-sfdoll_to_zion_event_2_desc:0 "根据勘探结果,我们暂时可以把这里当成锡安.考察队建立了港口,让我们的人员能够在两个空间之间快速往返."
-sfdoll_to_zion_event.2_option:0 "无论这是何地，我们不会退缩."
+sfdoll_to_zion_event_2:0 "迈向锡安"
+sfdoll_to_zion_event_2_desc:0 "根据勘探结果,我们暂时可以把这里当成锡安.考察队建立了港口,让我们的人员能够在两个空间之间快速往返.\n\n锡安中的某些规律，与我们生活的常规宇宙存在差别。好在，我们已经事先进行了充分的预演。\n 这个空间里存在一些设施，其独特的外形不同于任何一种已知文化。我们将尝试研究它们。"
+sfdoll_to_zion_event.2_option:0 "我们别无选择,唯有前进."
 
-SFDOLL_ZION_DIGI_PROJECT:0"发掘数据"
-SFDOLL_ZION_DIGI_PROJECT_DESC:0"锡安中的某些规律，与我们生活的常规宇宙存在差别。好在，我们已经事先进行了充分的预演。\n 这个空间里存在一些设施，其独特的空间外形不同于任何一种已知文化。我们将尝试研究它们。"
+# SFDOLL_ZION_DIGI_PROJECT:0"发掘数据"
+# SFDOLL_ZION_DIGI_PROJECT_DESC:0"锡安中的某些规律，与我们生活的常规宇宙存在差别。好在，我们已经事先进行了充分的预演。\n 这个空间里存在一些设施，其独特的空间外形不同于任何一种已知文化。我们将尝试研究它们。"
 
 sfdoll_to_zion_event_3:0 "成功发掘数据"
 sfdoll_to_zion_event_3_desc:0 "我们发掘了锡安设施中的数据。这些成果，将补充我们对遗迹科学的认识."

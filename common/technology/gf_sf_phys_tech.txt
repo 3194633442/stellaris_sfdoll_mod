@@ -58,7 +58,7 @@ tech_sfdoll_singularity = {
 	is_dangerous = yes
 	category = { field_manipulation }
 	icon = tech_sfdoll_singularity
-	weight = 1500
+	weight = 0
 	prerequisites = {	tech_sfdoll_star_exploit	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 }

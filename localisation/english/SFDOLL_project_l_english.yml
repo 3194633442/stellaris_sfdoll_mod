@@ -57,11 +57,11 @@ sfdoll_to_zion_event_1_desc:0 "Our expedition team has entered a different space
 sfdoll_to_zion_event_1_option:0 "Is this our destination?"
 
 sfdoll_to_zion_event_2:0 "To Zion"
-sfdoll_to_zion_event_2_desc:0 "According to the exploration results, we can temporarily regard this place as Zion. \n\n The expedition has established a port to allow our personnel to travel more smoothly between the two spaces."
-sfdoll_to_zion_event.2_option:0 "Wherever this is, we will not back down."
+sfdoll_to_zion_event_2_desc:0 "According to the exploration results, we can temporarily regard this place as Zion. \n\n The expedition has established a port to allow our personnel to travel more smoothly between the two spaces.\n\nSome laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
+sfdoll_to_zion_event.2_option:0 "We have no choice but to move forward."
 
-SFDOLL_ZION_DIGI_PROJECT:0"Explore data"
-SFDOLL_ZION_DIGI_PROJECT_DESC:0"Some laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
+# SFDOLL_ZION_DIGI_PROJECT:0"Explore data"
+# SFDOLL_ZION_DIGI_PROJECT_DESC:0"Some laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
 
 sfdoll_to_zion_event_3:0 "Explore data"
 sfdoll_to_zion_event_3_desc:0 "We unearthed data from the Zion facility. These results will complement our understanding of relic science."
@@ -82,6 +82,6 @@ sfdoll_to_zion_event_6_desc:0 "According to data in the unknown ship, we learned
 sfdoll_to_zion_event_6_option:0 "Interesting name. Does the relic sites civilization also have its own Jerusalem?"
 
 sfdoll_to_zion_event.10:0 "never stop asking"
-sfdoll_to_zion_event.10_desc:0 "After further interpretation of the data of §R Lamentations§!, we agreed that the Zion we found may just be refuges for the relic civilization . The mystery of the relic civilization still needs to be further explored.\n\n Although §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old man, after a long journey, should get rest."
+sfdoll_to_zion_event.10_desc:0 "After further interpretation of the data of §R Lamentations§!, we agreed that the Zion we found may just be refuges for the relic civilization . The mystery of the relic civilization still needs to be further explored.\n\n Although §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old ship, after a long journey, should get rest."
 sfdoll_to_zion_event.10_option:0 "Are we the first one?"
 

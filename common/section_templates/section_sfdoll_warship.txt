@@ -11,6 +11,9 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	large_utility_slots = 3
+	ai_weight = {
+		weight = 1
+	}
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_mid_L3"
@@ -36,6 +39,9 @@ ship_section_template = {
 		locatorname = "medium_gun_03"
 	}
 	large_utility_slots = 3
+	ai_weight = {
+		weight = 1
+	}
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_mid_L2S2P2"
@@ -76,6 +82,9 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	large_utility_slots = 3
+	ai_weight = {
+		weight = 1
+	}
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_stern_L1"
@@ -89,6 +98,9 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	aux_utility_slots = 2
+	ai_weight = {
+		weight = 1
+	}
 }
 
  #重型护卫
@@ -104,6 +116,9 @@ ship_section_template = {
 		locatorname = "xl_gun_01"
 	}
 	large_utility_slots = 6
+	ai_weight = {
+		weight = 1
+	}
 }
 ship_section_template = {
 	key = "sfdoll_warship_2_bow_X2"
@@ -122,6 +137,9 @@ ship_section_template = {
 		locatorname = "xl_gun_01"
 	}
 	large_utility_slots = 6
+	ai_weight = {
+		weight = 1
+	}
 }
 ship_section_template = {
 	key = "sfdoll_warship_2_mid_L6"
@@ -163,6 +181,9 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_02"
 	}
 	large_utility_slots = 6
+	ai_weight = {
+		weight = 1
+	}
 }
 ship_section_template = {
 	key = "sfdoll_warship_2_mid_L4M2P4"
@@ -223,6 +244,9 @@ ship_section_template = {
 		locatorname = "small_gun_04"
 	}
 	large_utility_slots = 6
+	ai_weight = {
+		weight = 1
+	}
 }
 ship_section_template = {
 	key = "sfdoll_warship_2_stern_L2"
@@ -241,6 +265,9 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	aux_utility_slots = 3
+	ai_weight = {
+		weight = 1
+	}
 }
 
 #轻型驱逐

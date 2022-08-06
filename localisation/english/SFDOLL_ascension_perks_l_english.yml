@@ -20,12 +20,11 @@ ap_sfdoll_3_desc:0 "On the way home."
 
 #
 ap_sfdoll_4:0 "Sangvis Ferri Project: Jormungand"
-ap_sfdoll_4_desc:0 "We crave further truth."
-# gf_sfdoll_ascension_perk_event.2:0 "$ap_sfdoll_4$"
-# gf_sfdoll_ascension_perk_event.2_desc:0 "Awaken our new worlds."
-gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
-gf_sfdoll_ascension_perk_event.4_desc:0 "We have no choice but to move forward."
+ap_sfdoll_4_desc:0 "We crave further truth.\n\nRequires technologies £physics£$tech_repeatable_sfdoll_phy$, £society£$tech_repeatable_sfdoll_soc$, £engineering£$tech_repeatable_sfdoll_eng$ . Each technology requires three cycles."
 
+gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
+gf_sfdoll_ascension_perk_event.4_desc:0 "A thousand miles begins with a single step."
+#We have no choice but to move forward
 
 tech_build_sfdoll_city:0"Sangvis Ferri Project"
 tech_build_sfdoll_city_desc:0 "Sangvis Ferri Planet incorporates a variety of advanced concepts and technologies."
