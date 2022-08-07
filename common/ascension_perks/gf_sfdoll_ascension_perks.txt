@@ -116,7 +116,8 @@ ap_sfdoll_4= {
 				id = gf_sfdoll_ascension_perk_event.4
 			}
 		}
-		add_research_option =tech_sfdoll_energy_plant
+		add_research_option = tech_sfdoll_energy_plant
+		add_research_option = tech_sfdoll_social_reform_2
 	}
 	ai_weight = {	factor = 1	}
 }
