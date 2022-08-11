@@ -84,10 +84,13 @@ country_event = {
 				NOT = {
 					AND = {
 						exists = event_target:sfdoll_leader_ump45
-						event_target:sfdoll_leader_ump45 = { leader_class = governor }
-						owner = {
-							is_same_value = root
+						event_target:sfdoll_leader_ump45 = {
+							leader_class = governor
+							owner = {
+								is_same_value = root
+							}
 						}
+
 					}			
 				}
 			}			 
@@ -129,10 +132,12 @@ country_event = {
 				NOR = {
 					AND = {
 						exists = event_target:sfdoll_leader_ump45
-						event_target:sfdoll_leader_ump45 = { leader_class = admiral }					
-						owner = {
-							is_same_value = root
-						}
+						event_target:sfdoll_leader_ump45 = {
+							leader_class = admiral
+							owner = {
+								is_same_value = root
+							}
+						}					
 					}
 
 				}
@@ -153,10 +158,12 @@ country_event = {
 				NOT = {
 					AND = {
 						exists = event_target:sfdoll_leader_ump45
-						event_target:sfdoll_leader_ump45 = { leader_class = general }						
-						owner = {
-							is_same_value = root
-						}
+						event_target:sfdoll_leader_ump45 = {
+							leader_class = general
+							owner = {
+								is_same_value = root
+							}
+						}						
 					}
 				}
 			}			 

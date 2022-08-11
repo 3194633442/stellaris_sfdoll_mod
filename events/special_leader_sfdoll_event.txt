@@ -40,9 +40,11 @@ country_event = {
 				NOT = {
 					AND = {
 						exists = event_target:ogas40_sfdoll_leader
-						event_target:ogas40_sfdoll_leader = { leader_class = governor }
-						owner = {
-							is_same_value = root
+						event_target:ogas40_sfdoll_leader = {
+							leader_class = governor
+							owner = {
+								is_same_value = root
+							}
 						}
 					}
 				}
@@ -61,9 +63,11 @@ country_event = {
 				NOT = {
 					AND = {
 						exists = event_target:ogas40_sfdoll_leader
-						event_target:ogas40_sfdoll_leader = { leader_class = scientist }
-						owner = {
-							is_same_value = root
+						event_target:ogas40_sfdoll_leader = {
+							leader_class = scientist
+							owner = {
+								is_same_value = root
+							}
 						}
 					}
 				}

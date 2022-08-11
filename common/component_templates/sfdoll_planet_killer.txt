@@ -8,8 +8,8 @@ weapon_component_template = {
 	icon = GFX_planet_killer_sfdoll_1
 	icon_frame = 1
 	windup = {
-		min = 2
-		max = 2
+		min = 10
+		max = 10
 	}
     total_fire_time = 3
     accuracy = 1

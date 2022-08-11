@@ -66,10 +66,13 @@ country_event = {
 				fail_text = "sfdoll_the_leader_is_doing_this_job"
 				NOT = {
 					exists = event_target:sfdoll_leader_dingyi
-					event_target:sfdoll_leader_dingyi = { leader_class = scientist }
-					owner = {
-						is_same_value = root
+					event_target:sfdoll_leader_dingyi = {
+						leader_class = scientist
+						owner = {
+							is_same_value = root
+						}
 					}
+
 				}
 			}
 		}

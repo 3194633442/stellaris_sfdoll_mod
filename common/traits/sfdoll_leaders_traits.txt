@@ -164,6 +164,7 @@ leader_trait_governor_sfdoll_ump45 = {
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_ump45.dds"
 	modifier = {
 		planet_crime_add = -25
+		planet_jobs_unity_produces_mult = 0.15
 	}
 	leader_trait = { governor }
 	leader_class = { governor }

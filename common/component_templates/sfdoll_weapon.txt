@@ -406,7 +406,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapen_t_7"
 	icon_frame = 1
-	projectile_gfx = "titan_laser"
+	projectile_gfx = "perdition_beam"
 	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
@@ -459,7 +459,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapon_x_2"
 	icon_frame = 1
-	projectile_gfx = "perdition_beam"
+	projectile_gfx = "gatebuilder_titan_weapon"
 	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
@@ -597,7 +597,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapon_p_2"
 	icon_frame = 1
-	projectile_gfx = infrared_laser_m
+	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
@@ -643,7 +643,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapon_p_2"
 	icon_frame = 1
-	projectile_gfx = "infrared_laser_s"
+	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
 	damage = { min = 19000 max = 19000 }
@@ -718,7 +718,7 @@ weapon_component_template = {
 		}
 	}
 	size_restriction = {
-		sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_star_attacker
+		sfdoll_mobile_starbase sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5
 	}
 	ai_weight = {
 		weight = 50
