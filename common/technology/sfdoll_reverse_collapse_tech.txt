@@ -19,7 +19,7 @@ tech_sfdoll_reverse_collapse_2 = {
 	tier = 3
 	is_rare = yes
 	category = { military_theory }
-	icon = tech_sfdoll_reverse_collapse_1
+	icon = tech_sfdoll_reverse_collapse_2
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_reverse_collapse_1	}
 	modifier = {	shroud_research_speed = 0.15 }
@@ -32,7 +32,7 @@ tech_sfdoll_reverse_collapse_3 = {
 	tier = 4
 	is_rare = yes
 	category = { voidcraft }
-	icon = tech_sfdoll_reverse_collapse_1
+	icon = tech_sfdoll_reverse_collapse_3
 	prerequisites = { tech_sfdoll_reverse_collapse_2	}
 	potential = {
 		has_authority = auth_gf_sfdoll
