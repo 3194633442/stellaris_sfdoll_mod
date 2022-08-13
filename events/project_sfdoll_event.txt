@@ -42,4 +42,11 @@ country_event = {
 	trigger = {
 		has_authority = auth_gf_sfdoll
 	}
+	after = {
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_ogas_event.2
+			}
+		}
+	}
 }

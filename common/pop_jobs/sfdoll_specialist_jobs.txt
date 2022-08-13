@@ -82,7 +82,7 @@ sfdoll_nanites_maker = {
 	possible_precalc = can_fill_specialist_job
 
 	resources = {
-		category = planet_jobs
+		category = planet_artisans
 		produces = {
 			nanites = 12
 		}
@@ -358,7 +358,7 @@ sfdoll_mineral_maker = {
 	}
 	possible_precalc = can_fill_specialist_job
 	resources = {
-		category = planet_technician
+		category = planet_miners
 		produces = {	minerals = 150  }
 		upkeep = {
 			energy = 250

@@ -6,7 +6,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_star_attacker  }
-	component_set = "ship_aura_components"
+	component_set = "sfdoll_aura_components"
 	
 	# hostile_aura = {
 	# 	name = "hostile_aura_sfdoll_1"
@@ -28,7 +28,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	size_restriction = { sfdoll_star_attacker }
-	component_set = "ship_aura_components"
+	component_set = "sfdoll_aura_components"
 	
 	hostile_aura = {
 		name = "hostile_aura_sfdoll_2"

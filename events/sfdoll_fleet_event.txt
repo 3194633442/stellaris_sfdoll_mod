@@ -1,5 +1,4 @@
 namespace = sfdoll_fleet_event
-
 #on_entering_battle,是否为铁血的舰队，This = owner of fleet 1,FromFrom = fleet 1,FromFromFrom = fleet 2
 country_event = {
 	id = sfdoll_fleet_event.1
@@ -8,11 +7,22 @@ country_event = {
 	title= fleet_sfdoll_event.1
 	trigger = {	has_authority = auth_gf_sfdoll	 }
 	immediate = {
+
+		if = {
+			limit = {
+				fromfrom = {
+					any_owned_ship = {
+						has_component = component_aura_sfdoll_1
+					}
+				}
+			}
+		}
 		fromfromfrom = {
 			fleet_event = {
 				id = sfdoll_fleet_event.7
 			}
 		}
+
 		# fromfrom = {
 		# 	every_owned_ship = {
 		# 		if = {
@@ -231,74 +241,118 @@ fleet_event = {
 		}
 	}
 	immediate = {
-		if = {
-			limit = {
-				solar_system = {
-					any_ship_in_system = {
-						has_component = component_aura_sfdoll_1
-						owner = {
-							is_hostile = root.owner
-						}
-					}
-				}
-			}
-
-			add_modifier = {
-				modifier = aura_sfdoll_1_modifier
-				days = 30
-			}
-			set_timed_fleet_flag = {
-				flag = flag_aura_sfdoll_1
-				days = 58
-			}
-			fleet_event = {
-				id = sfdoll_fleet_event.8
-				days = 60
-			}
-
+		add_modifier = {
+			modifier = aura_sfdoll_1_modifier
+			days = 30
+		}
+		set_timed_fleet_flag = {
+			flag = flag_aura_sfdoll_1
+			days = 30
 		}
 	}
 }
 
-fleet_event = {
-	id = sfdoll_fleet_event.8
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		NOT = {
-			has_fleet_flag = flag_aura_sfdoll_1
-		}
-		is_in_combat = yes
-	}
-	immediate = {
-		if = {
-			limit = {
-				solar_system = {
-					any_ship_in_system = {
-						has_component = component_aura_sfdoll_1
-						owner = {
-							is_hostile = root.owner
-						}
-					}
-				}
-			}
+# fleet_event = {
+# 	id = sfdoll_fleet_event.8
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	immediate = {
+# 		add_modifier = {
+# 			modifier = aura_sfdoll_1_modifier
+# 			days = 30
+# 		}
+# 		set_timed_fleet_flag = {
+# 			flag = flag_aura_sfdoll_1_modifier
+# 			days = 30
+# 		}
+# 		set_timed_fleet_flag = {
+# 			flag = flag_aura_sfdoll_1
+# 			days = 58
+# 		}
+# 		log_error = 8888
+		
+# 		# if = {
+# 		# 	limit = {
+# 		# 		always = yes
+# 		# 		NOT = {
+# 		# 			has_fleet_flag = flag_aura_sfdoll_1_modifier
+# 		# 		}
+# 		# 		solar_system = {
+# 		# 			any_fleet_in_system = {
+# 		# 				owner = {
+# 		# 					is_hostile = root.owner
+# 		# 				}
+# 		# 				any_owned_ship = {
+# 		# 					has_component = component_aura_sfdoll_1
+# 		# 				}
+# 		# 			}
+# 		# 		}
+# 		# 	}
+# 		# }
 
-			add_modifier = {
-				modifier = aura_sfdoll_1_modifier
-				days = 30
-			}
-			set_timed_fleet_flag = {
-				flag = flag_aura_sfdoll_1
-				days = 58
-			}
-			fleet_event = {
-				id = sfdoll_fleet_event.8
-				days = 60
-			}
+# 		fleet_event = {
+# 			id = sfdoll_fleet_event.8
+# 			days = 60
+# 		}
+# 	}
+# }
 
-		}
-	}
-}
+# fleet_event = {
+# 	id = sfdoll_fleet_event.8
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	# trigger = {
+# 	# 	NOT = {
+# 	# 		has_fleet_flag = flag_aura_sfdoll_1
+# 	# 	}
+# 	# 	is_in_combat = yes
+# 	# }
+# 	immediate = {
+# 		owner = {
+# 			create_message = {
+# 				type = ALIEN_MEGASTRUCTURE_BUILT
+# 				localization = x
+# 				days = 360
+# 				target = THIS
+# 			}
+# 		}
+# 		if = {
+# 			limit = {
+# 				NOT = {
+# 					has_fleet_flag = flag_aura_sfdoll_1_modifier
+# 				}
+# 				solar_system = {
+# 					any_fleet_in_system = {
+# 						owner = {
+# 							is_hostile = root.owner
+# 						}
+# 						any_owned_ship = {
+# 							has_component = component_aura_sfdoll_1
+# 						}
+# 					}
+# 				}
+# 			}
+
+# 			add_modifier = {
+# 				modifier = aura_sfdoll_1_modifier
+# 				days = 30
+# 			}
+# 			set_timed_fleet_flag = {
+# 				flag = flag_aura_sfdoll_1_modifier
+# 				days = 30
+# 			}
+# 			set_timed_fleet_flag = {
+# 				flag = flag_aura_sfdoll_1
+# 				days = 58
+# 			}
+# 		}
+
+# 		fleet_event = {
+# 			id = sfdoll_fleet_event.8
+# 			days = 60
+# 		}
+# 	}
+# }
 
 # ship_event = {
 # 	id = sfdoll_fleet_event.8

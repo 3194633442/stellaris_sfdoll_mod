@@ -182,7 +182,7 @@ country_event = {
 		trigger = {	has_country_flag = ogas40_owner_sfdoll	}
 		hidden_effect = {
 			country_event = {
-				id = special_leader_sfdoll_event.1
+				id = sfdoll_ogas_event.1
 			}
 		}
 	}

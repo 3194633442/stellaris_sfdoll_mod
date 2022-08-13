@@ -162,7 +162,7 @@ sfdoll_warship_3 = {
 	required_component_set = "thruster_components"
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
-	required_component_set = "ship_aura_components"
+	required_component_set = "sfdoll_aura_components"
 
 	potential_country = {
 		has_authority = auth_gf_sfdoll
@@ -247,7 +247,7 @@ sfdoll_warship_4 = {
 	required_component_set = "sensor_components"
 	required_component_set = "thruster_components"
 	required_component_set = "combat_computers"
-	required_component_set = "ship_aura_components"
+	required_component_set = "sfdoll_aura_components"
 	potential_country = {
 		has_authority = auth_gf_sfdoll
 	}
@@ -333,7 +333,7 @@ sfdoll_warship_5 = {
 	required_component_set = "sensor_components"
 	required_component_set = "thruster_components"
 	required_component_set = "combat_computers"
-	required_component_set = "ship_aura_components"
+	required_component_set = "sfdoll_aura_components"
 	potential_country = {
 		has_authority = auth_gf_sfdoll
 	}
@@ -414,8 +414,8 @@ sfdoll_star_attacker = {
 	required_component_set = "thruster_components"
 	required_component_set = "combat_computers"
 	required_component_set = "ship_aura_components"
-	required_component_set = "ship_aura_components"
-	required_component_set = "ship_aura_components"
+	required_component_set = "sfdoll_aura_components"
+	required_component_set = "sfdoll_aura_components"
 	modifier = {
 		ship_shield_add = 1000000
 		ship_armor_add = 1000000

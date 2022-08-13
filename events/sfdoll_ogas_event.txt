@@ -1,10 +1,11 @@
-namespace = special_leader_sfdoll_event
+namespace = sfdoll_ogas_event
 
 #和ump40的通讯界面
 country_event = {
-	id = special_leader_sfdoll_event.1
-	title = "special_leader_sfdoll_event.1"
-	desc = "special_leader_sfdoll_event.1_desc"
+	id = sfdoll_ogas_event.1
+	title = "sfdoll_ogas_event.1"
+	desc = "sfdoll_ogas_event.1_desc"
+	desc = "sfdoll_ogas_event.1_desc_b"
 	diplomatic = yes
 
 	picture_event_data = {
@@ -80,6 +81,29 @@ country_event = {
 	#退出
 	option = {
 		name =  "sfdoll_break_option"
+		break = yes
+	}
+}
+
+country_event = {
+	id = sfdoll_ogas_event.2
+	title = "sfdoll_ogas_event.2"
+	desc = "sfdoll_ogas_event.2_desc"
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = GFX_portrait_sfdoll_ogas40
+		room = sfdoll_digi_mind_room
+	}	
+	is_triggered_only = yes
+	immediate = {
+		set_country_flag = contract_diplomacy_engaged
+	}
+	after = {
+		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
+	}
+	option = {
+		name = OK
 		break = yes
 	}
 }

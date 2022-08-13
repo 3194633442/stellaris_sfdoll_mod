@@ -225,7 +225,7 @@ sfdoll_warship_5_stern:0 "D"
 need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$$sfdoll_mobile_starbase$$,$mega_shipyard_3$"
 
 #flag ship
-component_aura_sfdoll_1:0 "周期性压制\n\n降低敌方舰队的武器伤害,命中,射速,射程,闪避,效果不可叠加.交战开始时启动,每生效30天,会进行30天冷却后再次启动"
+component_aura_sfdoll_1:0 "压制装置\n\n交战开始时启动,降低敌方舰队的武器伤害,命中,射速,射程,闪避,效果不可叠加,持续30天."
 
 ship_sfdoll_noel:0 "诺耶露"
 section_sfdoll_noel:0 "诺耶露"

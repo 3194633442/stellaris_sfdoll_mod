@@ -227,7 +227,7 @@ sfdoll_warship_5_stern:0 "D"
 need_sfdoll_mega_starport:0 "It can be built in the following places: $sfdoll_mega_starport_02$,$sfdoll_mobile_starbase$,$mega_shipyard_3$"
 
 #flag ship
-component_aura_sfdoll_1:0 "Periodic Suppression\n\n Reduces the enemy fleet's weapon damage, accuracy, rate of fire, range, evasion, and the effect cannot be stacked. It is activated at the beginning of the battle, and every 30 days it takes effect, it will be activated again after a 30-day cooldown."
+component_aura_sfdoll_1:0 "Suppression Device\n\nIt is activated at the beginning of the battle and reduces the enemy fleet's weapon damage, accuracy, rate of fire, range, evasion. The effect cannot be stacked, lasts for 30 days."
 
 
 ship_sfdoll_noel:0 "Noel"

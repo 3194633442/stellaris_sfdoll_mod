@@ -12,8 +12,10 @@ project_sfdoll_event.2:0 "Research OGAS"
 project_sfdoll_event.2_desc:0 "We studied OGAS in Riva. \n At the same time, we designed a body, and then transferred OGAS to this new body. Now, OGAS can move freely and even act as a leader."
 
 
-special_leader_sfdoll_event.1:0 "Communicating with OGAS"
-special_leader_sfdoll_event.1_desc:0 "What is the mission?"
+sfdoll_ogas_event.1:0 "Communicating with OGAS"
+sfdoll_ogas_event.1_desc:0 "What is the mission?"
+sfdoll_ogas_event.1_desc_b:0 "I was born from Riva's digi-mind, and my appearance and habits are naturally influenced by her mind data."
+
 ogas40_to_governor:0 "Work as a governor"
 ogas40_to_scientist:0 "Work as a scientist"
 response_text_ogas40_to_job:0 "Let me see what might be the solution."
@@ -24,3 +26,6 @@ leader_trait_governor_ogas40_desc:0 "OGAS is the super AI created by relic scien
 
 leader_trait_scientist_ogas40:0 "$leader_trait_governor_ogas40$"
 leader_trait_scientist_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
+
+sfdoll_ogas_event.2:0 "Communication with OGAS"
+sfdoll_ogas_event.2_desc:0 "This is the first time I have my own body. The feeling of freedom is not bad.\n\nIn the past, I was limited by the performance of the equipment and had to stop growing. But now it is different, with your equipment, I can try evolve further."
