@@ -62,3 +62,18 @@ tech_sfdoll_singularity = {
 	prerequisites = {	tech_sfdoll_star_exploit	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
+
+tech_sfdoll_change_hyperlane = {
+	area = physics
+	tier = 5
+	cost = @tier5cost3
+	is_rare = yes
+	category = { field_manipulation }
+	icon = tech_sfdoll_change_hyperlane
+	weight = @tier5weight3
+	weight_modifier = {
+		factor = 8
+	}
+	prerequisites = {	tech_sfdoll_energy_plant	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+} 

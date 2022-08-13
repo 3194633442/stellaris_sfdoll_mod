@@ -452,7 +452,7 @@ ship_section_template = {
 		locatorname = "l_gun015"
 	}
 	component_slot = {
-		name = "M_01"
+		name = "M_02"
 		template = invisible_missile_turret
 		locatorname = "l_gun016"
 	}

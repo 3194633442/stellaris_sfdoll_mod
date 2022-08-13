@@ -49,3 +49,18 @@ planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$可以向
 planet_killer_sfdoll_colonizer_ACTION:0 "$planet_killer_sfdoll_colonizer$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_colonizer:0 "$planet_killer_sfdoll_colonizer$"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_colonizer:0 "开始殖民"
+
+
+sfdoll_change_hyperlane_ship:0 "航道改造信标"
+sfdoll_change_hyperlane_section:0 "$sfdoll_change_hyperlane_ship$"
+
+sfdoll_planet_killer_event.6:0 "航道改造工程"
+sfdoll_planet_killer_event.6_desc:0 "点击生成两个信标,将它们分别移动到两个星系中,即可修改两个星系间的航道.\n\n两个信标所在的星系之间，如果有航道，则航道会被删除；如果没有航道，则会生成新的航道"
+sfdoll_planet_killer_event.6_option_a:0 "生成两个信标,并删除旧的信标"
+sfdoll_planet_killer_event.6_option_b:0 "修改航道"
+
+edict_sfdoll_change_hyperlane_window:0 "$sfdoll_planet_killer_event.6$"
+edict_sfdoll_change_hyperlane_window_desc:0 "$sfdoll_planet_killer_event.6_desc$"
+
+tech_sfdoll_change_hyperlane:0 "$sfdoll_planet_killer_event.6$"
+tech_sfdoll_change_hyperlane_desc:0 "随着对超空间的深入研究,铁血人形掌握了建造超空间航道的方法."

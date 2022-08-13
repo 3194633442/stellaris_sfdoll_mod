@@ -424,7 +424,7 @@ planet_event = {
 }
 
 
-#铁血之矛，控制界面
+#航道修改，控制界面
 country_event = {
 	id = sfdoll_planet_killer_event.6
 	title = sfdoll_planet_killer_event.6
@@ -435,41 +435,49 @@ country_event = {
 	option = {
 		name = sfdoll_planet_killer_event.6_option_a
 		hidden_effect = {
-			effect_create_change_hyperlane_beacon_sfdoll = yes
+			effect_create_sfdoll_change_hyperlane_ship = yes
+			country_event = {
+				id = sfdoll_planet_killer_event.6
+			}
 		}
 	}
 	#修改航道
 	option = {
 		name = sfdoll_planet_killer_event.6_option_b
-		custom_tooltip = "text_sfdoll_planet_killer_event.6_option_b"
 		hidden_effect = {
 			effect_change_hyperlane_sfdoll = yes
+			country_event = {
+				id = sfdoll_planet_killer_event.6
+			}
 		}
 	}
 	#摧毁星系，删除信标
-	option = {
-		name = sfdoll_planet_killer_event.6_option_c
-		custom_tooltip = "text_sfdoll_planet_killer_event.6_option_c"
-		hidden_effect = {
-			event_target:fleet_beacon_sfdoll_1={
-				fleet_event = {
-					id = sfdoll_planet_killer_event.7
-				}
-			}
-			event_target:fleet_beacon_sfdoll_2 ={
-				fleet_event = {
-					id = sfdoll_planet_killer_event.7
-				}
-			}
-			delete_fleet = event_target:fleet_beacon_sfdoll_1
-			clear_global_event_target = fleet_beacon_sfdoll_1
-			delete_fleet = event_target:fleet_beacon_sfdoll_2
-			clear_global_event_target = fleet_beacon_sfdoll_2
-		}
-	}
+	# option = {
+	# 	name = sfdoll_planet_killer_event.6_option_c
+	# 	allow = {
+	# 		always = no
+	# 	}
+	# 	custom_tooltip = "text_sfdoll_planet_killer_event.6_option_c"
+	# 	hidden_effect = {
+	# 		event_target:fleet_beacon_sfdoll_1={
+	# 			fleet_event = {
+	# 				id = sfdoll_planet_killer_event.7
+	# 			}
+	# 		}
+	# 		event_target:fleet_beacon_sfdoll_2 ={
+	# 			fleet_event = {
+	# 				id = sfdoll_planet_killer_event.7
+	# 			}
+	# 		}
+	# 		delete_fleet = event_target:fleet_beacon_sfdoll_1
+	# 		clear_global_event_target = fleet_beacon_sfdoll_1
+	# 		delete_fleet = event_target:fleet_beacon_sfdoll_2
+	# 		clear_global_event_target = fleet_beacon_sfdoll_2
+	# 	}
+	# }
 	#退出
 	option = {
-		name = "sfdoll_break_option"
+		name = "QUIT"
 		hidden_effect = {
 			break = yes
 		}

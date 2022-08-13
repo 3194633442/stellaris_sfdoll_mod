@@ -83,6 +83,43 @@ sfdoll_mobile_starbase = {
 	required_component_set = "sfdoll_aura_components"
 }
 
+#信标船
+sfdoll_change_hyperlane_ship = {
+	entity = "nemesis_01_titan_entity"
+	max_speed = 160
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 500000
+	size_multiplier = 0
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part2" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon = ship_size_military_16
+	base_buildtime = 1080
+	can_have_federation_design = no
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+	is_designable = no
+	potential_construction = {
+		always = no
+	}
+	components_add_to_cost = no
+	default_behavior = carrier
+	class = shipclass_military_special
+
+	modifier = {
+		ship_evasion_add = 90
+		ship_armor_add = 100000
+		ship_shield_add = 100000
+	}
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	# required_component_set = "sensor_components"
+	# required_component_set = "thruster_components"
+	# required_component_set = "combat_computers"
+}
+
 #星舰城市
 sfdoll_homeless_ship = {
 	entity = "humanoid_01_colonizer_entity"
@@ -327,42 +364,7 @@ ship_sfdoll_noel = {
 # 	}
 # }
 
-#信标船
-ship_change_hyperlane_beacon_sfdoll = {
-	entity = constructor_entity
-	max_speed = 500
-	acceleration = 0.2
-	rotation_speed = 0.15
-	collision_radius = @titan_collision_radius
-	max_hitpoints = 500000
-	size_multiplier = 0
-	fleet_slot_size = 0
-	section_slots = { "mid" = { locator = "part1" } }
-	num_target_locators = 4
-	is_space_station = no
-	icon = ship_size_military_16
-	base_buildtime = 1080
-	can_have_federation_design = no
-	enable_default_design = no	#if yes, countries will have an auto-generated design at start
-	is_designable = no
-	potential_construction = {
-		always = no
-	}
-	components_add_to_cost = yes
-	default_behavior = carrier
-	class = shipclass_military_special
 
-	modifier = {
-		ship_evasion_add = 90
-		ship_armor_add = 500000
-		ship_shield_add = 500000
-	}
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	# required_component_set = "sensor_components"
-	# required_component_set = "thruster_components"
-	# required_component_set = "combat_computers"
-}
 
 
 

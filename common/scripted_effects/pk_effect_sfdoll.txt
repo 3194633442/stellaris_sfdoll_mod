@@ -82,7 +82,7 @@ effect_sfdoll_empty_system = {
 }
 
 #country,生成航道修改信标
-effect_create_change_hyperlane_beacon_sfdoll = {
+effect_create_sfdoll_change_hyperlane_ship = {
 	optimize_memory
 	capital_scope = {
 		delete_fleet = event_target:fleet_beacon_sfdoll_1
@@ -92,12 +92,12 @@ effect_create_change_hyperlane_beacon_sfdoll = {
 
 		solar_system = {
 			create_fleet = {
-				name = "Name_beacon_ship_sfdoll_fleet"
+				name = "sfdoll_change_hyperlane_ship"
 				effect = {
 					set_owner = root
 					create_ship = {
-						design = design_beacon_ship_sfdoll
-						name = Name_beacon_ship_sfdoll
+						design = design_sfdoll_change_hyperlane_ship
+						name = sfdoll_change_hyperlane_ship
 						prefix = no
 						upgradable = no
 					}
@@ -116,12 +116,12 @@ effect_create_change_hyperlane_beacon_sfdoll = {
 			}
 
 			create_fleet = {
-				name = "Name_beacon_ship_sfdoll_fleet"
+				name = "sfdoll_change_hyperlane_ship"
 				effect = {
 					set_owner = root
 					create_ship = {
-						design = design_beacon_ship_sfdoll
-						name = Name_beacon_ship_sfdoll
+						design = design_sfdoll_change_hyperlane_ship
+						name = sfdoll_change_hyperlane_ship
 						upgradable = no
 					}
 					set_location = ROOT.capital_scope
@@ -142,7 +142,7 @@ effect_create_change_hyperlane_beacon_sfdoll = {
 }
 
 #修改超空间航道
-effect_change_hyperlane_sfdoll={
+effect_change_hyperlane_sfdoll = {
 	optimize_memory
 	event_target:fleet_beacon_sfdoll_1 = {
 		solar_system = {

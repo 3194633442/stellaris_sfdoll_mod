@@ -1,4 +1,15 @@
 ship_design = {
+	name = "design_sfdoll_change_hyperlane_ship"
+	ship_size = sfdoll_change_hyperlane_ship
+	section = {
+		template = sfdoll_change_hyperlane_section
+		slot = "mid"
+	}
+	required_component= CORVETTE_sfdoll_collapse_REACTOR
+	required_component= JUMP_DRIVE_1
+}
+
+ship_design = {
 	name = "design_sfdoll_homeless_ship_game_start"
 	ship_size = sfdoll_homeless_ship
 	section = {

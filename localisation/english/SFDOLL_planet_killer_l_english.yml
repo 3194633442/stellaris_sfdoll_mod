@@ -50,3 +50,18 @@ planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$ can tran
 planet_killer_sfdoll_colonizer_ACTION:0 "$planet_killer_sfdoll_colonizer$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_colonizer:0 "$planet_killer_sfdoll_colonizer$"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_colonizer:0 "start colonization"
+
+
+sfdoll_change_hyperlane_ship:0 "Hyperlane Modification Beacon"
+sfdoll_change_hyperlane_section:0 "$sfdoll_change_hyperlane_ship$"
+
+sfdoll_planet_killer_event.6:0 "Hyperlane Modification Project"
+sfdoll_planet_killer_event.6_desc:0 "Click to generate two beacons, move them to two systems respectively, then you can modify the Hyperlane between the two systems.\n\n Between the systems where the two beacons are located, if there is a Hyperlane, the Hyperlane will be deleted; if there is no Hyperlane, a new Hyperlane will be generated."
+sfdoll_planet_killer_event.6_option_a:0 "Generate two beacons, and delete the old beacons."
+sfdoll_planet_killer_event.6_option_b:0 "Modify Hyperlane"
+
+edict_sfdoll_change_hyperlane_window:0 "$sfdoll_planet_killer_event.6$"
+edict_sfdoll_change_hyperlane_window_desc:0 "$sfdoll_planet_killer_event.6_desc$"
+
+tech_sfdoll_change_hyperlane:0 "$sfdoll_planet_killer_event.6$"
+tech_sfdoll_change_hyperlane_desc:0 "With the in-depth study of Hyperlanes, SF Dolls mastered the method of building Hyperlanes."

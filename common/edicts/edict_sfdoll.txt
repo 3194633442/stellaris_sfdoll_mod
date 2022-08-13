@@ -1,13 +1,13 @@
-#铁血之矛控制
-change_hyperlane_sfdoll_window = {
+#航道修改
+sfdoll_change_hyperlane_window = {
 	length = 0
 	icon = "GFX_edict_type_time"
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_megastructure = mega_change_hyperlane_sfdoll
-		is_ai = no
 	}
-
+	prerequisites = {
+		tech_sfdoll_change_hyperlane
+	}
 	effect = {
 		hidden_effect = {
 			country_event = { id = sfdoll_planet_killer_event.6 }

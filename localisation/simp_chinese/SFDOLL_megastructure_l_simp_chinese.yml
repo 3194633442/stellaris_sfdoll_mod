@@ -117,28 +117,6 @@ build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"
 # gateway_sfdoll_name:0 "铁血星门航道"
 # gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
 
-# tech_mega_change_hyperlane_sfdoll:0 "超空间工程"
-# tech_mega_change_hyperlane_sfdoll_desc:0 "基于超光速空间中独特的物理法则，我们能够完成一些神奇的工程，例如建造超空间航道。"
-
-# mega_change_hyperlane_sfdoll:0 "铁血之矛"
-# mega_change_hyperlane_sfdoll_DESC:0 "这个装置能够跨越星系输送庞大的能量。用于修改超空间航道，或摧毁星系。"
-# mega_change_hyperlane_sfdoll_MEGASTRUCTURE_DETAILS:0 "$mega_change_hyperlane_sfdoll_DESC$\n 通过法令来启动它"
-
-# build_mega_change_hyperlane_sfdoll:0 "我们建造了$mega_change_hyperlane_sfdoll$"
-
-# edict_change_hyperlane_sfdoll_window:0 "启动铁血之矛"
-# edict_change_hyperlane_sfdoll_window_desc:0 "$change_hyperlane_sfdoll_window$"
-
-# sfdoll_planet_killer_event.6:0 "铁血之矛:操作界面"
-# sfdoll_planet_killer_event.6_desc:0 "生成两个信标后，将它们移动到任意星系，用于定位。"
-# sfdoll_planet_killer_event.6_option_a:0 "生成两个信标（旧的信标会被删除）"
-# sfdoll_planet_killer_event.6_option_b:0 "修改航道"
-# text_sfdoll_planet_killer_event.6_option_b:0 "信标所在的星系之间，如果有航道，就删除航道；如果没有航道，就生成航道。信标可以重复使用。"
-# sfdoll_planet_killer_event.6_option_c:0 "摧毁星系"
-# text_sfdoll_planet_killer_event.6_option_c:0 "信标所在的星系会被摧毁，信标也会被破坏。"
-
-# ship_change_hyperlane_beacon_sfdoll:0 "超光速信标"
-
 # ship_sfdoll_carrier:0 "重装支援舰"
 # ship_sfdoll_carrier_plural:0 "$ship_sfdoll_carrier$"
 # sfdoll_carrier_section1:0 "A"

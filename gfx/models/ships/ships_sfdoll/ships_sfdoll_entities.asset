@@ -38,21 +38,16 @@ entity = {
 	locator = { name = "black_2" 	position = { -13  0  -20 }  }
 	locator = { name = "black_3" 	position = { 0  13  -20 }  }
 	locator = { name = "black_4" 	position = { 0  -13  -20 }  }
-	scale = 2
+	scale = 1.5
 	attach = {
 		black_0 = "sfdoll_black_hole_2_entity"
-		root = "sfdoll_star_attacker_mid_entity"
 	}
-	attach = {
-		black_1 = "sfdoll_black_hole_2_entity"
-		black_2 = "sfdoll_black_hole_2_entity"
-		black_3 = "sfdoll_black_hole_2_entity"
-		black_4 = "sfdoll_black_hole_2_entity"
-	}
-}
-entity = {
-	name = "sfdoll_star_attacker_mid_entity"
-	pdxmesh = "sfdoll_star_attacker_mid_mesh"
+	# attach = {
+	# 	black_1 = "sfdoll_black_hole_2_entity"
+	# 	black_2 = "sfdoll_black_hole_2_entity"
+	# 	black_3 = "sfdoll_black_hole_2_entity"
+	# 	black_4 = "sfdoll_black_hole_2_entity"
+	# }
 }
 
 entity = {

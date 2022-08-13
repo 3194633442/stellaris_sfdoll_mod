@@ -48,3 +48,13 @@ ship_section_template = {
 		}
 	}
 }
+
+
+ship_section_template = {
+	key = "sfdoll_change_hyperlane_section"
+	ship_size = sfdoll_change_hyperlane_ship
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "sfdoll_star_attacker_entity"
+	icon = "GFX_ship_part_core_bow"
+}
