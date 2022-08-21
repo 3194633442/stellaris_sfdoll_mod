@@ -410,3 +410,19 @@ leader_trait_sfdoll_dingyi = {
 	leader_class = { scientist }
 	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
 }
+
+#高维人特质
+leader_trait_sfdoll_exd_leader = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_roamer.dds"
+	modifier = {
+		ship_anomaly_generation_chance_mult = 0.3
+	}
+	opposites = {
+		leader_trait_roamer
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
+}

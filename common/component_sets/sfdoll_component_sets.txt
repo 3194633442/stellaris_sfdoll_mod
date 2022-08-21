@@ -134,7 +134,6 @@ component_set = {
 
 component_set = {
 	key = "sfdoll_aura_components"
-
 	required_component_set = yes
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1

@@ -36,6 +36,10 @@ aura_sfdoll_1_modifier = {
 	ship_disengage_chance_mult = -8
 }
 
+aura_sfdoll_2_modifier = {
+	ship_hull_add = -10000000
+}
+
 # xxx= {
 # 	shiel
 # 	weapon_type_energy_weapon_damage_mult = 1

@@ -28,6 +28,7 @@ special_project = {
 	}
 }
 
+
 #迈向锡安
 special_project = {
 	key = "SFDOLL_TO_ZION_PROJECT"
@@ -163,7 +164,7 @@ special_project = {
 	event_chain = sfdoll_search_zion_chain
 	#待修改
 	cost = @tier2cost1
-	tech_department = physics_technology
+	tech_department = engineering_technology
 
 	#待修改
 	picture = GFX_evp_sfdoll_ump45_ump40
@@ -186,5 +187,34 @@ special_project = {
 				id = project_sfdoll_event.2
 			}
 		}
+	}
+}
+
+
+#高维人
+special_project = {
+	key = "sfdoll_exd_leader_project"
+	event_chain = sfdoll_search_zion_chain
+	#待修改
+	cost = @tier2cost3
+	# days_to_research = 30
+	tech_department = physics_technology
+
+	#待修改
+	picture = GFX_evt_analyzing_artifacts
+
+	event_scope = planet_event
+	requirements = {
+		leader = scientist
+	}
+
+	on_success = {
+		owner = {
+			country_event = {
+				id = sfdoll_extradimensional_event.3
+			}
+		}
+	}
+	on_fail = {
 	}
 }
