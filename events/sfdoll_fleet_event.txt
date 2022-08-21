@@ -196,6 +196,17 @@ country_event = {
 					}
 				}
 			}
+
+			#高维船受损
+			if = {
+				limit = {	is_ship_size = sfdoll_exd_science_ship	}
+				root = {
+					set_timed_country_flag = {
+						flag = sfdoll_exd_science_ship_destroyed
+						days = 360
+					}
+				}
+			}
 			
 			if = {
 				limit = {

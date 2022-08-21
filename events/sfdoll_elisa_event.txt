@@ -208,6 +208,17 @@ country_event = {
 		}
 	}
 
+	#找高维人
+	option = {
+		name = "sfdoll_elisa_event.3_option_7"
+		trigger = {	has_country_flag = sfdoll_exd_leader_owner	}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_extradimensional_event.5
+			}
+		}
+	}
+
 	#退出
 	option = {
 		name =  "sfdoll_break_option"

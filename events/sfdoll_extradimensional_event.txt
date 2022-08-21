@@ -75,18 +75,22 @@ country_event = {
 		portrait = exd2
 		room = "extradimensional_room"
 	}
-	option = {
-		name = sfdoll_extradimensional_event.4_option_a
+	after = {
+		set_country_flag = sfdoll_exd_leader_owner
 	}
 	option = {
-		name = sfdoll_extradimensional_event.4_option_b
+		name = OK
+		break = yes
 	}
-	option = {
-		name = sfdoll_extradimensional_event.4_option_c
-	}
-	option = {
-		name = sfdoll_extradimensional_event.4_option_d
-	}
+	# option = {
+	# 	name = sfdoll_extradimensional_event.4_option_b
+	# }
+	# option = {
+	# 	name = sfdoll_extradimensional_event.4_option_c
+	# }
+	# option = {
+	# 	name = sfdoll_extradimensional_event.4_option_d
+	# }
 }
 
 #和高维人对话
@@ -94,6 +98,7 @@ country_event = {
 	id = sfdoll_extradimensional_event.5
 	title = sfdoll_extradimensional_event.5
 	desc = sfdoll_extradimensional_event.5_desc
+	desc = sfdoll_extradimensional_event.5_desc_b
 	is_triggered_only = yes
 	diplomatic = yes
 	picture_event_data = {
@@ -147,14 +152,88 @@ country_event = {
 			}
 		}
 	}
-	# option = {
-	# 	name = sfdoll_exd_leader_get_science_ship
-	# }
+	option = {
+		name = sfdoll_get_exd_science_ship
+		response_text = response_sfdoll_get_exd_science_ship
+		allow = {
+			custom_tooltip = {
+				fail_text = "have_fleet_sfdoll_exd_science_ship"
+				NOT = {
+					exists = event_target:fleet_sfdoll_exd_science_ship
+					event_target:fleet_sfdoll_exd_science_ship = {
+						owner = {
+							is_same_value = root
+						}
+					}
+
+				}
+			}
+			custom_tooltip = {
+				fail_text = "sfdoll_exd_science_ship_destroyed"
+				NOT = {
+					has_country_flag = sfdoll_exd_science_ship_destroyed
+				}
+			}
+		}
+		hidden_effect = {
+			capital_scope = {
+				delete_fleet = event_target:fleet_sfdoll_exd_science_ship
+				clear_global_event_target = fleet_sfdoll_exd_science_ship
+
+				solar_system = {
+					create_fleet = {
+						name = "design_sfdoll_exd_science_ship"
+						settings = { spawn_debris = no }
+						effect = {
+							set_owner = root
+							create_ship_design = {
+								design = "design_sfdoll_exd_science_ship"
+							}
+							create_ship = {
+								name = "design_sfdoll_exd_science_ship"
+								design = last_created_design
+								graphical_culture = root
+								upgradable = no
+							}
+							set_location = ROOT.capital_scope
+							save_global_event_target_as = fleet_sfdoll_exd_science_ship
+							set_fleet_stance = evasive
+						}
+					}
+					# create_fleet = {
+					# 	name = "design_sfdoll_exd_science_ship"
+					# 	effect = {
+					# 		set_owner = root
+					# 		create_ship_design = {
+					# 			design = design_sfdoll_exd_science_ship
+					# 		}
+					# 		create_ship = {
+					# 			design = last_created_design
+					# 			name = design_sfdoll_exd_science_ship
+					# 			prefix = no
+					# 			upgradable = no
+					# 		}
+					# 		set_location = ROOT.capital_scope
+					# 		save_global_event_target_as = fleet_sfdoll_exd_science_ship
+					# 	}
+					# 	settings = {
+					# 		can_upgrade = yes
+					# 		uses_naval_capacity = no
+					# 		spawn_debris = no
+					# 		can_disband = yes
+					# 		can_change_leader = yes
+					# 		can_change_composition = no
+					# 	}
+					# }
+				}
+			}	
+		}
+	}
 	# option = {
 	# 	name = sfdoll_extradimensional_event.4_option_c
 	# }
 	option = {
-		name = break
+		name = 	QUIT
 		break = yes
 	}
 }
