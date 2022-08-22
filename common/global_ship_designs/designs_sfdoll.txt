@@ -11,7 +11,7 @@ ship_design = {
 		}
 		component = {
 			slot = "X_02"
-			template = ENERGY_LANCE_2
+			template = MASS_ACCELERATOR_2
 		}
 		component = {
 			slot = "L_01"
@@ -39,11 +39,11 @@ ship_design = {
 		}
 		component = {
 			slot = "L_07"
-			template = KINETIC_ARTILLERY_2
+			template = ENERGY_TORPEDO_2
 		}
 		component = {
 			slot = "L_08"
-			template = KINETIC_ARTILLERY_2
+			template = ENERGY_TORPEDO_2
 		}
 		component = {
 			slot = "M_01"

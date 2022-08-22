@@ -33,6 +33,7 @@ country_event = {
 	}
 	option = {
 		name = sfdoll_extradimensional_event.2_option
+		response_text = "sfdoll_extradimensional_event.2_response"
 	}
 	after = {
 		capital_scope = {
@@ -140,7 +141,6 @@ country_event = {
 				event_leader = yes	# prevents this leader from leading factions and winning elections
 				traits = {
 					trait = leader_trait_sfdoll_exd_leader
-					trait = leader_trait_sapient_AI_assistant
 					trait = leader_trait_scientist_psionic
 					trait = leader_trait_scientist_chosen
 				}

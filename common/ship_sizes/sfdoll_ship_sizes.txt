@@ -327,13 +327,12 @@ sfdoll_exd_science_ship = {
 	modifier = {
 		ship_evasion_add = 90
 		ships_upkeep_mult = -1
-		ship_weapon_damage = 0.5
-		ship_fire_rate_mult = 0.5
+		ship_weapon_damage = 1
+		ship_fire_rate_mult = 1
 		ship_weapon_range_mult = 0.4
-		ship_armor_mult = -1
-		ship_shield_mult = -1
+		ship_shield_regen_add_perc = 5
 	}
-	max_hitpoints = 1
+	max_hitpoints = 40000
 	size_multiplier = 0
 	fleet_slot_size = 16
 	default_behavior = artillery

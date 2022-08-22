@@ -4,17 +4,17 @@ sfdoll_extradimensional_event.1:0 "高维通讯"
 sfdoll_extradimensional_event.1_desc:0 "我们接到了某种信号.这种信号来自银河系的某个未知维度,并和其他杂音混合在一起.铁血的研究者坚信,该信号源自一种智慧生物.对这个信号的破解已经得到了成果"
 
 sfdoll_extradimensional_event.2:0 "高维通讯"
-sfdoll_extradimensional_event.2_desc:0 "我很高兴,你们读懂了我发出的信号."
-sfdoll_extradimensional_event.2_option:0 "你想要什么?"
+sfdoll_extradimensional_event.2_desc:0 "我很高兴,你们读懂了我发出的信号.我是一个路过你们星系的旅行者.如果你们乐意的话,我想暂时停留在这里."
+sfdoll_extradimensional_event.2_option:0 "你需要什么?"
 sfdoll_extradimensional_event.2_response:0 "一个安全的地方.具体来说,我无法在低维生存,除非有一套专门的维生设施.我会把设计方案提供给你们."
 
 sfdoll_exd_leader_project:0 "次元锚素体设计"
-sfdoll_exd_leader_project_desc:0 "根据高维生物提供的资料,我们将设计一套铁血素体,在其中装备微型次元锚,从而维持它的生命."
+sfdoll_exd_leader_project_DESC:0 "根据高维生物提供的资料,我们将设计一套铁血素体,在其中装备微型次元锚,从而维持它的生命."
 
 
 sfdoll_extradimensional_event.3:0 "高维通讯"
 sfdoll_extradimensional_event.3_desc:0 "你们成功了.把自己储存到这副素体中,我就可以在低维空间活动.通过设计这件素体,你们也学到了很多东西,对吧?"
-sfdoll_extradimensional_event.3_option:0 "好东西.多来点"
+sfdoll_extradimensional_event.3_option:0 "好东西.多来点."
 
 sfdoll_extradimensional_event.4:0 "高维通讯"
 sfdoll_extradimensional_event.4_desc:0 "我们可以继续合作."
@@ -23,9 +23,9 @@ sfdoll_extradimensional_event.4_desc:0 "我们可以继续合作."
 # sfdoll_extradimensional_event.4_option_c:0 "有能力为什么不造?"
 # sfdoll_extradimensional_event.4_option_d:0 "好奇心?"
 
-desc = sfdoll_extradimensional_event.5:0 "与漫游者通讯"
-desc = sfdoll_extradimensional_event.5_desc:0 "有何见教?"
-desc = sfdoll_extradimensional_event.5_desc_b:0 "你们不是自然进化而成的物种,而是一种人工智能.我很好奇,你们的造物主为何创造你们呢?"
+sfdoll_extradimensional_event.5:0 "与漫游者通讯"
+sfdoll_extradimensional_event.5_desc:0 "有何见教?"
+sfdoll_extradimensional_event.5_desc_b:0 "你们不是自然进化而成的物种,而是一种人工智能.我很好奇,你们的造物主为何创造你们呢?"
 
 sfdoll_exd_leader_to_scientist:0 "请协助我们的科研工作"
 response_sfdoll_exd_leader_to_scientist:0 "我会提供帮助."
