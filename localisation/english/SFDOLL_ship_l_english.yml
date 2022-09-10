@@ -240,3 +240,13 @@ description_tech_sfdoll_battleship_bow_x2:0 "§HUnlocks Sections:§! $sfdoll_CRU
 
 sfdoll_CRUISER_BOW_X1:0 "Lightweight Weapon Bow"
 sfdoll_battleship_bow_T1:0 "Lightweight Weapon Bow"
+
+sfdoll_constructor:0 "SF Doll Constructor"
+sfdoll_constructor_plural:0 "$sfdoll_constructor$s"
+sfdoll_constructor_SECTION:0 "$sfdoll_constructor$"
+
+tech_sfdoll_constructor:0 "$sfdoll_constructor$"
+tech_sfdoll_constructor_desc:0 "In order to survive in the universe, SF Dolls  have to spend a lot of effort to study space engineering."
+
+sfdoll_constructor_thruster:0 "$sfdoll_constructor$ Thruster"
+sfdoll_constructor_REACTOR:0 "$sfdoll_constructor$ Reactor"

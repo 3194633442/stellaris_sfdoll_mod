@@ -59,10 +59,13 @@ country_event = {
 
 	immediate = {
 		event_target:leader_revive_sfdoll = {
-			#如果是灰风,终止复活
+			#如果是灰风或者高维人,终止复活
 			if = {
 				limit = {
-					is_same_value = event_target:gray_governor
+					or = {
+						is_same_value = event_target:gray_governor
+						is_same_value = event_target:sfdoll_exd_leader
+					}
 				}
 				break = yes
 			}

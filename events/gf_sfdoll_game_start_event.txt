@@ -116,6 +116,11 @@ country_event = {
 			id = sfdoll_three_body_event.1
 			days = 10
 		}
+		#漫游者
+		country_event = {
+			id = sfdoll_extradimensional_event.1
+			days = 1440
+		}
 
 		#开始事件链
 		begin_event_chain = {

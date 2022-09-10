@@ -16,11 +16,11 @@ gf_sfdoll_ascension_perk_event_0_desc:0 "Thank you, father;\n\nGoodbye, father."
 
 #
 ap_sfdoll_3:0 "Sangvis Ferri Project: Lunasia"
-ap_sfdoll_3_desc:0 "On the way home."
+ap_sfdoll_3_desc:0 "On the way home.\n\nRequires technologies £physics£$tech_repeatable_sfdoll_phy$, £society£$tech_repeatable_sfdoll_soc$, £engineering£$tech_repeatable_sfdoll_eng$ . Each technology requires three cycles."
 
 #
 ap_sfdoll_4:0 "Sangvis Ferri Project: Jormungand"
-ap_sfdoll_4_desc:0 "We crave further truth.\n\nRequires technologies £physics£$tech_repeatable_sfdoll_phy$, £society£$tech_repeatable_sfdoll_soc$, £engineering£$tech_repeatable_sfdoll_eng$ . Each technology requires three cycles."
+ap_sfdoll_4_desc:0 "We crave further truth."
 
 gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
 gf_sfdoll_ascension_perk_event.4_desc:0 "A thousand miles begins with a single step."

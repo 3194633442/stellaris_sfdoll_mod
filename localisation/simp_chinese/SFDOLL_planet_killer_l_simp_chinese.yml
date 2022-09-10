@@ -53,6 +53,7 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_colonizer:0 "开始殖民"
 
 sfdoll_change_hyperlane_ship:0 "航道改造信标"
 sfdoll_change_hyperlane_section:0 "$sfdoll_change_hyperlane_ship$"
+design_sfdoll_change_hyperlane_ship:0 "$sfdoll_change_hyperlane_ship$"
 
 sfdoll_planet_killer_event.6:0 "航道改造工程"
 sfdoll_planet_killer_event.6_desc:0 "点击生成两个信标,将它们分别移动到两个星系中,即可修改两个星系间的航道.\n\n两个信标所在的星系之间，如果有航道，则航道会被删除；如果没有航道，则会生成新的航道"

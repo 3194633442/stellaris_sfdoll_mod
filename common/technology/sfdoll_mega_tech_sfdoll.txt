@@ -107,31 +107,31 @@ tech_sfdoll_mobile_starbase = {
 }
 
 #航道修改巨构
-tech_mega_change_hyperlane_sfdoll = {
-	area = physics
-	tier = 5
-	cost = @tier5cost3
-	is_rare = yes
-	is_dangerous = yes
-	category = { field_manipulation }
-	icon = tech_mega_change_hyperlane_sfdoll
-	weight = 0
-	prerequisites = {	tech_gateway_sfdoll	}
-	potential = {	has_authority = auth_gf_sfdoll	}
-}
+# tech_mega_change_hyperlane_sfdoll = {
+# 	area = physics
+# 	tier = 5
+# 	cost = @tier5cost3
+# 	is_rare = yes
+# 	is_dangerous = yes
+# 	category = { field_manipulation }
+# 	icon = tech_mega_change_hyperlane_sfdoll
+# 	weight = 0
+# 	prerequisites = {	tech_gateway_sfdoll	}
+# 	potential = {	has_authority = auth_gf_sfdoll	}
+# }
 
 #铁血星门
-tech_gateway_sfdoll = {
-	area = physics
-	tier = 5
-	cost = @tier5cost1
-	is_rare = yes
-	category = { field_manipulation }
-	icon = tech_gateway_sfdoll
-	weight = 0
-	prerequisites = {	tech_sfdoll_jump_drive	}
-	potential = {	has_authority = auth_gf_sfdoll	}
-	modifier = {
-		country_resource_max_add = 20000
-	}
-}
+# tech_gateway_sfdoll = {
+# 	area = physics
+# 	tier = 5
+# 	cost = @tier5cost1
+# 	is_rare = yes
+# 	category = { field_manipulation }
+# 	icon = tech_gateway_sfdoll
+# 	weight = 0
+# 	prerequisites = {	tech_sfdoll_jump_drive	}
+# 	potential = {	has_authority = auth_gf_sfdoll	}
+# 	modifier = {
+# 		country_resource_max_add = 20000
+# 	}
+# }

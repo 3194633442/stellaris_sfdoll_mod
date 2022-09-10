@@ -1,6 +1,6 @@
 ﻿l_english:
 ###############################
-sfdoll_elisa_event.2:0 "Elisa"
+sfdoll_elisa_event.2:0 "Communication with Elisa"
 sfdoll_elisa_event_2_a_desc:0 "Would you like a cup of coffee?"
 sfdoll_elisa_event_2_b_desc:0 "Don't just sit, exercise more!"
 sfdoll_elisa_event_2_c_desc:0 "Schedule your time reasonably."
@@ -24,6 +24,7 @@ sfdoll_elisa_event.3_option_3:0 "Noel"
 sfdoll_elisa_event.3_option_4:0 "OGAS"
 sfdoll_elisa_event.3_option_5:0 "Hari Seldon"
 sfdoll_elisa_event.3_option_6:0 "Ding Yi"
+sfdoll_elisa_event.3_option_7:0 "Roamer"
 
 
 sfdoll_elisa_event.4:0 "Communication with Elisa"

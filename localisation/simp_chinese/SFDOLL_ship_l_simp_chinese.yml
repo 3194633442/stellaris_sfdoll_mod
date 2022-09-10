@@ -237,3 +237,15 @@ description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_CRUIS
 
 sfdoll_CRUISER_BOW_X1:0 "强化主炮舰艏"
 sfdoll_battleship_bow_T1:0 "强化主炮舰艏"
+
+
+
+sfdoll_constructor:0 "铁血工程船"
+sfdoll_constructor_plural:0 "$sfdoll_constructor$"
+sfdoll_constructor_SECTION:0 "$sfdoll_constructor$"
+
+tech_sfdoll_constructor:0 "$sfdoll_constructor$"
+tech_sfdoll_constructor_desc:0 "为了在宇宙中生存,铁血们不得不花费大力气来研究太空工程."
+
+sfdoll_constructor_thruster:0 "$sfdoll_constructor$推进器"
+sfdoll_constructor_REACTOR:0 "$sfdoll_constructor$反应堆"

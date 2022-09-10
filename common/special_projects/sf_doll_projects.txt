@@ -200,7 +200,6 @@ special_project = {
 	# days_to_research = 30
 	tech_department = physics_technology
 
-	#待修改
 	picture = GFX_evt_analyzing_artifacts
 
 	event_scope = planet_event

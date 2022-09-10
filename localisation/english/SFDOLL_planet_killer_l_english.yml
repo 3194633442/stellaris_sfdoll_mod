@@ -54,6 +54,7 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_colonizer:0 "start colonization"
 
 sfdoll_change_hyperlane_ship:0 "Hyperlane Modification Beacon"
 sfdoll_change_hyperlane_section:0 "$sfdoll_change_hyperlane_ship$"
+design_sfdoll_change_hyperlane_ship:0 "$sfdoll_change_hyperlane_ship$"
 
 sfdoll_planet_killer_event.6:0 "Hyperlane Modification Project"
 sfdoll_planet_killer_event.6_desc:0 "Click to generate two beacons, move them to two systems respectively, then you can modify the Hyperlane between the two systems.\n\n Between the systems where the two beacons are located, if there is a Hyperlane, the Hyperlane will be deleted; if there is no Hyperlane, a new Hyperlane will be generated."

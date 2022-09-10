@@ -1,43 +1,43 @@
-mega_change_hyperlane_sfdoll = {
-	entity = "" #"ps_en_2" 
-	construction_entity = ""
-	place_entity_on_planet_plane = no
-	build_outside_gravity_well = yes
-	show_galactic_map_icon = yes
-	construction_blocks_and_blocked_by = multi_stage_type
-	prerequisites = { tech_mega_change_hyperlane_sfdoll 	}
-	show_prereqs = yes
-	potential = {
-		has_country_flag = sfdoll_empire
-		NOT = {
-			has_megastructure = mega_change_hyperlane_sfdoll
-		}
-	}
-	possible = {
-		exists = starbase
-		custom_tooltip = {
-			fail_text = "requires_inside_border"
-			is_inside_border = from
-		}
-	}
-	build_time = 3600
-	resources = {
-		category = megastructures
-		cost = {
-			alloys = 60000
-			sr_dark_matter = 500
-			GF_nyto_collapse_liquid = 500
-		}
-	}
-	on_build_complete = {
-		from = {
-			set_country_flag = has_built_or_repaired_megastructure
-			create_message = {
-				type = MEGASTRUCTURE_BUILT
-				localization = build_mega_change_hyperlane_sfdoll
-				days = 60
-				target = prev
-			}
-		}
-	}
-}
+# mega_change_hyperlane_sfdoll = {
+# 	entity = "" #"ps_en_2" 
+# 	construction_entity = ""
+# 	place_entity_on_planet_plane = no
+# 	build_outside_gravity_well = yes
+# 	show_galactic_map_icon = yes
+# 	construction_blocks_and_blocked_by = multi_stage_type
+# 	prerequisites = { tech_mega_change_hyperlane_sfdoll 	}
+# 	show_prereqs = yes
+# 	potential = {
+# 		has_country_flag = sfdoll_empire
+# 		NOT = {
+# 			has_megastructure = mega_change_hyperlane_sfdoll
+# 		}
+# 	}
+# 	possible = {
+# 		exists = starbase
+# 		custom_tooltip = {
+# 			fail_text = "requires_inside_border"
+# 			is_inside_border = from
+# 		}
+# 	}
+# 	build_time = 3600
+# 	resources = {
+# 		category = megastructures
+# 		cost = {
+# 			alloys = 60000
+# 			sr_dark_matter = 500
+# 			GF_nyto_collapse_liquid = 500
+# 		}
+# 	}
+# 	on_build_complete = {
+# 		from = {
+# 			set_country_flag = has_built_or_repaired_megastructure
+# 			create_message = {
+# 				type = MEGASTRUCTURE_BUILT
+# 				localization = build_mega_change_hyperlane_sfdoll
+# 				days = 60
+# 				target = prev
+# 			}
+# 		}
+# 	}
+# }

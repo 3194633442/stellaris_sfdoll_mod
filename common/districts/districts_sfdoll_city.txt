@@ -535,64 +535,6 @@ district_sfdoll_science = {
 	}
 }
 
-# district_sfdoll_leisure= {
-# 	base_buildtime = 600
-# 	is_capped_by_modifier = no
-
-# 	show_on_uncolonized = {
-# 		uses_district_set = sfdoll_world
-# 		from = {
-# 			has_authority = auth_gf_sfdoll
-# 			NOT = {
-# 				has_authority = auth_gf_sfdoll
-# 			}
-# 		}
-# 	}
-
-# 	potential = {
-# 		uses_district_set = sfdoll_world
-# 		owner = {
-# 			exists = owner
-# 			has_authority = auth_gf_sfdoll
-# 			NOT = {
-# 				has_authority = auth_gf_sfdoll
-# 			}
-# 		}
-# 	}
-
-# 	conversion_ratio = 1
-# 	convert_to = {
-# 		district_arcology_organic_housing
-# 		district_city
-# 		district_nexus
-# 		district_hive
-# 		district_arcology_housing
-# 	}
-
-# 	triggered_planet_modifier = {
-# 		potential = {
-# 			exists = owner
-# 			owner = {
-# 				has_authority = auth_gf_sfdoll
-# 			}
-# 		}
-# 		modifier = {
-# 			planet_housing_add = 10
-# 			job_sfdoll_artist_add = 6
-# 		}
-# 	}
-
-# 	resources = {
-# 		category = planet_districts
-# 		cost = {
-# 			minerals = 1000
-# 			consumer_goods = 50
-# 		}
-# 		upkeep = {
-# 			energy = 5
-# 		}
-# 	}
-# }
 #基础资源区划
 district_generator_sfdoll_city  = {
 	base_buildtime = 600
@@ -648,3 +590,6 @@ district_generator_sfdoll_city  = {
 		}
 	}
 }
+
+
+#铁血开拓城

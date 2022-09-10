@@ -10,7 +10,7 @@ utility_component_template = {
 	ai_weight = {	weight = 20	}
 }
 
-# 诺耶露跃迁
+#诺耶露跃迁
 utility_component_template = {
 	key = "sfdoll_noel_jump_drive"
 	size = small

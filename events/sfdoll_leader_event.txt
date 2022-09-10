@@ -41,5 +41,9 @@ country_event = {
 			limit = { exists = event_target:sfdoll_leader_dingyi }
 			event_target:sfdoll_leader_dingyi = { change_leader_portrait = GFX_sfdoll_dingyi }
 		}
+		if = {
+			limit = { exists = event_target:sfdoll_exd_leader }
+			event_target:sfdoll_exd_leader = { change_leader_portrait = exd2 }
+		}
 	}
 }

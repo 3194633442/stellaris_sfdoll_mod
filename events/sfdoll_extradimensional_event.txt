@@ -8,6 +8,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		is_ai = no
+		has_authority = auth_gf_sfdoll
 	}
 	after = {
 		hidden_effect = {
@@ -34,11 +35,9 @@ country_event = {
 	option = {
 		name = sfdoll_extradimensional_event.2_option
 		response_text = "sfdoll_extradimensional_event.2_response"
-	}
-	after = {
 		capital_scope = {
 			enable_special_project = {
-				name = sfdoll_exd_leader_project
+				name = "sfdoll_exd_leader_project"
 			}
 		}
 	}

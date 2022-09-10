@@ -220,7 +220,7 @@ tech_sfdoll_jump_drive = {
 	category = { field_manipulation }
 	icon = tech_sfdoll_jump_drive
 	prerequisites = {
-		tech_sfdoll_star_exploit
+		tech_building_sfdoll_mineral
 		tech_jump_drive_1
 	}
 	potential = {
@@ -465,4 +465,20 @@ tech_ship_sfdoll_carrier = {
 	}
 	tier = 5
 	weight = 0
+}
+
+#铁血工程船
+tech_sfdoll_constructor = {
+	cost = @tier1cost3
+	area = engineering
+	start_tech = no
+	icon = tech_space_construction
+	is_rare = yes
+	category = { voidcraft }
+	potential = {
+		always = no
+		has_authority = auth_gf_sfdoll
+	}
+	tier = 1
+	weight = 0 #1500
 }
