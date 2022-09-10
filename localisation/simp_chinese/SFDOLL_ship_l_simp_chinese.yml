@@ -103,7 +103,7 @@ tech_sfdoll_aux_rebuild_desc:0 "利用$sfdoll_aux_rebuild$,飞船可在受到致
 
 
 tech_sfdoll_thruster:0 "惯性干涉"
-tech_sfdoll_thruster_desc:0"这些推进系统似乎违反了过去的物理常识。"
+tech_sfdoll_thruster_desc:0"大自然是我们的好朋友"
 sfdoll_thruster:0"铁血先进机动系统"
 sfdoll_thruster_2:0"$sfdoll_thruster$"
 sfdoll_thruster_3:0 "$sfdoll_thruster$"

@@ -14,8 +14,8 @@ job_sfdoll_dark_matter_maker_effect_desc:0 "$job_sfdoll_dark_matter_maker$ consu
 mod_job_sfdoll_dark_matter_maker_add:0"$job_sfdoll_dark_matter_maker$ jobs"
 
 #collapse
-tech_sfdoll_collapse_liquid_produce:0"Matter Collapse Engineering"
-tech_sfdoll_collapse_liquid_produce_desc:0 "Reverse engineering of Collapse Particles is about to break new ground"
+tech_sfdoll_collapse_liquid_produce:0"Collapse Particle Manufacture"
+tech_sfdoll_collapse_liquid_produce_desc:0 "Collapse particles are a class of micromachines that are used in the processing of matter."
 
 building_sfdoll_collapse_liquid_plant:0"Collapse Fluid Factory"
 building_sfdoll_collapse_liquid_plant_desc:0 "Synthesize Collapse Fluid at high energy, and program it."
@@ -49,10 +49,10 @@ mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ jobs"
 # mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ jobs"
 
 
-tech_sfdoll_alloys_produce:0 "Neutronium Bionics"
-tech_sfdoll_alloys_produce_desc:0 "Processing technology based on strong interaction and baryon will be extended to different fields."
-tech_sfdoll_alloys_2:0 "Quality Rebuild"
-tech_sfdoll_alloys_2_desc:0 "According to the reverse collapse quality rebuild formula, we can perform efficient material printing."
+tech_sfdoll_alloys_produce:0 "Matter Collapse Engineering"
+tech_sfdoll_alloys_produce_desc:0 "According to the quality rebuild equation, we can perform efficient material printing."
+tech_sfdoll_alloys_2:0 "Matter Collapse Engineering 2"
+tech_sfdoll_alloys_2_desc:0 "The improved quality rebuild technology pointed out the direction for our industry"
 
 building_sfdoll_alloys:0"SF Alloys Factory"
 building_sfdoll_alloys_desc:0 "$building_sfdoll_alloys$"
@@ -65,15 +65,10 @@ job_sfdoll_alloys_maker_desc:0 "$job_sfdoll_alloys_maker$"
 job_sfdoll_alloys_maker_effect_desc:0 "$job_sfdoll_alloys_maker$ consumes §Y$minerals$§!, produces §Y$alloys$§!"
 mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ jobs"
 
-# job_sfdoll_alloys_producer_2:0"SF Alloys Senior Maker"
-# job_sfdoll_alloys_producer_2_plural:0"SF Alloys Senior Makers"
-# job_sfdoll_alloys_producer_2_desc:0"$job_sfdoll_alloys_producer_2$"
-# mod_job_sfdoll_alloys_producer_2_add:0"$job_sfdoll_alloys_producer_2$ jobs"
-
 
 tech_sfdoll_goods:0 "Collapse Technology Industry"
-tech_sfdoll_goods_desc:0 "Thanks to Collapse Technology, our production efficiency and craftsmanship have improved rapidly."
-tech_sfdoll_goods_2:0 "Sangvis Ferri Advanced Industry"
+tech_sfdoll_goods_desc:0 "Thanks to collapse technology, our production efficiency and craftsmanship have improved rapidly."
+tech_sfdoll_goods_2:0 "Advanced Collapse Industry"
 tech_sfdoll_goods_2_desc:0 "Ordinary civilizations simply do not understand the principles of our products."
 
 building_sfdoll_goods_plant:0 "SF Consumer Goods Factory"

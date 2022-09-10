@@ -34,8 +34,8 @@ special_project = {
 	key = "SFDOLL_TO_ZION_PROJECT"
 	event_chain = sfdoll_search_zion_chain
 	#待修改
-	cost = 0
-	days_to_research = 30
+	cost = @tier5cost1
+	days_to_research = 0
 	tech_department = physics_technology
 
 	#待修改

@@ -103,14 +103,13 @@ tech_sfdoll_aux_rebuild_desc:0 "Using the $sfdoll_aux_rebuild$, the ship can pro
 
 
 tech_sfdoll_thruster:0 "Inertial Interference"
-tech_sfdoll_thruster_desc:0" These thrusters systems seem to defy common sense physics of the past."
+tech_sfdoll_thruster_desc:0 "Nature is our good friend."
 sfdoll_thruster:0"SF Advanced Thruster"
 sfdoll_thruster_2:0"$sfdoll_thruster$"
 sfdoll_thruster_3:0 "$sfdoll_thruster$"
 sfdoll_thruster_4:0 "$sfdoll_thruster$"
 sfdoll_thruster_5:0 "$sfdoll_thruster$"
 sfdoll_thruster_6:0 "$sfdoll_thruster$"
-
 
 #computer
 tech_sfdoll_ship_computer:0"SF Warship AI"

@@ -6,7 +6,10 @@ country_event = {
 	id = sfdoll_ump45_event.0
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = {	has_authority = auth_gf_sfdoll	}
+	trigger = {
+		has_authority = auth_gf_sfdoll
+		is_ai = no
+	}
 	
 	immediate = {
 		# create_country = {
@@ -459,6 +462,7 @@ country_event = {
 
 	trigger = {
 		has_authority = auth_gf_sfdoll
+		is_ai = no
 	}
 
 	immediate = {

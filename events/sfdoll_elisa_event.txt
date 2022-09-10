@@ -240,8 +240,4 @@ country_event = {
 		city_level = this
 	}	
 	is_triggered_only = yes
-
-	option = {
-		name = OK
-	}
 }
