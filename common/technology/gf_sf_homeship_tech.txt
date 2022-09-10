@@ -44,7 +44,7 @@ tech_sfdoll_homeless_section_3 = {
 	category = { voidcraft }
 	prerequisites = {
 		tech_sfdoll_homeless_section_2
-		tech_sfdoll_star_exploit
+		tech_sfdoll_lab_2
 	}
 	potential = {
 		always = no

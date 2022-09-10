@@ -89,7 +89,7 @@ tech_sfdoll_weapon_p_2 = {
 	is_rare = yes
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_p_2
-	prerequisites = { tech_sfdoll_ship_power_2	}
+	prerequisites = { tech_building_sfdoll_mineral	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
@@ -238,7 +238,7 @@ tech_sfdoll_thruster = {
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_thruster
 	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = {  tech_sfdoll_weapon_s_1	}
+	prerequisites = {  tech_sfdoll_lab_2	}
 	weight = @tier4weight1
 }
 #作战电脑，需要ogas科技和知性作战ai
@@ -249,7 +249,7 @@ tech_sfdoll_ship_computer = {
 	category = { computing }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_ship_computer
-	prerequisites = { tech_sfdoll_ogas_ai	}
+	prerequisites = { tech_sfdoll_lab_2	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_combat_computers_3
@@ -278,7 +278,7 @@ tech_sfdoll_ship_power_2 = {
 	icon = tech_sfdoll_ship_power_2
 	category = { particles }
 	is_reverse_engineerable = no
-	prerequisites = { tech_building_sfdoll_mineral }
+	prerequisites = { tech_sfdoll_lab_2 }
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight3
 }
@@ -344,7 +344,7 @@ tech_sfdoll_ship_sensors = {
 	category = { military_theory }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_ship_sensors
-	prerequisites = {	tech_sfdoll_weapon_s_1	}
+	prerequisites = {	tech_sfdoll_lab_2	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sensors_4
@@ -376,7 +376,7 @@ tech_sfdoll_battleship_bow_x2 = {
 
 #系列战舰
 tech_sfdoll_warship_1 = {
-	cost = @tier5cost2
+	cost = @tier5cost3
 	tier = 5
 	area = engineering
 	is_rare = yes
@@ -384,8 +384,10 @@ tech_sfdoll_warship_1 = {
 	icon = tech_sfdoll_titan
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {
+		tech_building_sfdoll_mineral
 		tech_sfdoll_thruster
 		tech_sfdoll_ship_power_2
+		tech_sfdoll_ship_computer
 		tech_battleships
 	}
 	weight = 1400

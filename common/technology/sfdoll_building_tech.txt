@@ -43,12 +43,11 @@ tech_sfdoll_lab_2 = {
 	icon = tech_sfdoll_lab_2
 	tier = 5
 	category = { computing }
-	prerequisites = { tech_sfdoll_star_exploit }
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sfdoll_lab
 	}
-	weight =  1500
+	weight =  0
 }
 
 
@@ -72,7 +71,7 @@ tech_sfdoll_alloys_2= {
 	is_rare = yes
 	icon = tech_sfdoll_alloys_produce
 	prerequisites = {
-		tech_sfdoll_star_exploit
+		tech_sfdoll_lab_2
 		tech_sfdoll_alloys_produce
 	}
 	weight = @tier5weight1
@@ -101,7 +100,7 @@ tech_sfdoll_goods_2= {
 	icon = tech_sfdoll_goods
 	category = { statecraft }
 	prerequisites = {
-		tech_sfdoll_star_exploit
+		tech_sfdoll_lab_2
 		tech_sfdoll_goods
 	}
 	weight = @tier5weight1

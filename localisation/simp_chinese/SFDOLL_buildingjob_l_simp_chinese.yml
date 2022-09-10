@@ -2,8 +2,8 @@
 #职业本地化包括，职业名称，职业复数形式，职业描述，职业效果（用于显示在提供职业的建筑中），相关修正(mod_XX)的本地化
 
 #produce
-tech_sfdoll_dark_matter_plant:0"铁血暗物质合成"
-tech_sfdoll_dark_matter_plant_desc:0"暗物质打破了我们的物理常识.显然,我们必须设法获取更多暗物质."
+tech_sfdoll_dark_matter_plant:0"大一统理论"
+tech_sfdoll_dark_matter_plant_desc:0 "暗物质的命名,是对铁血科学史的纪念."
 building_sfdoll_dark_matter_plant:0"铁血暗物质工厂"
 building_sfdoll_dark_matter_plant_desc:0"$building_sfdoll_dark_matter_plant$"
 
@@ -54,8 +54,8 @@ mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ 岗位"
 
 tech_sfdoll_alloys_produce:0"零素仿生学"
 tech_sfdoll_alloys_produce_desc:0"基于强相互作用和重子的加工技术,将被推广到不同领域"
-tech_sfdoll_alloys_2:0 "坍塌技术合金工艺改进"
-tech_sfdoll_alloys_2_desc:0 "$tech_sfdoll_alloys_2$"
+tech_sfdoll_alloys_2:0 "质量重建"
+tech_sfdoll_alloys_2_desc:0 "根据逆向坍塌质量重建方程,我们可以进行高效的物质打印"
 
 building_sfdoll_alloys:0"铁血合金工厂"
 building_sfdoll_alloys_desc:0 "$building_sfdoll_alloys$"
@@ -77,13 +77,13 @@ mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ 岗位"
 
 tech_sfdoll_goods:0 "坍塌技术工业"
 tech_sfdoll_goods_desc:0 "得益于坍塌技术，我们的生产效率和工艺水准飞速进步。"
-tech_sfdoll_goods_2:0 "铁血高级工业"
-tech_sfdoll_goods_2_desc:0 "$tech_sfdoll_goods_2$"
+tech_sfdoll_goods_2:0 "次元合成"
+tech_sfdoll_goods_2_desc:0 "普通的文明根本搞不懂我们产品的原理"
 
 building_sfdoll_goods_plant:0 "铁血消费品工厂"
-building_sfdoll_goods_plant_desc:0 "$building_sfdoll_goods_plant$"
+building_sfdoll_goods_plant_desc:0 "$tech_sfdoll_goods_desc$"
 building_sfdoll_goods_plant_2:0 "铁血高级消费品工厂"
-building_sfdoll_goods_plant_2_desc:0 "$building_sfdoll_goods_plant_2$"
+building_sfdoll_goods_plant_2_desc:0 "$tech_sfdoll_goods_2_desc$"
 
 job_sfdoll_goods_maker:0"铁血工匠"
 job_sfdoll_goods_maker_plural:0"$job_sfdoll_goods_maker$"

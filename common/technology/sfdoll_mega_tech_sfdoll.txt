@@ -17,7 +17,7 @@ tech_sfdoll_mega_starport= {
 	modifier = {
 		country_resource_max_add = 40000
 	}
-	weight = @tier5weight3
+	weight = @tier3weight3
 }
 
 #太空城市
@@ -52,7 +52,7 @@ tech_sfdoll_star_exploit = {
 	is_dangerous = yes
 	icon = tech_sfdoll_star_exploit
 	prerequisites = {
-		tech_building_sfdoll_mineral
+		tech_sfdoll_lab_2
 		tech_mega_engineering
 	}
 	potential = {
@@ -64,7 +64,7 @@ tech_sfdoll_star_exploit = {
 	modifier = {
 		country_resource_max_add = 40000
 	}
-	weight = 0
+	weight = @tier3weight3
 }
 
 tech_sfdoll_star_attacker = {

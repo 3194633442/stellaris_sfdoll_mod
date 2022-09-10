@@ -102,7 +102,7 @@ tech_sfdoll_aux_rebuild:0 "$sfdoll_aux_rebuild$"
 tech_sfdoll_aux_rebuild_desc:0 "利用$sfdoll_aux_rebuild$,飞船可在受到致命攻击时保护核心机能,并短暂潜入其他维度,再利用冗余备份来修复舰船."
 
 
-tech_sfdoll_thruster:0"$sfdoll_thruster$"
+tech_sfdoll_thruster:0 "惯性干涉"
 tech_sfdoll_thruster_desc:0"这些推进系统似乎违反了过去的物理常识。"
 sfdoll_thruster:0"铁血先进机动系统"
 sfdoll_thruster_2:0"$sfdoll_thruster$"

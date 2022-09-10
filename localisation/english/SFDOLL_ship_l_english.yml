@@ -102,7 +102,7 @@ tech_sfdoll_aux_rebuild:0 "$sfdoll_aux_rebuild$"
 tech_sfdoll_aux_rebuild_desc:0 "Using the $sfdoll_aux_rebuild$, the ship can protect the core function when it is fatally attacked, and sneak into other dimensions briefly, and then use the redundant backup to repair the ship.."
 
 
-tech_sfdoll_thruster:0"$sfdoll_thruster$"
+tech_sfdoll_thruster:0 "Inertial Interference"
 tech_sfdoll_thruster_desc:0" These thrusters systems seem to defy common sense physics of the past."
 sfdoll_thruster:0"SF Advanced Thruster"
 sfdoll_thruster_2:0"$sfdoll_thruster$"
