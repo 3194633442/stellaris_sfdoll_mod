@@ -1,8 +1,10 @@
-tech_repeatable_sfdoll_phy = {
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	levels = 3
+tech_sfdoll_ap_phy = {
+	# cost = 2000
+	# cost_per_level = @repeatableTechLevelCost
+	# tier = 2
+	# levels = 3
+	cost = @tier5cost3
+	tier = 5
 	area = physics
 	category = { field_manipulation }
 	is_rare = yes
@@ -10,17 +12,13 @@ tech_repeatable_sfdoll_phy = {
 	icon = tech_repeatable_sfdoll_phy
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_country_flag = tech_repeatable_sfdoll_phy_unlocked
 	}
-	weight = 3000
-	potential = { has_authority = auth_gf_sfdoll }
+	weight = 0
 }
 
-tech_repeatable_sfdoll_soc = {
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	levels = 3
+tech_sfdoll_ap_soc = {
+	cost = @tier5cost3
+	tier = 5
 	area = society
 	category = { military_theory }
 	is_rare = yes
@@ -28,17 +26,13 @@ tech_repeatable_sfdoll_soc = {
 	icon = tech_repeatable_sfdoll_soc
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_country_flag = tech_repeatable_sfdoll_phy_unlocked
 	}
-	weight = 3000
-	potential = { has_authority = auth_gf_sfdoll }
+	weight = 0
 }
 
-tech_repeatable_sfdoll_eng = {
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	levels = 3
+tech_sfdoll_ap_eng = {
+	cost = @tier5cost3
+	tier = 5
 	area = engineering
 	category = { materials }
 	is_rare = yes
@@ -46,10 +40,8 @@ tech_repeatable_sfdoll_eng = {
 	icon = tech_repeatable_sfdoll_eng
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_country_flag = tech_repeatable_sfdoll_phy_unlocked
 	}
-	weight = 3000
-	potential = { has_authority = auth_gf_sfdoll }
+	weight = 0
 }
 
 # tech_repeatable_weapon_type_sfdoll = {

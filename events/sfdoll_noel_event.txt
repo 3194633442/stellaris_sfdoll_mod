@@ -288,10 +288,10 @@ country_event = {
 	option = {
 		name = sfdoll_noel_event.2_option
 		add_resource = {
-			unity = 1000
-			physics_research = 12000
-			society_research = 12000
-			engineering_research = 12000
+			unity = 400
+			physics_research = 8000
+			society_research = 8000
+			engineering_research = 8000
 		}
 	}
 }
@@ -314,10 +314,10 @@ country_event = {
 	option = {
 		name = sfdoll_noel_event.3_option
 		add_resource = {
-			unity = 2000
-			physics_research = 16000
-			society_research = 16000
-			engineering_research = 16000
+			unity = 400
+			physics_research = 8000
+			society_research = 8000
+			engineering_research = 8000
 		}
 	}
 }

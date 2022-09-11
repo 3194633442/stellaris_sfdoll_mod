@@ -45,12 +45,12 @@ tech_sfdoll_reverse_collapse_3:0"逆向坍塌 3"
 tech_sfdoll_reverse_collapse_3_desc:0"不要哀伤:\n新的永昼很快就要降临"
 
 
-tech_repeatable_sfdoll_phy:0 "规则覆写工程"
-tech_repeatable_sfdoll_phy_desc:0 "利用新的理论,对银河系的环境进行改造"
+tech_sfdoll_ap_phy:0 "规则覆写工程"
+tech_sfdoll_ap_phy_desc:0 "利用新的理论,对银河系的环境进行改造"
 
-tech_repeatable_sfdoll_soc:0 "虚实转换技术"
-tech_repeatable_sfdoll_soc_desc:0 "模仿锡安世界的设备,完成独特的物质转换"
+tech_sfdoll_ap_soc:0 "虚实转换技术"
+tech_sfdoll_ap_soc_desc:0 "模仿锡安世界的设备,完成独特的物质转换"
 
-tech_repeatable_sfdoll_eng:0 "现实投影工程"
-tech_repeatable_sfdoll_eng_desc:0 "§H唤醒我们的新世界§! "
+tech_sfdoll_ap_eng:0 "现实投影工程"
+tech_sfdoll_ap_eng_desc:0 "§H唤醒我们的新世界§! "
 

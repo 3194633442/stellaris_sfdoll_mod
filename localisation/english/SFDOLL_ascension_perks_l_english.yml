@@ -16,7 +16,8 @@ gf_sfdoll_ascension_perk_event_0_desc:0 "Thank you, father;\n\nGoodbye, father."
 
 #
 ap_sfdoll_3:0 "Sangvis Ferri Project: Lunasia"
-ap_sfdoll_3_desc:0 "On the way home.\n\nRequires technologies £physics£$tech_repeatable_sfdoll_phy$, £society£$tech_repeatable_sfdoll_soc$, £engineering£$tech_repeatable_sfdoll_eng$ . Each technology requires three cycles."
+ap_sfdoll_3_desc:0 "On the way home."
+
 
 #
 ap_sfdoll_4:0 "Sangvis Ferri Project: Jormungand"
@@ -31,5 +32,3 @@ tech_sfdoll_social_reform_2_desc:0 "The output of some jobs will be improved."
 
 tech_build_sfdoll_city:0"Sangvis Ferri Project"
 tech_build_sfdoll_city_desc:0 "Sangvis Ferri Planet incorporates a variety of advanced concepts and technologies."
-
-

@@ -168,15 +168,10 @@ country_event = {
 	desc = sfdoll_to_zion_event.10_desc
 	picture =  GFX_evp_sfdoll_digi_mind
 	is_triggered_only = yes
-	immediate = {
-		hidden_effect = {
-			set_country_flag = tech_repeatable_sfdoll_phy_unlocked
-		}
-	}
 	option = {
 		name = sfdoll_to_zion_event.10_option
-		add_research_option = tech_repeatable_sfdoll_phy
-		add_research_option = tech_repeatable_sfdoll_soc
-		add_research_option = tech_repeatable_sfdoll_eng
+		add_research_option = tech_sfdoll_ap_phy
+		add_research_option = tech_sfdoll_ap_soc
+		add_research_option = tech_sfdoll_ap_eng
 	}
 }

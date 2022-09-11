@@ -25,7 +25,7 @@ sfdoll_collapse_liquid_maker = {
 					has_technology = tech_sfdoll_social_reform_2
 				}
 			}
-			GF_nyto_collapse_liquid = 12
+			GF_nyto_collapse_liquid = 6
 		}
 		upkeep = {	energy = 10	}
 	}
@@ -57,7 +57,7 @@ sfdoll_dark_matter_maker = {
 				}
 			}
 
-			sr_dark_matter = 12
+			sr_dark_matter = 6
 		}
 		upkeep = {	energy = 10	}
 	}
@@ -123,9 +123,9 @@ sfdoll_researcher = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			physics_research = 80
-			society_research = 80
-			engineering_research = 80
+			physics_research = 40
+			society_research = 40
+			engineering_research = 40
 		}
 		produces = {
 			trigger = {
@@ -134,13 +134,13 @@ sfdoll_researcher = {
 				}
 			}
 
-			physics_research = 160
-			society_research = 160
-			engineering_research = 160
+			physics_research = 40
+			society_research = 40
+			engineering_research = 40
 		}
 
 		upkeep = {
-			consumer_goods = 16
+			consumer_goods = 12
 		}
 	}
 	weight = {	weight = 30	}
@@ -194,7 +194,7 @@ sfdoll_alloys_maker = {
 	resources = {
 		category = planet_metallurgists
 		produces = {
-			alloys = 60
+			alloys = 30
 		}
 		produces = {
 			trigger = {
@@ -202,11 +202,11 @@ sfdoll_alloys_maker = {
 					has_technology = tech_sfdoll_social_reform_2
 				}
 			}
-			alloys = 120
+			alloys = 30
 		}
 
 		upkeep = {
-			minerals =  48
+			minerals =  36
 		}
 	}
 	weight = {	weight = 20	}
@@ -262,7 +262,7 @@ sfdoll_goods_maker = {
 	resources = {
 		category = planet_artisans
 		produces = {
-			consumer_goods = 120
+			consumer_goods = 60
 			engineering_research = 6
 		}
 		produces = {
@@ -271,12 +271,12 @@ sfdoll_goods_maker = {
 					has_technology = tech_sfdoll_social_reform_2
 				}
 			}
-			consumer_goods = 240
+			consumer_goods = 60
 			engineering_research = 12
 		}
 
 		upkeep = {
-			minerals = 48
+			minerals = 36
 		}
 	}
 	weight = {

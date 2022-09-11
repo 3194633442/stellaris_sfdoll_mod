@@ -55,7 +55,10 @@ country_event = {
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump45
-		room = sfdoll_01_room
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
 	}	
 	is_triggered_only = yes
 
@@ -456,7 +459,10 @@ country_event = {
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump45
-		room = sfdoll_01_room
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
 	}	
 	is_triggered_only = yes
 

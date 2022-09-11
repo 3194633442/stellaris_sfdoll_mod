@@ -16,7 +16,8 @@ gf_sfdoll_ascension_perk_event_0_desc:0 "谢谢你,父亲;\n\n再见了,父亲."
 
 #
 ap_sfdoll_3:0 "铁血计划:露尼西亚"
-ap_sfdoll_3_desc:0 "踏上归乡之路.\n\n需要科技£physics£$tech_repeatable_sfdoll_phy$, £society£$tech_repeatable_sfdoll_soc$, £engineering£$tech_repeatable_sfdoll_eng$ .每项科技需要3个循环."
+ap_sfdoll_3_desc:0 "踏上归乡之路."
+# \n\n需要科技£physics£$tech_repeatable_sfdoll_phy$, £society£$tech_repeatable_sfdoll_soc$, £engineering£$tech_repeatable_sfdoll_eng$ .每项科技需要3个循环.
 
 #
 ap_sfdoll_4:0 "铁血计划:耶梦加得"
@@ -30,6 +31,4 @@ tech_sfdoll_social_reform_2_desc:0 "部分岗位产出将获得提升."
 
 tech_build_sfdoll_city:0"铁血星球企划"
 tech_build_sfdoll_city_desc:0 "铁血星球融入了多种先进的理念和技术."
-
-
 
