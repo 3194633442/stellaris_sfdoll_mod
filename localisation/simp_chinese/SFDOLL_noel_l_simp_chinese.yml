@@ -29,7 +29,7 @@ sfdoll_noel_event.3_desc:0 "研究诺耶露的项目发生了意外！诺耶露�
 sfdoll_noel_event.3_option:0 "我们低估了她能力的成长"
 
 sfdoll_noel_event.4:0 "诺耶露？"
-sfdoll_noel_event.4_desc:0 "在我们星球的上空，出现了通往其他次元的裂缝，其中倾泻出大量物质流，让我们的星球处于危险中。\n\n在同一时间，诺耶露出现在附近的太空中。诺耶露要求我们派出最精锐的舰队，跟随她前往裂缝的另一边，协助她关闭次元裂缝。\n\n我们注意到，诺耶露和之前相比，存在巨大的差异"
+sfdoll_noel_event.4_desc:0 "在我们星球的上空，出现了通往其他次元的裂缝，其中倾泻出大量物质流，让我们的星球处于危险中。\n\n在同一时间，诺耶露出现在附近的太空中。诺耶露要求我们派出最精锐的舰队，跟随她前往裂缝的另一边，协助她关闭次元裂缝。"
 sfdoll_noel_event.4_option:0 "她会帮我们吗?"
 
 sfdoll_noel_event.5:0 "紧急会议"
@@ -39,15 +39,13 @@ sfdoll_noel_event.5_option:0 "露尼西亚如果在这里，肯定会选择相�
 sfdoll_noel_event.7:0 "协助诺耶露"
 sfdoll_noel_event.7_desc:0 "铁血们的意见在OGAS网络中交汇。很快，它们作出了的决定，跟随诺耶露开始了救灾工作。\n\n次元裂缝的反应逐步减弱，星球恢复了安全。"
 
-
 sfdoll_noel_event.8:0 "和诺耶露通讯"
 sfdoll_noel_event.8_desc:0 "我看起来很很可疑吧?其实,我和你们经历的时间是不同的.我现在的年龄,比你们大得多."
 sfdoll_noel_event.8_option:0 "你去了哪里?"
 
 sfdoll_noel_event.9:0 "和诺耶露通讯"
 sfdoll_noel_event.9_desc:0 "说来话长。我试图找到一些人，亲手解决一些问题。有些遗憾被消除了，却又留下了新的遗憾。"
-sfdoll_noel_event.9_option:0 "接下来你要去哪？"
-response_sfdoll_noel_event.9_option:0 "我会暂时留下来.我有些担心你们的未来.我会与你们同行,直到时间的尽头."
+sfdoll_noel_event.9_option:0 "总之,欢迎回来。"
 
 #noel trait
 leader_trait_governor_sfdoll_noel:0 "遗迹少女"

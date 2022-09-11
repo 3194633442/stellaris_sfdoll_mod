@@ -437,7 +437,8 @@ country_event = {
 	}
 	option = {
 		name = sfdoll_noel_event.9_option
-		response_text = response_sfdoll_noel_event.9_option
+		break = yes
+		# response_text = response_sfdoll_noel_event.9_option
 	}
 }
 

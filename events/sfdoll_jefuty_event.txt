@@ -1,0 +1,3 @@
+namespace = sfdoll_jefuty_event
+#id标准写法为namespace的值加上编号
+#神枪少女

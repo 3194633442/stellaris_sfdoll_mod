@@ -29,11 +29,11 @@ sfdoll_noel_event.3_desc:0 "The project to research Noel has an accident! While 
 sfdoll_noel_event.3_option:0 "We underestimated the growth of her ability"
 
 sfdoll_noel_event.4:0 "Noel?"
-sfdoll_noel_event.4_desc:0 "Above our planet, rifts to other dimensions have appeared, pouring out massive streams of matter that put our planet in danger. \n\n At the same time, Noel appeared in the nearby space. Noyelu asked us to send the most elite fleet to follow her to the other side of the crack to help her close the dimensional crack. \n\n We noticed that there is a huge difference between Noel and before"
+sfdoll_noel_event.4_desc:0 "Above our planet, rifts to other dimensions have appeared, pouring out massive streams of matter that put our planet in danger. \n\n At the same time, Noel appeared in the nearby space. Noyelu asked us to send the most elite fleet to follow her to the other side of the crack to help her close the dimensional crack."
 sfdoll_noel_event.4_option:0 "Is she going to help us?"
 
 sfdoll_noel_event.5:0 "Emergency Meeting"
-sfdoll_noel_event.5_desc:0 "As you can see, noel is suspicious now, and there is a risk in cooperating with her. What do you think?"
+sfdoll_noel_event.5_desc:0 "As you can see, Noel is suspicious now, and there is a risk in cooperating with her. What do you think?"
 sfdoll_noel_event.5_option:0 "If Lunasia is here, she will definitely choose to believe noel."
 
 sfdoll_noel_event.7:0 "Assist Noel"
@@ -42,12 +42,12 @@ sfdoll_noel_event.7_desc:0 "SF Dolls' opinions converge on the OGAS network. Soo
 
 sfdoll_noel_event.8:0 "In communication with Noel"
 sfdoll_noel_event.8_desc:0 "I look suspicious, don't I? Actually, I experienced a different time from you. I am now much older than you."
-sfdoll_noel_event.8_option:0 "where did you go?"
+sfdoll_noel_event.8_option:0 "Where did you go?"
 
 sfdoll_noel_event.9:0 "In communication with Noel"
 sfdoll_noel_event.9_desc:0 "Long story. I'm trying to find some people and solve some problems myself. Some regrets are removed, but new ones are left behind."
-sfdoll_noel_event.9_option:0 "Where are you going next?"
-response_sfdoll_noel_event.9_option:0 "I will stay for now. I am a little worried about your future. I will walk with you until the end of time."
+sfdoll_noel_event.9_option:0 "Anyway, welcome back."
+
 
 #noel trait
 leader_trait_governor_sfdoll_noel:0 "Relic Site Girl"
