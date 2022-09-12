@@ -8,6 +8,7 @@ portraits = {
 	GFX_portrait_sfdoll_ogas40 = { textureFile = "gfx/models/portraits/gf_sfdoll_02/ogas40.dds" }
 	GFX_sfdoll_hari_seldon = { textureFile = "gfx/models/portraits/gf_sfdoll_02/gf_sfdoll_hari_seldon.dds" }
 	GFX_sfdoll_dingyi = { textureFile = "gfx/models/portraits/gf_sfdoll_02/dingyi.dds" }
+	GFX_sfdoll_jefuty = { textureFile = "gfx/models/portraits/gf_sfdoll_02/jefuty.dds" }
 }
 
 # exd1	= {	entity = "portrait_extradimensional_01_entity"		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "mammalian_01_greetings" }
