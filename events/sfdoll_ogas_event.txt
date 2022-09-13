@@ -10,10 +10,10 @@ country_event = {
 
 	picture_event_data = {
 		portrait = GFX_portrait_sfdoll_ogas40
-		room = sfdoll_digi_mind_room
-		# graphical_culture = this
-		# planet_background = this
-		# city_level = this
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
 	}	
 	is_triggered_only = yes
 

@@ -109,7 +109,10 @@ country_event = {
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_triela
-		room = sfdoll_garden_room
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
 	}	
 	is_triggered_only = yes
 
