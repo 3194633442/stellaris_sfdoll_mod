@@ -235,7 +235,7 @@ country_event = {
 		#延迟一段时间后触发诺耶露状况事件
 		country_event = {
 			id = sfdoll_noel_event.2
-			days = 1080
+			days = 1800
 		}
 	}
 	

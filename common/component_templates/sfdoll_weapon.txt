@@ -10,7 +10,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
+	# static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
 	damage = { min = 14000 max = 22000 }
@@ -62,7 +62,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
+	# static_rotation = yes
 	use_ship_kill_target = yes
 	#8500
 	damage = { min = 28000 max = 44000 }
@@ -76,13 +76,12 @@ weapon_component_template = {
 	armor_damage = 3
 	hull_damage = 4
 	power = -2400
-	
+	tags = { weapon_type_energy weapon_type_kinetic  }
+	ai_tags = { weapon_role_artillery }
 	#待修改
 	prerequisites = { tech_sfdoll_weapon_s_1 }
 	component_set = "component_set_sfdoll_weapen_t_1"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic  }
-	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components

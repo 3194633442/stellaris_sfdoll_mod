@@ -10,8 +10,11 @@ tech_sfdoll_psychohistory = {
 	is_rare = yes
 	category = { statecraft }
 	icon = tech_sfdoll_psychohistory
-	weight = 0
+	weight = @tier4weight1
 	potential = {	has_authority = auth_gf_sfdoll	}
+	prerequisites = {
+		tech_sfdoll_lab_2
+	}
 	modifier = {
 		empire_size_mult = -0.1
 	}

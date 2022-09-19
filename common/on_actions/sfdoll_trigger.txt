@@ -85,11 +85,10 @@ on_yearly_pulse = {
 }
 
 # this = country
-on_five_year_pulse_country = {
-	events = {
-		sfdoll_foundation_event.1
-	}
-}
+# on_five_year_pulse_country = {
+# 	events = {
+# 	}
+# }
 
 on_modification_complete = {
 	events = {

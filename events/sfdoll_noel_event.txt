@@ -277,10 +277,10 @@ country_event = {
 	}
 	immediate = {
 		hidden_effect = {
-			#诺耶露情况2
+			#后续
 			country_event = {
 				id = sfdoll_noel_event.3
-				days = 720
+				days = 1800
 			}
 		}
 		
@@ -307,7 +307,7 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_noel_event.4
-				days = 180
+				days = 360
 			}
 		}
 	}
@@ -438,7 +438,7 @@ country_event = {
 	option = {
 		name = sfdoll_noel_event.9_option
 		break = yes
-		# response_text = response_sfdoll_noel_event.9_option
+		response_text = response_sfdoll_noel_event.9_option
 	}
 }
 
@@ -460,5 +460,4 @@ ship_event = {
 			}
 		}
 	}
-
 }
