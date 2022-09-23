@@ -391,6 +391,7 @@ sfdoll_educator = {
 			unity = 20
 			society_research = 6
 		}
+		upkeep = { consumer_goods = 2	}
 	}
 	weight = {
 		weight = 20

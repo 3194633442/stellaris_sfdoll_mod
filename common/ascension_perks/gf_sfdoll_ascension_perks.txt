@@ -47,9 +47,6 @@ ap_sfdoll_reverse_collapse ={
 		add_research_option = tech_sf_doll_modding_2
 		add_research_option = tech_sfdoll_collapse_liquid_produce
 		add_research_option = tech_dark_matter_power_core
-		country_event = {
-			id = sfdoll_to_zion_event.7
-		}
 		hidden_effect = {
 			country_event = {
 				id = gf_sfdoll_ascension_perk_event.0
@@ -74,13 +71,15 @@ ap_sfdoll_3 = {
 	possible = {
 		has_technology = tech_sfdoll_dark_matter_plant
 		has_technology = tech_sfdoll_lab
+		has_technology = tech_sfdoll_alloys_produce
+		has_technology = tech_sfdoll_goods
 		has_technology = tech_jump_drive_1
-		has_technology = tech_sfdoll_ap_phy
-		has_technology = tech_sfdoll_ap_soc
-		has_technology = tech_sfdoll_ap_eng
 		has_ascension_perk= ap_sfdoll_reverse_collapse
 	}
 	on_enabled = {
+		country_event = {
+			id = sfdoll_to_zion_event.7
+		}
 		add_research_option = tech_sfdoll_lab_2
 	}
 	modifier = {
@@ -98,12 +97,9 @@ ap_sfdoll_4= {
 		}
 	}
 	possible = {
-		has_technology = tech_sfdoll_lab_2
-		has_technology = tech_sfdoll_alloys_2
-		has_technology = tech_sfdoll_goods_2
-		has_technology = tech_sfdoll_thruster
-		has_technology = tech_sfdoll_ship_sensors
-		has_technology = tech_sfdoll_ship_power_2
+		has_technology = tech_sfdoll_ap_phy
+		has_technology = tech_sfdoll_ap_soc
+		has_technology = tech_sfdoll_ap_eng
 		# has_technology = tech_sfdoll_singularity
 		# has_technology = tech_sfdoll_jump_drive
 	}

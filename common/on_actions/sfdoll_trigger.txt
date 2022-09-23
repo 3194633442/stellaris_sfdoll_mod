@@ -15,7 +15,6 @@ on_yearly_pulse_country = {
 on_custom_diplomacy = {
 	events = {
 		sfdoll_elisa_event.2
-		sfdoll_mod_version_event.2
 		# sfdoll_ump45_event.1
 		# sfdoll_noel_event.1
 		# sfdoll_gunslinger_girl_event.6

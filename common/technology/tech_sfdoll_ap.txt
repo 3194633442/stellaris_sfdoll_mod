@@ -24,10 +24,13 @@ tech_sfdoll_ap_soc = {
 	is_rare = yes
 	is_dangerous = yes
 	icon = tech_repeatable_sfdoll_soc
+	prerequisites = {
+		tech_sfdoll_ap_phy
+	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 0
+	weight = 2000
 }
 
 tech_sfdoll_ap_eng = {
@@ -41,7 +44,10 @@ tech_sfdoll_ap_eng = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 0
+	prerequisites = {
+		tech_sfdoll_ap_soc
+	}
+	weight = 2000
 }
 
 # tech_repeatable_weapon_type_sfdoll = {
