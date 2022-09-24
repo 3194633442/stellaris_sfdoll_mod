@@ -9,5 +9,5 @@ tags={
 	"Technologies"
 }
 name="少女前线GirlsFrontline 铁血人形物种包SangvisFerriSpecies"
-supported_version="3.4.5"
+supported_version="3.5.2"
 remote_file_id="2703227924"

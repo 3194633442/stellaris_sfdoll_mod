@@ -14,31 +14,35 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_to_zion_event.2
-				days = 30
 			}
 		}
 	}
 }
 
-#成功建立港口，添加发掘数据项目
+#成功建立港口,之后进行发掘数据
 country_event = {
 	id = sfdoll_to_zion_event.2
 	title = "sfdoll_to_zion_event_2"
 	desc = "sfdoll_to_zion_event_2_desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_unknown_civilization_5
+	picture = GFX_evp_sfdoll_physics_research
 	immediate = {
-		#capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_DIGI_PROJECT		}	}
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_to_zion_event.3
-				days = 60
-			}
-		}
+		# hidden_effect = {
+		# 	country_event = {
+		# 		id = sfdoll_to_zion_event.3
+		# 		days = 60
+		# 	}
+		# }
 	}
 	option = {
 		name = sfdoll_to_zion_event.2_option
+		# capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_DIGI_PROJECT		}	}
+		hidden_effect = {
+			country_event = {
+				id = sfdoll_to_zion_event.3
+			}
+		}
 	}
 }
 
@@ -49,7 +53,7 @@ country_event = {
 	desc = "sfdoll_to_zion_event_3_desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_digi_mind
+	picture = GFX_evp_sfdoll_physics_research
 	option = {
 		name = OK
 		add_resource = {
@@ -59,11 +63,9 @@ country_event = {
 		}
 	}
 	after = {
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_to_zion_event.4
-				days = 30
-			}
+		country_event = {
+			id = sfdoll_to_zion_event.4
+			days = 60
 		}
 	}
 }
@@ -75,13 +77,12 @@ country_event = {
 	desc = "sfdoll_to_zion_event_4_desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture =GFX_evp_sfdoll_unknown_civilization_4
+	picture = GFX_evp_sfdoll_sapient_AI
 	# option = {	name = sfdoll_to_zion_event_4_option	}
 	after = {
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_to_zion_event.5
-				days = 15
 			}
 		}
 	}
@@ -94,7 +95,7 @@ country_event = {
 	desc = "sfdoll_to_zion_event_5_desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_unknown_civilization_3
+	picture = GFX_evp_sfdoll_sapient_AI
 	option = {
 		name = sfdoll_to_zion_event_5_option
 		capital_scope = {	enable_special_project = {	name = SFDOLL_ZION_SHIP_DIGI_PROJECT	}	}
@@ -108,7 +109,7 @@ country_event = {
 	desc = "sfdoll_to_zion_event_6_desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_unknown_civilization_3
+	picture = GFX_evp_sfdoll_intelligence_report
 	option = {	name = sfdoll_to_zion_event_6_option }
 	after = {
 		hidden_effect = {
@@ -166,12 +167,10 @@ country_event = {
 	id= sfdoll_to_zion_event.10
 	title = sfdoll_to_zion_event.10
 	desc = sfdoll_to_zion_event.10_desc
-	picture =  GFX_evp_sfdoll_digi_mind
+	picture = GFX_evp_sfdoll_intelligence_report
 	is_triggered_only = yes
 	option = {
 		name = sfdoll_to_zion_event.10_option
 		add_research_option = tech_sfdoll_ap_phy
-		add_research_option = tech_sfdoll_ap_soc
-		add_research_option = tech_sfdoll_ap_eng
 	}
 }

@@ -78,6 +78,52 @@ country_event = {
 		response_text = "response_text_ogas40_to_job"
 	}
 
+	#ump40变舰队司令
+	option = {
+		name =  "ogas40_to_admiral"
+		allow = { 
+			custom_tooltip ={
+				fail_text ="ogas40_has_this_job_now"
+				NOT = {
+					AND = {
+						exists = event_target:ogas40_sfdoll_leader
+						event_target:ogas40_sfdoll_leader = {
+							leader_class = admiral
+							owner = {
+								is_same_value = root
+							}
+						}
+					}
+				}
+			}			 
+		}
+		ogas40_become_admiral_effect = yes
+		response_text = "response_text_ogas40_to_job"
+	}
+
+	#ump40变陆军指挥
+	option = {
+		name =  "ogas40_to_general"
+		allow = { 
+			custom_tooltip ={
+				fail_text ="ogas40_has_this_job_now"
+				NOT = {
+					AND = {
+						exists = event_target:ogas40_sfdoll_leader
+						event_target:ogas40_sfdoll_leader = {
+							leader_class = general
+							owner = {
+								is_same_value = root
+							}
+						}
+					}
+				}
+			}			 
+		}
+		ogas40_become_general_effect = yes
+		response_text = "response_text_ogas40_to_job"
+	}
+
 	#退出
 	option = {
 		name =  "sfdoll_break_option"

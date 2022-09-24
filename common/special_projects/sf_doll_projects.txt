@@ -89,7 +89,7 @@ special_project = {
 	tech_department = engineering_technology
 
 	#待修改
-	picture = GFX_evp_sfdoll_unknown_civilization_3
+	picture = GFX_evp_sfdoll_sapient_AI
 	event_scope = planet_event
 	requirements = {
 		leader = scientist
@@ -167,7 +167,7 @@ special_project = {
 	tech_department = engineering_technology
 
 	#待修改
-	picture = GFX_evp_sfdoll_ump45_ump40
+	picture = GFX_evp_sfdoll_digi_mind_2
 	event_scope = planet_event
 	requirements = {
 		leader = scientist
@@ -189,7 +189,6 @@ special_project = {
 		}
 	}
 }
-
 
 #高维人
 special_project = {

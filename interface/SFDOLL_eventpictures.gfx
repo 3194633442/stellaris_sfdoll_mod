@@ -49,6 +49,14 @@ spriteTypes = {
 
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_evp_sfdoll_digi_mind_2"
+		texturefile = "gfx/event_pictures/evp_sfdoll_digi_mind_2.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
 		name = "GFX_evp_sfdoll_archaeo"
 		texturefile = "gfx/event_pictures/evp_sfdoll_archaeo.dds"
 		alwaystransparent = yes
@@ -120,22 +128,6 @@ spriteTypes = {
 
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_evp_sfdoll_unknown_civilization_3"
-		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_3.dds"
-		alwaystransparent = yes
-	}
-}
-
-spriteTypes = {	
-	spriteType = {
-		name = "GFX_evp_sfdoll_unknown_civilization_4"
-		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_4.dds"
-		alwaystransparent = yes
-	}
-}
-
-spriteTypes = {	
-	spriteType = {
 		name = "GFX_evp_sfdoll_unknown_civilization_5"
 		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_5.dds"
 		alwaystransparent = yes
@@ -144,11 +136,28 @@ spriteTypes = {
 
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_evp_sfdoll_unknown_civilization_6"
-		texturefile = "gfx/event_pictures/evp_sfdoll_unknown_civilization_6.dds"
+		name = "GFX_evp_sfdoll_physics_research"
+		texturefile = "gfx/event_pictures/evp_sfdoll_physics_research.dds"
 		alwaystransparent = yes
 	}
 }
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_sapient_AI"
+		texturefile = "gfx/event_pictures/evp_sfdoll_sapient_AI.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evp_sfdoll_intelligence_report"
+		texturefile = "gfx/event_pictures/evp_sfdoll_intelligence_report.dds"
+		alwaystransparent = yes
+	}
+}
+
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_evp_sfdoll_ship_in_orbit"
@@ -165,6 +174,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 }
+
 
 spriteTypes = {	
 	spriteType = {

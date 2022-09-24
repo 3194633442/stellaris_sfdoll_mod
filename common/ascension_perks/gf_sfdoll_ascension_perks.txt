@@ -80,7 +80,6 @@ ap_sfdoll_3 = {
 		country_event = {
 			id = sfdoll_to_zion_event.7
 		}
-		add_research_option = tech_sfdoll_lab_2
 	}
 	modifier = {
 		starbase_shipyard_build_speed_mult = 0.5
@@ -116,6 +115,7 @@ ap_sfdoll_4= {
 			}
 		}
 		add_research_option = tech_sfdoll_energy_plant
+		add_research_option = tech_sfdoll_lab_2
 		add_research_option = tech_sfdoll_social_reform_2
 	}
 	ai_weight = {	factor = 1	}

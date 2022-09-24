@@ -142,6 +142,7 @@ country_event = {
 					trait = leader_trait_sfdoll_exd_leader
 					trait = leader_trait_scientist_psionic
 					trait = leader_trait_scientist_chosen
+					trait = leader_trait_expertise_psionics
 				}
 				effect = {
 					change_leader_portrait = exd2

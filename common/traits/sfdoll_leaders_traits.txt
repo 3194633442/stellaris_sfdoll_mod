@@ -305,7 +305,9 @@ leader_trait_scientist_sfdoll_triela = {
 	randomized = no
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_triela.dds"
 	modifier = {
-		all_technology_research_speed = 0.20
+		all_technology_research_speed = 0.10
+		ship_anomaly_generation_chance_mult = 0.25
+		ship_archaeological_site_excavation_speed_mult = 0.25
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }
@@ -384,6 +386,30 @@ leader_trait_scientist_ogas40 = {
 	leader_class = { scientist }
 	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
 }
+#ogas40舰队司令
+leader_trait_admiral_ogas40 = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_ogas40.dds"
+	modifier = {
+		ship_tracking_mult = 0.15
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
+}
+#ump40陆军指挥
+leader_trait_general_ogas40 = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_ogas40.dds"
+	modifier = {
+		army_damage_mult = 0.25
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
+}
 
 #哈里谢顿特质
 leader_trait_scientist_sfd_hari_seldon = {
@@ -417,7 +443,7 @@ leader_trait_sfdoll_exd_leader = {
 	randomized = no
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_roamer.dds"
 	modifier = {
-		ship_anomaly_generation_chance_mult = 0.5
+		ship_anomaly_generation_chance_mult = 0.4
 	}
 	opposites = {
 		leader_trait_roamer

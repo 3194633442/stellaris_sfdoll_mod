@@ -60,8 +60,8 @@ sfdoll_to_zion_event_2:0 "To Zion"
 sfdoll_to_zion_event_2_desc:0 "According to the exploration results, we can temporarily regard this place as Zion. \n\n The expedition has established a port to allow our personnel to travel more smoothly between the two spaces.\n\nSome laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
 sfdoll_to_zion_event.2_option:0 "We have no choice but to move forward."
 
-# SFDOLL_ZION_DIGI_PROJECT:0"Explore data"
-# SFDOLL_ZION_DIGI_PROJECT_DESC:0"Some laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
+SFDOLL_ZION_DIGI_PROJECT:0 "Explore data"
+SFDOLL_ZION_DIGI_PROJECT_DESC:0 "Some laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture."
 
 sfdoll_to_zion_event_3:0 "Explore data"
 sfdoll_to_zion_event_3_desc:0 "We unearthed data from the Zion facility. These results will complement our understanding of relic science."

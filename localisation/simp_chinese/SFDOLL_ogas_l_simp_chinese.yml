@@ -18,6 +18,8 @@ sfdoll_ogas_event.1_desc_b:0 "我是从莉娃的心智中诞生的,我的外观�
 
 ogas40_to_governor:0 "请你处理政务"
 ogas40_to_scientist:0 "请你参与科研"
+ogas40_to_admiral:0 "请你指挥舰队"
+ogas40_to_general:0 "请你指挥陆军部队"
 response_text_ogas40_to_job:0 "让我看看，或许能解决什么问题"
 ogas40_has_this_job_now:0 "OGAS已经在做这项工作"
 
@@ -26,6 +28,12 @@ leader_trait_governor_ogas40_desc:0 "OGAS是利用遗迹科学创造的超级AI�
 
 leader_trait_scientist_ogas40:0 "$leader_trait_governor_ogas40$"
 leader_trait_scientist_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
+
+leader_trait_admiral_ogas40:0 "$leader_trait_governor_ogas40$"
+leader_trait_admiral_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
+
+leader_trait_general_ogas40:0 "$leader_trait_governor_ogas40$"
+leader_trait_general_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
 
 sfdoll_ogas_event.2:0 "与OGAS通讯"
 sfdoll_ogas_event.2_desc:0 "这是我第一次拥有属于自己的素体.自由的感觉还不赖.\n\n过去,我受限于设备性能,不得不停止成长.不过现在不同了,借助你们的设备,我可以尝试进一步地进化."

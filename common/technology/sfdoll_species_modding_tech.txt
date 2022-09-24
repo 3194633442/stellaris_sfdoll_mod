@@ -26,15 +26,15 @@ tech_sf_doll_modding_1 = {
 	category = { industry }
 	prerequisites = { "tech_sf_doll_modding_system" }
 	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = @tier3weight1
+	weight = 1000
 	modifier = {
 		SFDOLL_species_trait_points_add = 8
 		modify_species_cost_mult = -0.25
 	}
 	weight_modifier = {
 		modifier = {
-			factor = 10
-			years_passed > 12
+			factor = 2
+			years_passed > 10
 		}
 	}
 }

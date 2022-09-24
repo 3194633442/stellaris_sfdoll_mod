@@ -45,7 +45,6 @@ tech_sfdoll_lab_2 = {
 	category = { computing }
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_lab
 	}
 	weight =  0
 }
