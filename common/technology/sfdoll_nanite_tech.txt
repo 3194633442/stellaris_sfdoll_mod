@@ -5,9 +5,11 @@ tech_sfdoll_nanites = {
 	tier = 3
 	category = { industry }
 	icon = tech_sfdoll_nanites
-	weight = 0
+	weight = 1500
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {	tech_basic_science_lab_3	}
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
 }
 
 #纳米物种特质

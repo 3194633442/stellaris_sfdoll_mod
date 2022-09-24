@@ -30,7 +30,6 @@ tech_sfdoll_lab = {
 	tier = 3
 	is_rare = yes
 	category = { computing }
-	prerequisites = {	tech_sfdoll_nanites	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}

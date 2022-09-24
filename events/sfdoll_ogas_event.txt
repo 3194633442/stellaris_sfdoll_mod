@@ -52,7 +52,7 @@ country_event = {
 			}			 
 		}
 		ogas40_become_governor_effect =  yes
-		response_text = "response_text_ogas40_to_job"
+		response_text = "response_ogas40_to_governor"
 	}
 
 	#ogas40变科学家
@@ -75,7 +75,7 @@ country_event = {
 			}			 
 		}
 		ogas40_become_scientist_effect = yes
-		response_text = "response_text_ogas40_to_job"
+		response_text = "response_ogas40_to_scientist"
 	}
 
 	#ump40变舰队司令
@@ -98,7 +98,7 @@ country_event = {
 			}			 
 		}
 		ogas40_become_admiral_effect = yes
-		response_text = "response_text_ogas40_to_job"
+		response_text = "response_ogas40_to_admiral"
 	}
 
 	#ump40变陆军指挥
@@ -121,7 +121,7 @@ country_event = {
 			}			 
 		}
 		ogas40_become_general_effect = yes
-		response_text = "response_text_ogas40_to_job"
+		response_text = "response_ogas40_to_general"
 	}
 
 	#退出

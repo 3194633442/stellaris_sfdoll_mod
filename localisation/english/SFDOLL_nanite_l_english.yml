@@ -1,6 +1,6 @@
 ﻿l_english:
 ###############################
-tech_sfdoll_nanites:0"Micro AI"
+tech_sfdoll_nanites:0 "Super Micro AI"
 tech_sfdoll_nanites_desc:0 "Tiny structures can also run complex programs"
 
 building_sfdoll_nanites_plant:0 "Nanites Factory"

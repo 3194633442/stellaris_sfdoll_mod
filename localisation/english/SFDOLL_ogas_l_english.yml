@@ -21,7 +21,10 @@ ogas40_to_scientist:0 "Please work as a scientist"
 ogas40_to_admiral:0 "Please command the fleet"
 ogas40_to_general:0 "Please command the army troop"
 
-response_text_ogas40_to_job:0 "Let me see what might be the solution."
+response_ogas40_to_governor:0 "Let's work hard together!"
+response_ogas40_to_scientist:0 "Let me see what might be the solution."
+response_ogas40_to_admiral:0 "I need information about the fleet."
+response_ogas40_to_general:0 "Be careful, don't die easily."
 ogas40_has_this_job_now:0 "OGAS is doing the work now."
 
 leader_trait_governor_ogas40:0 "OGAS"

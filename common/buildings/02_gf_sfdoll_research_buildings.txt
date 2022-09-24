@@ -30,8 +30,7 @@ building_sfdoll_research = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
-			nanites = @b2_rare_cost
+			minerals = @b3_minerals
 		}
 		upkeep = {
 			energy = @b2_upkeep
