@@ -39,11 +39,5 @@ tech_sfdoll_reverse_collapse_3 = {
 		has_technology = tech_zero_point_power
 	}
 	modifier = {  planet_jobs_produces_mult = 0.15		}
-	weight = @tier4weight1
-	weight_modifier = {
-		modifier = {
-			factor = 10
-			years_passed > 20
-		}
-	}
+	weight = 1500
 }

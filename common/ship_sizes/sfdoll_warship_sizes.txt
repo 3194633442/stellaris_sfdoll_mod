@@ -58,15 +58,14 @@ sfdoll_warship_1 = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 1500
-			sr_dark_matter = 100
-			nanites = 100
-			GF_nyto_collapse_liquid = 100	
+			alloys = 800
+			sr_dark_matter = 50
+			nanites = 50
+			GF_nyto_collapse_liquid = 50	
 		}
 		upkeep = {
 			energy = 15
-			alloys = 15
-			sr_dark_matter = 7
+			alloys = 8
 		}
 	}
 }
@@ -109,15 +108,14 @@ sfdoll_warship_2 = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 2500
-			sr_dark_matter = 200
-			nanites = 200
-			GF_nyto_collapse_liquid = 200	
+			alloys = 1500
+			sr_dark_matter = 100
+			nanites = 100
+			GF_nyto_collapse_liquid = 100	
 		}
 		upkeep = {
-			energy = 25
-			alloys = 25
-			sr_dark_matter = 13
+			energy = 30
+			alloys = 15
 		}
 	}
 }
@@ -192,15 +190,14 @@ sfdoll_warship_3 = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 5000
-			sr_dark_matter = 400
-			nanites = 400
-			GF_nyto_collapse_liquid = 400	
+			alloys = 3000
+			sr_dark_matter = 200
+			nanites = 200
+			GF_nyto_collapse_liquid = 200	
 		}
 		upkeep = {
-			energy = 50
-			alloys = 50
-			sr_dark_matter = 25
+			energy = 60
+			alloys = 30
 		}
 	}
 }
@@ -275,15 +272,14 @@ sfdoll_warship_4 = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 10000
-			sr_dark_matter = 800
-			nanites = 800
-			GF_nyto_collapse_liquid = 800
+			alloys = 6000
+			sr_dark_matter = 400
+			nanites = 400
+			GF_nyto_collapse_liquid = 400
 		}
 		upkeep = {
-			energy = 100
-			alloys = 100
-			sr_dark_matter = 50
+			energy = 120
+			alloys = 60
 		}
 	}
 	min_upgrade_cost = {
