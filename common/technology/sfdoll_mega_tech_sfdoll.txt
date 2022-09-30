@@ -52,7 +52,7 @@ tech_sfdoll_star_exploit = {
 	is_dangerous = yes
 	icon = tech_sfdoll_star_exploit
 	prerequisites = {
-		tech_sfdoll_lab_2
+		tech_sfdoll_collapse_liquid_produce
 		tech_mega_engineering
 	}
 	potential = {

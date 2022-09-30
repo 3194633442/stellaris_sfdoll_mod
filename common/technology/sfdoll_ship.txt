@@ -1,7 +1,7 @@
 #component
 #作为前置解锁其他武器
 tech_sfdoll_weapon_s_1 = {
-	cost = @tier4cost2
+	cost = @tier4cost3
 	area = society
 	tier = 4
 	category = { military_theory }
@@ -9,7 +9,7 @@ tech_sfdoll_weapon_s_1 = {
 	icon = tech_sfdoll_weapon_s_1
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_collapse_liquid_produce }
-	weight = @tier5weight1
+	weight = @tier4weight3
 }
 
 # tech_sfdoll_weapon_p_1 = {
@@ -259,9 +259,10 @@ tech_sfdoll_ship_computer = {
 
 #能源
 tech_aux_sfdoll_collapse_power= {
-	cost = @tier5cost2
-	tier = 5
+	cost = @tier4cost3
+	tier = 4
 	area = physics
+	is_rare = yes
 	icon = tech_aux_sfdoll_collapse_power
 	category = { particles }
 	is_reverse_engineerable = no

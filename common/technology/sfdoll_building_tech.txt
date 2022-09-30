@@ -33,7 +33,10 @@ tech_sfdoll_lab = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 0
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
+	weight = 1500
 }
 #高级研究所
 tech_sfdoll_lab_2 = {

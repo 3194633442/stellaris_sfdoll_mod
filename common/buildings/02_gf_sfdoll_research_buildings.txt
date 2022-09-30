@@ -2,15 +2,15 @@
 building_sfdoll_research = {
 	base_buildtime =  @b2_time
 	category = research
-	icon = building_sfdoll_research
+	icon = building_sfdoll_research_2
 	potential = {
 		# 铁血帝国才能造
 		owner = { has_authority = auth_gf_sfdoll }
 	}
 	prerequisites = { "tech_sfdoll_lab" }
-	upgrades = {
-		building_sfdoll_research_2
-	}
+	# upgrades = {
+	# 	building_sfdoll_research_2
+	# }
 
 	destroy_trigger = {
 		free_building_slots = 0
@@ -24,16 +24,29 @@ building_sfdoll_research = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire	}
 		}
-		modifier = { 	job_sfdoll_researcher_add = 1	}
+		modifier = { 	job_sfdoll_researcher_add = 2	}
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
+			GF_nyto_collapse_liquid = @b3_rare_cost
 		}
 		upkeep = {
-			energy = @b2_upkeep
+			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
+		}
+	}
+
+	ai_resource_production = {
+		physics_research = 100
+		society_research = 100
+		engineering_research = 100
+		trigger = {
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}
 		}
 	}
 }
@@ -47,7 +60,7 @@ building_sfdoll_research_2 = {
 		# 铁血帝国才能造
 		owner = { has_authority = auth_gf_sfdoll }
 	}
-	prerequisites = { "tech_sfdoll_lab_2" }
+	# prerequisites = { "tech_sfdoll_lab_2" }
 	destroy_trigger = {
 		free_building_slots = 0
 		exists = owner
@@ -71,6 +84,17 @@ building_sfdoll_research_2 = {
 		upkeep = {
 			energy = @b3_upkeep
 			GF_nyto_collapse_liquid = @b3_rare_upkeep
+		}
+	}
+
+	ai_resource_production = {
+		physics_research = 100
+		society_research = 100
+		engineering_research = 100
+		trigger = {
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}
 		}
 	}
 }

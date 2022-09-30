@@ -9,7 +9,9 @@ tech_sfdoll_reverse_collapse_1 = {
 	prerequisites = { "tech_sfdoll_ogas_ai" }
 	potential = {		has_authority = auth_gf_sfdoll	}
 	#prerequisites = { 	}
-	modifier = {	num_tech_alternatives_add = 1	}
+	modifier = {
+		all_technology_research_speed = 0.5
+	}
 	weight = 0
 }
 
@@ -22,7 +24,9 @@ tech_sfdoll_reverse_collapse_2 = {
 	icon = tech_sfdoll_reverse_collapse_2
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_reverse_collapse_1	}
-	modifier = {	shroud_research_speed = 0.15 }
+	modifier = {
+		num_tech_alternatives_add = 1
+	}
 	weight = 1500
 }
 
