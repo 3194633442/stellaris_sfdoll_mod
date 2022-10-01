@@ -43,20 +43,20 @@ sfdoll_search_zion_event.9:0 "Taking in girl from relic site"
 sfdoll_search_zion_event.9_desc:0 "We took the girl found in the ruins to our Research Facility.\n\n We found that in the girl's brain, there is a mind space similar to ours, which can send, receive and process data. \n\n The language she uses is similar to the Earth language. In her consciousness, words like sister seemed to be repeating all the time. \n We will continue to observe her."
 
 
-sfdoll_to_zion_chain_title:0"To Zion"
-sfdoll_to_zion_chain_desc:0"We will go to the sanctuary to find our past and our future."
+# sfdoll_to_zion_chain_title:0 "Dimensional Tour"
+# sfdoll_to_zion_chain_desc:0"We will go to the sanctuary to find our past and our future."
 
-sfdoll_to_zion_event_7:0 "To Zion"
+sfdoll_to_zion_event_7:0 "Dimensional Tour"
 sfdoll_to_zion_event_7_desc:0 "Scientists believe that we have enough technology, it is time to try to travel to Zion. The teleporter has undergone the final testing and we will officially launch it."
 
-SFDOLL_TO_ZION_PROJECT:0 "To Zion"
+SFDOLL_TO_ZION_PROJECT:0 "Dimensional Tour"
 SFDOLL_TO_ZION_PROJECT_DESC:0"$sfdoll_to_zion_event_7_desc$"
 
-sfdoll_to_zion_event_1:0 "To Zion"
+sfdoll_to_zion_event_1:0 "Dimensional Tour"
 sfdoll_to_zion_event_1_desc:0 "Our expedition team has entered a different space, and we are still conducting preliminary observations of this space."
 sfdoll_to_zion_event_1_option:0 "Is this our destination?"
 
-sfdoll_to_zion_event_2:0 "To Zion"
+sfdoll_to_zion_event_2:0 "Dimensional Tour"
 sfdoll_to_zion_event_2_desc:0 "According to the exploration results, we can temporarily regard this place as Zion. \n\n The expedition has established a port to allow our personnel to travel more smoothly between the two spaces.\n\nSome laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\n There are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
 sfdoll_to_zion_event.2_option:0 "We have no choice but to move forward."
 
@@ -79,9 +79,9 @@ SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "This ship is precious research material. W
 
 sfdoll_to_zion_event_6:0 "Research Unknown Ship"
 sfdoll_to_zion_event_6_desc:0 "According to data in the unknown ship, we learned that the ship is a large deep space carrier for deep space exploration on a supercluster scale.The name of this ship is §R Lamentations§!"
-sfdoll_to_zion_event_6_option:0 "Interesting name. Does the relic sites civilization also have its own Jerusalem?"
+sfdoll_to_zion_event_6_option:0 "Interesting name. Does the relic civilization also have Jerusalem?"
 
-sfdoll_to_zion_event.10:0 "never stop asking"
-sfdoll_to_zion_event.10_desc:0 "After further interpretation of the data of §R Lamentations§!, we agreed that the Zion we found may just be refuges for the relic civilization . The mystery of the relic civilization still needs to be further explored.\n\n Although §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old ship, after a long journey, should get rest."
+sfdoll_to_zion_event.10:0 "Never stop asking"
+sfdoll_to_zion_event.10_desc:0 "The data in §RLamentations§! shows that what we have arrived is not Zion but a refuge of relic civilization.\n\n The mystery of the relic civilization still needs to be further explored.\n\n Although §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old ship, after a long journey, should get rest."
 sfdoll_to_zion_event.10_option:0 "Are we the first one?"
 

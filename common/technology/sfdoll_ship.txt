@@ -279,7 +279,7 @@ tech_sfdoll_ship_power_2 = {
 	icon = tech_sfdoll_ship_power_2
 	category = { particles }
 	is_reverse_engineerable = no
-	prerequisites = { tech_sfdoll_lab_2 }
+	prerequisites = { tech_sfdoll_energy_plant }
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight3
 }

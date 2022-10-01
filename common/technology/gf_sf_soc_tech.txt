@@ -13,7 +13,7 @@ tech_sfdoll_psychohistory = {
 	weight = @tier4weight1
 	potential = {	has_authority = auth_gf_sfdoll	}
 	prerequisites = {
-		tech_sfdoll_lab_2
+		tech_sfdoll_energy_plant
 	}
 	modifier = {
 		empire_size_mult = -0.1

@@ -276,7 +276,7 @@ building_sfdoll_goods_plant_2 = {
 		owner = {		has_country_flag = sfdoll_empire	}
 	}
 
-	prerequisites = {	tech_sfdoll_goods_2 }
+	# prerequisites = {	tech_sfdoll_goods_2 }
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner

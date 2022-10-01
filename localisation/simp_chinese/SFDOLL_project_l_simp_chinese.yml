@@ -43,20 +43,20 @@ sfdoll_search_zion_event.9:0 "收留遗迹中的少女"
 sfdoll_search_zion_event.9_desc:0 "我们把遗迹中发现的少女带到铁血的科研设施.\n 我们发现，这名少女的大脑中，存在一个和我们相似的心智空间，能够收发和处理数据。 \n她使用的语言和地球语种很接近。她的意识里，似乎一直在重复着姐姐之类的字眼。\n 我们将继续观察她。"
 
 
-sfdoll_to_zion_chain_title:0"迈向锡安"
-sfdoll_to_zion_chain_desc:0"我们将前往避难所，寻找自己的过去与未来。"
+# sfdoll_to_zion_chain_title:0 "次元巡礼"
+# sfdoll_to_zion_chain_desc:0 "我们将前往避难所，寻找自己的过去与未来。"
 
-sfdoll_to_zion_event_7:0 "迈向锡安"
+sfdoll_to_zion_event_7:0 "次元巡礼"
 sfdoll_to_zion_event_7_desc:0 "科学家们认为，我们已经掌握了足够的技术,是时候尝试前往锡安了。传送装置已经进行了最后的调试，我们将正式启动它."
 
-SFDOLL_TO_ZION_PROJECT:0 "迈向锡安"
+SFDOLL_TO_ZION_PROJECT:0 "次元巡礼"
 SFDOLL_TO_ZION_PROJECT_DESC:0"$sfdoll_to_zion_event_7_desc$"
 
-sfdoll_to_zion_event_1:0 "迈向锡安"
+sfdoll_to_zion_event_1:0 "次元巡礼"
 sfdoll_to_zion_event_1_desc:0 "我们的考察队已经进入了某个异空间，目前还在对该空间进行初步观察。"
 sfdoll_to_zion_event_1_option:0 "这会是我们的目的地吗？"
 
-sfdoll_to_zion_event_2:0 "迈向锡安"
+sfdoll_to_zion_event_2:0 "次元巡礼"
 sfdoll_to_zion_event_2_desc:0 "根据勘探结果,我们暂时可以把这里当成锡安.考察队建立了港口,让我们的人员能够在两个空间之间快速往返.\n\n锡安中的某些规律，与我们生活的常规宇宙存在差别。好在，我们已经事先进行了充分的预演。\n 这个空间里存在一些设施，其独特的外形不同于任何一种已知文化。我们将尝试研究它们。"
 sfdoll_to_zion_event.2_option:0 "我们别无选择,唯有前进."
 
@@ -79,10 +79,10 @@ SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "这艘飞船是珍贵的研究材料。我
 
 sfdoll_to_zion_event_6:0 "成功解析飞船中的数据"
 sfdoll_to_zion_event_6_desc:0 "从飞船上的数据中，我们了解到，这艘船是一种大型深空母舰，用于超星系团尺度的深空探索。它的名字叫 §R耶利米哀歌§! "
-sfdoll_to_zion_event_6_option:0 "有趣的名字.遗迹文明也有自己的耶路撒冷吗？"
+sfdoll_to_zion_event_6_option:0 "有趣的名字.遗迹文明也有耶路撒冷吗？"
 
 sfdoll_to_zion_event.10:0 "不断追问"
-sfdoll_to_zion_event.10_desc:0 "对§R耶利米哀歌§!的数据进一步解读后,我们认为,我们找到的锡安,只是遗迹文明的避难所.遗迹文明的谜团,还有待进一步的探索.\n\n尽管§R耶利米哀歌§!已经将我们视为主人,但我们并不打算把它开回银河系.我们已经得到了想要的情报,而这位老前辈,在经过漫长的旅途后,应该得到休息."
+sfdoll_to_zion_event.10_desc:0 "§R耶利米哀歌§!中的数据表明,我们到达的并不是锡安,而是遗迹文明的一处避难所.\n\n遗迹文明的谜团,还有待进一步的探索.\n\n尽管§R耶利米哀歌§!已经将我们视为主人,但我们并不打算把它开回银河系.我们已经得到了想要的情报,而这位老前辈,在经过漫长的旅途后,应该得到休息."
 sfdoll_to_zion_event.10_option:0 "我们是第几个呢?"
 
 
