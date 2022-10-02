@@ -59,7 +59,6 @@ tech_sfdoll_singularity = {
 	category = { field_manipulation }
 	icon = tech_sfdoll_singularity
 	weight = 0
-	prerequisites = {	tech_sfdoll_lab_2	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 

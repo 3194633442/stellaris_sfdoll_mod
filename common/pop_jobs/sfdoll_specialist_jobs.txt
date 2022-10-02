@@ -27,7 +27,7 @@ sfdoll_collapse_liquid_maker = {
 			}
 			GF_nyto_collapse_liquid = 6
 		}
-		upkeep = {	energy = 10	}
+		upkeep = {	energy = 20	}
 	}
 	weight = {	weight = 20	}
 }
@@ -59,7 +59,7 @@ sfdoll_dark_matter_maker = {
 
 			sr_dark_matter = 6
 		}
-		upkeep = {	energy = 10	}
+		upkeep = {	energy = 20	}
 	}
 	weight = {	weight = 20	}
 }
@@ -96,7 +96,7 @@ sfdoll_nanites_maker = {
 		}
 
 		upkeep = {
-			minerals = 10
+			minerals = 20
 		}
 	}
 	weight = {
@@ -123,9 +123,9 @@ sfdoll_researcher = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			physics_research = 40
-			society_research = 40
-			engineering_research = 40
+			physics_research = 60
+			society_research = 60
+			engineering_research = 60
 		}
 		produces = {
 			trigger = {
@@ -140,7 +140,7 @@ sfdoll_researcher = {
 		}
 
 		upkeep = {
-			consumer_goods = 12
+			consumer_goods = 14
 		}
 	}
 	weight = {	weight = 30	}
@@ -206,7 +206,7 @@ sfdoll_alloys_maker = {
 		}
 
 		upkeep = {
-			minerals =  36
+			minerals =  42
 		}
 	}
 	weight = {	weight = 20	}
@@ -276,7 +276,7 @@ sfdoll_goods_maker = {
 		}
 
 		upkeep = {
-			minerals = 36
+			minerals = 42
 		}
 	}
 	weight = {
@@ -334,9 +334,6 @@ sfdoll_energy_maker = {
 	resources = {
 		category = planet_technician
 		produces = {	energy = 250 }
-		upkeep = {
-			sr_dark_matter = 2
-		}
 	}
 	weight = {	weight = 20	}
 }
@@ -451,12 +448,12 @@ sfdoll_gases_maker = {
 		#复制原版天然气职业的维护category
 		category = planet_refiners
 		produces = {
-			exotic_gases = 8
-			rare_crystals = 8
-			volatile_motes = 8
+			exotic_gases = 6
+			rare_crystals = 6
+			volatile_motes = 6
 		}
 		upkeep = {
-			minerals = 10
+			minerals = 20
 		}
 	}
 

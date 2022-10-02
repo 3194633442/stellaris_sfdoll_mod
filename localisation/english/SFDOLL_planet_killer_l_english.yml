@@ -25,7 +25,7 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_1:0 "destroyed"
 
 sfdoll_weapen_t_7:0 "Nova Gun"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
-component_set_sfdoll_weapen_t_7_DESC:0 "§Y The fleet equipped with this weapon can destroy a planet or a star when it enters the orbit of the celestial body. You can use an edict to stop this function §!"
+component_set_sfdoll_weapen_t_7_DESC:0 "§YThe fleet equipped with this weapon can destroy a planet when the fleet enters the planet's orbit. You can use an edict to unlock this function §!"
 
 tech_sfdoll_weapon_t_7:0 "$sfdoll_weapen_t_7$"
 tech_sfdoll_weapon_t_7_desc:0 "This weapon can quickly detonate celestial bodies, and can also aiming and shooting continuously at low power."
@@ -34,8 +34,8 @@ sfdoll_planet_killer_event.10:0 "Anti-Star Weapon Interface"
 sfdoll_planet_killer_event.10.desc:0 "A fleet equipped with Anti-Star Weapon has entered the orbit of §H[fromfrom.GetName]§!,do we have to destroy the object?\n\n You can use an edict to stop this function."
 sfdoll_planet_killer_event.10_a:0 "destroy §H[fromfrom.GetName]§!"
 
-edict_sfdoll_weapen_t_7_control:0 "Stop Anti-Star Weapon Function"
-edict_sfdoll_weapen_t_7_control_desc:0 "This edict is used to close celestial destruction function. While the edict is in effect , the game will not ask to destroy celestial bodies when fleets enter orbits."
+edict_sfdoll_weapen_t_7_control:0 "Sangvis Ferri Doll: Unlock Anti-Star Weapon"
+edict_sfdoll_weapen_t_7_control_desc:0 "While this edict is in effect, when Sangvis Ferri fleets enters orbit, special weapons can be used to destroy the planet."
 
 sfdoll_missile_2:0 "Horizon Sword"
 sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"

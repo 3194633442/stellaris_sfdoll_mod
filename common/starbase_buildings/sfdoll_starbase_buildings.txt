@@ -1,32 +1,32 @@
-sfdoll_starbase_building_chemical = {
-	icon = "GFX_exotic_gases_sfdoll_homeless"
-	construction_days = 180
+# sfdoll_starbase_building_chemical = {
+# 	icon = "GFX_exotic_gases_sfdoll_homeless"
+# 	construction_days = 180
 
-	initial = no
-	potential = {
-		exists = owner
-		owner = { has_technology = tech_sfdoll_chemical }
-	}
-	show_in_tech = tech_sfdoll_chemical
-	resources = {
-		category = starbase_buildings
-		cost = {
-			alloys = 300
-			nanites = 60
-		}
-		produces = {
-			exotic_gases = 10
-			rare_crystals = 10
-			volatile_motes = 10
-		}
-		upkeep = {
-			nanites = 10
-		}
-	}
+# 	initial = no
+# 	potential = {
+# 		exists = owner
+# 		owner = { has_technology = tech_sfdoll_chemical }
+# 	}
+# 	show_in_tech = tech_sfdoll_chemical
+# 	resources = {
+# 		category = starbase_buildings
+# 		cost = {
+# 			alloys = 300
+# 			nanites = 60
+# 		}
+# 		produces = {
+# 			exotic_gases = 10
+# 			rare_crystals = 10
+# 			volatile_motes = 10
+# 		}
+# 		upkeep = {
+# 			nanites = 10
+# 		}
+# 	}
 
-	ai_build_at_chokepoint = yes
-	ai_build_outside_chokepoint = yes
-	ai_weight = {
-		weight = 0 #use same weight here - ai weighting is done in starbase_types.txt
-	}
-}
+# 	ai_build_at_chokepoint = yes
+# 	ai_build_outside_chokepoint = yes
+# 	ai_weight = {
+# 		weight = 0 #use same weight here - ai weighting is done in starbase_types.txt
+# 	}
+# }

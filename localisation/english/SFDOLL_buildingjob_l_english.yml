@@ -112,14 +112,16 @@ job_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_effect_desc:0 "$job_sfdoll_mineral_maker$ consumes §Y$energy$§!,produces §Y$minerals$§! "
 mod_job_sfdoll_mineral_maker_add:0"$job_sfdoll_mineral_maker$ jobs"
 
+tech_sfdoll_chemical:0 "SF Efficient Chemical Synthesis"
+tech_sfdoll_chemical_desc:0 "Nanotechnology makes chemical synthesis easy."
 
-# building_sfdoll_gases_plant:0 "铁血化学厂"
-# building_sfdoll_gases_plant_desc:0 "$building_sfdoll_gases_plant$"
-# job_sfdoll_gases_maker:0"铁血化学师"
-# job_sfdoll_gases_maker_plural:0"$job_sfdoll_gases_maker$"
-# job_sfdoll_gases_maker_desc:0"$job_sfdoll_gases_maker$"
-# job_sfdoll_gases_maker_effect_desc:0 " $job_sfdoll_gases_maker$消耗 §Y$minerals$§!，生产§Y$exotic_gases$§!，§Y$rare_crystals$§!，§Y$volatile_motes$§!"
-# mod_job_sfdoll_gases_maker_add:0 "$job_sfdoll_gases_maker$岗位"
+building_sfdoll_gases_plant:0 "SF Chemical Plant"
+building_sfdoll_gases_plant_desc:0 "$building_sfdoll_gases_plant$"
+job_sfdoll_gases_maker:0"SF Chemical Technician"
+job_sfdoll_gases_maker_plural:0"$job_sfdoll_gases_maker$"
+job_sfdoll_gases_maker_desc:0"$job_sfdoll_gases_maker$"
+job_sfdoll_gases_maker_effect_desc:0 "$job_sfdoll_gases_maker$ consumes §Y$minerals$§!，produces §Y$exotic_gases$§!，§Y$rare_crystals$§!，§Y$volatile_motes$§!"
+mod_job_sfdoll_gases_maker_add:0 "$job_sfdoll_gases_maker$ job"
 
 
 #civic

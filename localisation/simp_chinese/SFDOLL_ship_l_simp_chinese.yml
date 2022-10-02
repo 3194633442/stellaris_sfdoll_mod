@@ -164,7 +164,7 @@ tech_sfdoll_ship_power_2_desc:0 "利用物质坍塌形成的奇点为飞船供�
 sfdoll_REACTOR_2_1:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_2:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_3:0 "$tech_sfdoll_ship_power_2$"
-sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_4:0 "$tech_sfdoll_ship_power_2$"
 
 
 sfdoll_ship_reactor_no:0 "空槽"
@@ -249,3 +249,8 @@ tech_sfdoll_constructor_desc:0 "为了在宇宙中生存,铁血们不得不花�
 
 sfdoll_constructor_thruster:0 "$sfdoll_constructor$推进器"
 sfdoll_constructor_REACTOR:0 "$sfdoll_constructor$反应堆"
+
+weapon_type_sfdoll:0 "§Y快子§!"
+tech_repeatable_weapon_type_sfdoll:0 "铁血快子武器改良"
+tech_repeatable_weapon_type_sfdoll_desc:0 "铁血的超光速武器系统仍需要进一步改进"
+mod_weapon_type_sfdoll_weapon_damage_mult:0 "$weapon_type_sfdoll$武器伤害"

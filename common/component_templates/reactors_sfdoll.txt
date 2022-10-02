@@ -274,51 +274,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
-	power = 1500000
-	prerequisites = { tech_sfdoll_ship_power_2  }
-	component_set = "power_core"
-	size_restriction = {  sfdoll_warship_3 }
-	resources = {
-		category = ship_components
-		cost = {
-			GF_nyto_collapse_liquid = 60
-			sr_dark_matter = 400
-		}
-		upkeep = {
-			energy = 3.2
-			alloys = 2
-		}
-	}
-	ai_weight = {	weight = 20	}
-}
-utility_component_template = {
-	key = "sfdoll_REACTOR_2_2"
-	size = small
-	icon = "GFX_ship_part_sfdoll_ship_power_2"
-	icon_frame = 1
 	power = 600000
-	prerequisites = { tech_sfdoll_ship_power_2  }
-	component_set = "power_core"
-	size_restriction = {  sfdoll_warship_2 }
-	resources = {
-		category = ship_components
-		cost = {
-			GF_nyto_collapse_liquid = 24
-			sr_dark_matter = 160
-		}
-		upkeep = {
-			energy = 1.5
-			alloys = 1
-		}
-	}
-	ai_weight = {	weight = 20	}
-}
-utility_component_template = {
-	key = "sfdoll_REACTOR_2_3"
-	size = small
-	icon = "GFX_ship_part_sfdoll_ship_power_2"
-	icon_frame = 1
-	power = 260000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
 	size_restriction = {  sfdoll_warship_1 }
@@ -335,12 +291,59 @@ utility_component_template = {
 	}
 	ai_weight = {	weight = 20	}
 }
+
 utility_component_template = {
-	key = "sfdoll_REACTOR_2_6"
+	key = "sfdoll_REACTOR_2_2"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 1600000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_warship_2 }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 24
+			sr_dark_matter = 160
+		}
+		upkeep = {
+			energy = 1.5
+			alloys = 1
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_3"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
 	power = 4000000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_warship_3 }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 60
+			sr_dark_matter = 400
+		}
+		upkeep = {
+			energy = 3.2
+			alloys = 2
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_4"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 10000000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
 	size_restriction = {  sfdoll_warship_4 }

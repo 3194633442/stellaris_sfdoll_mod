@@ -238,7 +238,7 @@ tech_sfdoll_thruster = {
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_thruster
 	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = {  tech_sfdoll_lab_2	}
+	prerequisites = {  tech_building_sfdoll_mineral	}
 	weight = @tier4weight1
 }
 #作战电脑，需要ogas科技和知性作战ai
@@ -249,7 +249,7 @@ tech_sfdoll_ship_computer = {
 	category = { computing }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_ship_computer
-	prerequisites = { tech_sfdoll_lab_2	}
+	prerequisites = { tech_building_sfdoll_mineral }
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_combat_computers_3
@@ -345,7 +345,7 @@ tech_sfdoll_ship_sensors = {
 	category = { military_theory }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_ship_sensors
-	prerequisites = {	tech_sfdoll_lab_2	}
+	prerequisites = {	tech_building_sfdoll_mineral	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 		has_technology = tech_sensors_4

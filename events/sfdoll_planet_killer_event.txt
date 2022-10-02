@@ -546,9 +546,7 @@ fleet_event = {
 		owner = {
 			is_ai = no
 			has_authority = auth_gf_sfdoll
-			NOT = {
-				has_edict = sfdoll_weapen_t_7_control
-			}
+			has_edict = sfdoll_weapen_t_7_control
 		}
 	}
 	immediate = {

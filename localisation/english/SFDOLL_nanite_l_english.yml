@@ -18,8 +18,5 @@ tech_trait_sfdoll_nanite_desc:0 "Unlocks species trait: $trait_sfdoll_nanite$"
 trait_sfdoll_nanite:0 "Nanite SF Dolls"
 trait_sfdoll_nanite_desc:0 "These SF Dolls can use nanites to constitute their bodies. They can self-replicate like organisms."
 
-
-sm_sfdoll_starbase_building_chemical:0 "Automatic Chemical Factory"
-sm_sfdoll_starbase_building_chemical_desc:0 "Nanotechnology makes chemical synthesis easy."
-tech_sfdoll_chemical:0 "$sm_sfdoll_starbase_building_chemical$"
-tech_sfdoll_chemical_desc:0 "$sm_sfdoll_starbase_building_chemical_desc$"
+# sm_sfdoll_starbase_building_chemical:0 "Automatic Chemical Factory"
+# sm_sfdoll_starbase_building_chemical_desc:0 "Nanotechnology makes chemical synthesis easy."

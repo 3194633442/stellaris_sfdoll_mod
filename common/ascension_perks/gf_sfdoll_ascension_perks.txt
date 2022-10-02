@@ -39,7 +39,6 @@ ap_sfdoll_reverse_collapse ={
 		has_technology = tech_zero_point_power
 		has_technology = tech_jump_drive_1
 		has_technology = tech_sensors_4
-		has_technology = tech_mine_dark_matter
 		has_ascension_perk = ap_sfdoll_digi_mind_update
 
 	}

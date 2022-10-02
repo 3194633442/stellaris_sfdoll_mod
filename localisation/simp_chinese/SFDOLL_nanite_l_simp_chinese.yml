@@ -19,5 +19,3 @@ trait_sfdoll_nanite_desc:0 "这些铁血人形可以用纳米机器人来组成�
 
 sm_sfdoll_starbase_building_chemical:0 "自动化学工厂"
 sm_sfdoll_starbase_building_chemical_desc:0 "纳米科技让化学合成变得简单"
-tech_sfdoll_chemical:0 "$sm_sfdoll_starbase_building_chemical$"
-tech_sfdoll_chemical_desc:0 "$sm_sfdoll_starbase_building_chemical_desc$"

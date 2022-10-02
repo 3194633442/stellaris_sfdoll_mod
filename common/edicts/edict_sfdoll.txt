@@ -1,6 +1,6 @@
 #航道修改
 sfdoll_change_hyperlane_window = {
-	length = 15
+	length = 10
 	icon = "GFX_edict_type_time"
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -25,9 +25,11 @@ sfdoll_weapen_t_7_control = {
 	icon = "GFX_edict_type_time"
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_sfdoll_weapon_t_7
 		is_ai = no
-	}	
+	}
+	prerequisites = {
+		tech_sfdoll_weapon_t_7
+	}
 	ai_weight = {
 		weight = 10
 	}	

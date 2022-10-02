@@ -1,6 +1,6 @@
 #坍塌液生产
 building_sfdoll_collapse_liquid_plant = {
-	base_buildtime = @b1_time
+	base_buildtime = @b1_time 
 	category = manufacturing
 	icon = building_sfdoll_collapse_liquid_plant
 	potential = {
@@ -108,11 +108,9 @@ building_sfdoll_dark_matter_plant = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = @b3_rare_cost
 		}
 		upkeep = {
 			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = @b3_rare_upkeep
 		}
 	}
 
@@ -126,7 +124,57 @@ building_sfdoll_dark_matter_plant = {
 	}
 }
 
+#铁血纳米机械厂
+building_sfdoll_nanites_plant = {
+	base_buildtime = @b1_time
+	category = manufacturing
 
+	potential = {
+		# 铁血帝国才能造
+		owner = {		has_country_flag = sfdoll_empire	}
+	}
+
+	prerequisites = {	"tech_sfdoll_nanites" }
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = {
+			is_ai = yes
+			has_monthly_income = {
+				resource = nanites
+				value > 9
+			}
+		}
+	}
+
+	#限定铁血国家生效
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = sfdoll_empire	}
+		}
+		modifier = {	job_sfdoll_nanites_maker_add = 2	} }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			energy = @b3_upkeep
+		}
+	}
+	triggered_desc = {	text = job_sfdoll_nanites_maker_effect_desc	}
+
+	ai_resource_production = {
+		nanites = 20
+		trigger = {
+			owner = {
+				has_authority = auth_gf_sfdoll
+			}
+		}
+	}
+}
 
 #合金生产
 building_sfdoll_alloys = {
@@ -207,11 +255,9 @@ building_sfdoll_alloys_2 = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = @b3_rare_cost
-		}
-		upkeep = {
-			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = @b3_rare_upkeep
+			GF_nyto_collapse_liquid = @b2_rare_cost
+			sr_dark_matter = @b2_rare_cost
+			nanites = @b3_rare_cost
 		}
 	}
 
@@ -306,57 +352,7 @@ building_sfdoll_goods_plant_2 = {
 	}
 }
 
-#铁血纳米机械厂
-building_sfdoll_nanites_plant = {
-	base_buildtime = @b1_time
-	category = manufacturing
 
-	potential = {
-		# 铁血帝国才能造
-		owner = {		has_country_flag = sfdoll_empire	}
-	}
-
-	prerequisites = {	"tech_sfdoll_nanites" }
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
-		owner = {
-			is_ai = yes
-			has_monthly_income = {
-				resource = nanites
-				value > 9
-			}
-		}
-	}
-
-	#限定铁血国家生效
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_country_flag = sfdoll_empire	}
-		}
-		modifier = {	job_sfdoll_nanites_maker_add = 2	} }
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b3_minerals
-		}
-		upkeep = {
-			energy = @b3_upkeep
-		}
-	}
-	triggered_desc = {	text = job_sfdoll_nanites_maker_effect_desc	}
-
-	ai_resource_production = {
-		nanites = 20
-		trigger = {
-			owner = {
-				has_authority = auth_gf_sfdoll
-			}
-		}
-	}
-}
 
 #化工建筑
 building_sfdoll_gases_plant = {
@@ -364,19 +360,26 @@ building_sfdoll_gases_plant = {
 	category = manufacturing
 	icon = building_sfdoll_gases_plant
 	potential = {
-		always = no
 		# 铁血帝国才能造
-		# owner = {	has_country_flag = sfdoll_empire	}
+		owner = {	has_country_flag = sfdoll_empire	}
 	}
-	# prerequisites = {	tech_sfdoll_chemical }
+	prerequisites = {	tech_sfdoll_chemical }
 	destroy_trigger = {
 		free_building_slots = 0
 		exists = owner
 		owner = {
 			is_ai = yes
 			has_monthly_income = {
+				resource = exotic_gases
+				value > 6
+			}
+			has_monthly_income = {
 				resource = rare_crystals
-				value > 9
+				value > `6
+			}
+			has_monthly_income = {
+				resource = volatile_motes
+				value > 6
 			}
 		}
 	}
@@ -392,11 +395,11 @@ building_sfdoll_gases_plant = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = @b3_rare_cost
+			nanites = @b3_rare_cost
 		}
 		upkeep = {
 			energy = @b3_upkeep
-			GF_nyto_collapse_liquid = @b3_rare_upkeep
+			nanites = @b3_rare_upkeep
 		}
 	}
 
@@ -441,9 +444,12 @@ building_sfdoll_energy_plant = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = @b3_rare_cost
+			sr_dark_matter = @b3_rare_cost
 		}
-		upkeep = {	energy = @b1_upkeep	}
+		upkeep = {
+			energy = @b3_upkeep
+			sr_dark_matter = @b3_rare_upkeep
+		}
 	}
 
 	ai_resource_production = {
@@ -485,9 +491,12 @@ building_sfdoll_mineral = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			GF_nyto_collapse_liquid = 50
+			GF_nyto_collapse_liquid = @b3_rare_cost
 		}
-		upkeep = {	energy = @b2_upkeep	}
+		upkeep = {
+			energy = @b3_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
+		}
 	}
 
 	ai_resource_production = {

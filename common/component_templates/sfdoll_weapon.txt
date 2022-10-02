@@ -411,21 +411,21 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 3000000 max = 3000000  }
+	damage = { min = 1000000 max = 1000000 }
 	#冷却时间要除以10
-	total_fire_time = 110
+	total_fire_time = 99
 	range = 400
 	accuracy = 0.85
 	tracking = 0.2
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -200000
+	power = -400000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_t_7" }
 	component_set = "component_set_sfdoll_weapen_t_7"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy  weapon_type_kinetic }
+	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -465,21 +465,21 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 800000 max = 800000 }
+	damage = { min = 260000 max = 270000 }
 	#冷却时间要除以10
-	total_fire_time = 74
+	total_fire_time = 66
 	range = 380
 	accuracy = 0.9
 	tracking = 0.25
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -80000
+	power = -160000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_2" }
 	component_set = "component_set_sfdoll_weapon_x_2"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy  weapon_type_kinetic }
+	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -510,20 +510,20 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 160000 max = 160000 }
+	damage = { min = 48000 max = 64000 }
 	#冷却时间要除以10
-	total_fire_time = 37
+	total_fire_time = 33
 	range = 350
 	accuracy = 1
 	tracking = 0.7
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -32000
+	power = -64000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
-	tags = { weapon_type_energy weapon_type_kinetic }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -555,20 +555,20 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 64000 max = 64000 }
+	damage = { min = 18000 max = 24000 }
 	#冷却时间要除以10
-	total_fire_time = 37
+	total_fire_time = 33
 	range = 325
 	accuracy = 1.0
 	tracking = 0.75
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -12000
+	power = -24000
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic  }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -600,20 +600,20 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 19000 max = 19000 }
+	damage = { min = 5000 max = 7500 }
 	#冷却时间要除以10
-	total_fire_time = 28
+	total_fire_time = 22
 	range = 300
 	accuracy = 1
 	tracking = 0.8
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -4800
+	power = -9600
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
 	component_set = "component_set_sfdoll_weapon_p_2"
-	tags = { weapon_type_energy weapon_type_kinetic  }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	resources = {
@@ -645,21 +645,21 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 19000 max = 19000 }
+	damage = { min = 5000 max = 7500 }
 	#冷却时间要除以10
-	total_fire_time = 28
+	total_fire_time = 22
 	range = 300
 	accuracy = 1
 	tracking = 0.9
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -4800
+	power = -9600
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
 	component_set = "component_set_sfdoll_weapon_p_2"
 	#projectile_gfx = 武器效果
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense weapon_type_sfdoll }
 	ai_tags = { weapon_role_point_defense }
 	ai_tag_weight = 0
 	resources = {
@@ -687,19 +687,19 @@ weapon_component_template = {
 	type = instant
 	icon = "GFX_sfdoll_missile_2"
 	icon_frame = 1
-	power = -5000
+	power = -60000
 	prerequisites = {	tech_sfdoll_missile_2 }
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
-	tags = { weapon_type_energy weapon_type_kinetic	}
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll	}
 	ai_tags = {
 		weapon_role_anti_hull
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 3000000 max = 3000000  }
+	damage = { min = 1000000 max = 1000000  }
 	#冷却时间要除以10
-	total_fire_time = 140
+	total_fire_time = 19
 	range = 350
 	prio_projectile = yes
 	accuracy = 0.8
@@ -736,7 +736,7 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "" #"bomber_entity"
 	power = -40000
-	prerequisites = {	tech_sfdoll_strike_craft_2	}
+	prerequisites = {	tech_sfdoll_strike_craft_2 	}
 
 	resources = {
 		category = ship_components
@@ -752,11 +752,11 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.03
 	launch_time = 1.5
 	
-	damage = { min = 640000 max = 640000 }
+	damage = { min = 48000 max = 64000 }
 	shield_penetration = 1
 	armor_penetration = 1
 	#舰载机的不需要除10
-	cooldown = 7.4
+	cooldown = 3.3
 	range = 350
 	#engagement_range = 800
 	accuracy = 1
@@ -775,6 +775,6 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = ""
 	component_set = "sfdoll_strike_craft_2"
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
 }

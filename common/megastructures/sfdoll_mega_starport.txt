@@ -10,7 +10,7 @@ sfdoll_mega_starport_01 = {
 		category = megastructures
 		cost = {
 			alloys = 5000
-			nanites = 200
+			nanites = 1000
 		}
 		upkeep = {
 			energy = 10
@@ -78,8 +78,8 @@ sfdoll_mega_starport_02 = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 15000
-			nanites = 1000
+			alloys = 20000
+			nanites = 4000
 		}
 		upkeep = {
 			energy = 30
