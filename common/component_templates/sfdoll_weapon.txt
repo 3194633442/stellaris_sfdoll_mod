@@ -419,7 +419,7 @@ weapon_component_template = {
 	tracking = 0.2
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -400000
+	power = -200000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_t_7" }
@@ -473,7 +473,7 @@ weapon_component_template = {
 	tracking = 0.25
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -160000
+	power = -80000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_2" }
@@ -518,7 +518,7 @@ weapon_component_template = {
 	tracking = 0.7
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -64000
+	power = -32000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
@@ -563,7 +563,7 @@ weapon_component_template = {
 	tracking = 0.75
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -24000
+	power = -12000
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
@@ -608,7 +608,7 @@ weapon_component_template = {
 	tracking = 0.8
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -9600
+	power = -4800
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
@@ -653,7 +653,7 @@ weapon_component_template = {
 	tracking = 0.9
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -9600
+	power = -4800
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
@@ -687,7 +687,7 @@ weapon_component_template = {
 	type = instant
 	icon = "GFX_sfdoll_missile_2"
 	icon_frame = 1
-	power = -60000
+	power = -50000
 	prerequisites = {	tech_sfdoll_missile_2 }
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
@@ -699,7 +699,7 @@ weapon_component_template = {
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
 	damage = { min = 1000000 max = 1000000  }
 	#冷却时间要除以10
-	total_fire_time = 19
+	total_fire_time = 190
 	range = 350
 	prio_projectile = yes
 	accuracy = 0.8
@@ -735,17 +735,17 @@ strike_craft_component_template = {
 	icon_frame = 1
 	size = LARGE
 	entity = "" #"bomber_entity"
-	power = -40000
+	power = -600
 	prerequisites = {	tech_sfdoll_strike_craft_2 	}
 
 	resources = {
 		category = ship_components
 		cost = {
-			sr_dark_matter = 10000
+			sr_dark_matter = 5000
 			nanites = 2000
 		}
 		upkeep = {
-			sr_dark_matter= 100
+			sr_dark_matter= 50
 		}
 	}
 	count = 1

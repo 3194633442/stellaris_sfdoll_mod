@@ -8,6 +8,7 @@ trait_sfdoll_engineer_modifier = {
 	starbase_shipyard_build_speed_mult = 0.50
 	megastructure_build_speed_mult = 0.50
 	country_megastructure_build_cap_add = 2	
+	starbase_upgrade_speed_mult = 0.5
 	intel_decryption_add = 4
 	intel_encryption_add = 4
 }
