@@ -1,20 +1,20 @@
-PR_eft_plnt_JOB_deposit_sfdoll = {
-	if = {
-		limit = {
-			OR = {
-				#	第一条件: 必须要写!必须要写!必须要写!
-				#	判断此effect内岗位存在的大条件,用来增加优化. 比如当前的"death_priest", 存在这个岗位的国家至少不会是格式塔, 所以用|is_gestalt = no|
-				#	scope是<星球>
-				#	通常二次元物种mod的岗位都只允许本族使用, 比如必须拥有某种政体, 建筑, 物种特质, 所以这个自己把握
-				#	如果找不到别的, 可以写mod安装flag, 一般是|has_global_flag = xxx|
-				#	如果这个mod连安装flag都没有, 就写|always = yes|
-				AND = { exists = owner		 owner = { has_authority = auth_gf_sfdoll } }
-				#	第二条件: 岗位检测标签
-				#	这个主要是用来debug, 也就是星球不符合第一条件的时候, 进行第二次检测清理掉上次的变动以增加优化
-				check_modifier_value = { modifier = PR_smod_plnt_JOB_deposit_<mod简称> value > 0 }
-			}
-		}
-		PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_alloys_maker }
-		#以此类推...
-	}
-}
+# PR_eft_plnt_JOB_deposit_sfdoll = {
+# 	if = {
+# 		limit = {
+# 			OR = {
+# 				#	第一条件: 必须要写!必须要写!必须要写!
+# 				#	判断此effect内岗位存在的大条件,用来增加优化. 比如当前的"death_priest", 存在这个岗位的国家至少不会是格式塔, 所以用|is_gestalt = no|
+# 				#	scope是<星球>
+# 				#	通常二次元物种mod的岗位都只允许本族使用, 比如必须拥有某种政体, 建筑, 物种特质, 所以这个自己把握
+# 				#	如果找不到别的, 可以写mod安装flag, 一般是|has_global_flag = xxx|
+# 				#	如果这个mod连安装flag都没有, 就写|always = yes|
+# 				AND = { exists = owner		 owner = { has_authority = auth_gf_sfdoll } }
+# 				#	第二条件: 岗位检测标签
+# 				#	这个主要是用来debug, 也就是星球不符合第一条件的时候, 进行第二次检测清理掉上次的变动以增加优化
+# 				check_modifier_value = { modifier = PR_smod_plnt_JOB_deposit_<mod简称> value > 0 }
+# 			}
+# 		}
+# 		PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_alloys_maker }
+# 		#以此类推...
+# 	}
+# }

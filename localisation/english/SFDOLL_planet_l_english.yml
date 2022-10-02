@@ -67,3 +67,5 @@ decision_planet_pop_to_sfdoll:0 "SF Doll Remodeling Surgery"
 decision_planet_pop_to_sfdoll_desc:0 "Population which is not SF Doll Species will be changed to SF Dolls."
 decision_planet_pop_to_sfdoll_effects_short:0 "$decision_planet_pop_to_sfdoll_desc$"
 
+pc_gf_sfdoll_embers_gloomy:0 "Dimmed Ashes"
+pc_gf_sfdoll_embers_gloomy_desc:0 "Rocky planet with harsh weather, atmosphere contains  thick clouds of collapse particles and collapsation storms, radiation brought by these is very deadly to both organisms and electronics. High local radiation makes it hard for most organisms to survive, apart from limited strains of mutated aggregated organisms. "

@@ -66,3 +66,5 @@ decision_planet_pop_to_sfdoll:0 "铁血改造手术"
 decision_planet_pop_to_sfdoll_desc:0 "即使你是机器人或者蜂巢子个体，也有机会成为光荣的铁血人形"
 decision_planet_pop_to_sfdoll_effects_short:0 "星球上的非铁血人口会转化为铁血人形"
 
+pc_gf_sfdoll_embers_gloomy:0 "余烬黯然"
+pc_gf_sfdoll_embers_gloomy_desc:0 "气候恶劣的岩态行星,大气中含有浓厚的坍缩云,有坍塌风暴造访,带来的坍塌辐射对所有的生物和电子设备都非常致命。区域辐射浓度高,除了少数变异聚集性动植物以外,其他生物很难生存。"

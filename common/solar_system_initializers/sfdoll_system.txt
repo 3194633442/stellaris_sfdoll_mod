@@ -11,7 +11,7 @@ sfdoll_system_search_zion = {
 	}
 	change_orbit = 45
 	planet = {
-		class = pc_toxic
+		class = pc_gf_sfdoll_embers_gloomy
 		orbit_angle = 30
 		orbit_distance = 30
 		size = 20
