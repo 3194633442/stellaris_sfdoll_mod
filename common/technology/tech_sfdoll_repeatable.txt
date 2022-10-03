@@ -5,7 +5,7 @@ tech_repeatable_weapon_type_sfdoll = {
 	levels = -1
 	area = society
 	category = { military_theory }
-	icon = tech_sfdoll_army
+	icon = tech_repeatable_weapon_type_sfdoll
 	prerequisites = {	tech_sfdoll_weapon_x_2	}
 	weight = @repeatableTechWeight
 	potential = { has_authority = auth_gf_sfdoll }

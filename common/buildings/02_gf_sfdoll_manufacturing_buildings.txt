@@ -395,11 +395,11 @@ building_sfdoll_gases_plant = {
 		category = planet_buildings
 		cost = {
 			minerals = @b3_minerals
-			nanites = @b3_rare_cost
+			GF_nyto_collapse_liquid = @b3_rare_cost
 		}
 		upkeep = {
 			energy = @b3_upkeep
-			nanites = @b3_rare_upkeep
+			GF_nyto_collapse_liquid = @b3_rare_upkeep
 		}
 	}
 

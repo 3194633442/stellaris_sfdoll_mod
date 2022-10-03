@@ -325,11 +325,11 @@ trait_sfdoll_industry= {
 	prerequisites = { tech_sf_doll_modding_2 }
 	opposites = {	trait_sfdoll_goods	trait_sfdoll_alloys }
 	modifier = {
-		planet_jobs_consumer_goods_produces_mult = 0.25
-		planet_jobs_alloys_produces_mult = 0.25
-		planet_jobs_sr_dark_matter_produces_mult = 0.25
-		planet_jobs_nanites_produces_mult = 0.25
-		planet_jobs_GF_nyto_collapse_liquid_produces_mult = 0.25
+		planet_jobs_consumer_goods_produces_mult = 0.3
+		planet_jobs_alloys_produces_mult = 0.3
+		planet_jobs_sr_dark_matter_produces_mult = 0.3
+		planet_jobs_nanites_produces_mult = 0.3
+		planet_jobs_GF_nyto_collapse_liquid_produces_mult = 0.3
 	}
 }
 
@@ -341,10 +341,12 @@ trait_sfdoll_nanite = {
 	icon = "gfx/interface/icons/traits/sfdoll/trait_sfdoll_nanite.dds"
 	advanced_trait = no
 	allowed_archetypes = {	SFDOLL	}
-	prerequisites = { tech_trait_sfdoll_nanite }
+	prerequisites = {
+		tech_trait_sfdoll_nanite
+	}
 	modifier = {
 		planet_jobs_produces_mult = 0.1
-		pop_assembly_speed = 0.1
+		pop_assembly_speed = 0.15
 		pop_environment_tolerance = 1
 		army_health = 1
 	}

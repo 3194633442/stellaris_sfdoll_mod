@@ -17,17 +17,27 @@ sfdoll_collapse_liquid_maker = {
 	resources = {
 		category = planet_technician
 		produces = {
-			GF_nyto_collapse_liquid = 6
+			GF_nyto_collapse_liquid = 3
 		}
-		produces = {
-			trigger = {
-				owner = {
-					has_technology = tech_sfdoll_social_reform_2
-				}
-			}
-			GF_nyto_collapse_liquid = 6
+		upkeep = {
+			energy = 15
 		}
-		upkeep = {	energy = 20	}
+		# produces = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_collapse_liquid_2
+		# 		}
+		# 	}
+		# 	GF_nyto_collapse_liquid = 3
+		# }
+		# upkeep = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_collapse_liquid_2
+		# 		}
+		# 	}
+		# 	energy = 7
+		# }
 	}
 	weight = {	weight = 20	}
 }
@@ -49,17 +59,26 @@ sfdoll_dark_matter_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_technician
-		produces = {	sr_dark_matter = 6	}
 		produces = {
-			trigger = {
-				owner = {
-					has_technology = tech_sfdoll_social_reform_2
-				}
-			}
-
-			sr_dark_matter = 6
+			sr_dark_matter = 3
 		}
-		upkeep = {	energy = 20	}
+		upkeep = {	energy = 15	}
+		# produces = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_dark_matter_2
+		# 		}
+		# 	}
+		# 	sr_dark_matter = 3
+		# }
+		# upkeep = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_dark_matter_2
+		# 		}
+		# 	}
+		# 	energy = 7
+		# }
 	}
 	weight = {	weight = 20	}
 }
@@ -84,20 +103,27 @@ sfdoll_nanites_maker = {
 	resources = {
 		category = planet_artisans
 		produces = {
-			nanites = 12
+			nanites = 6
 		}
-		produces = {
-			trigger = {
-				owner = {
-					has_technology = tech_sfdoll_social_reform_2
-				}
-			}
-			nanites = 24
-		}
-
 		upkeep = {
-			minerals = 20
+			minerals = 15
 		}
+		# produces = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_nanites_2
+		# 		}
+		# 	}
+		# 	nanites = 6
+		# }
+		# upkeep = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_nanites_2
+		# 		}
+		# 	}
+		# 	minerals = 7
+		# }
 	}
 	weight = {
 		weight = 20
@@ -127,6 +153,9 @@ sfdoll_researcher = {
 			society_research = 60
 			engineering_research = 60
 		}
+		upkeep = {
+			consumer_goods = 12
+		}
 		produces = {
 			trigger = {
 				owner = {
@@ -137,10 +166,6 @@ sfdoll_researcher = {
 			physics_research = 60
 			society_research = 60
 			engineering_research = 60
-		}
-
-		upkeep = {
-			consumer_goods = 14
 		}
 	}
 	weight = {	weight = 30	}
@@ -196,6 +221,9 @@ sfdoll_alloys_maker = {
 		produces = {
 			alloys = 45
 		}
+		upkeep = {
+			minerals =  36
+		}
 		produces = {
 			trigger = {
 				owner = {
@@ -203,10 +231,6 @@ sfdoll_alloys_maker = {
 				}
 			}
 			alloys = 45
-		}
-
-		upkeep = {
-			minerals =  42
 		}
 	}
 	weight = {	weight = 20	}
@@ -265,6 +289,10 @@ sfdoll_goods_maker = {
 			consumer_goods = 90
 			engineering_research = 6
 		}
+		upkeep = {
+			minerals = 36
+		}
+
 		produces = {
 			trigger = {
 				owner = {
@@ -273,10 +301,6 @@ sfdoll_goods_maker = {
 			}
 			consumer_goods = 90
 			engineering_research = 12
-		}
-
-		upkeep = {
-			minerals = 42
 		}
 	}
 	weight = {

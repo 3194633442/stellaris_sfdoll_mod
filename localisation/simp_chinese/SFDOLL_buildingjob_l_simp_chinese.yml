@@ -132,6 +132,12 @@ job_sfdoll_gases_maker_desc:0"$job_sfdoll_gases_maker$"
 job_sfdoll_gases_maker_effect_desc:0 " $job_sfdoll_gases_maker$消耗 §Y$minerals$§!，生产§Y$exotic_gases$§!，§Y$rare_crystals$§!，§Y$volatile_motes$§!"
 mod_job_sfdoll_gases_maker_add:0 "$job_sfdoll_gases_maker$岗位"
 
+tech_sfdoll_collapse_liquid_2:0 "坍塌粒子合成升级"
+tech_sfdoll_collapse_liquid_2_desc:0 "坍塌粒子的制造可以变得更加高效"
+tech_sfdoll_collapse_liquid_2_effect:0 "$job_sfdoll_collapse_liquid_maker$的产出和维护费提高"
+
+tech_sfdoll_dark_matter_2:0 "暗物质制造升级"
+tech_sfdoll_dark_matter_2_desc:0 "$job_sfdoll_dark_matter_maker$的产出和维护费提高"
 
 #civic
 building_sfdoll_academy:0"铁血学园"

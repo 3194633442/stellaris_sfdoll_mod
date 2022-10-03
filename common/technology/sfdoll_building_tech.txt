@@ -12,15 +12,91 @@ tech_sfdoll_collapse_liquid_produce = {
 }
 #高级坍塌液合成
 # tech_sfdoll_collapse_liquid_2 = {
-# 	cost = @tier4cost2
+# 	cost = @tier5cost3
 # 	area = physics
-# 	tier = 4
+# 	tier = 5
 # 	is_rare = yes
 # 	category = { particles }
 # 	icon = tech_sfdoll_collapse_liquid_produce
 # 	potential = {	has_authority = auth_gf_sfdoll	}
-# 	weight = @tier4weight2
+# 	prerequisites = {
+# 		tech_building_sfdoll_mineral
+# 		tech_sfdoll_collapse_liquid_produce
+# 	}
+# 	modifier = {
+# 		description = tech_sfdoll_collapse_liquid_2_effect
+# 	}
+# 	weight = 1500
 # }
+
+#暗物质合成科技
+tech_sfdoll_dark_matter_plant = {
+	cost = @tier4cost3
+	area = physics
+	tier = 4
+	is_rare = yes
+	category = { particles }
+	#需要铁血政体
+	prerequisites = {	 tech_sfdoll_collapse_liquid_produce	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	weight = @tier4weight3
+	weight_modifier = {
+		modifier = {
+			factor = 10
+			years_passed > 40
+		}
+	}
+}
+#暗物质合成升级
+# tech_sfdoll_dark_matter_2 = {
+# 	cost = @tier5cost3
+# 	area = physics
+# 	tier = 5
+# 	is_rare = yes
+# 	category = { particles }
+# 	#需要铁血政体
+# 	prerequisites = {
+# 		tech_building_sfdoll_mineral
+# 		tech_sfdoll_dark_matter_plant
+# 	}
+# 	potential = {
+# 		has_authority = auth_gf_sfdoll
+# 	}
+# 	weight = 1500
+# }
+
+#解锁铁血纳米生产
+tech_sfdoll_nanites = {
+	cost = @tier3cost2
+	area = engineering
+	tier = 3
+	is_rare = yes
+	category = { industry }
+	icon = tech_sfdoll_nanites
+	weight = 1500
+	potential = {	has_authority = auth_gf_sfdoll	}
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
+}
+#纳米生产升级
+# tech_sfdoll_nanites_2 = {
+# 	cost = @tier5cost3
+# 	area = engineering
+# 	tier = 5
+# 	is_rare = yes
+# 	category = { industry }
+# 	icon = tech_sfdoll_nanites
+# 	weight = 1500
+# 	potential = {	has_authority = auth_gf_sfdoll	}
+# 	prerequisites = {
+# 		tech_building_sfdoll_mineral
+# 		tech_sfdoll_nanites
+# 	}
+# }
+
 
 #研究所
 tech_sfdoll_lab = {
@@ -112,27 +188,6 @@ tech_sfdoll_goods = {
 # 		has_authority = auth_gf_sfdoll
 # 	}
 # }
-
-#暗物质合成科技
-tech_sfdoll_dark_matter_plant = {
-	cost = @tier4cost3
-	area = physics
-	tier = 4
-	is_rare = yes
-	category = { particles }
-	#需要铁血政体
-	prerequisites = {	 tech_sfdoll_collapse_liquid_produce	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	weight = @tier4weight3
-	weight_modifier = {
-		modifier = {
-			factor = 10
-			years_passed > 40
-		}
-	}
-}
 
 #奇点能源
 tech_sfdoll_energy_plant = {
