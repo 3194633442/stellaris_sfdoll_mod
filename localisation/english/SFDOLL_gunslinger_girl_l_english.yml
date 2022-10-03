@@ -1,20 +1,20 @@
 ﻿l_english:
 ##gunslinger girl
 sfdoll_gunslinger_girl_event_1:0 "Spaceship from Earth"
-sfdoll_gunslinger_girl_event_1_desc:0 "We accidentally discovered a signal that seemed to be of human origin. We tracked the signal and found a spaceship in space.\n\n Preliminary identification of the ship indicates that it is a ship made by human. We have recovered the ship and are checking it."
+sfdoll_gunslinger_girl_event_1_desc:0 "We accidentally discovered a signal that seemed to be of human origin. We tracked the signal and found a spaceship in space.\n\nPreliminary identification of the ship indicates that it is a ship made by human. We have recovered the ship and are checking it."
 
 sfdoll_gunslinger_girl_event_2:0 "Spaceship from Earth"
-sfdoll_gunslinger_girl_event_2_desc:0 "We inspected the spaceship from Earth.\n\n The ship seems to have been sent to space to escape the war, but its function is obviously not able to support human existence. On this ship, we can find only one Heaps of outdated equipment. \n The only thing that caught our attention was a huge, old mind server.\n We're going to start a special project to research it"
+sfdoll_gunslinger_girl_event_2_desc:0 "We inspected the spaceship from Earth.\n\nThe ship seems to have been sent to space to escape the war, but its function is obviously not able to support human existence. On this ship, we can find only one Heaps of outdated equipment. \n\nThe only thing that caught our attention was a huge, old mind server.\n\nWe're going to start a special project to research it."
 
 sfdoll_gunslinger_girl_rescue_project:0 "Old Mind Server"
 sfdoll_gunslinger_girl_rescue_project_DESC:0 "We found an old mind server on a human ship. We're going to start a project to study the contents of this server."
 
 sfdoll_gunslinger_girl_event_3:0 "Cyborg Girls?"
-sfdoll_gunslinger_girl_event_3_desc:0 "We successfully accessed the content in the mind server and found the minds of several human girls! \n\n The investigation showed that human girls in the server were all transformed into cyborgs. After their death, their minds were uploaded to this server. \n\n These minds create a virtual reality space on the server. They are so immersed in this fictional world that they almost forget their real situation."
+sfdoll_gunslinger_girl_event_3_desc:0 "We successfully accessed the content in the mind server and found the minds of several human girls! \n\nThe investigation showed that human girls in the server were all transformed into cyborgs. After their death, their minds were uploaded to this server. \n\nThese minds create a virtual reality space on the server. They are so immersed in this fictional world that they almost forget their real situation."
 sfdoll_gunslinger_girl_event_3_option:0 "Original but fun trick"
 
 sfdoll_gunslinger_girl_event_4:0 "Waking up from a big dream"
-sfdoll_gunslinger_girl_event_4_desc:0 "Cyborg girls's server may be scrapped at any time. We communicated with them and uploaded them to the Sangvis Ferri body.\n\n Cyborg girls ended their dreams and were reborn as Sangvis Ferri Dolls."
+sfdoll_gunslinger_girl_event_4_desc:0 "Cyborg girls's server may be scrapped at any time. We communicated with them and uploaded them to the Sangvis Ferri body.\n\nCyborg girls ended their dreams and were reborn as Sangvis Ferri Dolls."
 
 sfdoll_gunslinger_girl_event_5:0 "Communicate with the representative of the cyborg girls"
 sfdoll_gunslinger_girl_event_5_desc:0 "Is this body really mechanical? It feels more human than the previous body? Thanks a lot anyway."

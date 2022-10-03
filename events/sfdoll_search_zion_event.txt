@@ -36,12 +36,11 @@ country_event = {
 	desc = "sfdoll_search_zion_event_1_desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_unknown_civilization
+	picture = GFX_evp_sfdoll_ftl
 	after = {
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_search_zion_event.2
-				days = 60
 			}
 		}
 	}
@@ -55,12 +54,29 @@ country_event = {
 	desc = "sfdoll_search_zion_event_2_desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_ftl
+	picture = GFX_evp_sfdoll_archaeo
 
 	after = {
-		country_event = {
-			id = sfdoll_search_zion_event.3
-			days = 60
+		capital_scope ={
+			#create_archaeological_site = site_noel_sfdoll
+			spawn_system = {
+				initializer = sfdoll_system_search_zion
+				hyperlane = yes
+				is_discovered = yes
+				max_distance = 10
+				min_distance = 30
+				effect = {
+					set_surveyed = {
+						surveyed = yes
+					}
+					solar_system = {
+						add_hyperlane = {
+							from = THIS
+							to = root.capital_scope.solar_system
+						}
+					}
+				}
+			}
 		}
 	}
 }

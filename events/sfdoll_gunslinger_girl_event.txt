@@ -18,7 +18,6 @@ country_event = {
 	after = {
 		country_event = {
 			id = sfdoll_gunslinger_girl_event.2
-			days = 180
 		}
 	}
 }

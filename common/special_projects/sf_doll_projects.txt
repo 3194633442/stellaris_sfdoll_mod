@@ -195,7 +195,7 @@ special_project = {
 	key = "sfdoll_exd_leader_project"
 	event_chain = sfdoll_search_zion_chain
 	#待修改
-	cost = @tier2cost3
+	cost = @tier2cost2
 	# days_to_research = 30
 	tech_department = physics_technology
 

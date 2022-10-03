@@ -21,16 +21,16 @@ response_text_noel_become_general:0 "Prepare to fight."
 response_option_noel_become_ship:0 "Note that if I get shot down, it will take about a year for me to return to your world."
 
 sfdoll_noel_event_2_title:0 "Noel's recent status"
-sfdoll_noel_event_2_desc:0 "The girl Noel, who was found by us in the relic site, seems to be healthy at the moment, but seems to have lost the memory before meeting us. In the past few years, she has lived in our world, growing up like an ordinary human girl. \n\n Noel has brought many inspirations to our relic research, and we help her control her spirit and power, and teach her knowledge."
+sfdoll_noel_event_2_desc:0 "The girl Noel, who was found by us in the relic site, seems to be healthy at the moment, but seems to have lost the memory before meeting us. In the past few years, she has lived in our world, growing up like an ordinary human girl. \n\nNoel has brought many inspirations to our relic research, and we help her control her spirit and power, and teach her knowledge."
 sfdoll_noel_event.2_option:0 "We're going to uncover her secret."
 
 
 sfdoll_noel_event.3:0 "§RNoel is missing§!"
-sfdoll_noel_event.3_desc:0 "The project to research Noel has an accident! While Noel was out with her guardians, she hijacked a space ship and disappeared without a trace. \n\n All our searches have failed. "
+sfdoll_noel_event.3_desc:0 "The project to research Noel has an accident! While Noel was out with her guardians, she hijacked a space ship and disappeared without a trace. \n\nAll our searches have failed. "
 sfdoll_noel_event.3_option:0 "We underestimated the growth of her ability"
 
 sfdoll_noel_event.4:0 "Noel?"
-sfdoll_noel_event.4_desc:0 "Above our planet, rifts to other dimensions have appeared, pouring out massive streams of matter that put our planet in danger. \n\n At the same time, Noel appeared in the nearby space. Noyelu asked us to send the most elite fleet to follow her to the other side of the crack to help her close the dimensional crack."
+sfdoll_noel_event.4_desc:0 "Above our planet, rifts to other dimensions have appeared, pouring out massive streams of matter that put our planet in danger. \n\nAt the same time, Noel appeared in the nearby space. Noyelu asked us to send the most elite fleet to follow her to the other side of the crack to help her close the dimensional crack."
 sfdoll_noel_event.4_option:0 "Is she going to help us?"
 
 sfdoll_noel_event.5:0 "Emergency Meeting"
@@ -38,7 +38,7 @@ sfdoll_noel_event.5_desc:0 "As you can see, Noel is suspicious now, and there is
 sfdoll_noel_event.5_option:0 "We think the same as yours."
 
 sfdoll_noel_event.7:0 "Assist Noel"
-sfdoll_noel_event.7_desc:0 "SF Dolls' opinions converge on the OGAS network. Soon, they made a decision and followed Noel to start the disaster relief work. \n\n The reaction of the dimensional crack gradually weakened, and the planet returned to safety."
+sfdoll_noel_event.7_desc:0 "SF Dolls' opinions converge on the OGAS network. Soon, they made a decision and followed Noel to start the disaster relief work. \n\nThe reaction of the dimensional crack gradually weakened, and the planet returned to safety."
 
 
 sfdoll_noel_event.8:0 "In communication with Noel"
@@ -53,7 +53,7 @@ response_sfdoll_noel_event.9_option:0 "Thanks, I'm back."
 
 #noel trait
 leader_trait_governor_sfdoll_noel:0 "Relic Site Girl"
-leader_trait_governor_sfdoll_noel_desc:0 "Noel is an artificial life that SF Dolls found in a relic site. \n\n She has the characteristics of human beings and an unknown species."
+leader_trait_governor_sfdoll_noel_desc:0 "Noel is an artificial life that SF Dolls found in a relic site. \n\nShe has the characteristics of human beings and an unknown species."
 
 leader_trait_scientist_sfdoll_noel:0 "$leader_trait_governor_sfdoll_noel$"
 leader_trait_scientist_sfdoll_noel_desc:0 "$leader_trait_governor_sfdoll_noel_desc$"
