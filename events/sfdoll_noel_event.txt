@@ -356,7 +356,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sfdoll_noel_event.5_option
+		name = OK
 		hidden_effect = {
 			country_event = {
 				id = sfdoll_noel_event.7

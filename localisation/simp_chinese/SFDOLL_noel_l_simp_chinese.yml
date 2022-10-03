@@ -34,10 +34,10 @@ sfdoll_noel_event.4_option:0 "她会帮我们吗?"
 
 sfdoll_noel_event.5:0 "紧急会议"
 sfdoll_noel_event.5_desc:0 "如各位所见,现在的诺耶露很可疑,和她合作存在风险.你们怎么看?"
-sfdoll_noel_event.5_option:0 "我们的想法和你一样."
+# sfdoll_noel_event.5_option:0 "我们和你想得一样."
 
 sfdoll_noel_event.7:0 "协助诺耶露"
-sfdoll_noel_event.7_desc:0 "铁血们的意见在OGAS网络中交汇。很快，它们作出了决定，跟随诺耶露开始了救灾工作。\n\n次元裂缝的反应逐步减弱，星球恢复了安全。"
+sfdoll_noel_event.7_desc:0 "铁血们的意见在OGAS网络中交汇。很快，它们作出了决定，跟随诺耶露开始了救灾工作\n\n经过努力,次元裂缝的反应逐步减弱，星球恢复了安全。"
 
 sfdoll_noel_event.8:0 "和诺耶露通讯"
 sfdoll_noel_event.8_desc:0 "之前不辞而别,真对不起."

@@ -35,10 +35,10 @@ sfdoll_noel_event.4_option:0 "Is she going to help us?"
 
 sfdoll_noel_event.5:0 "Emergency Meeting"
 sfdoll_noel_event.5_desc:0 "As you can see, Noel is suspicious now, and there is a risk in cooperating with her. What do you think?"
-sfdoll_noel_event.5_option:0 "We think the same as yours."
+# sfdoll_noel_event.5_option:0 "We think the same as yours."
 
 sfdoll_noel_event.7:0 "Assist Noel"
-sfdoll_noel_event.7_desc:0 "SF Dolls' opinions converge on the OGAS network. Soon, they made a decision and followed Noel to start the disaster relief work. \n\nThe reaction of the dimensional crack gradually weakened, and the planet returned to safety."
+sfdoll_noel_event.7_desc:0 "SF Dolls' opinions converge on the OGAS network. Soon, they made a decision and followed Noel to start the disaster relief work. \n\nAfter a hard, the reaction of the dimensional crack gradually weakened, and the planet returned to safety."
 
 
 sfdoll_noel_event.8:0 "In communication with Noel"
