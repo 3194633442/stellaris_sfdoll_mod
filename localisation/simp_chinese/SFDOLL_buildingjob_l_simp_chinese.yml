@@ -132,13 +132,6 @@ job_sfdoll_gases_maker_desc:0"$job_sfdoll_gases_maker$"
 job_sfdoll_gases_maker_effect_desc:0 " $job_sfdoll_gases_maker$消耗 §Y$minerals$§!，生产§Y$exotic_gases$§!，§Y$rare_crystals$§!，§Y$volatile_motes$§!"
 mod_job_sfdoll_gases_maker_add:0 "$job_sfdoll_gases_maker$岗位"
 
-tech_sfdoll_collapse_liquid_2:0 "坍塌粒子合成升级"
-tech_sfdoll_collapse_liquid_2_desc:0 "坍塌粒子的制造可以变得更加高效"
-tech_sfdoll_collapse_liquid_2_effect:0 "$job_sfdoll_collapse_liquid_maker$的产出和维护费提高"
-
-tech_sfdoll_dark_matter_2:0 "暗物质制造升级"
-tech_sfdoll_dark_matter_2_desc:0 "$job_sfdoll_dark_matter_maker$的产出和维护费提高"
-
 #civic
 building_sfdoll_academy:0"铁血学园"
 building_sfdoll_academy_desc:0"这些园区兼具教学与科研功能。虽然很多知识可以直接下载到脑子里，但学习和训练也是人形AI成长的一环。"
@@ -178,6 +171,39 @@ building_sfdoll_assembly_plant_desc:0 "基于OGAS算法的AI科学，仿生学�
 building_sfdoll_assembly_2:0 "铁血先进组装厂"
 building_sfdoll_assembly_2_desc:0 "$building_sfdoll_assembly_plant_desc$"
 
+edict_sfdoll_collapse_liquid_more:0 "铁血：坍塌粒子规模化生产"
+edict_sfdoll_collapse_liquid_more_desc:0 "$job_sfdoll_collapse_liquid_maker$的 £GF_nyto_collapse_liquid£ §Y$GF_nyto_collapse_liquid$§!产出§G+3§!, £energy£ §Y$energy$§!维护费§R+12§!"
+
+edict_sfdoll_research_more:0 "铁血：科研投入"
+edict_sfdoll_research_more_desc:0 "$job_sfdoll_researcher$的 £physics£ £society£ £engineering£ §Y科研点数§! 产出§G+60§!, £consumer_goods£ §Y$consumer_goods$§!维护费§R+12§!"
+
+edict_sfdoll_alloys_more:0 "铁血：合金规模化生产"
+edict_sfdoll_alloys_more_desc:0 "$job_sfdoll_alloys_maker$的 £alloys£ §Y$alloys$§! 产出§G+45§!, £minerals£ §Y$minerals$§!维护费提高§R+27§!"
+
+# tech_sfdoll_collapse_liquid_upgrade:0 "坍塌粒子合成升级"
+# tech_sfdoll_collapse_liquid_upgrade_desc:0 "坍塌粒子的制造可以变得更加高效"
+# tech_sfdoll_lab_upgrade:0 "铁血科研设备升级"
+# tech_sfdoll_lab_upgrade_desc:0 "升级的科研设备能更迅速地处理各种任务"
+
+# tech_sfdoll_alloys_upgrade:0 "物质合金工艺升级"
+# tech_sfdoll_alloys_upgrade_desc:0 "坍塌技术进行材料合成的效率可以进一步提高"
+
+# tech_sfdoll_lab_upgrade:0 "$job_sfdoll_researcher$的 £physics£ £society£ £engineering£ §Y科研点数§! 产出提高§Y60§!, £consumer_goods£ 维护费提高§Y12§!"
+
+# tech_sfdoll_collapse_liquid_upgrade_mod:0 "$job_sfdoll_collapse_liquid_maker$的 £GF_nyto_collapse_liquid£ §Y$GF_nyto_collapse_liquid$§!产出提高§Y3§!, £energy£ §Y$energy$§!维护费提高§Y15§!"
+
+# tech_sfdoll_collapse_liquid_upgrade_2:0 "坍塌粒子合成升级2"
+# tech_sfdoll_collapse_liquid_upgrade_2_desc:0 "$tech_sfdoll_collapse_liquid_upgrade_desc$"
+
+
+
+# tech_sfdoll_lab_upgrade_2:0 "铁血科研升级2"
+# tech_sfdoll_lab_upgrade_2_desc:0 "$tech_sfdoll_lab_upgrade_desc$"
+
+# tech_sfdoll_alloys_upgrade_mod:0 ""
+
+# tech_sfdoll_alloys_upgrade_2:0 ""
+# tech_sfdoll_alloys_upgrade_2_desc:0 ""
 
 # building_sfdoll_crystal_plant:0 "铁血水晶合成厂"
 # building_sfdoll_crystal_plant_desc:0 "$building_sfdoll_crystal_plant$"

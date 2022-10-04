@@ -22,10 +22,26 @@ sfdoll_collapse_liquid_maker = {
 		upkeep = {
 			energy = 15
 		}
+		produces = {
+			trigger = {
+				owner = {
+					has_edict = sfdoll_collapse_liquid_more
+				}
+			}
+			GF_nyto_collapse_liquid = 3
+		}
+		upkeep = {
+			trigger = {
+				owner = {
+					has_edict = sfdoll_collapse_liquid_more
+				}
+			}
+			energy = 12
+		}
 		# produces = {
 		# 	trigger = {
 		# 		owner = {
-		# 			has_technology = tech_sfdoll_collapse_liquid_2
+		# 			has_technology = tech_sfdoll_collapse_liquid_upgrade
 		# 		}
 		# 	}
 		# 	GF_nyto_collapse_liquid = 3
@@ -33,10 +49,10 @@ sfdoll_collapse_liquid_maker = {
 		# upkeep = {
 		# 	trigger = {
 		# 		owner = {
-		# 			has_technology = tech_sfdoll_collapse_liquid_2
+		# 			has_technology = tech_sfdoll_collapse_liquid_upgrade
 		# 		}
 		# 	}
-		# 	energy = 7
+		# 	energy = 12
 		# }
 	}
 	weight = {	weight = 20	}
@@ -156,17 +172,43 @@ sfdoll_researcher = {
 		upkeep = {
 			consumer_goods = 12
 		}
+
 		produces = {
 			trigger = {
 				owner = {
-					has_technology = tech_sfdoll_social_reform_2
+					has_edict = sfdoll_research_more
 				}
 			}
-
 			physics_research = 60
 			society_research = 60
 			engineering_research = 60
 		}
+		upkeep = {
+			trigger = {
+				owner = {
+					has_edict = sfdoll_research_more
+				}
+			}
+			consumer_goods = 12
+		}
+		# produces = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_lab_upgrade
+		# 		}
+		# 	}
+		# 	physics_research = 60
+		# 	society_research = 60
+		# 	engineering_research = 60
+		# }
+		# upkeep = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_lab_upgrade
+		# 		}
+		# 	}
+		# 	energy = 12
+		# }
 	}
 	weight = {	weight = 30	}
 }
@@ -199,7 +241,6 @@ sfdoll_researcher = {
 # 	weight = {	weight = 30	}
 # }
 
-
 #合金岗位
 sfdoll_alloys_maker = {
 	category = specialist
@@ -224,14 +265,40 @@ sfdoll_alloys_maker = {
 		upkeep = {
 			minerals =  36
 		}
+
 		produces = {
 			trigger = {
 				owner = {
-					has_technology = tech_sfdoll_social_reform_2
+					has_edict = sfdoll_alloys_more
 				}
 			}
 			alloys = 45
 		}
+		upkeep = {
+			trigger = {
+				owner = {
+					has_edict = sfdoll_alloys_more
+				}
+			}
+			minerals =  27
+		}
+
+		# produces = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_alloys_upgrade
+		# 		}
+		# 	}
+		# 	alloys = 45
+		# }
+		# upkeep = {
+		# 	trigger = {
+		# 		owner = {
+		# 			has_technology = tech_sfdoll_alloys_upgrade
+		# 		}
+		# 	}
+		# 	minerals =  27
+		# }
 	}
 	weight = {	weight = 20	}
 }
@@ -263,7 +330,6 @@ sfdoll_alloys_maker = {
 # 	}
 # 	weight = {	weight = 20	}
 # }
-
 
 #消费品
 sfdoll_goods_maker = {

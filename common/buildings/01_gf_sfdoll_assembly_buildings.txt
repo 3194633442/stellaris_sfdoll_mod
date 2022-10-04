@@ -89,7 +89,7 @@ building_sfdoll_assembly_2= {
 			nanites = @b2_rare_cost
 		}
 		upkeep = {
-			nanites = 6
+			nanites = 2
 			energy = 2
 		}
 	}

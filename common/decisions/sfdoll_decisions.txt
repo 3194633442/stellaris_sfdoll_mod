@@ -82,7 +82,7 @@ decision_planet_to_sfdoll_city = {
 		category = decisions
 		cost = {
 			minerals = 10000
-			nanites = 1000
+			nanites = 100
 		}
 	}	
 	prerequisites = {
@@ -127,7 +127,7 @@ decision_planet_to_sfdoll_rw = {
 		category = decisions
 		cost = {
 			minerals = 10000
-			nanites = 1000
+			nanites = 100
 		}
 	}	
 	prerequisites = {

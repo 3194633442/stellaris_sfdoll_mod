@@ -1,6 +1,51 @@
+#坍塌液产出和消耗
+sfdoll_collapse_liquid_more = {
+	length = -1
+	icon = "GFX_edict_type_time"
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	prerequisites = {
+		tech_sfdoll_collapse_liquid_produce
+	}
+	ai_weight = {
+		weight = 0
+	}	
+}
+
+#科研产出提高
+sfdoll_research_more = {
+	length = -1
+	icon = "GFX_edict_type_time"
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	prerequisites = {
+		tech_sfdoll_lab
+	}
+	ai_weight = {
+		weight = 0
+	}	
+}
+
+#合金产出提高
+sfdoll_alloys_more = {
+	length = -1
+	icon = "GFX_edict_type_time"
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	prerequisites = {
+		tech_sfdoll_alloys_produce
+	}
+	ai_weight = {
+		weight = 0
+	}	
+}
+
 #航道修改
 sfdoll_change_hyperlane_window = {
-	length = 10
+	length = 30
 	icon = "GFX_edict_type_time"
 	potential = {
 		has_authority = auth_gf_sfdoll

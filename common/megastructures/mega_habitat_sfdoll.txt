@@ -54,7 +54,7 @@ sfdoll_habitat_01 ={
 		category = megastructures_habitat
 		cost = {
 			alloys = 5000
-			nanites = 500
+			nanites = 250
 			unity = 150
 		}
 	}
@@ -98,7 +98,7 @@ sfdoll_habitat_02 ={
 		category = megastructures_habitat
 		cost = {
 			alloys = 20000
-			nanites = 2000
+			nanites = 1000
 			unity = 450
 		}
 	}
