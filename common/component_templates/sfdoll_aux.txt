@@ -113,7 +113,7 @@ utility_component_template = {
 	component_set = "sfdoll_aux_rebuild_2"
 
 	size_restriction = {
-		sfdoll_star_attacker sfdoll_warship_4
+		sfdoll_star_attacker 
 	}
 	ai_weight = {
 		weight = 20
@@ -141,7 +141,13 @@ utility_component_template = {
 	component_set = "sfdoll_aux_rebuild"
 
 	size_restriction = {
-		sfdoll_mobile_starbase   sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4
+		sfdoll_mobile_starbase
+		sfdoll_warship_1
+		sfdoll_warship_2
+		sfdoll_warship_3
+		sfdoll_warship_4
+		sfdoll_warship_5
+		sfdoll_warship_6
 	}
 	ai_weight = {
 		weight = 20

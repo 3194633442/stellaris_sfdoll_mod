@@ -270,6 +270,50 @@ utility_component_template = {
 
 #T2反应堆
 utility_component_template = {
+	key = "sfdoll_REACTOR_2_1"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 96000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_warship_1 }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 3
+			sr_dark_matter = 20
+		}
+		upkeep = {
+			energy = 0.2
+			alloys = 0.1
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+utility_component_template = {
+	key = "sfdoll_REACTOR_2_2"
+	size = small
+	icon = "GFX_ship_part_sfdoll_ship_power_2"
+	icon_frame = 1
+	power = 240000
+	prerequisites = { tech_sfdoll_ship_power_2  }
+	component_set = "power_core"
+	size_restriction = {  sfdoll_warship_2 }
+	resources = {
+		category = ship_components
+		cost = {
+			GF_nyto_collapse_liquid = 5
+			sr_dark_matter = 40
+		}
+		upkeep = {
+			energy = 0.3
+			alloys = 0.2
+		}
+	}
+	ai_weight = {	weight = 20	}
+}
+utility_component_template = {
 	key = "sfdoll_REACTOR_2_3"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"

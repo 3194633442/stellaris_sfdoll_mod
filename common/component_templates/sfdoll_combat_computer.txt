@@ -13,6 +13,11 @@ utility_component_template = {
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 	}
+	size_restriction = {
+		colossus
+		star_eater
+		sfdoll_mobile_starbase
+	}
 	resources = {
 		category = ship_components
 		cost = {
@@ -40,6 +45,22 @@ utility_component_template = {
 		ship_accuracy_mult = 0.25
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
+	}
+	size_restriction = {
+		corvette
+		destroyer
+		cruiser
+		battleship
+		titan
+		juggernaut
+		star_eater
+		sfdoll_warship_1
+		sfdoll_warship_2
+		sfdoll_warship_3
+		sfdoll_warship_4
+		sfdoll_warship_5
+		sfdoll_warship_6
+		sfdoll_mobile_starbase
 	}
 	resources = {
 		category = ship_components
@@ -72,6 +93,22 @@ utility_component_template = {
 		ship_tracking_mult = 0.25
 		ship_evasion_mult = 0.25
 		ship_engagement_range_mult = 0.75
+	}
+	size_restriction = {
+		corvette
+		destroyer
+		cruiser
+		battleship
+		titan
+		juggernaut
+		star_eater
+		sfdoll_warship_1
+		sfdoll_warship_2
+		sfdoll_warship_3
+		sfdoll_warship_4
+		sfdoll_warship_5
+		sfdoll_warship_6
+		sfdoll_mobile_starbase
 	}
 	resources = {
 		category = ship_components

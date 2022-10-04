@@ -159,12 +159,14 @@ STARBASE_sfdoll_collapse_REACTOR:0"$CORVETTE_sfdoll_collapse_REACTOR$"
 Mobile_Starbase_sfdoll_collapse_REACTOR:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 
 
-tech_sfdoll_ship_power_2:0 "二级坍塌反应堆"
+tech_sfdoll_ship_power_2:0 "第二类坍塌反应堆"
 tech_sfdoll_ship_power_2_desc:0 "利用物质坍塌形成的奇点为飞船供能.目前仅有少数舰种可装备."
 sfdoll_REACTOR_2_1:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_2:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_3:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_4:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_5:0 "$tech_sfdoll_ship_power_2$"
+sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
 
 
 sfdoll_ship_reactor_no:0 "空槽"
@@ -175,47 +177,68 @@ sfdoll_warship_1_plural:0 "$sfdoll_warship_1$"
 tech_sfdoll_warship_1:0 "质量再生系统"
 tech_sfdoll_warship_1_desc:0 "暗物质工程和坍塌技术的应用,大幅提高了新舰种的自持力."
 
-sfdoll_warship_2:0 "铁血重型护卫舰"
+sfdoll_warship_2:0 "铁血中型护卫舰"
 sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"
 tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
 tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$"
 
-sfdoll_warship_3:0 "铁血轻型驱逐舰"
+sfdoll_warship_3:0 "铁血重型护卫舰"
 sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
 tech_sfdoll_warship_3:0 "$sfdoll_warship_3$"
 tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$"
 
-sfdoll_warship_4:0 "铁血重型驱逐舰"
+sfdoll_warship_4:0 "铁血轻型驱逐舰"
 sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
 tech_sfdoll_warship_4:0 "$sfdoll_warship_4$"
 tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$"
 
-sfdoll_warship_5:0 "铁血巡航舰"
+sfdoll_warship_5:0 "铁血中型驱逐舰"
 sfdoll_warship_5_plural:0 "$sfdoll_warship_5$"
 tech_sfdoll_warship_5:0 "$sfdoll_warship_5$"
 tech_sfdoll_warship_5_desc:0 "$sfdoll_warship_5$"
 
+sfdoll_warship_6:0 "铁血重型驱逐舰"
+sfdoll_warship_6_plural:0 "$sfdoll_warship_6$"
+tech_sfdoll_warship_6:0 "$sfdoll_warship_6$"
+tech_sfdoll_warship_6_desc:0 "$sfdoll_warship_6$"
 
-GF_sfdoll_warship_1_bow_X1:0 "A"
-sfdoll_warship_1_mid_L3:0 "B"
-sfdoll_warship_1_mid_L2S2P2:0 "C"
-sfdoll_warship_1_stern_L1:0 "D"
+sfdoll_warship_1_MID_L1M1
+sfdoll_warship_1_MID_L1S2
+sfdoll_warship_1_MID_L1P2
+sfdoll_warship_1_MID_M2S2
+sfdoll_warship_1_MID_M2P2
 
-GF_sfdoll_warship_2_bow_T1:0 "A"
-sfdoll_warship_2_bow_X2:0 "B"
-sfdoll_warship_2_mid_L6:0 "C"
-sfdoll_warship_2_mid_L4M2P4:0 "D"
-sfdoll_warship_2_stern_L2:0 "E"
+sfdoll_warship_2_bowL2
+sfdoll_warship_2_bow_M4
+sfdoll_warship_2_STERN_M2
+sfdoll_warship_2_STERN_S2P2
 
-sfdoll_warship_3_bow:0 "A"
-GF_nyto_01_sfdoll_warship_3_core:0 "B"
-sfdoll_warship_3_stern:0 "C"
+GF_sfdoll_warship_3_bow_X1
+GF_sfdoll_warship_3_bow_L2
+GF_sfdoll_warship_3_mid_L3
+GF_sfdoll_warship_3_mid_L2S2P2
+GF_sfdoll_warship_3_stern_L1
 
-sfdoll_warship_4_bow:0 "A"
-sfdoll_warship_4_mid:0 "B"
-sfdoll_warship_4_mid2:0 "C"
-sfdoll_warship_4_mid2_b:0 "E"
-sfdoll_warship_4_stern:0 "D"
+# GF_sfdoll_warship_1_bow_X1:0 "A"
+# sfdoll_warship_1_mid_L3:0 "B"
+# sfdoll_warship_1_mid_L2S2P2:0 "C"
+# sfdoll_warship_1_stern_L1:0 "D"
+
+# GF_sfdoll_warship_2_bow_T1:0 "A"
+# sfdoll_warship_2_bow_X2:0 "B"
+# sfdoll_warship_2_mid_L6:0 "C"
+# sfdoll_warship_2_mid_L4M2P4:0 "D"
+# sfdoll_warship_2_stern_L2:0 "E"
+
+# sfdoll_warship_3_bow:0 "A"
+# GF_nyto_01_sfdoll_warship_3_core:0 "B"
+# sfdoll_warship_3_stern:0 "C"
+
+# sfdoll_warship_4_bow:0 "A"
+# sfdoll_warship_4_mid:0 "B"
+# sfdoll_warship_4_mid2:0 "C"
+# sfdoll_warship_4_mid2_b:0 "E"
+# sfdoll_warship_4_stern:0 "D"
 
 
 
