@@ -444,7 +444,6 @@ tech_sfdoll_warship_5 = {
 	category = { voidcraft }
 	prerequisites = {	tech_sfdoll_warship_4	}
 	potential = {
-		always = no
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 5
@@ -459,7 +458,6 @@ tech_sfdoll_warship_6 = {
 	category = { voidcraft }
 	prerequisites = {	tech_sfdoll_warship_5	}
 	potential = {
-		always = no
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 5
@@ -476,7 +474,7 @@ tech_ship_sfdoll_carrier = {
 	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {
-		tech_sfdoll_warship_4
+		tech_sfdoll_warship_5
 	}
 	potential = {
 		always = no
