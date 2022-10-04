@@ -270,14 +270,14 @@ utility_component_template = {
 
 #T2反应堆
 utility_component_template = {
-	key = "sfdoll_REACTOR_2_1"
+	key = "sfdoll_REACTOR_2_3"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
 	power = 600000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_warship_1 }
+	size_restriction = {  sfdoll_warship_3 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -293,14 +293,14 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "sfdoll_REACTOR_2_2"
+	key = "sfdoll_REACTOR_2_4"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
 	power = 1600000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_warship_2 }
+	size_restriction = {  sfdoll_warship_4 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -316,14 +316,14 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "sfdoll_REACTOR_2_3"
+	key = "sfdoll_REACTOR_2_5"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
 	power = 4000000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_warship_3 }
+	size_restriction = {  sfdoll_warship_5 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -339,14 +339,14 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "sfdoll_REACTOR_2_4"
+	key = "sfdoll_REACTOR_2_6"
 	size = small
 	icon = "GFX_ship_part_sfdoll_ship_power_2"
 	icon_frame = 1
 	power = 10000000
 	prerequisites = { tech_sfdoll_ship_power_2  }
 	component_set = "power_core"
-	size_restriction = {  sfdoll_warship_4 }
+	size_restriction = {  sfdoll_warship_6 }
 	resources = {
 		category = ship_components
 		cost = {

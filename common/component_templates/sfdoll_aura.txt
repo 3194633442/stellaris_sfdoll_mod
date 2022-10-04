@@ -5,7 +5,7 @@ utility_component_template = {
 	icon = "GFX_component_aura_sfdoll_1"
 	icon_frame = 1
 	power = 0
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_star_attacker  }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6  sfdoll_star_attacker  }
 	component_set = "sfdoll_aura_components"
 	
 	# hostile_aura = {

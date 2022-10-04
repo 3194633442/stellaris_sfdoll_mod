@@ -448,7 +448,22 @@ tech_sfdoll_warship_5 = {
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 5
-	weight = 0
+	weight = 1400
+}
+tech_sfdoll_warship_6 = {
+	cost = @tier5cost3
+	area = engineering
+	start_tech = no
+	icon = tech_sfdoll_titan
+	is_rare = yes
+	category = { voidcraft }
+	prerequisites = {	tech_sfdoll_warship_5	}
+	potential = {
+		always = no
+		has_authority = auth_gf_sfdoll
+	}
+	tier = 5
+	weight = 1400
 }
 
 

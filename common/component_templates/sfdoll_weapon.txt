@@ -717,7 +717,7 @@ weapon_component_template = {
 		}
 	}
 	size_restriction = {
-		sfdoll_mobile_starbase sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5
+		sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6
 	}
 	ai_weight = {
 		weight = 50

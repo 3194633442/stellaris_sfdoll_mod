@@ -166,7 +166,7 @@ sfdoll_homeless_ship = {
 		cost = {
 			alloys = 1000
 			unity = 400
-			manpower = 100
+			# manpower = 100
 		}
 		upkeep = {
 			energy = 5
@@ -252,7 +252,7 @@ sfdoll_large_homeship = {
 		cost = {
 			alloys = 20000
 			unity = 1800
-			manpower = 200
+			# manpower = 200
 		}
 		upkeep = {
 			energy = 100

@@ -217,10 +217,7 @@ sfdoll_warship_4_mid2:0 "C"
 sfdoll_warship_4_mid2_b:0 "E"
 sfdoll_warship_4_stern:0 "D"
 
-sfdoll_warship_5_bow:0 "A"
-sfdoll_warship_5_mid:0 "B"
-sfdoll_warship_5_mid2:0 "C"
-sfdoll_warship_5_stern:0 "D"
+
 
 need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_02$,$$sfdoll_mobile_starbase$$,$mega_shipyard_3$"
 
