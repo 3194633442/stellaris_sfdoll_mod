@@ -34,6 +34,8 @@ sfdoll_warship_1 = {
 		ship_armor_add = 20000
 		ship_shield_add = 20000
 		ship_piracy_suppression_add = 10
+	}
+	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
 	size_multiplier = 1
@@ -82,6 +84,8 @@ sfdoll_warship_2 = {
 		ship_armor_add = 40000
 		ship_shield_add = 40000
 		ship_piracy_suppression_add = 10
+	}
+	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
 	size_multiplier = 2
@@ -130,6 +134,8 @@ sfdoll_warship_3 = {
 		ship_armor_add = 75000
 		ship_shield_add = 75000
 		ship_piracy_suppression_add = 10
+	}
+	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
 	size_multiplier = 4
@@ -178,6 +184,8 @@ sfdoll_warship_4 = {
 		ship_armor_add = 150000
 		ship_shield_add = 150000
 		ship_piracy_suppression_add = 10
+	}
+	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
@@ -221,11 +229,12 @@ sfdoll_warship_5 = {
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 500000
 	modifier = {
-		
 		ship_evasion_add = 20
 		ship_armor_add = 250000
 		ship_shield_add = 250000
 		ship_piracy_suppression_add = 10
+	}
+	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
 	components_add_to_cost = no
@@ -306,6 +315,8 @@ sfdoll_warship_6 = {
 		ship_armor_add = 500000
 		ship_shield_add = 500000
 		ship_piracy_suppression_add = 10
+	}
+	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
 	section_slots = {
@@ -389,17 +400,19 @@ sfdoll_mobile_starbase = {
 		ship_armor_add = 500000
 		ship_shield_add = 500000
 		ship_piracy_suppression_add = 10
-		ships_upkeep_mult = -1
 		starbase_shipyard_capacity_add = 20
 		starbase_shipyard_build_speed_mult = 2
 		ship_starting_experience_add = 200
 
 	}
+	ship_modifier = {
+		ships_upkeep_mult = -1
+	}
 	resources = {
 		category = ships
 		upkeep = {
-			alloys = 100
-			nanites = 25
+			energy = 400
+			alloys = 200
 		}
 	}
 	components_add_to_cost = no
@@ -452,7 +465,6 @@ sfdoll_mobile_starbase = {
 # 		ship_armor_add = 1000000
 # 		ship_shield_add = 1000000
 # 		ship_piracy_suppression_add = 10
-# 		ships_upkeep_mult = -1
 # 	}
 # 	section_slots = {
 # 		"bow" = { locator = part2 }
@@ -564,7 +576,6 @@ sfdoll_star_attacker = {
 		ship_shield_add = 1000000
 		ship_armor_add = 1000000
 		ship_piracy_suppression_add = 10
-		ships_upkeep_mult = -1
 	}
 	potential_country = {
 		has_authority = auth_gf_sfdoll
@@ -636,7 +647,6 @@ sfdoll_star_attacker = {
 # 		ship_shield_add = 2000000
 # 		ship_armor_add = 2000000
 # 		ship_piracy_suppression_add = 10
-# 		ships_upkeep_mult = -1
 # 	}
 # 	potential_country = {
 # 		has_authority = auth_gf_sfdoll
@@ -786,7 +796,6 @@ sfdoll_star_attacker = {
 # 		ship_shield_add = 600
 # 		ship_base_speed_mult = 1
 # 		ship_piracy_suppression_add = 10
-# 		ships_upkeep_mult = -1
 # 	}
 # 	size_multiplier = 1
 # 	fleet_slot_size = 1
@@ -831,7 +840,6 @@ sfdoll_star_attacker = {
 # 		ship_shield_add = 1600
 # 		ship_base_speed_mult = 1
 # 		ship_piracy_suppression_add = 10
-# 		ships_upkeep_mult = -1
 # 	}
 # 	size_multiplier = 2
 # 	fleet_slot_size = 2
