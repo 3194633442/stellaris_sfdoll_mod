@@ -215,7 +215,19 @@ country_event = {
 						has_ship_flag = flag_sfdoll_aux_rebuild
 					}
 				}
-				sfdoll_warship_rebuild = yes
+
+				#船数>1则在同一舰队内刷船
+				if = {
+					limit = {
+						fleet = {
+							num_ships > 1
+						}
+					}
+					sfdoll_warship_rebuild = yes
+				}
+				else = {
+					sfdoll_warship_rebuild_num1 = yes
+				}
 			}
 		}
 	}
@@ -340,53 +352,6 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {	has_authority = auth_gf_sfdoll	 }
 	immediate = {
-		fromfrom = {
-			solar_system = {
-				create_fleet = {
-					name = root.fromfrom.name
-					effect = {
-						#scope creat fleet
-						set_owner = root
-						root.fromfrom = {
-							every_owned_ship = {
-								if = {
-									limit = {
-										has_component = sfdoll_aux_rebuild
-										NOT = {
-											has_ship_flag = flag_sfdoll_aux_rebuild
-										}
-									}
-									if = {
-										limit = { is_ship_size = sfdoll_warship_1 }
-										prevprev = {
-											create_ship = {
-												name = prev
-												random_existing_design = sfdoll_warship_1
-												effect = {
-													set_timed_ship_flag = {
-														flag = flag_sfdoll_aux_rebuild
-														days = 30
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			# if = {
-			# 	limit = {
-			# 		any_owned_ship = {
-			# 			has_component = sfdoll_aux_rebuild
-			# 			NOT = {
-			# 				has_ship_flag = flag_sfdoll_aux_rebuild
-			# 			}
-			# 		}
-			# 	}
-			# }
-		}
+		sfdoll_fleet_rebuild = yes
 	}
 }

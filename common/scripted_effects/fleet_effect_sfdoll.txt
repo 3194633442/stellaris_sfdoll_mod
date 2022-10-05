@@ -91,53 +91,25 @@ sfdoll_warship_rebuild = {
 		}
 	}
 	# else_if = {
-	# 	limit = { is_ship_size = sfdoll_warship_5 }
-	# 	fleet = {
-	# 		create_ship = {
-	# 			name = prev
-	# 			random_existing_design = sfdoll_warship_5
-	# 			effect = {
-	# 				set_timed_ship_flag = {
-	# 					flag = flag_sfdoll_aux_rebuild
-	# 					days = 14
-	# 				}
-	# 			}
-	# 		}
-	# 	}
-	# }
-	# else_if = {
-	# 	limit = { is_ship_size = ship_sfdoll_carrier }
-	# 	fleet = {
-	# 		create_ship = {
-	# 			name = prev
-	# 			random_existing_design = ship_sfdoll_carrier
-	# 			effect = {
-	# 				set_timed_ship_flag = {
-	# 					flag = flag_sfdoll_aux_rebuild
-	# 					days = 30
-	# 				}
-
-	# 				set_disable_at_health = 0
-	# 			}
-	# 		}
-	# 	}
-	# }
-	# else_if = {
 	# 	limit = {
-	# 		is_ship_size = sfdoll_star_attacker
+	# 		is_ship_size = sfdoll_mobile_starbase
 	# 	}
 	# 	create_fleet = {
 	# 		name = root.fromfrom.fleet
 	# 		effect = {
 	# 			set_owner = root
 	# 			create_ship = {
-	# 				random_existing_design = sfdoll_star_attacker
+	# 				random_existing_design = sfdoll_mobile_starbase
 	# 				name = root.fromfrom
 	# 				effect = {
 	# 					set_timed_ship_flag = {
 	# 						flag = flag_sfdoll_aux_rebuild
 	# 						days = 30
 	# 					}
+	# 					# change_variable = {
+	# 					# 	which = sfdoll_rebuild_count
+	# 					# 	value = 1
+	# 					# }
 	# 				}
 	# 			}
 	# 			set_location = root.fromfrom
@@ -152,6 +124,166 @@ sfdoll_warship_rebuild = {
 	# 		}
 	# 	}
 	# }
+
+}
+#
+sfdoll_warship_rebuild_num1 = {
+	if = {
+		limit = {
+			is_ship_size = sfdoll_warship_1
+		}
+		create_fleet = {
+			name = root.fromfrom.fleet
+			effect = {
+				set_owner = root
+				create_ship = {
+					random_existing_design = sfdoll_warship_1
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+						# change_variable = {
+						# 	which = sfdoll_rebuild_count
+						# 	value = 1
+						# }
+					}
+				}
+				set_location = root.fromfrom
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_ship_size = sfdoll_warship_2
+		}
+		create_fleet = {
+			name = root.fromfrom.fleet
+			effect = {
+				set_owner = root
+				create_ship = {
+					random_existing_design = sfdoll_warship_2
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+						# change_variable = {
+						# 	which = sfdoll_rebuild_count
+						# 	value = 1
+						# }
+					}
+				}
+				set_location = root.fromfrom
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_ship_size = sfdoll_warship_3
+		}
+		create_fleet = {
+			name = root.fromfrom.fleet
+			effect = {
+				set_owner = root
+				create_ship = {
+					random_existing_design = sfdoll_warship_3
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+						# change_variable = {
+						# 	which = sfdoll_rebuild_count
+						# 	value = 1
+						# }
+					}
+				}
+				set_location = root.fromfrom
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_ship_size = sfdoll_warship_4
+		}
+		create_fleet = {
+			name = root.fromfrom.fleet
+			effect = {
+				set_owner = root
+				create_ship = {
+					random_existing_design = sfdoll_warship_4
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+						# change_variable = {
+						# 	which = sfdoll_rebuild_count
+						# 	value = 1
+						# }
+					}
+				}
+				set_location = root.fromfrom
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_ship_size = sfdoll_warship_5
+		}
+		create_fleet = {
+			name = root.fromfrom.fleet
+			effect = {
+				set_owner = root
+				create_ship = {
+					random_existing_design = sfdoll_warship_5
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+						# change_variable = {
+						# 	which = sfdoll_rebuild_count
+						# 	value = 1
+						# }
+					}
+				}
+				set_location = root.fromfrom
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_ship_size = sfdoll_warship_6
+		}
+		create_fleet = {
+			name = root.fromfrom.fleet
+			effect = {
+				set_owner = root
+				create_ship = {
+					random_existing_design = sfdoll_warship_6
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+						# change_variable = {
+						# 	which = sfdoll_rebuild_count
+						# 	value = 1
+						# }
+					}
+				}
+				set_location = root.fromfrom
+			}
+		}
+	}
 	else_if = {
 		limit = {
 			is_ship_size = sfdoll_mobile_starbase
@@ -176,21 +308,138 @@ sfdoll_warship_rebuild = {
 				}
 				set_location = root.fromfrom
 			}
-			settings = {
-				can_upgrade = yes
-				uses_naval_capacity = yes
-				spawn_debris = no
-				can_disband = yes
-				can_change_leader = yes
-				can_change_composition = no
-			}
 		}
 	}
 }
 
-#this = destroyed fleet root = owner
+# This root = owner of fleet 1 (destroyed)
+# From = owner of fleet 2 (combatant)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
 sfdoll_fleet_rebuild = {
-	
+	fromfrom = {
+		solar_system = {
+			create_fleet = {
+				name = root.fromfrom.name
+				effect = {
+					#scope creat fleet
+					set_owner = root
+					root.fromfrom = {
+						every_owned_ship = {
+							if = {
+								limit = {
+									has_component = sfdoll_aux_rebuild
+									NOT = {
+										has_ship_flag = flag_sfdoll_aux_rebuild
+									}
+								}
+								if = {
+									limit = { is_ship_size = sfdoll_warship_1 }
+									prevprev = {
+										create_ship = {
+											name = prev
+											random_existing_design = sfdoll_warship_1
+											effect = {
+												set_timed_ship_flag = {
+													flag = flag_sfdoll_aux_rebuild
+													days = 30
+												}
+											}
+										}
+									}
+								}
+								else_if = {
+									limit = { is_ship_size = sfdoll_warship_2 }
+									prevprev = {
+										create_ship = {
+											name = prev
+											random_existing_design = sfdoll_warship_2
+											effect = {
+												set_timed_ship_flag = {
+													flag = flag_sfdoll_aux_rebuild
+													days = 30
+												}
+											}
+										}
+									}
+								}
+								else_if = {
+									limit = { is_ship_size = sfdoll_warship_3 }
+									prevprev = {
+										create_ship = {
+											name = prev
+											random_existing_design = sfdoll_warship_3
+											effect = {
+												set_timed_ship_flag = {
+													flag = flag_sfdoll_aux_rebuild
+													days = 30
+												}
+											}
+										}
+									}
+								}
+								else_if = {
+									limit = { is_ship_size = sfdoll_warship_4 }
+									prevprev = {
+										create_ship = {
+											name = prev
+											random_existing_design = sfdoll_warship_4
+											effect = {
+												set_timed_ship_flag = {
+													flag = flag_sfdoll_aux_rebuild
+													days = 30
+												}
+											}
+										}
+									}
+								}
+								else_if = {
+									limit = { is_ship_size = sfdoll_warship_5 }
+									prevprev = {
+										create_ship = {
+											name = prev
+											random_existing_design = sfdoll_warship_5
+											effect = {
+												set_timed_ship_flag = {
+													flag = flag_sfdoll_aux_rebuild
+													days = 30
+												}
+											}
+										}
+									}
+								}
+								else_if = {
+									limit = { is_ship_size = sfdoll_warship_6 }
+									prevprev = {
+										create_ship = {
+											name = prev
+											random_existing_design = sfdoll_warship_6
+											effect = {
+												set_timed_ship_flag = {
+													flag = flag_sfdoll_aux_rebuild
+													days = 30
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		# if = {
+		# 	limit = {
+		# 		any_owned_ship = {
+		# 			has_component = sfdoll_aux_rebuild
+		# 			NOT = {
+		# 				has_ship_flag = flag_sfdoll_aux_rebuild
+		# 			}
+		# 		}
+		# 	}
+		# }
+	}
 }
 
 #this = new fleet , prev = a ship destroyed , root = country , root.fromfrom = old fleet
