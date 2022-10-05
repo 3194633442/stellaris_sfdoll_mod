@@ -91,16 +91,16 @@ mega_sfdoll_mobile_starbase_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_star
 mega_sfdoll_mobile_starbase_02_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_02$"
 
 
-sfdoll_star_exploit_01:0 "恒星坍塌器基址"
-sfdoll_star_exploit_01_DESC:0 "恒星加工器可以将恒星压缩保存,并提取恒星物质"
-sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
+sfdoll_star_exploit_01:0 "铁血戴森云基址"
+sfdoll_star_exploit_01_DESC:0 "$sfdoll_star_exploit_02_DESC$"
+sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_02_DESC$"
 
-sfdoll_star_exploit_02:0 "恒星坍塌器"
-sfdoll_star_exploit_02_DESC:0 "$sfdoll_star_exploit_01_DESC$ "
-sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
+sfdoll_star_exploit_02:0 "铁血戴森云"
+sfdoll_star_exploit_02_DESC:0 "戴森云通过复数电池板收集太阳能,并保持行星接收到足够的光照"
+sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_02_DESC$"
 
-tech_sfdoll_star_exploit:0 "大质量工程"
-tech_sfdoll_star_exploit_desc:0 "利用物质坍塌技术操纵基本力,我们可以压缩整个恒星,并将其冻结在可控黑洞之中,随心所欲地开采恒星物质."
+tech_sfdoll_star_exploit:0 "$sfdoll_star_exploit_02$"
+tech_sfdoll_star_exploit_desc:0 "$sfdoll_star_exploit_02_DESC$"
 
 build_sfdoll_star_exploit_01:0 "我们建造了一座$sfdoll_star_exploit_01$"
 build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"

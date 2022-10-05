@@ -2,7 +2,6 @@
 entity = {
 	name = "sfdoll_planet_shield_effect_entity"
 	pdxmesh = "planet_shield_effect_mesh"
-	
 	#get_state_from_parent = no
 	
 	default_state = "idle"
@@ -18,7 +17,7 @@ entity = {
 	# 	uv_animation_direction 	= { 0.0 -0.02 }
 	# }
 	locator = { name = "root" position = { 0 0 0 } }
-	scale = 40
+	scale = 41
 }
 
 entity = {

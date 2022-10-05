@@ -37,7 +37,7 @@ weapon_component_template = {
     accuracy = 1
     range = 250
 	prerequisites = {
-		tech_sfdoll_star_exploit
+		tech_sfdoll_weapon_p_2
 	}
 	size_restriction = { sfdoll_mobile_starbase sfdoll_star_attacker ship_sfdoll_noel colossus star_eater  }
 	component_set = "planet_killer_sfdoll_2"

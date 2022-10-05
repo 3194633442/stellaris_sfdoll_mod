@@ -10,8 +10,10 @@ ap_sfdoll_digi_mind_update ={
 		has_technology = tech_basic_science_lab_3
 	}
 	on_enabled = {
-		add_research_option = tech_sfdoll_reverse_collapse_1
 		add_research_option = tech_sfdoll_social_reform
+		add_research_option = tech_sfdoll_star_exploit
+		add_research_option = tech_habitat_1
+		add_research_option = tech_sfdoll_reverse_collapse_1
 		hidden_effect = {
 			country_event = {
 				id = gf_sfdoll_ascension_perk_event.1

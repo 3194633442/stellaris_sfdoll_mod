@@ -82,17 +82,16 @@ mega_sfdoll_mobile_starbase_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_star
 mega_sfdoll_mobile_starbase_02_complete:0 "$mega_sfdoll_mobile_starbase_02$ completed"
 
 
+sfdoll_star_exploit_01:0 "SF Dyson Cloud Site"
+sfdoll_star_exploit_01_DESC:0 "$sfdoll_star_exploit_02_DESC$"
+sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_02_DESC$"
 
-sfdoll_star_exploit_01:0 "Star Collapsing Tool Site"
-sfdoll_star_exploit_01_DESC:0 "Star Mining Tool can compress a star and exploit it."
-sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
+sfdoll_star_exploit_02:0 "SF Dyson Cloud"
+sfdoll_star_exploit_02_DESC:0 "The Dyson cloud collects solar energy through a complex array of panels and keeps the planet receiving enough light"
+sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_02_DESC$"
 
-sfdoll_star_exploit_02:0 "Star Collapsing Tool"
-sfdoll_star_exploit_02_DESC:0 "$sfdoll_star_exploit_01_DESC$ "
-sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_01_DESC$ "
-
-tech_sfdoll_star_exploit:0 "Massive Celestial Engineering"
-tech_sfdoll_star_exploit_desc:0 "Using matter-collapse techniques, we can compress an entire star and freeze it in a controllable black hole, mining star matter at will."
+tech_sfdoll_star_exploit:0 "$sfdoll_star_exploit_02$"
+tech_sfdoll_star_exploit_desc:0 "$sfdoll_star_exploit_02_DESC$"
 
 build_sfdoll_star_exploit_01:0 "$sfdoll_star_exploit_01$ completed"
 build_sfdoll_star_exploit_02:0 "$sfdoll_star_exploit_02$ completed"

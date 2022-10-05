@@ -41,30 +41,44 @@ tech_sfdoll_habitat_01 = {
 	weight = 1000
 }
 
-#恒星加工器
+#戴森云
 tech_sfdoll_star_exploit = {
 	area = physics
 	start_tech = no
-	tier = 5
-	cost = @tier5cost3
+	tier = 3
+	cost = @tier3cost3
 	category = { field_manipulation }
 	is_rare = yes
-	is_dangerous = yes
 	icon = tech_sfdoll_star_exploit
-	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
-		tech_mega_engineering
-	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
 	feature_flags = {
 		megaengineering
 	}
-	modifier = {
-		country_resource_max_add = 40000
+	weight = 0
+}
+#恒星坍塌器
+tech_sfdoll_star_collapse = {
+	area = physics
+	start_tech = no
+	tier = 4
+	cost = @tier4cost3
+	category = { field_manipulation }
+	is_rare = yes
+	icon = tech_sfdoll_star_exploit
+	potential = {
+		always = no
+		has_authority = auth_gf_sfdoll
 	}
-	weight = @tier3weight3
+	prerequisites = {
+		tech_sfdoll_dark_matter_plant
+		tech_sfdoll_star_exploit
+	}
+	feature_flags = {
+		megaengineering
+	}
+	weight = 0
 }
 
 tech_sfdoll_star_attacker = {
