@@ -126,16 +126,24 @@ sfdoll_warship_rebuild = {
 	# }
 
 }
-#
+#剩余1舰，新建舰队进行复活
 sfdoll_warship_rebuild_num1 = {
-	if = {
-		limit = {
-			is_ship_size = sfdoll_warship_1
-		}
-		create_fleet = {
-			name = root.fromfrom.fleet
-			effect = {
-				set_owner = root
+	create_fleet = {
+		name = root.fromfrom.fleet
+		effect = {
+			set_owner = root
+			set_location = root.fromfrom
+			#复活的新舰队30天内不能触发
+			set_timed_fleet_flag = {
+				flag = flag_sfdoll_fleet_rebuild
+				days = 30
+			}
+			if = {
+				limit = {
+					root.fromfrom = {
+						is_ship_size = sfdoll_warship_1
+					}
+				}
 				create_ship = {
 					random_existing_design = sfdoll_warship_1
 					name = root.fromfrom
@@ -144,24 +152,15 @@ sfdoll_warship_rebuild_num1 = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-						# change_variable = {
-						# 	which = sfdoll_rebuild_count
-						# 	value = 1
-						# }
 					}
 				}
-				set_location = root.fromfrom
 			}
-		}
-	}
-	else_if = {
-		limit = {
-			is_ship_size = sfdoll_warship_2
-		}
-		create_fleet = {
-			name = root.fromfrom.fleet
-			effect = {
-				set_owner = root
+			else_if = {
+				limit = {
+					root.fromfrom = {
+						is_ship_size = sfdoll_warship_2
+					}
+				}
 				create_ship = {
 					random_existing_design = sfdoll_warship_2
 					name = root.fromfrom
@@ -170,24 +169,15 @@ sfdoll_warship_rebuild_num1 = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-						# change_variable = {
-						# 	which = sfdoll_rebuild_count
-						# 	value = 1
-						# }
 					}
 				}
-				set_location = root.fromfrom
 			}
-		}
-	}
-	else_if = {
-		limit = {
-			is_ship_size = sfdoll_warship_3
-		}
-		create_fleet = {
-			name = root.fromfrom.fleet
-			effect = {
-				set_owner = root
+			else_if = {
+				limit = {
+					root.fromfrom = {
+						is_ship_size = sfdoll_warship_3
+					}
+				}
 				create_ship = {
 					random_existing_design = sfdoll_warship_3
 					name = root.fromfrom
@@ -196,24 +186,15 @@ sfdoll_warship_rebuild_num1 = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-						# change_variable = {
-						# 	which = sfdoll_rebuild_count
-						# 	value = 1
-						# }
 					}
 				}
-				set_location = root.fromfrom
 			}
-		}
-	}
-	else_if = {
-		limit = {
-			is_ship_size = sfdoll_warship_4
-		}
-		create_fleet = {
-			name = root.fromfrom.fleet
-			effect = {
-				set_owner = root
+			else_if = {
+				limit = {
+					root.fromfrom = {
+						is_ship_size = sfdoll_warship_4
+					}
+				}
 				create_ship = {
 					random_existing_design = sfdoll_warship_4
 					name = root.fromfrom
@@ -222,24 +203,15 @@ sfdoll_warship_rebuild_num1 = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-						# change_variable = {
-						# 	which = sfdoll_rebuild_count
-						# 	value = 1
-						# }
 					}
 				}
-				set_location = root.fromfrom
 			}
-		}
-	}
-	else_if = {
-		limit = {
-			is_ship_size = sfdoll_warship_5
-		}
-		create_fleet = {
-			name = root.fromfrom.fleet
-			effect = {
-				set_owner = root
+			else_if = {
+				limit = {
+					root.fromfrom = {
+						is_ship_size = sfdoll_warship_5
+					}
+				}
 				create_ship = {
 					random_existing_design = sfdoll_warship_5
 					name = root.fromfrom
@@ -248,24 +220,15 @@ sfdoll_warship_rebuild_num1 = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-						# change_variable = {
-						# 	which = sfdoll_rebuild_count
-						# 	value = 1
-						# }
 					}
 				}
-				set_location = root.fromfrom
 			}
-		}
-	}
-	else_if = {
-		limit = {
-			is_ship_size = sfdoll_warship_6
-		}
-		create_fleet = {
-			name = root.fromfrom.fleet
-			effect = {
-				set_owner = root
+			else_if = {
+				limit = {
+					root.fromfrom = {
+						is_ship_size = sfdoll_warship_6
+					}
+				}
 				create_ship = {
 					random_existing_design = sfdoll_warship_6
 					name = root.fromfrom
@@ -274,24 +237,15 @@ sfdoll_warship_rebuild_num1 = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-						# change_variable = {
-						# 	which = sfdoll_rebuild_count
-						# 	value = 1
-						# }
 					}
 				}
-				set_location = root.fromfrom
 			}
-		}
-	}
-	else_if = {
-		limit = {
-			is_ship_size = sfdoll_mobile_starbase
-		}
-		create_fleet = {
-			name = root.fromfrom.fleet
-			effect = {
-				set_owner = root
+			else_if = {
+				limit = {
+					root.fromfrom = {
+						is_ship_size = sfdoll_mobile_starbase
+					}
+				}
 				create_ship = {
 					random_existing_design = sfdoll_mobile_starbase
 					name = root.fromfrom
@@ -300,13 +254,8 @@ sfdoll_warship_rebuild_num1 = {
 							flag = flag_sfdoll_aux_rebuild
 							days = 30
 						}
-						# change_variable = {
-						# 	which = sfdoll_rebuild_count
-						# 	value = 1
-						# }
 					}
 				}
-				set_location = root.fromfrom
 			}
 		}
 	}

@@ -11,6 +11,10 @@ country_event = {
 		if = {
 			limit = {
 				fromfrom = {
+					#复活的新舰队30天内不能触发
+					NOT = {
+						has_fleet_flag = flag_sfdoll_fleet_rebuild
+					}
 					any_owned_ship = {
 						has_component = component_aura_sfdoll_1
 					}
@@ -348,7 +352,7 @@ fleet_event = {
 # FromFromFrom = fleet 2
 country_event = {
 	id = sfdoll_fleet_event.10
-	hide_window = no
+	hide_window = yes
 	is_triggered_only = yes
 	trigger = {	has_authority = auth_gf_sfdoll	 }
 	immediate = {

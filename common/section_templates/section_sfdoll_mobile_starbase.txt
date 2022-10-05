@@ -53,26 +53,26 @@ ship_section_template = {
 		template = invisible_titanic_fixed
 		locatorname = T08
 	}
-	component_slot = {
-		name = T_09
-		template = invisible_titanic_fixed
-		locatorname = T09
-	}
-	component_slot = {
-		name = T_10
-		template = invisible_titanic_fixed
-		locatorname = T10
-	}
-	component_slot = {
-		name = T_11
-		template = invisible_titanic_fixed
-		locatorname = T11
-	}
-	component_slot = {
-		name = T_12
-		template = invisible_titanic_fixed
-		locatorname = T12
-	}
+	# component_slot = {
+	# 	name = T_09
+	# 	template = invisible_titanic_fixed
+	# 	locatorname = T09
+	# }
+	# component_slot = {
+	# 	name = T_10
+	# 	template = invisible_titanic_fixed
+	# 	locatorname = T10
+	# }
+	# component_slot = {
+	# 	name = T_11
+	# 	template = invisible_titanic_fixed
+	# 	locatorname = T11
+	# }
+	# component_slot = {
+	# 	name = T_12
+	# 	template = invisible_titanic_fixed
+	# 	locatorname = T12
+	# }
 
 	large_utility_slots = 20
 }

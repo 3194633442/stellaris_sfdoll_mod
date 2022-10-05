@@ -20,69 +20,6 @@
 			#GFX_<key>_top_damaged
 # icon_frame: now only used for starbases. Value of 2 or more means it shows up on the galaxy map, 1-5 denote which icon it uses on starbase sprite sheets (e.g. gfx/interface/icons/starbase_ship_sizes.dds)
 ####################
-#移动船坞
-sfdoll_mobile_starbase = {
-	formation_priority = @juggernaut_formation_priority
-	entity = sfdoll_SANGVIS_FERRI_frame_entity
-	max_speed = @speed_very_fast
-	acceleration = 0.3
-	rotation_speed = 0.2
-	collision_radius = @titan_collision_radius
-	max_hitpoints = 5000
-	modifier = {
-		ship_evasion_add = 10
-		# ship_armor_add = 1000000
-		# ship_shield_add = 1000000
-		ship_piracy_suppression_add = 10
-		ships_upkeep_mult = -1
-		starbase_shipyard_capacity_add = 20
-		starbase_shipyard_build_speed_mult = 2
-		ship_starting_experience_add = 200
-
-	}
-	resources = {
-		category = ships
-		upkeep = {
-			alloys = 100
-			nanites = 25
-		}
-	}
-	components_add_to_cost = no
-	combat_size_multiplier = 3
-	size_multiplier = 128
-	fleet_slot_size = 8
-	num_target_locators = 8
-	section_slots = {
-		"bow" = { locator = part2 }
-		"core" = { locator = part2 }
-		"core2" = { locator = part2 }
-		"stern"  = { locator = part2 }
-	}
-	potential_construction = {
-		always = no
-	}
-	possible_country = {
-		has_authority = auth_gf_sfdoll
-	}
-	combat_disengage_chance = -1
-	can_have_federation_design = no
-	enable_default_design = yes	
-	can_disable = no
-	icon_frame = 7
-	ship_class_icon_frame = 35
-	icon = ship_size_military_32
-	default_behavior = carrier
-	prerequisites = { "tech_sfdoll_mobile_starbase" }
-	class = shipclass_starbase
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "sensor_components"
-	required_component_set = "thruster_components"
-	required_component_set = "combat_computers"
-	required_component_set = "sfdoll_aura_components"
-}
-
 #信标船
 sfdoll_change_hyperlane_ship = {
 	entity = "nemesis_01_titan_entity"
