@@ -97,6 +97,26 @@ tech_sfdoll_star_collapse = {
 	}
 	weight = 0
 }
+#黑洞解压
+tech_sfdoll_blackhole_mining  = {
+	area = physics
+	start_tech = no
+	tier = 4
+	cost = @tier4cost2
+	category = { field_manipulation }
+	is_rare = yes
+	icon = tech_sfdoll_star_exploit
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	prerequisites = {
+		tech_sfdoll_dark_matter_plant
+	}
+	feature_flags = {
+		megaengineering
+	}
+	weight = @tier4weight1
+}
 
 tech_sfdoll_star_attacker = {
 	area = engineering
