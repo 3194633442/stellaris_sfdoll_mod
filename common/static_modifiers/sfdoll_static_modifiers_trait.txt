@@ -53,6 +53,7 @@ sfdoll_test_modifier = {
 	country_base_society_research_produces_add = 40000
 	country_base_engineering_research_produces_add = 40000
 	country_base_unity_produces_add = 1000
+	megastructure_build_speed_add = 1000
 }
 
 # xxx= {

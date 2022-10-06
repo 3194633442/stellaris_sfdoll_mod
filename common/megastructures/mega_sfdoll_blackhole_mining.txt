@@ -86,8 +86,9 @@ sfdoll_blackhole_mining_01 = {
 #黑洞开采器初级
 sfdoll_blackhole_mining_02 = {
 	entity = "matter_decompressor_stage_4_entity"
-	construction_entity = "matter_decompressor_stage_4_construction_entity"
-	portrait = "GFX_megastructure_sfdoll_star_exploit_02"
+	entity_offset = { x = -20 y = -20 }
+	construction_entity = ""
+	portrait = "GFX_megastructure_sfdoll_star_collapse"
 	build_time = 720
 	show_galactic_map_icon = yes
 	prerequisites = { 	tech_sfdoll_blackhole_mining	}
@@ -119,7 +120,7 @@ sfdoll_blackhole_mining_02 = {
 sfdoll_blackhole_mining_03 = {
 	entity = "nova_ring_entity"
 	construction_entity = "nova_ring_entity"
-	portrait = "GFX_megastructure_sfdoll_star_exploit_02"
+	portrait = "GFX_megastructure_sfdoll_star_collapse"
 	build_time = 1800
 	show_galactic_map_icon = yes
 	prerequisites = { 	tech_sfdoll_blackhole_mining	}

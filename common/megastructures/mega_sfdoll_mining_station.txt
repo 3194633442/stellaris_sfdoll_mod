@@ -79,7 +79,7 @@ sfdoll_mining_station_01 = {
 sfdoll_mining_station_02 = {
 	entity = "sfdoll_mining_station_section_entity"
 	construction_entity = ""
-	portrait = "GFX_megastructure_sfdoll_star_exploit_02"
+	portrait = "GFX_sfdoll_habitat_01"
 	build_time = 360
 	entity_offset = { x = 5 y = -5 }
 	show_galactic_map_icon = yes

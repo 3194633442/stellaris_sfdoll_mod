@@ -9,8 +9,8 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_megastructure_sfdoll_star_exploit_02"
-		texturefile = "gfx/interface/planetview/megastructure_sfdoll_star_exploit_02.dds"
+		name = "GFX_megastructure_sfdoll_star_collapse"
+		texturefile = "gfx/interface/planetview/megastructure_sfdoll_star_collapse.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}
