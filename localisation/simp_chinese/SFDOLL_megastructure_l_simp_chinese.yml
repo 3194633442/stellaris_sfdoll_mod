@@ -106,6 +106,18 @@ build_sfdoll_star_exploit_01:0 "我们建造了一座$sfdoll_star_exploit_01$"
 build_sfdoll_star_exploit_02:0 "我们建造了一座$sfdoll_star_exploit_02$"
 
 
+sfdoll_mining_station_01:0 "铁血小行星开采站基址"
+sfdoll_mining_station_01_DESC:0 "$sfdoll_mining_station_02_DESC$"
+sfdoll_mining_station_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mining_station_02_DESC$"
+
+sfdoll_mining_station_02:0 "铁血小行星开采站"
+sfdoll_mining_station_02_DESC:0 "这些开采站可以开采小行星带的矿物"
+sfdoll_mining_station_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mining_station_02_DESC$"
+
+tech_sfdoll_mining_station:0 "$sfdoll_mining_station_02$"
+tech_sfdoll_mining_station_desc:0 "$sfdoll_mining_station_02_DESC$"
+
+
 # gateway_sfdoll:0 "铁血星门"
 # gateway_sfdoll_DESC:0 "利用铁血科技打造的快捷交通枢纽"
 # gateway_sfdoll_MEGASTRUCTURE_DETAILS:0 "$gateway_sfdoll_DESC$"
