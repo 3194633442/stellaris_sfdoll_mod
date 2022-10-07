@@ -45,7 +45,7 @@ sfdoll_gateway_ship = {
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
 	is_civilian = no
-	is_designable = no
+	is_designable = yes
 	components_add_to_cost = no
 	class = shipclass_military_special
 	construction_type = starbase_shipyard
@@ -62,6 +62,54 @@ sfdoll_gateway_ship = {
 			energy = @construction_upkeep_energy
 			alloys = @construction_upkeep_alloys
 		}
+	}
+}
+
+#诺耶露变身形态
+ship_sfdoll_noel = {
+	entity = dimensional_horror_entity
+	max_speed = @speed_slow
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = @titan_collision_radius
+	max_hitpoints = 3000000
+	size_multiplier = 0
+	fleet_slot_size = 0
+	section_slots = {
+		"core" = { locator = "part1" }
+	}
+	num_target_locators = 1
+	is_space_station = no
+	icon = ship_size_military_32
+	base_buildtime = 0 #3600
+	can_have_federation_design = no
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
+	can_be_inspected = yes
+	components_add_to_cost = no
+	potential_country = {	always = no	}
+	potential_construction = {	always = no	}
+	default_behavior = artillery
+	class = shipclass_military_special
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "sensor_components"
+	required_component_set = "thruster_components"
+	modifier = {
+		ships_upkeep_mult = -1
+		ship_shield_add = 3000000
+		ship_armor_add = 3000000
+		ship_evasion_add = 90
+	}
+	ship_modifier = {
+		ship_shield_penetration_mult = 1.5
+		ship_armor_penetration_mult = 1.5
+		ship_tracking_mult = 1
+		ship_emergency_ftl_min_days_mult = -1.0
+		ship_shield_regen_add_static = 200000
+		ship_armor_regen_add_static = 200000
+		ship_hull_regen_add_static = 200000
 	}
 }
 
@@ -247,56 +295,7 @@ sfdoll_large_homeship = {
 }
 
 
-#诺耶露变身形态
-ship_sfdoll_noel = {
-	entity = dimensional_horror_entity
-	max_speed = @speed_slow
-	acceleration = 0.2
-	rotation_speed = 0.15
-	collision_radius = @titan_collision_radius
-	max_hitpoints = 5000000
-	size_multiplier = 0
-	fleet_slot_size = 0
-	section_slots = {
-		"core" = { locator = "part1" }
-	}
-	num_target_locators = 1
-	is_space_station = no
-	icon = ship_size_military_32
-	base_buildtime = 0 #3600
-	can_have_federation_design = no
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
-	can_be_inspected = no
-	components_add_to_cost = no
-	potential_country = {
-		has_country_flag = sfdoll_noel_owner
-	}
-	potential_construction = {
-		always = no
-	}
-	default_behavior = carrier
-	class = shipclass_military_special
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "sensor_components"
-	required_component_set = "thruster_components"
-	modifier = {
-		ships_upkeep_mult = -1
-		ship_shield_add = 5000000
-		ship_armor_add = 5000000
-		ship_tracking_mult = 1.0
-		ship_evasion_add = 90
-		ship_windup_mult = -1.0
-		ship_ftl_jumpdrive_range_mult = 6
-		ship_jumpdrive_cooldown_mult = -1
-		ship_emergency_ftl_min_days_mult = -1.0
-	}
-	min_upgrade_cost = {
-		alloys = 10
-	}
-}
+
 
 #高维科研船
 sfdoll_exd_science_ship = {
@@ -316,10 +315,15 @@ sfdoll_exd_science_ship = {
 		ship_armor_add = 40000
 		ship_shield_regen_add_perc = 2
 	}
+	ship_modifier = {
+		ship_shield_penetration_mult = 1
+		ship_armor_penetration_mult = 1
+	}
 	max_hitpoints = 40000
 	size_multiplier = 0
 	fleet_slot_size = 16
 	default_behavior = artillery
+	valid_target_aggressive_stance = yes
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
 	is_space_station = no

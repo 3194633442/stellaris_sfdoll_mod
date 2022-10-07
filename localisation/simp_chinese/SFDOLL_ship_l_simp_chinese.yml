@@ -241,7 +241,9 @@ need_sfdoll_mega_starport:0 "下列场所可以建造它:$sfdoll_mega_starport_0
 component_aura_sfdoll_1:0 "压制装置\n\n交战开始时启动,降低敌方舰队的武器伤害,命中,射速,射程,闪避,效果不可叠加,持续30天."
 
 ship_sfdoll_noel:0 "诺耶露"
-section_sfdoll_noel:0 "诺耶露"
+ship_sfdoll_noel_plural:0 "$ship_sfdoll_noel$"
+section_sfdoll_noel:0 "$ship_sfdoll_noel$"
+design_ship_sfdoll_noel:0 "$ship_sfdoll_noel$"
 
 #section
 tech_sfdoll_battleship_bow_x2:0 "铁血军工:轻量化武器"

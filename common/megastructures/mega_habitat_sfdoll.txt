@@ -126,8 +126,8 @@ sfdoll_habitat_02 ={
 				set_planet_flag = habitat
 			}
 		}
+		from = { set_country_flag = has_built_or_repaired_megastructure }
 		from = {
-			set_country_flag = has_built_or_repaired_megastructure
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_habitat_02_complete

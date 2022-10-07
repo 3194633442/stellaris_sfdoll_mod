@@ -152,7 +152,7 @@ effect_create_fleet_sfdoll_noel = {
 			can_change_leader = no
 			uses_naval_capacity = no
 			spawn_debris = no
-			is_boss = yes
+			is_boss = no
 			can_disband = yes
 		}
 		effect = {
@@ -161,12 +161,10 @@ effect_create_fleet_sfdoll_noel = {
 			set_location = root.capital_scope
 			create_ship = {
 				name =  Name_ship_sfdoll_noel
-				random_existing_design = ship_sfdoll_noel
+				design = design_ship_sfdoll_noel
 				prefix = no
-				upgradable = yes
-				effect = {
-					save_global_event_target_as = ship_sfdoll_noel
-				}
+				upgradable = no
+				effect = {	save_global_event_target_as = ship_sfdoll_noel	}
 			}
 		}
 	}

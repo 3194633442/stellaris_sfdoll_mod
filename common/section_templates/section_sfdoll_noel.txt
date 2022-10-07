@@ -5,8 +5,11 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "dimensional_horror_hull_entity"
 	icon = "GFX_ship_part_core_bow"
-	large_utility_slots = 3
-
+	component_slot = {
+		name = "W_LARGE_01"
+		template = invisible_planet_killer_fixed
+		locatorname = "large_gun_01"
+	}
 	component_slot = {
 		name = "T_LARGE_01"
 		template = invisible_titanic_fixed
@@ -20,11 +23,6 @@ ship_section_template = {
 	component_slot = {
 		name = "T_LARGE_03"
 		template = invisible_titanic_fixed
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "W_LARGE_01"
-		template = invisible_planet_killer_fixed
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
@@ -147,45 +145,6 @@ ship_section_template = {
 		name = "L_LARGE_12"
 		template = invisible_large_turret
 		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "L_LARGE_13"
-		template = invisible_large_turret
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "L_LARGE_14"
-		template = invisible_large_turret
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "L_LARGE_15"
-		template = invisible_large_turret
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "L_LARGE_16"
-		template = invisible_large_turret
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "L_LARGE_17"
-		template = invisible_large_turret
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "L_LARGE_18"
-		template = invisible_large_turret
-		locatorname = "large_gun_02"
-	}
-
-	aux_utility_slots = 6
-	large_utility_slots = 27
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
 	}
 }
 

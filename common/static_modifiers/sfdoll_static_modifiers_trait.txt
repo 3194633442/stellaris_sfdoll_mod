@@ -49,10 +49,12 @@ sfdoll_test_modifier = {
 	# country_physics_research_produces_mult = 20
 	# country_society_research_produces_mult = 20
 	# country_engineering_research_produces_mult = 20
+	country_base_energy_produces_add = 10000
 	country_base_physics_research_produces_add = 40000
 	country_base_society_research_produces_add = 40000
 	country_base_engineering_research_produces_add = 40000
 	country_base_unity_produces_add = 1000
+	country_base_influence_produces_add = 100
 	megastructure_build_speed_add = 1000
 }
 

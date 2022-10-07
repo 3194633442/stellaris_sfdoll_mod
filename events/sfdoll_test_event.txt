@@ -83,6 +83,7 @@ country_event = {
 			days = -1
 		}
 		add_resource = {
+			energy = 1000000
 			minerals = 1000000
 			alloys = 1000000
 			rare_crystals = 1000000

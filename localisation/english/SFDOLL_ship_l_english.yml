@@ -243,7 +243,9 @@ component_aura_sfdoll_1:0 "Suppression Device\n\nIt is activated at the beginnin
 
 
 ship_sfdoll_noel:0 "Noel"
-section_sfdoll_noel:0 "Noel"
+ship_sfdoll_noel_plural:0 "$ship_sfdoll_noel$"
+section_sfdoll_noel:0 "$ship_sfdoll_noel$"
+design_ship_sfdoll_noel:0 "$ship_sfdoll_noel$"
 
 #section
 tech_sfdoll_battleship_bow_x2:0 "SF Military Industry:Lightweight Weapon"

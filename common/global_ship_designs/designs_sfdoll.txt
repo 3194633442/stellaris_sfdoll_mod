@@ -1,9 +1,136 @@
+#诺耶露
+ship_design = {
+	name = "design_ship_sfdoll_noel"
+	ship_size = ship_sfdoll_noel
+	section = {
+		template = section_sfdoll_noel
+		slot = "core"
+		component = {
+			slot = "W_LARGE_01"
+			template = PLANET_KILLER_CRACKER
+		}
+		component = {
+			slot = "T_LARGE_01"
+			template = TITAN_LASER
+		}
+		component = {
+			slot = "T_LARGE_02"
+			template = TITAN_LASER
+		}
+		component = {
+			slot = "T_LARGE_03"
+			template = TITAN_LASER
+		}
+		component = {
+			slot = "X_LARGE_01"
+			template = MASS_ACCELERATOR_2
+		}
+		component = {
+			slot = "X_LARGE_02"
+			template = MASS_ACCELERATOR_2
+		}
+		component = {
+			slot = "X_LARGE_03"
+			template = MASS_ACCELERATOR_2
+		}
+		component = {
+			slot = "X_LARGE_04"
+			template = MASS_ACCELERATOR_2
+		}
+		component = {
+			slot = "X_LARGE_05"
+			template = MASS_ACCELERATOR_2
+		}
+		component = {
+			slot = "X_LARGE_06"
+			template = MASS_ACCELERATOR_2
+		}
+		component = {
+			slot = "H_LARGE_01"
+			template = POINT_DEFENCE_3
+		}
+		component = {
+			slot = "H_LARGE_02"
+			template = POINT_DEFENCE_3
+		}
+		component = {
+			slot = "H_LARGE_03"
+			template = POINT_DEFENCE_3
+		}
+		component = {
+			slot = "H_LARGE_04"
+			template = POINT_DEFENCE_3
+		}
+		component = {
+			slot = "H_LARGE_05"
+			template = POINT_DEFENCE_3
+		}
+		component = {
+			slot = "H_LARGE_06"
+			template = POINT_DEFENCE_3
+		}
+
+		component = {
+			slot = "L_LARGE_01"
+			template = ENERGY_TORPEDO_2
+		}
+		component = {
+			slot = "L_LARGE_02"
+			template = ENERGY_TORPEDO_2
+		}
+		component = {
+			slot = "L_LARGE_03"
+			template = ENERGY_TORPEDO_2
+		}
+		component = {
+			slot = "L_LARGE_04"
+			template = ENERGY_TORPEDO_2
+		}
+		component = {
+			slot = "L_LARGE_05"
+			template = ENERGY_TORPEDO_2
+		}
+		component = {
+			slot = "L_LARGE_06"
+			template = ENERGY_TORPEDO_2
+		}
+		component = {
+			slot = "L_LARGE_07"
+			template = KINETIC_ARTILLERY_2
+		}
+		component = {
+			slot = "L_LARGE_08"
+			template = KINETIC_ARTILLERY_2
+		}
+		component = {
+			slot = "L_LARGE_09"
+			template = KINETIC_ARTILLERY_2
+		}
+		component = {
+			slot = "L_LARGE_10"
+			template = KINETIC_ARTILLERY_2
+		}
+		component = {
+			slot = "L_LARGE_11"
+			template = KINETIC_ARTILLERY_2
+		}
+		component = {
+			slot = "L_LARGE_12"
+			template = KINETIC_ARTILLERY_2
+		}
+	}
+	required_component= sfdoll_noel_REACTOR
+	required_component = sfdoll_noel_jump_drive
+	required_component= sfdoll_ship_sensors_noel
+	required_component = thruster_sfdoll_noel
+}
+
 # 星门舰
 ship_design = {
 	name = "design_sfdoll_gateway_ship"
 	ship_size = sfdoll_gateway_ship
 	section = {
-		template = "sfdoll_gateway_ship_SECTION"
+		template = sfdoll_gateway_ship_SECTION
 		slot = "bow"
 	}
 	required_component = sfdoll_jump_drive
