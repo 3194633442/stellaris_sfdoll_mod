@@ -435,12 +435,10 @@ country_event = {
 	option = {
 		name = sfdoll_planet_killer_event.6_option_a
 		allow = {
-			#6刷新有60天CD
+			#刷新有60天CD
 			custom_tooltip = {
-				fail_text = {
-					text = create_sfdoll_change_hyperlane_ship_wait
-					NOT = {		has_country_flag = flag_create_sfdoll_change_hyperlane_ship	}
-				}
+				fail_text = create_sfdoll_change_hyperlane_ship_wait
+				NOT = {		has_country_flag = flag_create_sfdoll_change_hyperlane_ship	}
 			}
 		}
 		hidden_effect = {
