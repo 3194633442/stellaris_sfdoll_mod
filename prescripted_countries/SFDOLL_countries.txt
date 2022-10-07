@@ -47,7 +47,6 @@
 		name="PRESCRIPTED_ruler_sfdoll_1"
 		portrait= "sfdoll_01_sf_0"
 		texture=0
-		hair=0
 		clothes=0
 		leader_class="ruler"
 	}

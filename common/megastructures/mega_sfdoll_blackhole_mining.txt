@@ -139,6 +139,7 @@ sfdoll_blackhole_mining_03 = {
 	}
 	upgrade_from = { sfdoll_blackhole_mining_02 	}
 	on_build_complete = {
+		from = { set_country_flag = has_built_or_repaired_megastructure }
 		fromfrom.planet = {
 			set_planet_size = 12
 			if = {

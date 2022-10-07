@@ -107,6 +107,7 @@ sfdoll_mining_station_02 = {
 		sfdoll_mining_station_01
 	}
 	on_build_complete = {
+		from = { set_country_flag = has_built_or_repaired_megastructure }
 		create_message = {
 			type = MEGASTRUCTURE_BUILT
 			localization = sfdoll_mining_station_02

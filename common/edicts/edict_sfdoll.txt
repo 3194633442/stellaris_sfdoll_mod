@@ -45,7 +45,7 @@ sfdoll_alloys_more = {
 
 #航道修改
 sfdoll_change_hyperlane_window = {
-	length = 30
+	length = 0
 	icon = "GFX_edict_type_time"
 	potential = {
 		has_authority = auth_gf_sfdoll

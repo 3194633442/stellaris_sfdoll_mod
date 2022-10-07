@@ -171,6 +171,14 @@ on_fleet_destroyed_perp = {
 	}
 }
 
+# This = owner of fleet
+# From = disbanded fleet
+on_fleet_disbanded = {
+	events = {
+		sfdoll_fleet_event.11
+	}
+}
+
 # This = Ship
 # From = Disabler Ship
 on_ship_disabled = {
@@ -218,12 +226,6 @@ on_planet_bombarded = {
 # 	events = {
 # 	}
 # }
-
-on_fleet_disbanded = {
-	events = {
-
-	}
-}
 
 #From = Planet/Starbase/Megastructure scope
 #This = Fleet scope

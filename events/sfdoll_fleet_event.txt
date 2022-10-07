@@ -359,3 +359,24 @@ country_event = {
 		sfdoll_fleet_rebuild = yes
 	}
 }
+
+#是否生成移动星门 This = owner of fleet From = disbanded fleet
+country_event = {
+	id = sfdoll_fleet_event.11
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = sfdoll_empire
+		from = { has_fleet_flag = flag_sfdoll_gateway_ship	}
+	}
+	immediate = {
+		from.solar_system = {
+			spawn_megastructure = {
+				type = sfdoll_mobile_gateway_01
+				owner = root
+				coords_from = root.from
+				init_effect = {	activate_gateway = this	 }
+			}
+		}
+	}
+}

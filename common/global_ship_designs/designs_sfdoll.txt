@@ -1,3 +1,14 @@
+# 星门舰
+ship_design = {
+	name = "design_sfdoll_gateway_ship"
+	ship_size = sfdoll_gateway_ship
+	section = {
+		template = "sfdoll_gateway_ship_SECTION"
+		slot = "bow"
+	}
+	required_component = sfdoll_jump_drive
+}
+
 #高维科研船
 ship_design = {
 	name = "design_sfdoll_exd_science_ship"
@@ -130,7 +141,7 @@ ship_design = {
 	required_component = COMBAT_COMPUTER_ARTILLERY_PRECOG
 }
 
-
+#航道修改信标
 ship_design = {
 	name = "design_sfdoll_change_hyperlane_ship"
 	ship_size = sfdoll_change_hyperlane_ship
@@ -142,6 +153,7 @@ ship_design = {
 	required_component= JUMP_DRIVE_1
 }
 
+#开局家园舰
 ship_design = {
 	name = "design_sfdoll_homeless_ship_game_start"
 	ship_size = sfdoll_homeless_ship

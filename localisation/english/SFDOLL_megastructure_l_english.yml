@@ -124,6 +124,22 @@ sfdoll_blackhole_mining_03_MEGASTRUCTURE_DETAILS:0 "$sfdoll_blackhole_mining_03_
 tech_sfdoll_blackhole_mining:0 "$sfdoll_blackhole_mining_03$"
 tech_sfdoll_blackhole_mining_desc:0 "$sfdoll_blackhole_mining_03_DESC$"
 
+sfdoll_mobile_gateway_01:0 "SF Mobile Gateway"
+sfdoll_mobile_gateway_01_DESC:0 "Select the fleet which the gateway ship belongs to, click on 'disband fleet' to generate a Mobile Gateway. \n\nClick on 'disband ship' will not generate a Mobile Gateway."
+sfdoll_mobile_gateway_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mobile_gateway_01_DESC$"
+
+sfdoll_mobile_gateway_02:0 "SF Gateway Ship"
+sfdoll_mobile_gateway_02_DESC:0 "$sfdoll_mobile_gateway_01_DESC$"
+sfdoll_mobile_gateway_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mobile_gateway_01_DESC$"
+
+tech_sfdoll_mobile_gateway:0 "$sfdoll_mobile_gateway_01$"
+tech_sfdoll_mobile_gateway_desc:0 "Mobile gateway is a rapid transportation hub"
+
+sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
+sfdoll_gateway_ship_plural:0 "$sfdoll_mobile_gateway_02$s"
+sfdoll_gateway_ship_SECTION:0 "$sfdoll_mobile_gateway_02$"
+design_sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
+
 # gateway_sfdoll:0 "铁血星门"
 # gateway_sfdoll_DESC:0 "利用铁血科技打造的快捷交通枢纽"
 # gateway_sfdoll_MEGASTRUCTURE_DETAILS:0 "$gateway_sfdoll_DESC$"
