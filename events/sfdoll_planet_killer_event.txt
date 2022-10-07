@@ -434,7 +434,20 @@ country_event = {
 	#刷新信标船
 	option = {
 		name = sfdoll_planet_killer_event.6_option_a
+		allow = {
+			#6刷新有60天CD
+			custom_tooltip = {
+				fail_text = {
+					text = create_sfdoll_change_hyperlane_ship_wait
+					NOT = {		has_country_flag = flag_create_sfdoll_change_hyperlane_ship	}
+				}
+			}
+		}
 		hidden_effect = {
+			set_timed_country_flag = {
+				flag = flag_create_sfdoll_change_hyperlane_ship
+				days = 60
+			}
 			effect_create_sfdoll_change_hyperlane_ship = yes
 			country_event = {
 				id = sfdoll_planet_killer_event.6
@@ -501,6 +514,7 @@ fleet_event = {
 #铁血之矛，摧毁所在星系，from为发射的舰队
 planet_event = {
 	id = sfdoll_planet_killer_event.8
+	title = sfdoll_planet_killer_event.8
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {

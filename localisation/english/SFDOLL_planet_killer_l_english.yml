@@ -60,6 +60,7 @@ sfdoll_planet_killer_event.6:0 "Hyperlane Modification Project"
 sfdoll_planet_killer_event.6_desc:0 "Click to generate two beacons, move them to two systems respectively, then you can modify the Hyperlane between the two systems.\n\n Between the systems where the two beacons are located, if there is a Hyperlane, the Hyperlane will be deleted; if there is no Hyperlane, a new Hyperlane will be generated."
 sfdoll_planet_killer_event.6_option_a:0 "Generate two beacons, and delete the old beacons."
 sfdoll_planet_killer_event.6_option_b:0 "Modify Hyperlane"
+create_sfdoll_change_hyperlane_ship_wait:0 "It takes 60 days to cool down after generating the beacon"
 
 edict_sfdoll_change_hyperlane_window:0 "$sfdoll_planet_killer_event.6$"
 edict_sfdoll_change_hyperlane_window_desc:0 "$sfdoll_planet_killer_event.6_desc$"

@@ -17,7 +17,7 @@ country_event = {
 		#添加铁血人形帝国flag
 		set_country_flag = sfdoll_empire
 		
-		#添加合成人帝国flag，会被判定为二段机飞国家
+		#添加合成人帝国flag，会被判定为二段机飞国家,防机械叛乱
 		set_country_flag = synthetic_empire
 
 		#自动探索和ai科技
