@@ -246,7 +246,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { colossus	juggernaut 	}
+	size_restriction = { sfdoll_star_eater star_eater colossus	juggernaut 	}
 	ai_weight = {
 		weight = 5
 		modifier = {
