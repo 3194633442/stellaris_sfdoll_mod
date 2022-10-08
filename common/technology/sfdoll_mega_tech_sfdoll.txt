@@ -175,6 +175,20 @@ tech_sfdoll_mobile_starbase = {
 	weight = 1000
 }
 
+#星球改造者
+tech_sfdoll_star_eater = {
+	area = engineering
+	start_tech = no
+	tier = 5
+	cost = @tier5cost3
+	category = { voidcraft }
+	is_rare = yes
+	icon = tech_sfdoll_mobile_starbase
+	prerequisites = {	tech_sfdoll_warship_1	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = 1000
+}
+
 #航道修改巨构
 # tech_mega_change_hyperlane_sfdoll = {
 # 	area = physics

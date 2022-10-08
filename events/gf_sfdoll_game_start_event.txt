@@ -86,6 +86,7 @@ country_event = {
 				limit = {	is_unemployed = yes		}
 				kill_pop = yes
 			}
+			add_building = building_sfdoll_assembly_plant
 		}
 		#拥有星海为家理念，解锁居住站
 		# if = {
