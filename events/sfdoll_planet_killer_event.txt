@@ -777,9 +777,7 @@ planet_event = {
 		}
 
 		solar_system = { save_event_target_as = destroyed_system }
-		solar_system = {
-			effect_sfdoll_empty_system = yes
-		}
+		solar_system = { effect_sfdoll_empty_system = yes	}
 		# else = {
 		# 	if = {
 		# 		limit = { is_colony = yes }
@@ -810,6 +808,66 @@ planet_event = {
 	immediate = {
 		start_colony = {
 			owner = from.owner
+		}
+	}
+}
+
+#W槽将星球转化为黑洞
+planet_event = {
+	id = sfdoll_planet_killer_event.14
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		#威慑值和得分
+		add_threat = { who = from.owner amount = 10 }
+		from = {
+			save_event_target_as = sfdoll_planet_killer_fleet
+			owner = {
+				save_event_target_as = crisis_country
+				add_victory_score = {
+					source = destroyed_stars_score
+					score = 10
+				}
+			}
+		}
+		#处理殖民地
+		if = {
+			limit = { is_colony = yes }
+			every_owned_pop = {	kill_pop = yes	}
+			destroy_colony = yes
+		}
+
+		#炸的是恒星
+		if = {
+			limit =  { is_star = yes }
+			from = {
+				owner = {
+					#初次炸恒星
+					if = {
+						limit = {
+							NOT = { has_country_flag = cracked_first_star }
+						}
+						set_country_flag = cracked_first_star
+					}
+				}
+			}
+			#变成黑洞
+			change_pc = pc_black_hole
+			clear_deposits = yes
+			reset_planet = yes
+			solar_system = {
+				set_star_flag = star_cracked
+				set_star_class = sc_black_hole
+			}
+		}
+		else_if = {
+			#消灭居住站
+			limit = { is_planet_class = pc_habitat }
+			remove_planet = yes
+		}
+		else = {
+			change_pc = pc_black_hole
+			clear_deposits = yes
 		}
 	}
 }

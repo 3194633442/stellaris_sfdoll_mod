@@ -179,8 +179,23 @@ tech_planet_killer_sfdoll_1 = {
 	icon = tech_planet_killer_sfdoll_1
 	prerequisites = {	tech_sfdoll_missile_2	}
 	potential = {
+		always = no
 		has_authority = auth_gf_sfdoll
 	}
+	weight = 0
+}
+#转化为黑洞
+tech_planet_killer_sfdoll_3 = {
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	is_dangerous = yes
+	category = { field_manipulation }
+	is_reverse_engineerable = no
+	icon = tech_planet_killer_sfdoll_3
+	prerequisites = {	tech_sfdoll_missile_2	}
+	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = 1500
 }
 

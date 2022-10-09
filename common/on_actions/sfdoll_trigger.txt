@@ -256,6 +256,13 @@ on_destroy_planet_with_planet_killer_sfdoll_2 = {
 	}
 }
 
+#转化为黑洞
+on_destroy_planet_with_planet_killer_sfdoll_3 = {
+	events = {
+		sfdoll_planet_killer_event.14
+	}
+}
+
 on_destroy_planet_with_planet_killer_sfdoll_colonizer = {
 	events = {
 		sfdoll_planet_killer_event.13

@@ -238,7 +238,10 @@ sfdoll_warship_6_stern:0 "D"
 
 need_sfdoll_mega_starport:0 "It can be built in the following places: $sfdoll_mega_starport_02$,$sfdoll_mobile_starbase$,$mega_shipyard_3$"
 
-
+sfdoll_star_eater:0 "Star Changer"
+sfdoll_star_eater_plural:0 "$sfdoll_star_eater$s"
+tech_sfdoll_star_eater:0 "$sfdoll_star_eater$"
+tech_sfdoll_star_eater_desc:0 "$sfdoll_star_eater$"
 
 
 #flag ship
