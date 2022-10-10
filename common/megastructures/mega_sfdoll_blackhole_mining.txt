@@ -58,12 +58,15 @@ sfdoll_blackhole_mining_01 = {
 	}
 	placement_rules = {
 		planet_possible = {
-			# custom_tooltip = {
-			# 	#需要添加本地化
-			# 	fail_text = "must_build_around_blackhole"
-			# 	is_planet_class = pc_black_hole
-			# }
 			is_planet_class = pc_black_hole
+			custom_tooltip = {
+				fail_text = "must_build_around_star"
+				is_star = yes
+			}
+			custom_tooltip = {
+				fail_text = "requires_no_anomaly"
+				NOT = { has_anomaly = yes }
+			}
 			custom_tooltip = {
 				fail_text = "requires_no_existing_megastructure"
 				NOT = {

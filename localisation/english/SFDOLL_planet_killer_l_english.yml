@@ -29,25 +29,25 @@ planet_killer_sfdoll_3_ACTION:0 "$planet_killer_sfdoll_3$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "$planet_killer_sfdoll_2$"
 MESSAGE_DESC_FOR_planet_killer_sfdoll_3:0 "collapsed"
 
-sfdoll_weapen_t_7:0 "Nova Gun"
+sfdoll_weapen_t_7:0 "Anti-Planet Gun"
 component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
-component_set_sfdoll_weapen_t_7_DESC:0 "§YThe fleet equipped with this weapon can destroy a planet when the fleet enters the planet's orbit. You can use an edict to unlock this function §!"
+component_set_sfdoll_weapen_t_7_DESC:0 "§YThe fleet equipped with this weapon can destroy a planet when the fleet enters the planet's orbit. You can use an edict to unlock this function§!"
 
 tech_sfdoll_weapon_t_7:0 "$sfdoll_weapen_t_7$"
-tech_sfdoll_weapon_t_7_desc:0 "This weapon can quickly detonate celestial bodies, and can also aiming and shooting continuously at low power."
+tech_sfdoll_weapon_t_7_desc:0 "This weapon can quickly destroy planets, and can also aiming and shooting continuously at low power."
 
-sfdoll_planet_killer_event.10:0 "Anti-Star Weapon Interface"
-sfdoll_planet_killer_event.10.desc:0 "A fleet equipped with Anti-Star Weapon has entered the orbit of §H[fromfrom.GetName]§!,do we have to destroy the object?\n\n You can use an edict to stop this function."
+sfdoll_planet_killer_event.10:0 "$sfdoll_weapen_t_7$ Interface"
+sfdoll_planet_killer_event.10.desc:0 "A fleet equipped with $sfdoll_weapen_t_7$ has entered the orbit of §H[fromfrom.GetName]§!,do we have to destroy the object?\n\n You can use an edict to stop this function."
 sfdoll_planet_killer_event.10_a:0 "destroy §H[fromfrom.GetName]§!"
 
-edict_sfdoll_weapen_t_7_control:0 "Sangvis Ferri Doll: Unlock Anti-Star Weapon"
-edict_sfdoll_weapen_t_7_control_desc:0 "While this edict is in effect, when Sangvis Ferri fleets enters orbit, special weapons can be used to destroy the planet."
+edict_sfdoll_weapen_t_7_control:0 "Sangvis Ferri Doll: Unlock $sfdoll_weapen_t_7$"
+edict_sfdoll_weapen_t_7_control_desc:0 "While this edict is in effect, when Sangvis Ferri fleet equipped with $sfdoll_weapen_t_7$ enters orbit of a planet, it can destroy the planet."
 
-sfdoll_missile_2:0 "Horizon Sword"
-sfdoll_missile_2_DESC:0 "$component_set_sfdoll_weapen_t_7_DESC$"
+sfdoll_missile_2:0 "Fish Dive Missile"
+sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$ can peel and teleport matter within a certain range to other coordinates. $sfdoll_missile_2$ will approach the target by short-distance jump, which means it cannot be intercepted by anti-aircraft weapons."
 
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
-tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2$ can peel and teleport matter within a certain range to other coordinates. It can also perform directional teleportation, thereby compressing matter within a Schwarzschild radius. $sfdoll_missile_2$ will approach the target by short-distance jump, which means it cannot be intercepted by anti-aircraft weapons."
+tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
 
 planet_killer_sfdoll_colonizer:0 "Colonial Space Shuttle"

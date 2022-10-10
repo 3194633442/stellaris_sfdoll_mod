@@ -578,16 +578,12 @@ fleet_event = {
 	is_triggered_only = yes
 	trigger = {
 		any_owned_ship = {
-			OR = {
-				has_component = sfdoll_weapen_t_7
-				has_component = sfdoll_missile_2
-			}
-			
+			has_component = sfdoll_weapen_t_7
 		}
 		fromfrom = {
 			NOT = {
 				OR = {
-					is_planet_class = pc_black_hole
+					is_star = yes
 					is_planet_class = pc_shattered
 					is_planet_class = pc_shattered_2
 					is_planet_class = pc_shattered_ring_habitable
@@ -696,24 +692,24 @@ planet_event = {
 		}
 
 		#炸的是恒星
-		if = {
-			limit =  { is_star = yes }
-			from = {
-				owner = {
-					#初次炸恒星
-					if = {
-						limit = {
-							NOT = { has_country_flag = cracked_first_star }
-						}
-						set_country_flag = cracked_first_star
-					}
-				}
-			}
-			solar_system = { save_event_target_as = destroyed_system }
-			solar_system = {
-				destroy_star_system = yes
-			}
-		}
+		# if = {
+		# 	limit =  { is_star = yes }
+		# 	from = {
+		# 		owner = {
+		# 			#初次炸恒星
+		# 			if = {
+		# 				limit = {
+		# 					NOT = { has_country_flag = cracked_first_star }
+		# 				}
+		# 				set_country_flag = cracked_first_star
+		# 			}
+		# 		}
+		# 	}
+		# 	solar_system = { save_event_target_as = destroyed_system }
+		# 	solar_system = {
+		# 		destroy_star_system = yes
+		# 	}
+		# }
 		# else= {
 		# 	#变成黑洞
 		# 	change_pc = pc_black_hole
@@ -724,7 +720,7 @@ planet_event = {
 		# 	}
 		# }
 		#用T槽碎行星
-		else_if = {
+		if = {
 			#环世界
 			limit  = {
 				is_ringworld = yes
@@ -861,13 +857,27 @@ planet_event = {
 			}
 		}
 		else_if = {
-			#消灭居住站
-			limit = { is_planet_class = pc_habitat }
-			remove_planet = yes
+			#环世界
+			limit  = {
+				is_ringworld = yes
+			}
+			change_pc = pc_shattered_ring_habitable
+			clear_deposits = yes
+			
 		}
 		else = {
-			change_pc = pc_black_hole
+			change_pc = pc_shattered
 			clear_deposits = yes
 		}
+		# else_if = {
+		# 	#消灭居住站
+		# 	limit = { is_planet_class = pc_habitat }
+		# 	remove_planet = yes
+		# }
+		# else = {
+		# 	change_pc = pc_black_hole
+		# 	set_planet_size = 
+		# 	clear_deposits = yes
+		# }
 	}
 }
