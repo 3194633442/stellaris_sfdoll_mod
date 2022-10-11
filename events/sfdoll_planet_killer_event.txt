@@ -577,9 +577,7 @@ fleet_event = {
 	hide_window = no
 	is_triggered_only = yes
 	trigger = {
-		any_owned_ship = {
-			has_component = sfdoll_weapen_t_7
-		}
+		any_owned_ship = {	has_component = sfdoll_weapen_t_7	}
 		fromfrom = {
 			NOT = {
 				OR = {
@@ -661,7 +659,7 @@ fleet_event = {
 		}
 	}
 	option = {
-		name = sfdoll_break_option
+		name = QUIT
 	}
 }
 

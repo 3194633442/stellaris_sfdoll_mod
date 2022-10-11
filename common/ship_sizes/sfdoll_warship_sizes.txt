@@ -489,8 +489,8 @@ sfdoll_star_eater = {
 	required_component_set = "ftl_components"
 	required_component_set = "thruster_components"
 	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
 	required_component_set = "sfdoll_aura_components"
-	# valid_target_aggressive_stance = no
 	auto_upgrade = no
 
 	resources = {

@@ -58,13 +58,17 @@ sfdoll_weapon_m_2:0 "$component_set_sfdoll_weapon_L_2$"
 tech_sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
 tech_sfdoll_weapon_L_2_desc:0 "$component_set_sfdoll_weapon_L_2_DESC$"
 
-component_set_sfdoll_weapon_p_2:0 "Seal Weapons"
+component_set_sfdoll_weapon_p_2:0 "Seal Small-Weapon"
 component_set_sfdoll_weapon_p_2_DESC:0 "These tiny weapons can unleash incredible firepower"
 sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_p_2_desc:0 "$component_set_sfdoll_weapon_p_2_DESC$"
 
+sfdoll_missile_2:0 "Fish-Leap Missile"
+sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$ can peel and teleport matter within a certain range to other coordinates. $sfdoll_missile_2$ will approach the target by short-distance jump, which means it cannot be intercepted by anti-aircraft weapons."
+tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
+tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
 sfdoll_strike_craft_2:0 "killer Whale Stealth Fighter"
 sfdoll_strike_craft_2_DESC:0 "$sfdoll_strike_craft_2$ hides itself with a special hull."

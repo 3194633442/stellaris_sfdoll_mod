@@ -39,7 +39,6 @@ entity = {
 	attach = {
 		explosion_locator_01 = "Sewship_gun_entity"
 	}
-	
 }
 entity = {
 	name = "sfdoll_Sewship_locator_entity"
