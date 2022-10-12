@@ -246,6 +246,8 @@ sfdoll_star_eater:0 "Star Changer"
 sfdoll_star_eater_plural:0 "$sfdoll_star_eater$s"
 tech_sfdoll_star_eater:0 "$sfdoll_star_eater$"
 tech_sfdoll_star_eater_desc:0 "$sfdoll_star_eater$"
+sfdoll_star_eater_bow:0 "A"
+sfdoll_star_eater_stern:0 "B"
 
 
 #flag ship

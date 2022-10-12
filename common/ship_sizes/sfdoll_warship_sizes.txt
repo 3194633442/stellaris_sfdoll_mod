@@ -492,7 +492,26 @@ sfdoll_star_eater = {
 	required_component_set = "combat_computers"
 	required_component_set = "sfdoll_aura_components"
 	auto_upgrade = no
-
+	possible_construction = {
+		custom_tooltip = {
+			fail_text = "need_sfdoll_mega_starport"
+			OR = {
+				AND = {
+					is_scope_type = starbase
+					has_starbase_size = sfdoll_mobile_starbase
+				}
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = sfdoll_mega_starport_02
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_2
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+			}
+		}
+	}
 	resources = {
 		category = ships
 		cost = {

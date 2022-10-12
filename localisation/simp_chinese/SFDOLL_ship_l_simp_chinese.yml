@@ -244,6 +244,8 @@ sfdoll_star_eater:0 "星辰改造者"
 sfdoll_star_eater_plural:0 "$sfdoll_star_eater$"
 tech_sfdoll_star_eater:0 "$sfdoll_star_eater$"
 tech_sfdoll_star_eater_desc:0 "$sfdoll_star_eater$"
+sfdoll_star_eater_bow:0 "A"
+sfdoll_star_eater_stern:0 "B"
 
 #flag ship
 component_aura_sfdoll_1:0 "压制装置\n\n交战开始时启动,降低敌方舰队的武器伤害,命中,射速,射程,闪避,效果不可叠加,持续30天."
