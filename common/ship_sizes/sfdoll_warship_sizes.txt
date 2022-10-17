@@ -463,7 +463,7 @@ sfdoll_star_eater = {
 		ship_armor_add = 1000000
 	}
 	ship_modifier = {	ships_upkeep_mult = -1	}
-	size_multiplier = 8
+	size_multiplier = 32
 	fleet_slot_size = 8
 	section_slots = {
 		"bow" = { locator = part2 }
