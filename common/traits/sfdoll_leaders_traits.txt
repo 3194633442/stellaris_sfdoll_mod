@@ -443,7 +443,7 @@ leader_trait_sfdoll_exd_leader = {
 	randomized = no
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_roamer.dds"
 	modifier = {
-		ship_anomaly_generation_chance_mult = 0.3
+		ship_anomaly_generation_chance_mult = 0.25
 	}
 	opposites = {
 		leader_trait_roamer

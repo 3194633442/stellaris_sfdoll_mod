@@ -28,7 +28,6 @@ triela_become_governor_sfdoll_effect = {
 			traits = {
 				trait = leader_trait_adaptable
 				trait = leader_trait_righteous
-				trait = leader_trait_bureaucrat
 			}
 			effect = {
 				change_leader_portrait = GFX_sfdoll_triela
@@ -68,7 +67,6 @@ triela_become_scientist_sfdoll_effect = {
 			event_leader = yes	# prevents this leader from leading factions and winning elections
 			traits = {
 				trait = leader_trait_adaptable
-				trait = leader_trait_roamer
 			}
 			effect = {
 				change_leader_portrait = GFX_sfdoll_triela
@@ -146,7 +144,7 @@ triela_become_general_sfdoll_effect = {
 			traits = {
 				trait = leader_trait_adaptable
 				trait = leader_trait_restrained
-				trait = leader_trait_butcher
+				trait = leader_trait_glory_seeker
 				trait = leader_trait_charismatic
 			}
 			effect = {
@@ -187,7 +185,7 @@ elisa_to_scientist_sfd_effect = {
 			event_leader = yes	# prevents this leader from leading factions and winning elections
 			traits = {
 				# trait = leader_trait_elisa_sfd_scientist
-				trait = leader_trait_archaeologist
+				trait = leader_trait_archaeologist_ancrel
 			}
 			effect = {
 				change_leader_portrait = GFX_sfdoll_elisa
