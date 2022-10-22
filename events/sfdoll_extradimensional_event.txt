@@ -112,14 +112,15 @@ country_event = {
 			custom_tooltip = {
 				fail_text = "sfdoll_the_leader_is_doing_this_job"
 				NOT = {
-					exists = event_target:sfdoll_exd_leader
-					event_target:sfdoll_exd_leader = {
-						leader_class = scientist
-						owner = {
-							is_same_value = root
+					AND = {
+						exists = event_target:sfdoll_exd_leader
+						event_target:sfdoll_exd_leader = {
+							leader_class = scientist
+							owner = {
+								is_same_value = root
+							}
 						}
 					}
-
 				}
 			}
 		}
@@ -134,14 +135,12 @@ country_event = {
 				class = scientist
 				species = owner_species
 				name = "NAME_sfdoll_exd_leader"
-				skill = 10
-				set_age = 1
+				skill = 1
+				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
 				traits = {
 					trait = leader_trait_sfdoll_exd_leader
-					trait = leader_trait_scientist_psionic
-					trait = leader_trait_scientist_chosen
 					trait = leader_trait_expertise_psionics
 				}
 				effect = {

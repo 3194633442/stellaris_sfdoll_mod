@@ -135,7 +135,7 @@ country_event = {
 		allow = { 
 			custom_tooltip ={
 				fail_text ="ump45_has_this_job_now"
-				NOR = {
+				NOT = {
 					AND = {
 						exists = event_target:sfdoll_leader_ump45
 						event_target:sfdoll_leader_ump45 = {
@@ -217,11 +217,11 @@ country_event = {
 				class = governor
 				species = owner_species
 				name = "NAME_liwa_ump45"
-				skill = 5
-				set_age = 9
+				skill = 1
+				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_governor_sfdoll_ump45 }
+				traits = { trait = leader_trait_army_veteran }
 				effect = {
 					change_leader_portrait = GFX_sfdoll_ump45
 					set_leader_flag = sfdoll_leader_ump45
@@ -264,8 +264,8 @@ country_event = {
 				class = scientist
 				species = owner_species
 				name = "NAME_liwa_ump45"
-				skill = 5
-				set_age = 9
+				skill = 1
+				set_age = 20
 				immortal = yes
 
 				event_leader = yes	# prevents this leader from leading factions and winning elections
@@ -310,11 +310,14 @@ country_event = {
 				class = admiral
 				species = owner_species
 				name = "NAME_liwa_ump45"
-				skill = 5
-				set_age = 9
+				skill = 1
+				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = 	leader_trait_admiral_sfdoll_ump45 }
+				traits = {
+					trait = leader_trait_trickster
+					trait = leader_trait_cautious
+				}
 				effect = {
 					change_leader_portrait = GFX_sfdoll_ump45_03
 					set_leader_flag = sfdoll_leader_ump45
@@ -356,10 +359,10 @@ country_event = {
 				species = owner_species
 				name = "NAME_liwa_ump45"
 				skill = 5
-				set_age = 9
+				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_general_sfdoll_ump45 }
+				# traits = { trait = leader_trait_charismatic }
 				effect = {
 					change_leader_portrait = GFX_sfdoll_ump45_03
 					set_leader_flag = sfdoll_leader_ump45
