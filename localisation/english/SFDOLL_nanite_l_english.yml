@@ -13,7 +13,7 @@ job_sfdoll_nanites_maker_effect_desc:0 " $job_sfdoll_nanites_maker$ consumes §Y
 mod_job_sfdoll_nanites_maker_add:0 "$job_sfdoll_nanites_maker$ jobs"
 
 tech_trait_sfdoll_nanite:0 "Nanite SF-Doll Body"
-tech_trait_sfdoll_nanite_desc:0 "The new generation of micromachines could break many biological limitations. SF-Doll body is capable of self-repair and self-replication."
+tech_trait_sfdoll_nanite_desc:0 "The new generation of micromachines could break many biological limitations. They can give SF-Doll body the ability to replicate itself."
 tech_trait_sfdoll_nanite_modifier:0 "§HUnlocks species trait:§! $trait_sfdoll_nanite$"
 
 trait_sfdoll_nanite:0 "Module of Proliferation"

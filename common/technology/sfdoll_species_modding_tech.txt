@@ -11,7 +11,7 @@ tech_sf_doll_modding_system= {
 	gateway = robotics
 	feature_flags = {	modify_robots	}
 	modifier = {
-		SFDOLL_species_trait_points_add = 5
+		SFDOLL_species_trait_points_add = 2
 		pop_assembly_speed = 0.25
 	}
 	weight_modifier = {
@@ -31,7 +31,7 @@ tech_sf_doll_modding_1 = {
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = 1000
 	modifier = {
-		SFDOLL_species_trait_points_add = 6
+		SFDOLL_species_trait_points_add = 3
 		modify_species_cost_mult = -0.25
 		pop_assembly_speed = 0.25
 	}
@@ -53,5 +53,5 @@ tech_sf_doll_modding_2 = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	modifier = {	SFDOLL_species_trait_points_add = 10	}
+	modifier = {	SFDOLL_species_trait_points_add = 8	}
 }
