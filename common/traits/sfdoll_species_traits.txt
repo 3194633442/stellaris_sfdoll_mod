@@ -342,13 +342,5 @@ trait_sfdoll_nanite = {
 	icon = "gfx/interface/icons/traits/sfdoll/trait_sfdoll_nanite.dds"
 	advanced_trait = no
 	allowed_archetypes = {	SFDOLL	}
-	prerequisites = {
-		tech_trait_sfdoll_nanite
-	}
-	modifier = {
-		planet_jobs_produces_mult = 0.1
-		pop_assembly_speed = 0.15
-		pop_environment_tolerance = 1
-		army_health = 1
-	}
+	prerequisites = {	tech_trait_sfdoll_nanite	}
 }

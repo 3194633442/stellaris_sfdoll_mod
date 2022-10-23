@@ -12,11 +12,11 @@ job_sfdoll_nanites_maker_effect_desc:0 " $job_sfdoll_nanites_maker$ 将 §Y$mine
 mod_job_sfdoll_nanites_maker_add:0 "$job_sfdoll_nanites_maker$岗位"
 
 tech_trait_sfdoll_nanite:0 "纳米铁血机体"
-tech_trait_sfdoll_nanite_desc:0 "新一代的微型机械足以打破多种关于生物的限制"
+tech_trait_sfdoll_nanite_desc:0 "新一代的微型机械足以打破多种关于生物的限制。铁血人形的素体可以获得自我修复、自我复制的能力"
 tech_trait_sfdoll_nanite_modifier:0 "§H解锁物种特质:§! $trait_sfdoll_nanite$"
 
-trait_sfdoll_nanite:0 "纳米铁血"
-trait_sfdoll_nanite_desc:0 "这些铁血人形可以用纳米机器人来组成身体和心智系统.它们的人口可以像有机体一样自我复制."
+trait_sfdoll_nanite:0 "增殖模块"
+trait_sfdoll_nanite_desc:0 "解锁人口增长"
 
 sm_sfdoll_starbase_building_chemical:0 "自动化学工厂"
 sm_sfdoll_starbase_building_chemical_desc:0 "纳米科技让化学合成变得简单"
