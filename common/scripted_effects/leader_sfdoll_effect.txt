@@ -143,9 +143,8 @@ triela_become_general_sfdoll_effect = {
 			event_leader = yes	# prevents this leader from leading factions and winning elections
 			traits = {
 				trait = leader_trait_adaptable
-				trait = leader_trait_restrained
-				trait = leader_trait_glory_seeker
 				trait = leader_trait_charismatic
+				trait = leader_trait_glory_seeker
 			}
 			effect = {
 				change_leader_portrait = GFX_sfdoll_triela
