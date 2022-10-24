@@ -10,7 +10,7 @@ tech_sfdoll_reverse_collapse_1 = {
 	potential = {		has_authority = auth_gf_sfdoll	}
 	#prerequisites = { 	}
 	modifier = {
-		all_technology_research_speed = 0.5
+		all_technology_research_speed = 0.15
 	}
 	weight = 0
 }

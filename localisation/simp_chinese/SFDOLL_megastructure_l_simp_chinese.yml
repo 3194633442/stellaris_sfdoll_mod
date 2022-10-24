@@ -70,7 +70,7 @@ mega_sfdoll_star_attacker_02_complete:0 "我们建造了一座§Y$mega_sfdoll_st
 
 
 sfdoll_mobile_starbase:0 "深空母舰"
-sfdoll_mobile_starbase_plural:0 "$sfdoll_mobile_starbase$s"
+sfdoll_mobile_starbase_plural:0 "$sfdoll_mobile_starbase$"
 sfdoll_mobile_starbase_section_1:0 "A"
 sfdoll_mobile_starbase_section_2:0 "B"
 sfdoll_mobile_starbase_section_3:0 "C"
@@ -78,7 +78,9 @@ sfdoll_mobile_starbase_section_4:0 "D"
 thruster_sfdoll_mobile_starbase:0 "推进器"
 
 tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
-tech_sfdoll_mobile_starbase_desc:0 "深空母舰是拥有船坞的移动基地.未来,她将参与河外星系探索计划."
+tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$是拥有船坞的移动基地。目前，它是铁血设计的最为庞大的飞船。未来，它将参与河外星系探索计划。$sfdoll_mobile_starbase$需要通过巨构工程来建造。"
+sfdoll_tech_event.2_title:0 "$sfdoll_mobile_starbase$计划"
+sfdoll_tech_event.2_desc:0 "$tech_sfdoll_mobile_starbase_desc$"
 
 mega_sfdoll_mobile_starbase_01:0 "$sfdoll_mobile_starbase$基址"
 mega_sfdoll_mobile_starbase_01_DESC:0 "$sfdoll_mobile_starbase$需要通过巨构工程来建造"

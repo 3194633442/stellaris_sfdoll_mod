@@ -10,24 +10,7 @@ tech_sfdoll_collapse_liquid_produce = {
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = 0
 }
-#高级坍塌液合成
-# tech_sfdoll_collapse_liquid_upgrade = {
-# 	cost = @tier5cost3
-# 	area = physics
-# 	tier = 5
-# 	is_rare = yes
-# 	category = { particles }
-# 	icon = tech_sfdoll_collapse_liquid_produce
-# 	potential = {	has_authority = auth_gf_sfdoll	}
-# 	prerequisites = {
-# 		tech_building_sfdoll_mineral
-# 		tech_sfdoll_collapse_liquid_produce
-# 	}
-# 	# modifier = {
-# 	# 	description = edict_sfdoll_collapse_liquid_more_desc
-# 	# }
-# 	weight = 1500
-# }
+
 
 #暗物质合成科技
 tech_sfdoll_dark_matter_plant = {
@@ -81,26 +64,7 @@ tech_sfdoll_lab = {
 	}
 	weight = 1500
 }
-#科研升级
-# tech_sfdoll_lab_upgrade = {
-# 	cost = @tier5cost3
-# 	area = physics
-# 	icon = tech_sfdoll_lab
-# 	tier = 5
-# 	is_rare = yes
-# 	category = { computing }
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 	}
-# 	prerequisites = {
-# 		tech_building_sfdoll_mineral
-# 		tech_sfdoll_lab
-# 	}
-# 	# modifier = {
-# 	# 	custom_tooltip = edict_sfdoll_research_more_desc
-# 	# }
-# 	weight = 1500
-# }
+
 #高级研究所
 # tech_sfdoll_lab_2 = {
 # 	cost = @tier5cost1
@@ -127,41 +91,7 @@ tech_sfdoll_alloys_produce = {
 	weight = 1500
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
-#合金升级1
-# tech_sfdoll_alloys_upgrade = {
-# 	cost = @tier5cost3
-# 	area = engineering
-# 	tier = 5
-# 	is_rare = yes
-# 	category = { industry }
-# 	icon = tech_sfdoll_alloys_produce
-# 	prerequisites = {
-# 		tech_building_sfdoll_mineral
-# 		tech_sfdoll_alloys_produce
-# 	}
-# 	# modifier = {
-# 	# 	custom_tooltip = edict_sfdoll_alloys_more_desc
-# 	# }
-# 	weight = 1500
-# 	potential = {	has_authority = auth_gf_sfdoll	}
-# }
-# #合金升级2
-# tech_sfdoll_alloys_upgrade_2 = {
-# 	cost = @tier5cost3
-# 	area = engineering
-# 	tier = 5
-# 	is_rare = yes
-# 	category = { industry }
-# 	icon = tech_sfdoll_alloys_produce
-# 	prerequisites = {
-# 		tech_sfdoll_alloys_upgrade
-# 	}
-# 	modifier = {
-# 		custom_tooltip = tech_sfdoll_alloys_upgrade_mod
-# 	}
-# 	weight = 1500
-# 	potential = {	has_authority = auth_gf_sfdoll	}
-# }
+
 #高级合金
 # tech_sfdoll_alloys_2= {
 # 	cost = @tier5cost1
