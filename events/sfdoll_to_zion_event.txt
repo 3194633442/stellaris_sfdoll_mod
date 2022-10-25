@@ -172,5 +172,7 @@ country_event = {
 	option = {
 		name = sfdoll_to_zion_event.10_option
 		add_research_option = tech_sfdoll_ap_phy
+		add_research_option = tech_sfdoll_ap_soc
+		add_research_option = tech_sfdoll_ap_eng
 	}
 }
