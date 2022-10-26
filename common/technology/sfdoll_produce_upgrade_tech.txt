@@ -18,11 +18,11 @@ tech_sfdoll_collapse_liquid_upgrade = {
 #科研升级
 tech_sfdoll_lab_upgrade = {
 	cost = @tier5cost3
-	area = physics
+	area = society
 	icon = tech_sfdoll_lab
 	tier = 5
 	is_rare = yes
-	category = { computing }
+	category = { statecraft }
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
@@ -37,10 +37,10 @@ tech_sfdoll_lab_upgrade = {
 #合金升级1
 tech_sfdoll_alloys_upgrade = {
 	cost = @tier5cost3
-	area = engineering
+	area = society
 	tier = 5
 	is_rare = yes
-	category = { industry }
+	category = { statecraft }
 	icon = tech_sfdoll_alloys_produce
 	prerequisites = {
 		tech_building_sfdoll_mineral

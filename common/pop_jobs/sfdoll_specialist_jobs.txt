@@ -16,19 +16,19 @@ sfdoll_collapse_liquid_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_technician
-		produces = {	GF_nyto_collapse_liquid = 2		}
-		upkeep = {		energy = 10		}
+		produces = {	GF_nyto_collapse_liquid = 3		}
+		upkeep = {		energy = 15		}
 		produces = {
 			trigger = {
 				owner = {	has_edict = sfdoll_collapse_liquid_more	}
 			}
-			GF_nyto_collapse_liquid = 4
+			GF_nyto_collapse_liquid = 3
 		}
 		upkeep = {
 			trigger = {
 				owner = {	has_edict = sfdoll_collapse_liquid_more	}
 			}
-			energy = 15
+			energy = 20
 		}
 		# produces = {
 		# 	trigger = {
@@ -175,7 +175,7 @@ sfdoll_researcher = {
 			trigger = {
 				owner = {	has_edict = sfdoll_research_more	}
 			}
-			energy = 10
+			energy = 5
 			consumer_goods = 6
 		}
 		# produces = {
@@ -243,7 +243,7 @@ sfdoll_alloys_maker = {
 	resources = {
 		category = planet_metallurgists
 		produces = {
-			alloys = 15
+			alloys = 18
 		}
 		upkeep = {
 			minerals =  12
@@ -255,7 +255,7 @@ sfdoll_alloys_maker = {
 					has_edict = sfdoll_alloys_more
 				}
 			}
-			alloys = 15
+			alloys = 12
 		}
 		upkeep = {
 			trigger = {
