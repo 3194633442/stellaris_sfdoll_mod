@@ -69,9 +69,7 @@ sfdoll_mobile_starbase_section_4:0 "D"
 thruster_sfdoll_mobile_starbase:0 "Thruster"
 
 tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
-tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$ is a mobile base with shipyards. So far, it's the largest spacecraft  SF-Dolls've ever designed. In the future, it will participate in the exploration of extragalactic. $sfdoll_mobile_starbase$ needs to be built through mega-engineering."
-sfdoll_tech_event.2_title:0 "$sfdoll_mobile_starbase$ Project"
-sfdoll_tech_event.2_desc:0 "$tech_sfdoll_mobile_starbase_desc$"
+tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$ is a mobile base with shipyards. So far, it's the largest spacecraft  SF-Dolls've ever designed. In the future, it will participate in the exploration of extragalactic. §Y$sfdoll_mobile_starbase$ needs to be built through mega-engineering.§!"
 
 mega_sfdoll_mobile_starbase_01:0 "$sfdoll_mobile_starbase$ Site"
 mega_sfdoll_mobile_starbase_01_DESC:0 "$sfdoll_mobile_starbase_plural$ need to be built through mega-engineering"

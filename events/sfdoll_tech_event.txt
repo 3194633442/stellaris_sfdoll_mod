@@ -54,10 +54,10 @@ country_event = {
 		}
 
 		# 深空母舰提示
-		if = {
-			limit = { has_technology = tech_sfdoll_mobile_starbase }
-			country_event = {	id = sfdoll_tech_event.2	}
-		}
+		# if = {
+		# 	limit = { has_technology = tech_sfdoll_mobile_starbase }
+		# 	country_event = {	id = sfdoll_tech_event.2	}
+		# }
 
 		# if = {
 		# 	limit = { 

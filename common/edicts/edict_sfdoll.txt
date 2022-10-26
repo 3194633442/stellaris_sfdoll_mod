@@ -6,7 +6,7 @@ sfdoll_collapse_liquid_more = {
 		has_authority = auth_gf_sfdoll
 	}
 	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
+		tech_sfdoll_collapse_liquid_upgrade
 	}
 	ai_weight = {
 		weight = 0
@@ -21,7 +21,7 @@ sfdoll_research_more = {
 		has_authority = auth_gf_sfdoll
 	}
 	prerequisites = {
-		tech_sfdoll_lab
+		tech_sfdoll_lab_upgrade
 	}
 	ai_weight = {
 		weight = 0
@@ -35,9 +35,7 @@ sfdoll_alloys_more = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	prerequisites = {
-		tech_sfdoll_alloys_produce
-	}
+	prerequisites = {	tech_sfdoll_alloys_upgrade	}
 	ai_weight = {
 		weight = 0
 	}	
