@@ -16,41 +16,29 @@ sfdoll_collapse_liquid_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_technician
-		produces = {
-			GF_nyto_collapse_liquid = 2
-		}
-		upkeep = {
-			energy = 10
-		}
+		produces = {	GF_nyto_collapse_liquid = 2		}
+		upkeep = {		energy = 10		}
 		produces = {
 			trigger = {
-				owner = {
-					has_edict = sfdoll_collapse_liquid_more
-				}
+				owner = {	has_edict = sfdoll_collapse_liquid_more	}
 			}
 			GF_nyto_collapse_liquid = 4
 		}
 		upkeep = {
 			trigger = {
-				owner = {
-					has_edict = sfdoll_collapse_liquid_more
-				}
+				owner = {	has_edict = sfdoll_collapse_liquid_more	}
 			}
-			energy = 10
+			energy = 15
 		}
 		# produces = {
 		# 	trigger = {
-		# 		owner = {
-		# 			has_technology = tech_sfdoll_collapse_liquid_upgrade
-		# 		}
+		# 		owner = {		has_technology = tech_sfdoll_collapse_liquid_upgrade	}
 		# 	}
 		# 	GF_nyto_collapse_liquid = 2
 		# }
 		# upkeep = {
 		# 	trigger = {
-		# 		owner = {
-		# 			has_technology = tech_sfdoll_collapse_liquid_upgrade
-		# 		}
+		# 		owner = {	has_technology = tech_sfdoll_collapse_liquid_upgrade	}
 		# 	}
 		# 	energy = 8
 		# }
@@ -165,12 +153,12 @@ sfdoll_researcher = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			physics_research = 16
-			society_research = 16
-			engineering_research = 16
+			physics_research = 20
+			society_research = 20
+			engineering_research = 20
 		}
 		upkeep = {
-			consumer_goods = 4
+			consumer_goods = 6
 		}
 
 		produces = {
@@ -179,23 +167,20 @@ sfdoll_researcher = {
 					has_edict = sfdoll_research_more
 				}
 			}
-			physics_research = 24
-			society_research = 24
-			engineering_research = 24
+			physics_research = 20
+			society_research = 20
+			engineering_research = 20
 		}
 		upkeep = {
 			trigger = {
-				owner = {
-					has_edict = sfdoll_research_more
-				}
+				owner = {	has_edict = sfdoll_research_more	}
 			}
-			consumer_goods = 4
+			energy = 10
+			consumer_goods = 6
 		}
 		# produces = {
 		# 	trigger = {
-		# 		owner = {
-		# 			has_technology = tech_sfdoll_lab_upgrade
-		# 		}
+		# 		owner = { has_technology = tech_sfdoll_lab_upgrade	}
 		# 	}
 		# 	physics_research = 12
 		# 	society_research = 12
@@ -203,11 +188,9 @@ sfdoll_researcher = {
 		# }
 		# upkeep = {
 		# 	trigger = {
-		# 		owner = {
-		# 			has_technology = tech_sfdoll_lab_upgrade
-		# 		}
+		# 		owner = {	has_technology = tech_sfdoll_lab_upgrade	}
 		# 	}
-		# 	consumer_goods = 2
+		# 	consumer_goods = 4
 		# }
 	}
 	weight = {	weight = 30	}
@@ -260,7 +243,7 @@ sfdoll_alloys_maker = {
 	resources = {
 		category = planet_metallurgists
 		produces = {
-			alloys = 12
+			alloys = 15
 		}
 		upkeep = {
 			minerals =  12
@@ -272,7 +255,7 @@ sfdoll_alloys_maker = {
 					has_edict = sfdoll_alloys_more
 				}
 			}
-			alloys = 18
+			alloys = 15
 		}
 		upkeep = {
 			trigger = {
@@ -289,7 +272,7 @@ sfdoll_alloys_maker = {
 		# 			has_technology = tech_sfdoll_alloys_upgrade
 		# 		}
 		# 	}
-		# 	alloys = 9
+		# 	alloys = 8
 		# }
 		# upkeep = {
 		# 	trigger = {
