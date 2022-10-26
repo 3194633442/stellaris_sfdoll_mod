@@ -11,7 +11,7 @@ tech_sfdoll_collapse_liquid_upgrade = {
 		tech_building_sfdoll_mineral
 		tech_sfdoll_collapse_liquid_produce
 	}
-	modifier = { description = edict_sfdoll_collapse_liquid_more_desc }
+	# modifier = { custom_tooltip = tech_sfdoll_collapse_liquid_upgrade_mod }
 	weight = 1500
 }
 
@@ -30,7 +30,7 @@ tech_sfdoll_lab_upgrade = {
 		tech_building_sfdoll_mineral
 		tech_sfdoll_lab
 	}
-	modifier = {	custom_tooltip = edict_sfdoll_research_more_desc	}
+	# modifier = {	custom_tooltip = tech_sfdoll_lab_upgrade_mod	}
 	weight = 1500
 }
 
@@ -46,7 +46,7 @@ tech_sfdoll_alloys_upgrade = {
 		tech_building_sfdoll_mineral
 		tech_sfdoll_alloys_produce
 	}
-	modifier = {	custom_tooltip = edict_sfdoll_alloys_more_desc	}
+	# modifier = {	custom_tooltip = tech_sfdoll_alloys_upgrade_mod	}
 	weight = 1500
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
