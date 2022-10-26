@@ -143,7 +143,6 @@ tech_sfdoll_missile_2 = {
 	area = physics
 	tier = 5
 	is_rare = yes
-	is_dangerous = yes
 	category = { particles }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_missile_2

@@ -146,46 +146,46 @@ ship_section_template = {
 		template = invisible_extra_large_fixed
 		locatorname = X12
 	}
-	component_slot = {
-		name = M_01
-		template = invisible_missile_turret
-		locatorname = L09
-	}
-	component_slot = {
-		name = M_02
-		template = invisible_missile_turret
-		locatorname = L10
-	}
-	component_slot = {
-		name = M_03
-		template = invisible_missile_turret
-		locatorname = L11
-	}
-	component_slot = {
-		name = M_04
-		template = invisible_missile_turret
-		locatorname = L12
-	}
-	component_slot = {
-		name = M_05
-		template = invisible_missile_turret
-		locatorname = L13
-	}
-	component_slot = {
-		name = M_06
-		template = invisible_missile_turret
-		locatorname = L14
-	}
-	component_slot = {
-		name = M_07
-		template = invisible_missile_turret
-		locatorname = L15
-	}
-	component_slot = {
-		name = M_08
-		template = invisible_missile_turret
-		locatorname = L16
-	}
+	# component_slot = {
+	# 	name = M_01
+	# 	template = invisible_missile_turret
+	# 	locatorname = L09
+	# }
+	# component_slot = {
+	# 	name = M_02
+	# 	template = invisible_missile_turret
+	# 	locatorname = L10
+	# }
+	# component_slot = {
+	# 	name = M_03
+	# 	template = invisible_missile_turret
+	# 	locatorname = L11
+	# }
+	# component_slot = {
+	# 	name = M_04
+	# 	template = invisible_missile_turret
+	# 	locatorname = L12
+	# }
+	# component_slot = {
+	# 	name = M_05
+	# 	template = invisible_missile_turret
+	# 	locatorname = L13
+	# }
+	# component_slot = {
+	# 	name = M_06
+	# 	template = invisible_missile_turret
+	# 	locatorname = L14
+	# }
+	# component_slot = {
+	# 	name = M_07
+	# 	template = invisible_missile_turret
+	# 	locatorname = L15
+	# }
+	# component_slot = {
+	# 	name = M_08
+	# 	template = invisible_missile_turret
+	# 	locatorname = L16
+	# }
 	large_utility_slots = 16
 }
 
