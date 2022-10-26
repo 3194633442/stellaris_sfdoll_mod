@@ -2,7 +2,7 @@
 building_sfdoll_research = {
 	base_buildtime =  @b2_time
 	category = research
-	icon = building_sfdoll_research_2
+	icon = building_sfdoll_research
 	potential = {
 		# 铁血帝国才能造
 		owner = { has_authority = auth_gf_sfdoll }
