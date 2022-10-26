@@ -687,20 +687,20 @@ weapon_component_template = {
 	type = instant
 	icon = "GFX_sfdoll_missile_2"
 	icon_frame = 1
-	power = -50000
+	power = -12000
 	prerequisites = {	tech_sfdoll_missile_2 }
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll	}
+	tags = { weapon_type_energy weapon_type_explosive weapon_type_sfdoll	}
 	ai_tags = {
 		weapon_role_anti_hull
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 260000 max = 270000 }
+	damage = { min = 48000 max = 64000 }
 	#冷却时间要除以10
-	total_fire_time = 310
-	range = 310
+	total_fire_time = 280
+	range = 290
 	prio_projectile = yes
 	accuracy = 0.8
 	tracking = 0.3
@@ -716,9 +716,9 @@ weapon_component_template = {
 			GF_nyto_collapse_liquid = 30
 		}
 	}
-	size_restriction = {
-		sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6
-	}
+	# size_restriction = {
+	# 	sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6
+	# }
 	ai_weight = {
 		weight = 50
 		modifier = {

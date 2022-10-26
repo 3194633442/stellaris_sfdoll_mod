@@ -903,7 +903,6 @@ ship_section_template = {
 	large_utility_slots = 16
 }
 
-#导弹发射阵列
 ship_section_template = {
 	key = sfdoll_warship_6_mid2
 	ship_size = sfdoll_warship_6
@@ -913,13 +912,13 @@ ship_section_template = {
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
-		name = "missle_01"
-		template = invisible_missile_turret
+		name = "M_01"
+		template = invisible_medium_turret
 		locatorname = X09
 	}
 	component_slot = {
-		name = "missle_02"
-		template = invisible_missile_turret
+		name = "M_02"
+		template = invisible_medium_turret
 		locatorname = X10
 	}
 	component_slot = {
