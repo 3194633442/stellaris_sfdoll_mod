@@ -368,6 +368,8 @@ tech_sfdoll_ship_sensors = {
 	weight = @tier4weight1
 }
 
+
+
 #ship
 #更多区段
 tech_sfdoll_battleship_bow_x2 = {
@@ -477,9 +479,22 @@ tech_sfdoll_warship_6 = {
 	tier = 5
 	weight = 1400
 }
+#铁血巨像
+tech_sfdoll_star_eater = {
+	area = engineering
+	start_tech = no
+	tier = 5
+	cost = @tier5cost3
+	category = { voidcraft }
+	is_rare = yes
+	icon = tech_sfdoll_mobile_starbase
+	prerequisites = {	tech_sfdoll_warship_6	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = 1500
+}
 
 
-#深空母舰
+#旧版深空母舰
 tech_ship_sfdoll_carrier = {
 	cost = @tier5cost3
 	area = engineering

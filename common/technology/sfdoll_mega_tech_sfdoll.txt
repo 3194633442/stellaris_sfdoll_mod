@@ -1,3 +1,22 @@
+#移动船坞
+tech_sfdoll_mobile_starbase = {
+	area = engineering
+	start_tech = no
+	tier = 5
+	cost = @tier5cost3
+	category = { voidcraft }
+	is_rare = yes
+	icon = tech_sfdoll_mobile_starbase
+	prerequisites = {	tech_sfdoll_star_eater	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	modifier = {
+		country_resource_max_add = 40000
+	}
+	weight = 1500
+}
+
 #巨型星港
 tech_sfdoll_mega_starport= {
 	area = engineering
@@ -154,40 +173,7 @@ tech_sfdoll_star_attacker = {
 	weight = 0
 }
 
-#移动船坞
-tech_sfdoll_mobile_starbase = {
-	area = engineering
-	start_tech = no
-	tier = 5
-	cost = @tier5cost3
-	category = { voidcraft }
-	is_rare = yes
-	icon = tech_sfdoll_mobile_starbase
-	prerequisites = {
-		tech_sfdoll_warship_4
-	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	modifier = {
-		country_resource_max_add = 40000
-	}
-	weight = 1000
-}
 
-#星球改造者
-tech_sfdoll_star_eater = {
-	area = engineering
-	start_tech = no
-	tier = 5
-	cost = @tier5cost3
-	category = { voidcraft }
-	is_rare = yes
-	icon = tech_sfdoll_mobile_starbase
-	prerequisites = {	tech_sfdoll_warship_1	}
-	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = 1000
-}
 
 #航道修改巨构
 # tech_mega_change_hyperlane_sfdoll = {
