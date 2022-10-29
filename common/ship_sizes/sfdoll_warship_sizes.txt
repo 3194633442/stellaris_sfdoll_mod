@@ -267,25 +267,7 @@ sfdoll_warship_5 = {
 		has_authority = auth_gf_sfdoll
 	}
 	possible_construction = {
-		custom_tooltip = {
-			fail_text = "need_sfdoll_mega_starport"
-			OR = {
-				AND = {
-					is_scope_type = starbase
-					has_starbase_size = sfdoll_mobile_starbase
-				}
-				AND = {
-					is_scope_type = megastructure
-					OR = {
-						is_megastructure_type = sfdoll_mega_starport_02
-						is_megastructure_type = mega_shipyard_3
-						is_megastructure_type = mega_shipyard_2
-						is_megastructure_type = mega_shipyard_restored
-					}
-				}
-			}
-		}
-
+		can_build_sfdoll_special_ship = yes
 	}
 
 	resources = {
@@ -350,24 +332,7 @@ sfdoll_warship_6 = {
 		has_authority = auth_gf_sfdoll
 	}
 	possible_construction = {
-		custom_tooltip = {
-			fail_text = "need_sfdoll_mega_starport"
-			OR = {
-				AND = {
-					is_scope_type = starbase
-					has_starbase_size = sfdoll_mobile_starbase
-				}
-				AND = {
-					is_scope_type = megastructure
-					OR = {
-						is_megastructure_type = sfdoll_mega_starport_02
-						is_megastructure_type = mega_shipyard_3
-						is_megastructure_type = mega_shipyard_2
-						is_megastructure_type = mega_shipyard_restored
-					}
-				}
-			}
-		}
+		can_build_sfdoll_special_ship = yes
 	}
 
 	resources = {
@@ -383,6 +348,65 @@ sfdoll_warship_6 = {
 	}
 	min_upgrade_cost = {
 		alloys = 10
+	}
+}
+
+#星球改造者
+sfdoll_star_eater = {
+	entity = "sfdoll_SANGVIS_FERRI_frame_entity"
+	max_speed = @speed_very_fast
+	acceleration = 0.3
+	rotation_speed = 0.2
+	max_hitpoints = 1000000
+	modifier = {
+		ship_shield_add = 1000000
+		ship_armor_add = 1000000
+	}
+	ship_modifier = {	ships_upkeep_mult = -1	}
+	size_multiplier = 32
+	fleet_slot_size = 8
+	section_slots = {
+		"bow" = { locator = part2 }
+		# "core" = { locator = part2 }
+		# "core2" = { locator = part2 }
+		"stern"  = { locator = part2 }
+	}
+	num_target_locators = 8
+	is_space_station = no
+	icon = ship_size_constructor
+	base_buildtime = 720
+	combat_disengage_chance = 2
+
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
+	prerequisites = { "tech_sfdoll_star_eater" }
+	is_civilian = no
+	is_designable = yes
+	components_add_to_cost = no
+	class = shipclass_military_special
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	required_component_set = "sfdoll_aura_components"
+	auto_upgrade = no
+	possible_construction = {
+		can_build_sfdoll_special_ship = yes
+	}
+	resources = {
+		category = ships
+		cost = {
+			alloys = 10000
+			GF_nyto_collapse_liquid = 1000
+			sr_dark_matter = 2500
+		}
+
+		upkeep = {
+			energy = 180
+			alloys = 90
+		}
 	}
 }
 
@@ -451,87 +475,6 @@ sfdoll_mobile_starbase = {
 	required_component_set = "sfdoll_aura_components"
 }
 
-#星球改造者
-sfdoll_star_eater = {
-	entity = "sfdoll_SANGVIS_FERRI_frame_entity"
-	max_speed = @speed_very_fast
-	acceleration = 0.3
-	rotation_speed = 0.2
-	max_hitpoints = 1000000
-	modifier = {
-		ship_shield_add = 1000000
-		ship_armor_add = 1000000
-	}
-	ship_modifier = {	ships_upkeep_mult = -1	}
-	size_multiplier = 32
-	fleet_slot_size = 8
-	section_slots = {
-		"bow" = { locator = part2 }
-		# "core" = { locator = part2 }
-		# "core2" = { locator = part2 }
-		"stern"  = { locator = part2 }
-	}
-	num_target_locators = 8
-	is_space_station = no
-	icon = ship_size_constructor
-	base_buildtime = 720
-	combat_disengage_chance = 2
-
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
-	prerequisites = { "tech_sfdoll_star_eater" }
-	is_civilian = no
-	is_designable = yes
-	components_add_to_cost = no
-	class = shipclass_military_special
-	construction_type = starbase_shipyard
-	required_component_set = "power_core"
-	required_component_set = "ftl_components"
-	required_component_set = "thruster_components"
-	required_component_set = "sensor_components"
-	required_component_set = "combat_computers"
-	required_component_set = "sfdoll_aura_components"
-	auto_upgrade = no
-	possible_construction = {
-		custom_tooltip = {
-			fail_text = "need_sfdoll_mega_starport"
-			OR = {
-				AND = {
-					is_scope_type = starbase
-					has_starbase_size = sfdoll_mobile_starbase
-				}
-				AND = {
-					is_scope_type = megastructure
-					OR = {
-						is_megastructure_type = sfdoll_mega_starport_02
-						is_megastructure_type = mega_shipyard_3
-						is_megastructure_type = mega_shipyard_2
-						is_megastructure_type = mega_shipyard_restored
-					}
-				}
-			}
-		}
-	}
-	resources = {
-		category = ships
-		cost = {
-			alloys = 10000
-			GF_nyto_collapse_liquid = 1000
-			sr_dark_matter = 2500
-		}
-
-		upkeep = {
-			energy = 180
-			alloys = 90
-		}
-	}
-
-	# ai_ship_data = {
-	# 	min = value:desired_constructors_min
-	# 	system_mult = 0.15
-	# 	max = value:desired_constructors_max
-	# }
-}
 
 #星际巡航舰
 # sfdoll_warship_5 = {

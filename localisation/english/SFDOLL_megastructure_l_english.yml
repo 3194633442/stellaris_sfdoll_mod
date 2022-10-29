@@ -1,18 +1,25 @@
 ﻿l_english:
 ##########
-# system_limit_one_sfd:0 "一个星系只能造一座"
-sfdoll_mega_starport_01:0 "SF Shipyard Site"
-sfdoll_mega_starport_01_DESC:0 "$sfdoll_mega_starport_02$ will be built outside gravity well to use low gravity environment and hyperlane"
+sfdoll_mega_starport_01:0 "$sfdoll_mega_starport_04$ Site"
+sfdoll_mega_starport_01_DESC:0 "$sfdoll_mega_starport_04$ will be built outside gravity well to use low gravity environment and hyperlane"
 sfdoll_mega_starport_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
 sfdoll_mega_starport_01_complete:0 "$sfdoll_mega_starport_01$ completed"
 
-sfdoll_mega_starport_02:0 "SF Shipyard"
-sfdoll_mega_starport_02_DESC:0 "$sfdoll_mega_starport_01_DESC$"
-sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
+sfdoll_mega_starport_02:0 "$sfdoll_mega_starport_04$ Framework"
+sfdoll_mega_starport_02_DESC:0 "$sfdoll_mega_starport_04_DESC$"
+sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_04_DESC$"
 sfdoll_mega_starport_02_complete:0 "$sfdoll_mega_starport_02$ completed"
 
-tech_sfdoll_mega_starport:0 "$sfdoll_mega_starport_02$"
-tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_02_DESC$ "
+sfdoll_mega_starport_03:0 "$sfdoll_mega_starport_04$ Core"
+sfdoll_mega_starport_03_DESC:0 "$sfdoll_mega_starport_04_DESC$"
+sfdoll_mega_starport_03_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_04_DESC$"
+
+sfdoll_mega_starport_04:0 "SF Mega Shipyard"
+sfdoll_mega_starport_04_DESC:0 "$sfdoll_mega_starport_04$ can build ships at high speed and build some special ships"
+sfdoll_mega_starport_04_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_04_DESC$"
+
+tech_sfdoll_mega_starport:0 "$sfdoll_mega_starport_04$"
+tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_04_DESC$"
 
 
 sfdoll_habitat_01:0 "Sangvis Ferri Space City Site"

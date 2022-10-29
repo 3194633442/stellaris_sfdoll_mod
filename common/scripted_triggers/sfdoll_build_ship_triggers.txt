@@ -1,0 +1,23 @@
+can_build_sfdoll_special_ship = {
+	optimize_memory
+	custom_tooltip = {
+		fail_text = "need_sfdoll_mega_starport"
+		OR = {
+			AND = {
+				is_scope_type = starbase
+				has_starbase_size = sfdoll_mobile_starbase
+			}
+			AND = {
+				is_scope_type = megastructure
+				OR = {
+					is_megastructure_type = sfdoll_mega_starport_02
+					is_megastructure_type = sfdoll_mega_starport_03
+					is_megastructure_type = sfdoll_mega_starport_04
+					is_megastructure_type = mega_shipyard_3
+					is_megastructure_type = mega_shipyard_2
+					is_megastructure_type = mega_shipyard_restored
+				}
+			}
+		}
+	}
+}

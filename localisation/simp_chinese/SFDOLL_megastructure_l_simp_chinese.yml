@@ -2,18 +2,26 @@
 ##########
 # system_limit_one_sfd:0 "一个星系只能造一座"
 
-sfdoll_mega_starport_01:0 "铁血船坞基址"
-sfdoll_mega_starport_01_DESC:0 "铁血船坞建造在重力井之外，以便利用低重力环境和FTL航路"
+sfdoll_mega_starport_01:0 "$sfdoll_mega_starport_04$基址"
+sfdoll_mega_starport_01_DESC:0 "$sfdoll_mega_starport_04$建造在重力井之外，以便利用低重力环境和FTL航路"
 sfdoll_mega_starport_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
 sfdoll_mega_starport_01_complete:0 "$sfdoll_mega_starport_01$建造完成"
 
-sfdoll_mega_starport_02:0 "铁血船坞"
-sfdoll_mega_starport_02_DESC:0 "铁血船坞建造在重力井之外，以便利用低重力环境和FTL航路"
-sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_02_DESC$"
+sfdoll_mega_starport_02:0 "$sfdoll_mega_starport_04$框架"
+sfdoll_mega_starport_02_DESC:0 "$sfdoll_mega_starport_04_DESC$"
+sfdoll_mega_starport_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_04_DESC$"
 sfdoll_mega_starport_02_complete:0 "$sfdoll_mega_starport_02$建造完成"
 
-tech_sfdoll_mega_starport:0 "$sfdoll_mega_starport_02$"
-tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_02_DESC$ "
+sfdoll_mega_starport_03:0 "$sfdoll_mega_starport_04$核心"
+sfdoll_mega_starport_03_DESC:0 "$sfdoll_mega_starport_04_DESC$"
+sfdoll_mega_starport_03_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_04_DESC$"
+
+sfdoll_mega_starport_04:0 "铁血巨型船坞"
+sfdoll_mega_starport_04_DESC:0 "$sfdoll_mega_starport_04$能高速造船，并制造某些特殊船只"
+sfdoll_mega_starport_04_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_04_DESC$"
+
+tech_sfdoll_mega_starport:0 "$sfdoll_mega_starport_04$"
+tech_sfdoll_mega_starport_desc:0 "$sfdoll_mega_starport_04_DESC$"
 
 
 sfdoll_habitat_01:0 "铁血太空城基址"
