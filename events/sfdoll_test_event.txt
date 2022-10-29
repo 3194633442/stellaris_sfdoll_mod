@@ -78,20 +78,6 @@ country_event = {
 		# capital_scope = {
 		# 	change_pc = pc_sfdoll_city
 		# }
-		add_modifier = {
-			modifier = sfdoll_test_modifier
-			days = -1
-		}
-		add_resource = {
-			energy = 1000000
-			minerals = 1000000
-			alloys = 1000000
-			rare_crystals = 1000000
-			GF_nyto_collapse_liquid = 1000000
-			sr_dark_matter = 1000000
-			unity = 1000000
-		}
-
 	}
 }
 
@@ -161,10 +147,27 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
+		add_resource = {
+			energy = 1000000
+			minerals = 1000000
+			consumer_goods = 1000000
+			alloys = 1000000
+			unity = 1000000
+			GF_nyto_collapse_liquid = 1000000	
+		}
 		add_modifier = {
 			modifier = sfdoll_test_modifier
 			days = -1
 		}
+	}
+}
+
+country_event = {
+	id = sfdoll_test_event.6
+	hide_window = no
+	is_triggered_only = yes
+	immediate = {
+		remove_modifier = sfdoll_test_modifier
 	}
 }
 

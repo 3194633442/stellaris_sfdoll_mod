@@ -7,7 +7,7 @@ tech_sfdoll_mobile_starbase = {
 	category = { voidcraft }
 	is_rare = yes
 	icon = tech_sfdoll_mobile_starbase
-	prerequisites = {	tech_sfdoll_star_eater	}
+	prerequisites = {	tech_sfdoll_warship_6	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
@@ -26,10 +26,7 @@ tech_sfdoll_mega_starport= {
 	category = { voidcraft }
 	is_rare = yes
 	icon = tech_sfdoll_mega_starport
-	prerequisites = {
-		tech_building_sfdoll_mineral
-		tech_mega_engineering
-	}	
+	prerequisites = {	tech_building_sfdoll_mineral	}	
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}

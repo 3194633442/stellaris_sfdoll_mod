@@ -240,7 +240,7 @@ sfdoll_warship_6_mid:0 "B"
 sfdoll_warship_6_mid2:0 "C"
 sfdoll_warship_6_stern:0 "D"
 
-need_sfdoll_mega_starport:0 "It can be built in the following places: $sfdoll_mega_starport_04$,$sfdoll_mobile_starbase$,$mega_shipyard_3$"
+need_sfdoll_mega_starport:0 "It can be built in the following places: $sfdoll_mega_starport_04$, $sfdoll_mobile_starbase$, $mega_shipyard_3$"
 
 sfdoll_star_eater:0 "Star Changer"
 sfdoll_star_eater_plural:0 "$sfdoll_star_eater$s"

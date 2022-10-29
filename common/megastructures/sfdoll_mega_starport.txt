@@ -81,8 +81,8 @@ sfdoll_mega_starport_02 = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 10000
-			unity = 1000
+			alloys = 15000
+			unity = 1500
 			GF_nyto_collapse_liquid = 250
 		}
 		upkeep = {
