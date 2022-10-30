@@ -5,7 +5,7 @@ sfdoll_habitat_01 ={
 	show_galactic_map_icon = yes
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = yes
-	build_time = 360
+	build_time = 720
 	construction_blocks_and_blocked_by = multi_stage_type
 	potential = {
 		owner = {
@@ -53,8 +53,9 @@ sfdoll_habitat_01 ={
 	resources = {
 		category = megastructures_habitat
 		cost = {
-			alloys = 5000
-			unity = 150
+			alloys = 10000
+			unity = 1000
+			GF_nyto_collapse_liquid = 500
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
@@ -64,7 +65,7 @@ sfdoll_habitat_01 ={
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
 				localization = sfdoll_habitat_01_complete
-				days = 1800
+				days = 60
 				target= prev
 			}
 		}
@@ -97,7 +98,8 @@ sfdoll_habitat_02 ={
 		category = megastructures_habitat
 		cost = {
 			alloys = 20000
-			unity = 450
+			unity = 2000
+			GF_nyto_collapse_liquid = 1000
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure

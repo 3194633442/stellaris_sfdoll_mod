@@ -43,16 +43,16 @@ ship_section_template = {
 		template = invisible_titanic_fixed
 		locatorname = T06
 	}
-	component_slot = {
-		name = T_07
-		template = invisible_titanic_fixed
-		locatorname = T07
-	}
-	component_slot = {
-		name = T_08
-		template = invisible_titanic_fixed
-		locatorname = T08
-	}
+	# component_slot = {
+	# 	name = T_07
+	# 	template = invisible_titanic_fixed
+	# 	locatorname = T07
+	# }
+	# component_slot = {
+	# 	name = T_08
+	# 	template = invisible_titanic_fixed
+	# 	locatorname = T08
+	# }
 	# component_slot = {
 	# 	name = T_09
 	# 	template = invisible_titanic_fixed
@@ -74,7 +74,7 @@ ship_section_template = {
 	# 	locatorname = T12
 	# }
 
-	large_utility_slots = 20
+	large_utility_slots = 15
 }
 
 #中段
@@ -186,7 +186,7 @@ ship_section_template = {
 	# 	template = invisible_missile_turret
 	# 	locatorname = L16
 	# }
-	large_utility_slots = 16
+	large_utility_slots = 15
 }
 
 ship_section_template = {
@@ -308,7 +308,7 @@ ship_section_template = {
 		template = invisible_point_defence_turret
 		locatorname = L22
 	}
-	large_utility_slots = 16
+	large_utility_slots = 15
 }
 
 #舰尾
@@ -431,7 +431,8 @@ ship_section_template = {
 		template = invisible_point_defence_turret
 		locatorname = L32
 	}
-	aux_utility_slots = 8
+	large_utility_slots = 15
+	aux_utility_slots = 5
 }
 
 # ship_section_template = {
