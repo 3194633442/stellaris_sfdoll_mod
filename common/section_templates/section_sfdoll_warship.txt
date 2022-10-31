@@ -588,7 +588,7 @@ ship_section_template = {
 	}
 }
 
-#5级船
+#中型驱逐舰
 ship_section_template = {
 	key = sfdoll_warship_5_bow
 	ship_size = sfdoll_warship_5
@@ -622,6 +622,28 @@ ship_section_template = {
 		template = invisible_large_turret
 		locatorname = "l_gun04"
 	}
+
+	large_utility_slots = 12
+}
+
+ship_section_template = {
+	key = sfdoll_warship_5_core
+	ship_size = sfdoll_warship_5
+	fits_on_slot = core
+	should_draw_components = yes
+	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+	icon = GFX_ship_part_core_bow
+	icon_frame = 1
+	component_slot = {
+		name = x01
+		template = invisible_extra_large_fixed
+		locatorname = x_gun01
+	}
+	component_slot = {
+		name = x02
+		template = invisible_extra_large_fixed
+		locatorname = x_gun03
+	}
 	component_slot = {
 		name = "L07"
 		template = invisible_large_turret
@@ -644,9 +666,8 @@ ship_section_template = {
 	}
 	large_utility_slots = 12
 }
-
 ship_section_template = {
-	key = sfdoll_warship_5_core
+	key = sfdoll_warship_5_coreP4
 	ship_size = sfdoll_warship_5
 	fits_on_slot = core
 	should_draw_components = yes
@@ -662,6 +683,21 @@ ship_section_template = {
 		name = x02
 		template = invisible_extra_large_fixed
 		locatorname = x_gun03
+	}
+	component_slot = {
+		name = "L08"
+		template = invisible_large_turret
+		locatorname = "l_gun08"
+	}
+	component_slot = {
+		name = "L09"
+		template = invisible_large_turret
+		locatorname = "l_gun09"
+	}
+	component_slot = {
+		name = "L010"
+		template = invisible_large_turret
+		locatorname = "l_gun010"
 	}
 	component_slot = {
 		name = "P1"
@@ -726,59 +762,8 @@ ship_section_template = {
 	}
 	aux_utility_slots = 4
 }
-# ship_section_template = {
-# 	key = sfdoll_warship_5_stern_X2L2M4
-# 	ship_size = sfdoll_warship_5
-# 	fits_on_slot = stern
-# 	should_draw_components = yes
-# 	entity = GF_nyto_01_bettalships_loctor_mesh_entity
-# 	icon = GFX_ship_part_core_bow
-# 	icon_frame = 1
-# 	component_slot = {
-# 		name = x03
-# 		template = invisible_extra_large_fixed
-# 		locatorname = x_gun02
-# 	}
-# 	component_slot = {
-# 		name = x04
-# 		template = invisible_extra_large_fixed
-# 		locatorname = x_gun04
-# 	}
-# 	component_slot = {
-# 		name = "L015"
-# 		template = invisible_large_turret
-# 		locatorname = "l_gun013"
-# 	}
-# 	component_slot = {
-# 		name = "L016"
-# 		template = invisible_large_turret
-# 		locatorname = "l_gun014"
-# 	}
-# 	component_slot = {
-# 		name = "M_01"
-# 		template = invisible_medium_turret
-# 		locatorname = "l_gun015"
-# 	}
-# 	component_slot = {
-# 		name = "M_02"
-# 		template = invisible_medium_turret
-# 		locatorname = "l_gun016"
-# 	}
-# 	component_slot = {
-# 		name = "M_03"
-# 		template = invisible_missile_turret
-# 		locatorname = "l_gun015"
-# 	}
-# 	component_slot = {
-# 		name = "M_04"
-# 		template = invisible_missile_turret
-# 		locatorname = "l_gun016"
-# 	}
-# 	aux_utility_slots = 4
-# }
 
-#重型驱逐
-#舰首
+#重型驱逐舰
 ship_section_template = {
 	key = "sfdoll_warship_6_bow"
 	ship_size = sfdoll_warship_6
@@ -809,58 +794,107 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = L_05
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L05
 	}
 	component_slot = {
 		name = L_06
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L06
 	}
 	component_slot = {
 		name = L_07
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L07
 	}
 	component_slot = {
 		name = L_08
-		template = invisible_medium_turret
+		template = invisible_large_turret
 		locatorname = L08
 	}
+	large_utility_slots = 16
+}
+ship_section_template = {
+	key = "sfdoll_warship_6_bowP8"
+	ship_size = sfdoll_warship_6
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = SF_GF_nyto_01_SANGVIS_FERRI_flag_ship_entity
+	icon = GFX_ship_part_core_bow
+	icon_frame = 1
 	component_slot = {
-		name = "P_01"
+		name = L_01
+		template = invisible_large_turret
+		locatorname = L01
+	}
+	component_slot = {
+		name = L_02
+		template = invisible_large_turret
+		locatorname = L02
+	}
+	component_slot = {
+		name = L_03
+		template = invisible_large_turret
+		locatorname = L03
+	}
+	component_slot = {
+		name = L_04
+		template = invisible_large_turret
+		locatorname = L04
+	}
+	component_slot = {
+		name = L_05
+		template = invisible_large_turret
+		locatorname = L05
+	}
+	component_slot = {
+		name = L_06
+		template = invisible_large_turret
+		locatorname = L06
+	}
+	component_slot = {
+		name = "P1"
+		template = invisible_point_defence_turret
+		locatorname = X05
+	}
+	component_slot = {
+		name = "P2"
+		template = invisible_point_defence_turret
+		locatorname = X06
+	}
+	component_slot = {
+		name = "P3"
 		template = invisible_point_defence_turret
 		locatorname = X07
 	}
 	component_slot = {
-		name = "P_02"
+		name = "P4"
 		template = invisible_point_defence_turret
 		locatorname = X08
 	}
 	component_slot = {
-		name = "P_03"
+		name = "P5"
 		template = invisible_point_defence_turret
 		locatorname = L21
 	}
 	component_slot = {
-		name = "P_04"
+		name = "P6"
 		template = invisible_point_defence_turret
 		locatorname = L22
 	}
 	component_slot = {
-		name = "P_05"
+		name = "P7"
 		template = invisible_point_defence_turret
 		locatorname = L23
 	}
 	component_slot = {
-		name = "P_06"
+		name = "P8"
 		template = invisible_point_defence_turret
 		locatorname = L24
 	}
-	large_utility_slots = 12
+	large_utility_slots = 16
 }
 
-#中段
 ship_section_template = {
 	key = sfdoll_warship_6_mid
 	ship_size = sfdoll_warship_6
@@ -929,7 +963,7 @@ ship_section_template = {
 		template = invisible_large_turret
 		locatorname = L16
 	}
-	large_utility_slots = 12
+	large_utility_slots = 16
 }
 
 # ship_section_template = {
@@ -1000,7 +1034,7 @@ ship_section_template = {
 # 		template = invisible_point_defence_turret
 # 		locatorname = L24
 # 	}
-# 	large_utility_slots = 12
+# 	large_utility_slots = 16
 # }
 
 #舰尾
@@ -1073,6 +1107,6 @@ ship_section_template = {
 		template = invisible_large_turret
 		locatorname = L24
 	}
-	large_utility_slots = 12
+	large_utility_slots = 16
 	aux_utility_slots = 5
 }
