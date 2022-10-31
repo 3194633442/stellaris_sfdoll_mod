@@ -118,9 +118,9 @@ sfdoll_thruster_6:0 "$sfdoll_thruster$"
 #computer
 tech_sfdoll_ship_computer:0"铁血战舰AI"
 tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI,被视为铁血人形的一员.当然了，铁血本来就是一群作战AI."
-sfdoll_combat_computer_1:0"铁血战舰AI(手动)"
-sfdoll_combat_computer_2:0"铁血战舰AI(炮击)"
-sfdoll_combat_computer_3:0"铁血战舰AI(航母)"
+sfdoll_combat_computer_1:0"铁血作战AI（手动）"
+sfdoll_combat_computer_2:0"铁血作战AI（炮击）"
+sfdoll_combat_computer_3:0"铁血作战AI（航母）"
 
 #defense
 sfdoll_ship_defense_s:0 "加速棱镜"

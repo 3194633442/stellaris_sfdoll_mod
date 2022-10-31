@@ -21,6 +21,20 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_sfdoll_combat_computer_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_2.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_combat_computer_3"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_3.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_sfdoll_thruster"
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_thruster.dds"
 	}
