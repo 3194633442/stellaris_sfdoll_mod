@@ -138,7 +138,7 @@ building_sfdoll_academy_desc:0"这些园区兼具教学与科研功能。虽然�
 job_sfdoll_educator:0"教育工作者"
 job_sfdoll_educator_plural:0"教育工作者"
 job_sfdoll_educator_desc:0"教育工作者"
-job_sfdoll_educator_effect_desc:0 "教育工作者消耗§Y$consumer_goods$§!,产出§Y$unity$§!,§Y$society_research$§!,降低星球的犯罪度"
+job_sfdoll_educator_effect_desc:0 "教育工作者消耗 £consumer_goods£ §Y$consumer_goods$§!,产出 £unity£ §Y$unity$§!, £society_research£ §Y$society_research$§!,降低星球的犯罪度"
 mod_job_sfdoll_educator_add:0"教育工作者岗位"
 
 building_sfdoll_media:0 "铁血传媒广场"
@@ -146,7 +146,7 @@ building_sfdoll_media_desc:0 "这里可以找到各种文化产品。"
 job_sfdoll_artist:0 "艺术工作者"
 job_sfdoll_artist_plural:0 "艺术工作者"
 job_sfdoll_artist_desc:0 "艺术工作者"
-job_sfdoll_artist_effect_desc:0 "艺术工作者消耗§Y$consumer_goods$§!，产出§Y$unity$§!,§Y$society_research$§!, 提高舒适度"
+job_sfdoll_artist_effect_desc:0 "艺术工作者消耗 £consumer_goods£ §Y$consumer_goods$§!，产出 £unity£ §Y$unity$§!, £society_research£ §Y$society_research$§!, 提高舒适度"
 mod_job_sfdoll_artist_add:0 "艺术工作者岗位"
 
 building_sfdoll_net:0"OGAS网络"
