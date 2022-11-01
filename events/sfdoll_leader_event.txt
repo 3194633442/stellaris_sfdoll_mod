@@ -22,7 +22,16 @@ country_event = {
 		if = {
 			limit = { exists = event_target:ogas40_sfdoll_leader }
 			event_target:ogas40_sfdoll_leader = {
-				change_leader_portrait = GFX_portrait_sfdoll_ogas40
+				if = {
+					limit = {
+						OR = {
+							leader_class = admiral
+							leader_class = general
+						}
+					}
+					change_leader_portrait = GFX_sfdoll_ump40_3
+				}
+				else = { change_leader_portrait = GFX_sfdoll_ump40_2 }
 			}
 		}
 		if = {

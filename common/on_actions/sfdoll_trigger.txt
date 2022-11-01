@@ -75,8 +75,8 @@ on_monthly_pulse_country = {
 	}
 }
 
-#no scope
-on_yearly_pulse = {
+# this = country
+on_yearly_pulse_country  = {
 	events = {
 		sfdoll_trait_event.1
 		sfdoll_leader_event.1

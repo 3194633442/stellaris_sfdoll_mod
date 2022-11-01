@@ -9,7 +9,7 @@ country_event = {
 	diplomatic = yes
 
 	picture_event_data = {
-		portrait = GFX_portrait_sfdoll_ogas40
+		portrait = GFX_sfdoll_ump40
 		room = this
 		graphical_culture = this
 		planet_background = this
@@ -131,6 +131,7 @@ country_event = {
 	}
 }
 
+#ogas ump40加入
 country_event = {
 	id = sfdoll_ogas_event.2
 	title = "sfdoll_ogas_event.2"
@@ -138,7 +139,7 @@ country_event = {
 	diplomatic = yes
 
 	picture_event_data = {
-		portrait = GFX_portrait_sfdoll_ogas40
+		portrait = GFX_sfdoll_ump40
 		room = sfdoll_digi_mind_room
 	}	
 	is_triggered_only = yes

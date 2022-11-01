@@ -57,6 +57,10 @@ portraits = {
 	sfdoll_01_sf_55 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_55.dds" }
 	sfdoll_01_sf_56 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_56.dds" }
 	sfdoll_01_sf_57 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_57.dds" }
+	sfdoll_01_sf_58 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_58.dds" }
+	sfdoll_01_sf_59 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_59.dds" }
+	sfdoll_01_sf_60 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_60.dds" }
+	sfdoll_01_sf_61 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_61.dds" }
 }
 
 portrait_groups = {
@@ -122,7 +126,11 @@ portrait_groups = {
 					sfdoll_01_sf_55
 					sfdoll_01_sf_56
 					sfdoll_01_sf_57
+					sfdoll_01_sf_58
+					sfdoll_01_sf_59
 					sfdoll_01_sf_6
+					sfdoll_01_sf_60
+					sfdoll_01_sf_61
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -192,7 +200,11 @@ portrait_groups = {
 					sfdoll_01_sf_55
 					sfdoll_01_sf_56
 					sfdoll_01_sf_57
+					sfdoll_01_sf_58
+					sfdoll_01_sf_59
 					sfdoll_01_sf_6
+					sfdoll_01_sf_60
+					sfdoll_01_sf_61
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -257,7 +269,11 @@ portrait_groups = {
 					sfdoll_01_sf_55
 					sfdoll_01_sf_56
 					sfdoll_01_sf_57
+					sfdoll_01_sf_58
+					sfdoll_01_sf_59
 					sfdoll_01_sf_6
+					sfdoll_01_sf_60
+					sfdoll_01_sf_61
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -323,7 +339,11 @@ portrait_groups = {
 					sfdoll_01_sf_55
 					sfdoll_01_sf_56
 					sfdoll_01_sf_57
+					sfdoll_01_sf_58
+					sfdoll_01_sf_59
 					sfdoll_01_sf_6
+					sfdoll_01_sf_60
+					sfdoll_01_sf_61
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -389,7 +409,11 @@ portrait_groups = {
 					sfdoll_01_sf_55
 					sfdoll_01_sf_56
 					sfdoll_01_sf_57
+					sfdoll_01_sf_58
+					sfdoll_01_sf_59
 					sfdoll_01_sf_6
+					sfdoll_01_sf_60
+					sfdoll_01_sf_61
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9

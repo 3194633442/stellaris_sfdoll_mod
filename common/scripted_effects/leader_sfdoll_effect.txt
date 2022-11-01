@@ -222,7 +222,7 @@ ogas40_become_governor_effect = {
 				trait = leader_trait_governor_ogas40
 			}
 			effect = {
-				change_leader_portrait = GFX_portrait_sfdoll_ogas40
+				change_leader_portrait = GFX_sfdoll_ump40_2
 				set_leader_flag = ogas40_sfdoll_leader
 				save_global_event_target_as = ogas40_sfdoll_leader
 			}
@@ -256,7 +256,7 @@ ogas40_become_scientist_effect = {
 				trait = leader_trait_scientist_ogas40
 			}
 			effect = {
-				change_leader_portrait = GFX_portrait_sfdoll_ogas40
+				change_leader_portrait = GFX_sfdoll_ump40_2
 				set_leader_flag = ogas40_sfdoll_leader
 				save_global_event_target_as = ogas40_sfdoll_leader
 			}
@@ -291,7 +291,7 @@ ogas40_become_admiral_effect = {
 				trait = leader_trait_admiral_ogas40
 			}
 			effect = {
-				change_leader_portrait = GFX_portrait_sfdoll_ogas40
+				change_leader_portrait = GFX_sfdoll_ump40_3
 				set_leader_flag = ogas40_sfdoll_leader
 				save_global_event_target_as = ogas40_sfdoll_leader
 			}
@@ -325,7 +325,7 @@ ogas40_become_general_effect = {
 				trait = leader_trait_general_ogas40
 			}
 			effect = {
-				change_leader_portrait = GFX_portrait_sfdoll_ogas40
+				change_leader_portrait = GFX_sfdoll_ump40_3
 				set_leader_flag = ogas40_sfdoll_leader
 				save_global_event_target_as = ogas40_sfdoll_leader
 			}
