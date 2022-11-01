@@ -412,17 +412,16 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 1000000 max = 1000000 }
+	damage = { min = 1300000 max = 1300000 }
 	#冷却时间要除以10
-	total_fire_time = 99
+	total_fire_time = 128
+	windup = { min = 4 max = 4 }
 	range = 400
 	accuracy = 0.85
 	tracking = 0.2
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -200000
-	
-	#待修改
+	power = -500000
 	prerequisites = { "tech_sfdoll_weapon_T_PK" }
 	component_set = "sfdoll_weapon_T_PK"
 	size_restriction = { sfdoll_warship_5 sfdoll_warship_6 }
@@ -466,15 +465,16 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 1000000 max = 1000000 }
+	damage = { min = 780000 max = 800000 }
 	#冷却时间要除以10
-	total_fire_time = 99
-	range = 400
-	accuracy = 0.85
-	tracking = 0.2
+	total_fire_time = 96
+	windup = { min = 3 max = 3 }
+	range = 360
+	accuracy = 0.9
+	tracking = 0.25
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -500000
+	power = -400000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_T_2" }
@@ -501,15 +501,16 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 260000 max = 270000 }
+	damage = { min = 350000 max = 360000 }
 	#冷却时间要除以10
-	total_fire_time = 66
-	range = 380
+	total_fire_time = 96
+	windup = { min = 3 max = 3 }
+	range = 340
 	accuracy = 0.9
 	tracking = 0.25
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -80000
+	power = -160000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_2" }
@@ -546,15 +547,16 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 48000 max = 64000 }
+	damage = { min = 72000 max = 84000 }
 	#冷却时间要除以10
-	total_fire_time = 33
-	range = 350
+	total_fire_time = 64
+	windup = {	min = 2  max = 2 }
+	range = 310
 	accuracy = 1
 	tracking = 0.7
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -32000
+	power = -64000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
@@ -591,15 +593,16 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 18000 max = 24000 }
+	damage = { min = 28000 max = 34000 }
 	#冷却时间要除以10
-	total_fire_time = 33
-	range = 325
+	total_fire_time = 64
+	windup = {	min = 2  max = 2 }
+	range = 290
 	accuracy = 1.0
 	tracking = 0.75
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -12000
+	power = -25000
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
@@ -636,15 +639,15 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 5000 max = 7500 }
+	damage = { min = 6000 max = 6500 }
 	#冷却时间要除以10
-	total_fire_time = 22
-	range = 300
+	total_fire_time = 33
+	range = 260
 	accuracy = 1
 	tracking = 0.8
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -4800
+	power = -9000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
@@ -681,15 +684,15 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 5000 max = 7500 }
+	damage = { min = 4800 max = 5200 }
 	#冷却时间要除以10
-	total_fire_time = 22
-	range = 300
+	total_fire_time = 33
+	range = 250
 	accuracy = 1
-	tracking = 0.9
+	tracking = 0.85
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -4800
+	power = -9000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
@@ -723,7 +726,7 @@ weapon_component_template = {
 	type = instant
 	icon = "GFX_sfdoll_missile_2"
 	icon_frame = 1
-	power = -12000
+	power = -25000
 	prerequisites = {	tech_sfdoll_missile_2 }
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
@@ -733,12 +736,13 @@ weapon_component_template = {
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 48000 max = 64000 }
+	damage = { min = 80000 max = 130000 }
 	#冷却时间要除以10
-	total_fire_time = 280
+	total_fire_time = 132
+	windup = {	min = 4  max = 4 }
 	range = 290
 	prio_projectile = yes
-	accuracy = 0.8
+	accuracy = 0.7
 	tracking = 0.3
 	shield_penetration = 1
 	armor_penetration = 1
@@ -771,7 +775,7 @@ strike_craft_component_template = {
 	icon_frame = 1
 	size = LARGE
 	entity = "" #"bomber_entity"
-	power = -600
+	power = -2000
 	prerequisites = {	tech_sfdoll_strike_craft_2 	}
 
 	resources = {
