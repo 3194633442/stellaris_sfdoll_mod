@@ -63,16 +63,14 @@ sfdoll_change_hyperlane_window = {
 }
 
 #T槽碎星控制
-sfdoll_weapen_t_7_control = {
+sfdoll_weapon_T_PK_control = {
 	length = -1
 	icon = "GFX_edict_type_time"
 	potential = {
 		has_authority = auth_gf_sfdoll
 		is_ai = no
 	}
-	prerequisites = {
-		tech_sfdoll_weapon_t_7
-	}
+	prerequisites = {	tech_sfdoll_weapon_T_PK	}
 	ai_weight = {
 		weight = 10
 	}	

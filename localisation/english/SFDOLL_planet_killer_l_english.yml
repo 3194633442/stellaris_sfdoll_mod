@@ -32,19 +32,18 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_3:0 "collapsed"
 tech_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"
 tech_planet_killer_sfdoll_3_desc:0 "$planet_killer_sfdoll_3_DESC$"
 
-sfdoll_weapen_t_7:0 "Anti-Planet Gun"
-component_set_sfdoll_weapen_t_7:0 "$sfdoll_weapen_t_7$"
-component_set_sfdoll_weapen_t_7_DESC:0 "§YThe fleet equipped with this weapon can destroy a planet when the fleet enters the planet's orbit. You can use an edict to unlock this function§!"
+sfdoll_weapon_T_PK:0 "Anti-Planet Gun"
+sfdoll_weapon_T_PK_DESC:0 "§YThe fleet equipped with this weapon can destroy a planet when the fleet enters the planet's orbit. You can use an edict to unlock this function§!"
 
-tech_sfdoll_weapon_t_7:0 "$sfdoll_weapen_t_7$"
-tech_sfdoll_weapon_t_7_desc:0 "This weapon can quickly destroy planets, and can also aiming and shooting continuously at low power."
+tech_sfdoll_weapon_T_PK:0 "$sfdoll_weapon_T_PK$"
+tech_sfdoll_weapon_T_PK_desc:0 "This weapon can quickly destroy planets, and can also aiming and shooting continuously at low power."
 
-sfdoll_planet_killer_event.10:0 "$sfdoll_weapen_t_7$ Interface"
-sfdoll_planet_killer_event.10.desc:0 "A fleet equipped with $sfdoll_weapen_t_7$ has entered the orbit of §H[fromfrom.GetName]§!,do we have to destroy the object?\n\n You can use an edict to stop this function."
+sfdoll_planet_killer_event.10:0 "$sfdoll_weapon_T_PK$ Interface"
+sfdoll_planet_killer_event.10.desc:0 "A fleet equipped with $sfdoll_weapon_T_PK$ has entered the orbit of §H[fromfrom.GetName]§!,do we have to destroy the object?\n\n You can use an edict to stop this function."
 sfdoll_planet_killer_event.10_a:0 "destroy §H[fromfrom.GetName]§!"
 
-edict_sfdoll_weapen_t_7_control:0 "Sangvis Ferri Doll: Unlock $sfdoll_weapen_t_7$"
-edict_sfdoll_weapen_t_7_control_desc:0 "While this edict is in effect, when Sangvis Ferri fleet equipped with $sfdoll_weapen_t_7$ enters orbit of a planet, it can destroy the planet."
+edict_sfdoll_weapon_T_PK_control:0 "Sangvis Ferri Doll: Unlock $sfdoll_weapon_T_PK$"
+edict_sfdoll_weapon_T_PK_control_desc:0 "While this edict is in effect, when Sangvis Ferri fleet equipped with $sfdoll_weapon_T_PK$ enters orbit of a planet, it can destroy the planet."
 
 
 planet_killer_sfdoll_colonizer:0 "Colonial Space Shuttle"

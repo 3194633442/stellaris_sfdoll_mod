@@ -170,15 +170,15 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapen_t_7"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapen_t_7.dds"
+		name = "GFX_sfdoll_weapon_T_PK"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_T_PK.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapen_T_2"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapen_T_2.dds"
+		name = "GFX_sfdoll_weapon_T_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_T_2.dds"
 	}
 }
 
