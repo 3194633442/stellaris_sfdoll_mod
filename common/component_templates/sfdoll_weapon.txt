@@ -414,8 +414,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 1300000 max = 1300000 }
 	#冷却时间要除以10
-	total_fire_time = 128
-	windup = { min = 4 max = 4 }
+	total_fire_time = 120
+	windup = { min = 12 max = 12 }
 	range = 400
 	accuracy = 0.85
 	tracking = 0.2
@@ -424,7 +424,7 @@ weapon_component_template = {
 	power = -500000
 	prerequisites = { "tech_sfdoll_weapon_T_PK" }
 	component_set = "sfdoll_weapon_T_PK"
-	size_restriction = { sfdoll_warship_5 sfdoll_warship_6 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
@@ -467,8 +467,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 780000 max = 800000 }
 	#冷却时间要除以10
-	total_fire_time = 96
-	windup = { min = 3 max = 3 }
+	total_fire_time = 90
+	windup = { min = 9 max = 9 }
 	range = 360
 	accuracy = 0.9
 	tracking = 0.25
@@ -476,9 +476,9 @@ weapon_component_template = {
 	armor_penetration = 1
 	power = -400000
 	
-	#待修改
 	prerequisites = { "tech_sfdoll_weapon_T_2" }
 	component_set = "sfdoll_weapon_T_2"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
@@ -501,10 +501,10 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 350000 max = 360000 }
+	damage = { min = 300000 max = 320000 }
 	#冷却时间要除以10
-	total_fire_time = 96
-	windup = { min = 3 max = 3 }
+	total_fire_time = 90
+	windup = { min = 9 max = 9 }
 	range = 340
 	accuracy = 0.9
 	tracking = 0.25
@@ -515,6 +515,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_2" }
 	component_set = "component_set_sfdoll_weapon_x_2"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
@@ -549,8 +550,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 72000 max = 84000 }
 	#冷却时间要除以10
-	total_fire_time = 64
-	windup = {	min = 2  max = 2 }
+	total_fire_time = 60
+	windup = {	min = 6  max = 6 }
 	range = 310
 	accuracy = 1
 	tracking = 0.7
@@ -561,6 +562,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
@@ -593,10 +595,10 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 28000 max = 34000 }
+	damage = { min = 29000 max = 33000 }
 	#冷却时间要除以10
-	total_fire_time = 64
-	windup = {	min = 2  max = 2 }
+	total_fire_time = 60
+	windup = {	min = 6  max = 6 }
 	range = 290
 	accuracy = 1.0
 	tracking = 0.75
@@ -606,6 +608,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = {  weapon_role_artillery }
@@ -639,9 +642,10 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 6000 max = 6500 }
+	damage = { min = 5700 max = 6600 }
 	#冷却时间要除以10
-	total_fire_time = 33
+	total_fire_time = 30
+	windup = { min = 3 	max = 3	}
 	range = 260
 	accuracy = 1
 	tracking = 0.8
@@ -652,6 +656,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
 	component_set = "component_set_sfdoll_weapon_p_2"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
@@ -684,9 +689,10 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 4800 max = 5200 }
+	damage = { min = 4000 max = 5000 }
 	#冷却时间要除以10
-	total_fire_time = 33
+	total_fire_time = 30
+	windup = { min = 3 	max = 3	}
 	range = 250
 	accuracy = 1
 	tracking = 0.85
@@ -697,6 +703,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
 	component_set = "component_set_sfdoll_weapon_p_2"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense weapon_type_sfdoll }
 	ai_tags = { weapon_role_point_defense }

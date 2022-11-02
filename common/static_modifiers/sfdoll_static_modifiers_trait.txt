@@ -42,6 +42,7 @@ aura_sfdoll_2_modifier = {
 }
 
 sfdoll_test_modifier = {
+	ship_fire_rate_mult = 100
 	all_technology_research_speed = 20
 	# planet_jobs_physics_research_produces_mult = 20
 	# planet_jobs_society_research_produces_mult  = 20
