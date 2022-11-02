@@ -414,8 +414,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 1300000 max = 1300000 }
 	#冷却时间要除以10
-	total_fire_time = 120
-	windup = { min = 12 max = 12 }
+	total_fire_time = 121
+	windup = { min = 10 max = 12 }
 	range = 400
 	accuracy = 0.85
 	tracking = 0.2
@@ -467,8 +467,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 780000 max = 800000 }
 	#冷却时间要除以10
-	total_fire_time = 90
-	windup = { min = 9 max = 9 }
+	total_fire_time = 91
+	windup = { min = 8 max = 8 }
 	range = 360
 	accuracy = 0.9
 	tracking = 0.25
@@ -503,8 +503,8 @@ weapon_component_template = {
 	#4250
 	damage = { min = 300000 max = 320000 }
 	#冷却时间要除以10
-	total_fire_time = 90
-	windup = { min = 9 max = 9 }
+	total_fire_time = 91
+	windup = { min = 8 max = 8 }
 	range = 340
 	accuracy = 0.9
 	tracking = 0.25
@@ -550,8 +550,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 72000 max = 84000 }
 	#冷却时间要除以10
-	total_fire_time = 60
-	windup = {	min = 6  max = 6 }
+	total_fire_time = 61
+	windup = {	min = 5  max = 5 }
 	range = 310
 	accuracy = 1
 	tracking = 0.7
@@ -597,8 +597,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 29000 max = 33000 }
 	#冷却时间要除以10
-	total_fire_time = 60
-	windup = {	min = 6  max = 6 }
+	total_fire_time = 61
+	windup = {	min = 5  max = 5 }
 	range = 290
 	accuracy = 1.0
 	tracking = 0.75
@@ -644,8 +644,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 5700 max = 6600 }
 	#冷却时间要除以10
-	total_fire_time = 30
-	windup = { min = 3 	max = 3	}
+	total_fire_time = 31
+	windup = { min = 2 	max = 2	}
 	range = 260
 	accuracy = 1
 	tracking = 0.8
@@ -691,8 +691,8 @@ weapon_component_template = {
 	use_ship_kill_target = yes
 	damage = { min = 4000 max = 5000 }
 	#冷却时间要除以10
-	total_fire_time = 30
-	windup = { min = 3 	max = 3	}
+	total_fire_time = 31
+	windup = { min = 2 	max = 2	}
 	range = 250
 	accuracy = 1
 	tracking = 0.85
