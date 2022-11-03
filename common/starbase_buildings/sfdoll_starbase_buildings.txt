@@ -1,3 +1,39 @@
+starbase_building_sfdoll_assembly = {
+	icon = "GFX_starbase_building_sfdoll_assembly"
+	construction_days = 360
+
+	initial = no
+	potential = {
+		exists = owner
+		owner = { has_technology = tech_starbase_building_sfdoll_assembly }
+	}
+	show_in_tech = tech_starbase_building_sfdoll_assembly
+	triggered_station_modifier = {
+		potential = {
+			owner = {	has_country_flag = sfdoll_empire	}
+		}
+		starbase_shipyard_capacity_add = 1
+		starbase_shipyard_build_speed_mult = 1
+		ship_starting_experience_add = 700
+	}
+	resources = {
+		category = starbase_buildings
+		cost = {
+			alloys = 1000
+			GF_nyto_collapse_liquid = 60
+		}
+		upkeep = {
+			alloys = 20
+			GF_nyto_collapse_liquid = 4
+		}
+	}
+	ai_build_at_chokepoint = yes
+	ai_build_outside_chokepoint = yes
+	ai_weight = {
+		weight = 0 #use same weight here - ai weighting is done in starbase_types.txt
+	}
+}
+
 # sfdoll_starbase_building_chemical = {
 # 	icon = "GFX_exotic_gases_sfdoll_homeless"
 # 	construction_days = 180
