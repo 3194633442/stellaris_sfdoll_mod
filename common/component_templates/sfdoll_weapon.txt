@@ -432,7 +432,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50000
+			alloys = 20000
 		}		
 		upkeep = {
 			energy = 24
@@ -484,6 +484,15 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 	ai_weight = {	weight = -1500	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15000
+		}		
+		upkeep = {
+			energy = 24
+		}
+	}
 }
 
 # X槽
@@ -523,7 +532,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20000
+			alloys = 8000
 		}		
 		upkeep = {
 			energy = 12
@@ -569,7 +578,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 8000
+			alloys = 3200
 		}		
 		upkeep = {
 			energy = 6
@@ -583,7 +592,6 @@ weapon_component_template = {
 		}
 	}
 }
-
 weapon_component_template = {
 	key = "sfdoll_weapon_m_2"
 	size = medium
@@ -616,10 +624,55 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 3200
+			alloys = 1600
 		}		
 		upkeep = {
 			energy = 3
+		}
+	}
+	ai_weight = {
+		weight = 1500
+		modifier = {
+			factor = -4
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "sfdoll_weapon_L_speed"
+	size = large
+	type = instant
+	#待修改
+	icon = "GFX_sfdoll_weapon_L_speed"
+	icon_frame = 1
+	projectile_gfx = "tachyon_lance"
+	entity = invisible_turret_entity
+	use_ship_kill_target = yes
+	damage = { min = 3000 max = 5000 }
+	#冷却时间要除以10
+	total_fire_time = 11
+	range = 270
+	accuracy = 0.7
+	tracking = 0.5
+	shield_penetration = 1
+	armor_penetration = 1
+	power = -31000
+	
+	#待修改
+	prerequisites = { "tech_sfdoll_weapon_L_speed" }
+	component_set = "sfdoll_weapon_L_speed"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll }
+	ai_tags = {  weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3500
+		}		
+		upkeep = {
+			energy = 6
 		}
 	}
 	ai_weight = {
@@ -663,7 +716,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 1300
+			alloys = 800
 		}		
 		upkeep = {
 			energy = 1.5
@@ -711,7 +764,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 1300
+			alloys = 800
 		}		
 		upkeep = {
 			energy = 1.5

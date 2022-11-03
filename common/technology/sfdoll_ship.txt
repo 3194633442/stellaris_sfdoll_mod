@@ -152,6 +152,18 @@ tech_sfdoll_weapon_T_PK = {
 	}
 	weight = 1500
 }
+tech_sfdoll_weapon_L_speed = {
+	cost = @tier5cost3
+	area = society
+	tier = 5
+	category = { military_theory }
+	is_rare = yes
+	is_reverse_engineerable = no
+	icon = sfdoll_weapon_L_speed
+	prerequisites = { tech_sfdoll_weapon_L_2	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = @tier5weight2
+}
 tech_sfdoll_missile_2 = {
 	cost = @tier5cost3
 	area = physics
