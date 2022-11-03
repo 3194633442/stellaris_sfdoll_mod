@@ -16,7 +16,7 @@ tech_sfdoll_psychohistory = {
 		tech_sfdoll_energy_plant
 	}
 	modifier = {
-		empire_size_mult = -0.1
+		empire_size_mult = -0.15
 	}
 }
 
@@ -131,7 +131,7 @@ tech_sfdoll_social_reform = {
 	potential = {	has_authority = auth_gf_sfdoll	}
 	modifier = {
 		country_government_civic_points_add = 1
-		empire_size_mult = -0.1
+		empire_size_mult = -0.15
 	}
 
 	weight = 0

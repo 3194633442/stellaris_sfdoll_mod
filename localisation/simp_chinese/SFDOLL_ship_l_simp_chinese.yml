@@ -179,8 +179,6 @@ sfdoll_REACTOR_2_5:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
 
 
-sfdoll_ship_reactor_no:0 "空槽"
-
 sfdoll_warship_1:0 "铁血轻型护卫舰"
 sfdoll_warship_1_plural:0 "$sfdoll_warship_1$"
 tech_sfdoll_warship_1:0 "质量再生系统"
@@ -248,7 +246,12 @@ sfdoll_warship_6_mid:0 "C"
 sfdoll_warship_6_stern:0 "D"
 sfdoll_warship_6_sternM2:0 "E"
 
-need_sfdoll_mega_starport:0 "下列场所可以建造它：$sfdoll_mega_starport_04$，$sfdoll_mobile_starbase$，$mega_shipyard_3$"
+sm_starbase_building_sfdoll_assembly:0 "铁血超级AI组装厂"
+sm_starbase_building_sfdoll_assembly_desc:0 "在铁血的超级计算机控制下，恒星基地可以量产多种先进设备"
+tech_starbase_building_sfdoll_assembly:0 "$sm_starbase_building_sfdoll_assembly$"
+tech_starbase_building_sfdoll_assembly_desc:0 "$sm_starbase_building_sfdoll_assembly_desc$"
+
+place_build_sfdoll_special_ship:0 "£trigger_no£ 需要下列设施：$mega_shipyard_3$，$sfdoll_mega_starport_04$，$sfdoll_mobile_starbase$，$sm_starbase_building_sfdoll_assembly$"
 
 sfdoll_star_eater:0 "星辰改造者"
 sfdoll_star_eater_plural:0 "$sfdoll_star_eater$"

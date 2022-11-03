@@ -207,6 +207,9 @@ sfdoll_warship_4 = {
 	required_component_set = "thruster_components"
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
+	possible_construction = {
+		can_build_sfdoll_special_ship = yes
+	}
 	resources = {
 		category = ships
 		cost = {
@@ -426,7 +429,7 @@ sfdoll_mobile_starbase = {
 		ship_piracy_suppression_add = 10
 		starbase_shipyard_capacity_add = 20
 		starbase_shipyard_build_speed_mult = 2
-		ship_starting_experience_add = 200
+		ship_starting_experience_add = 500
 
 	}
 	ship_modifier = {

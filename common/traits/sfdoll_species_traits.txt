@@ -250,10 +250,7 @@ trait_sfdoll_efficient_produce= {
 	icon = "gfx/interface/icons/traits/sfdoll/trait_sfdoll_efficient_produce.dds"
 	allowed_archetypes = { SFDOLL }
 	prerequisites = { tech_sf_doll_modding_2 }
-	modifier = {
-		planet_jobs_produces_mult = 0.15
-		planet_jobs_physics_research_produces_mult = 0.25
-	}
+	modifier = {	planet_jobs_produces_mult = 0.1	}
 }
 
 trait_sfdoll_logic_engine_2 = {
@@ -286,14 +283,10 @@ trait_sfdoll_engineer = {
 	allowed_archetypes = {	SFDOLL	}
 	prerequisites = { tech_sf_doll_modding_2 }
 	modifier = {
-		planet_jobs_engineering_research_produces_mult = 0.25
-		planet_building_build_speed_mult = 0.50
-		starbase_shipyard_build_speed_mult = 0.50
-		megastructure_build_speed_mult = 0.50
-		country_megastructure_build_cap_add = 2	
-		starbase_upgrade_speed_mult = 0.5
-		intel_decryption_add = 4
-		intel_encryption_add = 4
+		planet_building_build_speed_mult = 0.5
+		megastructure_build_speed_mult = 0.5
+		country_megastructure_build_cap_add = 2
+		starbase_shipyard_build_speed_mult = 0.5
 	}
 }
 
@@ -308,10 +301,10 @@ trait_sfdoll_war_2 = {
 	prerequisites = { tech_sf_doll_modding_2 }
 	opposites = {	trait_sfdaoll_battle }
 	modifier = {
-		army_damage_mult = 0.50
-		planet_army_build_speed_mult = 0.50
-		ship_weapon_damage = 0.50
-		shipclass_military_build_speed_mult = 0.50
+		army_damage_mult = 0.5
+		planet_army_build_speed_mult = 0.5
+		ship_weapon_damage = 0.5
+		starbase_shipyard_build_speed_mult = 0.25
 	}
 }
 
