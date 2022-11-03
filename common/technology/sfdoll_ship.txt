@@ -159,7 +159,7 @@ tech_sfdoll_weapon_L_speed = {
 	category = { military_theory }
 	is_rare = yes
 	is_reverse_engineerable = no
-	icon = sfdoll_weapon_L_speed
+	icon = tech_sfdoll_weapon_L_speed
 	prerequisites = { tech_sfdoll_weapon_L_2	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight2
