@@ -412,13 +412,13 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 1300000 max = 1300000 }
+	damage = { min = 850000 max = 950000 }
 	#冷却时间要除以10
 	total_fire_time = 121
-	windup = { min = 10 max = 12 }
+	windup = { min = 11 max = 11 }
 	range = 400
-	accuracy = 0.85
-	tracking = 0.2
+	accuracy = 0.75
+	tracking = 0.1
 	shield_penetration = 1
 	armor_penetration = 1
 	power = -500000
@@ -465,13 +465,13 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 780000 max = 800000 }
+	damage = { min = 480000 max = 500000 }
 	#冷却时间要除以10
 	total_fire_time = 91
 	windup = { min = 8 max = 8 }
 	range = 360
-	accuracy = 0.9
-	tracking = 0.25
+	accuracy = 0.8
+	tracking = 0.15
 	shield_penetration = 1
 	armor_penetration = 1
 	power = -400000
@@ -501,12 +501,12 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = yes
 	#4250
-	damage = { min = 300000 max = 320000 }
+	damage = { min = 180000 max = 200000 }
 	#冷却时间要除以10
 	total_fire_time = 91
 	windup = { min = 8 max = 8 }
 	range = 340
-	accuracy = 0.9
+	accuracy = 0.85
 	tracking = 0.25
 	shield_penetration = 1
 	armor_penetration = 1
@@ -548,12 +548,12 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 72000 max = 84000 }
+	damage = { min = 40000 max = 48000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
 	range = 310
-	accuracy = 1
+	accuracy = 0.9
 	tracking = 0.7
 	shield_penetration = 1
 	armor_penetration = 1
@@ -595,12 +595,12 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 29000 max = 33000 }
+	damage = { min = 12000 max = 18000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
 	range = 290
-	accuracy = 1.0
+	accuracy = 0.9
 	tracking = 0.75
 	shield_penetration = 1
 	armor_penetration = 1
@@ -642,7 +642,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 5700 max = 6600 }
+	damage = { min = 2700 max = 3000 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -689,7 +689,7 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 4000 max = 5000 }
+	damage = { min = 1800 max = 2100 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -743,16 +743,16 @@ weapon_component_template = {
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 80000 max = 130000 }
+	damage = { min = 80000 max = 96000 }
 	#冷却时间要除以10
-	total_fire_time = 132
-	windup = {	min = 4  max = 4 }
+	total_fire_time = 121
+	windup = {	min = 11  max = 11 }
 	range = 290
 	prio_projectile = yes
 	accuracy = 0.7
 	tracking = 0.3
-	shield_penetration = 1
-	armor_penetration = 1
+	shield_penetration = 1.5
+	armor_penetration = 1.5
 	resources = {
 		category = ship_components
 		cost = {			
@@ -809,9 +809,9 @@ strike_craft_component_template = {
 	accuracy = 1
 	tracking = 0.9
 	
-	health = 200000
-	armor = 200000
-	shield = 200000
+	health = 5000
+	armor = 5000
+	shield = 5000
 	evasion = 0.9
 	
 	speed = 3000
