@@ -548,7 +548,7 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 40000 max = 48000 }
+	damage = { min = 24000 max = 28000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
@@ -557,7 +557,7 @@ weapon_component_template = {
 	tracking = 0.7
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -64000
+	power = -32000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
@@ -595,7 +595,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 12000 max = 18000 }
+	damage = { min = 9600 max = 11000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
@@ -604,7 +604,7 @@ weapon_component_template = {
 	tracking = 0.75
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -25000
+	power = -12000
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
@@ -642,7 +642,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 2700 max = 3000 }
+	damage = { min = 1800 max = 2100 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -651,7 +651,7 @@ weapon_component_template = {
 	tracking = 0.8
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -9000
+	power = -4800
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
@@ -689,7 +689,7 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 1800 max = 2100 }
+	damage = { min = 1200 max = 1400 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -698,7 +698,7 @@ weapon_component_template = {
 	tracking = 0.85
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -9000
+	power = -3200
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_p_2" }
@@ -733,7 +733,7 @@ weapon_component_template = {
 	type = instant
 	icon = "GFX_sfdoll_missile_2"
 	icon_frame = 1
-	power = -25000
+	power = -12000
 	prerequisites = {	tech_sfdoll_missile_2 }
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
@@ -743,11 +743,11 @@ weapon_component_template = {
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 80000 max = 96000 }
+	damage = { min = 44000 max = 60000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = {	min = 11  max = 11 }
-	range = 290
+	range = 230
 	prio_projectile = yes
 	accuracy = 0.7
 	tracking = 0.3
@@ -763,9 +763,7 @@ weapon_component_template = {
 			GF_nyto_collapse_liquid = 30
 		}
 	}
-	# size_restriction = {
-	# 	sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6
-	# }
+	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6	}
 	ai_weight = {
 		weight = 50
 		modifier = {

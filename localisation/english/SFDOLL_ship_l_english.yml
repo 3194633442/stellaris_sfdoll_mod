@@ -245,6 +245,7 @@ sfdoll_warship_6_bow:0 "A"
 sfdoll_warship_6_bowP8:0 "B"
 sfdoll_warship_6_mid:0 "C"
 sfdoll_warship_6_stern:0 "D"
+sfdoll_warship_6_sternM2:0 "E"
 
 need_sfdoll_mega_starport:0 "It can be built in the following places: $sfdoll_mega_starport_04$, $sfdoll_mobile_starbase$, $mega_shipyard_3$"
 
