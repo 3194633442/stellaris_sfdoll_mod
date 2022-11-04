@@ -32,15 +32,13 @@ aura_sfdoll_1_modifier = {
 	ship_weapon_damage = -8
 	ship_fire_rate_mult = -16
 	ship_weapon_range_mult = -8
-	ship_evasion_mult = -8
-	ship_disengage_chance_mult = -8
 }
 
 #³ÖÐøÑ¹ÖÆ
 aura_sfdoll_2_hostile_modifier = {
-	ship_accuracy_mult = -16
-	ship_shield_penetration_mult = -7
-	ship_armor_penetration_mult = -7
+	ship_accuracy_mult = -10
+	ship_shield_penetration_mult = -4
+	ship_armor_penetration_mult = -4
 }
 
 sfdoll_test_modifier = {

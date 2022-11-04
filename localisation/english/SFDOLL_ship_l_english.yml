@@ -267,9 +267,14 @@ sfdoll_star_eater_bow:0 "A"
 sfdoll_star_eater_stern:0 "B"
 
 
-#flag ship
-component_aura_sfdoll_1:0 "Suppression Device\n\nIt is activated at the beginning of the battle and reduces the enemy fleet's weapon damage, accuracy, rate of fire, range, evasion. The effect cannot be stacked, lasts for 30 days."
+#aura
+sfdoll_aura_components:0 "$component_aura_sfdoll_1$"
+# Activated at the beginning of the engagement, the effects cannot be superimposed and last for 30 days
+component_aura_sfdoll_1:0 "SF Black Swan Supporter"
+component_aura_sfdoll_1_text:0 "Activated at the beginning of the combat, the effect cannot stack, lasts for 30 days.\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
 
+component_aura_sfdoll_2:0 "Space Prism"
+component_aura_sfdoll_2_text:0 "$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-750%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-300%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-300%§!"
 
 ship_sfdoll_noel:0 "Noel"
 ship_sfdoll_noel_plural:0 "$ship_sfdoll_noel$"

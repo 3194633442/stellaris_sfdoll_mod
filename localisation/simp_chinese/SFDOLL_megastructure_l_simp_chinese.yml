@@ -60,8 +60,6 @@ sfdoll_star_attacker_section4:0 "F"
 sfdoll_star_attacker_section4_b:0 "G"
 sfdoll_star_attacker_section5:0 "H"
 
-component_aura_sfdoll_2:0 "干扰系统"
-hostile_aura_sfdoll_2:0 "$component_aura_sfdoll_2$"
 
 tech_sfdoll_star_attacker:0 "$sfdoll_star_attacker$"
 tech_sfdoll_star_attacker_desc:0 "$sfdoll_star_attacker$可搭载多种大型设备,用于支援舰队作战和攻坚"
