@@ -133,12 +133,12 @@ sfdoll_combat_computer_3:0 "SF Warship AI (Carrier)"
 
 
 #defense
-sfdoll_ship_defense_s:0 "Acceleration Prism"
+sfdoll_ship_defense_s:0 "Enhanced Forcefield Shield"
 sfdoll_ship_defense_m:0"$sfdoll_ship_defense_s$"
 sfdoll_ship_defense_L:0"$sfdoll_ship_defense_s$"
 
 component_set_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
-component_set_sfdoll_ship_defense_s_DESC:0 "$sfdoll_ship_defense_s$ can deflect enemy fire"
+component_set_sfdoll_ship_defense_s_DESC:0 "$sfdoll_ship_defense_s$ can efficiently deflect enemy fire."
 
 tech_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_defense_s_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
