@@ -265,6 +265,7 @@ sfdoll_warship_5 = {
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
 	required_component_set = "sfdoll_aura_components"
+	required_component_set = "component_aura_sfdoll_2"
 
 	potential_country = {
 		has_authority = auth_gf_sfdoll

@@ -27,18 +27,20 @@ weapon_damage_test = {
 	weapon_type_kinetic_weapon_damage_mult = 1
 }
 
-#火力压制
+#开战压制
 aura_sfdoll_1_modifier = {
 	ship_weapon_damage = -8
 	ship_fire_rate_mult = -16
 	ship_weapon_range_mult = -8
-	ship_accuracy_mult = -16
 	ship_evasion_mult = -8
 	ship_disengage_chance_mult = -8
 }
 
-aura_sfdoll_2_modifier = {
-	ship_hull_add = -10000000
+#持续压制
+aura_sfdoll_2_hostile_modifier = {
+	ship_accuracy_mult = -16
+	ship_shield_penetration_mult = -7
+	ship_armor_penetration_mult = -7
 }
 
 sfdoll_test_modifier = {

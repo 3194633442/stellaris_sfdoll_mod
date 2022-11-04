@@ -1,4 +1,4 @@
-#干扰模块
+#开战压制
 utility_component_template = {
 	key = "component_aura_sfdoll_1"
 	size = medium
@@ -21,33 +21,35 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+# 持续压制
 utility_component_template = {
 	key = "component_aura_sfdoll_2"
 	size = medium
 	icon = "GFX_component_aura_sfdoll_2"
 	icon_frame = 1
 	power = 0
-	size_restriction = { sfdoll_star_attacker }
-	component_set = "sfdoll_aura_components"
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6 }
+	component_set = "component_aura_sfdoll_2"
 	
-	hostile_aura = {
-		name = "hostile_aura_sfdoll_2"
-		radius = 400
-		apply_on = fleets
-		stack_info = {
-			id = id_hostile_aura_sfdoll_2
-			priority = 1
-		}
-		modifier = {
-			ship_accuracy_mult = -4
-			ship_jumpdrive_cooldown_mult = 5
-			ship_emergency_ftl_mult = 4
-			ship_disengage_chance_mult = -2
-			ship_shield_penetration_mult = -2
-			ship_armor_penetration_mult = -2
-			ship_shield_mult = -1
-		}
-	}
+	# hostile_aura = {
+	# 	name = "hostile_aura_sfdoll_2"
+	# 	radius = 400
+	# 	apply_on = fleets
+	# 	stack_info = {
+	# 		id = id_hostile_aura_sfdoll_2
+	# 		priority = 1
+	# 	}
+	# 	modifier = {
+	# 		ship_accuracy_mult = -4
+	# 		ship_jumpdrive_cooldown_mult = 5
+	# 		ship_emergency_ftl_mult = 4
+	# 		ship_disengage_chance_mult = -2
+	# 		ship_shield_penetration_mult = -2
+	# 		ship_armor_penetration_mult = -2
+	# 		ship_shield_mult = -1
+	# 	}
+	# }
 	ai_weight = {
 		weight = 1
 	}

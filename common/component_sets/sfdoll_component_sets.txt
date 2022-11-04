@@ -155,3 +155,10 @@ component_set = {
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "component_aura_sfdoll_2"
+	required_component_set = yes
+	icon = "GFX_component_aura_sfdoll_2"
+	icon_frame = 1
+}
