@@ -257,7 +257,9 @@ sm_starbase_building_sfdoll_assembly_desc:0 "Under the control of SF Dolls' supe
 tech_starbase_building_sfdoll_assembly:0 "$sm_starbase_building_sfdoll_assembly$"
 tech_starbase_building_sfdoll_assembly_desc:0 "$sm_starbase_building_sfdoll_assembly_desc$"
 
-place_build_sfdoll_special_ship:0 "£trigger_no£ The following facilities are required: $mega_shipyard_3$, $sfdoll_mega_starport_04$, $sfdoll_mobile_starbase$, $sm_starbase_building_sfdoll_assembly$"
+place_build_sfdoll_special_ship:0 "The following facilities are required: $mega_shipyard_3$, $sfdoll_mega_starport_04$, $sfdoll_mobile_starbase$, $sm_starbase_building_sfdoll_assembly$"
+
+fail_build_sfdoll_special_ship:0 "£trigger_no£ $place_build_sfdoll_special_ship$"
 
 sfdoll_star_eater:0 "Star Changer"
 sfdoll_star_eater_plural:0 "$sfdoll_star_eater$s"
@@ -274,7 +276,7 @@ component_aura_sfdoll_1:0 "SF Black Swan Supporter"
 component_aura_sfdoll_1_text:0 "Activated at the beginning of the combat, the effect cannot stack, lasts for 30 days.\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
 # 1-30 cooldowns are required for every 30 days.
 component_aura_sfdoll_2:0 "Space Prism"
-component_aura_sfdoll_2_text:0 "Effect does not stack, cooldown is required every 30 days. Cooldown time: 1-30 days\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-400%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-400%§!"
+component_aura_sfdoll_2_text:0 "Effect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-400%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-400%§!"
 
 ship_sfdoll_noel:0 "Noel"
 ship_sfdoll_noel_plural:0 "$ship_sfdoll_noel$"

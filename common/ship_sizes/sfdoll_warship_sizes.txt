@@ -207,6 +207,7 @@ sfdoll_warship_4 = {
 	required_component_set = "thruster_components"
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
+	required_component_set = "component_aura_sfdoll_2"
 	possible_construction = {
 		can_build_sfdoll_special_ship = yes
 	}

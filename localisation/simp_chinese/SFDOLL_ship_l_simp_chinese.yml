@@ -181,33 +181,33 @@ sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
 
 sfdoll_warship_1:0 "铁血轻型护卫舰"
 sfdoll_warship_1_plural:0 "$sfdoll_warship_1$"
-tech_sfdoll_warship_1:0 "质量再生系统"
-tech_sfdoll_warship_1_desc:0 "暗物质工程和坍塌技术的应用,大幅提高了新舰种的自持力."
+tech_sfdoll_warship_1:0 "$sfdoll_warship_1$"
+tech_sfdoll_warship_1_desc:0 "作为一款试验型舰船，$sfdoll_warship_1$搭载了质量再生系统,从而大幅提高了自持力。"
 
 sfdoll_warship_2:0 "铁血中型护卫舰"
 sfdoll_warship_2_plural:0 "$sfdoll_warship_2$"
 tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
-tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$"
+tech_sfdoll_warship_2_desc:0 "高效的惯性中和装置让$sfdoll_warship_2$可在亚光速下进行大幅加速。"
 
 sfdoll_warship_3:0 "铁血重型护卫舰"
 sfdoll_warship_3_plural:0 "$sfdoll_warship_3$"
 tech_sfdoll_warship_3:0 "$sfdoll_warship_3$"
-tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$"
+tech_sfdoll_warship_3_desc:0 "即使身形小巧，$sfdoll_warship_3$依旧有着不俗的火力。"
 
 sfdoll_warship_4:0 "铁血轻型驱逐舰"
 sfdoll_warship_4_plural:0 "$sfdoll_warship_4$"
 tech_sfdoll_warship_4:0 "$sfdoll_warship_4$"
-tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$"
+tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$安装了试验性的空间棱镜，从而令周围的空间曲率发生一定程度的改变。"
 
 sfdoll_warship_5:0 "铁血中型驱逐舰"
 sfdoll_warship_5_plural:0 "$sfdoll_warship_5$"
 tech_sfdoll_warship_5:0 "$sfdoll_warship_5$"
-tech_sfdoll_warship_5_desc:0 "$sfdoll_warship_5$"
+tech_sfdoll_warship_5_desc:0 "$sfdoll_warship_5$能够搭载多功能的$component_aura_sfdoll_1$。而$sfdoll_weapon_T_PK$则可以快速摧毁小型天体。"
 
 sfdoll_warship_6:0 "铁血重型驱逐舰"
 sfdoll_warship_6_plural:0 "$sfdoll_warship_6$"
 tech_sfdoll_warship_6:0 "$sfdoll_warship_6$"
-tech_sfdoll_warship_6_desc:0 "$sfdoll_warship_6$"
+tech_sfdoll_warship_6_desc:0 "$sfdoll_warship_6$搭载了大量重型武器，从而为舰队提供火力支援"
 
 sfdoll_warship_1_MID_L1M1:0 "A"
 sfdoll_warship_1_MID_L1S2:0 "B"
@@ -251,7 +251,9 @@ sm_starbase_building_sfdoll_assembly_desc:0 "在铁血的超级计算机控制�
 tech_starbase_building_sfdoll_assembly:0 "$sm_starbase_building_sfdoll_assembly$"
 tech_starbase_building_sfdoll_assembly_desc:0 "$sm_starbase_building_sfdoll_assembly_desc$"
 
-place_build_sfdoll_special_ship:0 "£trigger_no£ 需要下列设施：$mega_shipyard_3$，$sfdoll_mega_starport_04$，$sfdoll_mobile_starbase$，$sm_starbase_building_sfdoll_assembly$"
+place_build_sfdoll_special_ship:0 "需要下列设施：$mega_shipyard_3$，$sfdoll_mega_starport_04$，$sfdoll_mobile_starbase$，$sm_starbase_building_sfdoll_assembly$"
+
+fail_build_sfdoll_special_ship:0 "£trigger_no£ $place_build_sfdoll_special_ship$"
 
 sfdoll_star_eater:0 "星辰改造者"
 sfdoll_star_eater_plural:0 "$sfdoll_star_eater$"

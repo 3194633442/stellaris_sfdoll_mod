@@ -557,7 +557,7 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 24000 max = 28000 }
+	damage = { min = 18000 max = 21000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
@@ -603,7 +603,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 9600 max = 11000 }
+	damage = { min = 7300 max = 91000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
@@ -649,10 +649,11 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 20000 max = 30000 }
+	# damage = { min = 18000 max = 21000 }
+	damage = { min = 2500 max = 3000 }
 	#冷却时间要除以10
 	total_fire_time = 11
-	range = 270
+	range = 260
 	accuracy = 0.7
 	tracking = 0.5
 	shield_penetration = 1
@@ -695,7 +696,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 1800 max = 2100 }
+	damage = { min = 1500 max = 1900 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -742,7 +743,7 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 1200 max = 1400 }
+	damage = { min = 1000 max = 1300 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -796,7 +797,7 @@ weapon_component_template = {
 	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 44000 max = 60000 }
+	damage = { min = 33000 max = 45000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = {	min = 11  max = 11 }

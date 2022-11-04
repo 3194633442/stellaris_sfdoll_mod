@@ -1,7 +1,7 @@
 can_build_sfdoll_special_ship = {
 	optimize_memory
 	custom_tooltip = {
-		fail_text = "place_build_sfdoll_special_ship"
+		fail_text = "fail_build_sfdoll_special_ship"
 		OR = {
 			AND = {
 				is_scope_type = starbase
