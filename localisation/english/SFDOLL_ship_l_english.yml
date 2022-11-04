@@ -184,36 +184,35 @@ sfdoll_REACTOR_2_4:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_5:0 "$tech_sfdoll_ship_power_2$"
 sfdoll_REACTOR_2_6:0 "$tech_sfdoll_ship_power_2$"
 
-
 sfdoll_warship_1:0 "SF Light Corvette"
 sfdoll_warship_1_plural:0 "$sfdoll_warship_1$s"
-tech_sfdoll_warship_1:0 "Quality Regenerate System"
-tech_sfdoll_warship_1_desc:0 "The application of dark matter engineering and matter collapse technology has greatly improved the self-sustainability of the new ships."
+tech_sfdoll_warship_1:0 "$sfdoll_warship_1$"
+tech_sfdoll_warship_1_desc:0 "As an experimental ship, $sfdoll_warship_1$ is equipped with a mass regeneration system, which greatly improves self-sustaining power."
 
 sfdoll_warship_2:0 "SF Medium Corvette"
 sfdoll_warship_2_plural:0 "$sfdoll_warship_2$s"
 tech_sfdoll_warship_2:0 "$sfdoll_warship_2$"
-tech_sfdoll_warship_2_desc:0 "$sfdoll_warship_2$"
+tech_sfdoll_warship_2_desc:0 "The efficient inertial neutralizer allows ships to accelerate greatly at sublight speed."
 
 sfdoll_warship_3:0 "SF Heavy Corvette"
 sfdoll_warship_3_plural:0 "$sfdoll_warship_3$s"
 tech_sfdoll_warship_3:0 "$sfdoll_warship_3$"
-tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$"
+tech_sfdoll_warship_3_desc:0 "$sfdoll_warship_3$ is equipped with spinal mounted weapons for greater firepower."
 
 sfdoll_warship_4:0 "SF Light Destroyer"
 sfdoll_warship_4_plural:0 "$sfdoll_warship_4$s"
 tech_sfdoll_warship_4:0 "$sfdoll_warship_4$"
-tech_sfdoll_warship_4_desc:0 "$sfdoll_warship_4$"
+tech_sfdoll_warship_4_desc:0 "Space Prism can change the curvature of space around ships, which causes changes in how the waves travel.\n$place_build_sfdoll_special_ship$"
 
 sfdoll_warship_5:0 "SF Medium Destroyer"
 sfdoll_warship_5_plural:0 "$sfdoll_warship_5$s"
 tech_sfdoll_warship_5:0 "$sfdoll_warship_5$"
-tech_sfdoll_warship_5_desc:0 "$sfdoll_warship_5$"
+tech_sfdoll_warship_5_desc:0 "$sfdoll_warship_5$ can be equipped with $sfdoll_weapon_T_PK$ and gain the ability to destroy celestial bodies.\n$place_build_sfdoll_special_ship$"
 
 sfdoll_warship_6:0 "SF Heavy Destroyer"
 sfdoll_warship_6_plural:0 "$sfdoll_warship_6$s"
 tech_sfdoll_warship_6:0 "$sfdoll_warship_6$"
-tech_sfdoll_warship_6_desc:0 "$sfdoll_warship_6$"
+tech_sfdoll_warship_6_desc:0 "$component_aura_sfdoll_1$ is a multifunctional carrier-based craft that can make small-scale space transfers, interference enemy equipment, and fend off some attacks.\n$place_build_sfdoll_special_ship$"
 
 sfdoll_warship_1_MID_L1M1:0 "A"
 sfdoll_warship_1_MID_L1S2:0 "B"

@@ -5,7 +5,6 @@ utility_component_template = {
 	icon = "GFX_component_aura_sfdoll_1"
 	icon_frame = 1
 	power = 0
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6 sfdoll_star_eater  sfdoll_star_attacker  }
 	component_set = "sfdoll_aura_components"
 	ship_modifier = { custom_tooltip = "component_aura_sfdoll_1_text" }
 	
@@ -30,11 +29,8 @@ utility_component_template = {
 	icon = "GFX_component_aura_sfdoll_2"
 	icon_frame = 1
 	power = 0
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6 }
 	component_set = "component_aura_sfdoll_2"
-	ship_modifier = {
-		custom_tooltip = "component_aura_sfdoll_2_text"
-	}
+	ship_modifier = {	custom_tooltip = "component_aura_sfdoll_2_text"	}
 	
 	# hostile_aura = {
 	# 	name = "hostile_aura_sfdoll_2"

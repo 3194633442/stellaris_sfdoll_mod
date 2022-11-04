@@ -1,8 +1,10 @@
 ﻿l_simp_chinese:
 ###############################
 
-pc_sfdoll_city:0 "铁血星球"
+pc_sfdoll_city:0 "铁血理想城"
 pc_sfdoll_city_desc:0 "铁血人形建设的城市星球,可根据需要调节气候和生态系统。"
+tech_build_sfdoll_city:0"铁血星球企划"
+tech_build_sfdoll_city_desc:0 "铁血星球融入了多种先进的理念和技术."
 
 district_sfdoll_house:0 "铁血城市"
 district_sfdoll_house_plural:0 "铁血城市"
