@@ -3,8 +3,7 @@
 
 pc_sfdoll_city:0 "铁血理想城"
 pc_sfdoll_city_desc:0 "铁血人形建设的城市星球,可根据需要调节气候和生态系统。"
-tech_build_sfdoll_city:0"铁血星球企划"
-tech_build_sfdoll_city_desc:0 "铁血星球融入了多种先进的理念和技术."
+
 
 district_sfdoll_house:0 "铁血城市"
 district_sfdoll_house_plural:0 "铁血城市"
@@ -53,10 +52,11 @@ district_rw_generator_sfdoll:0 "资源区划"
 district_rw_generator_sfdoll_plural:0 "资源区划"
 district_rw_generator_sfdoll_desc:0 "$district_rw_generator_sfdoll$"
 
-
-decision_planet_to_sfdoll_city:0 "建立铁血星球"
-decision_planet_to_sfdoll_city_desc:0 "将星球改造为现代化的铁血星球"
-decision_planet_to_sfdoll_city_effects_short:0 "星球类型改为铁血星球，会拆除原有的区划"
+tech_build_sfdoll_city:0 "$pc_sfdoll_city$企划"
+tech_build_sfdoll_city_desc:0 "$pc_sfdoll_city$融入了多种先进的理念和技术。"
+decision_planet_to_sfdoll_city:0 "建立$pc_sfdoll_city$"
+decision_planet_to_sfdoll_city_desc:0"$tech_build_sfdoll_city_desc$"
+decision_planet_to_sfdoll_city_effects_short:0 "星球类型改为$pc_sfdoll_city$，会拆除原有的区划"
 decision_planet_to_sfdoll_rw:0 "建立铁血环形世界"
 decision_planet_to_sfdoll_rw_desc:0 "将环形世界升级成$pc_rw_sfdoll$"
 decision_planet_to_sfdoll_rw_effects:0 "环形世界升级成$pc_rw_sfdoll$，会拆除原有的区划"

@@ -1,7 +1,7 @@
 ﻿l_english:
 ###############################
 
-pc_sfdoll_city:0 "Sangvis Ferri Planet"
+pc_sfdoll_city:0 "Sangvis Ferri Arcology"
 pc_sfdoll_city_desc:0 "This planet can adjust the climate and ecosystem as needed."
 
 district_sfdoll_house:0 "SF City"
@@ -51,17 +51,19 @@ district_rw_generator_sfdoll:0 "Resource  District"
 district_rw_generator_sfdoll_plural:0 "Resource  Districts"
 district_rw_generator_sfdoll_desc:0 "$district_rw_generator_sfdoll$"
 
+tech_build_sfdoll_city:0 "$pc_sfdoll_city$ Project"
+tech_build_sfdoll_city_desc:0 "$pc_sfdoll_city$ incorporates a variety of advanced concepts and technologies."
 
-decision_planet_to_sfdoll_city:0 "built a Sangvis Ferri Planet"
-decision_planet_to_sfdoll_city_desc:0 "built a Sangvis Ferri Planet"
-decision_planet_to_sfdoll_city_effects_short:0 "The planet type will be changed to Sangvis Ferri Planet, and the original districts will be removed"
+decision_planet_to_sfdoll_city:0 "Built a $pc_sfdoll_city$"
+decision_planet_to_sfdoll_city_desc:0 "$tech_build_sfdoll_city_desc$"
+decision_planet_to_sfdoll_city_effects_short:0 "The planet type will be changed to $pc_sfdoll_city$, and the original districts will be removed"
 
-decision_planet_to_sfdoll_rw:0 "built a Sangvis Ferri Star Ring"
+decision_planet_to_sfdoll_rw:0 "Built a Sangvis Ferri Star Ring"
 decision_planet_to_sfdoll_rw_desc:0 "$decision_planet_to_sfdoll_rw$"
 decision_planet_to_sfdoll_rw_effects:0 "The ring world will become $pc_rw_sfdoll$, and the original districts will be removed"
 
-TERRAFORM_sfdoll_city:0 "terraforming completed"
-TERRAFORM_sfdoll_rw:0 "terraforming completed"
+TERRAFORM_sfdoll_city:0 "Terraforming completed"
+TERRAFORM_sfdoll_rw:0 "Terraforming completed"
 
 decision_planet_pop_to_sfdoll:0 "SF Doll Remodeling Surgery"
 decision_planet_pop_to_sfdoll_desc:0 "Population which is not SF Doll Species will be changed to SF Dolls."
