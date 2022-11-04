@@ -281,20 +281,20 @@ tech_sfdoll_thruster = {
 	prerequisites = {  tech_building_sfdoll_mineral	}
 	weight = @tier4weight1
 }
-#作战电脑，需要ogas科技和知性作战ai
+#作战电脑
 tech_sfdoll_ship_computer = {
-	cost = @tier4cost1
+	cost = @tier3cost3
 	area = physics
-	tier = 4
+	tier = 3
 	category = { computing }
+	is_rare = yes
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_ship_computer
-	prerequisites = { tech_building_sfdoll_mineral }
+	prerequisites = { tech_sfdoll_ogas_ai }
 	potential = {
 		has_authority = auth_gf_sfdoll
-		has_technology = tech_combat_computers_3
 	}
-	weight = @tier4weight1
+	weight = 1000
 }
 
 #能源

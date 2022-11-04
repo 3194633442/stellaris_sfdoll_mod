@@ -126,7 +126,7 @@ sfdoll_thruster_6:0 "$sfdoll_thruster$"
 
 #computer
 tech_sfdoll_ship_computer:0 "SF Warship AI"
-tech_sfdoll_ship_computer_desc:0 "The highly intelligent battleship AI is regarded as a member of SF Dolls. However, SF Dolls is originally a group of combat AI."
+tech_sfdoll_ship_computer_desc:0 "The early SF Dolls was a group of combat AI. However, it takes more than old knowledge to adapt to space warfare."
 sfdoll_combat_computer_1:0 "SF Warship AI (Manual Control)"
 sfdoll_combat_computer_2:0 "SF Warship AI (Mrtillery)"
 sfdoll_combat_computer_3:0 "SF Warship AI (Carrier)"

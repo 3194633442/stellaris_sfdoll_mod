@@ -124,18 +124,18 @@ sfdoll_thruster_6:0 "$sfdoll_thruster$"
 
 
 #computer
-tech_sfdoll_ship_computer:0"铁血战舰AI"
-tech_sfdoll_ship_computer_desc:0"高度智能的战舰AI,被视为铁血人形的一员.当然了，铁血本来就是一群作战AI."
+tech_sfdoll_ship_computer:0 "铁血战舰AI"
+tech_sfdoll_ship_computer_desc:0 "早期的铁血人形就是一群作战AI。当然，要适应太空作战，光靠旧的知识是远远不够的。"
 sfdoll_combat_computer_1:0"铁血作战AI（手动）"
 sfdoll_combat_computer_2:0"铁血作战AI（炮击）"
 sfdoll_combat_computer_3:0"铁血作战AI（航母）"
 
 #defense
-sfdoll_ship_defense_s:0 "加速棱镜"
+sfdoll_ship_defense_s:0 "强化型力场盾"
 sfdoll_ship_defense_m:0"$sfdoll_ship_defense_s$"
 sfdoll_ship_defense_L:0"$sfdoll_ship_defense_s$"
 component_set_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
-component_set_sfdoll_ship_defense_s_DESC:0 "$sfdoll_ship_defense_s$可以偏转敌方火力"
+component_set_sfdoll_ship_defense_s_DESC:0 "$sfdoll_ship_defense_s$可以有效偏转敌方火力"
 tech_sfdoll_ship_defense_s:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_defense_s_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
