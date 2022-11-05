@@ -32,47 +32,66 @@ country_event = {
 	}
 }
 
-#舰队伪无敌
-# fleet_event = {
-# 	id = sfdoll_fleet_event.2
-# 	hide_window = yes
-# 	is_triggered_only = yes
-# 	trigger = {
-# 		is_in_combat = yes
-# 		NOT = {
-# 			has_fleet_flag = sfdoll_fleet_revive_lock
-# 		}
-# 	}
-# 	immediate = {
-# 		set_timed_fleet_flag = {
-# 			flag = sfdoll_fleet_revive_lock
-# 			days = 28
-# 		}
-# 		every_owned_ship = {
-# 			if = {
-# 				limit = { has_component = sfdoll_aux_rebuild_2	}
-# 				set_ship_flag = ship_sfdoll_can_revive
-# 				set_disable_at_health = 0
-# 				ship_event = {
-# 					id = sfdoll_fleet_event.3
-# 					days = 10
-# 				}
-# 			}
-# 			else_if = {
-# 				limit = { has_ship_flag = ship_sfdoll_can_revive }
-# 				set_disable_at_health = -1
-# 				remove_ship_flag = ship_sfdoll_can_revive
-# 			}
-# 		}
-
-# 		#循环执行
-# 		fleet_event = {
-# 			id = sfdoll_fleet_event.2
-# 			days = 30
-# 		}
-# 	}
-# }
-
+#disable统一检测 This = Ship From = Disabler Ship
+ship_event = {
+	id = sfdoll_fleet_event.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {	owner = {	has_country_flag = sfdoll_empire	}	}
+	immediate = {
+		if = {
+			limit = { has_component = component_sfdoll_ship_disable }
+			# !!
+			create_message = {
+				type = ALIEN_MEGASTRUCTURE_BUILT
+				localization = "sfdoll_fleet_event.2"
+				days = 1111
+				target = owner
+			}
+			repair_ship = yes
+			set_disabled = no
+			if = {
+				limit = {
+					check_variable = {	which = sfdoll_ship_disable_count	value < 5 }
+				}
+				change_variable = {	which = sfdoll_ship_disable_count value = 1	}
+			}
+			# 母舰不能设置锁血
+			else_if = {
+				limit = {
+					is_ship_size = sfdoll_mobile_starbase
+					check_variable = {	which = sfdoll_ship_disable_count	value > 5 }
+				}
+				destroy_ship = this
+				break = yes
+			}
+			#母舰以外的
+			else = {	set_disable_at_health = -3	}
+			if = {
+				limit = { NOT = {	has_ship_flag = component_sfdoll_ship_disable } }
+				set_timed_ship_flag = {	flag = component_sfdoll_ship_disable	days = 29	}
+				ship_event = {	id = sfdoll_fleet_event.3 days = 30 }
+			}
+		}
+	}
+}
+# 重置修复次数
+ship_event = {
+	id = sfdoll_fleet_event.3
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		clear_variable = sfdoll_ship_disable_count
+		set_disable_at_health = 1
+		# !!
+		create_message = {
+			type = ALIEN_MEGASTRUCTURE_BUILT
+			localization = "sfdoll_fleet_event.3"
+			days = 1111
+			target = owner
+		}
+	}
+}
 #清除锁血效果
 # ship_event = {
 # 	id = sfdoll_fleet_event.3
@@ -87,18 +106,6 @@ country_event = {
 # 	}
 # }
 
-#diabled
-ship_event = {
-	id = sfdoll_fleet_event.3
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		is_ship_size = sfdoll_warship_4
-	}
-	# immediate = {
-	# 	set_disable_at_health = 0
-	# }
-}
 ship_event = {
 	id = sfdoll_fleet_event.4
 	hide_window = yes

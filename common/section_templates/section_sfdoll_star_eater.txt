@@ -39,25 +39,25 @@ ship_section_template = {
 		locatorname = s02
 	}
 	component_slot = {
-		name = "L07"
-		template = invisible_large_turret
-		locatorname = s03
-	}
-	component_slot = {
-		name = "L08"
-		template = invisible_large_turret
-		locatorname = s04
-	}
-	component_slot = {
 		name = "M1"
 		template = invisible_missile_turret
-		locatorname = p_021
+		locatorname = s03
 	}
 	component_slot = {
 		name = "M2"
 		template = invisible_missile_turret
-		locatorname = p_022
+		locatorname = s04
 	}
+	# component_slot = {
+	# 	name = "M1"
+	# 	template = invisible_missile_turret
+	# 	locatorname = p_021
+	# }
+	# component_slot = {
+	# 	name = "M2"
+	# 	template = invisible_missile_turret
+	# 	locatorname = p_022
+	# }
 	large_utility_slots = 16
 }
 

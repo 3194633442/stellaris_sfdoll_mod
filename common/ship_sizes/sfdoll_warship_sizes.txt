@@ -399,6 +399,7 @@ sfdoll_star_eater = {
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
 	# required_component_set = "sfdoll_aura_components" 改
+	required_component_set = "component_sfdoll_ship_disable"
 	auto_upgrade = no
 	possible_construction = {
 		can_build_sfdoll_special_ship = yes
@@ -462,11 +463,11 @@ sfdoll_mobile_starbase = {
 		"core2" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
-	# potential_construction = {	always = no	} 改
+	potential_construction = {	always = no	}
 	possible_country = {	has_authority = auth_gf_sfdoll	}
 	can_have_federation_design = no
 	enable_default_design = yes	
-	can_disable = yes #改
+	can_disable = yes
 	icon_frame = 7
 	ship_class_icon_frame = 35
 	icon = ship_size_military_32
@@ -483,6 +484,7 @@ sfdoll_mobile_starbase = {
 	# 改
 	# required_component_set = "sfdoll_aura_components"
 	# required_component_set = "component_aura_sfdoll_2"
+	required_component_set = "component_sfdoll_ship_disable"
 }
 
 
