@@ -70,7 +70,7 @@ entity = {
 entity = {
 	name = sfdoll_SANGVIS_FERRI_locator_entity
 	pdxmesh = SANGVIS_FERRI_locator_mesh
-	locator = { name = "sf_M1" position = { 0 0 0 }}
+	locator = { name = W01 position = { 0 0 -40 } }
 	game_data = {
 		size = 0.01
 	}
