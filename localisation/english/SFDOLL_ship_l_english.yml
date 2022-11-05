@@ -86,7 +86,7 @@ tech_sfdoll_strike_craft_2:0 "$sfdoll_strike_craft_2$"
 tech_sfdoll_strike_craft_2_desc:0 "$sfdoll_strike_craft_2_DESC$"
 
 tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
-tech_sfdoll_jump_drive_desc:0 "The gradual improvement of the collapse technology reveals the development direction of FTL technology."
+tech_sfdoll_jump_drive_desc:0 "The gradual improvement of the mass rebuild reveals the development direction of FTL technology."
 sfdoll_jump_drive:0"SF Jump Drive"
 
 tech_sfdoll_aux_repair_ship:0"$sfdoll_aux_repair_ship$"

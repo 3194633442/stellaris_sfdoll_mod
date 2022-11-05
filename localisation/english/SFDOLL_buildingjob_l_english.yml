@@ -48,11 +48,8 @@ mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ jobs"
 # job_sfdoll_researcher_2_effect_desc:0 "$job_sfdoll_researcher_2$ consumes §Y$consumer_goods$§! ,produces §Y$physics_research$§! ， §Y$society_research$§! ， §Y$engineering_research$§!"
 # mod_job_sfdoll_researcher_2_add:0"$job_sfdoll_researcher_2$ jobs"
 
-
 tech_sfdoll_alloys_produce:0 "Matter Collapse Engineering"
-tech_sfdoll_alloys_produce_desc:0 "According to the quality rebuild equation, we can perform efficient material printing."
-tech_sfdoll_alloys_2:0 "Matter Collapse Engineering 2"
-tech_sfdoll_alloys_2_desc:0 "The improved quality rebuild technology pointed out the direction for our industry"
+tech_sfdoll_alloys_produce_desc:0 "We can print materials efficiently using reverse collapse technology."
 
 building_sfdoll_alloys:0"SF Alloys Factory"
 building_sfdoll_alloys_desc:0 "$building_sfdoll_alloys$"

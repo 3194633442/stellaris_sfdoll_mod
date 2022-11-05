@@ -53,9 +53,7 @@ mod_job_sfdoll_researcher_add:0"$job_sfdoll_researcher$ 岗位"
 
 
 tech_sfdoll_alloys_produce:0"物质坍塌工程"
-tech_sfdoll_alloys_produce_desc:0"根据质量重建方程,我们可以进行高效的物质打印"
-tech_sfdoll_alloys_2:0 "物质坍塌工程2"
-tech_sfdoll_alloys_2_desc:0 "改进后的质量重建技术,为我们的工业指明了新方向"
+tech_sfdoll_alloys_produce_desc:0"使用逆向坍塌技术,我们可以进行高效的物质打印"
 
 building_sfdoll_alloys:0"铁血合金工厂"
 building_sfdoll_alloys_desc:0 "$building_sfdoll_alloys$"
