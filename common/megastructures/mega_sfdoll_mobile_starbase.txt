@@ -116,7 +116,7 @@ mega_sfdoll_mobile_starbase_02 = {
 					spawn_debris = no
 					can_disband = yes
 					can_change_leader = yes
-					can_change_composition = no
+					can_change_composition = yes 
 				}
 			}
 		}
