@@ -41,35 +41,29 @@ ship_event = {
 	immediate = {
 		if = {
 			limit = { has_component = component_sfdoll_ship_disable }
-			# !!
-			create_message = {
-				type = ALIEN_MEGASTRUCTURE_BUILT
-				localization = "sfdoll_fleet_event.2"
-				days = 1111
-				target = owner
-			}
 			repair_ship = yes
 			set_disabled = no
+			change_variable = {	which = sfdoll_ship_disable_count value = 1	}
 			if = {
 				limit = {
-					check_variable = {	which = sfdoll_ship_disable_count	value < 5 }
-				}
-				change_variable = {	which = sfdoll_ship_disable_count value = 1	}
-			}
-			# 母舰不能设置锁血
-			else_if = {
-				limit = {
-					is_ship_size = sfdoll_mobile_starbase
-					check_variable = {	which = sfdoll_ship_disable_count	value > 5 }
+					check_variable = {	which = sfdoll_ship_disable_count	value > 7 }
 				}
 				destroy_ship = this
 				break = yes
 			}
+			# 母舰不能设置锁血
+			# else_if = {
+			# 	limit = {
+			# 		is_ship_size = sfdoll_mobile_starbase
+			# 		check_variable = {	which = sfdoll_ship_disable_count	value > 5 }
+			# 	}
+			# 	destroy_ship = this
+			# 	break = yes
+			# }
 			#母舰以外的
-			else = {	set_disable_at_health = -3	}
 			if = {
-				limit = { NOT = {	has_ship_flag = component_sfdoll_ship_disable } }
-				set_timed_ship_flag = {	flag = component_sfdoll_ship_disable	days = 29	}
+				limit = { NOT = {	has_ship_flag = sfdoll_ship_disable } }
+				set_timed_ship_flag = {	flag = sfdoll_ship_disable days = 29	}
 				ship_event = {	id = sfdoll_fleet_event.3 days = 30 }
 			}
 		}
@@ -80,15 +74,13 @@ ship_event = {
 	id = sfdoll_fleet_event.3
 	hide_window = yes
 	is_triggered_only = yes
+	trigger = {	NOT = {	has_ship_flag = sfdoll_fleet_event_3 }}
 	immediate = {
 		clear_variable = sfdoll_ship_disable_count
-		set_disable_at_health = 1
-		# !!
-		create_message = {
-			type = ALIEN_MEGASTRUCTURE_BUILT
-			localization = "sfdoll_fleet_event.3"
-			days = 1111
-			target = owner
+		if = {
+			limit = { fleet = { is_in_combat = yes } }
+			set_timed_ship_flag = {	flag = sfdoll_fleet_event_3	days = 29	}
+			ship_event = {	id = sfdoll_fleet_event.3	days = 30	}
 		}
 	}
 }
