@@ -20,7 +20,6 @@ entity = {
 		name = "idle"
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_bass" } }
-		
 	}
 	state = {
 		name = "moving"
@@ -104,10 +103,11 @@ entity = {
 		event = { trigger_once = yes sound = { soundeffect = "falling_star" } }
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	}
+
 	locator = { name = "planet" }
-	attach = { "planet" = "black_hole_rings_entity" }
-	attach = { "planet" = "black_hole_grav_lens_entity" }
-	attach = { "planet" = "black_hole_grav_animation_entity" }
+	# attach = { "planet" = "black_hole_rings_entity" }
+	# attach = { "planet" = "black_hole_grav_lens_entity" }
+	# attach = { "planet" = "black_hole_grav_animation_entity" }
 	game_data = {
 		size = 1.0
 		bloom_factor = 5

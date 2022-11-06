@@ -23,3 +23,25 @@ sfdoll_system_search_zion = {
 		}
 	}
 }
+
+sfdoll_system_mega_world = {
+	name = Name_sfdoll_system_mega_world
+	class = sc_sfdoll_mega_system
+	#usage = sfdoll_system_init
+	planet = {
+		class = pc_sfdoll_star_world
+		orbit_distance = 0
+		orbit_angle = 0
+		size = 25
+		init_effect = {
+			# 创建星系时已经调查，无需重复
+			# set_surveyed = {
+			# 	surveyed = yes
+			# 	surveyor = FROM
+			# }
+			set_all_comms_surveyed = yes
+			clear_blockers = yes
+		}
+	}
+	change_orbit = 45
+}

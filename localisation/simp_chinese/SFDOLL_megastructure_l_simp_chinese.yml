@@ -39,6 +39,20 @@ pc_sfdoll_habitis_desc:0 "通过先进的FTL和能源技术,铁血太空城可�
 tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
+# tech_sfdoll_mega_system
+# tech_sfdoll_mega_system_desc
+# sfdoll_mega_system_1
+# sfdoll_mega_system_1_DESC
+# sfdoll_mega_system_1_MEGASTRUCTURE_DETAILS
+# sfdoll_mega_system_2
+# sfdoll_mega_system_2_DESC
+# sfdoll_mega_system_2_MEGASTRUCTURE_DETAILS
+# sc_sfdoll_mega_system
+# sc_sfdoll_mega_system_desc
+# pc_sfdoll_star_world
+# pc_sfdoll_star_world_desc
+# Name_sfdoll_system_mega_world
+
 # mega_sfdoll_carrier_01:0 "$ship_sfdoll_carrier$基址"
 # mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
 # mega_sfdoll_carrier_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_01_DESC$"

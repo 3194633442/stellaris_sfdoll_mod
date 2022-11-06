@@ -100,9 +100,7 @@ country_event = {
 				max_distance = 10
 				min_distance = 30
 				effect = {
-					set_surveyed = {
-						surveyed = yes
-					}
+					set_surveyed = {	surveyed = yes	}
 					solar_system = {
 						add_hyperlane = {
 							from = THIS

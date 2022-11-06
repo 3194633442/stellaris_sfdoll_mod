@@ -792,9 +792,7 @@ weapon_component_template = {
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
 	tags = { weapon_type_energy weapon_type_explosive weapon_type_sfdoll	}
-	ai_tags = {
-		weapon_role_anti_hull
-	}
+	ai_tags = {	weapon_role_anti_hull	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
 	damage = { min = 33000 max = 45000 }
@@ -804,7 +802,7 @@ weapon_component_template = {
 	range = 230
 	prio_projectile = yes
 	accuracy = 0.7
-	tracking = 0.3
+	tracking = 0.5
 	shield_penetration = 1.5
 	armor_penetration = 1.5
 	resources = {

@@ -1,0 +1,6 @@
+sc_sfdoll_mega_system = {
+	class			= sfdoll_star_world
+	planet			= { key = pc_sfdoll_star_world }
+	# spawn_odds		= 15
+	# num_planets	= { min = 4 max = 10 }
+}

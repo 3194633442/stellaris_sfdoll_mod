@@ -1,0 +1,129 @@
+#人工星系基址
+sfdoll_mega_system_01 ={
+	entity = "construction_platform_entity"
+	construction_entity = "construction_platform_entity"
+	show_galactic_map_icon = yes
+	place_entity_on_planet_plane = no
+	build_outside_gravity_well = yes
+	build_time = 720
+	construction_blocks_and_blocked_by = multi_stage_type
+	potential = {	owner = {	has_authority = auth_gf_sfdoll	}	}
+	show_prereqs = yes
+	prerequisites = {	tech_sfdoll_mega_system	}
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+
+		#不能有环世界
+		# NOT = {
+		# 	OR = {
+		# 		has_star_flag = ring_world_built
+		# 		any_system_planet = {
+		# 			is_planet_class = pc_ringworld_habitable
+		# 			is_planet_class = pc_ringworld_habitable_damaged
+		# 			is_planet_class = pc_ringworld_tech
+		# 			is_planet_class = pc_ringworld_tech_damaged
+		# 			is_planet_class = pc_ringworld_seam
+		# 			is_planet_class = pc_ringworld_seam_damaged
+		# 		}
+		# 	}
+		# }
+	}
+
+	resources = {
+		category = megastructures_habitat
+		cost = {
+			alloys = 20000
+			unity = 2000
+			nanites = 1000
+			GF_nyto_collapse_liquid = 1000
+		}
+	}
+	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
+	on_build_complete = {
+		from = {
+			#set_country_flag = has_built_or_repaired_megastructure
+			create_message = {
+				type = MEGASTRUCTURE_BUILT
+				localization = sfdoll_mega_system_01
+				days = 60
+				target= prev
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+sfdoll_mega_system_02 ={
+	entity = "construction_platform_entity"
+	construction_entity = "construction_platform_entity"
+	show_galactic_map_icon = yes
+	portrait = "GFX_sfdoll_habitat_01"
+	place_entity_on_planet_plane = no
+	build_time = 1800
+	construction_blocks_and_blocked_by = multi_stage_type
+	potential = {	owner = {	has_authority = auth_gf_sfdoll	}}
+	upgrade_from = {	sfdoll_mega_system_01 }
+
+	resources = {
+		category = megastructures_habitat
+		cost = {
+			alloys = 20000
+			unity = 2000
+			nanites = 1000
+			GF_nyto_collapse_liquid = 1000
+		}
+	}
+	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
+	on_build_complete = {
+		# 人工星系
+		spawn_system = {
+			initializer = sfdoll_system_mega_world
+			hyperlane = yes
+			is_discovered = yes
+			max_distance = 10
+			min_distance = 30
+			effect = {
+				set_surveyed = {	surveyed = yes	}
+				add_hyperlane = {	from = THIS	to = root	}
+				create_starbase = {
+					size = starbase_outpost
+					effect = {	set_owner = root.owner	}
+				}
+				every_system_planet = {
+					limit = { is_planet_class = pc_sfdoll_star_world }
+					start_colony = {	owner = root.owner	}
+				}
+				create_message = {
+					type = MEGASTRUCTURE_BUILT
+					localization = sfdoll_mega_system_02
+					days = 30
+					target = prev
+				}
+			}
+		}
+		from = { set_country_flag = has_built_or_repaired_megastructure }
+		fromfrom = {	remove_megastructure = this	}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
