@@ -131,13 +131,15 @@ sfdoll_mega_system_02 ={
 				every_system_planet = {
 					limit = { is_planet_class = pc_sfdoll_star_world }
 					start_colony = {	owner = root.owner	}
-					set_planet_entity = { entity = "GF_nyto_habita_entity" }
+					# set_planet_entity = { entity = "GF_nyto_habita_entity" }
 				}
-				create_message = {
-					type = MEGASTRUCTURE_BUILT
-					localization = sfdoll_mega_system_02
-					days = 30
-					target = root
+				root.owner = {
+					create_message = {
+						type = MEGASTRUCTURE_BUILT
+						localization = sfdoll_mega_system_02
+						days = 30
+						target = prev
+					}
 				}
 			}
 		}

@@ -5,11 +5,11 @@ entity = {
 	#get_state_from_parent = no
 	
 	default_state = "idle"
-	state = { name = "idle" state_time = 5
+	# state = { name = "idle" state_time = 5
 	#	start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class" } }
 	#	start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class_02" } }
-		# start_event = { node = root particle = "planet_shield_effect" keep_particle = yes trigger_once = yes }
-	}
+	# 	start_event = { node = root particle = "planet_shield_effect" keep_particle = yes trigger_once = yes }
+	# }
 	
 	# game_data = { 
 	# 	bloom_factor = 1.2 
@@ -46,12 +46,12 @@ entity = {
 entity = {
 	name = "sfdoll_black_hole_2_entity"
 	pdxmesh = black_hole_new_mesh
-	scale = 0.25
+	scale = 1.6
 	default_state = "idle"
-	# state = { name = "idle" state_time = 0
+	state = { name = "idle" state_time = 0
 	# 	event = { time = 0 particle = "black_hole_particle" trigger_once = yes keep_particle = yes }
 	# 	event = { trigger_once = yes sound = { soundeffect = "blackhole_hum_idle" } }
-	# }
+	}
 	locator = { name = "planet" }
 	# attach = { "planet" = "black_hole_rings_entity" }
 	# attach = { "planet" = "black_hole_grav_lens_entity" }

@@ -49,7 +49,7 @@ pc_sfdoll_city = {
 # 铁血宜居恒星
 pc_sfdoll_star_world = {
 	# entity = "black_hole_entity"
-	entity = "gaia_planet"
+	entity = "sfdoll_black_hole_2_entity"
 	entity_scale = @planet_standard_scale
 	icon = GFX_planet_type_gaia
 	picture = pc_gaia
@@ -71,7 +71,7 @@ pc_sfdoll_star_world = {
 
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	star = no
+	star = yes
 	colonizable = yes
 	district_set = sfdoll_world
 	# district_set = standard

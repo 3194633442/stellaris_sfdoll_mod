@@ -557,7 +557,7 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 4800 max = 5600 }
+	damage = { min = 6000 max = 7000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
@@ -603,7 +603,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 1900 max = 2200 }
+	damage = { min = 2400 max = 2800 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
@@ -650,7 +650,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
 	# damage = { min = 18000 max = 21000 }
-	damage = { min = 800 max = 800 }
+	damage = { min = 1000 max = 1000 }
 	#冷却时间要除以10
 	total_fire_time = 11
 	range = 260
@@ -696,7 +696,7 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	#static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 400 max = 500 }
+	damage = { min = 480 max = 640 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -743,7 +743,7 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	use_ship_kill_target = yes
-	damage = { min = 400 max = 500 }
+	damage = { min = 480 max = 640 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -795,13 +795,13 @@ weapon_component_template = {
 	ai_tags = {	weapon_role_anti_hull	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 33000 max = 45000 }
+	damage = { min = 12000 max = 14000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = {	min = 11  max = 11 }
-	range = 230
+	range = 260
 	prio_projectile = yes
-	accuracy = 0.7
+	accuracy = 1
 	tracking = 0.5
 	shield_penetration = 1.5
 	armor_penetration = 1.5
@@ -849,12 +849,12 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.03
 	launch_time = 1.5
 	
-	damage = { min = 48000 max = 64000 }
+	damage = { min = 6000 max = 7000 }
 	shield_penetration = 1
 	armor_penetration = 1
 	#舰载机的不需要除10
-	cooldown = 3.3
-	range = 350
+	cooldown = 6.6
+	range = 250
 	#engagement_range = 800
 	accuracy = 1
 	tracking = 0.9
