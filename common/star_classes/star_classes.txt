@@ -1,5 +1,6 @@
 sc_sfdoll_mega_system = {
-	class			= sfdoll_star_world
+	# 引用恒星素材
+	class			= ship_designer #f_star
 	planet			= { key = pc_sfdoll_star_world }
 	# spawn_odds		= 15
 	# num_planets	= { min = 4 max = 10 }

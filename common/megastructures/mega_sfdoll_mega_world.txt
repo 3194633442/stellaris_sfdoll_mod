@@ -67,7 +67,7 @@ sfdoll_mega_system_01 ={
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = -50
 	}
 }
 
@@ -93,10 +93,31 @@ sfdoll_mega_system_02 ={
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
 	on_build_complete = {
+		# 测试创建铁血盖亚
+		# spawn_planet = {
+		# 	class = pc_sfdoll_star_world
+		# 	location = fromfrom
+		# 	size = 10
+		# 	has_ring = yes
+		# 	init_effect = {
+		# 		set_name = "HABITAT_PLANET_NAME"
+		# 		set_surveyed = {
+		# 			surveyed = yes
+		# 			surveyor = FROM
+		# 		}
+		# 		set_all_comms_surveyed = yes
+		# 		clear_blockers = yes
+		# 		start_colony = {
+		# 			owner = root
+		# 		}
+		# 		# set_planet_entity = {	entity = GF_nyto_habita_entity }
+		# 	}
+		# }
+
 		# 人工星系
 		spawn_system = {
 			initializer = sfdoll_system_mega_world
-			hyperlane = yes
+			hyperlane = no
 			is_discovered = yes
 			max_distance = 10
 			min_distance = 30
@@ -105,17 +126,18 @@ sfdoll_mega_system_02 ={
 				add_hyperlane = {	from = THIS	to = root	}
 				create_starbase = {
 					size = starbase_outpost
-					effect = {	set_owner = root.owner	}
+					effect = { set_owner = root.owner }
 				}
 				every_system_planet = {
 					limit = { is_planet_class = pc_sfdoll_star_world }
 					start_colony = {	owner = root.owner	}
+					set_planet_entity = { entity = "GF_nyto_habita_entity" }
 				}
 				create_message = {
 					type = MEGASTRUCTURE_BUILT
 					localization = sfdoll_mega_system_02
 					days = 30
-					target = prev
+					target = root
 				}
 			}
 		}
@@ -124,6 +146,6 @@ sfdoll_mega_system_02 ={
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = -50
 	}
 }

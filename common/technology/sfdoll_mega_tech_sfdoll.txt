@@ -161,9 +161,9 @@ tech_sfdoll_mega_system = {
 	is_rare = yes
 	icon = tech_sfdoll_mega_system
 	prerequisites = {	tech_building_sfdoll_mineral	}	
-	potential = {	has_authority = auth_gf_sfdoll	}
+	potential = { always = no	has_authority = auth_gf_sfdoll	}
 	modifier = {	country_resource_max_add = 40000	}
-	weight = 1000
+	weight = 0
 }
 
 tech_sfdoll_star_attacker = {
