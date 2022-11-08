@@ -68,7 +68,7 @@ entity = {
 	locator = { name = "black_4" 	position = { 0  -13  -20 }  }
 	scale = 1.5
 	attach = {
-		black_0 = "sfdoll_black_hole_2_entity"
+		black_0 = "sfdoll_black_hole_ship_entity"
 	}
 	# attach = {
 	# 	black_1 = "sfdoll_black_hole_2_entity"

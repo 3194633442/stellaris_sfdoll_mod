@@ -145,7 +145,7 @@ tech_sfdoll_mega_system = {
 	category = { field_manipulation }
 	is_rare = yes
 	prerequisites = {	tech_building_sfdoll_mineral	}	
-	potential = { has_authority = auth_gf_sfdoll	}
+	potential = { always = no has_authority = auth_gf_sfdoll	}
 	modifier = {	country_resource_max_add = 40000	}
 	weight = 0
 }
@@ -158,7 +158,7 @@ tech_sfdoll_ring_world = {
 	category = { statecraft }
 	is_rare = yes
 	prerequisites = { tech_sfdoll_mega_system tech_sfdoll_habitat_01	}	
-	potential = { has_authority = auth_gf_sfdoll	}
+	potential = { always = no has_authority = auth_gf_sfdoll	}
 	weight = 0
 }
 

@@ -10,23 +10,24 @@ country_event = {
 	immediate = {
 		create_country = {
 			name = "name_elisa_country"
-			type = country_type_sfdoll_event_leader 
-			flag = {
-				icon= {
-					category = "sfdoll_flags"
-					file = "sfdoll_flag.dds"
-				}
-				background= {
-					category = "backgrounds"
-					file = "sinus.dds"
-				}
-				colors={
-					"black"
-					"black"
-					"null"
-					"null"
-				}
-			}
+			type = country_type_sfdoll_event_leader
+			flag = root
+			# flag = {
+			# 	icon= {
+			# 		category = "sfdoll_flags"
+			# 		file = "sfdoll_flag.dds"
+			# 	}
+			# 	background= {
+			# 		category = "backgrounds"
+			# 		file = "sinus.dds"
+			# 	}
+			# 	colors={
+			# 		"black"
+			# 		"black"
+			# 		"null"
+			# 		"null"
+			# 	}
+			# }
 			effect = {
 				#设置target和flag
 				save_global_event_target_as = sfdoll_elisa_country

@@ -6,12 +6,12 @@
 
 ###
 pc_sfdoll_city = {
-	entity = "gaia_planet"
+	entity = "city_planet"
 	entity_scale = @planet_standard_scale
-	icon = GFX_planet_type_gaia
+	icon = GFX_planet_type_city
 
 	picture = pc_city
-	atmosphere_color		= hsv { 0.58	0.3 0.7 }
+	atmosphere_color		= hsv { 0.75 0.10 0.60 }		#DONE
 	atmosphere_intensity	= 1.0
 	atmosphere_width		= 0.5
 
@@ -47,7 +47,7 @@ pc_sfdoll_city = {
 }
 
 pc_sfdoll_black_hole = {
-	entity = "black_hole_entity"
+	entity = "sfdoll_black_hole_entity"
 	entity_scale = 20
 	icon = GFX_planet_type_black_hole
 

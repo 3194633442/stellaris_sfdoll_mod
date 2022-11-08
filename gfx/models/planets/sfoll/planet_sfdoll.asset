@@ -65,9 +65,9 @@ entity = {
 
 #用于舰船组合
 entity = {
-	name = "sfdoll_black_hole_2_entity"
+	name = "sfdoll_black_hole_ship_entity"
 	pdxmesh = black_hole_new_mesh
-	scale = 1.6
+	scale = 0.3
 	default_state = "idle"
 	state = { name = "idle" state_time = 0
 	# 	event = { time = 0 particle = "black_hole_particle" trigger_once = yes keep_particle = yes }

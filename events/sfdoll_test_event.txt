@@ -75,9 +75,9 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		# capital_scope = {
-		# 	change_pc = pc_sfdoll_city
-		# }
+		capital_scope = {
+			change_pc = pc_sfdoll_city
+		}
 	}
 }
 
@@ -176,17 +176,13 @@ country_event = {
 	}
 }
 
-# country_event = {
-# 	id = sfdoll_test_event.6
-# 	hide_window = no
-# 	is_triggered_only = yes
-# 	immediate = {
-# 		capital_scope = {
-# 			solar_system = {
-# 				spawn_megastructure = {
-# 					type = sfdoll_mega_starport
-# 				}
-# 			}
-# 		}
-# 	}
-# }
+country_event = {
+	id = sfdoll_test_event.7
+	hide_window = no
+	is_triggered_only = yes
+	immediate = {
+		capital_scope = {
+			change_pc = pc_rw_sfdoll
+		}
+	}
+}
