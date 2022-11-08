@@ -408,7 +408,6 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	#static_rotation = yes
-	use_ship_kill_target = yes
 	damage = { min = 700 max = 900 }
 	#冷却时间要除以10
 	total_fire_time = 31
@@ -429,6 +428,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
+	use_ship_kill_target = no
 	resources = {
 		category = ship_components
 		cost = {
@@ -457,7 +457,6 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
-	use_ship_kill_target = yes
 	damage = { min = 700 max = 800 }
 	#冷却时间要除以10
 	total_fire_time = 31
@@ -477,6 +476,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense weapon_type_sfdoll }
 	ai_tags = { weapon_role_point_defense }
 	ai_tag_weight = 0
+	use_ship_kill_target = no
 	resources = {
 		category = ship_components
 		cost = {
@@ -505,7 +505,6 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	#static_rotation = yes
-	use_ship_kill_target = yes
 	damage = { min = 2500 max = 3000 }
 	#冷却时间要除以10
 	total_fire_time = 61
@@ -526,6 +525,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
+	use_ship_kill_target = no
 	resources = {
 		category = ship_components
 		cost = {
@@ -553,7 +553,6 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
-	use_ship_kill_target = yes
 	damage = { min = 7500 max = 8400 }
 	#冷却时间要除以10
 	total_fire_time = 62 #61
@@ -574,6 +573,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
+	use_ship_kill_target = no
 	resources = {
 		category = ship_components
 		cost = {
@@ -666,8 +666,8 @@ weapon_component_template = {
 	tracking = 0.6
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 1.5
-	shield = 1.5
+	shield_damage = 1.5
+	armor_damage = 1.5
 	power = -160000
 	
 	#待修改
@@ -753,7 +753,7 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "perdition_beam"
 	entity = invisible_turret_entity
-	firing_arc = 25.0
+	firing_arc = 45
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
@@ -764,8 +764,8 @@ weapon_component_template = {
 	range = 360
 	accuracy = 1
 	tracking = 0.4
-	shield_penetration = 1.4
-	armor_penetration = 1.4
+	shield_penetration = 1.5
+	armor_penetration = 1.5
 	power = -500000
 	prerequisites = { "tech_sfdoll_weapon_T_PK" }
 	component_set = "sfdoll_weapon_T_PK"
@@ -819,8 +819,9 @@ weapon_component_template = {
 	prio_projectile = yes
 	accuracy = 1
 	tracking = 0.5
-	shield_penetration = 1.1
-	armor_penetration = 1.1
+	shield_penetration = 1
+	armor_penetration = 1
+	hull_damage = 1.5
 	resources = {
 		category = ship_components
 		cost = {			
