@@ -106,19 +106,23 @@ tech_sfdoll_heavy_army = {
 
 #解锁槽位，建立铁血星球
 tech_build_sfdoll_city = {
-	cost = @tier4cost1
+	cost = @tier4cost3
 	area = society
 	tier = 4
 	category = { statecraft }
 	icon = tech_sfdoll_max_buildings
 	potential = { has_authority = auth_gf_sfdoll }
 	prerequisites = {
-		tech_building_sfdoll_mineral
+		tech_sfdoll_collapse_liquid_produce
+		tech_sfdoll_dark_matter_plant
+		tech_sfdoll_nanites
+		tech_sfdoll_lab
+		tech_sfdoll_alloys_produce
+		tech_sfdoll_goods
+		tech_climate_restoration
 	}
-	modifier = {
-		empire_size_mult = -0.1
-	}
-	weight = 1500
+	modifier = { empire_size_mult = -0.1	}
+	weight = @tier4weight1
 }
 
 #铁血社会变革

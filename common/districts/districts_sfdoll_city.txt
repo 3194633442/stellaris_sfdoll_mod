@@ -180,18 +180,26 @@ district_rw_rare_sfdoll = {
 district_rw_generator_sfdoll = {
 	base_buildtime = 360
 	is_capped_by_modifier = no
-
 	show_on_uncolonized = {
 		uses_district_set = rw_sfdoll
+		exists = from
+		from = {
+			has_authority = auth_gf_sfdoll
+			has_technology = tech_sfdoll_energy_plant
+			has_technology = tech_building_sfdoll_mineral
+		}
 	}
-
 	potential = {
 		uses_district_set = rw_sfdoll
+		exists = owner
+		owner = {
+			has_authority = auth_gf_sfdoll
+			has_technology = tech_sfdoll_energy_plant
+			has_technology = tech_building_sfdoll_mineral
+		}
 	}
 
-	convert_to = {
-		district_rw_commercial
-	}
+	convert_to = { district_rw_commercial }
 
 	resources = {
 		category = planet_districts
@@ -544,16 +552,21 @@ district_generator_sfdoll_city  = {
 
 	show_on_uncolonized = {
 		uses_district_set = sfdoll_world
+		exists = from
 		from = {
 			has_authority = auth_gf_sfdoll
+			has_technology = tech_sfdoll_energy_plant
+			has_technology = tech_building_sfdoll_mineral
 		}
 	}
 
 	potential = {
 		uses_district_set = sfdoll_world
+		exists = owner
 		owner = {
-			exists = owner
 			has_authority = auth_gf_sfdoll
+			has_technology = tech_sfdoll_energy_plant
+			has_technology = tech_building_sfdoll_mineral
 		}
 	}
 

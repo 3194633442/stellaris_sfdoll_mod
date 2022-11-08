@@ -29,10 +29,10 @@ sfdoll_system_mega_world = {
 	class = sc_sfdoll_mega_system
 	#usage = sfdoll_system_init
 	planet = {
-		class = pc_sfdoll_star_world
+		class = pc_sfdoll_black_hole
 		orbit_distance = 0
 		orbit_angle = 0
-		size = 25
+		size = 5
 		init_effect = {
 			# 创建星系时已经调查，无需重复
 			# set_surveyed = {

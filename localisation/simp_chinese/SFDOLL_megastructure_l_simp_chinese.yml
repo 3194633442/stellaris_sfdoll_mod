@@ -1,7 +1,6 @@
 ﻿l_simp_chinese:
 ##########
 # system_limit_one_sfd:0 "一个星系只能造一座"
-
 sfdoll_mega_starport_01:0 "$sfdoll_mega_starport_04$基址"
 sfdoll_mega_starport_01_DESC:0 "$sfdoll_mega_starport_04$建造在重力井之外，以便利用低重力环境和FTL航路"
 sfdoll_mega_starport_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_starport_01_DESC$"
@@ -39,29 +38,24 @@ pc_sfdoll_habitis_desc:0 "通过先进的FTL和能源技术,铁血太空城可�
 tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
-# tech_sfdoll_mega_system
-# tech_sfdoll_mega_system_desc
-# sfdoll_mega_system_1
-# sfdoll_mega_system_1_DESC
-# sfdoll_mega_system_1_MEGASTRUCTURE_DETAILS
-# sfdoll_mega_system_2
-# sfdoll_mega_system_2_DESC
-# sfdoll_mega_system_2_MEGASTRUCTURE_DETAILS
-# sc_sfdoll_mega_system
-# sc_sfdoll_mega_system_desc
-# pc_sfdoll_star_world
-# pc_sfdoll_star_world_desc
-# Name_sfdoll_system_mega_world
 
-# mega_sfdoll_carrier_01:0 "$ship_sfdoll_carrier$基址"
-# mega_sfdoll_carrier_01_DESC:0 "深空母舰需要通过巨构工程来建造"
-# mega_sfdoll_carrier_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_01_DESC$"
-# mega_sfdoll_carrier_01_complete:0 "我们建造了一座$mega_sfdoll_carrier_01$"
+pc_sfdoll_black_hole:0 "铁血人工黑洞"
+pc_sfdoll_black_hole_desc:0 "$pc_sfdoll_black_hole$可以调节引力、减缓时间和处理太空垃圾等。它被用于建设小型人工星系。"
+sc_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"
+sc_sfdoll_mega_system_desc:0 "$pc_sfdoll_black_hole_desc$"
+tech_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"
+tech_sfdoll_mega_system_desc:0 "$pc_sfdoll_black_hole_desc$"
 
-# mega_sfdoll_carrier_02:0 "深空母舰"
-# mega_sfdoll_carrier_02_DESC:0 "你需要拥有至少一个深空母舰的设计,才能顺利完成它"
-# mega_sfdoll_carrier_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_carrier_02_DESC$"
-# mega_sfdoll_carrier_02_complete:0 "我们建造了一座$mega_sfdoll_carrier_02$"
+sfdoll_mega_system_1:0 "$pc_sfdoll_black_hole$基址"
+sfdoll_mega_system_1_DESC:0 "我们将利用$pc_sfdoll_black_hole$来建立一个人工星系"
+sfdoll_mega_system_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_system_1_DESC$"
+sfdoll_mega_system_2:0 "$pc_sfdoll_black_hole$"
+sfdoll_mega_system_2_DESC:0 "$sfdoll_mega_system_1_DESC$"
+sfdoll_mega_system_2_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_system_1_DESC$"
+sfdoll_mega_system_2_complete:0 "我们建造了一个人工星系"
+Name_sfdoll_system_mega_world:0 "铁血人工星系"
+
+
 
 sfdoll_star_attacker:0 "重装支援舰"
 sfdoll_star_attacker_plural:0 "$sfdoll_star_attacker$s"

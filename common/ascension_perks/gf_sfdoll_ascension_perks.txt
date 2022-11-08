@@ -78,6 +78,8 @@ ap_sfdoll_3 = {
 		has_ascension_perk= ap_sfdoll_reverse_collapse
 	}
 	on_enabled = {
+		add_research_option = tech_build_sfdoll_city
+		add_research_option = tech_sfdoll_habitat_01
 		country_event = {
 			id = sfdoll_to_zion_event.7
 		}

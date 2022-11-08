@@ -46,10 +46,30 @@ pc_sfdoll_city = {
 	carry_cap_per_free_district = @carry_cap_high
 }
 
+pc_sfdoll_black_hole = {
+	entity = "black_hole_entity"
+	entity_scale = 20
+	icon = GFX_planet_type_black_hole
+
+	atmosphere_color		= hsv { 0.075 0.13 1.5 }
+	atmosphere_intensity	= 1.0
+	atmosphere_width		= 1.0
+	star = yes
+	min_distance_from_sun = 0
+	max_distance_from_sun = 0
+	spawn_odds = 0
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	chance_of_ring = 0
+
+	planet_size = { min = 20 max = 35 }
+	colonizable = no
+}
+
 # 铁血宜居恒星
 pc_sfdoll_star_world = {
 	# entity = "black_hole_entity"
-	entity = "sfdoll_black_hole_2_entity"
+	entity = "sfdoll_black_hole_entity"
 	entity_scale = @planet_standard_scale
 	icon = GFX_planet_type_gaia
 	picture = pc_gaia
@@ -79,6 +99,26 @@ pc_sfdoll_star_world = {
 	ideal = yes
 	uses_alternative_skies_for_moons = yes
 	carry_cap_per_free_district = @carry_cap_high
+}
+
+#铁血人造恒星
+pc_sfdoll_star = {
+	entity = "k_star_class_star_entity"
+	entity_scale = 20.0
+	picture = "pc_k_star"
+	icon = GFX_planet_type_k_star
+	atmosphere_color		= hsv { 0.06 0.65 0.7 }
+	atmosphere_intensity	= 0.6
+	atmosphere_width		= 0.6  #原版1.25
+	star = yes
+	min_distance_from_sun = 0
+	max_distance_from_sun = 0
+	spawn_odds = 0
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	chance_of_ring = 0
+	planet_size = { min = 20 max = 35 }
+	colonizable = no
 }
 
 #铁血环世界
@@ -117,6 +157,29 @@ pc_rw_sfdoll = {
 	}
 
 	carry_cap_per_free_district = @carry_cap_normal
+}
+# 铁血环非宜居区段
+pc_rw_sfdoll_2 = {
+	ringworld = yes
+	entity = "ringworld_tech_entity"
+	preview_entity = "ringworld_01_damaged_full_entity"
+	picture = pc_ringworld_section
+	icon = GFX_planet_type_ringworld
+	entity_scale = 1.0
+	enable_tilt = no
+	fixed_entity_scale = yes
+	atmosphere_color		= hsv { 0.50 0.2 0.8 }		#DONE
+	atmosphere_intensity	= 1.0
+	atmosphere_width		= 0.5
+	city_color_lut = "gfx/portraits/misc/colorcorrection_desert.dds"
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	chance_of_ring = 0.0
+	planet_size = 10
+	moon_size = 1
+	colonizable = no
+	orbit_lines = no
+	is_artificial_planet = yes
 }
 
 #居住站,铁血太空城

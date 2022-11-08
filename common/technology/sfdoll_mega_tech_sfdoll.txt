@@ -41,20 +41,14 @@ tech_sfdoll_habitat_01 = {
 	area = engineering
 	start_tech = no
 	tier = 5
-	cost = @tier5cost3
+	cost = @tier5cost1
 	category = { voidcraft }
 	is_rare = yes
 	icon = tech_sfdoll_habitat_01
-	prerequisites = {
-		tech_building_sfdoll_mineral
-	}	
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	modifier = {
-		country_resource_max_add = 40000
-	}
-	weight = 1000
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_build_sfdoll_city }
+	modifier = {	country_resource_max_add = 40000	}
+	weight = @tier4weight2
 }
 
 tech_sfdoll_mining_station = {
@@ -83,12 +77,8 @@ tech_sfdoll_star_exploit = {
 	category = { field_manipulation }
 	is_rare = yes
 	icon = tech_sfdoll_star_exploit
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	feature_flags = {
-		megaengineering
-	}
+	potential = { has_authority = auth_gf_sfdoll }
+	feature_flags = { megaengineering }
 	weight = 0
 }
 #恒星坍塌器
@@ -100,17 +90,12 @@ tech_sfdoll_star_collapse = {
 	category = { field_manipulation }
 	is_rare = yes
 	icon = tech_sfdoll_star_exploit
-	potential = {
-		always = no
-		has_authority = auth_gf_sfdoll
-	}
+	potential = {	always = no has_authority = auth_gf_sfdoll }
 	prerequisites = {
 		tech_sfdoll_dark_matter_plant
 		tech_sfdoll_star_exploit
 	}
-	feature_flags = {
-		megaengineering
-	}
+	feature_flags = {	megaengineering	}
 	weight = 0
 }
 #黑洞解压器
@@ -153,16 +138,27 @@ tech_sfdoll_mobile_gateway = {
 }
 
 tech_sfdoll_mega_system = {
-	area = engineering
+	area = physics
 	start_tech = no
 	tier = 5
 	cost = @tier5cost3
-	category = { voidcraft }
+	category = { field_manipulation }
 	is_rare = yes
-	icon = tech_sfdoll_mega_system
 	prerequisites = {	tech_building_sfdoll_mineral	}	
-	potential = { always = no	has_authority = auth_gf_sfdoll	}
+	potential = { has_authority = auth_gf_sfdoll	}
 	modifier = {	country_resource_max_add = 40000	}
+	weight = 0
+}
+
+tech_sfdoll_ring_world = {
+	area = society
+	start_tech = no
+	tier = 5
+	cost = @tier5cost3
+	category = { statecraft }
+	is_rare = yes
+	prerequisites = { tech_sfdoll_mega_system tech_sfdoll_habitat_01	}	
+	potential = { has_authority = auth_gf_sfdoll	}
 	weight = 0
 }
 
