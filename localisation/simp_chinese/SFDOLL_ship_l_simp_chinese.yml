@@ -80,13 +80,13 @@ sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$可将一定范围内的物质剥离�
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
-sfdoll_weapon_H_2:0 "虎鲸隐形战机"
+sfdoll_weapon_H_2:0 "铁血虎鲸轰炸机"
 sfdoll_weapon_H_2_DESC:0 "$sfdoll_weapon_H_2$可利用特殊船体隐藏自己"
 tech_sfdoll_weapon_H_2:0 "$sfdoll_weapon_H_2$"
 tech_sfdoll_weapon_H_2_desc:0 "$sfdoll_weapon_H_2_DESC$"
 
-sfdoll_weapon_H_2_PD:0 "铁血黑天鹅护航机"
-sfdoll_weapon_H_2_PD_DESC:0 "$sfdoll_weapon_H_2_PD$是专注于防空作战的新型机体"
+sfdoll_weapon_H_2_PD:0 "铁血黑天鹅战斗机"
+sfdoll_weapon_H_2_PD_DESC:0 "$sfdoll_weapon_H_2_PD$是专注于防空作战的新型战机"
 tech_sfdoll_weapon_H_2_PD:0 "$sfdoll_weapon_H_2_PD$"
 tech_sfdoll_weapon_H_2_PD_desc:0 "$sfdoll_weapon_H_2_PD_DESC$"
 

@@ -80,7 +80,7 @@ sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$ can peel and teleport matter within 
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
-sfdoll_weapon_H_2:0 "killer Whale Stealth Fighter"
+sfdoll_weapon_H_2:0 "SF killer Whale Bomber"
 sfdoll_weapon_H_2_DESC:0 "$sfdoll_weapon_H_2$ hides itself with a special hull."
 tech_sfdoll_weapon_H_2:0 "$sfdoll_weapon_H_2$"
 tech_sfdoll_weapon_H_2_desc:0 "$sfdoll_weapon_H_2_DESC$"
