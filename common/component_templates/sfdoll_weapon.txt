@@ -417,8 +417,8 @@ weapon_component_template = {
 	tracking = 1
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 1.5
-	armor_damage = 1.5
+	shield_damage = 2
+	armor_damage = 2
 	power = -4800
 	
 	#待修改
@@ -514,8 +514,8 @@ weapon_component_template = {
 	tracking = 0.9
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 1.25
-	armor_damage = 1.5
+	armor_damage = 2
+	hull_damage = 1.5
 	power = -12000
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
@@ -562,7 +562,7 @@ weapon_component_template = {
 	tracking = 0.8
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 1.25
+	hull_damage = 1.75
 	armor_damage = 1.5
 	power = -32000
 	
@@ -611,7 +611,8 @@ weapon_component_template = {
 	tracking = 0.7
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 1.5
+	armor_damage = 1.5
+	hull_damage = 2
 	power = -31000
 	
 	#待修改
@@ -639,10 +640,6 @@ weapon_component_template = {
 	}
 }
 
-
-
-
-
 # X槽
 weapon_component_template = {
 	key = "sfdoll_weapon_x_2"
@@ -666,8 +663,7 @@ weapon_component_template = {
 	tracking = 0.6
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 1.5
-	armor_damage = 1.5
+	hull_damage = 2
 	power = -160000
 	
 	#待修改
@@ -706,7 +702,7 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "titan_laser"
 	entity = invisible_turret_entity
-	firing_arc = 25.0
+	firing_arc = 40.0
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
@@ -720,7 +716,7 @@ weapon_component_template = {
 	shield_penetration = 1
 	armor_penetration = 1
 	shield_penetration = 1.5
-	hull_damage = 1.5
+	shield_damage = 2
 	power = -400000
 	
 	prerequisites = { "tech_sfdoll_weapon_T_2" }
@@ -753,7 +749,7 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "perdition_beam"
 	entity = invisible_turret_entity
-	firing_arc = 45
+	firing_arc = 30
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
@@ -819,8 +815,8 @@ weapon_component_template = {
 	prio_projectile = yes
 	accuracy = 1
 	tracking = 0.5
-	shield_penetration = 1
-	armor_penetration = 1
+	shield_penetration = 1.25
+	armor_penetration = 1.25
 	hull_damage = 1.5
 	resources = {
 		category = ship_components
@@ -844,15 +840,15 @@ weapon_component_template = {
 
 #二级舰载机
 strike_craft_component_template = {
-	key = "sfdoll_strike_craft_2"
-	icon = "GFX_sfdoll_strike_craft_2"
+	key = "sfdoll_weapon_H_2" #"sfdoll_strike_craft_2"
+	icon = "GFX_sfdoll_weapon_H_2"
 	icon_frame = 1
 	size = LARGE
 	entity = "" #"bomber_entity"
 	projectile_gfx = ""
 	power = -2000
-	component_set = "sfdoll_strike_craft_2"
-	prerequisites = {	tech_sfdoll_strike_craft_2 	}
+	component_set = "sfdoll_weapon_H_2"
+	prerequisites = {	tech_sfdoll_weapon_H_2 	}
 	ship_behavior = bombers_behavior
 	weapon_type = instant
 
@@ -862,6 +858,8 @@ strike_craft_component_template = {
 	damage = { min = 700 max = 800 }
 	shield_penetration = 1
 	armor_penetration = 1
+	shield_damage = 2
+	hull_damage = 2
 	#舰载机的不需要除10
 	cooldown = 1.1
 	range = 250
@@ -876,8 +874,6 @@ strike_craft_component_template = {
 	speed = 1600
 	rotation_speed = 0.8
 	acceleration = 0.9
-	
-
 	resources = {
 		category = ship_components
 		cost = {
@@ -891,4 +887,53 @@ strike_craft_component_template = {
 
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
+}
+
+strike_craft_component_template = {
+	key = "sfdoll_weapon_H_2_PD"
+	icon = "GFX_sfdoll_weapon_H_2_PD"
+	icon_frame = 1
+	size = LARGE
+	entity = "" #"bomber_entity"
+	projectile_gfx = ""
+	power = -2000
+	component_set = "sfdoll_weapon_H_2_PD"
+	prerequisites = {	tech_sfdoll_weapon_H_2_PD	}
+	ship_behavior = bombers_behavior
+	weapon_type = point_defence
+
+	count = 1
+	regeneration_per_day = 0.03
+	launch_time = 1.2
+	damage = { min = 700 max = 800 }
+	shield_penetration = 1
+	armor_penetration = 1
+	shield_damage = 2
+	hull_damage = 2
+	#舰载机的不需要除10
+	cooldown = 1.1
+	range = 250
+	#engagement_range = 800
+	accuracy = 1
+	tracking = 0.9
+	health = 10000
+	armor = 10000
+	shield = 10000
+	evasion = 1
+	speed = 1600
+	rotation_speed = 0.8
+	acceleration = 0.9
+	resources = {
+		category = ship_components
+		cost = {
+			sr_dark_matter = 5000
+			nanites = 2000
+		}
+		upkeep = {
+			sr_dark_matter= 50
+		}
+	}
+
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
+	ai_tags = { weapon_role_point_defense }
 }

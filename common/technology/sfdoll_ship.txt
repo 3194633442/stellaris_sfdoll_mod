@@ -178,19 +178,33 @@ tech_sfdoll_missile_2 = {
 	}
 	weight = 1500
 }
-tech_sfdoll_strike_craft_2 = {
+tech_sfdoll_weapon_H_2 = {
 	cost = @tier5cost3
 	area = engineering
 	tier = 5
 	is_rare = yes
 	category = { voidcraft }
 	is_reverse_engineerable = no
-	icon = tech_sfdoll_strike_craft_2
+	icon = tech_sfdoll_weapon_H_2
 	prerequisites = {	tech_sfdoll_weapon_x_2	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	weight = 0
+	weight = @tier5weight1
+}
+tech_sfdoll_weapon_H_2_PD  = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	is_rare = yes
+	category = { voidcraft }
+	is_reverse_engineerable = no
+	icon = tech_sfdoll_weapon_H_2_PD
+	prerequisites = {	tech_sfdoll_weapon_x_2	}
+	potential = {
+		has_authority = auth_gf_sfdoll
+	}
+	weight = @tier5weight1
 }
 #W槽
 tech_planet_killer_sfdoll_1 = {

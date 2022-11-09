@@ -70,7 +70,7 @@ component_set_sfdoll_weapon_x_2_DESC:0 "$sfdoll_weapon_x_2$ sacrifices part of i
 tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
 tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
 
-sfdoll_weapon_T_2:0 "SF T-24 Gun"
+sfdoll_weapon_T_2:0 "SF T-24 Iron-Dragon Ship Gun"
 sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$ is designed for ship-to-ship attacks, and it can be loaded fast with great power."
 tech_sfdoll_weapon_T_2:0 "$sfdoll_weapon_T_2$"
 tech_sfdoll_weapon_T_2_desc:0 "$sfdoll_weapon_T_2_DESC$"
@@ -80,11 +80,15 @@ sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$ can peel and teleport matter within 
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
-sfdoll_strike_craft_2:0 "killer Whale Stealth Fighter"
-sfdoll_strike_craft_2_DESC:0 "$sfdoll_strike_craft_2$ hides itself with a special hull."
-tech_sfdoll_strike_craft_2:0 "$sfdoll_strike_craft_2$"
-tech_sfdoll_strike_craft_2_desc:0 "$sfdoll_strike_craft_2_DESC$"
+sfdoll_weapon_H_2:0 "killer Whale Stealth Fighter"
+sfdoll_weapon_H_2_DESC:0 "$sfdoll_weapon_H_2$ hides itself with a special hull."
+tech_sfdoll_weapon_H_2:0 "$sfdoll_weapon_H_2$"
+tech_sfdoll_weapon_H_2_desc:0 "$sfdoll_weapon_H_2_DESC$"
 
+sfdoll_weapon_H_2_PD:0 "SF Black Swan Escort"
+sfdoll_weapon_H_2_PD_DESC:0 "$sfdoll_weapon_H_2_PD$ is a new aircraft focused on air defense operations."
+tech_sfdoll_weapon_H_2_PD:0 "$sfdoll_weapon_H_2_PD$"
+tech_sfdoll_weapon_H_2_PD_desc:0 "$sfdoll_weapon_H_2_PD_DESC$"
 
 tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
 tech_sfdoll_jump_drive_desc:0 "The gradual improvement of the mass rebuild reveals the development direction of FTL technology."
@@ -107,7 +111,6 @@ sfdoll_aux_rebuild_2_DESC:0 "§Y$sfdoll_aux_rebuild_2$§! will resist the fatal 
 
 tech_sfdoll_aux_rebuild_2:0 "$sfdoll_aux_rebuild_2$"
 tech_sfdoll_aux_rebuild_2_desc:0 "$sfdoll_aux_rebuild_2$ can block some hostile attacks"
-
 
 sfdoll_aux_rebuild:0 "Dimensional-Anchor Escape Capsule"
 sfdoll_aux_rebuild_DESC:0 "When a ship equipped with $sfdoll_aux_rebuild$ is destroyed, a ship of the same type will be spawned based on a existing ship design. It will take 30 days for the new ship to use $sfdoll_aux_rebuild$ again. The effect does not stack."
@@ -132,6 +135,15 @@ sfdoll_combat_computer_1:0 "SF Warship AI (Manual Control)"
 sfdoll_combat_computer_2:0 "SF Warship AI (Mrtillery)"
 sfdoll_combat_computer_3:0 "SF Warship AI (Carrier)"
 
+#aura
+sfdoll_aura_components:0 "$component_aura_sfdoll_1$"
+# Activated at the beginning of the engagement, the effects cannot be superimposed and last for 30 days
+component_aura_sfdoll_1:0 "Jamming System"
+component_aura_sfdoll_1_text:0 "Activated at the beginning of the combat, the effect cannot stack, lasts for 30 days.\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
+# 1-30 cooldowns are required for every 30 days.
+
+component_aura_sfdoll_2:0 "Space Prism"
+component_aura_sfdoll_2_text:0 "Effect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-400%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-400%§!"
 
 #defense
 sfdoll_ship_defense_s:0 "Enhanced Forcefield Shield"
@@ -213,7 +225,7 @@ tech_sfdoll_warship_5_desc:0 "$sfdoll_warship_5$ can be equipped with $sfdoll_we
 sfdoll_warship_6:0 "SF Heavy Destroyer"
 sfdoll_warship_6_plural:0 "$sfdoll_warship_6$s"
 tech_sfdoll_warship_6:0 "$sfdoll_warship_6$"
-tech_sfdoll_warship_6_desc:0 "$component_aura_sfdoll_1$ is a multifunctional carrier-based craft that can make small-scale space transfers, interference enemy equipment, and fend off some attacks.\n$place_build_sfdoll_special_ship$"
+tech_sfdoll_warship_6_desc:0 "$component_aura_sfdoll_1$ can interference enemy equipment, and fend off some attacks.\n$place_build_sfdoll_special_ship$"
 
 sfdoll_warship_1_MID_L1M1:0 "A"
 sfdoll_warship_1_MID_L1S2:0 "B"
@@ -269,14 +281,7 @@ sfdoll_star_eater_bow:0 "A"
 sfdoll_star_eater_stern:0 "B"
 
 
-#aura
-sfdoll_aura_components:0 "$component_aura_sfdoll_1$"
-# Activated at the beginning of the engagement, the effects cannot be superimposed and last for 30 days
-component_aura_sfdoll_1:0 "SF Black Swan Supporter"
-component_aura_sfdoll_1_text:0 "Activated at the beginning of the combat, the effect cannot stack, lasts for 30 days.\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
-# 1-30 cooldowns are required for every 30 days.
-component_aura_sfdoll_2:0 "Space Prism"
-component_aura_sfdoll_2_text:0 "Effect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-400%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-400%§!"
+
 
 ship_sfdoll_noel:0 "Noel"
 ship_sfdoll_noel_plural:0 "$ship_sfdoll_noel$"
