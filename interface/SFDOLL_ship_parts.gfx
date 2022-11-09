@@ -198,8 +198,22 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_sfdoll_weapon_M_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_M_2.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_sfdoll_weapon_L_speed"
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_L_speed.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_weapon_s_2"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_s_2.dds"
 	}
 }
 
