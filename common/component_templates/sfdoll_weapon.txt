@@ -514,7 +514,7 @@ weapon_component_template = {
 	tracking = 0.9
 	shield_penetration = 1
 	armor_penetration = 1
-	armor_damage = 2
+	armor_damage = 1.75
 	hull_damage = 1.5
 	power = -12000
 	#待修改
@@ -753,15 +753,15 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 760000 max = 800000 }
+	damage = { min = 1300000 max = 1300000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = { min = 11 max = 11 }
-	range = 360
+	range = 400
 	accuracy = 1
-	tracking = 0.4
-	shield_penetration = 1.5
-	armor_penetration = 1.5
+	tracking = 1
+	shield_penetration = 1
+	armor_penetration = 1
 	power = -500000
 	prerequisites = { "tech_sfdoll_weapon_T_PK" }
 	component_set = "sfdoll_weapon_T_PK"
@@ -897,7 +897,7 @@ strike_craft_component_template = {
 	projectile_gfx = "white_laser_pd"
 	power = -200
 	component_set = "sfdoll_weapon_H_2_PD"
-	prerequisites = {	tech_sfdoll_weapon_H_2_PD	}
+	prerequisites = {	tech_sfdoll_weapon_H_2	}
 	ship_behavior = "fighters_behavior"
 	weapon_type = point_defence
 	count = 1

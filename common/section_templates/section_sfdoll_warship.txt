@@ -33,7 +33,7 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "M_01"
-		template = "invisible_medium_turret"
+		template = "invisible_missile_turret"
 		locatorname = "small_gun_01"
 	}
 	small_utility_slots = 6
@@ -1325,12 +1325,12 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "S1"
-		template = invisible_medium_turret
+		template = "invisible_small_turret"
 		locatorname = L13
 	}
 	component_slot = {
 		name = "S2"
-		template = invisible_medium_turret
+		template = "invisible_small_turret"
 		locatorname = L14
 	}	
 	component_slot = {

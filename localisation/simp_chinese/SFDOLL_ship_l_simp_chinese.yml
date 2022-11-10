@@ -48,19 +48,20 @@ component_set_sfdoll_strike_craft_DESC:0 "$sfdoll_strike_craft$"
 tech_sfdoll_weapon_s_2:0 "铁血试验性轻型武器"
 tech_sfdoll_weapon_s_2_desc:0 "对火控系统的超光速传输效率进行提升，可以令小型武器发挥更大的威力。"
 
-component_set_sfdoll_weapon_p_2:0 "铁血云杉点防御"
+component_set_sfdoll_weapon_p_2:0 "铁血P-8点防御"
 component_set_sfdoll_weapon_p_2_DESC:0 "比起过去的点防御，$component_set_sfdoll_weapon_p_2$能更迅速地摧毁敌方飞行器"
 sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 
 sfdoll_weapon_s_2:0 "铁血S-10反中子炮"
 sfdoll_weapon_s_2_DESC:0 "这种小型武器使用高能反粒子流来击穿敌方防御。"
 
+tech_sfdoll_weapon_L_2:0 "铁血中型武器升级"
+tech_sfdoll_weapon_L_2_desc:0 "新的中型武器将装备到铁血的部分舰船上。"
 component_set_sfdoll_weapon_L_2:0 "铁血毒牙火力系统"
 component_set_sfdoll_weapon_L_2_DESC:0 "$component_set_sfdoll_weapon_L_2$兼具高威力和全方位攻击的能力"
 sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
-sfdoll_weapon_m_2:0 "$component_set_sfdoll_weapon_L_2$"
-tech_sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
-tech_sfdoll_weapon_L_2_desc:0 "$component_set_sfdoll_weapon_L_2_DESC$"
+sfdoll_weapon_M_2:0 "铁血M-12火炮"
+sfdoll_weapon_M_2_desc:0 "$sfdoll_weapon_M_2$可补充我们的近程火力。"
 
 sfdoll_weapon_x_2:0 "铁血X-25火炮"
 component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
@@ -83,11 +84,12 @@ sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$可将一定范围内的物质剥离�
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
+
+tech_sfdoll_weapon_H_2:0 "铁血试验型舰载机"
+tech_sfdoll_weapon_H_2_desc:0 "铁血的新一代的舰载机将具备更为丰富的功能。"
+
 sfdoll_weapon_H_2:0 "铁血虎鲸轰炸机"
 sfdoll_weapon_H_2_DESC:0 "$sfdoll_weapon_H_2$用于对舰和对地攻击。"
-tech_sfdoll_weapon_H_2:0 "$sfdoll_weapon_H_2$"
-tech_sfdoll_weapon_H_2_desc:0 "$sfdoll_weapon_H_2_DESC$"
-
 sfdoll_weapon_H_2_PD:0 "铁血黑天鹅护航机"
 sfdoll_weapon_H_2_PD_DESC:0 "$sfdoll_weapon_H_2_PD$是专注于防空作战的新型战机。"
 tech_sfdoll_weapon_H_2_PD:0 "$sfdoll_weapon_H_2_PD$"

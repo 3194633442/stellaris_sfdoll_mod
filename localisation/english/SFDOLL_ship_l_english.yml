@@ -48,19 +48,20 @@ component_set_sfdoll_strike_craft_DESC:0 "$sfdoll_strike_craft$"
 tech_sfdoll_weapon_s_2:0 "$component_set_sfdoll_weapon_p_2$"
 tech_sfdoll_weapon_s_2_desc:0 "Improving the ftl transmission efficiency of fire-control systems could make small arms more powerful."
 
-component_set_sfdoll_weapon_p_2:0 "SF Spruce Point-Defense"
+component_set_sfdoll_weapon_p_2:0 "SF P-8 Point-Defense"
 component_set_sfdoll_weapon_p_2_DESC:0 "$component_set_sfdoll_weapon_p_2$ can destroy enemy aircraft more quickly than the old point-defense."
 sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
 
 sfdoll_weapon_s_2:0 "SF S-10 Antineutron-Gun"
 sfdoll_weapon_s_2_DESC:0 "This small weapon uses a stream of high-energy antiparticles to penetrate enemy defenses."
 
+tech_sfdoll_weapon_L_2:0 "SF Medium Weapons Upgrade"
+tech_sfdoll_weapon_L_2_desc:0 "The new medium weapons will be fitted to some of SF Dolls' ships."
 component_set_sfdoll_weapon_L_2:0 "SF Venomous Fang System"
 component_set_sfdoll_weapon_L_2_DESC:0 "$component_set_sfdoll_weapon_L_2$ combines high power with the ability to strike in all directions"
 sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
-sfdoll_weapon_m_2:0 "$component_set_sfdoll_weapon_L_2$"
-tech_sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
-tech_sfdoll_weapon_L_2_desc:0 "$component_set_sfdoll_weapon_L_2_DESC$"
+sfdoll_weapon_M_2:0 "SF M-12 Gun"
+sfdoll_weapon_M_2_desc:0 "$sfdoll_weapon_M_2$ will complement our short range firepower."
 
 sfdoll_weapon_L_speed:0 "SF L-11 Gun"
 sfdoll_weapon_L_speed_DESC:0 "$sfdoll_weapon_L_speed$ is used to provide fire support with a high rate of fire and has a low range"
@@ -83,15 +84,12 @@ sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$ can peel and teleport matter within 
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
+tech_sfdoll_weapon_H_2:0 "SF Experimental Strike Craft"
+tech_sfdoll_weapon_H_2_desc:0 "SF Dolls' new generation of strike craft will be more versatile."
 sfdoll_weapon_H_2:0 "SF killer Whale Bomber"
 sfdoll_weapon_H_2_DESC:0 "$sfdoll_weapon_H_2$ is used for ship and ground attacks."
-tech_sfdoll_weapon_H_2:0 "$sfdoll_weapon_H_2$"
-tech_sfdoll_weapon_H_2_desc:0 "$sfdoll_weapon_H_2_DESC$"
-
 sfdoll_weapon_H_2_PD:0 "SF Black Swan Escort"
 sfdoll_weapon_H_2_PD_DESC:0 "$sfdoll_weapon_H_2_PD$ is a new aircraft focused on air defense operations."
-tech_sfdoll_weapon_H_2_PD:0 "$sfdoll_weapon_H_2_PD$"
-tech_sfdoll_weapon_H_2_PD_desc:0 "$sfdoll_weapon_H_2_PD_DESC$"
 
 tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
 tech_sfdoll_jump_drive_desc:0 "The gradual improvement of the mass rebuild reveals the development direction of FTL technology."
