@@ -765,7 +765,7 @@ weapon_component_template = {
 	power = -500000
 	prerequisites = { "tech_sfdoll_weapon_T_PK" }
 	component_set = "sfdoll_weapon_T_PK"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_6 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
@@ -873,6 +873,9 @@ strike_craft_component_template = {
 	speed = 1800
 	rotation_speed = 0.8
 	acceleration = 0.9
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
+	ai_tags = { weapon_role_artillery }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -883,9 +886,6 @@ strike_craft_component_template = {
 			sr_dark_matter= 50
 		}
 	}
-
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
-	ai_tags = { weapon_role_artillery }
 }
 
 strike_craft_component_template = {
@@ -921,6 +921,9 @@ strike_craft_component_template = {
 	speed = 1600
 	rotation_speed = 0.8
 	acceleration = 0.9
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
+	ai_tags = { weapon_role_point_defense }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -931,7 +934,4 @@ strike_craft_component_template = {
 			sr_dark_matter= 50
 		}
 	}
-
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
-	ai_tags = { weapon_role_point_defense }
 }

@@ -140,13 +140,12 @@ sfdoll_combat_computer_3:0 "SF Warship AI (Carrier)"
 
 #aura
 sfdoll_aura_components:0 "$component_aura_sfdoll_1$"
-# Activated at the beginning of the engagement, the effects cannot be superimposed and last for 30 days
 component_aura_sfdoll_1:0 "Jamming System"
-component_aura_sfdoll_1_text:0 "Activated at the beginning of the combat, the effect cannot stack, lasts for 30 days.\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
+component_aura_sfdoll_1_text:0 "§YActivated at the beginning of the combat, the effect cannot stack, lasts for 30 days.§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
 # 1-30 cooldowns are required for every 30 days.
 
 component_aura_sfdoll_2:0 "Space Prism"
-component_aura_sfdoll_2_text:0 "Effect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-400%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-400%§!"
+component_aura_sfdoll_2_text:0 "§YEffect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-400%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-400%§!"
 
 #defense
 sfdoll_ship_defense_s:0 "Enhanced Forcefield Shield"
@@ -169,11 +168,9 @@ component_set_sfdoll_ship_armor_L_DESC:0 "Armor treated with collapse technology
 tech_sfdoll_ship_armor_L:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
-
 sfdoll_ship_sensors:0"SF Advanced Sensors"
 tech_sfdoll_ship_sensors:0 "$sfdoll_ship_sensors$"
 tech_sfdoll_ship_sensors_desc:0 "$sfdoll_ship_sensors$"
-
 
 tech_aux_sfdoll_collapse_power:0 "$CORVETTE_sfdoll_collapse_REACTOR$"
 tech_aux_sfdoll_collapse_power_desc:0 "Use collapse technology to improve the efficiency of energy supply"
@@ -251,9 +248,11 @@ GF_sfdoll_warship_3_stern_M2:0 "F"
 GF_sfdoll_warship_4_bow_T1:0 "A"
 GF_sfdoll_warship_4_bow_X2:0 "B"
 GF_sfdoll_warship_4_mid_L6:0 "C"
-GF_sfdoll_warship_4_mid_L4M2P4:0 "D"
+GF_sfdoll_warship_4_mid_M2:0 "D"
 GF_sfdoll_warship_4_stern_L2:0 "E"
-GF_sfdoll_warship_4_stern_M2S2P2:0 "F"
+GF_sfdoll_warship_4_stern_M1S1P1:0 "F"
+GF_sfdoll_warship_4_stern_H1:0 "G"
+sfdoll_warship_5_stern_H1:0 "F"
 
 sfdoll_warship_5_bow:0 "A"
 sfdoll_warship_5_core:0 "B"
@@ -262,10 +261,10 @@ sfdoll_warship_5_stern:0 "C"
 sfdoll_warship_5_stern_X2L2M4:0 "E"
 
 sfdoll_warship_6_bow:0 "A"
-sfdoll_warship_6_bowP8:0 "B"
-sfdoll_warship_6_mid:0 "C"
-sfdoll_warship_6_stern:0 "D"
-sfdoll_warship_6_sternM2:0 "E"
+sfdoll_warship_6_mid:0 "B"
+sfdoll_warship_6_stern:0 "C"
+sfdoll_warship_6_stern_H1:0 "D"
+sfdoll_warship_6_stern_H2:0 "E"
 
 sm_starbase_building_sfdoll_assembly:0 "SF Super AI Assembly Yards"
 sm_starbase_building_sfdoll_assembly_desc:0 "Under the control of SF Dolls' supercomputers, starbases can mass-produce a variety of advanced equipment"
