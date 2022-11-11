@@ -397,6 +397,7 @@ sfdoll_star_eater = {
 	required_component_set = "combat_computers"
 	required_component_set = "sfdoll_aura_components"
 	auto_upgrade = no
+	potential_country = {	has_authority = auth_gf_sfdoll	}
 	possible_construction = {
 		can_build_sfdoll_special_ship = yes
 	}

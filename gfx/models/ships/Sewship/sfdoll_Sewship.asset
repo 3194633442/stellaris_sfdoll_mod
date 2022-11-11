@@ -42,7 +42,18 @@ entity = {
 entity = {
 	name = "sfdoll_Sewship_locator_entity"
 	scale = 5
-
+	locator = { name = "T01" 	position = { 2  2  -15 }}
+	locator = { name = "T02" 	position = { -2  2  -15 }}
+	locator = { name = "T03" 	position = { 2  -2  -15 }}
+	locator = { name = "T04" 	position = { -2  -2  -15 }}
+	locator = { name = "T05" 	position = { 2  2  -13 }}
+	locator = { name = "T06" 	position = { -2  2  -13 }}
+	locator = { name = "T07" 	position = { 2 -2  -13 }}
+	locator = { name = "T08" 	position = { -2  -2 -13 }}
+	locator = { name = "T09" 	position = { 2  2  -11 }}
+	locator = { name = "T10" 	position = { -2  2  -11 }}
+	locator = { name = "T11" 	position = { 2 -2  -11 }}
+	locator = { name = "T12" 	position = { -2  -2 -11 }}
 	locator = { name = "X01" 	position = { 2  2  -9 }}
 	locator = { name = "X02" 	position = { -2  2  -9 }}
 	locator = { name = "X03" 	position = { 2  -2  -9 }}
