@@ -157,8 +157,8 @@ tech_sfdoll_ring_world = {
 	cost = @tier5cost3
 	category = { statecraft }
 	is_rare = yes
-	prerequisites = { tech_sfdoll_mega_system tech_sfdoll_habitat_01	}	
-	potential = { always = no has_authority = auth_gf_sfdoll	}
+	prerequisites = { tech_sfdoll_habitat_01	}	
+	potential = { has_authority = auth_gf_sfdoll	}
 	weight = 0
 }
 

@@ -13,7 +13,7 @@ sfdoll_weapon_x_1:0"建筑师级舰炮"
 component_set_sfdoll_weapon_x_1:0"$sfdoll_weapon_x_1$"
 component_set_sfdoll_weapon_x_1_DESC:0 "$sfdoll_weapon_x_1$"
 
-sfdoll_weapen_t_1:0"计量官级舰炮"
+sfdoll_weapen_t_1:0"铁血计量官舰炮"
 component_set_sfdoll_weapen_t_1:0"$sfdoll_weapen_t_1$"
 component_set_sfdoll_weapen_t_1_DESC:0"$sfdoll_weapen_t_1$"
 
