@@ -88,6 +88,12 @@ component_set = {
 }
 
 component_set = {
+	key = "sfdoll_missile_SP"
+	icon = "GFX_sfdoll_missile_SP"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "sfdoll_weapon_H_2"
 	icon = "GFX_sfdoll_weapon_H_2"
 	icon_frame = 1

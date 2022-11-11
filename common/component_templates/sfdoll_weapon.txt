@@ -514,8 +514,7 @@ weapon_component_template = {
 	tracking = 0.9
 	shield_penetration = 1
 	armor_penetration = 1
-	armor_damage = 1.75
-	hull_damage = 1.5
+	armor_damage = 1.5
 	power = -12000
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
@@ -562,7 +561,7 @@ weapon_component_template = {
 	tracking = 0.8
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 1.75
+	hull_damage = 1.5
 	armor_damage = 1.5
 	power = -32000
 	
@@ -663,7 +662,7 @@ weapon_component_template = {
 	tracking = 0.6
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 2
+	shield_damage = 2
 	power = -160000
 	
 	#待修改
@@ -706,7 +705,7 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 180000 max = 220000 }
+	damage = { min = 140000 max = 160000 }
 	#冷却时间要除以10
 	total_fire_time = 91
 	windup = { min = 8 max = 8 }
@@ -715,8 +714,7 @@ weapon_component_template = {
 	tracking = 0.5
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_penetration = 1.5
-	shield_damage = 2
+	hull_damage = 1.5
 	power = -400000
 	
 	prerequisites = { "tech_sfdoll_weapon_T_2" }
@@ -815,8 +813,8 @@ weapon_component_template = {
 	prio_projectile = yes
 	accuracy = 1
 	tracking = 0.5
-	shield_penetration = 1.25
-	armor_penetration = 1.25
+	shield_penetration = 1
+	armor_penetration = 1
 	hull_damage = 1.5
 	resources = {
 		category = ship_components
@@ -829,6 +827,51 @@ weapon_component_template = {
 		}
 	}
 	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6	}
+	ai_weight = {
+		weight = 50
+		modifier = {
+			factor = -4
+			NOT = {		has_authority = auth_gf_sfdoll		}
+		}
+	}
+}
+weapon_component_template = {
+	key = "sfdoll_missile_SP"
+	size = torpedo
+	type = instant
+	icon = "GFX_sfdoll_missile_SP"
+	icon_frame = 1
+	power = -12000
+	prerequisites = {	tech_sfdoll_warship_5 }
+	component_set = "sfdoll_missile_SP"
+	projectile_gfx = "neutron_torpedoes"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive weapon_type_sfdoll	}
+	ai_tags = {	weapon_role_anti_hull	}
+	use_ship_kill_target = yes
+	# damage = { min = -999999999999999999 max = 999999999999999999  }
+	damage = { min = 480000 max = 560000 }
+	#冷却时间要除以10
+	total_fire_time = 121
+	windup = {	min = 11  max = 11 }
+	range = 300
+	prio_projectile = yes
+	accuracy = 0.8
+	tracking = 0.5
+	shield_penetration = 1
+	armor_penetration = 1
+	shield_damage = 2
+	armor_damage = 2
+	resources = {
+		category = ship_components
+		cost = {			
+			alloys = 5000
+			GF_nyto_collapse_liquid = 5000
+		}
+		upkeep = {
+			GF_nyto_collapse_liquid = 30
+		}
+	}
+	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6	}
 	ai_weight = {
 		weight = 50
 		modifier = {

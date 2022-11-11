@@ -50,6 +50,8 @@ sfdoll_warship_1 = {
 	enable_default_design = yes
 	components_add_to_cost = no
 	prerequisites = { tech_sfdoll_warship_1	}
+	potential_country = {	has_authority = auth_gf_sfdoll	}
+	possible_construction = {	can_build_sfdoll_special_ship = yes }
 	combat_disengage_chance = 1
 
 	required_component_set = "power_core"
@@ -100,6 +102,8 @@ sfdoll_warship_2 = {
 	enable_default_design = yes
 	components_add_to_cost = no
 	prerequisites = { tech_sfdoll_warship_2	}
+	potential_country = {	has_authority = auth_gf_sfdoll	}
+	possible_construction = {	can_build_sfdoll_special_ship = yes }
 	combat_disengage_chance = 1.5
 
 	required_component_set = "power_core"
@@ -150,6 +154,8 @@ sfdoll_warship_3 = {
 	enable_default_design = yes
 	components_add_to_cost = no
 	prerequisites = { tech_sfdoll_warship_3	}
+	potential_country = {	has_authority = auth_gf_sfdoll	}
+	possible_construction = {	can_build_sfdoll_special_ship = yes }
 	combat_disengage_chance = 1
 
 	required_component_set = "power_core"
@@ -200,6 +206,8 @@ sfdoll_warship_4 = {
 	enable_default_design = yes
 	components_add_to_cost = no
 	prerequisites = {	tech_sfdoll_warship_4	}
+	potential_country = {	has_authority = auth_gf_sfdoll	}
+	possible_construction = {	can_build_sfdoll_special_ship = yes }
 	combat_disengage_chance = 1
 
 	required_component_set = "power_core"
@@ -208,9 +216,6 @@ sfdoll_warship_4 = {
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
 	required_component_set = "component_aura_sfdoll_2"
-	possible_construction = {
-		can_build_sfdoll_special_ship = yes
-	}
 	resources = {
 		category = ships
 		cost = {
@@ -268,12 +273,8 @@ sfdoll_warship_5 = {
 	required_component_set = "sfdoll_aura_components"
 	required_component_set = "component_aura_sfdoll_2"
 
-	potential_country = {
-		has_authority = auth_gf_sfdoll
-	}
-	possible_construction = {
-		can_build_sfdoll_special_ship = yes
-	}
+	potential_country = {	has_authority = auth_gf_sfdoll	}
+	possible_construction = {	can_build_sfdoll_special_ship = yes }
 
 	resources = {
 		category = ships
@@ -306,6 +307,7 @@ sfdoll_warship_6 = {
 	ship_modifier = {
 		ships_upkeep_mult = -1
 	}
+	combat_disengage_chance = 1.5
 	section_slots = {
 		"bow" = { locator = part2 }
 		"core" = { locator = part2 }
@@ -324,7 +326,9 @@ sfdoll_warship_6 = {
 	components_add_to_cost = no
 
 	prerequisites = { tech_sfdoll_warship_6 }
-	combat_disengage_chance = 1.5
+	potential_country = {	has_authority = auth_gf_sfdoll	}
+	possible_construction = {	can_build_sfdoll_special_ship = yes }
+	
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -334,12 +338,7 @@ sfdoll_warship_6 = {
 	required_component_set = "combat_computers"
 	required_component_set = "sfdoll_aura_components"
 	required_component_set = "component_aura_sfdoll_2"
-	potential_country = {
-		has_authority = auth_gf_sfdoll
-	}
-	possible_construction = {
-		can_build_sfdoll_special_ship = yes
-	}
+
 
 	resources = {
 		category = ships
@@ -454,8 +453,8 @@ sfdoll_mobile_starbase = {
 		"core2" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
+	potential_country = {	has_authority = auth_gf_sfdoll	}
 	potential_construction = {	always = no	}
-	possible_country = {	has_authority = auth_gf_sfdoll	}
 	can_have_federation_design = no
 	enable_default_design = yes	
 	can_disable = no

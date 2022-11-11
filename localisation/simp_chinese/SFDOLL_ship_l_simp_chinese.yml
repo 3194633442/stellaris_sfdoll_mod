@@ -61,9 +61,9 @@ component_set_sfdoll_weapon_L_2:0 "铁血毒牙火力系统"
 component_set_sfdoll_weapon_L_2_DESC:0 "$component_set_sfdoll_weapon_L_2$兼具高威力和全方位攻击的能力"
 sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
 sfdoll_weapon_M_2:0 "铁血M-12火炮"
-sfdoll_weapon_M_2_desc:0 "$sfdoll_weapon_M_2$可补充我们的近程火力。"
+sfdoll_weapon_M_2_DESC:0 "$sfdoll_weapon_M_2$可补充我们的近程火力。"
 
-sfdoll_weapon_x_2:0 "铁血X-25火炮"
+sfdoll_weapon_x_2:0 "铁血X-25云杉火炮"
 component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
 component_set_sfdoll_weapon_x_2_DESC:0 "$sfdoll_weapon_x_2$牺牲了部分矢量发射功能，从而提升射程和威力"
 tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
@@ -74,26 +74,26 @@ sfdoll_weapon_L_speed_DESC:0 "$sfdoll_weapon_L_speed$用于提供高射速的火
 tech_sfdoll_weapon_L_speed:0 "$sfdoll_weapon_L_speed$"
 tech_sfdoll_weapon_L_speed_desc:0 "$sfdoll_weapon_L_speed_DESC$"
 
-sfdoll_weapon_T_2:0 "铁血T-24铁龙舰炮"
+sfdoll_weapon_T_2:0 "铁血T-24舰炮"
 sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$被设计用来进行对舰攻击，它在具备较大威力的同时保证了装填速度"
 tech_sfdoll_weapon_T_2:0 "$sfdoll_weapon_T_2$"
 tech_sfdoll_weapon_T_2_desc:0 "$sfdoll_weapon_T_2_DESC$"
 
-sfdoll_missile_2:0 "铁血跳跃者导弹"
-sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$可将一定范围内的物质剥离并传送到亚空间。$sfdoll_missile_2$会通过短距离跃迁来接近目标，这意味着它无法被防空武器拦截。"
+sfdoll_missile_2:0 "铁血黑箭导弹"
+sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$可以迅速从内部撕裂敌对飞船。"
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
+sfdoll_missile_SP:0 "铁血跳跃者导弹"
+sfdoll_missile_SP_DESC:0 "$sfdoll_missile_SP$可将一定范围内的物质转移到其他坐标。$sfdoll_missile_SP$会通过短距离FTL来接近目标，这意味着它无法被防空武器拦截。"
 
 tech_sfdoll_weapon_H_2:0 "铁血试验型舰载机"
 tech_sfdoll_weapon_H_2_desc:0 "铁血的新一代的舰载机将具备更为丰富的功能。"
-
 sfdoll_weapon_H_2:0 "铁血虎鲸轰炸机"
 sfdoll_weapon_H_2_DESC:0 "$sfdoll_weapon_H_2$用于对舰和对地攻击。"
 sfdoll_weapon_H_2_PD:0 "铁血黑天鹅护航机"
 sfdoll_weapon_H_2_PD_DESC:0 "$sfdoll_weapon_H_2_PD$是专注于防空作战的新型战机。"
-tech_sfdoll_weapon_H_2_PD:0 "$sfdoll_weapon_H_2_PD$"
-tech_sfdoll_weapon_H_2_PD_desc:0 "$sfdoll_weapon_H_2_PD_DESC$"
+
 
 tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
 tech_sfdoll_jump_drive_desc:0 "质量重建理论的逐步完善,揭示了新一代FTL技术的发展方向。"
