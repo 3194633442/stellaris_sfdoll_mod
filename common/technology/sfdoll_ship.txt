@@ -7,9 +7,9 @@ tech_sfdoll_weapon_s_1 = {
 	category = { military_theory }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_s_1
-	potential = {	has_authority = auth_gf_sfdoll }
+	potential = { always = no	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_collapse_liquid_produce }
-	weight = @tier4weight3
+	weight = 0
 }
 
 # tech_sfdoll_weapon_p_1 = {
@@ -161,8 +161,8 @@ tech_sfdoll_weapon_L_speed = {
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_L_speed
 	prerequisites = { tech_sfdoll_weapon_L_2	}
-	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = @tier5weight2
+	potential = { always = no	has_authority = auth_gf_sfdoll	}
+	weight = 0
 }
 tech_sfdoll_missile_2 = {
 	cost = @tier5cost3
