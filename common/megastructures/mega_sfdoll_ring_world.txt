@@ -79,13 +79,14 @@ mega_sfdoll_ring_world_1 = {
 	# 	}
 	# }
 	resources = {
-		category = megastructures_habitat
+		category = megastructures
 		cost = {
 			alloys = 10000
 			unity = 1000
 			nanites = 200
 			GF_nyto_collapse_liquid = 200
 		}
+		upkeep = {	energy = 5	}
 	}
 	on_build_complete = {
 		create_message = {
