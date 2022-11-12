@@ -394,7 +394,7 @@ sfdoll_constructor = {
 # 		has_authority = auth_gf_sfdoll
 # 	}
 # 	# prerequisites = {
-# 	# 	tech_sfdoll_starport
+# 	# 	tech_mega_sfdoll_starport
 # 	# }
 # 	class = shipclass_starbase
 # 	base_buildtime = 0

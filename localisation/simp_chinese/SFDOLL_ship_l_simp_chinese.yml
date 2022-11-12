@@ -277,7 +277,7 @@ sm_starbase_building_sfdoll_assembly_desc:0 "在铁血的超级计算机控制�
 tech_starbase_building_sfdoll_assembly:0 "$sm_starbase_building_sfdoll_assembly$"
 tech_starbase_building_sfdoll_assembly_desc:0 "$sm_starbase_building_sfdoll_assembly_desc$"
 
-place_build_sfdoll_special_ship:0 "需要下列设施：$mega_shipyard_3$，$sfdoll_mega_starport_04$，$sfdoll_mobile_starbase$，$sm_starbase_building_sfdoll_assembly$"
+place_build_sfdoll_special_ship:0 "需要下列设施：$mega_shipyard_3$，$mega_sfdoll_starport_04$，$sfdoll_mobile_starbase$，$sm_starbase_building_sfdoll_assembly$"
 fail_build_sfdoll_special_ship:0 "£trigger_no£ $place_build_sfdoll_special_ship$"
 
 sfdoll_star_eater:0 "星辰改造者"

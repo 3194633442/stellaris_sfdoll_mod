@@ -1,8 +1,8 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_background_sfdoll_mega_starport"
-		textureFile = "gfx/interface/planetview/sfdoll_mega_starport.dds"
+		name = "GFX_background_mega_sfdoll_starport"
+		textureFile = "gfx/interface/planetview/mega_sfdoll_starport.dds"
 	}
 
 }

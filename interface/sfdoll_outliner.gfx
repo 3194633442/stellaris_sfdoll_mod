@@ -33,12 +33,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_sfdoll_mega_starport_01_outliner_icon"
-		textureFile = "gfx/interface/icons/megastructures/sfdoll/sfdoll_mega_starport.dds"
+		name = "GFX_mega_sfdoll_starport_01_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_starport.dds"
 	}
 	spriteType = {
-		name = "GFX_sfdoll_mega_starport_02_outliner_icon"
-		textureFile = "gfx/interface/icons/megastructures/sfdoll/sfdoll_mega_starport.dds"
+		name = "GFX_mega_sfdoll_starport_02_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_starport.dds"
 	}
 
 	spriteType = {

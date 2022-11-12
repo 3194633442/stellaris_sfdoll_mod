@@ -524,7 +524,7 @@ sfdoll_mobile_starbase = {
 # 	}
 # 	possible_construction = {
 # 		custom_tooltip = {
-# 			fail_text = "need_sfdoll_mega_starport"
+# 			fail_text = "need_mega_sfdoll_starport"
 # 			OR = {
 # 				AND = {
 # 					is_scope_type = starbase
@@ -533,7 +533,7 @@ sfdoll_mobile_starbase = {
 # 				AND = {
 # 					is_scope_type = megastructure
 # 					OR = {
-# 						is_megastructure_type = sfdoll_mega_starport_02
+# 						is_megastructure_type = mega_sfdoll_starport_02
 # 						is_megastructure_type = mega_shipyard_3
 # 						is_megastructure_type = mega_shipyard_2
 # 						is_megastructure_type = mega_shipyard_restored
