@@ -26,14 +26,14 @@ tech_mega_sfdoll_starport = {
 	category = { voidcraft }
 	is_rare = yes
 	icon = tech_mega_sfdoll_starport
-	prerequisites = {	tech_building_sfdoll_mineral	}	
+	prerequisites = { 	tech_building_sfdoll_mineral	}	
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
 	modifier = {
 		country_resource_max_add = 40000
 	}
-	weight = @tier3weight3
+	weight = 0
 }
 
 #太空城市
@@ -170,7 +170,7 @@ tech_sfdoll_mega_shipyard  = {
 	category = { military_theory }
 	is_rare = yes
 	icon = tech_mega_sfdoll_starport
-	prerequisites = { tech_mega_sfdoll_starport	}	
+	prerequisites = { tech_building_sfdoll_mineral	}	
 	potential = { has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight3
 }
