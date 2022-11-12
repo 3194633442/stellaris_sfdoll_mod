@@ -1,5 +1,5 @@
 #巨型星港
-sfdoll_mega_starport_01 = {
+sfdoll_starport_01 = {
 	entity = "construction_platform_entity"
 	construction_entity = "construction_platform_entity"
 	place_entity_on_planet_plane = no
@@ -17,7 +17,7 @@ sfdoll_mega_starport_01 = {
 		}
 	}
 	build_outside_gravity_well = yes
-	prerequisites = { tech_sfdoll_mega_starport }
+	prerequisites = { tech_sfdoll_starport }
 	show_prereqs = yes
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -77,7 +77,7 @@ sfdoll_mega_starport_02 = {
 	show_galactic_map_icon = no
 	build_outside_gravity_well = yes
 	show_prereqs = no
-	prerequisites = { tech_sfdoll_mega_starport }
+	prerequisites = { tech_sfdoll_starport }
 	resources = {
 		category = megastructures
 		cost = {
@@ -127,7 +127,7 @@ sfdoll_mega_starport_03 = {
 	show_galactic_map_icon = no
 	build_outside_gravity_well = yes
 	show_prereqs = no
-	prerequisites = { tech_sfdoll_mega_starport }
+	prerequisites = { tech_sfdoll_starport }
 	resources = {
 		category = megastructures
 		cost = {
@@ -178,7 +178,7 @@ sfdoll_mega_starport_04 = {
 	show_galactic_map_icon = no
 	build_outside_gravity_well = yes
 	show_prereqs = no
-	prerequisites = { tech_sfdoll_mega_starport }
+	prerequisites = { tech_sfdoll_starport }
 	resources = {
 		category = megastructures
 		cost = {

@@ -3,6 +3,9 @@
 pc_sfdoll_black_hole:0 "Artificial Black Hole"
 pc_sfdoll_black_hole_desc:0 "$pc_sfdoll_black_hole$ can regulate gravity, slow down time and dispose of space junk, among other things. It's usually used by SF Dolls to build small artificial systems."
 
+sc_sfdoll_mega_system:0 "SF Artificial System"
+sc_sfdoll_ring_world:0 "$sc_sfdoll_mega_system$"
+
 pc_sfdoll_city:0 "Sangvis Ferri Arcology"
 pc_sfdoll_city_desc:0 "This planet can adjust the climate and ecosystem as needed."
 

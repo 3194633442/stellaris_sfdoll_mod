@@ -84,6 +84,8 @@ ap_sfdoll_3 = {
 	}
 	modifier = {
 		empire_size_mult = -0.1
+		megastructure_build_speed_mult = 0.5
+		country_megastructure_build_cap_add = 2
 		country_resource_max_add = 40000
 	}
 	ai_weight = {	factor = 1	}
@@ -105,8 +107,7 @@ ap_sfdoll_4= {
 	}
 	modifier = {
 		planet_decision_enact_speed_mult = 0.25
-		megastructure_build_speed_mult = 0.5
-		country_megastructure_build_cap_add = 2
+		megastructure_build_speed_add = 2
 		country_resource_max_add = 80000
 	}
 	on_enabled = {

@@ -3,6 +3,9 @@
 pc_sfdoll_black_hole:0 "人工黑洞"
 pc_sfdoll_black_hole_desc:0 "$pc_sfdoll_black_hole$可以调节引力、减缓时间和处理太空垃圾等。它通常被铁血用于建设小型人工星系。"
 
+sc_sfdoll_mega_system:0 "铁血人工星系"
+sc_sfdoll_ring_world:0 "$sc_sfdoll_mega_system$"
+
 pc_sfdoll_city:0 "铁血理想城"
 pc_sfdoll_city_desc:0 "铁血人形建设的城市星球,可根据需要调节气候和生态系统。"
 

@@ -128,6 +128,8 @@ mega_sfdoll_ring_world_2 = {
 			effect = {
 				set_surveyed = {	surveyed = yes	}
 				add_hyperlane = {	from = THIS	to = root	}
+				# 改sc从而改背景
+				set_star_class = sc_sfdoll_ring_world
 				set_name = "pc_rw_sfdoll"
 				create_starbase = {
 					size = starbase_outpost
@@ -214,6 +216,7 @@ mega_sfdoll_ring_world_4 = {
 	# prereq_name = "RING_WORLD_SHOW_NAME"
 	on_build_complete = {
 		from = { set_country_flag = has_built_or_repaired_megastructure	}
+		fromfrom.planet = {	set_planet_flag = has_megastructure }
 		spawn_planet = {
 			class = "pc_ringworld_tech"
 			location = fromfrom
@@ -274,7 +277,6 @@ mega_sfdoll_ring_world_4 = {
 				}
 			}
 		}
-		fromfrom.planet = {	set_planet_flag = has_megastructure }
 		remove_megastructure = fromfrom
 	}
 }

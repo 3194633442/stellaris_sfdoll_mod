@@ -17,15 +17,15 @@ tech_sfdoll_mobile_starbase = {
 	weight = 1500
 }
 
-#巨型星港
-tech_sfdoll_mega_starport= {
+#星港
+tech_sfdoll_starport = {
 	area = engineering
 	start_tech = no
 	tier = 5
 	cost = @tier5cost3
 	category = { voidcraft }
 	is_rare = yes
-	icon = tech_sfdoll_mega_starport
+	icon = tech_sfdoll_starport
 	prerequisites = {	tech_building_sfdoll_mineral	}	
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -159,6 +159,18 @@ tech_sfdoll_ring_world = {
 	is_rare = yes
 	icon = tech_ring_world
 	prerequisites = { tech_sfdoll_habitat_01	}	
+	potential = { has_authority = auth_gf_sfdoll	}
+	weight = @tier5weight3
+}
+tech_sfdoll_mega_shipyard  = {
+	area = society
+	start_tech = no
+	tier = 5
+	cost = @tier5cost3
+	category = { military_theory }
+	is_rare = yes
+	icon = tech_sfdoll_starport
+	prerequisites = { tech_sfdoll_starport	}	
 	potential = { has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight3
 }
