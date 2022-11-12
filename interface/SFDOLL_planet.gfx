@@ -1,5 +1,3 @@
-
-
 #巨构图片
 spriteTypes = {	
 	spriteType = {
@@ -14,10 +12,15 @@ spriteTypes = {
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_megastructure_sfdoll_mega_shipyard"
 		texturefile = "gfx/interface/planetview/megastructure_sfdoll_mega_shipyard.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_background_mega_sfdoll_starport"
+		textureFile = "gfx/interface/planetview/mega_sfdoll_starport.dds"
 	}
 }

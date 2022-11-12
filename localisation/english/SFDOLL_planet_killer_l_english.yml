@@ -37,7 +37,6 @@ sfdoll_weapon_T_PK_DESC:0 "§YThe fleet equipped with this weapon can destroy a 
 
 tech_sfdoll_weapon_T_PK:0 "$sfdoll_weapon_T_PK$"
 tech_sfdoll_weapon_T_PK_desc:0 "This weapon can quickly destroy planets, and can also aiming and shooting continuously at low power."
-
 sfdoll_planet_killer_event.10:0 "$sfdoll_weapon_T_PK$ Interface"
 sfdoll_planet_killer_event.10.desc:0 "A fleet equipped with $sfdoll_weapon_T_PK$ has entered the orbit of §H[fromfrom.GetName]§!,do we have to destroy the object?\n\n You can use an edict to stop this function."
 sfdoll_planet_killer_event.10_a:0 "destroy §H[fromfrom.GetName]§!"

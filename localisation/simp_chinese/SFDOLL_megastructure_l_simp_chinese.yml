@@ -31,21 +31,16 @@ sfdoll_mega_shipyard_4_DESC:0 "$sfdoll_mega_shipyard$的部分船坞已经完成
 sfdoll_mega_shipyard_5:0 "$sfdoll_mega_shipyard$"
 sfdoll_mega_shipyard_5_DESC:0 "一座巨型宇宙港，拥有无数的设备用于建造和维护舰船。"
 
+pc_sfdoll_habitat:0 "铁血轨道城"
+pc_sfdoll_habitat_desc:0 "通过先进的工程技术,$pc_sfdoll_habitat$能够容纳大量的居民。"
+tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitat$"
+tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitat_desc$"
 
-sfdoll_habitat_01:0 "铁血太空城基址"
-sfdoll_habitat_01_DESC:0 "通过先进的FTL和能源技术,铁血太空城可以在远离恒星的位置上运转"
-sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
-sfdoll_habitat_01_complete:0 "我们建造了一座$sfdoll_habitat_01$"
-
-sfdoll_habitat_02:0 "铁血太空城"
-sfdoll_habitat_02_DESC:0 "通过先进的FTL和能源技术,铁血太空城可以在远离恒星的位置上运转"
-sfdoll_habitat_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_02_DESC$"
-sfdoll_habitat_02_complete:0 "我们建造了一座$sfdoll_habitat_02$"
-
-pc_sfdoll_habitis:0 "铁血太空城"
-pc_sfdoll_habitis_desc:0 "通过先进的FTL和能源技术,铁血太空城可以在远离恒星的位置上运转"
-tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
-tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
+sfdoll_habitat_01:0 "$pc_sfdoll_habitat$基址"
+sfdoll_habitat_01_DESC:0 "$pc_sfdoll_habitat_desc$"
+sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$pc_sfdoll_habitat_desc$"
+sfdoll_habitat_02:0 "$pc_sfdoll_habitat$"
+sfdoll_habitat_02_DESC:0 "$pc_sfdoll_habitat_desc$"
 
 
 

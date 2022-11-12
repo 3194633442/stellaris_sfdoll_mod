@@ -42,6 +42,27 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_sfdoll_mega_shipyard_1_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_starport.dds"
+	}
+	spriteType = {
+		name = "GFX_sfdoll_mega_shipyard_2_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_starport.dds"
+	}
+	spriteType = {
+		name = "GFX_sfdoll_mega_shipyard_3_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_starport.dds"
+	}
+	spriteType = {
+		name = "GFX_sfdoll_mega_shipyard_4_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_starport.dds"
+	}
+	spriteType = {
+		name = "GFX_sfdoll_mega_shipyard_5_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_starport.dds"
+	}
+
+	spriteType = {
 		name = "GFX_sfdoll_habitat_01_outliner_icon"
 		textureFile = "gfx/interface/icons/megastructures/sfdoll/sfdoll_habitat.dds"
 	}

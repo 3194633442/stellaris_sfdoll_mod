@@ -30,22 +30,18 @@ sfdoll_mega_shipyard_4_DESC:0 "Part of $sfdoll_mega_shipyard$'s shipyards has be
 sfdoll_mega_shipyard_5:0 "$sfdoll_mega_shipyard$"
 sfdoll_mega_shipyard_5_DESC:0 "A giant space port with countless facilities for building and maintaining ships."
 
+pc_sfdoll_habitat:0 "SF Orbital City"
+pc_sfdoll_habitat_desc:0 "Through advanced engineering techniques, $pc_sfdoll_habitat$ is able to accommodate a large number of residents."
+tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitat$"
+tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitat_desc$"
 
-sfdoll_habitat_01:0 "Sangvis Ferri Space City Site"
-sfdoll_habitat_01_DESC:0 "Through advanced FTL and energy technology, Sangvis Ferri Space City can operate far from the stars."
-sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_01_DESC$"
-sfdoll_habitat_01_complete:0 "$sfdoll_habitat_01$ completed"
+sfdoll_habitat_01:0 "$pc_sfdoll_habitat$ Site"
+sfdoll_habitat_01_DESC:0 "$pc_sfdoll_habitat_desc$"
+sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$pc_sfdoll_habitat_desc$"
+sfdoll_habitat_02:0 "$pc_sfdoll_habitat$ Site"
+sfdoll_habitat_02_DESC:0 "$pc_sfdoll_habitat_desc$"
 
-sfdoll_habitat_02:0 "Sangvis Ferri Space City"
-sfdoll_habitat_02_DESC:0 "$sfdoll_habitat_01_DESC$"
-sfdoll_habitat_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_habitat_02_DESC$"
-sfdoll_habitat_02_complete:0 "$sfdoll_habitat_02$ completed"
 
-pc_sfdoll_habitis:0 "Sangvis Ferri Space City"
-pc_sfdoll_habitis_desc:0 "$sfdoll_habitat_01_DESC$"
-
-tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
-tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
 
 sfdoll_star_attacker:0 "Heavy Supporter"

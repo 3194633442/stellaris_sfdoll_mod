@@ -273,7 +273,10 @@ mega_sfdoll_ring_world_4 = {
 				set_planet_flag = megastructure
 				if = {
 					limit = { from = { has_authority = auth_gf_sfdoll }}
-					start_colony = { owner = from }
+					start_colony = {
+						owner = root
+						species = owner_main_species
+					}
 				}
 			}
 		}

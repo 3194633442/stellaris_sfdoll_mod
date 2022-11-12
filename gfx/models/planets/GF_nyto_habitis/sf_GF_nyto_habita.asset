@@ -1,5 +1,5 @@
 entity = {
-	name = "GF_nyto_habita_entity2"
+	name = "sf_GF_nyto_habita_entity2"
 	pdxmesh = "GF_nyto_habita_mesh"
 	default_state = idle
 	scale = 3
@@ -22,7 +22,8 @@ entity = {
 }
 
 entity = {
-	name = "GF_nyto_habita_entity"
+	name = "sf_GF_nyto_habita_entity"
+	scale = 0.1
 	locator = {
 		name = entity_effect
 		position = {
@@ -30,6 +31,6 @@ entity = {
 		}
 	}
 	attach = {
-		entity_effect = GF_nyto_habita_entity2
+		entity_effect = sf_GF_nyto_habita_entity2
 	}
 }
