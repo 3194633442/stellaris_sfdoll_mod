@@ -159,7 +159,7 @@ tech_sfdoll_ring_world = {
 	is_rare = yes
 	prerequisites = { tech_sfdoll_habitat_01	}	
 	potential = { has_authority = auth_gf_sfdoll	}
-	weight = 0
+	weight = @tier5weight3
 }
 
 tech_sfdoll_star_attacker = {

@@ -83,8 +83,8 @@ mega_sfdoll_ring_world_1 = {
 		cost = {
 			alloys = 10000
 			unity = 1000
-			nanites = 1000
-			GF_nyto_collapse_liquid = 1000
+			nanites = 200
+			GF_nyto_collapse_liquid = 200
 		}
 	}
 	on_build_complete = {
@@ -103,14 +103,14 @@ mega_sfdoll_ring_world_2 = {
 	portrait = "GFX_megastructure_construction_background"
 	show_galactic_map_icon = no
 	show_in_outliner = no
-	build_time = 720
+	build_time = 1080
 	resources = {
 		category = megastructures
 		cost = {
 			alloys = 20000
 			unity = 2000
-			nanites = 2000
-			GF_nyto_collapse_liquid = 2000
+			nanites = 1000
+			GF_nyto_collapse_liquid = 1000
 		}
 	}
 	prerequisites = { tech_sfdoll_ring_world }
@@ -127,6 +127,7 @@ mega_sfdoll_ring_world_2 = {
 			effect = {
 				set_surveyed = {	surveyed = yes	}
 				add_hyperlane = {	from = THIS	to = root	}
+				set_name = "pc_rw_sfdoll"
 				create_starbase = {
 					size = starbase_outpost
 					effect = { set_owner = root.owner }
@@ -167,16 +168,10 @@ mega_sfdoll_ring_world_2 = {
 					graphical_culture = fromfrom
 					planet = star
 				}
-				create_message = {
-					type = MEGASTRUCTURE_BUILT
-					localization = "mega_sfdoll_ring_world_2"
-					days = 30
-					target = from
-				}
 				from = {
 					create_message = {
 						type = MEGASTRUCTURE_BUILT
-						localization = "sfdoll_mega_system_2_complete"
+						localization = "mega_sfdoll_ring_world_2"
 						days = 30
 						target = prev
 					}
@@ -209,8 +204,8 @@ mega_sfdoll_ring_world_4 = {
 		cost = {
 			alloys = 20000
 			unity = 2000
-			nanites = 2000
-			GF_nyto_collapse_liquid = 2000
+			nanites = 1000
+			GF_nyto_collapse_liquid = 1000
 		}
 	}
 

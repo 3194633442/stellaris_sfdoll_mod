@@ -1,5 +1,7 @@
 ﻿l_english:
 ###############################
+pc_sfdoll_black_hole:0 "Artificial Black Hole"
+pc_sfdoll_black_hole_desc:0 "$pc_sfdoll_black_hole$ can regulate gravity, slow down time and dispose of space junk, among other things. It's usually used by SF Dolls to build small artificial systems."
 
 pc_sfdoll_city:0 "Sangvis Ferri Arcology"
 pc_sfdoll_city_desc:0 "This planet can adjust the climate and ecosystem as needed."
@@ -28,8 +30,27 @@ district_generator_sfdoll_city_plural:0 "Resource  Districts"
 district_generator_sfdoll_city_desc:0 "$district_generator_sfdoll_city$"
 
 
-pc_rw_sfdoll:0 "Sangvis Ferri Star Ring"
-pc_rw_sfdoll_desc:0 "SF Dolls use the latest technology to upgrade the ring world."
+pc_rw_sfdoll:0 "SF Ring World"
+pc_rw_sfdoll_desc:0 "$pc_rw_sfdoll$ is the result of SF Dolls' cutting-edge technology and contains a large number of habitation zones."
+
+tech_sfdoll_ring_world:0 "$pc_rw_sfdoll$"
+tech_sfdoll_ring_world_desc:0 "$pc_rw_sfdoll_desc$"
+
+mega_sfdoll_ring_world_1:0 "$pc_rw_sfdoll$ Site"
+mega_sfdoll_ring_world_1_DESC:0 "To build $pc_rw_sfdoll$, we'll build a small artificial system."
+mega_sfdoll_ring_world_1_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_1_DESC$"
+
+mega_sfdoll_ring_world_2:0 "$pc_rw_sfdoll$ Frame"
+mega_sfdoll_ring_world_2_DESC:0 "$mega_sfdoll_ring_world_1_DESC$"
+mega_sfdoll_ring_world_2_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_1_DESC$"
+
+mega_sfdoll_ring_world_3:0 "$mega_sfdoll_ring_world_2$"
+mega_sfdoll_ring_world_3_DESC:0 "A large number of self-regulating machines are constantly in operation, creating a grand ring world."
+mega_sfdoll_ring_world_3_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_3_DESC$"
+
+mega_sfdoll_ring_world_4:0 "$pc_rw_sfdoll$"
+mega_sfdoll_ring_world_4_DESC:0 "mega_sfdoll_ring_world_3_DESC$"
+mega_sfdoll_ring_world_4_MEGASTRUCTURE_DETAILS:0 "mega_sfdoll_ring_world_3_DESC"
 
 district_rw_city_sfdoll:0 "Star Ring City"
 district_rw_city_sfdoll_plural:0 "Star Ring Cities"

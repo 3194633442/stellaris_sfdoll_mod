@@ -25,7 +25,7 @@ sfdoll_system_search_zion = {
 }
 
 sfdoll_system_mega_world = {
-	name = Name_sfdoll_system_mega_world
+	name = "pc_sfdoll_black_hole"
 	class = sc_sfdoll_mega_system
 	#usage = sfdoll_system_init
 	planet = {

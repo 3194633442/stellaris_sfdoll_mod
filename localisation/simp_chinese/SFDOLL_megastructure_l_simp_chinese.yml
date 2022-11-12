@@ -39,21 +39,20 @@ tech_sfdoll_habitat_01:0 "$pc_sfdoll_habitis$"
 tech_sfdoll_habitat_01_desc:0 "$pc_sfdoll_habitis_desc$"
 
 
-pc_sfdoll_black_hole:0 "铁血人工黑洞"
-pc_sfdoll_black_hole_desc:0 "$pc_sfdoll_black_hole$可以调节引力、减缓时间和处理太空垃圾等。它被用于建设小型人工星系。"
-sc_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"
-sc_sfdoll_mega_system_desc:0 "$pc_sfdoll_black_hole_desc$"
-tech_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"
-tech_sfdoll_mega_system_desc:0 "$pc_sfdoll_black_hole_desc$"
 
-sfdoll_mega_system_1:0 "$pc_sfdoll_black_hole$基址"
-sfdoll_mega_system_1_DESC:0 "我们将利用$pc_sfdoll_black_hole$来建立一个人工星系"
-sfdoll_mega_system_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_system_1_DESC$"
-sfdoll_mega_system_2:0 "$pc_sfdoll_black_hole$"
-sfdoll_mega_system_2_DESC:0 "$sfdoll_mega_system_1_DESC$"
-sfdoll_mega_system_2_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_system_1_DESC$"
-sfdoll_mega_system_2_complete:0 "我们建造了一个人工星系"
-Name_sfdoll_system_mega_world:0 "铁血人工星系"
+# sc_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"
+# sc_sfdoll_mega_system_desc:0 "$pc_sfdoll_black_hole_desc$"
+# tech_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"
+# tech_sfdoll_mega_system_desc:0 "$pc_sfdoll_black_hole_desc$"
+
+# sfdoll_mega_system_1:0 "$pc_sfdoll_black_hole$基址"
+# sfdoll_mega_system_1_DESC:0 "我们将利用$pc_sfdoll_black_hole$来建立一个人工星系"
+# sfdoll_mega_system_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_system_1_DESC$"
+# sfdoll_mega_system_2:0 "$pc_sfdoll_black_hole$"
+# sfdoll_mega_system_2_DESC:0 "$sfdoll_mega_system_1_DESC$"
+# sfdoll_mega_system_2_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_system_1_DESC$"
+# sfdoll_mega_system_2_complete:0 "我们建造了一个人工星系"
+# Name_sfdoll_system_mega_world:0 "铁血人工星系"
 
 
 

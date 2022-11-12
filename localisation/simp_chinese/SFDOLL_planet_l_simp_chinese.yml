@@ -1,9 +1,10 @@
 ﻿l_simp_chinese:
 ###############################
+pc_sfdoll_black_hole:0 "人工黑洞"
+pc_sfdoll_black_hole_desc:0 "$pc_sfdoll_black_hole$可以调节引力、减缓时间和处理太空垃圾等。它通常被铁血用于建设小型人工星系。"
 
 pc_sfdoll_city:0 "铁血理想城"
 pc_sfdoll_city_desc:0 "铁血人形建设的城市星球,可根据需要调节气候和生态系统。"
-
 
 district_sfdoll_house:0 "铁血城市"
 district_sfdoll_house_plural:0 "铁血城市"
@@ -31,8 +32,11 @@ district_generator_sfdoll_city_desc:0 "$district_generator_sfdoll_city$"
 
 pc_rw_sfdoll:0 "铁血环世界"
 pc_rw_sfdoll_desc:0 "$pc_rw_sfdoll$是铁血尖端技术的结晶，包含了大量宜居区段"
+tech_sfdoll_ring_world:0 "$pc_rw_sfdoll$"
+tech_sfdoll_ring_world_desc:0 "$pc_rw_sfdoll_desc$"
+
 mega_sfdoll_ring_world_1:0 "$pc_rw_sfdoll$基址"
-mega_sfdoll_ring_world_1_DESC:0 "大量的自律机械不断运作，方能编织起宏大的环形框架"
+mega_sfdoll_ring_world_1_DESC:0 "为了建造$pc_rw_sfdoll$，我们会建立一个小型人工星系。"
 mega_sfdoll_ring_world_1_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_1_DESC$"
 
 mega_sfdoll_ring_world_2:0 "$pc_rw_sfdoll$框架"
@@ -40,14 +44,14 @@ mega_sfdoll_ring_world_2_DESC:0 "$mega_sfdoll_ring_world_1_DESC$"
 mega_sfdoll_ring_world_2_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_1_DESC$"
 
 mega_sfdoll_ring_world_3:0 "$mega_sfdoll_ring_world_2$"
-mega_sfdoll_ring_world_3_DESC:0 "$mega_sfdoll_ring_world_1_DESC$"
-mega_sfdoll_ring_world_3_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_1_DESC$"
+mega_sfdoll_ring_world_3_DESC:0 "大量的自律机械不断运作，从而编织起宏大的铁血环形世界。"
+mega_sfdoll_ring_world_3_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_3_DESC$"
 
 mega_sfdoll_ring_world_4:0 "$pc_rw_sfdoll$"
-mega_sfdoll_ring_world_4_DESC:0 "$pc_rw_sfdoll_desc$"
-mega_sfdoll_ring_world_4_MEGASTRUCTURE_DETAILS:0 "$pc_rw_sfdoll_desc$"
-tech_sfdoll_ring_world:0 "$pc_rw_sfdoll$"
-tech_sfdoll_ring_world_desc:0 "$pc_rw_sfdoll_desc$"
+mega_sfdoll_ring_world_4_DESC:0 "mega_sfdoll_ring_world_3_DESC$"
+mega_sfdoll_ring_world_4_MEGASTRUCTURE_DETAILS:0 "mega_sfdoll_ring_world_3_DESC"
+
+
 
 district_rw_city_sfdoll:0 "星环城市"
 district_rw_city_sfdoll_plural:0 "星环城市"

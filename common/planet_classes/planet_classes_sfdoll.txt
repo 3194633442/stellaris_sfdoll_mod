@@ -50,7 +50,7 @@ pc_sfdoll_black_hole = {
 	entity = "sfdoll_black_hole_entity"
 	entity_scale = 20
 	icon = GFX_planet_type_black_hole
-
+	picture = pc_black_hole
 	atmosphere_color		= hsv { 0.075 0.13 1.5 }
 	atmosphere_intensity	= 1.0
 	atmosphere_width		= 1.0
@@ -78,7 +78,7 @@ pc_sfdoll_star_world = {
 	atmosphere_width		= 0.5
 	city_color_lut = "gfx/portraits/misc/colorcorrection_continental.dds"
 	modifier = {
-		planet_jobs_produces_mult = 0.5
+		planet_jobs_produces_mult = 0.25
 		planet_max_buildings_add = 36
 	}
 	min_distance_from_sun = @habitable_min_distance
