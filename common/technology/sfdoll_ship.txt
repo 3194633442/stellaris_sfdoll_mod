@@ -489,7 +489,7 @@ tech_sfdoll_warship_4 = {
 	modifier = {
 		country_command_limit_add = 200
 	}
-	weight = 1400
+	weight = @tier5weight3
 }
 tech_sfdoll_warship_5 = {
 	cost = @tier5cost3
@@ -503,7 +503,7 @@ tech_sfdoll_warship_5 = {
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 5
-	weight = 1400
+	weight = @tier5weight3
 }
 tech_sfdoll_warship_6 = {
 	cost = @tier5cost3
@@ -517,7 +517,7 @@ tech_sfdoll_warship_6 = {
 		has_authority = auth_gf_sfdoll
 	}
 	tier = 5
-	weight = 1000
+	weight = @tier5weight3
 }
 tech_sfdoll_warship_S1 = {
 	cost = @tier5cost3
@@ -529,7 +529,7 @@ tech_sfdoll_warship_S1 = {
 	prerequisites = {	tech_sfdoll_warship_3	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
-	weight = 0
+	weight = @tier5weight3
 }
 tech_sfdoll_warship_S2 = {
 	cost = @tier5cost3
@@ -541,7 +541,7 @@ tech_sfdoll_warship_S2 = {
 	prerequisites = {	tech_sfdoll_warship_S1	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
-	weight = 0
+	weight = @tier5weight3
 }
 
 

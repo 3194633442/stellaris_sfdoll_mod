@@ -23,7 +23,7 @@ entity = {
 
 entity = {
 	name = "sf_GF_nyto_habita_entity"
-	scale = 0.1
+	scale = 0.05
 	locator = {
 		name = entity_effect
 		position = {
