@@ -61,6 +61,7 @@ utility_component_template = {
 		sfdoll_warship_4
 		sfdoll_warship_5
 		sfdoll_warship_6
+		sfdoll_warship_S1
 		sfdoll_mobile_starbase
 		sfdoll_star_eater
 	}
@@ -110,6 +111,7 @@ utility_component_template = {
 		sfdoll_warship_4
 		sfdoll_warship_5
 		sfdoll_warship_6
+		sfdoll_warship_S1
 		sfdoll_mobile_starbase
 		sfdoll_star_eater
 	}

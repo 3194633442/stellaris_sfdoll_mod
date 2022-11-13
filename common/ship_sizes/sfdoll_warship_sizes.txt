@@ -322,7 +322,7 @@ sfdoll_warship_6 = {
 	components_add_to_cost = no
 
 	prerequisites = { tech_sfdoll_warship_6 }
-	potential_country = {	has_authority = auth_gf_sfdoll	}
+	potential_country = { is_ai = no	has_authority = auth_gf_sfdoll	}
 	possible_construction = {	can_build_sfdoll_special_ship = yes }
 	
 	class = shipclass_military
@@ -354,6 +354,7 @@ sfdoll_warship_6 = {
 
 # 轻型支援舰
 sfdoll_warship_S1 = {
+	entity = "SFGF_nyto_02_cruiser_entity"
 	formation_priority = @cruiser_formation_priority
 	max_speed = @speed_very_fast
 	acceleration = 0.25
@@ -381,6 +382,8 @@ sfdoll_warship_S1 = {
 	enable_3dview_in_ship_browser = no 
 	default_behavior = artillery
 	prerequisites = { "tech_sfdoll_warship_S1" }
+	potential_country = { is_ai = no has_authority = auth_gf_sfdoll }
+	possible_construction = {	can_build_sfdoll_special_ship = yes }
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
