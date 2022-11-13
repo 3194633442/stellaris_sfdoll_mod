@@ -89,7 +89,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_speed_mult = 9
+		ship_speed_mult = 8
 		ship_evasion_add = 80
 	}
 
@@ -120,7 +120,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_speed_mult = 9
+		ship_speed_mult = 8
 		ship_evasion_add = 70
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -149,7 +149,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_speed_mult = 9
+		ship_speed_mult = 8
 		ship_evasion_add = 60
 	}
 
@@ -180,7 +180,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_speed_mult = 9
+		ship_speed_mult = 8
 		ship_evasion_add = 50
 	}
 
@@ -210,7 +210,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_speed_mult = 9
+		ship_speed_mult = 8
 		ship_evasion_add = 20
 	}
 
@@ -241,7 +241,7 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_speed_mult = 9
+		ship_speed_mult = 8
 	}
 
 	prerequisites = { "tech_sfdoll_thruster" }
@@ -286,7 +286,7 @@ utility_component_template = {
 		category = ship_components
 	}
 	modifier = {
-		ship_speed_mult = 9
+		ship_speed_mult = 8
 	}
 	component_set = "thruster_components"
 	size_restriction = { sfdoll_mobile_starbase }

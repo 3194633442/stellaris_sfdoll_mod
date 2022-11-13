@@ -276,7 +276,7 @@ building_sfdoll_alloys_2 = {
 building_sfdoll_goods_plant = {
 	base_buildtime = @b2_time
 	category = manufacturing
-	icon = building_sfdoll_goods_plant_2
+	icon = building_sfdoll_goods_plant
 	potential = {
 		# 铁血帝国才能造
 		owner = {		has_country_flag = sfdoll_empire	}

@@ -519,6 +519,32 @@ tech_sfdoll_warship_6 = {
 	tier = 5
 	weight = 1000
 }
+tech_sfdoll_warship_S1 = {
+	cost = @tier5cost3
+	area = engineering
+	start_tech = no
+	icon = tech_sfdoll_titan
+	is_rare = yes
+	category = { voidcraft }
+	prerequisites = {	tech_sfdoll_warship_3	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 5
+	weight = 0
+}
+tech_sfdoll_warship_S2 = {
+	cost = @tier5cost3
+	area = engineering
+	start_tech = no
+	icon = tech_sfdoll_titan
+	is_rare = yes
+	category = { voidcraft }
+	prerequisites = {	tech_sfdoll_warship_S1	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 5
+	weight = 0
+}
+
+
 #铁血巨像
 tech_sfdoll_star_eater = {
 	area = engineering
