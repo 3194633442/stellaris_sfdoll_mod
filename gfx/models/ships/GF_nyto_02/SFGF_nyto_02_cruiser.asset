@@ -65,7 +65,7 @@ entity = {
 		event = { time = 4.9 node = "explosion_locator5" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
 		event = { time = 17.5 node = "part2" particle = "small_player_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
 	}
-	scale = 2
+	scale = 2.5
 	game_data = {
 		size = @cruiser_scale
 		emissive_recolor_crunch = 3.0
@@ -236,9 +236,11 @@ entity = {
 entity = {
 	name = "SFGF_nyto_02_cruiser_mid_M2S2_entity"
 	pdxmesh = "GF_nyto_02_cruiser_locator_mesh"
-	# 加2点位
+	# 加点位
 	locator = { name = "sf1" 	position = { -4 0 1 } }
 	locator = { name = "sf2" 	position = { 4 0 1 } }
+	locator = { name = "sf3" 	position = { -4 0 -2 } }
+	locator = { name = "sf4" 	position = { 4 0 -2 } }
 }
 #stern
 # entity = {
@@ -254,16 +256,16 @@ entity = {
 # 		}
 # 	}
 # }
-entity = {
-	name = "SFGF_nyto_02_cruiser_stern_S2_entity"
-	pdxmesh = "GF_nyto_02_cruiser_locator_mesh"
-	game_data = {
-		trail_locators = {
-			"engine_medium_01" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
-			"engine_small_01" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
-			"engine_small_02" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
-			"engine_small_03" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
-			"engine_small_04" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
-		}
-	}
-}
+# entity = {
+# 	name = "SFGF_nyto_02_cruiser_stern_S2_entity"
+# 	pdxmesh = "GF_nyto_02_cruiser_locator_mesh"
+# 	game_data = {
+# 		trail_locators = {
+# 			"engine_medium_01" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
+# 			"engine_small_01" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
+# 			"engine_small_02" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
+# 			"engine_small_03" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
+# 			"engine_small_04" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
+# 		}
+# 	}
+# }

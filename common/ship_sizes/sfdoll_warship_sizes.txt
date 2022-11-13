@@ -352,16 +352,16 @@ sfdoll_warship_6 = {
 
 # 轻型支援舰
 sfdoll_warship_S1 = {
+	graphical_culture = no
 	entity = "SFGF_nyto_02_cruiser_entity"
 	formation_priority = @cruiser_formation_priority
 	max_speed = @speed_very_fast
-	acceleration = 0.25
-	rotation_speed = 0.175
+	acceleration = 0.3
+	rotation_speed = 0.2
 	collision_radius = @cruiser_collision_radius
-	max_hitpoints = @cruiser_hp
 	base_buildtime = 360
 	size_multiplier = 12
-	fleet_slot_size = 9
+	fleet_slot_size = 4 #9
 	combat_disengage_chance = 1.50
 	num_target_locators = 4
 	max_hitpoints = 500000
@@ -372,7 +372,7 @@ sfdoll_warship_S1 = {
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {	ships_upkeep_mult = -1	}
-	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part2" } }
 	is_space_station = no
 	icon = ship_size_military_4
 	can_have_federation_design = yes
@@ -400,6 +400,7 @@ sfdoll_warship_S1 = {
 
 # 重型支援舰
 sfdoll_warship_S2 = {
+	graphical_culture = no
 	entity = "sf_SANGVIS_FERRI_frame_entity"
 	max_speed = @speed_very_fast
 	acceleration = 0.3

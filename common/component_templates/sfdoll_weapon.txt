@@ -423,7 +423,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_s_2" }
 	component_set = "sfdoll_weapon_s_2"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
@@ -473,7 +473,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_s_2" }
 	component_set = "component_set_sfdoll_weapon_p_2"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense weapon_type_sfdoll }
 	ai_tags = { weapon_role_point_defense }
@@ -524,7 +524,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "sfdoll_weapon_M_2"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = {  weapon_role_artillery }
@@ -576,7 +576,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_2" }
 	component_set = "component_set_sfdoll_weapon_L_2"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
@@ -628,7 +628,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_L_speed" }
 	component_set = "sfdoll_weapon_L_speed"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
@@ -682,7 +682,7 @@ weapon_component_template = {
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_2" }
 	component_set = "component_set_sfdoll_weapon_x_2"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
@@ -736,7 +736,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_sfdoll_weapon_T_2" }
 	component_set = "sfdoll_weapon_T_2"
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
@@ -825,7 +825,7 @@ weapon_component_template = {
 	prerequisites = {	tech_sfdoll_missile_2 }
 	component_set = "sfdoll_missile_2"
 	projectile_gfx = "neutron_torpedoes"
-	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive weapon_type_sfdoll	}
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive weapon_type_sfdoll sfdoll_warship_S2	}
 	ai_tags = {	weapon_role_anti_hull	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
@@ -852,7 +852,7 @@ weapon_component_template = {
 			alloys = 1
 		}
 	}
-	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6	sfdoll_warship_S1 }
+	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6	sfdoll_warship_S1 sfdoll_warship_S2 }
 	ai_weight = {
 		weight = 50
 		modifier = {
@@ -899,7 +899,7 @@ weapon_component_template = {
 			alloys = 15
 		}
 	}
-	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6	}
+	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S2	}
 	ai_weight = {
 		weight = 50
 		modifier = {
@@ -946,7 +946,7 @@ strike_craft_component_template = {
 	acceleration = 0.9
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	resources = {
 		category = ship_components
 		cost = {
@@ -994,7 +994,7 @@ strike_craft_component_template = {
 	acceleration = 0.9
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_strike_craft weapon_type_sfdoll }
 	ai_tags = { weapon_role_point_defense }
-	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 }
 	resources = {
 		category = ship_components
 		cost = {
