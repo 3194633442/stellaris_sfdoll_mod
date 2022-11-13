@@ -42,8 +42,6 @@ sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$pc_sfdoll_habitat_desc$"
 sfdoll_habitat_02:0 "$pc_sfdoll_habitat$"
 sfdoll_habitat_02_DESC:0 "$pc_sfdoll_habitat_desc$"
 
-
-
 # sc_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"
 # sc_sfdoll_mega_system_desc:0 "$pc_sfdoll_black_hole_desc$"
 # tech_sfdoll_mega_system:0 "$pc_sfdoll_black_hole$"

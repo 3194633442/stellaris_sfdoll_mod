@@ -146,7 +146,7 @@ component_aura_sfdoll_1_text:0 "§YActivated at the beginning of the combat, the
 # 1-30 cooldowns are required for every 30 days.
 
 component_aura_sfdoll_2:0 "Space Prism"
-component_aura_sfdoll_2_text:0 "§YEffect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-400%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-400%§!"
+component_aura_sfdoll_2_text:0 "§YEffect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-100%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-100%§!"
 
 #defense
 sfdoll_ship_defense_s:0 "Enhanced Forcefield Shield"

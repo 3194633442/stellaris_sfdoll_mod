@@ -37,8 +37,8 @@ aura_sfdoll_1_modifier = {
 #³ÖÐøÑ¹ÖÆ
 aura_sfdoll_2_hostile_modifier = {
 	ship_accuracy_mult = -10
-	ship_shield_penetration_mult = -4
-	ship_armor_penetration_mult = -4
+	ship_shield_penetration_mult = -1
+	ship_armor_penetration_mult = -1
 }
 
 sfdoll_test_modifier = {
