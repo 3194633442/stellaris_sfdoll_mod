@@ -386,9 +386,9 @@ tech_sfdoll_aux_rebuild = {
 	is_rare = yes
 	is_reverse_engineerable = no
 	prerequisites = {	tech_sfdoll_warship_1	}
-	potential = {	has_authority = auth_gf_sfdoll	}
+	potential = { always = no	has_authority = auth_gf_sfdoll	}
 	tier = 5
-	weight = 1500
+	weight = 0
 }
 
 #传感器，需要原版传感器前置

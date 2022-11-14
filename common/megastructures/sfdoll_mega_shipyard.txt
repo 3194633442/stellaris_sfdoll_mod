@@ -58,10 +58,10 @@ sfdoll_mega_shipyard_2 = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 20000
+			alloys = 30000
 			unity = 1000
-			nanites = 400
-			GF_nyto_collapse_liquid = 400
+			nanites = 600
+			GF_nyto_collapse_liquid = 600
 		}
 	}
 	prerequisites = { tech_sfdoll_mega_shipyard }
@@ -114,7 +114,10 @@ sfdoll_mega_shipyard_3 = {
 	# used from script only
 	upgrade_desc = hide
 	potential = { always = no }
-	upkeep = { energy = 40 alloys = 4 }
+	resources = {
+		category = megastructures
+		upkeep = { energy = 20 alloys = 2 }
+	}
 }
 
 sfdoll_mega_shipyard_4  = {
@@ -166,7 +169,7 @@ sfdoll_mega_shipyard_5 = {
 	ship_modifier = { ship_starting_experience_add = 1000 }
 	
 	station_modifier = {
-		starbase_shipyard_capacity_add = 600
+		starbase_shipyard_capacity_add = 400
 		starbase_shipyard_build_cost_mult = -0.10
 		starbase_shipyard_build_speed_mult = 8.0		
 	}
@@ -178,7 +181,7 @@ sfdoll_mega_shipyard_5 = {
 			nanites = 600
 			GF_nyto_collapse_liquid = 600
 		}
-		upkeep = { energy = 1200 alloys = 120 nanites = 10 GF_nyto_collapse_liquid = 10 }
+		upkeep = { energy = 1000 alloys = 100 nanites = 10 GF_nyto_collapse_liquid = 10 }
 	}
 	upgrade_from = { "sfdoll_mega_shipyard_4" }
 	on_build_complete = {

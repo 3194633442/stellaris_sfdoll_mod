@@ -91,8 +91,8 @@ mega_sfdoll_mobile_starbase_2 = {
 }
 
 mega_sfdoll_mobile_starbase_3 = {
-	entity = "construction_platform_entity"
-	construction_entity = "construction_platform_entity"
+	entity = "sfdoll_Sewship_entity"
+	construction_entity = "sfdoll_Sewship_entity"
 	show_galactic_map_icon = no
 	place_entity_on_planet_plane = no
 	build_time = 1800
@@ -125,8 +125,8 @@ mega_sfdoll_mobile_starbase_3 = {
 }
 
 mega_sfdoll_mobile_starbase_4 = {
-	entity = "construction_platform_entity"
-	construction_entity = "construction_platform_entity"
+	entity = ""
+	construction_entity = ""
 	show_galactic_map_icon = no
 	place_entity_on_planet_plane = no
 	build_time = 1800
@@ -164,6 +164,12 @@ mega_sfdoll_mobile_starbase_4 = {
 						name = "sfdoll_mobile_starbase"
 						prefix = no
 						upgradable = yes
+						effect = {
+							add_modifier = {
+								modifier = sfdoll_mobile_starbase_mod
+								days = -1
+							}
+						}
 					}
 					set_location = fromfrom
 				}

@@ -41,6 +41,11 @@ aura_sfdoll_2_hostile_modifier = {
 	ship_armor_penetration_mult = -1
 }
 
+# Ä¸½¢
+sfdoll_mobile_starbase_mod = {
+	ship_starting_experience_add = 1000	
+}
+
 sfdoll_test_modifier = {
 	all_technology_research_speed = 20
 	# planet_jobs_physics_research_produces_mult = 20

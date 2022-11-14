@@ -93,20 +93,23 @@ sfdoll_mobile_starbase_section_4:0 "D"
 thruster_sfdoll_mobile_starbase:0 "推进器"
 
 tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
-tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$是拥有船坞的移动基地。目前，它是铁血设计的最为庞大的飞船。未来，它将参与河外星系探索计划。§Y$sfdoll_mobile_starbase$需要通过巨构工程来建造。§!"
+tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$是拥有船坞的移动基地。未来，它将参与河外星系探索计划。§Y$sfdoll_mobile_starbase$需要通过巨构工程来建造。§!"
 # sfdoll_tech_event.2_title:0 "$sfdoll_mobile_starbase$计划"
 # sfdoll_tech_event.2_desc:0 "为了探索河外星系，铁血即将设计名为深空母舰的新舰船。现有的船坞无法完成它的建造，所以，$sfdoll_mobile_starbase$需要通过巨构工程来建造。"
 
 mega_sfdoll_mobile_starbase_1:0 "$sfdoll_mobile_starbase$基址"
-mega_sfdoll_mobile_starbase_1_DESC:0 "$sfdoll_mobile_starbase$需要通过巨构工程来建造"
+mega_sfdoll_mobile_starbase_1_DESC:0 "$sfdoll_mobile_starbase$需要建造在重力井之外"
 mega_sfdoll_mobile_starbase_1_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_1_DESC$"
 mega_sfdoll_mobile_starbase_1_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_1$"
 
-mega_sfdoll_mobile_starbase_2:0 "$sfdoll_mobile_starbase$"
+mega_sfdoll_mobile_starbase_2:0 "$sfdoll_mobile_starbase$ 阶段2"
 mega_sfdoll_mobile_starbase_2_DESC:0 "你需要拥有至少一个$sfdoll_mobile_starbase$的设计,才能顺利完成它"
-mega_sfdoll_mobile_starbase_2_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_2_DESC$"
-mega_sfdoll_mobile_starbase_2_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_2$"
 
+mega_sfdoll_mobile_starbase_3:0 "$sfdoll_mobile_starbase$ 阶段3"
+mega_sfdoll_mobile_starbase_3_DESC:0 "以次元锚作为基础，这艘$sfdoll_mobile_starbase$的基础框架已经建造完成。"
+
+mega_sfdoll_mobile_starbase_4:0 "$sfdoll_mobile_starbase$ 最终阶段"
+mega_sfdoll_mobile_starbase_4_DESC:0 "$sfdoll_mobile_starbase$将获得完整的功能。"
 
 sfdoll_star_exploit_01:0 "铁血戴森云基址"
 sfdoll_star_exploit_01_DESC:0 "$sfdoll_star_exploit_02_DESC$"
