@@ -104,7 +104,7 @@ mega_sfdoll_ring_world_2 = {
 	portrait = "GFX_megastructure_construction_background"
 	show_galactic_map_icon = no
 	show_in_outliner = no
-	build_time = 1080
+	build_time = 1800
 	resources = {
 		category = megastructures
 		cost = {
@@ -197,7 +197,7 @@ mega_sfdoll_ring_world_4 = {
 	entity = ""
 	construction_entity = "ringworld_phase_3_construction_entity"
 	portrait = "GFX_megastructure_construction_background"
-	build_time = 720
+	build_time = 3600
 	show_galactic_map_icon = no
 	show_in_outliner = no
 	prerequisites = { tech_sfdoll_ring_world }
@@ -205,10 +205,10 @@ mega_sfdoll_ring_world_4 = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 20000
-			unity = 2000
-			nanites = 1000
-			GF_nyto_collapse_liquid = 1000
+			alloys = 10000
+			unity = 1000
+			nanites = 800
+			GF_nyto_collapse_liquid = 800
 		}
 	}
 
