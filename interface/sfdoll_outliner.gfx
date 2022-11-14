@@ -72,11 +72,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_mega_sfdoll_mobile_starbase_01_outliner_icon"
+		name = "GFX_mega_sfdoll_mobile_starbase_1_outliner_icon"
 		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_mobile_starbase.dds"
 	}
 	spriteType = {
-		name = "GFX_mega_sfdoll_mobile_starbase_02_outliner_icon"
+		name = "GFX_mega_sfdoll_mobile_starbase_2_outliner_icon"
 		textureFile = "gfx/interface/icons/megastructures/sfdoll/mega_sfdoll_mobile_starbase.dds"
 	}
 	

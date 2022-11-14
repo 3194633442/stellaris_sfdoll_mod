@@ -97,15 +97,15 @@ tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$是拥有船坞的�
 # sfdoll_tech_event.2_title:0 "$sfdoll_mobile_starbase$计划"
 # sfdoll_tech_event.2_desc:0 "为了探索河外星系，铁血即将设计名为深空母舰的新舰船。现有的船坞无法完成它的建造，所以，$sfdoll_mobile_starbase$需要通过巨构工程来建造。"
 
-mega_sfdoll_mobile_starbase_01:0 "$sfdoll_mobile_starbase$基址"
-mega_sfdoll_mobile_starbase_01_DESC:0 "$sfdoll_mobile_starbase$需要通过巨构工程来建造"
-mega_sfdoll_mobile_starbase_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_01_DESC$"
-mega_sfdoll_mobile_starbase_01_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_01$"
+mega_sfdoll_mobile_starbase_1:0 "$sfdoll_mobile_starbase$基址"
+mega_sfdoll_mobile_starbase_1_DESC:0 "$sfdoll_mobile_starbase$需要通过巨构工程来建造"
+mega_sfdoll_mobile_starbase_1_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_1_DESC$"
+mega_sfdoll_mobile_starbase_1_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_1$"
 
-mega_sfdoll_mobile_starbase_02:0 "$sfdoll_mobile_starbase$"
-mega_sfdoll_mobile_starbase_02_DESC:0 "你需要拥有至少一个$sfdoll_mobile_starbase$的设计,才能顺利完成它"
-mega_sfdoll_mobile_starbase_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_02_DESC$"
-mega_sfdoll_mobile_starbase_02_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_02$"
+mega_sfdoll_mobile_starbase_2:0 "$sfdoll_mobile_starbase$"
+mega_sfdoll_mobile_starbase_2_DESC:0 "你需要拥有至少一个$sfdoll_mobile_starbase$的设计,才能顺利完成它"
+mega_sfdoll_mobile_starbase_2_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_2_DESC$"
+mega_sfdoll_mobile_starbase_2_complete:0 "我们建造了一座$mega_sfdoll_mobile_starbase_2$"
 
 
 sfdoll_star_exploit_01:0 "铁血戴森云基址"

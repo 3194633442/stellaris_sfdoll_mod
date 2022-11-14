@@ -525,26 +525,28 @@ sfdoll_mobile_starbase = {
 	collision_radius = @titan_collision_radius
 	max_hitpoints = 1000000
 	modifier = {
-		ship_evasion_add = 10
+		ship_evasion_add = 30
 		ship_armor_add = 500000
 		ship_shield_add = 500000
-		ship_piracy_suppression_add = 10
-		starbase_shipyard_capacity_add = 20
-		starbase_shipyard_build_speed_mult = 2
-		ship_starting_experience_add = 500
+		ship_hull_regen_add_static = 500000
+		ship_armor_regen_add_static = 500000
+		ship_shield_regen_add_static = 500000
+		ship_piracy_suppression_add = 20
+		starbase_shipyard_capacity_add = 25
+		# 是否有效？
+		starbase_shipyard_build_speed_mult = 8
+		ship_starting_experience_add = 1000
+
 	}
 	combat_disengage_chance = 2
-	ship_modifier = {	ships_upkeep_mult = -1	}
+	# ship_modifier = {	ships_upkeep_mult = -1	}
 	resources = {
 		category = ships
-		upkeep = {
-			energy = 400
-			alloys = 200
-		}
+		upkeep = { energy = 400 alloys = 200 }
 	}
 	components_add_to_cost = no
 	combat_size_multiplier = 3
-	size_multiplier = 128
+	size_multiplier = 256
 	fleet_slot_size = 8
 	num_target_locators = 8
 	section_slots = {
