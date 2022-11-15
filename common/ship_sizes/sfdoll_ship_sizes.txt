@@ -115,7 +115,7 @@ ship_sfdoll_noel = {
 
 #信标船
 sfdoll_change_hyperlane_ship = {
-	entity = "nemesis_01_titan_entity"
+	entity = "constructor_entity"
 	max_speed = 160
 	acceleration = 0.2
 	rotation_speed = 0.15
@@ -123,7 +123,7 @@ sfdoll_change_hyperlane_ship = {
 	max_hitpoints = 500000
 	size_multiplier = 0
 	fleet_slot_size = 16
-	section_slots = { "mid" = { locator = "part2" } }
+	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 4
 	is_space_station = no
 	icon = ship_size_military_16

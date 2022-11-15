@@ -125,7 +125,7 @@ utility_component_template = {
 	}
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 sfdoll_warship_S1 sfdoll_warship_S2 destroyer }
+	size_restriction = { sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 destroyer }
 
 	ai_weight = {
 		weight = 5

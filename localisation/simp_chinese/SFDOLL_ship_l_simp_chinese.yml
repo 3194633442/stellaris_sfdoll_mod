@@ -301,13 +301,12 @@ tech_starbase_building_sfdoll_assembly_desc:0 "$sm_starbase_building_sfdoll_asse
 place_build_sfdoll_special_ship:0 "需要下列设施：$mega_shipyard_3$，$sfdoll_mega_shipyard$，$sfdoll_mobile_starbase$，$sm_starbase_building_sfdoll_assembly$"
 fail_build_sfdoll_special_ship:0 "£trigger_no£ $place_build_sfdoll_special_ship$"
 
-sfdoll_star_eater:0 "星辰改造者"
+sfdoll_star_eater:0 "铁血攻击潜艇"
 sfdoll_star_eater_plural:0 "$sfdoll_star_eater$"
 tech_sfdoll_star_eater:0 "$sfdoll_star_eater$"
 tech_sfdoll_star_eater_desc:0 "$sfdoll_star_eater$"
 sfdoll_star_eater_bow:0 "A"
 sfdoll_star_eater_stern:0 "B"
-
 
 
 ship_sfdoll_noel:0 "诺耶露"

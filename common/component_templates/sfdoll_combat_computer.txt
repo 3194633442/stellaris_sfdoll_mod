@@ -17,7 +17,6 @@ utility_component_template = {
 		colossus
 		star_eater
 		sfdoll_mobile_starbase
-		sfdoll_star_eater
 	}
 	resources = {
 		category = ship_components
@@ -61,8 +60,6 @@ utility_component_template = {
 		sfdoll_warship_4
 		sfdoll_warship_5
 		sfdoll_warship_6
-		sfdoll_warship_S1
-		sfdoll_warship_S2
 		sfdoll_mobile_starbase
 		sfdoll_star_eater
 	}
@@ -112,8 +109,6 @@ utility_component_template = {
 		sfdoll_warship_4
 		sfdoll_warship_5
 		sfdoll_warship_6
-		sfdoll_warship_S1
-		sfdoll_warship_S2
 		sfdoll_mobile_starbase
 		sfdoll_star_eater
 	}

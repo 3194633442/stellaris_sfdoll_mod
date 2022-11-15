@@ -2,7 +2,9 @@ entity = {
 	name = "sf_SANGVIS_FERRI_flag_ship_entity"
 	pdxmesh = "SANGVIS_FERRI_flag_ship_mesh"
 	scale = 1.0
-	locator = { name = W01 position = { 0 0 -40 } }
+	locator = { name = W01 position = { 0 3 -40 } }
+	locator = { name = sf1 position = { 0 3 -20 } }
+	locator = { name = sf2 position = { 0 3 -60 } }
 	default_state = "idle"
 
 	state = { name = "idle"
@@ -70,7 +72,9 @@ entity = {
 entity = {
 	name = sf_SANGVIS_FERRI_locator_entity
 	pdxmesh = SANGVIS_FERRI_locator_mesh
-	locator = { name = W01 position = { 0 0 -40 } }
+	locator = { name = W01 position = { 0 3 -40 } }
+	locator = { name = sf1 position = { 0 3 -20 } }
+	locator = { name = sf2 position = { 0 3 -60 } }
 	game_data = {
 		size = 0.01
 	}
