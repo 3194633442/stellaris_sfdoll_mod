@@ -503,7 +503,7 @@ sfdoll_star_eater = {
 	required_component_set = "sfdoll_aura_components"
 	required_component_set = "component_aura_sfdoll_2"
 	auto_upgrade = no
-	potential_country = {	has_authority = auth_gf_sfdoll	}
+	potential_country = { has_ascension_perk = ap_sfdoll_4	has_authority = auth_gf_sfdoll	}
 	possible_construction = { can_build_sfdoll_special_ship = yes }
 	resources = {
 		category = ships

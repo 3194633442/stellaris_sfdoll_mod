@@ -676,8 +676,8 @@ weapon_component_template = {
 	tracking = 0.6
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 2
-	power = -2000
+	shield_damage = 4
+	power = -3000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_x_2" }
@@ -690,13 +690,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 600
-			GF_nyto_collapse_liquid = 300
-			sr_dark_matter = 100
+			alloys = 800
+			GF_nyto_collapse_liquid = 280
+			sr_dark_matter = 80
 		}		
 		upkeep = {
-			energy = 7
-			alloys = 5
+			energy = 20
+			alloys = 16
 		}
 	}
 	ai_weight = {
@@ -722,17 +722,17 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 180000 max = 210000 }
+	damage = { min = 240000 max = 280000 }
 	#冷却时间要除以10
-	total_fire_time = 91
-	windup = { min = 8 max = 8 }
+	total_fire_time = 121
+	windup = { min = 11 max = 11 }
 	range = 320
 	accuracy = 1
 	tracking = 0.5
 	shield_penetration = 1
 	armor_penetration = 1
 	hull_damage = 1.5
-	power = -8000
+	power = -12000
 	
 	prerequisites = { "tech_sfdoll_weapon_T_2" }
 	component_set = "sfdoll_weapon_T_2"
@@ -741,24 +741,22 @@ weapon_component_template = {
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
-	ai_weight = {	weight = -1500	}
+	ai_weight = {	weight = 0	}
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 2300
+			alloys = 1600
 			GF_nyto_collapse_liquid = 1200
-			sr_dark_matter = 500
+			sr_dark_matter = 320
 		}		
 		upkeep = {
-			energy = 14
-			alloys = 10
-			
+			energy = 80
+			alloys = 40
 		}
 	}
 }
 
 weapon_component_template = {
-	# key = "sfdoll_weapen_t_7" "sfdoll_weapon_t_7"
 	key = "sfdoll_weapon_T_PK"
 	size = titanic
 	type = instant
@@ -781,7 +779,7 @@ weapon_component_template = {
 	tracking = 1
 	shield_penetration = 1
 	armor_penetration = 1
-	power = -60000
+	power = -40000
 	prerequisites = { "tech_sfdoll_weapon_T_PK" }
 	component_set = "sfdoll_weapon_T_PK"
 	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_6 }
@@ -792,13 +790,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 10000
-			GF_nyto_collapse_liquid = 6000
-			sr_dark_matter = 3000
+			alloys = 1600
+			GF_nyto_collapse_liquid = 1600
+			sr_dark_matter = 500
 		}		
 		upkeep = {
-			energy = 30
-			alloys = 20
+			energy = 120
+			alloys = 60
 		}
 	}
 	ai_weight = {
@@ -808,7 +806,7 @@ weapon_component_template = {
 			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
 		}
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -828,7 +826,6 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive weapon_type_sfdoll	}
 	ai_tags = {	weapon_role_anti_hull	}
 	use_ship_kill_target = yes
-	# damage = { min = -999999999999999999 max = 999999999999999999  }
 	damage = { min = 6000 max = 7500 }
 	#冷却时间要除以10
 	total_fire_time = 121
@@ -839,7 +836,7 @@ weapon_component_template = {
 	tracking = 0.5
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 1.5
+	hull_damage = 3
 	resources = {
 		category = ship_components
 		cost = {
@@ -867,15 +864,16 @@ weapon_component_template = {
 	type = instant
 	icon = "GFX_sfdoll_missile_SP"
 	icon_frame = 1
-	power = -16000
-	prerequisites = {	tech_sfdoll_warship_5 }
+	power = -4000
+	prerequisites = {	tech_sfdoll_warship_4 }
 	component_set = "sfdoll_missile_SP"
 	projectile_gfx = "neutron_torpedoes"
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_explosive weapon_type_sfdoll	}
 	ai_tags = {	weapon_role_anti_hull	}
 	use_ship_kill_target = yes
 	# damage = { min = -999999999999999999 max = 999999999999999999  }
-	damage = { min = 480000 max = 560000 }
+	min_range = 20.0
+	damage = { min = 60000 max = 70000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = {	min = 11  max = 11 }
@@ -885,29 +883,75 @@ weapon_component_template = {
 	tracking = 0.5
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 2
-	armor_damage = 2
+	shield_damage = 4
+	armor_damage = 4
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 3000
-			GF_nyto_collapse_liquid = 2500
-			nanites = 500
+			alloys = 1600
+			GF_nyto_collapse_liquid = 300
+			nanites = 100
 		}		
 		upkeep = {
 			energy = 20
-			alloys = 15
+			alloys = 16
 		}
 	}
-	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_5 sfdoll_warship_6	}
+	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6	}
 	ai_weight = {
 		weight = 50
 		modifier = {
-			factor = -4
-			NOT = {		has_authority = auth_gf_sfdoll		}
+			factor = -1
+			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
 }
+
+# weapon_component_template = {
+# 	key = "sfdoll_missile_PK"
+# 	size = torpedo
+# 	type = instant
+# 	icon = "GFX_planet_killer_sfdoll_3"
+# 	icon_frame = 1
+# 	power = -6000000
+# 	prerequisites = {	"tech_planet_killer_sfdoll_3" }
+# 	component_set = "sfdoll_missile_PK"
+# 	projectile_gfx = "neutron_torpedoes"
+# 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll	}
+# 	ai_tags = {	weapon_role_anti_hull	}
+# 	use_ship_kill_target = yes
+# 	# damage = { min = -999999999999999999 max = 999999999999999999  }
+# 	damage = { min = 1300000 max = 1300000 }
+# 	#冷却时间要除以10
+# 	total_fire_time = 64
+# 	windup = {	min = 5  max = 5 }
+# 	range = 400
+# 	prio_projectile = yes
+# 	accuracy = 1
+# 	tracking = 1
+# 	shield_penetration = 1
+# 	armor_penetration = 1
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 10000
+# 			GF_nyto_collapse_liquid = 6000
+# 			sr_dark_matter = 10000
+# 		}		
+# 		upkeep = {
+# 			energy = 30
+# 			alloys = 20
+# 		}
+# 	}
+# 	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_6	}
+# 	ai_weight = {
+# 		weight = 50
+# 		modifier = {
+# 			factor = 0
+# 			NOT = {		has_authority = auth_gf_sfdoll		}
+# 		}
+# 	}
+# }
 
 #二级舰载机
 strike_craft_component_template = {

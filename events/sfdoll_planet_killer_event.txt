@@ -549,7 +549,7 @@ planet_event = {
 }
 
 
-#入轨检测，判断是否可以触发,from is planet
+#已停用，入轨检测，判断是否可以触发,from is planet
 fleet_event = {
 	id = sfdoll_planet_killer_event.9
 	hide_window = yes

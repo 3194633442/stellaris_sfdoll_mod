@@ -555,7 +555,7 @@ tech_sfdoll_star_eater = {
 	is_rare = yes
 	icon = tech_sfdoll_mobile_starbase
 	prerequisites = {	tech_sfdoll_warship_6	}
-	potential = {	has_authority = auth_gf_sfdoll }
+	potential = { always = no	has_authority = auth_gf_sfdoll }
 	weight = 0
 }
 
