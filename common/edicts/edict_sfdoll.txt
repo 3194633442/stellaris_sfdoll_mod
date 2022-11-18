@@ -63,19 +63,19 @@ sfdoll_change_hyperlane_window = {
 }
 
 #T槽碎星控制
-sfdoll_weapon_T_PK_control = {
-	length = -1
-	icon = "GFX_edict_type_time"
-	potential = {
-		always = no
-		has_authority = auth_gf_sfdoll
-		is_ai = no
-	}
-	prerequisites = {	tech_sfdoll_weapon_T_PK	}
-	ai_weight = {
-		weight = 10
-	}	
-}
+# sfdoll_weapon_T_PK_control = {
+# 	length = -1
+# 	icon = "GFX_edict_type_time"
+# 	potential = {
+# 		always = no
+# 		has_authority = auth_gf_sfdoll
+# 		is_ai = no
+# 	}
+# 	prerequisites = {	tech_sfdoll_weapon_T_PK	}
+# 	ai_weight = {
+# 		weight = 10
+# 	}	
+# }
 
 
 # #船体强化

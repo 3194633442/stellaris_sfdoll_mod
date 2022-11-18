@@ -60,10 +60,10 @@ tech_sfdoll_weapon_L_2_desc:0 "新的中型武器将装备到铁血的部分舰�
 component_set_sfdoll_weapon_L_2:0 "铁血毒牙火力系统"
 component_set_sfdoll_weapon_L_2_DESC:0 "$component_set_sfdoll_weapon_L_2$兼具高威力和全方位攻击的能力"
 sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
-sfdoll_weapon_M_2:0 "铁血M-12火炮"
+sfdoll_weapon_M_2:0 "铁血M-12云杉火炮"
 sfdoll_weapon_M_2_DESC:0 "$sfdoll_weapon_M_2$可补充我们的近程火力。"
 
-sfdoll_weapon_x_2:0 "铁血X-25云杉火炮"
+sfdoll_weapon_x_2:0 "铁血X-25火炮"
 component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
 component_set_sfdoll_weapon_x_2_DESC:0 "$sfdoll_weapon_x_2$牺牲了部分矢量发射功能，从而提升射程和威力"
 tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
@@ -93,7 +93,6 @@ sfdoll_weapon_H_2:0 "铁血虎鲸轰炸机"
 sfdoll_weapon_H_2_DESC:0 "$sfdoll_weapon_H_2$用于对舰和对地攻击。"
 sfdoll_weapon_H_2_PD:0 "铁血黑天鹅护航机"
 sfdoll_weapon_H_2_PD_DESC:0 "$sfdoll_weapon_H_2_PD$是专注于防空作战的新型战机。"
-
 
 tech_sfdoll_jump_drive:0 "$sfdoll_jump_drive$"
 tech_sfdoll_jump_drive_desc:0 "质量重建理论的逐步完善,揭示了新一代FTL技术的发展方向。"

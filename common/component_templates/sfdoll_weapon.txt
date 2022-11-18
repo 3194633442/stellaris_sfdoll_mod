@@ -519,6 +519,7 @@ weapon_component_template = {
 	tracking = 0.9
 	shield_penetration = 1
 	armor_penetration = 1
+	shield_damage = 1.5
 	armor_damage = 1.5
 	power = -300
 	#待修改
@@ -676,7 +677,7 @@ weapon_component_template = {
 	tracking = 0.6
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 4
+	shield_damage = 2
 	power = -3000
 	
 	#待修改
@@ -883,8 +884,7 @@ weapon_component_template = {
 	tracking = 0.5
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 4
-	armor_damage = 4
+	armor_damage = 2
 	resources = {
 		category = ship_components
 		cost = {
@@ -973,7 +973,7 @@ strike_craft_component_template = {
 	damage = { min = 700 max = 800 }
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 4
+	hull_damage = 3
 	#舰载机的不需要除10
 	cooldown = 1
 	range = 230
@@ -1021,8 +1021,8 @@ strike_craft_component_template = {
 	damage = { min = 700 max = 800 }
 	shield_penetration = 1
 	armor_penetration = 1
-	shield_damage = 4
-	armor_damage = 4
+	shield_damage = 3
+	armor_damage = 3
 	#舰载机的不需要除10
 	cooldown = 1.1
 	range = 220
