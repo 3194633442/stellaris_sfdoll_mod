@@ -19,8 +19,10 @@ civic_sfdoll_research_desc:0"我们的造物主是杰出的科学家，而我们
 civic_sfdoll_ogas_manage:0"全境自动化系统"
 civic_sfdoll_ogas_manage_desc:0"在社会管理中充分利用超级计算机和OGAS网络，使得铁血人形的社会运转更加高效和公平。\n 解锁建筑 §H $building_sfdoll_net$ §!"
 
-civic_sfdoll_culture:0"铁血文化"
-civic_sfdoll_culture_desc:0"一段历史的价值，不止取决于长度。\n解锁建筑：\n§H$building_sfdoll_museum$§! \n§H$building_sfdoll_media$§!"
+# civic_sfdoll_culture:0"铁血文化"
+# civic_sfdoll_culture_desc:0"一段历史的价值，不止取决于长度。\n解锁建筑：\n§H$building_sfdoll_museum$§! \n§H$building_sfdoll_media$§!"
+civic_sfdoll_culture:0"文化反射"
+civic_sfdoll_culture_desc:0"铁血是一个年幼的文明，它拥有的文化遗产数量有限。所以，铁血试图吸收和利用其他文明的文化。\n解锁建筑：\n§H$building_sfdoll_museum$§! \n§H$building_sfdoll_media$§!"
 
 civic_sfdoll_4:0 "星海为家"
 civic_sfdoll_4_desc:0 "如今,无垠的星海就是我们的家园."

@@ -19,8 +19,10 @@ civic_sfdoll_research_desc:0 " Our creator is a brilliant scientist, and we will
 civic_sfdoll_ogas_manage:0 "All-State Automated System"
 civic_sfdoll_ogas_manage_desc:0 "Make full use of supercomputers and OGAS networks in social management to make the social operation of Sangvis Ferri Dolls more efficient and fair.\n\nAllow to build §H $building_sfdoll_net$ §!"
 
-civic_sfdoll_culture:0"Sangvis Ferri Cultrue"
-civic_sfdoll_culture_desc:0"The value of history, not only depends on the length.\n\nAllow to build\n§H$building_sfdoll_museum$§!\n§H$building_sfdoll_media$§!"
+# civic_sfdoll_culture:0"Sangvis Ferri Cultrue"
+# civic_sfdoll_culture_desc:0"The value of history, not only depends on the length.\n\nAllow to build\n§H$building_sfdoll_museum$§!\n§H$building_sfdoll_media$§!"
+civic_sfdoll_culture:0 "Reflection of Culture"
+civic_sfdoll_culture_desc:0 "Sangvis Ferri is a young civilization and it has a limited amount of cultural heritage. So, it tries to absorb and use the culture of other civilizations. \n\nAllow to build:\n§H$building_sfdoll_museum$§!\n§H$building_sfdoll_media$§!"
 
 civic_sfdoll_4:0 "Living Among the Stars"
 civic_sfdoll_4_desc:0 "Now, the boundless sea of stars is our home."
