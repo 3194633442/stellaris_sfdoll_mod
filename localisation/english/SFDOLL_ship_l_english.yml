@@ -265,7 +265,7 @@ sfdoll_warship_5_stern_H1:0 "F"
 sfdoll_warship_6:0 "SF Heavy Destroyer"
 sfdoll_warship_6_plural:0 "$sfdoll_warship_6$s"
 tech_sfdoll_warship_6:0 "$sfdoll_warship_6$"
-tech_sfdoll_warship_6_desc:0 "$sfdoll_warship_6$ can be equipped with $sfdoll_weapon_T_PK$ and gain the ability to destroy celestial bodies.\n$place_build_sfdoll_special_ship$"
+tech_sfdoll_warship_6_desc:0 "Jamming system can weaken enemy fire for a certain amount of time.\n$place_build_sfdoll_special_ship$"
 
 sfdoll_warship_6_bow:0 "A"
 sfdoll_warship_6_mid:0 "B"

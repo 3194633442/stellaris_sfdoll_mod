@@ -263,7 +263,7 @@ sfdoll_warship_5_stern_H1:0 "F"
 sfdoll_warship_6:0 "铁血重型驱逐舰"
 sfdoll_warship_6_plural:0 "$sfdoll_warship_6$"
 tech_sfdoll_warship_6:0 "$sfdoll_warship_6$"
-tech_sfdoll_warship_6_desc:0 "$sfdoll_warship_6$能够搭载$sfdoll_weapon_T_PK$，从而获得摧毁天体的能力。\n$place_build_sfdoll_special_ship$"
+tech_sfdoll_warship_6_desc:0 "干扰系统可以在一定时间内削弱敌方火力。\n$place_build_sfdoll_special_ship$"
 
 sfdoll_warship_6_bow:0 "A"
 sfdoll_warship_6_mid:0 "B"
