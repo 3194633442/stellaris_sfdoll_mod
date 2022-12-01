@@ -118,7 +118,7 @@ utility_component_template = {
 	}
 	prerequisites = { tech_aux_sfdoll_collapse_power }
 	component_set = "power_core"
-	size_restriction = { corvette colonizer sponsored_colonizer constructor science transport  }
+	size_restriction = { corvette frigate colonizer sponsored_colonizer constructor science transport  }
 	ai_weight = {	weight = 20	}
 }
 #驱逐舰

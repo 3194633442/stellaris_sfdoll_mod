@@ -10,8 +10,8 @@ origin_sfdoll_country_description:0 "开局拥有较少的人口,区划和建筑
 EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1:0 "铁血星际共和国"
 EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1_desc:0 "这个国家由铁血人形建立。"
 
-auth_gf_sfdoll:0"铁血联盟制"
-auth_gf_sfdoll_desc:0"由铁血人形们管理的政府.没有定期选举，可耗费影响力进行选举"
+auth_gf_sfdoll:0 "铁血联盟制"
+auth_gf_sfdoll_desc:0 "由铁血人形们管理的政府.没有定期选举，可耗费影响力进行选举\n\n不兼容$INTEL_INFO_ascension_perks$：$ap_the_flesh_is_weak$"
 
 civic_sfdoll_research:0"铁心探索者"
 civic_sfdoll_research_desc:0"我们的造物主是杰出的科学家，而我们会继续他的事业.\n\n解锁建筑 §H $building_sfdoll_academy$ §!"

@@ -95,7 +95,7 @@ utility_component_template = {
 
 	prerequisites = { "tech_sfdoll_thruster" }
 	component_set = "thruster_components"
-	size_restriction = { sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 corvette colonizer sponsored_colonizer constructor science transport }
+	size_restriction = { sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 corvette frigate colonizer sponsored_colonizer constructor science transport }
 	
 	ai_weight = {
 		weight = 5

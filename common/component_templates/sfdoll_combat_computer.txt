@@ -48,6 +48,7 @@ utility_component_template = {
 	}
 	size_restriction = {
 		corvette
+		frigate 
 		destroyer
 		cruiser
 		battleship
@@ -97,6 +98,7 @@ utility_component_template = {
 	}
 	size_restriction = {
 		corvette
+		frigate 
 		destroyer
 		cruiser
 		battleship

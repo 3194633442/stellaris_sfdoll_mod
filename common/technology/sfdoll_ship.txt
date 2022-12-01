@@ -89,11 +89,9 @@ tech_sfdoll_weapon_s_2 = {
 	is_rare = yes
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_s_2
-	prerequisites = { tech_building_sfdoll_mineral	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	weight = @tier5weight2
+	prerequisites = { tech_sfdoll_warship_1	}
+	potential = { has_authority = auth_gf_sfdoll }
+	weight = @tier5weight1
 }
 tech_sfdoll_weapon_L_2 = {
 	cost = @tier5cost3

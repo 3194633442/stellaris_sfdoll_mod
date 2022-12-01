@@ -11,7 +11,7 @@ EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1:0 "Sangvis Ferri Republic"
 EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1_desc:0 "$EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1$"
 
 auth_gf_sfdoll:0 "SF Dolls Government"
-auth_gf_sfdoll_desc:0 "Has no regular elections, and influence can be used to conduct elections."
+auth_gf_sfdoll_desc:0 "Has no regular elections, and influence can be used to conduct elections.\n\nNot compatible with $INTEL_INFO_ascension_perks$: $ap_the_flesh_is_weak$"
 
 civic_sfdoll_research:0"Determined Explorer"
 civic_sfdoll_research_desc:0 " Our creator is a brilliant scientist, and we will continue his work.\n\nAllow to build §H $building_sfdoll_academy$ §!"

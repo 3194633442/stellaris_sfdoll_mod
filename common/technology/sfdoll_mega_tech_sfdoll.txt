@@ -158,7 +158,7 @@ tech_sfdoll_ring_world = {
 	category = { statecraft }
 	is_rare = yes
 	icon = tech_ring_world
-	prerequisites = { tech_sfdoll_habitat_01	}	
+	prerequisites = { tech_sfdoll_change_hyperlane	}	
 	potential = { has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight3
 }
@@ -170,7 +170,7 @@ tech_sfdoll_mega_shipyard  = {
 	category = { military_theory }
 	is_rare = yes
 	icon = tech_mega_sfdoll_starport
-	prerequisites = { tech_building_sfdoll_mineral	}	
+	prerequisites = { tech_sfdoll_change_hyperlane	}	
 	potential = { has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight3
 }

@@ -108,7 +108,7 @@ mega_sfdoll_ring_world_2 = {
 		category = megastructures
 		cost = {
 			alloys = 20000
-			unity = 2000
+			unity = 1000
 			nanites = 1000
 			GF_nyto_collapse_liquid = 1000
 		}
@@ -208,8 +208,8 @@ mega_sfdoll_ring_world_4 = {
 		cost = {
 			alloys = 10000
 			unity = 1000
-			nanites = 800
-			GF_nyto_collapse_liquid = 800
+			nanites = 500
+			GF_nyto_collapse_liquid = 500
 		}
 	}
 
