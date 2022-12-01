@@ -4,6 +4,7 @@ sfdoll_mining_station_01 = {
 	construction_entity = "humanoid_01_mining_station_section_entity"
 	entity_offset = { x = 5 y = -5 }
 	show_galactic_map_icon = yes
+	show_in_outliner = yes
 	build_time = 360
 	show_prereqs = yes
 	prerequisites = {
@@ -83,6 +84,7 @@ sfdoll_mining_station_02 = {
 	build_time = 360
 	entity_offset = { x = 5 y = -5 }
 	show_galactic_map_icon = no
+	show_in_outliner = no
 	show_prereqs = yes
 	prerequisites = {
 		tech_sfdoll_mining_station

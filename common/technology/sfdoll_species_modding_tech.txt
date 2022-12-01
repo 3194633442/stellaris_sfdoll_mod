@@ -12,7 +12,8 @@ tech_sf_doll_modding_system= {
 	feature_flags = {	modify_robots	}
 	modifier = {
 		SFDOLL_species_trait_points_add = 2
-		pop_assembly_speed = 0.25
+		# pop_assembly_speed = 0.25
+		planet_pop_assembly_mult = 0.25
 	}
 	weight_modifier = {
 		modifier = {
@@ -33,7 +34,7 @@ tech_sf_doll_modding_1 = {
 	modifier = {
 		SFDOLL_species_trait_points_add = 4
 		modify_species_cost_mult = -0.25
-		pop_assembly_speed = 0.25
+		planet_pop_assembly_mult = 0.25
 	}
 	weight_modifier = {
 		modifier = {

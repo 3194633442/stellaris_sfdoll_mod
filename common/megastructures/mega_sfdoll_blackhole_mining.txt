@@ -4,6 +4,7 @@ sfdoll_blackhole_mining_01 = {
 	entity_offset = { x = -20 y = -20 }
 	construction_entity = "construction_platform_entity"
 	show_galactic_map_icon = yes
+	show_in_outliner = yes
 	build_time = 360
 	show_prereqs = yes
 	prerequisites = { 	tech_sfdoll_blackhole_mining	}
@@ -94,6 +95,7 @@ sfdoll_blackhole_mining_02 = {
 	portrait = "GFX_megastructure_sfdoll_star_collapse"
 	build_time = 720
 	show_galactic_map_icon = yes
+	show_in_outliner = yes
 	prerequisites = { 	tech_sfdoll_blackhole_mining	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	resources = {
@@ -126,6 +128,7 @@ sfdoll_blackhole_mining_03 = {
 	portrait = "GFX_megastructure_sfdoll_star_collapse"
 	build_time = 1800
 	show_galactic_map_icon = no
+	show_in_outliner = no
 	prerequisites = { 	tech_sfdoll_blackhole_mining	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	resources = {

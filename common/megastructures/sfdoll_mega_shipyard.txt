@@ -52,8 +52,6 @@ sfdoll_mega_shipyard_2 = {
 	entity = ""
 	construction_entity = "ringworld_seam_entity_01_full_entity"
 	portrait = "GFX_megastructure_construction_background"
-	show_galactic_map_icon = no
-	show_in_outliner = no
 	build_time = 1800
 	resources = {
 		category = megastructures
@@ -125,7 +123,7 @@ sfdoll_mega_shipyard_4  = {
 	construction_entity = "sfdoll_Portal_frame_entity"
 	portrait = "GFX_megastructure_sfdoll_star_collapse"
 	build_time = 3600
-	show_galactic_map_icon = no
+	show_galactic_map_icon = yes
 	prerequisites = { 	tech_sfdoll_mega_shipyard	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	country_modifier = { 	country_naval_cap_add = 600 }
@@ -162,7 +160,8 @@ sfdoll_mega_shipyard_5 = {
 	construction_entity = "sfdoll_Portal_frame_entity"
 	portrait = "GFX_megastructure_sfdoll_mega_shipyard"
 	build_time = 3600
-	show_galactic_map_icon = no
+	show_galactic_map_icon = yes
+	show_in_outliner = no
 	prerequisites = { 	tech_sfdoll_mega_shipyard	}
 	potential = {	has_authority = auth_gf_sfdoll is_ai = no	}
 	country_modifier = { 	country_naval_cap_add = 3000 }

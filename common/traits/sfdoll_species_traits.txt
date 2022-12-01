@@ -158,7 +158,7 @@ trait_sfdoll_assembly = {
 	icon = "gfx/interface/icons/traits/sfdoll/trait_doll_assembly.dds"
 	allowed_archetypes = { SFDOLL }
 	opposites = {	trait_sfdoll_assembly_slowly	}
-	modifier = {	pop_assembly_speed = 0.15	}
+	modifier = {	planet_pop_assembly_mult = 0.15	}
 }
 
 #轻量素体
@@ -204,7 +204,7 @@ trait_sfdoll_assembly_slowly = {
 	opposites = {	trait_sfdoll_assembly	}
 	icon = "gfx/interface/icons/traits/sfdoll/trait_doll_assembly_slowly.dds"
 	allowed_archetypes = {SFDOLL }
-	modifier = {	pop_assembly_speed = -0.15	}
+	modifier = {	planet_pop_assembly_mult = -0.15	}
 }
 
 trait_sfdoll_high_bandwidth = {

@@ -79,6 +79,7 @@ sfdoll_habitat_01 ={
 	entity = "construction_platform_entity"
 	construction_entity = "construction_platform_entity"
 	show_galactic_map_icon = yes
+	show_in_outliner = yes
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = no
 	build_time = 720
@@ -201,7 +202,6 @@ sfdoll_habitat_02 ={
 	entity = ""
 	entity_offset = { x = -7 y = -7 }
 	construction_entity = "construction_platform_entity"
-	show_galactic_map_icon = yes
 	portrait = "GFX_sfdoll_habitat_01"
 	place_entity_on_planet_plane = no
 	build_time = 1080
