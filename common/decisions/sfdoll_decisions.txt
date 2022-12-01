@@ -130,9 +130,7 @@ decision_planet_to_sfdoll_rw = {
 			nanites = 100
 		}
 	}	
-	prerequisites = {
-		tech_build_sfdoll_city
-	}
+	prerequisites = { tech_sfdoll_ring_world }
 	potential = {
 		owner = { 
 			has_authority = auth_gf_sfdoll

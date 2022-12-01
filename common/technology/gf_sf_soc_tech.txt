@@ -112,15 +112,7 @@ tech_build_sfdoll_city = {
 	category = { statecraft }
 	icon = tech_sfdoll_max_buildings
 	potential = { has_authority = auth_gf_sfdoll }
-	prerequisites = {
-		tech_sfdoll_collapse_liquid_produce
-		tech_sfdoll_dark_matter_plant
-		tech_sfdoll_nanites
-		tech_sfdoll_lab
-		tech_sfdoll_alloys_produce
-		tech_sfdoll_goods
-		tech_climate_restoration
-	}
+	prerequisites = { tech_building_sfdoll_mineral }
 	modifier = { empire_size_mult = -0.1	}
 	weight = @tier4weight1
 }
