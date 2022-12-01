@@ -126,7 +126,7 @@ tech_sfdoll_mobile_gateway = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
+	prerequisites = {	tech_sfdoll_jump_drive	}
 	feature_flags = { gateway_activation	gateway_construction	}
 	weight = @tier4weight3
 	weight_modifier = {
