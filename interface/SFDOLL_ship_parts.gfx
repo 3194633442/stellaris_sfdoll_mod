@@ -15,21 +15,28 @@ spriteTypes = {
 spriteTypes = {
 	spriteType = {
 		name = "GFX_sfdoll_combat_computer_1"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_1.dds"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_default.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_combat_computer_2"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_2.dds"
+		name = "GFX_sfdoll_combat_computer_line"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_line.dds"
 	}
 }
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_combat_computer_3"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_3.dds"
+		name = "GFX_sfdoll_combat_computer_artillery"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_artillery.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sfdoll_combat_computer_carrier"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_combat_computer_carrier.dds"
 	}
 }
 

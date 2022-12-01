@@ -136,8 +136,9 @@ sfdoll_thruster_6:0 "$sfdoll_thruster$"
 tech_sfdoll_ship_computer:0 "SF Warship AI"
 tech_sfdoll_ship_computer_desc:0 "The early SF Dolls was a group of combat AI. However, it takes more than old knowledge to adapt to space warfare."
 sfdoll_combat_computer_1:0 "SF Warship AI (Manual Control)"
-sfdoll_combat_computer_2:0 "SF Warship AI (Mrtillery)"
-sfdoll_combat_computer_3:0 "SF Warship AI (Carrier)"
+sfdoll_combat_computer_line:0 "SF Warship AI (Line)"
+sfdoll_combat_computer_artillery:0 "SF Warship AI (Mrtillery)"
+sfdoll_combat_computer_carrier:0 "SF Warship AI (Carrier)"
 
 #aura
 sfdoll_aura_components:0 "$component_aura_sfdoll_1$"

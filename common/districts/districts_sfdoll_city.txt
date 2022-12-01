@@ -110,8 +110,8 @@ district_rw_industrial_sfdoll = {
 			}
 		}
 		modifier = {
-			job_sfdoll_alloys_maker_add = 18
-			job_sfdoll_goods_maker_add = 2
+			job_sfdoll_alloys_maker_add = 19
+			job_sfdoll_goods_maker_add = 1
 		}
 	}
 	ai_resource_production = {
