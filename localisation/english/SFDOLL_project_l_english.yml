@@ -66,11 +66,11 @@ SFDOLL_ZION_DIGI_PROJECT_DESC:0 "Some laws in Zion differ from the regular unive
 sfdoll_to_zion_event_3:0 "Explore data"
 sfdoll_to_zion_event_3_desc:0 "We unearthed data from the Zion facility. These results will complement our understanding of relic science."
 
-sfdoll_to_zion_event_4:0 "Unexpected guest"
+sfdoll_to_zion_event_4:0 "Unexpected Guest"
 sfdoll_to_zion_event_4_desc:0 "Unexpectedly, a ship appeared in our port in Zion, causing a commotion.\n\nThis ship is much larger than our largest ships. There is some kind of force field around it, blocking almost all means of detection, leaving our investigators helpless. For now, this mysterious ship is still lying quietly outside our port."
 # sfdoll_to_zion_event_4_option:0 "得想办法研究它"
 
-sfdoll_to_zion_event_5:0 "Unexpected guest"
+sfdoll_to_zion_event_5:0 "Unexpected Guest"
 sfdoll_to_zion_event_5_desc:0 "We can finally enter the interior of the unknown ship. It's not that we found a way to get into the ship, it's that the ship lets us in.\n\nThis ship is very old. But many of the equipment are still working and has technological level far beyond ours.\n\nThe data interface on the spacecraft is consistent with our generic interface, so we can quickly read the data in it."
 sfdoll_to_zion_event_5_option:0 "Generic interface? ..usb3.0 ? "
 
