@@ -72,27 +72,27 @@ ship_design = {
 
 		component = {
 			slot = "L_LARGE_01"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "L_LARGE_02"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "L_LARGE_03"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "L_LARGE_04"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "L_LARGE_05"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "L_LARGE_06"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "L_LARGE_07"
@@ -177,11 +177,11 @@ ship_design = {
 		}
 		component = {
 			slot = "L_07"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "L_08"
-			template = ENERGY_TORPEDO_2
+			template = LARGE_ED_WEAPON
 		}
 		component = {
 			slot = "M_01"
