@@ -123,7 +123,6 @@ component_set = {
 	icon_frame = 1
 }
 
-#护盾
 component_set = {
 	key = "component_set_sfdoll_ship_defense_s"
 	icon = GFX_sfdoll_ship_defense_s
@@ -133,6 +132,12 @@ component_set = {
 component_set = {
 	key = "component_set_sfdoll_ship_armor_L"
 	icon = GFX_sfdoll_ship_armor_L
+	icon_frame = 1
+}
+
+component_set = {
+	key = "sfdoll_ship_armor_2"
+	icon = GFX_sfdoll_ship_armor_2
 	icon_frame = 1
 }
 

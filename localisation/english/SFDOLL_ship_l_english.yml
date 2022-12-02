@@ -170,6 +170,14 @@ component_set_sfdoll_ship_armor_L_DESC:0 "Armor treated with collapse technology
 tech_sfdoll_ship_armor_L:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
+sfdoll_ship_armor_2:0 "SF Dynamic Defense System"
+sfdoll_ship_armor_2_DESC:0 "The new defense system can provide all-round protection. It can repair the hull according to the conditions of the war."
+sfdoll_ship_armor_2_S:0 "$sfdoll_ship_armor_2$"
+sfdoll_ship_armor_2_M:0 "$sfdoll_ship_armor_2$"
+sfdoll_ship_armor_2_L:0 "$sfdoll_ship_armor_2$"
+tech_sfdoll_ship_armor_2:0 "$sfdoll_ship_armor_2$"
+tech_sfdoll_ship_armor_2_desc:0 "$sfdoll_ship_armor_2_DESC$"
+
 sfdoll_ship_sensors:0"SF Advanced Sensors"
 tech_sfdoll_ship_sensors:0 "$sfdoll_ship_sensors$"
 tech_sfdoll_ship_sensors_desc:0 "$sfdoll_ship_sensors$"

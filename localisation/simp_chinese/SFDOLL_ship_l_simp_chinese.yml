@@ -166,6 +166,13 @@ component_set_sfdoll_ship_armor_L_DESC:0 "利用物质坍塌技术处理装甲�
 tech_sfdoll_ship_armor_L:0"$sfdoll_ship_defense_s$"
 tech_sfdoll_ship_armor_L_desc:0"$component_set_sfdoll_ship_defense_s_DESC$"
 
+sfdoll_ship_armor_2:0 "铁血动态防御系统"
+sfdoll_ship_armor_2_DESC:0 "新型防御系统能够提供全方位的防护。它可根据战况对船体进行修复。"
+sfdoll_ship_armor_2_S:0 "$sfdoll_ship_armor_2$"
+sfdoll_ship_armor_2_M:0 "$sfdoll_ship_armor_2$"
+sfdoll_ship_armor_2_L:0 "$sfdoll_ship_armor_2$"
+tech_sfdoll_ship_armor_2:0 "$sfdoll_ship_armor_2$"
+tech_sfdoll_ship_armor_2_desc:0 "$sfdoll_ship_armor_2_DESC$"
 
 sfdoll_ship_sensors:0"铁血先进传感器"
 tech_sfdoll_ship_sensors:0 "$sfdoll_ship_sensors$"

@@ -243,7 +243,7 @@ tech_sfdoll_ship_defense_s = {
 	icon = tech_sfdoll_ship_defense_s
 	category = { voidcraft }
 	is_reverse_engineerable = no
-	prerequisites = { tech_sfdoll_weapon_s_1	}
+	prerequisites = { tech_sfdoll_weapon_s_1 }
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
 	weight = @tier5weight1
@@ -255,6 +255,19 @@ tech_sfdoll_ship_armor_L = {
 	category = { voidcraft }
 	is_reverse_engineerable = no
 	prerequisites = { tech_sfdoll_weapon_s_1	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 5
+	weight = @tier5weight1
+}
+
+tech_sfdoll_ship_armor_2 = {
+	cost = @tier5cost3
+	area = engineering
+	icon = tech_sfdoll_ship_armor_2
+	category = { voidcraft }
+	is_rare = yes
+	is_reverse_engineerable = no
+	prerequisites = { tech_sfdoll_weapon_s_2	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	tier = 5
 	weight = @tier5weight1
