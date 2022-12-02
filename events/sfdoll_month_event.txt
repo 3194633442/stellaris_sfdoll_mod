@@ -1,1 +1,0 @@
-namespace = sfdoll_month_event

@@ -5,9 +5,7 @@ country_event = {
 	id = sfdoll_leader_event.1
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		has_authority = auth_gf_sfdoll
-	}
+	trigger = { has_authority = auth_gf_sfdoll }
 	immediate = {
 		if = {
 			limit = {  exists =  event_target:sfdoll_leader_elisa }
