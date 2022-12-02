@@ -126,7 +126,7 @@ sfdoll_mega_shipyard_4  = {
 	show_galactic_map_icon = yes
 	prerequisites = { 	tech_sfdoll_mega_shipyard	}
 	potential = {	has_authority = auth_gf_sfdoll	}
-	country_modifier = { 	country_naval_cap_add = 600 }
+	country_modifier = { 	country_naval_cap_add = 1000 }
 	ship_modifier = { ship_starting_experience_add = 200 }
 	
 	station_modifier = {
@@ -137,8 +137,8 @@ sfdoll_mega_shipyard_4  = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 30000
-			unity = 3000
+			alloys = 40000
+			unity = 4000
 			nanites = 600
 			GF_nyto_collapse_liquid = 600
 		}
@@ -164,7 +164,7 @@ sfdoll_mega_shipyard_5 = {
 	show_in_outliner = no
 	prerequisites = { 	tech_sfdoll_mega_shipyard	}
 	potential = {	has_authority = auth_gf_sfdoll is_ai = no	}
-	country_modifier = { 	country_naval_cap_add = 3000 }
+	country_modifier = { 	country_naval_cap_add = 5000 }
 	ship_modifier = { ship_starting_experience_add = 1000 }
 	
 	station_modifier = {
