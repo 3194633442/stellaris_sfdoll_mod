@@ -161,12 +161,6 @@ mega_sfdoll_mobile_starbase_4 = {
 						name = "sfdoll_mobile_starbase"
 						prefix = no
 						upgradable = yes
-						# effect = {
-						# 	add_modifier = {
-						# 		modifier = sfdoll_mobile_starbase_mod
-						# 		days = -1
-						# 	}
-						# }
 					}
 					set_location = fromfrom
 				}
