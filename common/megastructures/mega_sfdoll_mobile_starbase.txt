@@ -33,10 +33,8 @@ mega_sfdoll_mobile_starbase_1 = {
 		category = megastructures
 		cost = {
 			alloys = 10000
-			unity = 2000
-			nanites = 300
-			sr_dark_matter = 300
-			GF_nyto_collapse_liquid = 300
+			unity = 1000
+			GF_nyto_collapse_liquid = 500
 		}
 		upkeep = {  energy = 5 }
 	}
@@ -72,9 +70,8 @@ mega_sfdoll_mobile_starbase_2 = {
 		category = megastructures
 		cost = {
 			alloys = 20000
-			nanites = 600
-			sr_dark_matter = 600
-			GF_nyto_collapse_liquid = 600
+			unity = 1000
+			GF_nyto_collapse_liquid = 1000
 		}
 		upkeep = {  energy = 10 }
 	}
@@ -107,9 +104,7 @@ mega_sfdoll_mobile_starbase_3 = {
 		category = megastructures
 		cost = {
 			alloys = 30000
-			nanites = 900
-			sr_dark_matter = 900
-			GF_nyto_collapse_liquid = 900
+			GF_nyto_collapse_liquid = 1500
 		}
 		upkeep = {  energy = 15 }
 	}
@@ -141,9 +136,8 @@ mega_sfdoll_mobile_starbase_4 = {
 		category = megastructures
 		cost = {
 			alloys = 40000
-			nanites = 1200
-			sr_dark_matter = 1200
-			GF_nyto_collapse_liquid = 1200
+			sr_dark_matter = 500
+			GF_nyto_collapse_liquid = 2000
 		}
 	}
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure

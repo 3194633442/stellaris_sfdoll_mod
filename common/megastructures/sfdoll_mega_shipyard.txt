@@ -33,8 +33,7 @@ sfdoll_mega_shipyard_1 = {
 		cost = {
 			alloys = 10000
 			unity = 1000
-			nanites = 200
-			GF_nyto_collapse_liquid = 200
+			GF_nyto_collapse_liquid = 500
 		}
 		upkeep = {	energy = 5	}
 	}
@@ -57,9 +56,8 @@ sfdoll_mega_shipyard_2 = {
 		category = megastructures
 		cost = {
 			alloys = 30000
-			unity = 1000
-			nanites = 600
-			GF_nyto_collapse_liquid = 600
+			unity = 3000
+			GF_nyto_collapse_liquid = 3000
 		}
 	}
 	prerequisites = { tech_sfdoll_mega_shipyard }
@@ -139,8 +137,7 @@ sfdoll_mega_shipyard_4  = {
 		cost = {
 			alloys = 40000
 			unity = 4000
-			nanites = 600
-			GF_nyto_collapse_liquid = 600
+			GF_nyto_collapse_liquid = 2000
 		}
 		upkeep = { energy = 200 alloys = 20 nanites = 2 GF_nyto_collapse_liquid = 2 }
 	}
@@ -177,8 +174,7 @@ sfdoll_mega_shipyard_5 = {
 		cost = {
 			alloys = 40000
 			unity = 4000
-			nanites = 600
-			GF_nyto_collapse_liquid = 600
+			GF_nyto_collapse_liquid = 2000
 		}
 		upkeep = { energy = 1000 alloys = 100 nanites = 10 GF_nyto_collapse_liquid = 10 }
 	}

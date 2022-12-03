@@ -7,7 +7,7 @@ decision_planet_pop_to_sfdoll = {
 	resources = {
 		category = decisions
 		cost = {
-			nanites = 50
+			nanites = 30
 		}
 	}	
 	prerequisites = { tech_trait_sfdoll_nanite }
@@ -82,7 +82,7 @@ decision_planet_to_sfdoll_city = {
 		category = decisions
 		cost = {
 			minerals = 10000
-			nanites = 100
+			nanites = 300
 		}
 	}	
 	prerequisites = {
@@ -127,7 +127,7 @@ decision_planet_to_sfdoll_rw = {
 		category = decisions
 		cost = {
 			minerals = 10000
-			nanites = 100
+			nanites = 300
 		}
 	}	
 	prerequisites = { tech_sfdoll_ring_world }

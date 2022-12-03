@@ -159,8 +159,8 @@ district_rw_rare_sfdoll = {
 			}
 		}
 		modifier = {
-			job_sfdoll_collapse_liquid_maker_add = 13
-			job_sfdoll_nanites_maker_add= 2
+			job_sfdoll_collapse_liquid_maker_add = 14
+			job_sfdoll_nanites_maker_add= 1
 			job_sfdoll_dark_matter_maker_add = 5
 		}
 	}
