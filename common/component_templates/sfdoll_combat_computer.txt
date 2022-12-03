@@ -68,7 +68,11 @@ utility_component_template = {
 	ship_behavior = line
 	component_set = "combat_computers"
 	ai_weight = {
-		weight = -100
+		weight = 100
+		modifier = {
+			factor = -1
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
 	}
 }
 
@@ -115,9 +119,9 @@ utility_component_template = {
 	component_set = "combat_computers"
 
 	ai_weight = {
-		weight = 1
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -2
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -165,9 +169,9 @@ utility_component_template = {
 	component_set = "combat_computers"
 
 	ai_weight = {
-		weight = 1
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -2
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
