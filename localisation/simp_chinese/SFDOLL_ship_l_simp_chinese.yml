@@ -274,6 +274,7 @@ tech_sfdoll_warship_6_desc:0 "干扰系统可以在一定时间内削弱敌方�
 
 sfdoll_warship_6_bow:0 "A"
 sfdoll_warship_6_mid:0 "B"
+sfdoll_warship_6_mid_X4:0 "F"
 sfdoll_warship_6_stern:0 "C"
 sfdoll_warship_6_stern_H1:0 "D"
 sfdoll_warship_6_stern_H2:0 "E"

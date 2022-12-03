@@ -27,12 +27,12 @@ sfdoll_warship_1 = {
 	acceleration = 0.35
 	rotation_speed = 0.1
 	collision_radius = @corvette_collision_radius
-	max_hitpoints = 40000
+	max_hitpoints = 50000
 	base_buildtime = 120
 	modifier = {
 		ship_evasion_add = 50
-		ship_armor_add = 20000
-		ship_shield_add = 20000
+		ship_armor_add = 25000
+		ship_shield_add = 25000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {
@@ -80,12 +80,12 @@ sfdoll_warship_2 = {
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @destroyer_collision_radius
-	max_hitpoints = 90000
+	max_hitpoints = 100000
 	base_buildtime = 180
 	modifier = {
 		ship_evasion_add = 45
-		ship_armor_add = 45000
-		ship_shield_add = 45000
+		ship_armor_add = 50000
+		ship_shield_add = 50000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {
@@ -133,12 +133,12 @@ sfdoll_warship_3 = {
 	acceleration = 0.35
 	rotation_speed = 0.1
 	collision_radius = @cruiser_collision_radius
-	max_hitpoints = 180000
+	max_hitpoints = 200000
 	base_buildtime = 240
 	modifier = {
 		ship_evasion_add = 40
-		ship_armor_add = 90000
-		ship_shield_add = 90000
+		ship_armor_add = 100000
+		ship_shield_add = 100000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {
@@ -187,7 +187,7 @@ sfdoll_warship_4 = {
 	rotation_speed = 0.1
 	collision_radius = @battleship_collision_radius
 	max_hitpoints = 350000
-	base_buildtime = 300
+	base_buildtime = 560
 	modifier = {
 		ship_evasion_add = 30
 		ship_armor_add = 170000
@@ -240,16 +240,16 @@ sfdoll_warship_5 = {
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 600000
+	max_hitpoints = 700000
 	modifier = {
 		ship_evasion_add = 20
-		ship_armor_add = 300000
-		ship_shield_add = 300000
+		ship_armor_add = 350000
+		ship_shield_add = 350000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {	ships_upkeep_mult = -1	}
 	components_add_to_cost = no
-	base_buildtime = 360
+	base_buildtime = 640
 	size_multiplier = 16
 	fleet_slot_size = 8
 	section_slots = {
@@ -314,12 +314,12 @@ sfdoll_warship_6 = {
 		# "core2" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
-	size_multiplier = 32
+	size_multiplier = 24
 	fleet_slot_size = 8
 	num_target_locators = 8
 	is_space_station = no
 	icon = ship_size_military_32
-	base_buildtime = 420
+	base_buildtime = 720
 	can_have_federation_design = no
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
@@ -343,12 +343,12 @@ sfdoll_warship_6 = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 8000
-			GF_nyto_collapse_liquid = 400
+			alloys = 6000
+			GF_nyto_collapse_liquid = 300
 		}
 		upkeep = {
-			energy = 120
-			alloys = 60
+			energy = 90
+			alloys = 45
 		}
 	}
 	min_upgrade_cost = {
