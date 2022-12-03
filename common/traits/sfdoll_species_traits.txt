@@ -269,7 +269,6 @@ trait_sfdoll_logic_engine_2 = {
 		planet_jobs_engineering_research_produces_mult = 0.50
 		species_leader_exp_gain = 0.50
 		leader_skill_levels = 2
-		num_tech_alternatives_add = 1
 	}
 }
 
