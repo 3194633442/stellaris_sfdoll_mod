@@ -183,7 +183,7 @@ country_event = {
 	#退出
 	option = {
 		name =  EXIT
-		break = yes
+		country_event = { id = sfdoll_elisa_event.3 }
 	}
 }
 

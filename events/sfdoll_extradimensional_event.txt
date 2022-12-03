@@ -233,6 +233,6 @@ country_event = {
 	# }
 	option = {
 		name = 	QUIT
-		break = yes
+		country_event = { id = sfdoll_elisa_event.3 }
 	}
 }

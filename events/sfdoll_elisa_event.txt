@@ -160,9 +160,7 @@ country_event = {
 			has_country_flag = sfdoll_triela_owner
 		}
 		hidden_effect = {
-			country_event = {
-				id = sfdoll_gunslinger_girl_event.6
-			}
+			country_event = { id = sfdoll_gunslinger_girl_event.6 }
 		}
 	}
 	#找诺耶露
