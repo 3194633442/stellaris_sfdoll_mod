@@ -12,7 +12,7 @@ starbase_building_sfdoll_assembly = {
 			owner = {	has_country_flag = sfdoll_empire	}
 		}
 		starbase_shipyard_build_speed_mult = 1
-		ship_starting_experience_add = 500
+		ship_starting_experience_add = 100
 	}
 	resources = {
 		category = starbase_buildings
