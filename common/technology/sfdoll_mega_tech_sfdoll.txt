@@ -121,7 +121,11 @@ tech_sfdoll_mobile_gateway = {
 	is_rare = yes
 	icon = tech_gateway_construction
 	potential = { has_authority = auth_gf_sfdoll }
-	prerequisites = {	tech_sfdoll_jump_drive	}
+	prerequisites = {
+		tech_gateway_construction
+		tech_gateway_activation
+		tech_sfdoll_jump_drive
+	}
 	feature_flags = { gateway_activation	gateway_construction	}
 	modifier = { country_resource_max_add = 40000 }
 	weight = @tier4weight3

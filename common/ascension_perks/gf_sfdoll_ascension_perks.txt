@@ -79,6 +79,7 @@ ap_sfdoll_3 = {
 		country_event = {
 			id = sfdoll_to_zion_event.7
 		}
+		add_research_option = tech_gateway_construction
 		add_research_option = tech_gateway_activation
 	}
 	modifier = {
