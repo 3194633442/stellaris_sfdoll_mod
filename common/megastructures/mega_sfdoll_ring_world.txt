@@ -84,7 +84,7 @@ mega_sfdoll_ring_world_1 = {
 		cost = {
 			alloys = 10000
 			unity = 1000
-			GF_nyto_collapse_liquid = 500
+			GF_nyto_collapse_liquid = 1000
 		}
 		upkeep = {	energy = 5	}
 	}
@@ -206,7 +206,7 @@ mega_sfdoll_ring_world_4 = {
 		cost = {
 			alloys = 10000
 			unity = 1000
-			GF_nyto_collapse_liquid = 500
+			GF_nyto_collapse_liquid = 1000
 		}
 	}
 
