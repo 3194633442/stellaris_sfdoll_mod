@@ -288,10 +288,7 @@ tech_sfdoll_jump_drive = {
 		tech_building_sfdoll_mineral
 		tech_jump_drive_1
 	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	
+	potential = { has_authority = auth_gf_sfdoll }
 	weight = @tier5weight2
 }
 #推进器
@@ -316,9 +313,7 @@ tech_sfdoll_ship_computer = {
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_ship_computer
 	prerequisites = { tech_sfdoll_ogas_ai }
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
+	potential = { has_authority = auth_gf_sfdoll }
 	weight = 1000
 }
 
@@ -497,24 +492,20 @@ tech_sfdoll_warship_4 = {
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
-	modifier = {
-		country_command_limit_add = 200
-	}
 	weight = @tier5weight3
 }
 tech_sfdoll_warship_5 = {
 	cost = @tier5cost3
+	tier = 5
 	area = engineering
 	start_tech = no
 	icon = tech_sfdoll_titan
 	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {	tech_sfdoll_warship_4	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
-	tier = 5
-	weight = @tier5weight3
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { country_command_limit_add = 200 }
+	weight = @tier5weight1
 }
 tech_sfdoll_warship_6 = {
 	cost = @tier5cost3
@@ -524,11 +515,10 @@ tech_sfdoll_warship_6 = {
 	is_rare = yes
 	category = { voidcraft }
 	prerequisites = {	tech_sfdoll_warship_5	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-	}
+	potential = { has_authority = auth_gf_sfdoll }
+	modifier = { country_command_limit_add = 200 }
 	tier = 5
-	weight = @tier5weight3
+	weight = @tier5weight1
 }
 # tech_sfdoll_warship_S1 = {
 # 	cost = @tier5cost3
