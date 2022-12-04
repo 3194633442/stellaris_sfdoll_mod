@@ -733,40 +733,257 @@ ship_section_template = {
 
 
 #中型驱逐舰
+# ship_section_template = {
+# 	key = sfdoll_warship_5_bow
+# 	ship_size = sfdoll_warship_5
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = GF_nyto_01_battel_ship_cv_entity
+# 	icon = GFX_ship_part_core_bow
+# 	icon_frame = 1
+# 	component_slot = {
+# 		name = "T01"
+# 		template = invisible_titanic_fixed
+# 		locatorname = "t_gun01"
+# 	}
+# 	component_slot = {
+# 		name = "L1"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun01"
+# 	}
+# 	component_slot = {
+# 		name = "L2"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun02"
+# 	}
+# 	component_slot = {
+# 		name = "M1"
+# 		template = invisible_missile_turret
+# 		locatorname = "l_gun03"
+# 	}
+# 	component_slot = {
+# 		name = "M2"
+# 		template = invisible_missile_turret
+# 		locatorname = "l_gun04"
+# 	}
+
+# 	large_utility_slots = 12
+# }
+# ship_section_template = {
+# 	key = sfdoll_warship_5_core
+# 	ship_size = sfdoll_warship_5
+# 	fits_on_slot = core
+# 	should_draw_components = yes
+# 	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+# 	icon = GFX_ship_part_core_bow
+# 	icon_frame = 1
+# 	component_slot = {
+# 		name = x01
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun01
+# 	}
+# 	component_slot = {
+# 		name = x02
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun03
+# 	}
+# 	component_slot = {
+# 		name = "L1"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun07"
+# 	}
+# 	component_slot = {
+# 		name = "L2"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun08"
+# 	}
+# 	component_slot = {
+# 		name = "L3"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun09"
+# 	}
+# 	component_slot = {
+# 		name = "L4"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun010"
+# 	}
+# 	component_slot = {
+# 		name = "L5"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun013"
+# 	}
+# 	component_slot = {
+# 		name = "L6"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun016"
+# 	}
+# 	large_utility_slots = 12
+# }
+# ship_section_template = {
+# 	key = sfdoll_warship_5_coreP2
+# 	ship_size = sfdoll_warship_5
+# 	fits_on_slot = core
+# 	should_draw_components = yes
+# 	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+# 	icon = GFX_ship_part_core_bow
+# 	icon_frame = 1
+# 	component_slot = {
+# 		name = x01
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun01
+# 	}
+# 	component_slot = {
+# 		name = x02
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun03
+# 	}
+# 	component_slot = {
+# 		name = "L1"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun08"
+# 	}
+# 	component_slot = {
+# 		name = "L2"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun09"
+# 	}
+# 	component_slot = {
+# 		name = "L3"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun010"
+# 	}
+# 	component_slot = {
+# 		name = "L4"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun013"
+# 	}
+# 	component_slot = {
+# 		name = "L5"
+# 		template = invisible_large_turret
+# 		locatorname = "l_gun016"
+# 	}
+# 	component_slot = {
+# 		name = "M1"
+# 		template = invisible_medium_turret
+# 		locatorname = "l_gun011"
+# 	}
+# 	component_slot = {
+# 		name = "P1"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "l_gun012"
+# 	}
+# 	component_slot = {
+# 		name = "P2"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "l_gun012"
+# 	}
+# 	large_utility_slots = 12
+# }
+
+# ship_section_template = {
+# 	key = sfdoll_warship_5_stern
+# 	ship_size = sfdoll_warship_5
+# 	fits_on_slot = stern
+# 	should_draw_components = yes
+# 	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+# 	icon = GFX_ship_part_core_bow
+# 	icon_frame = 1
+# 	component_slot = {
+# 		name = x03
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun02
+# 	}
+# 	component_slot = {
+# 		name = x04
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun04
+# 	}
+# 	component_slot = {
+# 		name = "P1"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "l_gun014"
+# 	}
+# 	component_slot = {
+# 		name = "P2"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "l_gun015"
+# 	}
+# 	component_slot = {
+# 		name = "P3"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "l_gun014"
+# 	}
+# 	component_slot = {
+# 		name = "P4"
+# 		template = invisible_point_defence_turret
+# 		locatorname = "l_gun015"
+# 	}
+
+# 	aux_utility_slots = 4
+# }
+# ship_section_template = {
+# 	key = "sfdoll_warship_5_stern_H1"
+# 	ship_size = sfdoll_warship_5
+# 	fits_on_slot = stern
+# 	should_draw_components = yes
+# 	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+# 	icon = GFX_ship_part_core_bow
+# 	icon_frame = 1
+# 	component_slot = {
+# 		name = x03
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun02
+# 	}
+# 	component_slot = {
+# 		name = x04
+# 		template = invisible_extra_large_fixed
+# 		locatorname = x_gun04
+# 	}
+# 	component_slot = {
+# 		name = "H1"
+# 		template = large_strike_craft
+# 		locatorname = "l_gun016"
+# 	}
+# 	aux_utility_slots = 4
+# }
 ship_section_template = {
 	key = sfdoll_warship_5_bow
 	ship_size = sfdoll_warship_5
 	fits_on_slot = bow
 	should_draw_components = yes
-	entity = GF_nyto_01_battel_ship_cv_entity
+	entity = "SFGF_nyto_01_battel_ship_cv_entity"
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
 		name = "T01"
-		template = invisible_titanic_fixed
-		locatorname = "t_gun01"
+		template = "invisible_titanic_fixed"
+		locatorname = "T01"
 	}
 	component_slot = {
-		name = "L1"
-		template = invisible_large_turret
+		name = "T02"
+		template = "invisible_titanic_fixed"
+		locatorname = "T02"
+	}
+	component_slot = {
+		name = "X1"
+		template = "invisible_extra_large_fixed"
 		locatorname = "l_gun01"
 	}
 	component_slot = {
-		name = "L2"
-		template = invisible_large_turret
-		locatorname = "l_gun02"
+		name = "X2"
+		template = "invisible_extra_large_fixed"
+		locatorname = "l_gun08"
 	}
 	component_slot = {
-		name = "M1"
-		template = invisible_missile_turret
-		locatorname = "l_gun03"
-	}
-	component_slot = {
-		name = "M2"
-		template = invisible_missile_turret
+		name = "L1"
+		template = "invisible_large_turret"
 		locatorname = "l_gun04"
 	}
-
+	component_slot = {
+		name = "L2"
+		template = "invisible_large_turret"
+		locatorname = "l_gun05"
+	}
 	large_utility_slots = 12
 }
 
@@ -775,175 +992,175 @@ ship_section_template = {
 	ship_size = sfdoll_warship_5
 	fits_on_slot = core
 	should_draw_components = yes
-	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+	entity = bettalships_loctor_mesh_entity
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
-		name = x01
-		template = invisible_extra_large_fixed
+		name = "L1"
+		template = "invisible_large_turret"
 		locatorname = x_gun01
 	}
 	component_slot = {
-		name = x02
-		template = invisible_extra_large_fixed
-		locatorname = x_gun03
-	}
-	component_slot = {
-		name = "L1"
-		template = invisible_large_turret
-		locatorname = "l_gun07"
-	}
-	component_slot = {
 		name = "L2"
-		template = invisible_large_turret
-		locatorname = "l_gun08"
+		template = "invisible_large_turret"
+		locatorname = x_gun02
 	}
 	component_slot = {
 		name = "L3"
-		template = invisible_large_turret
-		locatorname = "l_gun09"
+		template = "invisible_large_turret"
+		locatorname = x_gun03
 	}
 	component_slot = {
 		name = "L4"
-		template = invisible_large_turret
-		locatorname = "l_gun010"
+		template = "invisible_large_turret"
+		locatorname = x_gun04
 	}
 	component_slot = {
 		name = "L5"
-		template = invisible_large_turret
-		locatorname = "l_gun013"
+		template = "invisible_large_turret"
+		locatorname = h_gun01
 	}
 	component_slot = {
 		name = "L6"
-		template = invisible_large_turret
-		locatorname = "l_gun016"
+		template = "invisible_large_turret"
+		locatorname = h_gun02
+	}
+	component_slot = {
+		name = "L7"
+		template = "invisible_large_turret"
+		locatorname = "l_gun011"
+	}
+	component_slot = {
+		name = "L8"
+		template = "invisible_large_turret"
+		locatorname = "l_gun012"
 	}
 	large_utility_slots = 12
 }
 ship_section_template = {
-	key = sfdoll_warship_5_coreP2
+	key = sfdoll_warship_5_core_M2
 	ship_size = sfdoll_warship_5
 	fits_on_slot = core
 	should_draw_components = yes
-	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+	entity = bettalships_loctor_mesh_entity
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
-		name = x01
-		template = invisible_extra_large_fixed
+		name = "L1"
+		template = "invisible_large_turret"
 		locatorname = x_gun01
 	}
 	component_slot = {
-		name = x02
-		template = invisible_extra_large_fixed
-		locatorname = x_gun03
-	}
-	component_slot = {
-		name = "L1"
-		template = invisible_large_turret
-		locatorname = "l_gun08"
-	}
-	component_slot = {
 		name = "L2"
-		template = invisible_large_turret
-		locatorname = "l_gun09"
+		template = "invisible_large_turret"
+		locatorname = x_gun02
 	}
 	component_slot = {
 		name = "L3"
-		template = invisible_large_turret
-		locatorname = "l_gun010"
+		template = "invisible_large_turret"
+		locatorname = x_gun03
 	}
 	component_slot = {
 		name = "L4"
-		template = invisible_large_turret
-		locatorname = "l_gun013"
+		template = "invisible_large_turret"
+		locatorname = x_gun04
 	}
 	component_slot = {
 		name = "L5"
-		template = invisible_large_turret
-		locatorname = "l_gun016"
+		template = "invisible_large_turret"
+		locatorname = h_gun01
 	}
 	component_slot = {
-		name = "M1"
-		template = invisible_medium_turret
+		name = "L6"
+		template = "invisible_large_turret"
+		locatorname = h_gun02
+	}
+	component_slot = {
+		name = "L7"
+		template = "invisible_large_turret"
 		locatorname = "l_gun011"
 	}
 	component_slot = {
-		name = "P1"
-		template = invisible_point_defence_turret
+		name = "M1"
+		template = "invisible_missile_turret"
 		locatorname = "l_gun012"
 	}
 	component_slot = {
-		name = "P2"
-		template = invisible_point_defence_turret
+		name = "M2"
+		template = "invisible_missile_turret"
 		locatorname = "l_gun012"
 	}
 	large_utility_slots = 12
 }
-
 ship_section_template = {
 	key = sfdoll_warship_5_stern
 	ship_size = sfdoll_warship_5
 	fits_on_slot = stern
 	should_draw_components = yes
-	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+	entity = bettalships_loctor_mesh_entity
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
+
 	component_slot = {
-		name = x03
-		template = invisible_extra_large_fixed
-		locatorname = x_gun02
+		name = "M1"
+		template = "invisible_medium_turret"
+		locatorname = h_gun03
 	}
 	component_slot = {
-		name = x04
-		template = invisible_extra_large_fixed
-		locatorname = x_gun04
+		name = "M2"
+		template = "invisible_medium_turret"
+		locatorname = h_gun04
 	}
 	component_slot = {
 		name = "P1"
-		template = invisible_point_defence_turret
-		locatorname = "l_gun014"
+		template = "invisible_point_defence_turret"
+		locatorname = "l_gun013"
 	}
 	component_slot = {
 		name = "P2"
-		template = invisible_point_defence_turret
-		locatorname = "l_gun015"
-	}
-	component_slot = {
-		name = "P3"
-		template = invisible_point_defence_turret
+		template = "invisible_point_defence_turret"
 		locatorname = "l_gun014"
 	}
 	component_slot = {
-		name = "P4"
-		template = invisible_point_defence_turret
-		locatorname = "l_gun015"
+		name = "P3"
+		template = "invisible_point_defence_turret"
+		locatorname = "l_gun013"
 	}
-
+	component_slot = {
+		name = "P4"
+		template = "invisible_point_defence_turret"
+		locatorname = "l_gun014"
+	}
 	aux_utility_slots = 4
 }
 ship_section_template = {
-	key = "sfdoll_warship_5_stern_H1"
+	key = sfdoll_warship_5_stern_H
 	ship_size = sfdoll_warship_5
 	fits_on_slot = stern
 	should_draw_components = yes
-	entity = GF_nyto_01_bettalships_loctor_mesh_entity
+	entity = bettalships_loctor_mesh_entity
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
-	component_slot = {
-		name = x03
-		template = invisible_extra_large_fixed
-		locatorname = x_gun02
-	}
-	component_slot = {
-		name = x04
-		template = invisible_extra_large_fixed
-		locatorname = x_gun04
-	}
+
 	component_slot = {
 		name = "H1"
-		template = large_strike_craft
-		locatorname = "l_gun016"
+		template = "large_strike_craft"
+		locatorname = h_gun03
+	}
+	component_slot = {
+		name = "M1"
+		template = "invisible_medium_turret"
+		locatorname = h_gun04
+	}
+	component_slot = {
+		name = "P1"
+		template = "invisible_point_defence_turret"
+		locatorname = "l_gun013"
+	}
+	component_slot = {
+		name = "P2"
+		template = "invisible_point_defence_turret"
+		locatorname = "l_gun014"
 	}
 	aux_utility_slots = 4
 }

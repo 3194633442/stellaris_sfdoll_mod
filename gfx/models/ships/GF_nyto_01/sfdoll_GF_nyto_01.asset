@@ -1,4 +1,66 @@
-#为涅托主宰和指挥舰模型添加点位
+#涅托泰坦和航战添加点位
+entity = {
+	name = "SFGF_nyto_01_battel_ship_cv_entity"
+	pdxmesh = "GF_nyto_01_titan_mesh"
+	default_state = "idle"
+	locator = { name = "T01" 	position = { -2  1  -30 } }
+	locator = { name = "T02" 	position = { 2   1  -30 } }
+	state = { name = "idle" state_time = 5
+		start_event = { node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_09" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_01" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_02" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_03" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_04" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_05" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_06" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_07" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_08" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_09" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_010" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_011" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_012" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+	}
+	state = { name = "moving" state_time = 5
+		start_event = { node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "light_locator_09" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_01" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_02" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_03" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_04" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_05" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_06" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_07" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_08" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_09" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_010" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_011" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+		start_event = { node = "engine_large_012" particle = "generic_1_5_exhaust_circle_long_moving" keep_particle = yes trigger_once = yes }
+	}
+	state = { name = "death" state_time = 5 looping = no }
+}
+# entity = {
+# 	name = "SFGF_nyto_01_bettalships_loctor_mesh_entity"
+# 	pdxmesh = "GF_nyto_01_titan_locator_mesh"
+# 	locator = { name = "S01" 	position = { -3  3  30 } }
+# 	locator = { name = "S02" 	position = { 3   3  30 } }
+# }
+
+#涅托主宰和指挥舰模型添加点位
 entity = {
 	name = "SF_GF_nyto_01_SANGVIS_FERRI_flag_ship_entity"
 	pdxmesh = "GF_nyto_01_juggernaut_mesh"
