@@ -276,6 +276,7 @@ tech_sfdoll_warship_6:0 "$sfdoll_warship_6$"
 tech_sfdoll_warship_6_desc:0 "Jamming system can weaken enemy fire for a certain amount of time.\n$place_build_sfdoll_special_ship$"
 
 sfdoll_warship_6_bow:0 "A"
+sfdoll_warship_6_bow_M4:0 "G"
 sfdoll_warship_6_mid:0 "B"
 sfdoll_warship_6_mid_X4:0 "F"
 sfdoll_warship_6_stern:0 "C"

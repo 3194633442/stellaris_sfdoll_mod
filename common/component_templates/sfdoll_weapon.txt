@@ -512,10 +512,10 @@ weapon_component_template = {
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	#static_rotation = yes
-	damage = { min = 2500 max = 3000 }
+	damage = { min = 1400 max = 2000 }
 	#冷却时间要除以10
-	total_fire_time = 61
-	windup = {	min = 5  max = 5 }
+	total_fire_time = 31
+	windup = {	min = 2  max = 2 }
 	range = 270
 	accuracy = 1
 	tracking = 0.9
