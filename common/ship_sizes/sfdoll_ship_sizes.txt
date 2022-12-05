@@ -56,6 +56,7 @@ sfdoll_gateway_ship = {
 	valid_target_aggressive_stance = no
 	auto_upgrade = no
 	potential_country = {	always = no	}
+	potential_construction = {	always = no	}
 	resources = {
 		category = ships
 		upkeep = {
@@ -131,9 +132,8 @@ sfdoll_change_hyperlane_ship = {
 	can_have_federation_design = no
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 	is_designable = no
-	potential_construction = {
-		always = no
-	}
+	potential_country = {	always = no	}
+	potential_construction = {	always = no	}
 	components_add_to_cost = no
 	default_behavior = carrier
 	class = shipclass_military_special
@@ -174,9 +174,8 @@ sfdoll_homeless_ship = {
 	
 	components_add_to_cost = yes
 	prerequisites = { "tech_sfdoll_homeless_ship" }
-	possible_country = {
-		has_authority = auth_gf_sfdoll
-	}
+	potential_country = {	always = no	}
+	potential_construction = {	always = no	}
 
 	default_behavior = carrier
 	class = shipclass_starbase
@@ -236,10 +235,8 @@ sfdoll_large_homeship = {
 	
 	components_add_to_cost = yes
 	prerequisites = { "tech_sfdoll_large_homeship" }
-	potential_country = {
-		has_authority = auth_gf_sfdoll
-	}
-
+	potential_country = {	always = no	}
+	potential_construction = {	always = no	}
 	default_behavior = carrier
 	class = shipclass_starbase
 	is_civilian = yes
@@ -311,9 +308,8 @@ sfdoll_exd_science_ship = {
 	icon = ship_size_military_8
 	class = shipclass_science_ship
 	is_designable = no
-	potential_country = {
-		always = no
-	}
+	potential_country = {	always = no	}
+	potential_construction = {	always = no	}
 	components_add_to_cost = no
 	required_component_set = "power_core"
 	required_component_set = "ftl_components"
@@ -349,6 +345,8 @@ sfdoll_constructor = {
 
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
+	potential_country = {	always = no	}
+	potential_construction = {	always = no	}
 	prerequisites = { "tech_sfdoll_constructor" }
 	is_civilian = yes
 	is_designable = yes

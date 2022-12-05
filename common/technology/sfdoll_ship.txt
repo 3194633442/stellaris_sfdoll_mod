@@ -586,6 +586,7 @@ tech_sfdoll_constructor = {
 	start_tech = no
 	icon = tech_space_construction
 	is_rare = yes
+	is_reverse_engineerable = no
 	category = { voidcraft }
 	potential = {
 		always = no

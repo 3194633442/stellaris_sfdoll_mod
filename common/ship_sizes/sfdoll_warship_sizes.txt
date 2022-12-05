@@ -503,8 +503,8 @@ sfdoll_star_eater = {
 	required_component_set = "sfdoll_aura_components"
 	required_component_set = "component_aura_sfdoll_2"
 	auto_upgrade = no
-	potential_country = { has_ascension_perk = ap_sfdoll_4	has_authority = auth_gf_sfdoll	}
-	possible_construction = { can_build_sfdoll_special_ship = yes }
+	potential_country = { always = no }
+	potential_construction = { always = no }
 	resources = {
 		category = ships
 		cost = {
@@ -689,9 +689,8 @@ sfdoll_star_attacker = {
 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
 	components_add_to_cost = no
 	prerequisites = { tech_sfdoll_star_attacker }
-	possible_country = {
-		has_authority = auth_gf_sfdoll
-	}
+	potential_country = { always = no }
+	potential_construction = { always = no }
 	default_behavior = artillery
 	class = shipclass_military_special
 	construction_type = starbase_shipyard
