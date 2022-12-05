@@ -78,13 +78,17 @@ sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$被设计用来进行对舰攻击�
 tech_sfdoll_weapon_T_2:0 "$sfdoll_weapon_T_2$"
 tech_sfdoll_weapon_T_2_desc:0 "$sfdoll_weapon_T_2_DESC$"
 
-sfdoll_missile_2:0 "铁血黑箭导弹"
-sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$可以迅速从内部撕裂敌对飞船。"
+sfdoll_missile_2:0 "铁血跳跃者导弹"
+sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$可将一定范围内的物质转移到其他坐标。$sfdoll_missile_2$会通过短距离FTL来接近目标，这意味着它无法被防空武器拦截。"
 tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
 tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
+# sfdoll_missile_2:0 "铁血黑箭导弹"
+# sfdoll_missile_2_DESC:0 "$sfdoll_missile_2$可以迅速从内部撕裂敌对飞船。"
+# tech_sfdoll_missile_2:0 "$sfdoll_missile_2$"
+# tech_sfdoll_missile_2_desc:0 "$sfdoll_missile_2_DESC$"
 
-sfdoll_missile_SP:0 "铁血跳跃者导弹"
-sfdoll_missile_SP_DESC:0 "$sfdoll_missile_SP$可将一定范围内的物质转移到其他坐标。$sfdoll_missile_SP$会通过短距离FTL来接近目标，这意味着它无法被防空武器拦截。"
+# sfdoll_missile_SP:0 "铁血跳跃者导弹"
+# sfdoll_missile_SP_DESC:0 "$sfdoll_missile_SP$可将一定范围内的物质转移到其他坐标。$sfdoll_missile_SP$会通过短距离FTL来接近目标，这意味着它无法被防空武器拦截。"
 
 tech_sfdoll_weapon_H_2:0 "铁血试验型舰载机"
 tech_sfdoll_weapon_H_2_desc:0 "铁血的新一代的舰载机将具备更为丰富的功能。"
