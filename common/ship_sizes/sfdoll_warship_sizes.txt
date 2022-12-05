@@ -314,7 +314,7 @@ sfdoll_warship_6 = {
 		# "core2" = { locator = part2 }
 		"stern"  = { locator = part2 }
 	}
-	size_multiplier = 24
+	size_multiplier = 25
 	fleet_slot_size = 8
 	num_target_locators = 8
 	is_space_station = no
@@ -343,8 +343,8 @@ sfdoll_warship_6 = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 6000
-			GF_nyto_collapse_liquid = 600
+			alloys = 8000
+			GF_nyto_collapse_liquid = 800
 		}
 		upkeep = {
 			energy = 90
