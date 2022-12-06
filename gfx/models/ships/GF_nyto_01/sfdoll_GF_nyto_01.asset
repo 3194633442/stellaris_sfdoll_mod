@@ -70,14 +70,14 @@ entity = {
 	locator = { name = "T03" 	position = { -2  3  -50 } }
 	locator = { name = "T04" 	position = { 2   3  -50 } }
 
-	# locator = { name = "X01" 	position = { -7  3 -50 } }
-	# locator = { name = "X02" 	position = { 7   3 -50 } }
-	# locator = { name = "X03" 	position = { -7  3  -40 } }
-	# locator = { name = "X04" 	position = { 7  3  -40 } }
-	locator = { name = "X01" 	position = { -7  3  -30 } }
-	locator = { name = "X02" 	position = { 7   3  -30 } }
-	locator = { name = "X03" 	position = { -7  3  -20 } }
-	locator = { name = "X04" 	position = { 7   3  -20 } }
+	locator = { name = "X01" 	position = { -7  3 -50 } }
+	locator = { name = "X02" 	position = { 7   3 -50 } }
+	locator = { name = "X03" 	position = { -7  3  -40 } }
+	locator = { name = "X04" 	position = { 7  3  -40 } }
+	locator = { name = "X05" 	position = { -7  3  -30 } }
+	locator = { name = "X06" 	position = { 7   3  -30 } }
+	locator = { name = "X07" 	position = { -7  3  -20 } }
+	locator = { name = "X08" 	position = { 7   3  -20 } }
 
 	locator = { name = "L01" 	position = { -7 3  -10 } }
 	locator = { name = "L02" 	position = { 7  3 -10} }
@@ -212,14 +212,14 @@ entity = {
 	locator = { name = "T03" 	position = { -2  3  -50 } }
 	locator = { name = "T04" 	position = { 2   3  -50 } }
 
-	# locator = { name = "X01" 	position = { -7  3 -50 } }
-	# locator = { name = "X02" 	position = { 7   3 -50 } }
-	# locator = { name = "X03" 	position = { -7  3  -40 } }
-	# locator = { name = "X04" 	position = { 7  3  -40 } }
-	locator = { name = "X01" 	position = { -7  3  -30 } }
-	locator = { name = "X02" 	position = { 7   3  -30 } }
-	locator = { name = "X03" 	position = { -7  3  -20 } }
-	locator = { name = "X04" 	position = { 7   3  -20 } }
+	locator = { name = "X01" 	position = { -7  3 -50 } }
+	locator = { name = "X02" 	position = { 7   3 -50 } }
+	locator = { name = "X03" 	position = { -7  3  -40 } }
+	locator = { name = "X04" 	position = { 7  3  -40 } }
+	locator = { name = "X05" 	position = { -7  3  -30 } }
+	locator = { name = "X06" 	position = { 7   3  -30 } }
+	locator = { name = "X07" 	position = { -7  3  -20 } }
+	locator = { name = "X08" 	position = { 7   3  -20 } }
 
 	locator = { name = "L01" 	position = { -7 3  -10 } }
 	locator = { name = "L02" 	position = { 7  3 -10} }
