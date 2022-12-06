@@ -135,7 +135,7 @@ sfdoll_change_hyperlane_ship = {
 	potential_country = {	always = no	}
 	potential_construction = {	always = no	}
 	components_add_to_cost = no
-	default_behavior = carrier
+	default_behavior = colossus
 	class = shipclass_military_special
 
 	modifier = {

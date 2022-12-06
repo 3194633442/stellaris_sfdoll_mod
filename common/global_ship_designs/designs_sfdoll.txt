@@ -277,7 +277,7 @@ ship_design = {
 		slot = "mid"
 	}
 	required_component= CORVETTE_sfdoll_collapse_REACTOR
-	required_component= JUMP_DRIVE_1
+	required_component= sfdoll_jump_drive
 }
 
 #开局家园舰
