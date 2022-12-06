@@ -218,13 +218,17 @@ country_event = {
 				fail_text =  "sfdoll_noel_is_destroyed"
 				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
 			}
+			custom_tooltip = {
+				fail_text =  "timed_flag_noel_become_ship"
+				NOT = {	has_country_flag = timed_flag_noel_become_ship }
+			}
 		}
 		hidden_effect = {
-			capital_scope = {
-				solar_system = {
-					effect_create_fleet_sfdoll_noel = yes
-				}
+			set_timed_country_flag = {
+				flag = timed_flag_noel_become_ship
+				days = 360
 			}
+			capital_scope = { solar_system = { effect_create_fleet_sfdoll_noel = yes } }
 		}
 		response_text = response_option_noel_become_ship
 	}
@@ -439,25 +443,5 @@ country_event = {
 		name = sfdoll_noel_event.9_option
 		break = yes
 		response_text = response_sfdoll_noel_event.9_option
-	}
-}
-
-#诺耶露舰船形态受损
-ship_event = {
-	id = sfdoll_noel_event.10
-	title = sfdoll_noel_event.10
-	desc = sfdoll_noel_event.10_desc
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		is_ship_size = ship_sfdoll_noel
-	}
-	immediate = {
-		owner = {
-			set_timed_country_flag = {
-				flag = sfdoll_noel_is_destroyed
-				days = 360
-			}
-		}
 	}
 }

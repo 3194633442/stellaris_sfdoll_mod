@@ -164,15 +164,15 @@ country_event = {
 	immediate = {
 		fromfrom = {
 			#诺耶露受损
-			if = {
-				limit = {	is_ship_size = ship_sfdoll_noel	}
-				root = {
-					set_timed_country_flag = {
-						flag = sfdoll_noel_is_destroyed
-						days = 360
-					}
-				}
-			}
+			# if = {
+			# 	limit = {	is_ship_size = ship_sfdoll_noel	}
+			# 	root = {
+			# 		set_timed_country_flag = {
+			# 			flag = sfdoll_noel_is_destroyed
+			# 			days = 360
+			# 		}
+			# 	}
+			# }
 
 			#高维船受损
 			if = {
