@@ -247,23 +247,23 @@ ship_section_template = {
 		locatorname = L24
 	}
 	component_slot = {
-		name = L_25
-		template = invisible_large_turret
+		name = M1
+		template = "invisible_medium_turret"
 		locatorname = L25
 	}
 	component_slot = {
-		name = L_26
-		template = invisible_large_turret
+		name = M2
+		template = "invisible_medium_turret"
 		locatorname = L26
 	}
 	component_slot = {
-		name = L_27
-		template = invisible_large_turret
+		name = M3
+		template = "invisible_medium_turret"
 		locatorname = L27
 	}
 	component_slot = {
-		name = L_28
-		template = invisible_large_turret
+		name = M4
+		template = "invisible_medium_turret"
 		locatorname = L28
 	}
 	large_utility_slots = 15
@@ -279,22 +279,22 @@ ship_section_template = {
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
-		name = M_01
+		name = G_01
 		template = invisible_missile_turret
 		locatorname = T09
 	}
 	component_slot = {
-		name = M_02
+		name = G_02
 		template = invisible_missile_turret
 		locatorname = T10
 	}
 	component_slot = {
-		name = M_03
+		name = G_03
 		template = invisible_missile_turret
 		locatorname = T11
 	}
 	component_slot = {
-		name = M_04
+		name = G_04
 		template = invisible_missile_turret
 		locatorname = T12
 	}
