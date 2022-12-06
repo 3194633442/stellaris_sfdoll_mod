@@ -773,7 +773,7 @@ weapon_component_template = {
 	min_range = 20.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 900000 max = 900000 }
+	damage = { min = 800000 max = 800000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = { min = 11 max = 11 }
@@ -829,17 +829,18 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_explosive weapon_type_sfdoll	}
 	ai_tags = {	weapon_role_anti_hull	}
 	use_ship_kill_target = yes
-	damage = { min = 7000 max = 9000 }
+	# damage = { min = 7000 max = 9000 }
+	damage = { min = 14000 max = 18000 }
 	#冷却时间要除以10
-	total_fire_time = 121
-	windup = {	min = 11  max = 11 }
-	range = 280
+	total_fire_time = 260
+	windup = {	min = 23  max = 23 }
+	range = 250
 	prio_projectile = yes
-	accuracy = 1
-	tracking = 0.5
+	accuracy = 0.9
+	tracking = 0.4
 	shield_penetration = 1
 	armor_penetration = 1
-	armor_damage = 2
+	armor_damage = 3
 	resources = {
 		category = ship_components
 		cost = {

@@ -1006,32 +1006,32 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "L01"
-		template = invisible_large_turret
+		template = "invisible_large_turret"
 		locatorname = "l_gun01"
 	}
 	component_slot = {
 		name = "L02"
-		template = invisible_large_turret
+		template = "invisible_large_turret"
 		locatorname = "l_gun03"
 	}
 	component_slot = {
 		name = "L03"
-		template = invisible_large_turret
+		template = "invisible_large_turret"
 		locatorname = "l_gun04"
 	}
 	component_slot = {
 		name = "L04"
-		template = invisible_point_defence_turret
+		template = "invisible_large_turret"
 		locatorname = "l_gun05"
 	}
 	component_slot = {
 		name = "L05"
-		template = invisible_point_defence_turret
+		template = "invisible_large_turret"
 		locatorname = "l_gun06"
 	}
 	component_slot = {
 		name = "L06"
-		template = invisible_large_turret
+		template = "invisible_large_turret"
 		locatorname = "l_gun08"
 	}
 	large_utility_slots = 12
@@ -1042,7 +1042,7 @@ ship_section_template = {
 	ship_size = sfdoll_warship_5
 	fits_on_slot = core
 	should_draw_components = yes
-	entity = bettalships_loctor_mesh_entity
+	entity = "GF_nyto_01_bettalships_loctor_mesh_entity"
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
@@ -1102,7 +1102,7 @@ ship_section_template = {
 	ship_size = sfdoll_warship_5
 	fits_on_slot = core
 	should_draw_components = yes
-	entity = bettalships_loctor_mesh_entity
+	entity = "GF_nyto_01_bettalships_loctor_mesh_entity"
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
@@ -1162,7 +1162,7 @@ ship_section_template = {
 	ship_size = sfdoll_warship_5
 	fits_on_slot = core
 	should_draw_components = yes
-	entity = bettalships_loctor_mesh_entity
+	entity = "GF_nyto_01_bettalships_loctor_mesh_entity"
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 	component_slot = {
@@ -1213,7 +1213,7 @@ ship_section_template = {
 	ship_size = sfdoll_warship_5
 	fits_on_slot = stern
 	should_draw_components = yes
-	entity = bettalships_loctor_mesh_entity
+	entity = "GF_nyto_01_bettalships_loctor_mesh_entity"
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 
@@ -1254,7 +1254,7 @@ ship_section_template = {
 	ship_size = sfdoll_warship_5
 	fits_on_slot = stern
 	should_draw_components = yes
-	entity = bettalships_loctor_mesh_entity
+	entity = "GF_nyto_01_bettalships_loctor_mesh_entity"
 	icon = GFX_ship_part_core_bow
 	icon_frame = 1
 
