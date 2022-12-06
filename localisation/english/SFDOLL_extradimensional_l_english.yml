@@ -29,9 +29,10 @@ sfdoll_exd_leader_to_scientist:0 "Please assist us in our research work."
 response_sfdoll_exd_leader_to_scientist:0 "I will provide help."
 
 sfdoll_get_exd_science_ship:0 "We need a science ship."
-response_sfdoll_get_exd_science_ship:0 "Use with care. If it breaks, it will take me a year repairing it."
+response_sfdoll_get_exd_science_ship:0 "Use with care. It will take me two years to debug the ship."
 have_fleet_sfdoll_exd_science_ship:0 "The science ship is already working."
 sfdoll_exd_science_ship_destroyed:0 "The science ship is being repaired."
+timed_flag_sfdoll_exd_science_ship:0 "The science ship cannot be obtained temporarily."
 
 NAME_sfdoll_exd_leader:0 "Roamer"
 leader_trait_sfdoll_exd_leader:0 "Extradimensional Roamer"

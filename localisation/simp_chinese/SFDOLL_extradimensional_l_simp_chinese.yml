@@ -31,9 +31,10 @@ sfdoll_exd_leader_to_scientist:0 "请协助我们的科研工作"
 response_sfdoll_exd_leader_to_scientist:0 "我会提供帮助."
 
 sfdoll_get_exd_science_ship:0 "我们需要一艘科研船"
-response_sfdoll_get_exd_science_ship:0 "小心使用.如果弄坏了,我得花一年的时间来修理它."
-have_fleet_sfdoll_exd_science_ship:0 "科研船已经在工作"
-sfdoll_exd_science_ship_destroyed:0 "科研船正在修理"
+response_sfdoll_get_exd_science_ship:0 "小心使用。调试这船需要花费我两年的时间。"
+have_fleet_sfdoll_exd_science_ship:0 "科研船已经在工作。"
+sfdoll_exd_science_ship_destroyed:0 "科研船正在修理。"
+timed_flag_sfdoll_exd_science_ship:0 "暂时无法获得科研船。"
 
 NAME_sfdoll_exd_leader:0 "漫游者"
 leader_trait_sfdoll_exd_leader:0 "异次元漫游者"

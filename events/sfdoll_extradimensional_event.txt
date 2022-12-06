@@ -169,12 +169,18 @@ country_event = {
 			}
 			custom_tooltip = {
 				fail_text = "sfdoll_exd_science_ship_destroyed"
-				NOT = {
-					has_country_flag = sfdoll_exd_science_ship_destroyed
-				}
+				NOT = { has_country_flag = sfdoll_exd_science_ship_destroyed }
+			}
+			custom_tooltip = {
+				fail_text = "timed_flag_sfdoll_exd_science_ship"
+				NOT = { has_country_flag = timed_flag_sfdoll_exd_science_ship }
 			}
 		}
 		hidden_effect = {
+			set_timed_country_flag = {
+				flag = timed_flag_sfdoll_exd_science_ship
+				days = 720
+			}
 			capital_scope = {
 				delete_fleet = event_target:fleet_sfdoll_exd_science_ship
 				clear_global_event_target = fleet_sfdoll_exd_science_ship

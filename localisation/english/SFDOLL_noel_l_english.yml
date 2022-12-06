@@ -5,7 +5,6 @@ sfdoll_noel_event_1_a_desc:0 "I can transform my shape freely.Why I became this 
 sfdoll_noel_event_1_c_desc:0 "What's matter?"
 noel_has_this_job_now:0 "Noel is in this role."
 sfdoll_noel_is_destroyed:0 "Noel can't do this work now."
-timed_flag_noel_become_ship:0 "Noel'll have to wait a while before she can turn again."
 
 noel_become_governor:0 "Please serve as governor"
 noel_become_scientist:0 "Please serve as scientist"
@@ -13,6 +12,7 @@ noel_become_admiral:0 "Please serve as admiral"
 noel_become_general:0 "Please serve as general"
 option_noel_become_ship:0 "Become a space unit"
 option_noel_become_ship_desc:0 "Requires at least one Noel ship design"
+timed_flag_noel_become_ship:0 "Noel'll have to wait a while before she can turn again."
 
 response_text_noel_become_governor:0 "Let's start building the new world!"
 response_text_noel_become_scientist:0 "We need more knowledge."
@@ -23,7 +23,6 @@ response_option_noel_become_ship:0 "Please note that from now on, after 360 days
 sfdoll_noel_event_2_title:0 "Noel's recent status"
 sfdoll_noel_event_2_desc:0 "The girl Noel, who was found by us in the relic site, seems to be healthy at the moment, but seems to have lost the memory before meeting us. In the past few years, she has lived in our world, growing up like an ordinary human girl. \n\nNoel has brought many inspirations to our relic research, and we help her control her spirit and power, and teach her knowledge."
 sfdoll_noel_event.2_option:0 "We're going to uncover her secret."
-
 
 sfdoll_noel_event.3:0 "§RNoel is missing§!"
 sfdoll_noel_event.3_desc:0 "The project to research Noel has an accident! While Noel was out with her guardians, she hijacked a space ship and disappeared without a trace. \n\nAll our searches have failed. "
