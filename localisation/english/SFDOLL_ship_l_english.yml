@@ -115,8 +115,8 @@ sfdoll_aux_rebuild_2_DESC:0 "§Y$sfdoll_aux_rebuild_2$§! will resist the fatal 
 tech_sfdoll_aux_rebuild_2:0 "$sfdoll_aux_rebuild_2$"
 tech_sfdoll_aux_rebuild_2_desc:0 "$sfdoll_aux_rebuild_2$ can block some hostile attacks"
 
-sfdoll_aux_rebuild:0 "Dimensional-Anchor Escape Capsule"
-sfdoll_aux_rebuild_DESC:0 "When a ship equipped with $sfdoll_aux_rebuild$ is destroyed, a ship of the same type will be spawned based on a existing ship design. It will take 30 days for the new ship to use $sfdoll_aux_rebuild$ again. The effect does not stack."
+sfdoll_aux_rebuild:0 "SF Dimensional-Anchor"
+sfdoll_aux_rebuild_DESC:0 "When a ship equipped with $sfdoll_aux_rebuild$ is destroyed, a ship of the same type will be spawned based on a existing ship design. It will take 30 days for the new ship to use $sfdoll_aux_rebuild$ again."
 
 tech_sfdoll_aux_rebuild:0 "$sfdoll_aux_rebuild$"
 tech_sfdoll_aux_rebuild_desc:0 "Using the $sfdoll_aux_rebuild$, the ship can protect the core function when it is fatally attacked, and sneak into other dimensions briefly, and then use the redundant backup to repair the ship.."
@@ -146,7 +146,7 @@ component_aura_sfdoll_1_text:0 "§YActivated at the beginning of the combat, the
 # 1-30 cooldowns are required for every 30 days.
 
 component_aura_sfdoll_2:0 "Space Prism"
-component_aura_sfdoll_2_text:0 "§YEffect does not stack, cooldown is required every 30 days. \nCooldown time: 1-30 days§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-100%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-100%§!"
+component_aura_sfdoll_2_text:0 "§YEffect does not stack, cooldown is required every 21 days. \nCooldown time: 10-41 days§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!"
 
 #defense
 sfdoll_ship_defense_s:0 "Enhanced Forcefield Shield"

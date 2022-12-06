@@ -127,7 +127,7 @@ utility_component_template = {
 #复活
 utility_component_template = {
 	key = "sfdoll_aux_rebuild"
-	size = aux
+	size = medium
 	icon = "GFX_sfdoll_aux_rebuild"
 	icon_frame = 1
 	power = -600
@@ -137,7 +137,7 @@ utility_component_template = {
 			GF_nyto_collapse_liquid = 60
 		}
 	}
-	prerequisites = { tech_sfdoll_aux_rebuild }
+	# prerequisites = { "tech_sfdoll_aux_rebuild" }
 	component_set = "sfdoll_aux_rebuild"
 
 	size_restriction = {

@@ -8,8 +8,10 @@ aura_sfdoll_2_effect = {
 		solar_system = {
 			every_fleet_in_system = {
 				if = {
-					limit = {
-						owner = {	is_same_value = root.owner	}
+					limit = { owner = {	is_same_value = root.owner	} }
+					if = {
+						limit = { has_fleet_flag = aura_sfdoll_2_friendly }
+						remove_fleet_flag = aura_sfdoll_2_friendly
 					}
 					set_timed_fleet_flag = {
 						flag = aura_sfdoll_2_friendly
@@ -23,11 +25,11 @@ aura_sfdoll_2_effect = {
 					}
 					set_timed_fleet_flag = {
 						flag = aura_sfdoll_2_hostile
-						days = 30
+						days = 21
 					}
 					add_modifier = {
 						modifier = aura_sfdoll_2_hostile_modifier
-						days = 30
+						days = 21
 					}
 				}
 			}
@@ -38,6 +40,21 @@ aura_sfdoll_2_effect = {
 # this = ship destroyed , root = ship , root.fromfrom = ship destroyed
 sfdoll_warship_rebuild = {
 	if = {
+		limit = { is_ship_size = sfdoll_mobile_starbase }
+		fleet = {
+			create_ship = {
+				name = prev
+				random_existing_design = sfdoll_mobile_starbase
+				effect = {
+					set_timed_ship_flag = {
+						flag = flag_sfdoll_aux_rebuild
+						days = 30
+					}
+				}
+			}
+		}
+	}
+	else_if = {
 		limit = { is_ship_size = sfdoll_warship_1 }
 		fleet = {
 			create_ship = {
@@ -127,21 +144,6 @@ sfdoll_warship_rebuild = {
 			}
 		}
 	}
-	else_if = {
-		limit = { is_ship_size = sfdoll_mobile_starbase }
-		fleet = {
-			create_ship = {
-				name = prev
-				random_existing_design = sfdoll_mobile_starbase
-				effect = {
-					set_timed_ship_flag = {
-						flag = flag_sfdoll_aux_rebuild
-						days = 30
-					}
-				}
-			}
-		}
-	}
 }
 #剩余1舰，新建舰队进行复活
 sfdoll_warship_rebuild_num1 = {
@@ -150,12 +152,28 @@ sfdoll_warship_rebuild_num1 = {
 		effect = {
 			set_owner = root
 			set_location = root.fromfrom
-			#复活的新舰队30天内不能触发
+			#复活的新舰队不能立刻触发压制光环
 			set_timed_fleet_flag = {
-				flag = flag_sfdoll_fleet_rebuild
-				days = 30
+				flag = aura_sfdoll_2_friendly
+				days = 10
 			}
 			if = {
+				limit = {
+					root.fromfrom = { is_ship_size = sfdoll_mobile_starbase }
+				}
+				create_ship = {
+					random_existing_design = sfdoll_mobile_starbase
+					name = root.fromfrom
+					effect = {
+						set_timed_ship_flag = {
+							flag = flag_sfdoll_aux_rebuild
+							days = 30
+						}
+					}
+				}
+				set_mia = yes
+			}
+			else_if = {
 				limit = {
 					root.fromfrom = {
 						is_ship_size = sfdoll_warship_1
@@ -248,23 +266,6 @@ sfdoll_warship_rebuild_num1 = {
 				}
 				create_ship = {
 					random_existing_design = sfdoll_warship_6
-					name = root.fromfrom
-					effect = {
-						set_timed_ship_flag = {
-							flag = flag_sfdoll_aux_rebuild
-							days = 30
-						}
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					root.fromfrom = {
-						is_ship_size = sfdoll_mobile_starbase
-					}
-				}
-				create_ship = {
-					random_existing_design = sfdoll_mobile_starbase
 					name = root.fromfrom
 					effect = {
 						set_timed_ship_flag = {

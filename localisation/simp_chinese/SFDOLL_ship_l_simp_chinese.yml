@@ -119,8 +119,8 @@ sfdoll_aux_rebuild_2_DESC:0 "§Y$sfdoll_aux_rebuild_2$§!会抵挡飞船受到�
 tech_sfdoll_aux_rebuild_2:0 "$sfdoll_aux_rebuild_2$"
 tech_sfdoll_aux_rebuild_2_desc:0 "$sfdoll_aux_rebuild_2$可以隔绝部分敌对攻击"
 
-sfdoll_aux_rebuild:0 "维度锚救生舱"
-sfdoll_aux_rebuild_DESC:0 "装备$sfdoll_aux_rebuild$的舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_rebuild$. 效果无法叠加."
+sfdoll_aux_rebuild:0 "铁血次元锚"
+sfdoll_aux_rebuild_DESC:0 "装备$sfdoll_aux_rebuild$的舰船被摧毁时,会根据现有的舰船设计生成一艘同类型舰船.新的舰船需要经过30天才能再次使用$sfdoll_aux_rebuild$。"
 
 tech_sfdoll_aux_rebuild:0 "$sfdoll_aux_rebuild$"
 tech_sfdoll_aux_rebuild_desc:0 "利用$sfdoll_aux_rebuild$,飞船可在受到致命攻击时保护核心机能,并短暂潜入其他维度,再利用冗余备份来修复舰船."
@@ -150,7 +150,12 @@ component_aura_sfdoll_1:0 "干扰系统"
 component_aura_sfdoll_1_text:0 "§Y交战开始时启动，效果不可叠加，持续30天。§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
 
 component_aura_sfdoll_2:0 "空间棱镜"
-component_aura_sfdoll_2_text:0 "§Y效果不可叠加，每经过30天需要进行冷却。\n冷却时间：1-30天§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_ADD$ §R-1000%§!\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-100%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-100%§!"
+component_aura_sfdoll_2_text:0 "§Y效果不可叠加，每经过21天需要进行冷却。\n冷却时间：10-41天§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!"
+# component_aura_sfdoll_2_text:0 "§Y效果不可叠加，每经过20天需要进行冷却。\n冷却时间：11-40天§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!\n$MOD_SHIP_WEAPON_DAMAGE_MULT$ §R-400%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-400%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-400%§!"
+# ship_weapon_damage = -4
+# ship_fire_rate_mult = -4
+# ship_weapon_range_mult = -4
+#\n$MOD_SHIP_SHIELD_PENETRATION_MULT$ §R-100%§!\n$MOD_SHIP_ARMOR_PENETRATION_MULT$ §R-100%§!
 
 #defense
 sfdoll_ship_defense_s:0 "强化型力场盾"

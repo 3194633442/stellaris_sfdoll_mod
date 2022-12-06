@@ -391,8 +391,8 @@ tech_sfdoll_aux_rebuild = {
 	category = { field_manipulation }
 	is_rare = yes
 	is_reverse_engineerable = no
-	prerequisites = {	tech_sfdoll_warship_1	}
-	potential = { always = no	has_authority = auth_gf_sfdoll	}
+	prerequisites = { tech_sfdoll_mobile_starbase	}
+	potential = { always = no has_authority = auth_gf_sfdoll	}
 	tier = 5
 	weight = 0
 }
