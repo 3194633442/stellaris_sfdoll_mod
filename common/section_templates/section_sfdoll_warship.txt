@@ -18,7 +18,7 @@ ship_section_template = {
 	}
 	small_utility_slots = 6
 	aux_utility_slots = 2
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_MID_L1MISSILE"
@@ -39,6 +39,7 @@ ship_section_template = {
 	}
 	small_utility_slots = 6
 	aux_utility_slots = 2
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_MID_L1S2"
@@ -64,6 +65,7 @@ ship_section_template = {
 	}
 	small_utility_slots = 6
 	aux_utility_slots = 2
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_MID_L1P2"
@@ -89,6 +91,7 @@ ship_section_template = {
 	}
 	small_utility_slots = 6
 	aux_utility_slots = 2
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_MID_M2S2"
@@ -119,6 +122,7 @@ ship_section_template = {
 	}
 	small_utility_slots = 6
 	aux_utility_slots = 2
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_MID_M2P2"
@@ -149,6 +153,7 @@ ship_section_template = {
 	}
 	small_utility_slots = 6
 	aux_utility_slots = 2
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_1_MID_MISSILE"
@@ -201,7 +206,7 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	medium_utility_slots = 6
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_2_bow_M4"
@@ -310,7 +315,7 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	aux_utility_slots = 2
-	ai_weight = { weight = 10 }
+	
 }
 
 
@@ -327,7 +332,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	large_utility_slots = 3
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "GF_sfdoll_warship_3_bow_L2"
@@ -411,7 +416,7 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	large_utility_slots = 3
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "GF_sfdoll_warship_3_stern_L1"
@@ -425,7 +430,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	aux_utility_slots = 3
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "GF_sfdoll_warship_3_stern_M2"
@@ -477,7 +482,7 @@ ship_section_template = {
 		locatorname = "xl_gun_01"
 	}
 	large_utility_slots = 6
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "GF_sfdoll_warship_4_bow_X2"
@@ -537,7 +542,7 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_02"
 	}
 	large_utility_slots = 6
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "GF_sfdoll_warship_4_mid_M2"
@@ -680,7 +685,7 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	aux_utility_slots = 3
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "GF_sfdoll_warship_4_stern_H1"
@@ -741,7 +746,7 @@ ship_section_template = {
 		locatorname = "l_gun05"
 	}
 	large_utility_slots = 12
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = sfdoll_warship_5_bow_6L
@@ -853,7 +858,7 @@ ship_section_template = {
 		locatorname = "l_gun012"
 	}
 	large_utility_slots = 12
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_5_core_G4"
@@ -1006,7 +1011,7 @@ ship_section_template = {
 		locatorname = "l_gun014"
 	}
 	aux_utility_slots = 4
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = sfdoll_warship_5_stern_H
@@ -1110,7 +1115,7 @@ ship_section_template = {
 		locatorname = X04
 	}
 	large_utility_slots = 16
-	ai_weight = { weight = 10 }
+	
 }
 ship_section_template = {
 	key = "sfdoll_warship_6_bow_G4"
@@ -1312,7 +1317,7 @@ ship_section_template = {
 		locatorname = X08
 	}
 	large_utility_slots = 16
-	ai_weight = { weight = 10 }
+	ai_weight = { weight = 50 }
 }
 ship_section_template = {
 	key = sfdoll_warship_6_mid_G4
@@ -1610,5 +1615,5 @@ ship_section_template = {
 		locatorname = L24
 	}
 	aux_utility_slots = 5
-	ai_weight = { weight = 10 }
+	
 }
