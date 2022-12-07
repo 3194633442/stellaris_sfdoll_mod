@@ -146,7 +146,7 @@ component_aura_sfdoll_1_text:0 "§YActivated at the beginning of the combat, the
 # The effect lasts for 20 days. When the effect is finished, it must be cooled to start again.
 
 component_aura_sfdoll_2:0 "Space Prism"
-component_aura_sfdoll_2_text:0 "§YEffect does not stack. The effect lasts for 20 days. When the effect is finished, it must be cooled to start again. \nCooldown time: 10-40 days§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!"
+component_aura_sfdoll_2_text:0 "§YEffect does not stack. The effect lasts for 10 days. When the effect is finished, it must be cooled to start again. \nCooldown time: 20 days§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!"
 
 #defense
 sfdoll_ship_defense_s:0 "Enhanced Forcefield Shield"

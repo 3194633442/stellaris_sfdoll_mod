@@ -150,7 +150,7 @@ component_aura_sfdoll_1:0 "干扰系统"
 component_aura_sfdoll_1_text:0 "§Y交战开始时启动，效果不可叠加，持续30天。§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_WEAPON_DAMAGE$ §R-800%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-1600%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-800%§!"
 
 component_aura_sfdoll_2:0 "空间棱镜"
-component_aura_sfdoll_2_text:0 "§Y效果不可叠加。效果持续时间20天，效果结束后，必须进行冷却才能再次启动。\n冷却时间：10-40天§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!"
+component_aura_sfdoll_2_text:0 "§Y效果不可叠加。效果持续时间10天，效果结束后，必须进行冷却才能再次启动。\n冷却时间：20天§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!"
 # component_aura_sfdoll_2_text:0 "§Y效果不可叠加，每经过20天需要进行冷却。\n冷却时间：11-40天§!\n$AURA_APPLY_ON_HOSTILE$\n$MOD_SHIP_ACCURACY_MULT$ §R-1000%§!\n$MOD_SHIP_WEAPON_DAMAGE_MULT$ §R-400%§!\n$MOD_SHIP_FIRE_RATE_MULT$ §R-400%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$ §R-400%§!"
 # ship_weapon_damage = -4
 # ship_fire_rate_mult = -4

@@ -249,11 +249,11 @@ fleet_event = {
 		aura_sfdoll_2_effect = yes
 		set_timed_fleet_flag = {
 			flag = sfoll_fleet_checked
-			days = 28
+			days = 15
 		}
 		fleet_event = {
 			id = sfdoll_fleet_event.9
-			days = 30
+			days = 29
 		}
 	}
 }
