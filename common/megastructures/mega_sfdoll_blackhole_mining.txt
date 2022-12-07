@@ -102,7 +102,7 @@ sfdoll_blackhole_mining_02 = {
 		category = megastructures
 		cost = {
 			alloys = 5000
-			GF_nyto_collapse_liquid = 250
+			GF_nyto_collapse_liquid = 1000
 			unity = 1000
 		}
 		produces = {
@@ -135,7 +135,7 @@ sfdoll_blackhole_mining_03 = {
 		category = megastructures
 		cost = {
 			alloys = 30000
-			GF_nyto_collapse_liquid = 1500
+			GF_nyto_collapse_liquid = 7000
 			unity = 6000
 		}
 		produces = {

@@ -108,7 +108,7 @@ mega_sfdoll_ring_world_2 = {
 		cost = {
 			alloys = 20000
 			unity = 1000
-			GF_nyto_collapse_liquid = 2000
+			GF_nyto_collapse_liquid = 3000
 		}
 	}
 	prerequisites = { tech_sfdoll_ring_world }
