@@ -1,4 +1,5 @@
 namespace = sfdoll_fleet_event
+# 交战开始统一检测
 #on_entering_battle,是否为铁血的舰队，This = owner of fleet 1,FromFrom = fleet 1,FromFromFrom = fleet 2
 country_event = {
 	id = sfdoll_fleet_event.1
@@ -26,6 +27,22 @@ country_event = {
 		fromfrom = {
 			fleet_event = {
 				id = sfdoll_fleet_event.9
+			}
+		}
+		if = {
+			limit = { 
+				fromfromfrom = { NOT = { has_fleet_flag = aura_sfdoll_2_hostile } }
+				fromfrom = { has_fleet_flag = aura_sfdoll_2_friendly }
+			}
+			fromfromfrom = {
+				set_timed_fleet_flag = {
+					flag = aura_sfdoll_2_hostile
+					days = 10
+				}
+				add_modifier = {
+					modifier = aura_sfdoll_2_hostile_modifier
+					days = 10
+				}
 			}
 		}
 	}

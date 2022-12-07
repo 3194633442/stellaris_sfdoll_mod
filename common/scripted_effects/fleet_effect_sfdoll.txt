@@ -15,7 +15,7 @@ aura_sfdoll_2_effect = {
 					}
 					set_timed_fleet_flag = {
 						flag = aura_sfdoll_2_friendly
-						days = 28
+						days = 27
 					}
 				}
 				else_if = {
