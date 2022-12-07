@@ -42,9 +42,13 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 30
 		modifier = {
-			factor = -4
+			factor = 0
+			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
+		}
+		modifier = {
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -93,13 +97,13 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 30
 		modifier = {
 			factor = 0
 			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
 		}
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -145,9 +149,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -192,9 +196,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -239,9 +243,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -287,9 +291,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -336,7 +340,7 @@ weapon_component_template = {
 	ai_weight = {
 		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {		has_authority = auth_gf_sfdoll		}
 		}
 	}
@@ -441,9 +445,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -494,9 +498,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -546,9 +550,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -597,9 +601,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -1
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -648,9 +652,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -2
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -703,9 +707,9 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1500
+		weight = 50
 		modifier = {
-			factor = -4
+			factor = -2
 			NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
@@ -744,7 +748,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
-	ai_weight = {	weight = 0	}
+	ai_weight = {
+		weight = 50
+		modifier = {
+			factor = 0
+			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
+		}
+		modifier = {
+			factor = -2
+			NOT = {	has_authority = auth_gf_sfdoll	}
+		}
+	}
 	resources = {
 		category = ship_components
 		cost = {
@@ -773,7 +787,7 @@ weapon_component_template = {
 	min_range = 20.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 800000 max = 800000 }
+	damage = { min = 700000 max = 700000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = { min = 11 max = 11 }
@@ -803,7 +817,7 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 1000
+		weight = 100
 		modifier = {
 			factor = 0
 			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
