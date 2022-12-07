@@ -12,6 +12,10 @@ sfdoll_army_desc:0"这些部队装备了先进的铁血武器"
 sfoll_heavy_army:0"铁血重型军团"
 sfoll_heavy_army_desc:0"这些部队配备了先进的重型兵器，例如空中战舰和多用途机甲"
 
-bombardment_sfdoll_precise:0 "精确打击"
-bombardment_sfdoll_precise_name:0 "精确打击"
-bombardment_sfdoll_precise_desc:0 "铁血人形们将利用尖端探测器和高能武器来攻击星球。\n\n对陆军和星球造成巨大伤害，对人口造成中等伤害。"
+bombardment_sfdoll_1:0 "密集火力"
+bombardment_sfdoll_1_name:0 "$bombardment_sfdoll_1$"
+bombardment_sfdoll_1_desc:0 "铁血人形们将利用尖端探测器和高能武器来攻击星球。\n\n对陆军，星球和人口造成巨大伤害。"
+
+# bombardment_sfdoll_precise:0 "精确打击"
+# bombardment_sfdoll_precise_name:0 "精确打击"
+# bombardment_sfdoll_precise_desc:0 "铁血人形们将利用尖端探测器和高能武器来攻击星球。\n\n对陆军和星球造成巨大伤害，对人口造成中等伤害。"

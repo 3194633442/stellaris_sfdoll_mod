@@ -1733,11 +1733,11 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "L_5"
-		template = "large_strike_craft"
+		template = invisible_large_turret
 		locatorname = L13
 	}
 	component_slot = {
-		name = "L_6"
+		name = "H1"
 		template = "large_strike_craft"
 		locatorname = L14
 	}

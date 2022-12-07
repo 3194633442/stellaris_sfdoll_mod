@@ -334,8 +334,8 @@ design_ship_sfdoll_noel:0 "$ship_sfdoll_noel$"
 #section
 tech_sfdoll_battleship_bow_x2:0 "SF Military Industry:Lightweight Weapon"
 tech_sfdoll_battleship_bow_x2_desc:0 "Lightweight heavy weapons to make them compatible with more ship types"
-description_tech_sfdoll_battleship_bow_x2:0 "§HUnlocks Sections:§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$"
-
+description_tech_sfdoll_battleship_bow_x2:0 "§HUnlocks Sections:§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$\n\n§HUnlocks Orbital Bombardment:§! $bombardment_sfdoll_1$"
+# Orbital Bombardment
 sfdoll_CRUISER_BOW_X1:0 "Lightweight Weapon Bow"
 sfdoll_battleship_bow_T1:0 "Lightweight Weapon Bow"
 

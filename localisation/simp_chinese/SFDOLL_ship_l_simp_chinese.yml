@@ -338,7 +338,7 @@ design_ship_sfdoll_noel:0 "$ship_sfdoll_noel$"
 #section
 tech_sfdoll_battleship_bow_x2:0 "铁血军工：轻量化武器"
 tech_sfdoll_battleship_bow_x2_desc:0 "对重型武器进行轻量化，使其兼容更多舰船类型"
-description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$"
+description_tech_sfdoll_battleship_bow_x2:0 "§H解锁区段：§! $sfdoll_CRUISER_BOW_X1$,$sfdoll_battleship_bow_T1$\n\n§H解锁轨道轰炸：§!$bombardment_sfdoll_1$"
 
 sfdoll_CRUISER_BOW_X1:0 "强化主炮舰艏"
 sfdoll_battleship_bow_T1:0 "强化主炮舰艏"
