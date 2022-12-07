@@ -43,6 +43,8 @@ aura_sfdoll_2_hostile_modifier = {
 	# ship_armor_penetration_mult = -1
 }
 
+sfdoll_sophon_intel_mod = { add_base_country_intel = 40 }
+
 # Ä¸½¢
 sfdoll_mobile_starbase_mod = {
 	ship_starting_experience_add = 1000	

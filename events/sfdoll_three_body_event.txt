@@ -118,3 +118,87 @@ country_event = {
 		hidden_effect = { break = yes }
 	}
 }
+
+# 和智子通讯
+country_event = {
+	id = sfdoll_three_body_event.3
+	title = sfdoll_three_body_event.3
+	desc = sfdoll_three_body_event.3_desc
+	is_triggered_only = yes
+	trigger = { has_authority = auth_gf_sfdoll }
+	diplomatic = yes
+	picture_event_data = {
+		portrait = GFX_sfdoll_Tokiwa_Nanaka
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}
+	immediate = { set_country_flag = contract_diplomacy_engaged }
+	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
+
+	# 智子提供情报加成
+	option = {
+		name = sfdoll_three_body_event.2_option1
+		response_text = "sfdoll_three_body_event.2_option1_response"
+		hidden_effect = {
+			if = {
+				limit = { exists = event_target:sfdoll_leader_sophon }
+				event_target:sfdoll_leader_sophon = {
+					kill_leader = { show_notification = no fire = yes }
+				}
+			}
+			if = {
+				limit = { has_modifier = sfdoll_sophon_intel_mod }
+				remove_modifier = sfdoll_sophon_intel_mod
+			}
+			add_modifier = { modifier = sfdoll_sophon_intel_mod days = -1 }
+		}
+	}
+
+	# 智子担任科学家
+	option = {
+		name = sfdoll_three_body_event.2_option2
+		response_text = "sfdoll_three_body_event.2_option2_response"
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_the_leader_is_doing_this_job"
+				NOT = {
+					exists = event_target:sfdoll_leader_sophon
+					event_target:sfdoll_leader_sophon = {
+						leader_class = scientist
+						owner = { is_same_value = root }
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = { exists = event_target:sfdoll_leader_sophon }
+				event_target:sfdoll_leader_sophon = {
+					kill_leader = { show_notification = no fire = yes }
+				}
+			}
+			if = {
+				limit = { has_modifier = sfdoll_sophon_intel_mod }
+				remove_modifier = sfdoll_sophon_intel_mod
+			}
+			create_leader = {
+				class = scientist
+				species = owner_species
+				name = "NAME_SFDOLL_SOPHON"
+				skill = 10
+				set_age = 1
+				immortal = yes
+				event_leader = yes	# prevents this leader from leading factions and winning elections
+				traits = { trait = leader_trait_sfdoll_sophon }
+				effect = {
+					change_leader_portrait = GFX_sfdoll_Tokiwa_Nanaka
+					set_leader_flag = sfdoll_leader_sophon
+					save_global_event_target_as = sfdoll_leader_sophon
+				}
+			}
+		}
+	}
+	option = { name = EXIT hidden_effect = { break = yes } }
+}

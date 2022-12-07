@@ -18,3 +18,13 @@ leader_trait_sfdoll_dingyi:0 "六分仪"
 leader_trait_sfdoll_dingyi_desc:0 "朝闻道,夕死可矣."
 
 NAME_sfdoll_dingyi:0 "丁仪"
+
+sfdoll_three_body_event.3
+sfdoll_three_body_event.3_desc
+sfdoll_three_body_event.2_option1
+sfdoll_three_body_event.2_option1_response
+
+sfdoll_sophon_intel_mod
+NAME_SFDOLL_SOPHON
+leader_trait_sfdoll_sophon
+leader_trait_sfdoll_sophon_desc
