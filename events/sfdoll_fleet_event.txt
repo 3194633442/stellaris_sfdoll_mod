@@ -24,26 +24,13 @@ country_event = {
 		# 		}
 		# 	}
 		# }
-		fromfrom = {
-			fleet_event = {
-				id = sfdoll_fleet_event.9
-			}
-		}
+		fromfrom = { fleet_event = { id = sfdoll_fleet_event.9 } }
 		if = {
 			limit = { 
 				fromfromfrom = { NOT = { has_fleet_flag = aura_sfdoll_2_hostile } }
 				fromfrom = { has_fleet_flag = aura_sfdoll_2_friendly }
 			}
-			fromfromfrom = {
-				set_timed_fleet_flag = {
-					flag = aura_sfdoll_2_hostile
-					days = 10
-				}
-				add_modifier = {
-					modifier = aura_sfdoll_2_hostile_modifier
-					days = 10
-				}
-			}
+			fromfromfrom = { aura_sfdoll_2_set_mod_effect = yes }
 		}
 	}
 }

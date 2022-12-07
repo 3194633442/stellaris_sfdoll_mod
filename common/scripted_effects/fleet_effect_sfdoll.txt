@@ -1,4 +1,4 @@
-# 持续压制 scope = fleet
+# 压制光环月检 scope = fleet
 aura_sfdoll_2_effect = {
 	if = {
 		limit = {
@@ -23,17 +23,21 @@ aura_sfdoll_2_effect = {
 						NOT = {	has_fleet_flag = aura_sfdoll_2_hostile	}
 						owner = {	is_hostile = root.owner	}
 					}
-					set_timed_fleet_flag = {
-						flag = aura_sfdoll_2_hostile
-						days = 10
-					}
-					add_modifier = {
-						modifier = aura_sfdoll_2_hostile_modifier
-						days = 10
-					}
+					aura_sfdoll_2_set_mod_effect = yes
 				}
 			}
 		}
+	}
+}
+# 为敌舰队添加压制修正
+aura_sfdoll_2_set_mod_effect = {
+	set_timed_fleet_flag = {
+		flag = aura_sfdoll_2_hostile
+		days = 10
+	}
+	add_modifier = {
+		modifier = aura_sfdoll_2_hostile_modifier
+		days = 10
 	}
 }
 
