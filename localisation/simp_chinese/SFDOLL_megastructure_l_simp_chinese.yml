@@ -1,6 +1,7 @@
 ﻿l_simp_chinese:
 ##########
 # system_limit_one_sfd:0 "一个星系只能造一座"
+sfdoll_mega_should_outside_well:0 "这个巨构必须建造在重力井之外。"
 mega_sfdoll_starport_01:0 "$mega_sfdoll_starport_04$基址"
 mega_sfdoll_starport_01_DESC:0 "$mega_sfdoll_starport_04$建造在重力井之外，以便利用低重力环境和FTL航路"
 mega_sfdoll_starport_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_starport_01_DESC$"

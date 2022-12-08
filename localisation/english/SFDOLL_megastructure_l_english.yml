@@ -1,5 +1,6 @@
 ﻿l_english:
 ##########
+sfdoll_mega_should_outside_well:0 "This megastructure should be built outside gravity well."
 mega_sfdoll_starport_01:0 "$mega_sfdoll_starport_04$ Site"
 mega_sfdoll_starport_01_DESC:0 "$mega_sfdoll_starport_04$ will be built outside gravity well to use low gravity environment and hyperlane"
 mega_sfdoll_starport_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_starport_01_DESC$"
