@@ -139,8 +139,8 @@ country_event = {
 
 	# 智子提供情报加成
 	option = {
-		name = sfdoll_three_body_event.3_option1
-		response_text = "sfdoll_three_body_event.3_option1_response"
+		name = sfdoll_three_body_event.3_a
+		response_text = "sfdoll_three_body_event.3_a_response"
 		hidden_effect = {
 			if = {
 				limit = { exists = event_target:sfdoll_leader_sophon }
@@ -158,8 +158,7 @@ country_event = {
 
 	# 智子担任科学家
 	option = {
-		name = sfdoll_three_body_event.3_option2
-		response_text = "sfdoll_three_body_event.2_option3_response"
+		name = sfdoll_three_body_event.3_b
 		allow = {
 			custom_tooltip = {
 				fail_text = "sfdoll_the_leader_is_doing_this_job"
@@ -198,6 +197,8 @@ country_event = {
 					save_global_event_target_as = sfdoll_leader_sophon
 				}
 			}
+			# 打开新的对话界面
+			country_event = { id = sfdoll_three_body_event.7 }
 		}
 	}
 	option = { name = EXIT hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } } }
@@ -250,5 +251,25 @@ country_event = {
 	immediate = { set_country_flag = contract_diplomacy_engaged }
 	option = { name = sfdoll_three_body_event.6_a }
 	option = { name = sfdoll_three_body_event.6_b }
+	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
+}
+
+# 智子变身为科学家时的对话
+country_event = {
+	id = sfdoll_three_body_event.7
+	title = sfdoll_three_body_event.7
+	desc = sfdoll_three_body_event.7_desc
+	is_triggered_only = yes
+	trigger = { has_authority = auth_gf_sfdoll }
+	diplomatic = yes
+	picture_event_data = {
+		portrait = GFX_sfdoll_Tokiwa_Nanaka
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}
+	immediate = { set_country_flag = contract_diplomacy_engaged }
+	option = { name = OK }
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 }
