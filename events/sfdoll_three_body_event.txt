@@ -229,6 +229,7 @@ country_event = {
 		city_level = this
 	}
 	immediate = { set_country_flag = contract_diplomacy_engaged }
+	option = { name = "sfdoll_three_body_event.5_option" }
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 }
 # 智子初次通讯2
@@ -247,5 +248,7 @@ country_event = {
 		city_level = this
 	}
 	immediate = { set_country_flag = contract_diplomacy_engaged }
+	option = { name = sfdoll_three_body_event.6_a }
+	option = { name = sfdoll_three_body_event.6_b }
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 }
