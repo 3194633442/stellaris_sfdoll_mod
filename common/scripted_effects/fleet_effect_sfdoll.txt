@@ -33,10 +33,10 @@ aura_sfdoll_2_effect = {
 aura_sfdoll_2_set_mod_effect = {
 	set_timed_fleet_flag = {
 		flag = aura_sfdoll_2_hostile
-		days = 10
+		days = 20
 	}
 	add_modifier = {
-		modifier = aura_sfdoll_2_hostile_modifier
+		modifier = aura_sfdoll_2_hostile_mod
 		days = 10
 	}
 }
