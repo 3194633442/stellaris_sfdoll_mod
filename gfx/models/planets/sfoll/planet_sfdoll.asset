@@ -11,11 +11,11 @@ entity = {
 	# 	start_event = { node = root particle = "planet_shield_effect" keep_particle = yes trigger_once = yes }
 	# }
 	
-	game_data = { 
-		bloom_factor = 1.2 
-		uv_animation_speed 		= 2
-		uv_animation_direction 	= { 0.0 -0.02 }
-	}
+	# game_data = { 
+	# 	bloom_factor = 1.2 
+	# 	uv_animation_speed 		= 2
+	# 	uv_animation_direction 	= { 0.0 -0.02 }
+	# }
 	locator = { name = "root" position = { 0 0 0 } }
 	scale = 41
 }

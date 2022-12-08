@@ -127,13 +127,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
-	picture_event_data = {
-		portrait = GFX_sfdoll_Tokiwa_Nanaka
-		room = this
-		graphical_culture = this
-		planet_background = this
-		city_level = this
-	}
+	picture_event_data = { room = no_video_feed_room }
 	immediate = { set_country_flag = contract_diplomacy_engaged }
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 
@@ -186,7 +180,7 @@ country_event = {
 				class = scientist
 				species = owner_species
 				name = "NAME_SFDOLL_SOPHON"
-				skill = 10
+				skill = 1
 				set_age = 1
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
@@ -222,16 +216,13 @@ country_event = {
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
-	picture_event_data = {
-		portrait = GFX_sfdoll_Tokiwa_Nanaka
-		room = this
-		graphical_culture = this
-		planet_background = this
-		city_level = this
-	}
+	picture_event_data = { room = no_video_feed_room }
 	immediate = { set_country_flag = contract_diplomacy_engaged }
 	option = { name = "sfdoll_three_body_event.5_option" }
-	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
+	after = { hidden_effect = {
+		remove_country_flag = contract_diplomacy_engaged
+		country_event = { id = sfdoll_three_body_event.6 }
+	} }
 }
 # 智子初次通讯2
 country_event = {

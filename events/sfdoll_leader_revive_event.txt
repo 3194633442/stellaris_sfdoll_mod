@@ -31,9 +31,7 @@ country_event = {
 					}
 				}
 			}
-			country_event = {
-				id = sfdoll_leader_revive_event.1
-			}
+			country_event = { id = sfdoll_leader_revive_event.1 }
 		}
 
 		#判断是否为noel
@@ -140,7 +138,7 @@ country_event = {
 				}
 			}
 
-			#特殊领袖
+			#复活的特殊领袖添加标识
 			if = {
 				limit = { has_leader_flag = sfdoll_leader_elisa }
 				clear_global_event_target = sfdoll_leader_elisa
@@ -193,102 +191,16 @@ country_event = {
 					save_global_event_target_as = sfdoll_leader_dingyi
 				}
 			}
-
-		}
-	}
-}
-
-
-#ump45专用复活事件
-country_event = {
-	id = sfdoll_leader_revive_event.2
-	title = "sfdoll_leader_revive_event_2_title"
-	desc = "sfdoll_leader_revive_event_2_desc"
-	is_triggered_only = yes
-	hide_window = no
-
-	picture = GFX_evp_sfdoll_robot_assembly_plant
-
-	immediate = {
-		event_target:leader_revive_sfdoll = {
+			#智子
 			if = {
-				limit = { leader_class = governor }
-				owner = {
-					clone_leader = {
-						target = event_target:leader_revive_sfdoll
-						class = governor	
-						effect = {
-							set_leader_flag = sfdoll_leader
-							set_leader_flag = sfdoll_leader_ump45
-							save_global_event_target_as = sfdoll_leader_ump45
-						}
-					}
+				limit = {  has_leader_flag = sfdoll_leader_sophon }
+				clear_global_event_target = sfdoll_leader_sophon
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_sophon
+					save_global_event_target_as = sfdoll_leader_sophon
 				}
 			}
 
-			if = {
-				limit = { leader_class = scientist }
-				owner = {
-					clone_leader = {
-						target = event_target:leader_revive_sfdoll
-						class = scientist	
-						effect = {
-							set_leader_flag = sfdoll_leader
-							set_leader_flag = sfdoll_leader_ump45
-							save_global_event_target_as = sfdoll_leader_ump45
-						}
-					}
-				}
-			}
-
-			if = {
-				limit = { leader_class = admiral }
-				owner = {
-					clone_leader = {
-						target = event_target:leader_revive_sfdoll
-						class = admiral	
-						effect = {
-							set_leader_flag = sfdoll_leader
-							set_leader_flag = sfdoll_leader_ump45
-							save_global_event_target_as = sfdoll_leader_ump45
-						}
-					}
-				}
-			}
-			if = {
-				limit = { leader_class = general }
-				owner = {
-					clone_leader = {
-						target = event_target:leader_revive_sfdoll
-						class = general	
-						effect = {
-							set_leader_flag = sfdoll_leader
-							set_leader_flag = sfdoll_leader_ump45
-							save_global_event_target_as = sfdoll_leader_ump45
-						}
-					}
-				}
-			}
-
-			#复活统治者，直接set_leader
-			if = {
-				limit = { leader_class = ruler 	}
-				owner = {
-					clone_leader = {
-						target = event_target:leader_revive_sfdoll
-						class = ruler
-						effect = {
-							set_leader_flag = sfdoll_leader
-							set_leader_flag = sfdoll_leader_ump45
-							save_global_event_target_as = sfdoll_leader_ump45
-
-							save_event_target_as = sfdoll_ruler_revive
-						}
-					}
-					set_leader = event_target:sfdoll_ruler_revive
-				}
-			}
-			
 		}
 	}
 }
