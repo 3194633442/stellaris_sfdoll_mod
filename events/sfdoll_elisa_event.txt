@@ -217,7 +217,7 @@ country_event = {
 			}
 		}
 	}
-
+	# 联系智子
 	option = {
 		name = "sfdoll_elisa_event.3_option_8"
 		trigger = {	has_country_flag = sfdoll_sophon_owner	}
@@ -225,10 +225,7 @@ country_event = {
 	}
 
 	#退出
-	option = {
-		name =  "sfdoll_break_option"
-		break = yes
-	}
+	option = { name =  "sfdoll_break_option" break = yes }
 }
 
 #伊莱莎通讯界面，开局

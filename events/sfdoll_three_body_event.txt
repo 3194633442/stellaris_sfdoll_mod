@@ -152,8 +152,8 @@ country_event = {
 				limit = { has_modifier = sfdoll_sophon_intel_mod }
 				remove_modifier = sfdoll_sophon_intel_mod
 			}
-			add_modifier = { modifier = sfdoll_sophon_intel_mod days = -1 }
 		}
+		add_modifier = { modifier = sfdoll_sophon_intel_mod days = -1 }
 	}
 
 	# 智子担任科学家
