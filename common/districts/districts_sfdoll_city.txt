@@ -25,12 +25,12 @@ district_rw_city_sfdoll = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
-			GF_nyto_collapse_liquid = 4
+			energy = 5
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 
@@ -53,12 +53,12 @@ district_rw_science_sfdoll = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
-			GF_nyto_collapse_liquid = 4
+			energy = 5
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 
@@ -90,13 +90,14 @@ district_rw_industrial_sfdoll = {
 
 	resources = {
 		category = planet_districts
+		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
-			GF_nyto_collapse_liquid = 4
+			energy = 5
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 
@@ -140,12 +141,12 @@ district_rw_rare_sfdoll = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
-			GF_nyto_collapse_liquid = 4
+			energy = 5
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 
@@ -206,12 +207,12 @@ district_rw_generator_sfdoll = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
-			GF_nyto_collapse_liquid = 4
+			energy = 5
+			GF_nyto_collapse_liquid = 2
 		}
 	}
 
@@ -272,11 +273,11 @@ district_sfdoll_house = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
+			energy = 5
 			GF_nyto_collapse_liquid = 2
 		}
 	}
@@ -408,11 +409,11 @@ district_sfdoll_rare = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
+			energy = 5
 			GF_nyto_collapse_liquid = 2
 		}
 	}
@@ -474,11 +475,11 @@ district_sfdoll_alloys = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
+			energy = 5
 			GF_nyto_collapse_liquid = 2
 		}
 	}
@@ -529,11 +530,11 @@ district_sfdoll_science = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
+			energy = 5
 			GF_nyto_collapse_liquid = 2
 		}
 	}
@@ -601,11 +602,11 @@ district_generator_sfdoll_city  = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 2000
+			minerals = 1000
 			GF_nyto_collapse_liquid = 100
 		}
 		upkeep = {
-			energy = 10
+			energy = 5
 			GF_nyto_collapse_liquid = 2
 		}
 	}
