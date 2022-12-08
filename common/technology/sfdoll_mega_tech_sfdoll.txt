@@ -1,3 +1,17 @@
+#智子工程
+tech_sfdoll_sophon = {
+	area = physics
+	tier = 5
+	cost = @tier5cost3
+	is_rare = yes
+	is_dangerous = yes
+	category = { particles }
+	icon = tech_sfdoll_sophon
+	prerequisites = {	tech_sfdoll_change_hyperlane	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = @tier5weight1
+}
+
 #移动船坞
 tech_sfdoll_mobile_starbase = {
 	area = engineering

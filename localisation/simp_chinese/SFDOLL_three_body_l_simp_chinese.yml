@@ -19,12 +19,29 @@ leader_trait_sfdoll_dingyi_desc:0 "朝闻道,夕死可矣."
 
 NAME_sfdoll_dingyi:0 "丁仪"
 
-sfdoll_three_body_event.3
-sfdoll_three_body_event.3_desc
-sfdoll_three_body_event.2_option1
-sfdoll_three_body_event.2_option1_response
 
-sfdoll_sophon_intel_mod
-NAME_SFDOLL_SOPHON
-leader_trait_sfdoll_sophon
-leader_trait_sfdoll_sophon_desc
+tech_sfdoll_sophon:0 "铁血智子计算机"
+tech_sfdoll_sophon_desc:0 "智子是一种基本粒子尺度的超级计算机,能以极小的质量和尺度产生巨大的算力,并进入不同维度的空间."
+
+mega_sfdoll_sophon_1:0 ""
+mega_sfdoll_sophon_1_DESC:0 ""
+mega_sfdoll_sophon_1_MEGASTRUCTURE_DETAILS:0 ""
+
+mega_sfdoll_sophon_2:0 ""
+mega_sfdoll_sophon_2_DESC:0 ""
+mega_sfdoll_sophon_3:0 ""
+mega_sfdoll_sophon_3_DESC:0 ""
+mega_sfdoll_sophon_4:0 ""
+mega_sfdoll_sophon_4_DESC:0 ""
+
+sfdoll_three_body_event.3:0 ""
+sfdoll_three_body_event.3_desc:0 ""
+sfdoll_three_body_event.3_option1:0 ""
+sfdoll_three_body_event.3_option1_response:0 ""
+sfdoll_three_body_event.3_option2:0 ""
+sfdoll_three_body_event.3_option2_response:0 ""
+
+sfdoll_sophon_intel_mod:0 ""
+NAME_SFDOLL_SOPHON:0 ""
+leader_trait_sfdoll_sophon:0 ""
+leader_trait_sfdoll_sophon_desc:0 ""

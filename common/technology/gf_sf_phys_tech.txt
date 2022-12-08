@@ -32,23 +32,6 @@ tech_sfdoll_planet_computer = {
 
 }
 
-#智子工程
-tech_sfdoll_sophon_computer = {
-	area = physics
-	tier = 4
-	cost = @tier4cost3
-	is_rare = yes
-	category = { particles }
-	icon = tech_sfdoll_sophon_computer
-	weight = 0
-	prerequisites = {	tech_zero_point_power	}
-	potential = {	has_authority = auth_gf_sfdoll	}
-	modifier = {
-		all_technology_research_speed = 0.25
-		empire_size_mult = -0.10
-	}
-}
-
 #五级奇点
 tech_sfdoll_singularity = {
 	area = physics
