@@ -21,7 +21,7 @@ NAME_sfdoll_dingyi:0 "丁仪"
 
 
 tech_sfdoll_sophon:0 "铁血智子工程"
-tech_sfdoll_sophon_desc:0 "将微观粒子改造为智能计算机，这正是$tech_sfdoll_sophon$的目标。"
+tech_sfdoll_sophon_desc:0 "将一个微观粒子改造为超级智能计算机，这正是智子工程的目标。"
 
 mega_sfdoll_sophon:0 "智子工程"
 mega_sfdoll_sophon_1:0 "铁血$mega_sfdoll_sophon$基址"
