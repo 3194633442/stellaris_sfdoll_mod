@@ -82,7 +82,7 @@ decision_planet_to_sfdoll_city = {
 		category = decisions
 		cost = {
 			minerals = 10000
-			nanites = 300
+			GF_nyto_collapse_liquid = 1000
 		}
 	}	
 	prerequisites = {
