@@ -1,7 +1,7 @@
 sfdoll_mobile_gateway_01 = {
 	entity = "gateway_entity"
 	construction_entity = "construction_platform_entity"
-	portrait = "GFX_megastructure_construction_background"
+	portrait = "GFX_background_mega_sfdoll_gateway"
 	place_entity_on_planet_plane = no
 	build_outside_gravity_well = yes
 	show_galactic_map_icon = yes
@@ -37,7 +37,7 @@ sfdoll_mobile_gateway_01 = {
 sfdoll_mobile_gateway_02 = {
 	entity = "gateway_entity"
 	construction_entity = ""
-	portrait = "GFX_megastructure_construction_background"
+	portrait = "GFX_background_mega_sfdoll_gateway"
 	place_entity_on_planet_plane = no
 	show_galactic_map_icon = no
 	show_in_outliner = no
