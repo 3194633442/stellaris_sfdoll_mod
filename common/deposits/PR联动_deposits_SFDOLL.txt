@@ -1,0 +1,56 @@
+## Possible Deposit Variables ##
+# resources, resource and amount
+# potential trigger (planet scope)
+# blocked_modifier - applied to planet
+# constant_modifier - applied to planet always
+# station = station class in orbit to gather
+
+PR_D_JOB_sfdoll_collapse_liquid_maker = {
+	##	基础信息,照抄
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+	
+	##	基础大类
+	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1	# 岗位检测标签 }
+
+	##	资源
+	#	注意: 所有岗位资源转化到地块中必须加上这段人力系统的multiplier代码, 且只改动岗位名那一栏就可以, 剩下的照抄
+	#	如果岗位产出中已经有multiplier了, 你需要联系小伞获得帮助, 或者你水平比较高, 参考|泛用兼容|里面的"PR联动_effects_DAL.txt"和"PR联动_effects_NYTO.txt"
+	#	无论是资源还是修正, 所有检测条件的scope都从pop改为了他所在的planet注意转换, 另外有一些检测条件是检测pop自己的属性比如trait, 这种比较特殊, 你可以找小伞处理, 或者去掉这部分功能, 或者自己想办法
+	resources = { category = planet_jobs_productive	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_collapse_liquid_maker|EFFICIENCY|general|	# 只改动"岗位key"这一栏,其他照抄
+			GF_nyto_collapse_liquid = 3
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_collapse_liquid_maker|EFFICIENCY|general|
+			consumer_goods = 15
+		}
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_collapse_liquid_maker|EFFICIENCY|general|	
+			trigger = { owner = {	has_edict = sfdoll_collapse_liquid_more	} }
+			GF_nyto_collapse_liquid = 3
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_collapse_liquid_maker|EFFICIENCY|general|
+			trigger = { owner = {	has_edict = sfdoll_collapse_liquid_more	} }
+			energy = 20
+		}
+	}
+
+	##	修正
+	#	注意: 所有岗位修正转化到地块中必须加上这段人力系统的mult代码, 且只改动岗位名那一栏就可以, 剩下的照抄
+	#	如果岗位产出中已经有mult了, 你需要联系小伞获得帮助, 或者你水平比较高, 参考|泛用兼容|里面的"PR联动_effects_DAL.txt"和"PR联动_effects_NYTO.txt"
+	#	资源和修正的所有检测条件的scope都从pop改为了他所在的planet注意转换
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_collapse_liquid_maker|	# 只改动"death_priest"这一栏,其他照抄
+		#	岗位削减
+		job_sfdoll_collapse_liquid_maker_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_jobs_productive_add = 1	# 行业类型标签,永远是1
+	}
+}

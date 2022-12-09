@@ -19,7 +19,7 @@
 	# 	Possible values: all, pop, ship, station, fleet, country, army, leader, planet, component, pop_faction, deposit,
 	# 		megastructure, habitability, starbase, economic_unit, system, trade, federation, espionage
 
-PR_smod_plnt_JOB_deposit_GFsfdoll = {
+PR_smod_plnt_JOB_deposit_SFDOLL = {
 	icon = mod_PR_smod_plnt_JOB_deposit_V_regular
 	good = yes
 	category = planet

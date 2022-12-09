@@ -29,18 +29,6 @@ sfdoll_collapse_liquid_maker = {
 			}
 			energy = 20
 		}
-		# produces = {
-		# 	trigger = {
-		# 		owner = {		has_technology = tech_sfdoll_collapse_liquid_upgrade	}
-		# 	}
-		# 	GF_nyto_collapse_liquid = 2
-		# }
-		# upkeep = {
-		# 	trigger = {
-		# 		owner = {	has_technology = tech_sfdoll_collapse_liquid_upgrade	}
-		# 	}
-		# 	energy = 8
-		# }
 	}
 	weight = {	weight = 20	}
 }
