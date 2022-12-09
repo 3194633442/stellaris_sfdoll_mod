@@ -23,4 +23,9 @@ spriteTypes = {
 		name = "GFX_background_mega_sfdoll_starport"
 		textureFile = "gfx/interface/planetview/mega_sfdoll_starport.dds"
 	}
+
+	spriteType = {
+		name = "GFX_background_mega_sfdoll_gateway"
+		textureFile = "gfx/interface/planetview/mega_sfdoll_gateway.dds"
+	}
 }

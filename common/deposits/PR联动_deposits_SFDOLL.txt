@@ -54,3 +54,168 @@ PR_D_JOB_sfdoll_collapse_liquid_maker = {
 		PR_smod_plnt_CAT_planet_jobs_productive_add = 1	# 行业类型标签,永远是1
 	}
 }
+
+# PR_D_JOB_sfdoll_dark_matter_maker= {
+	##	基础信息,照抄
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+	
+	##	基础大类
+	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1	# 岗位检测标签 }
+
+	##	资源
+	#	注意: 所有岗位资源转化到地块中必须加上这段人力系统的multiplier代码, 且只改动岗位名那一栏就可以, 剩下的照抄
+	#	如果岗位产出中已经有multiplier了, 你需要联系小伞获得帮助, 或者你水平比较高, 参考|泛用兼容|里面的"PR联动_effects_DAL.txt"和"PR联动_effects_NYTO.txt"
+	#	无论是资源还是修正, 所有检测条件的scope都从pop改为了他所在的planet注意转换, 另外有一些检测条件是检测pop自己的属性比如trait, 这种比较特殊, 你可以找小伞处理, 或者去掉这部分功能, 或者自己想办法
+	resources = { category = planet_jobs_productive	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_dark_matter_maker|EFFICIENCY|general|	# 只改动"岗位key"这一栏,其他照抄
+			sr_dark_matter = 3
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_dark_matter_maker|EFFICIENCY|general|
+			energy = 15
+		}
+	}
+
+	##	修正
+	#	注意: 所有岗位修正转化到地块中必须加上这段人力系统的mult代码, 且只改动岗位名那一栏就可以, 剩下的照抄
+	#	如果岗位产出中已经有mult了, 你需要联系小伞获得帮助, 或者你水平比较高, 参考|泛用兼容|里面的"PR联动_effects_DAL.txt"和"PR联动_effects_NYTO.txt"
+	#	资源和修正的所有检测条件的scope都从pop改为了他所在的planet注意转换
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_collapse_liquid_maker|	# 只改动"death_priest"这一栏,其他照抄
+		#	岗位削减
+		job_sfdoll_collapse_liquid_maker_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_jobs_productive_add = 1	# 行业类型标签,永远是1
+	}
+}
+
+
+第2步: 岗位转地块
+##	原岗位代码
+"death_priest"岗位的代码是这样子的:
+death_priest = {
+	#	基本信息,用不到
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_sacrificial_temple_1
+	clothes_texture_index = 3
+	icon = death_priest
+
+	#	条件,用不到
+	possible_pre_triggers = {
+		has_owner = yes
+		is_sapient = yes
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+	possible_precalc = can_fill_specialist_job
+	possible = { complex_specialist_job_check_trigger = yes }
+
+	#	资源
+	resources = {
+		category = planet_priests	# 行业类型,可能需要新建"scripted_modifier"
+		produces = {
+			unity = 3
+			society_research = 1
+		}
+		produces = {
+			trigger = {
+				exists = owner
+				owner = { has_sacrificial_edict = yes }
+			}
+			unity = 3
+		}
+		upkeep = {
+			consumer_goods = 2
+		}
+	}
+	#	修正
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 2
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|	# 舒适度的mult不需要写进地块里
+	}
+
+	weight = {
+		#权重,用不到
+	}
+}
+
+
+##	行业类型标签
+# ①"行业类型"的处理
+# 在"PR联动_smod_<mod简称>.txt"文件中添加以下代码
+PR_smod_plnt_CAT_<行业类型>_add = {
+	icon = mod_PR_smod_plnt_JOB_deposit_V_regular
+	good = yes
+	category = planet
+}
+# 然后在"PR联动_<mod简称>_l_simp_chinese.yml"文件中添加其文本
+PR_smod_plnt_CAT_<行业类型>_add:0 "§Y$mod_PR_smod_plnt_CAT$ $行业类型$§!"
+##	例子
+#	以当前岗位"death_priest"为例, 其行业类型为"planet_priests"
+#	那么你添加的新smod就是:	PR_smod_plnt_CAT_planet_priests_add
+#	其文本为:	PR_smod_plnt_CAT_planet_priests_add:0 "§Y$mod_PR_smod_plnt_CAT$ $planet_priests$§!"
+#	注意: 所有原版行业类型在产业革命中已经有写了, 所以如果你在处理的岗位引用了这个原版"行业类型", 那就不需要再写了. [原版行业类型表]见最下面附录
+
+
+##	岗位地块写法
+#"death_priest"如何转化为地块
+# 在"PR联动_deposits_<mod简称>.txt"文件中添加以下代码
+PR_D_JOB_death_priest = {
+	##	基础信息,照抄
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+	
+	##	基础大类
+	planet_modifier = {
+		PR_smod_plnt_JOB_deposit_<mod简称> = 1	# 岗位检测标签
+	}
+
+	##	资源
+	#	注意: 所有岗位资源转化到地块中必须加上这段人力系统的multiplier代码, 且只改动岗位名那一栏就可以, 剩下的照抄
+	#	如果岗位产出中已经有multiplier了, 你需要联系小伞获得帮助, 或者你水平比较高, 参考|泛用兼容|里面的"PR联动_effects_DAL.txt"和"PR联动_effects_NYTO.txt"
+	#	无论是资源还是修正, 所有检测条件的scope都从pop改为了他所在的planet注意转换, 另外有一些检测条件是检测pop自己的属性比如trait, 这种比较特殊, 你可以找小伞处理, 或者去掉这部分功能, 或者自己想办法
+	resources = { category = planet_priests	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|death_priest|EFFICIENCY|general|	# 只改动"death_priest"这一栏,其他照抄
+			unity = 3
+			society_research = 1
+		}
+		#	|edict献祭|
+		produces = { trigger = { exists = owner		 owner = { has_sacrificial_edict = yes } }
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|death_priest|EFFICIENCY|general|	# 只改动"death_priest"这一栏,其他照抄
+			unity = 3
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|death_priest|EFFICIENCY|general|	# 只改动"death_priest"这一栏,其他照抄
+			consumer_goods = 2
+		}
+	}
+
+	##	修正
+	#	注意: 所有岗位修正转化到地块中必须加上这段人力系统的mult代码, 且只改动岗位名那一栏就可以, 剩下的照抄
+	#	如果岗位产出中已经有mult了, 你需要联系小伞获得帮助, 或者你水平比较高, 参考|泛用兼容|里面的"PR联动_effects_DAL.txt"和"PR联动_effects_NYTO.txt"
+	#	无论是资源还是修正, 所有检测条件的scope都从pop改为了他所在的planet注意转换, 另外有一些检测条件是检测pop自己的属性比如trait, 这种比较特殊, 你可以找小伞处理, 或者去掉这部分功能, 或者自己想办法
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|death_priest|	# 只改动"death_priest"这一栏,其他照抄
+		#	岗位削减
+		job_death_priest_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_priests_add = 1	# 行业类型标签,永远是1
+		#	岗位功能
+		PR_smod_plnt_MOD_all_amenities_add = 2	#_|PR舒适度|
+	}
+}
