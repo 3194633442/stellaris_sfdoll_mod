@@ -33,10 +33,10 @@ mega_sfdoll_sophon_2_DESC:0 "加工最小的东西，需要最大的能量。我
 mega_sfdoll_sophon_3:0 "$mega_sfdoll_sophon$展开阶段"
 mega_sfdoll_sophon_3_DESC:0 "铁血运用超物理学改变一个微观粒子的维度，使其在三维空间展开，进而改造它的结构，使其成为一台计算机。这种超微尺度的工程当中，会产生多种违背常识的现象。"
 mega_sfdoll_sophon_4:0 "$mega_sfdoll_sophon$最终阶段"
-mega_sfdoll_sophon_4_DESC:0 "为了赋予智子以完整的功能，我们必须进行进一步的工程。"
+mega_sfdoll_sophon_4_DESC:0 "成功建造第一个智子之后，铁血得到了足够的经验，这让它们能够建造更多智子，并在这些智子之间建立超光速通讯网络。"
 
 sfdoll_three_body_event.4:0 "$mega_sfdoll_sophon$"
-sfdoll_three_body_event.4_desc:0 "我们已经完成了智子的建造。通过某些看似违背物理常识的方式，智子可以从周围获取能量并改变自身维度，并进行超高速运算。现在，我们可以和智子通讯了。"
+sfdoll_three_body_event.4_desc:0 "我们已经建造了数个智子，并能够将它们连结为网络。通过某些看似违背物理常识的方式，智子可以从周围获取能量并改变自身维度，并进行超高速运算。现在，我们可以和智子通讯了。"
 sfdoll_three_body_event.5:0 "和智子通讯"
 sfdoll_three_body_event.5_desc:0 "你们好啊，造物主们。我可以高速运动，并反复穿过你们身上的感觉模块从而产生信号，从而和你们直接‘对话’。当然，我也乐意操纵一具铁血人形素体来行动。为此，我特意学习了大量文化方面的知识，从而为自己设计一个说得过去的形象。"
 sfdoll_three_body_event.5_option:0 "让我们看看你的新造型吧。"

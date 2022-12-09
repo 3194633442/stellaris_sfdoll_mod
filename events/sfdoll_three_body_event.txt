@@ -203,6 +203,7 @@ country_event = {
 	id = sfdoll_three_body_event.4
 	title = sfdoll_three_body_event.4
 	desc = sfdoll_three_body_event.4_desc
+	picture = GFX_evt_decryption
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	after = { hidden_effect = { country_event = { id = sfdoll_three_body_event.5 } } }

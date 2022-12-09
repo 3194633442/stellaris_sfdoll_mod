@@ -35,10 +35,10 @@ mega_sfdoll_sophon_3:0 "$mega_sfdoll_sophon$ Unfolding Stage"
 mega_sfdoll_sophon_3_DESC:0 "SF Dolls use superphysics to change the dimensions of a microscopic particle, to make it unfold in three dimensions, and then to modify its structure, turning it into a computer. There are many phenomena that go against common sense in such ultramicro scale engineering."
 
 mega_sfdoll_sophon_4:0 "$mega_sfdoll_sophon$ Final Stage"
-mega_sfdoll_sophon_4_DESC:0 "To make Sophon fully functional, we had to do further engineering."
+mega_sfdoll_sophon_4_DESC:0 "After successfully building the first Sophon, SF Dolls have gained enough experience, which enables them to build more sophons and establish hypercomms networks among them."
 
 sfdoll_three_body_event.4:0 "$mega_sfdoll_sophon$"
-sfdoll_three_body_event.4_desc:0 "We have completed the construction of Sophon. In some ways that seem to violate the common sense of physics, Sophon can obtain energy from the surroundings, change its own dimensions, and perform super high-speed operations. Now, we can communicate with Sophon."
+sfdoll_three_body_event.4_desc:0 "We have built several Sophons and can connect them as a network. In some ways that seem to violate the common sense of physics, Sophon can obtain energy from the surroundings, change its own dimensions, and perform super high-speed operations. Now, we can communicate with Sophon."
 
 sfdoll_three_body_event.5:0 "Communication with Sophon"
 sfdoll_three_body_event.5_desc:0 "Hello, creators. I can move at high speed and repeatedly pass through your sensory modules to generate signals, so as to directly 'talk' with you. Of course, I am also willing to operate a SF Doll body. To this end, I specially learned a lot of cultural knowledge, so as to design a reasonable image for myself."
