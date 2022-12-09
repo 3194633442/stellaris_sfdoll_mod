@@ -131,17 +131,13 @@ country_event = {
 	immediate = { set_country_flag = contract_diplomacy_engaged }
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 
+	# 智子可以同时提供多个功能
 	# 智子提供情报加成
 	option = {
 		name = sfdoll_three_body_event.3_a
 		response_text = "sfdoll_three_body_event.3_a_response"
 		hidden_effect = {
-			if = {
-				limit = { exists = event_target:sfdoll_leader_sophon }
-				event_target:sfdoll_leader_sophon = {
-					kill_leader = { show_notification = no fire = yes }
-				}
-			}
+			# 移除旧的修正，但不会删除领袖
 			if = {
 				limit = { has_modifier = sfdoll_sophon_intel_mod }
 				remove_modifier = sfdoll_sophon_intel_mod
@@ -166,15 +162,12 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			# 删除旧的领袖，但不会移除修正
 			if = {
 				limit = { exists = event_target:sfdoll_leader_sophon }
 				event_target:sfdoll_leader_sophon = {
 					kill_leader = { show_notification = no fire = yes }
 				}
-			}
-			if = {
-				limit = { has_modifier = sfdoll_sophon_intel_mod }
-				remove_modifier = sfdoll_sophon_intel_mod
 			}
 			create_leader = {
 				class = scientist
@@ -193,6 +186,24 @@ country_event = {
 			}
 			# 打开新的对话界面
 			country_event = { id = sfdoll_three_body_event.7 }
+		}
+	}
+	# 移除所有修正和智子领袖
+	option = {
+		name = "sfdoll_task_termination"
+		hidden_effect = {
+			if = {
+				limit = { exists = event_target:sfdoll_leader_sophon }
+				event_target:sfdoll_leader_sophon = {
+					kill_leader = { show_notification = no fire = yes }
+				}
+			}
+			if = {
+				limit = { has_modifier = sfdoll_sophon_intel_mod }
+				remove_modifier = sfdoll_sophon_intel_mod
+			}
+
+			country_event = { id = sfdoll_three_body_event.3 }
 		}
 	}
 	option = { name = EXIT hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } } }

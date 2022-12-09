@@ -107,8 +107,8 @@ mega_sfdoll_sophon_3 = {
 	resources = {
 		category = megastructures
 		cost = {
-			energy = 50000
-			GF_nyto_collapse_liquid = 6000
+			energy = 60000
+			GF_nyto_collapse_liquid = 7000
 		}
 		upkeep = {  energy = 50 }
 	}
