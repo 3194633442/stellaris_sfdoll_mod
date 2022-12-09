@@ -3,4 +3,4 @@
 PR_smod_plnt_JOB_deposit_SFDOLL:0 "§Y铁血人形 $PR_smod_plnt_JOB_DEP$§!"
 
 PR_D_JOB_sfdoll_collapse_liquid_maker:0 "$job_sfdoll_collapse_liquid_maker$"
-PR_D_JOB_job_sfdoll_collapse_liquid_maker_desc:0 "$job_job_sfdoll_collapse_liquid_maker_desc$"
+PR_D_JOB_sfdoll_collapse_liquid_maker_desc:0 "$job_sfdoll_collapse_liquid_maker_desc$"

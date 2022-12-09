@@ -14,7 +14,9 @@ PR_D_JOB_sfdoll_collapse_liquid_maker = {
 	drop_weight = { weight = 0 }
 	
 	##	基础大类
-	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1	# 岗位检测标签 }
+	planet_modifier = {
+		PR_smod_plnt_JOB_deposit_SFDOLL = 1	# 岗位检测标签
+	}
 
 	##	资源
 	#	注意: 所有岗位资源转化到地块中必须加上这段人力系统的multiplier代码, 且只改动岗位名那一栏就可以, 剩下的照抄
