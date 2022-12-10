@@ -442,6 +442,7 @@ PR_D_JOB_sfdoll_tactical = {
 	triggered_planet_modifier = {
 		# 转化的effect会判断是否为铁血国家，此处不必再次判断
 		potential = { planet = { has_modifier = martial_law } }
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_tactical| #PR修正
 		modifier = { planet_stability_add = 5 }
 	}
 }

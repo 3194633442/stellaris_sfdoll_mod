@@ -1,5 +1,5 @@
-﻿l_simp_chinese:
-mod_PR_smod_plnt_JOB_deposit_SFDOLL:0 "§Y铁血人形 $PR_smod_plnt_JOB_DEP$§!"
+﻿l_english:
+mod_PR_smod_plnt_JOB_deposit_SFDOLL:0 "§YSF Doll $PR_smod_plnt_JOB_DEP$§!"
 mod_PR_smod_plnt_CAT_planet_sfdoll_sp_industry_add:0 "§Y$mod_PR_smod_plnt_CAT$ $planet_sfdoll_sp_industry$§!"
 
 PR_D_JOB_sfdoll_collapse_liquid_maker:0 "$job_sfdoll_collapse_liquid_maker$"
