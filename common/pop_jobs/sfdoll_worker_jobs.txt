@@ -11,89 +11,30 @@ sfdoll_tactical = {
 	}
 	possible_precalc = can_fill_worker_job
 	possible = { has_trait = trait_gf_sfdoll	}
+
+	resources = {
+		category = planet_soldiers
+		produces = { unity = 1	}
+	}
 	
 	triggered_country_modifier = {
-		potential = {
-			exists = planet
-			planet = {
-				exists = owner
-				owner = { has_authority = auth_gf_sfdoll }
-			}
-		}
-		modifier = {
-			country_naval_cap_add = 60
-		}
+		potential = { exists = owner owner = { has_authority = auth_gf_sfdoll } }
+		modifier = { country_naval_cap_add = 60 }
 	}
 	triggered_planet_modifier = {
 		potential = {
-			exists = planet
-			planet = {
-				has_modifier = martial_law
-				exists = owner
-				owner = { has_authority = auth_gf_sfdoll }
-			}
+			exists = owner
+			owner = { has_authority = auth_gf_sfdoll }
+			planet = { has_modifier = martial_law }
 		}
 		modifier = {
 			planet_stability_add = 5
 		}
 	}
 	triggered_pop_modifier = {
-		potential = {
-			exists = planet
-			planet = {
-				exists = owner
-				owner = { has_authority = auth_gf_sfdoll }
-			}
-		}
-		modifier = {
-			pop_defense_armies_add = 12
-		}
+		potential = { exists = planet planet = { exists = owner owner = { has_authority = auth_gf_sfdoll } } }
+		modifier = { pop_defense_armies_add = 12 }
 	}
-	resources = {
-		category = planet_soldiers
-		produces = { unity = 1	}
-	}	
 			
-	weight = {
-		weight = 0.5
-		modifier = {
-			factor = 0.25
-			#is_enslaved = no
-			can_take_servant_job = no
-			NOR = { 
-				has_trait = trait_nuumismatic_administration 
-				has_trait = trait_thrifty
-			}
-		}
-		modifier = {
-			factor = 2
-			OR = {	
-				is_non_sapient_robot = yes
-				is_shackled_robot = yes
-			}
-			can_take_servant_job = no
-		}	
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_trait = trait_thrifty
-				has_trait = trait_nuumismatic_administration
-			}	
-		}
-		modifier = {
-			factor = 0.1
-			can_take_servant_job = yes
-		}	
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_trait = trait_robot_domestic_protocols
-				has_trait = trait_charismatic
-			}
-		}
-		modifier = {
-			factor = 0.5
-			has_trait = trait_repugnant
-		}			
-	}
+	weight = { weight = 1 }
 }
