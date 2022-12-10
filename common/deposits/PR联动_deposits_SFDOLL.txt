@@ -64,7 +64,7 @@ PR_D_JOB_sfdoll_dark_matter_maker = {
 	should_swap_deposit_on_terraforming = no
 	drop_weight = { weight = 0 }
 	
-	planet_modifier = { PR_smod_plnt_JOB_deposit_<mod简称> = 1 }
+	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1 }
 
 	##	资源
 	resources = { category = planet_jobs_productive	# 行业类型,直接同步岗位的
@@ -95,7 +95,7 @@ PR_D_JOB_sfdoll_nanites_maker = {
 	should_swap_deposit_on_terraforming = no
 	drop_weight = { weight = 0 }
 
-	planet_modifier = { PR_smod_plnt_JOB_deposit_<mod简称> = 1 }
+	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1 }
 
 	resources = { category = planet_jobs_productive	# 行业类型,直接同步岗位的
 		produces = {
