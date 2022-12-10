@@ -403,9 +403,7 @@ leader_trait_general_ogas40 = {
 	cost = 0
 	randomized = no
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_ogas40.dds"
-	modifier = {
-		army_damage_mult = 0.25
-	}
+	modifier = { army_damage_mult = 0.25 }
 	leader_trait = { general }
 	leader_class = { general }
 	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
@@ -437,19 +435,6 @@ leader_trait_sfdoll_dingyi = {
 	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
 }
 
-leader_trait_sfdoll_sophon = {
-	cost = 0
-	randomized = no
-	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_dingyi.dds"
-	modifier = {
-		ship_anomaly_generation_chance_mult = 1
-		ship_anomaly_research_speed_mult = 1
-		ship_archaeological_site_excavation_speed_mult = 1
-	}
-	leader_trait = { scientist }
-	leader_class = { scientist }
-	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
-}
 
 #高维人特质
 leader_trait_sfdoll_exd_leader = {
@@ -465,4 +450,39 @@ leader_trait_sfdoll_exd_leader = {
 	leader_trait = { scientist }
 	leader_class = { scientist }
 	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}
+}
+
+#智子特质
+leader_trait_sfdoll_sophon_scientist = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_dingyi.dds"
+	modifier = {
+		ship_anomaly_generation_chance_mult = 1
+		ship_anomaly_research_speed_mult = 1
+		ship_archaeological_site_excavation_speed_mult = 1
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
+}
+# 智子舰队司令
+leader_trait_sfdoll_sophon_admiral = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_dingyi.dds"
+	modifier = { ship_tracking_mult = 0.3 ship_orbital_bombardment_mult = 0.3 }
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
+}
+#智子陆军指挥
+leader_trait_sfdoll_sophon_general = {
+	cost = 0
+	randomized = no
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_dingyi.dds"
+	modifier = { army_damage_mult = 0.25 }
+	leader_trait = { general }
+	leader_class = { general }
+	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
 }

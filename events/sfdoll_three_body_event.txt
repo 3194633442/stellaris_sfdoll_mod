@@ -119,7 +119,7 @@ country_event = {
 	}
 }
 
-# 和智子通讯
+# 和智子通讯,领袖以外的功能
 country_event = {
 	id = sfdoll_three_body_event.3
 	title = sfdoll_three_body_event.3
@@ -146,48 +146,7 @@ country_event = {
 		add_modifier = { modifier = sfdoll_sophon_intel_mod days = -1 }
 	}
 
-	# 智子担任科学家
-	option = {
-		name = sfdoll_three_body_event.3_b
-		allow = {
-			custom_tooltip = {
-				fail_text = "sfdoll_the_leader_is_doing_this_job"
-				NOT = {
-					exists = event_target:sfdoll_leader_sophon
-					event_target:sfdoll_leader_sophon = {
-						leader_class = scientist
-						owner = { is_same_value = root }
-					}
-				}
-			}
-		}
-		hidden_effect = {
-			# 删除旧的领袖，但不会移除修正
-			if = {
-				limit = { exists = event_target:sfdoll_leader_sophon }
-				event_target:sfdoll_leader_sophon = {
-					kill_leader = { show_notification = no fire = yes }
-				}
-			}
-			create_leader = {
-				class = scientist
-				species = owner_species
-				name = "NAME_SFDOLL_SOPHON"
-				skill = 1
-				set_age = 1
-				immortal = yes
-				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_sfdoll_sophon }
-				effect = {
-					change_leader_portrait = GFX_sfdoll_Tokiwa_Nanaka
-					set_leader_flag = sfdoll_leader_sophon
-					save_global_event_target_as = sfdoll_leader_sophon
-				}
-			}
-			# 打开新的对话界面
-			country_event = { id = sfdoll_three_body_event.7 }
-		}
-	}
+
 	# 移除所有修正和智子领袖
 	option = {
 		name = "sfdoll_task_termination"
@@ -257,11 +216,14 @@ country_event = {
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 }
 
-# 智子变身为科学家时的对话
+# 智子领袖通讯
 country_event = {
 	id = sfdoll_three_body_event.7
-	title = sfdoll_three_body_event.7
-	desc = sfdoll_three_body_event.7_desc
+	title = "sfdoll_three_body_event.7"
+	desc = "sfdoll_three_body_event.7_desc_a"
+	desc = "sfdoll_three_body_event.7_desc_b"
+	desc = "sfdoll_three_body_event.7_desc_c"
+	desc = "sfdoll_three_body_event.7_desc_b"
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
@@ -273,6 +235,131 @@ country_event = {
 		city_level = this
 	}
 	immediate = { set_country_flag = contract_diplomacy_engaged }
-	option = { name = OK }
+	# 智子担任科学家
+	option = {
+		name = "sfdoll_sophon_to_scientist"
+		response_text = "sfdoll_sophon_to_scientist_response"
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_the_leader_is_doing_this_job"
+				NOT = {
+					exists = event_target:sfdoll_leader_sophon
+					event_target:sfdoll_leader_sophon = {
+						leader_class = scientist
+						owner = { is_same_value = root }
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			# 删除旧的领袖，但不会移除修正
+			if = {
+				limit = { exists = event_target:sfdoll_leader_sophon }
+				event_target:sfdoll_leader_sophon = {
+					kill_leader = { show_notification = no fire = yes }
+				}
+			}
+			create_leader = {
+				class = scientist
+				species = owner_species
+				name = "NAME_SFDOLL_SOPHON"
+				skill = 1
+				set_age = 1
+				immortal = yes
+				event_leader = yes	# prevents this leader from leading factions and winning elections
+				traits = { trait = leader_trait_sfdoll_sophon_scientist }
+				effect = {
+					change_leader_portrait = GFX_sfdoll_Tokiwa_Nanaka
+					set_leader_flag = sfdoll_leader_sophon
+					save_global_event_target_as = sfdoll_leader_sophon
+				}
+			}
+		}
+	}
+	# 智子指挥舰队
+	option = {
+		name = "sfdoll_sophon_to_admiral"
+		response_text = "sfdoll_sophon_to_admiral_response"
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_the_leader_is_doing_this_job"
+				NOT = {
+					exists = event_target:sfdoll_leader_sophon
+					event_target:sfdoll_leader_sophon = {
+						leader_class = admiral
+						owner = { is_same_value = root }
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			# 删除旧的领袖，但不会移除修正
+			if = {
+				limit = { exists = event_target:sfdoll_leader_sophon }
+				event_target:sfdoll_leader_sophon = {
+					kill_leader = { show_notification = no fire = yes }
+				}
+			}
+			create_leader = {
+				class = admiral
+				species = owner_species
+				name = "NAME_SFDOLL_SOPHON"
+				skill = 1
+				set_age = 1
+				immortal = yes
+				event_leader = yes	# prevents this leader from leading factions and winning elections
+				traits = { trait = leader_trait_sfdoll_sophon_admiral }
+				effect = {
+					change_leader_portrait = GFX_sfdoll_Tokiwa_Nanaka
+					set_leader_flag = sfdoll_leader_sophon
+					save_global_event_target_as = sfdoll_leader_sophon
+				}
+			}
+		}
+	}
+
+	# 智子指挥陆军
+	option = {
+		name = "sfdoll_sophon_to_general"
+		response_text = "sfdoll_sophon_to_general_response"
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_the_leader_is_doing_this_job"
+				NOT = {
+					exists = event_target:sfdoll_leader_sophon
+					event_target:sfdoll_leader_sophon = {
+						leader_class = general
+						owner = { is_same_value = root }
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			# 删除旧的领袖，但不会移除修正
+			if = {
+				limit = { exists = event_target:sfdoll_leader_sophon }
+				event_target:sfdoll_leader_sophon = {
+					kill_leader = { show_notification = no fire = yes }
+				}
+			}
+			create_leader = {
+				class = general
+				species = owner_species
+				name = "NAME_SFDOLL_SOPHON"
+				skill = 1
+				set_age = 1
+				immortal = yes
+				event_leader = yes	# prevents this leader from leading factions and winning elections
+				traits = { trait = leader_trait_sfdoll_sophon_general }
+				effect = {
+					change_leader_portrait = GFX_sfdoll_Tokiwa_Nanaka
+					set_leader_flag = sfdoll_leader_sophon
+					save_global_event_target_as = sfdoll_leader_sophon
+				}
+			}
+		}
+	}
+
+	option = { name = QUIT hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } } }
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 }
