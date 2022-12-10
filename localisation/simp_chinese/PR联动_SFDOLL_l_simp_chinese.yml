@@ -1,6 +1,12 @@
 ﻿l_simp_chinese:
 
-PR_smod_plnt_JOB_deposit_SFDOLL:0 "§Y铁血人形 $PR_smod_plnt_JOB_DEP$§!"
+mod_PR_smod_plnt_JOB_deposit_SFDOLL:0 "§Y铁血人形 $PR_smod_plnt_JOB_DEP$§!"
 
 PR_D_JOB_sfdoll_collapse_liquid_maker:0 "$job_sfdoll_collapse_liquid_maker$"
 PR_D_JOB_sfdoll_collapse_liquid_maker_desc:0 "$job_sfdoll_collapse_liquid_maker_desc$"
+
+PR_D_JOB_sfdoll_dark_matter_maker:0 "$job_sfdoll_dark_matter_maker$"
+PR_D_JOB_sfdoll_dark_matter_maker_desc:0 "$job_sfdoll_dark_matter_maker_desc$"
+
+PR_D_JOB_sfdoll_nanites_maker:0 "$job_sfdoll_nanites_maker$"
+PR_D_JOB_sfdoll_nanites_maker_desc:0 "$job_sfdoll_nanites_maker_desc$"

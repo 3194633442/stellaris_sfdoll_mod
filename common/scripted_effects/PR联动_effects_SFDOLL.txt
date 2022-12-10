@@ -11,8 +11,8 @@ PR_eft_plnt_JOB_deposit_SFDOLL = {
 			}
 		}
 		PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_collapse_liquid_maker }
-		# PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_dark_matter_maker }
-		# PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_nanites_maker }
+		PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_dark_matter_maker }
+		PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_nanites_maker }
 		# PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_researcher }
 		# PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_alloys_maker }
 		# PR_prmt_eft_plnt_JOB_deposit_DB = { JOB = sfdoll_goods_maker }

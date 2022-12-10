@@ -56,3 +56,65 @@ PR_D_JOB_sfdoll_collapse_liquid_maker = {
 		PR_smod_plnt_CAT_planet_jobs_productive_add = 1	# 行业类型标签,永远是1
 	}
 }
+
+PR_D_JOB_sfdoll_dark_matter_maker = {
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+	
+	planet_modifier = { PR_smod_plnt_JOB_deposit_<mod简称> = 1 }
+
+	##	资源
+	resources = { category = planet_jobs_productive	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_dark_matter_maker|EFFICIENCY|general|
+			sr_dark_matter = 3
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_dark_matter_makert|EFFICIENCY|general|
+			energy = 15
+		}
+	}
+
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_dark_matter_maker|	# 只改动"death_priest"这一栏,其他照抄
+		#	岗位削减
+		job_sfdoll_dark_matter_maker_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_priests_add = 1	# 行业类型标签,永远是1
+	}
+}
+
+PR_D_JOB_sfdoll_nanites_maker = {
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+
+	planet_modifier = { PR_smod_plnt_JOB_deposit_<mod简称> = 1 }
+
+	resources = { category = planet_jobs_productive	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_nanites_maker|EFFICIENCY|general|
+			nanites = 3
+		}
+
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_nanites_maker|EFFICIENCY|general|
+			minerals = 15
+		}
+	}
+
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_nanites_maker|
+		#	岗位削减
+		job_sfdoll_nanites_maker_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_priests_add = 1	# 行业类型标签,永远是1
+	}
+}

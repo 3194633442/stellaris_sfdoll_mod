@@ -50,26 +50,8 @@ sfdoll_dark_matter_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_jobs_productive
-		produces = {
-			sr_dark_matter = 3
-		}
+		produces = { sr_dark_matter = 3 }
 		upkeep = {	energy = 15	}
-		# produces = {
-		# 	trigger = {
-		# 		owner = {
-		# 			has_technology = tech_sfdoll_dark_matter_2
-		# 		}
-		# 	}
-		# 	sr_dark_matter = 3
-		# }
-		# upkeep = {
-		# 	trigger = {
-		# 		owner = {
-		# 			has_technology = tech_sfdoll_dark_matter_2
-		# 		}
-		# 	}
-		# 	energy = 7
-		# }
 	}
 	weight = {	weight = 20	}
 }
@@ -93,12 +75,8 @@ sfdoll_nanites_maker = {
 
 	resources = {
 		category = planet_jobs_productive
-		produces = {
-			nanites = 6
-		}
-		upkeep = {
-			minerals = 15
-		}
+		produces = { nanites = 6 }
+		upkeep = { minerals = 15 }
 		# produces = {
 		# 	trigger = {
 		# 		owner = {
