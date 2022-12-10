@@ -14,8 +14,17 @@ PR_D_JOB_sfdoll_nanites_maker_desc:0 "$job_sfdoll_nanites_maker_desc$"
 PR_D_JOB_sfdoll_researcher:0 "$job_sfdoll_researcher$"
 PR_D_JOB_sfdoll_researcher_desc:0 "$job_sfdoll_researcher_desc$"
 
-# PR_D_JOB_sfdoll_alloys_maker:0 "$job_sfdoll_alloys_maker$"
-# PR_D_JOB_sfdoll_alloys_maker_desc:0 "$job_sfdoll_alloys_maker_desc$"
+PR_D_JOB_sfdoll_alloys_maker:0 "$job_sfdoll_alloys_maker$"
+PR_D_JOB_sfdoll_alloys_maker_desc:0 "$job_sfdoll_alloys_maker_desc$"
 
-# PR_D_JOB_sfdoll_goods_maker:0 "$job_sfdoll_goods_maker$"
-# PR_D_JOB_sfdoll_goods_maker_desc:0 "$job_sfdoll_goods_maker_desc$"
+PR_D_JOB_sfdoll_goods_maker:0 "$job_sfdoll_goods_maker$"
+PR_D_JOB_sfdoll_goods_maker_desc:0 "$job_sfdoll_goods_maker_desc$"
+
+PR_D_JOB_sfdoll_energy_maker:0 "$job_sfdoll_energy_maker$"
+PR_D_JOB_sfdoll_energy_maker_desc:0 "$job_sfdoll_energy_maker_desc$"
+
+PR_D_JOB_sfdoll_mineral_maker:0 "$job_sfdoll_mineral_maker$"
+PR_D_JOB_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker_desc$"
+
+PR_D_JOB_sfdoll_gases_maker:0 "$job_sfdoll_gases_maker$"
+PR_D_JOB_sfdoll_gases_maker_desc:0 "$job_sfdoll_gases_maker_desc$"
