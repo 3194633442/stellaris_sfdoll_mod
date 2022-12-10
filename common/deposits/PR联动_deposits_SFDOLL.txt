@@ -84,7 +84,7 @@ PR_D_JOB_sfdoll_dark_matter_maker = {
 		job_sfdoll_dark_matter_maker_add = -1
 		#	人力参数
 		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
-		PR_smod_plnt_CAT_planet_priests_add = 1	# 行业类型标签,永远是1
+		PR_smod_plnt_CAT_planet_jobs_productive_add = 1	# 行业类型标签,永远是1
 	}
 }
 
@@ -115,6 +115,124 @@ PR_D_JOB_sfdoll_nanites_maker = {
 		job_sfdoll_nanites_maker_add = -1
 		#	人力参数
 		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
-		PR_smod_plnt_CAT_planet_priests_add = 1	# 行业类型标签,永远是1
+		PR_smod_plnt_CAT_planet_jobs_productive_add = 1	# 行业类型标签,永远是1
+	}
+}
+
+PR_D_JOB_sfdoll_researcher = {
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+
+	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1 }
+
+	resources = { category = planet_researchers	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_researcher|EFFICIENCY|general|
+			physics_research = 20
+			society_research = 20
+			engineering_research = 20
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_researcher|EFFICIENCY|general|
+			consumer_goods = 6
+		}
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_researcher|EFFICIENCY|general|
+			trigger = { owner = { has_edict = sfdoll_research_more } }
+			physics_research = 20
+			society_research = 20
+			engineering_research = 20
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_researcher|EFFICIENCY|general|
+			trigger = { owner = {	has_edict = sfdoll_research_more	} }
+			energy = 5
+			consumer_goods = 6
+		}
+	}
+
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_researcher|
+		#	岗位削减
+		job_sfdoll_researcher_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_researchers_add = 1	# 行业类型标签,永远是1
+	}
+}
+
+PR_D_JOB_sfdoll_alloys_maker = {
+	##	基础信息,照抄
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+	
+	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1	 }
+
+	resources = { category = planet_metallurgists	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_alloys_maker|EFFICIENCY|general|
+			alloys = 18
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_alloys_maker|EFFICIENCY|general|
+			minerals =  12
+		}
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_alloys_maker|EFFICIENCY|general|
+			trigger = { owner = { has_edict = sfdoll_alloys_more } }
+			alloys = 12
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_alloys_maker|EFFICIENCY|general|
+			trigger = { owner = { has_edict = sfdoll_alloys_more } }
+			minerals =  12
+		}
+	}
+
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_alloys_maker|
+		#	岗位削减
+		job_sfdoll_alloys_maker_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_metallurgists_add = 1	# 行业类型标签,永远是1
+	}
+}
+
+PR_D_JOB_sfdoll_goods_maker = {
+	##	基础信息,照抄
+	icon = PR_D_icon_MOD
+	is_for_colonizable = yes
+	category = PR_D_cat_JOB
+	should_swap_deposit_on_terraforming = no
+	drop_weight = { weight = 0 }
+	
+	planet_modifier = { PR_smod_plnt_JOB_deposit_SFDOLL = 1	 }
+
+	resources = { category = planet_artisans	# 行业类型,直接同步岗位的
+		produces = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_goods_maker|EFFICIENCY|general|
+			consumer_goods = 90
+			engineering_research = 6
+		}
+		upkeep = {
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_goods_maker|EFFICIENCY|general|
+			minerals = 36
+		}
+	}
+
+	triggered_planet_modifier = {
+		mult = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_goods_maker|
+		#	岗位削减
+		job_sfdoll_goods_maker_add = -1
+		#	人力参数
+		PR_smod_plnt_VAR_workshop_add = 1	#_|工房|,永远是1
+		PR_smod_plnt_CAT_planet_artisans_add = 1	# 行业类型标签,永远是1
 	}
 }

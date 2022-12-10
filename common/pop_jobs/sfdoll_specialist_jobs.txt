@@ -127,19 +127,13 @@ sfdoll_researcher = {
 		}
 
 		produces = {
-			trigger = {
-				owner = {
-					has_edict = sfdoll_research_more
-				}
-			}
+			trigger = { owner = { has_edict = sfdoll_research_more } }
 			physics_research = 20
 			society_research = 20
 			engineering_research = 20
 		}
 		upkeep = {
-			trigger = {
-				owner = {	has_edict = sfdoll_research_more	}
-			}
+			trigger = { owner = {	has_edict = sfdoll_research_more	} }
 			energy = 5
 			consumer_goods = 6
 		}
@@ -160,34 +154,6 @@ sfdoll_researcher = {
 	}
 	weight = {	weight = 30	}
 }
-#科研T2
-# sfdoll_researcher_2 = {
-# 	category = specialist
-# 	#用于检测工作是否可用的一系列逻辑
-# 	condition_string = SPECIALIST_JOB_TRIGGER
-# 	icon = sfdoll_researcher
-# 	building_icon = building_sfdoll_research_2
-# 	clothes_texture_index = 3
-# 	possible_pre_triggers = {
-# 		has_owner = yes
-# 		is_being_purged = no
-# 		is_being_assimilated = no
-# 		is_sapient = yes
-# 	}
-# 	possible_precalc = can_fill_specialist_job
-# 	resources = {
-# 		category = planet_researchers
-# 		produces = {
-# 			physics_research = 60
-# 			society_research = 60
-# 			engineering_research = 60
-# 		}
-# 		upkeep = {
-# 			consumer_goods = 10
-# 		}
-# 	}
-# 	weight = {	weight = 30	}
-# }
 
 #合金岗位
 sfdoll_alloys_maker = {
@@ -207,27 +173,15 @@ sfdoll_alloys_maker = {
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_metallurgists
-		produces = {
-			alloys = 18
-		}
-		upkeep = {
-			minerals =  12
-		}
+		produces = { alloys = 18 }
+		upkeep = { minerals =  12 }
 
 		produces = {
-			trigger = {
-				owner = {
-					has_edict = sfdoll_alloys_more
-				}
-			}
+			trigger = { owner = { has_edict = sfdoll_alloys_more } }
 			alloys = 12
 		}
 		upkeep = {
-			trigger = {
-				owner = {
-					has_edict = sfdoll_alloys_more
-				}
-			}
+			trigger = { owner = { has_edict = sfdoll_alloys_more } }
 			minerals =  12
 		}
 
@@ -303,23 +257,9 @@ sfdoll_goods_maker = {
 			consumer_goods = 90
 			engineering_research = 6
 		}
-		upkeep = {
-			minerals = 36
-		}
-
-		produces = {
-			trigger = {
-				owner = {
-					has_technology = tech_sfdoll_social_reform_2
-				}
-			}
-			consumer_goods = 90
-			engineering_research = 12
-		}
+		upkeep = { minerals = 36 }
 	}
-	weight = {
-		weight = 20
-	}
+	weight = { weight = 20 }
 }
 #T2消费品
 # sfdoll_goods_producer_2 = {
@@ -402,6 +342,43 @@ sfdoll_mineral_maker = {
 	weight = {	weight = 20	}
 }
 
+#铁血化工
+sfdoll_gases_maker = {
+	category = specialist
+	#用于检测工作是否可用的一系列逻辑
+	condition_string = SPECIALIST_JOB_TRIGGER
+	#岗位的背景，调用建筑图标
+	building_icon = building_sfdoll_gases_plant
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		#复制原版天然气职业的维护category
+		category = planet_refiners
+		produces = {
+			exotic_gases = 6
+			rare_crystals = 6
+			volatile_motes = 6
+		}
+		upkeep = {
+			minerals = 20
+		}
+	}
+
+	weight = {
+		weight = 20
+	}
+}
+
+
 #教育工作者
 sfdoll_educator = {
 	category = specialist
@@ -464,38 +441,3 @@ sfdoll_artist = {
 }
 
 
-#铁血化工
-sfdoll_gases_maker = {
-	category = specialist
-	#用于检测工作是否可用的一系列逻辑
-	condition_string = SPECIALIST_JOB_TRIGGER
-	#岗位的背景，调用建筑图标
-	building_icon = building_sfdoll_gases_plant
-	clothes_texture_index = 3
-
-	possible_pre_triggers = {
-		has_owner = yes
-		is_being_purged = no
-		is_being_assimilated = no
-		is_sapient = yes
-	}
-
-	possible_precalc = can_fill_specialist_job
-
-	resources = {
-		#复制原版天然气职业的维护category
-		category = planet_refiners
-		produces = {
-			exotic_gases = 6
-			rare_crystals = 6
-			volatile_motes = 6
-		}
-		upkeep = {
-			minerals = 20
-		}
-	}
-
-	weight = {
-		weight = 20
-	}
-}

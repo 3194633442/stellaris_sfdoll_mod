@@ -139,7 +139,7 @@ tech_sfdoll_social_reform_2 = {
 	tier = 5
 	category = { new_worlds }
 	icon = tech_sfdoll_social_reform
-	potential = {	has_authority = auth_gf_sfdoll	}
+	potential = { always = no has_authority = auth_gf_sfdoll	}
 	modifier = {
 		empire_size_mult = -0.1
 	}
