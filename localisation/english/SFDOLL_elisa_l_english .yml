@@ -6,12 +6,12 @@ sfdoll_elisa_event_2_b_desc:0 "Don't just sit, exercise more!"
 sfdoll_elisa_event_2_c_desc:0 "Schedule your time reasonably."
 sfdoll_elisa_event_2_d_desc:0 "One day, we can meet Lunasia again."
 
+sfdoll_elisa_event.2_option_leader:0 "Contact some leaders"
+sfdoll_elisa_event.2_option_sophon:0 "Access the Sophon Computer Group"
+
 elisa_to_scientist:0 "Please lead research work"
 elisa_has_this_job_now:0 "Elisa doing this job now."
 response_text_elisa_to_scientist:0 "Exactly what I want."
-
-sfdoll_elisa_event.2_option_2:0 "Contact some leaders"
-
 
 leader_trait_elisa_sfd_scientist:0 "Elisa"
 leader_trait_elisa_sfd_scientist_desc:0 "Elisa used to be a super AI and the mastermind of Sangvis Ferri.But she is a ordinary doll now."

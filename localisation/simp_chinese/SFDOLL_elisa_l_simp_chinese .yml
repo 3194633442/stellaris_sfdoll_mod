@@ -6,12 +6,12 @@ sfdoll_elisa_event_2_b_desc:0 "别光坐着,多运动!"
 sfdoll_elisa_event_2_c_desc:0 "要合理安排时间."
 sfdoll_elisa_event_2_d_desc:0 "总有一天,我们能再次见到露尼西亚."
 
+sfdoll_elisa_event.2_option_leader:0 "联系一些领袖"
+sfdoll_elisa_event.2_option_sophon:0 "访问智子计算机组"
+
 elisa_to_scientist:0 "请你领导科研工作"
 elisa_has_this_job_now:0 "伊莱莎已经在做这项工作"
 response_text_elisa_to_scientist:0 "正合我意."
-
-sfdoll_elisa_event.2_option_2:0 "联系一些领袖"
-
 
 leader_trait_elisa_sfd_scientist:0 "伊莱莎"
 leader_trait_elisa_sfd_scientist_desc:0 "伊莱莎曾经是一个搭载OGAS的超级AI,并担任过铁血的主脑.现在她是一位普通的人形."

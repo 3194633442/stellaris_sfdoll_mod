@@ -142,26 +142,45 @@ country_event = {
 				limit = { has_modifier = sfdoll_sophon_intel_mod }
 				remove_modifier = sfdoll_sophon_intel_mod
 			}
+			else_if = {
+				limit = { has_modifier = sfdoll_sophon_research_mod }
+				remove_modifier = sfdoll_sophon_research_mod
+			}
 		}
 		add_modifier = { modifier = sfdoll_sophon_intel_mod days = -1 }
+		hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } }
 	}
-
-
-	# 移除所有修正和智子领袖
+	# 智子提供科研加成
 	option = {
-		name = "sfdoll_task_termination"
+		name = "sfdoll_three_body_event.3_b"
 		hidden_effect = {
-			if = {
-				limit = { exists = event_target:sfdoll_leader_sophon }
-				event_target:sfdoll_leader_sophon = {
-					kill_leader = { show_notification = no fire = yes }
-				}
-			}
+			# 移除旧的修正，但不会删除领袖
 			if = {
 				limit = { has_modifier = sfdoll_sophon_intel_mod }
 				remove_modifier = sfdoll_sophon_intel_mod
 			}
+			else_if = {
+				limit = { has_modifier = sfdoll_sophon_research_mod }
+				remove_modifier = sfdoll_sophon_research_mod
+			}
+		}
+		add_modifier = { modifier = sfdoll_sophon_research_mod days = -1 }
+		hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } }
+	}
 
+	# 终止任务
+	option = {
+		name = "sfdoll_task_termination"
+		hidden_effect = {
+			# 移除旧的修正，但不会删除领袖
+			if = {
+				limit = { has_modifier = sfdoll_sophon_intel_mod }
+				remove_modifier = sfdoll_sophon_intel_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_sophon_research_mod }
+				remove_modifier = sfdoll_sophon_research_mod
+			}
 			country_event = { id = sfdoll_three_body_event.3 }
 		}
 	}
@@ -169,7 +188,7 @@ country_event = {
 		name = "sfdoll_sophon_to_leader"
 		hidden_effect = { country_event = { id = sfdoll_three_body_event.7 } }
 	}
-	option = { name = EXIT hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } } }
+	option = { name = EXIT hidden_effect = { break = yes } }
 }
 
 # 智子工程完成

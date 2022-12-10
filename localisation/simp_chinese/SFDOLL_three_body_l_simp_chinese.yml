@@ -47,10 +47,11 @@ sfdoll_three_body_event.6_desc:0 "看吧!"
 sfdoll_three_body_event.6_a:0 "棒极了！"
 sfdoll_three_body_event.6_b:0 "你究竟学了些什么？"
 
-sfdoll_three_body_event.3:0 "和智子通讯"
+sfdoll_three_body_event.3:0 "访问智子计算机组"
 sfdoll_three_body_event.3_desc:0 "有任务吗？"
 sfdoll_three_body_event.3_a:0 "请你收集情报"
-sfdoll_three_body_event.3_a_response:0 "明白了。让我看看，银河系还有哪个角落必须注意的。"
+# sfdoll_three_body_event.3_a_response:0 "明白了。让我看看，银河系还有哪个角落必须注意的。"
+sfdoll_three_body_event.3_b:0 "收集和处理研究数据"
 sfdoll_sophon_to_leader:0 "联系智子领袖"
 
 
@@ -61,19 +62,19 @@ sfdoll_three_body_event.7_desc_c:0 "面对命运，改变命运。人的命运�
 sfdoll_three_body_event.7_desc_d:0 "很高兴与你再次相见。让我们结伴同行如何？"
 
 sfdoll_sophon_to_scientist:0 "请你负责科学考察"
-sfdoll_sophon_to_scientist_response:0 "出发了。"
+sfdoll_sophon_to_scientist_response:0 "出发了。让我看看，银河系还有哪个角落必须注意的。"
 sfdoll_sophon_to_admiral:0 "请指挥舰队"
 sfdoll_sophon_to_admiral_response:0 "走吧，前往我们的战场。"
 sfdoll_sophon_to_general:0 "请指挥陆军"
 sfdoll_sophon_to_general_response:0 "观察敌人的行动，找出弱点，一举击溃，这就是我的最优解。"
 
 sfdoll_sophon_intel_mod:0 "智子探测网络"
-NAME_SFDOLL_SOPHON:0 "智子"
+sfdoll_sophon_research_mod:0 "智子辅助科研"
 
+NAME_SFDOLL_SOPHON:0 "智子"
 leader_trait_sfdoll_sophon_scientist:0 "智子人工智能"
 leader_trait_sfdoll_sophon_scientist_desc:0 "智子是一种基本粒子尺度的超级计算机,能以极小的质量和尺度产生巨大的算力,并改变自身的维度。"
 leader_trait_sfdoll_sophon_general:0 "$leader_trait_sfdoll_sophon_scientist$"
 leader_trait_sfdoll_sophon_general_desc:0 "$leader_trait_sfdoll_sophon_scientist_desc$"
 leader_trait_sfdoll_sophon_admiral:0 "$leader_trait_sfdoll_sophon_scientist$"
 leader_trait_sfdoll_sophon_admiral_desc:0 "$leader_trait_sfdoll_sophon_scientist_desc$"
-

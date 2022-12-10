@@ -43,11 +43,13 @@ aura_sfdoll_2_hostile_mod = {
 	# ship_armor_penetration_mult = -1
 }
 
+# 智子提供的修正
 sfdoll_sophon_intel_mod = {
 	add_base_country_intel = 40
 	intel_encryption_add = 20
 	intel_decryption_add = 20
 }
+sfdoll_sophon_research_mod = { all_technology_research_speed = 0.4 }
 
 # 母舰
 sfdoll_mobile_starbase_mod = {

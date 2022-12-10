@@ -73,11 +73,19 @@ country_event = {
 		}
 	}
 
-	immediate = {
-		set_country_flag = contract_diplomacy_engaged
+	immediate = { set_country_flag = contract_diplomacy_engaged }
+	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
+
+	# 联系领袖界面
+	option = {
+		name = sfdoll_elisa_event.2_option_leader
+		hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } }
 	}
-	after = {
-		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
+
+	#访问智子
+	option = {
+		name = "sfdoll_elisa_event.2_option_sophon"
+		hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } }
 	}
 
 	#选项，伊莱莎变科学家
@@ -103,14 +111,7 @@ country_event = {
 		response_text = "response_text_elisa_to_scientist"
 	}
 
-	option = {
-		name = sfdoll_elisa_event.2_option_2
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_elisa_event.3
-			}
-		}
-	}
+
 
 	#退出
 	option = {
@@ -218,11 +219,11 @@ country_event = {
 		}
 	}
 	# 联系智子
-	option = {
-		name = "sfdoll_elisa_event.3_option_8"
-		trigger = {	has_country_flag = sfdoll_sophon_owner	}
-		hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } }
-	}
+	# option = {
+	# 	name = "sfdoll_elisa_event.3_option_8"
+	# 	trigger = {	has_country_flag = sfdoll_sophon_owner	}
+	# 	hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } }
+	# }
 
 	#退出
 	option = { name =  "sfdoll_break_option" break = yes }
