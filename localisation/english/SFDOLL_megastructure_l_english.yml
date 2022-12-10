@@ -1,20 +1,6 @@
 ﻿l_english:
 ##########
 sfdoll_mega_should_outside_well:0 "This megastructure should be built outside gravity well."
-mega_sfdoll_starport_01:0 "$mega_sfdoll_starport_04$ Site"
-mega_sfdoll_starport_01_DESC:0 "$mega_sfdoll_starport_04$ will be built outside gravity well to use low gravity environment and hyperlane"
-mega_sfdoll_starport_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_starport_01_DESC$"
-mega_sfdoll_starport_01_complete:0 "$mega_sfdoll_starport_01$ completed"
-mega_sfdoll_starport_02:0 "$mega_sfdoll_starport_04$ Framework"
-mega_sfdoll_starport_02_DESC:0 "$mega_sfdoll_starport_04_DESC$"
-mega_sfdoll_starport_02_complete:0 "$mega_sfdoll_starport_02$ completed"
-mega_sfdoll_starport_03:0 "$mega_sfdoll_starport_04$ Core"
-mega_sfdoll_starport_03_DESC:0 "$mega_sfdoll_starport_04_DESC$"
-
-mega_sfdoll_starport_04:0 "SF Shipyard"
-mega_sfdoll_starport_04_DESC:0 "$mega_sfdoll_starport_04$ can build ships at high speed and build some special ships"
-tech_mega_sfdoll_starport:0 "$mega_sfdoll_starport_04$"
-tech_mega_sfdoll_starport_desc:0 "$mega_sfdoll_starport_04_DESC$"
 
 sfdoll_mega_shipyard:0 "SF Mega Shipyard"
 tech_sfdoll_mega_shipyard:0 "$sfdoll_mega_shipyard$"
@@ -41,33 +27,6 @@ sfdoll_habitat_01_DESC:0 "$pc_sfdoll_habitat_desc$"
 sfdoll_habitat_01_MEGASTRUCTURE_DETAILS:0 "$pc_sfdoll_habitat_desc$"
 sfdoll_habitat_02:0 "$pc_sfdoll_habitat$ Site"
 sfdoll_habitat_02_DESC:0 "$pc_sfdoll_habitat_desc$"
-
-
-
-
-sfdoll_star_attacker:0 "Heavy Supporter"
-sfdoll_star_attacker_plural:0 "$sfdoll_star_attacker$s"
-sfdoll_star_attacker_section1:0 "A"
-sfdoll_star_attacker_section2:0 "B"
-sfdoll_star_attacker_section2_b:0 "C"
-sfdoll_star_attacker_section3:0 "D"
-sfdoll_star_attacker_section3_b:0 "E"
-sfdoll_star_attacker_section4:0 "F"
-sfdoll_star_attacker_section4_b:0 "G"
-sfdoll_star_attacker_section5:0 "H"
-
-tech_sfdoll_star_attacker:0 "$sfdoll_star_attacker$"
-tech_sfdoll_star_attacker_desc:0 "$sfdoll_star_attacker$ can carry a variety of large equipment to support fleet operations and attack"
-
-mega_sfdoll_star_attacker_01:0 "$sfdoll_star_attacker$ Site"
-mega_sfdoll_star_attacker_01_DESC:0 "§Y$sfdoll_star_attacker$§! need to be built through mega-engineering"
-mega_sfdoll_star_attacker_01_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_star_attacker_01_DESC$"
-mega_sfdoll_star_attacker_01_complete:0 "§Y$mega_sfdoll_star_attacker_01$§! completed"
-
-mega_sfdoll_star_attacker_02:0 "$sfdoll_star_attacker$"
-mega_sfdoll_star_attacker_02_DESC:0 "You need to have at least one  design of §Y$sfdoll_star_attacker$§! to complete construction."
-mega_sfdoll_star_attacker_02_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_star_attacker_02_DESC$"
-mega_sfdoll_star_attacker_02_complete:0 "§Y$mega_sfdoll_star_attacker_02$§Y  completed"
 
 
 sfdoll_mobile_starbase:0 "Deep Space Carrier"
@@ -102,7 +61,6 @@ sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_02_DESC$"
 
 sfdoll_star_exploit_02:0 "SF Dyson Cloud"
 sfdoll_star_exploit_02_DESC:0 "The Dyson cloud collects solar energy through a complex array of panels and keeps the planet receiving enough light"
-sfdoll_star_exploit_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_star_exploit_02_DESC$"
 
 tech_sfdoll_star_exploit:0 "$sfdoll_star_exploit_02$"
 tech_sfdoll_star_exploit_desc:0 "$sfdoll_star_exploit_02_DESC$"
@@ -117,7 +75,6 @@ sfdoll_mining_station_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mining_station_02_DESC
 
 sfdoll_mining_station_02:0 "SF Asteroid Mining Station"
 sfdoll_mining_station_02_DESC:0 "These mining stations can extract minerals from the asteroid belt"
-sfdoll_mining_station_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mining_station_02_DESC$"
 
 tech_sfdoll_mining_station:0 "$sfdoll_mining_station_02$"
 tech_sfdoll_mining_station_desc:0 "$sfdoll_mining_station_02_DESC$"
@@ -129,11 +86,9 @@ sfdoll_blackhole_mining_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_blackhole_mining_03_
 
 sfdoll_blackhole_mining_02:0 "SF Black-Hole Decompressor Stage 2"
 sfdoll_blackhole_mining_02_DESC:0 "$sfdoll_blackhole_mining_03_DESC$"
-sfdoll_blackhole_mining_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_blackhole_mining_03_DESC$"
 
 sfdoll_blackhole_mining_03:0 "SF Black-Hole Decompressor"
 sfdoll_blackhole_mining_03_DESC:0 "Black-Hole Decompressor controls the gravity of the black hole to mining the matter inside"
-sfdoll_blackhole_mining_03_MEGASTRUCTURE_DETAILS:0 "$sfdoll_blackhole_mining_03_DESC$"
 
 tech_sfdoll_blackhole_mining:0 "$sfdoll_blackhole_mining_03$"
 tech_sfdoll_blackhole_mining_desc:0 "$sfdoll_blackhole_mining_03_DESC$"
@@ -144,7 +99,6 @@ sfdoll_mobile_gateway_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mobile_gateway_01_DESC
 
 sfdoll_mobile_gateway_02:0 "SF Gateway Ship"
 sfdoll_mobile_gateway_02_DESC:0 "$sfdoll_mobile_gateway_01_DESC$"
-sfdoll_mobile_gateway_02_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mobile_gateway_01_DESC$"
 
 tech_sfdoll_mobile_gateway:0 "$sfdoll_mobile_gateway_01$"
 tech_sfdoll_mobile_gateway_desc:0 "Mobile gateway is a rapid transportation hub"
@@ -153,15 +107,3 @@ sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
 sfdoll_gateway_ship_plural:0 "$sfdoll_mobile_gateway_02$s"
 sfdoll_gateway_ship_SECTION:0 "$sfdoll_mobile_gateway_02$"
 design_sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
-
-# gateway_sfdoll:0 "铁血星门"
-# gateway_sfdoll_DESC:0 "利用铁血科技打造的快捷交通枢纽"
-# gateway_sfdoll_MEGASTRUCTURE_DETAILS:0 "$gateway_sfdoll_DESC$"
-# build_gateway_sfdoll:0 "我们建造了一座$gateway_sfdoll$"
-
-# tech_gateway_sfdoll:0 "铁血星门"
-# tech_gateway_sfdoll_desc:0 "参考遗迹文明的某些传输技术，铁血们设计了一种可以快速组装的星门，用来改善银河系的交通。对其他物种而言，这种星门的运作原理似乎很难理解。"
-
-# gateway_sfdoll_name:0 "铁血星门航道"
-# gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
-
