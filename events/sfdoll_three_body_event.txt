@@ -165,6 +165,10 @@ country_event = {
 			country_event = { id = sfdoll_three_body_event.3 }
 		}
 	}
+	option = {
+		name = "sfdoll_sophon_to_leader"
+		hidden_effect = { country_event = { id = sfdoll_three_body_event.7 } }
+	}
 	option = { name = EXIT hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } } }
 }
 
