@@ -1,5 +1,6 @@
 ﻿l_simp_chinese:
 #职业本地化包括，职业名称，职业复数形式，职业描述，职业效果（用于显示在提供职业的建筑中），相关修正(mod_XX)的本地化
+planet_sfdoll_sp_industry:0 "铁血特种工业"
 
 #produce
 tech_sfdoll_dark_matter_plant:0"大一统理论"
@@ -110,7 +111,7 @@ mod_job_sfdoll_energy_maker_add:0"$job_sfdoll_energy_maker$岗位"
 
 tech_building_sfdoll_mineral:0 "质量生成工程"
 tech_building_sfdoll_mineral_desc:0 "只要有足够的能量,我们能制造任何所需的物质"
-building_sfdoll_mineral:0"物质合成厂"
+building_sfdoll_mineral:0"铁血物质制造厂"
 building_sfdoll_mineral_desc:0"$building_sfdoll_mineral$"
 
 job_sfdoll_mineral_maker:0"物质合成师"

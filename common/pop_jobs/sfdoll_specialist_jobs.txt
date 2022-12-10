@@ -14,7 +14,7 @@ sfdoll_collapse_liquid_maker = {
 	}
 	possible_precalc = can_fill_specialist_job
 	resources = {
-		category = planet_jobs_productive
+		category = planet_sfdoll_sp_industry
 		produces = {	GF_nyto_collapse_liquid = 3		}
 		upkeep = {		energy = 15		}
 		produces = {
@@ -49,7 +49,7 @@ sfdoll_dark_matter_maker = {
 	}
 	possible_precalc = can_fill_specialist_job
 	resources = {
-		category = planet_jobs_productive
+		category = planet_sfdoll_sp_industry
 		produces = { sr_dark_matter = 3 }
 		upkeep = {	energy = 15	}
 	}
@@ -74,7 +74,7 @@ sfdoll_nanites_maker = {
 	possible_precalc = can_fill_specialist_job
 
 	resources = {
-		category = planet_jobs_productive
+		category = planet_sfdoll_sp_industry
 		produces = { nanites = 6 }
 		upkeep = { minerals = 15 }
 		# produces = {
@@ -334,7 +334,7 @@ sfdoll_mineral_maker = {
 	}
 	possible_precalc = can_fill_specialist_job
 	resources = {
-		category = planet_miners
+		category = planet_sfdoll_sp_industry
 		produces = {	minerals = 150  }
 		upkeep = {
 			energy = 250

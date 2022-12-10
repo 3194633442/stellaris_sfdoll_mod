@@ -1,5 +1,6 @@
 ﻿l_english:
 #职业本地化包括，职业名称，职业复数形式，职业描述，职业效果（用于显示在提供职业的建筑中），相关修正(mod_XX)的本地化
+planet_sfdoll_sp_industry:0 "SF Special Industry"
 
 #produce
 tech_sfdoll_dark_matter_plant:0 "Grand Unified Theory"
@@ -100,7 +101,7 @@ mod_job_sfdoll_energy_maker_add:0"$job_sfdoll_energy_maker$ jobs"
 
 tech_building_sfdoll_mineral:0 "Quality Generate"
 tech_building_sfdoll_mineral_desc:0 "As long as there is enough energy, we can generate all materials we need."
-building_sfdoll_mineral:0"Quality Generate Factory"
+building_sfdoll_mineral:0 "SF Quality Generate Factory"
 building_sfdoll_mineral_desc:0"$building_sfdoll_mineral$"
 
 job_sfdoll_mineral_maker:0"SF Matter Maker"

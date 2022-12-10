@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
-
 mod_PR_smod_plnt_JOB_deposit_SFDOLL:0 "§Y铁血人形 $PR_smod_plnt_JOB_DEP$§!"
+PR_smod_plnt_CAT_planet_sfdoll_sp_industry_add:0 "§Y$mod_PR_smod_plnt_CAT$ $行业类型$§!"
 
 PR_D_JOB_sfdoll_collapse_liquid_maker:0 "$job_sfdoll_collapse_liquid_maker$"
 PR_D_JOB_sfdoll_collapse_liquid_maker_desc:0 "$job_sfdoll_collapse_liquid_maker_desc$"
@@ -28,3 +28,12 @@ PR_D_JOB_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker_desc$"
 
 PR_D_JOB_sfdoll_gases_maker:0 "$job_sfdoll_gases_maker$"
 PR_D_JOB_sfdoll_gases_maker_desc:0 "$job_sfdoll_gases_maker_desc$"
+
+PR_D_JOB_sfdoll_educator:0 "$job_sfdoll_educator$"
+PR_D_JOB_sfdoll_educator_desc:0 "$job_sfdoll_educator_desc$"
+
+PR_D_JOB_sfdoll_artist:0 "$job_sfdoll_artist$"
+PR_D_JOB_sfdoll_artist_desc:0 "$job_sfdoll_artist_desc$"
+
+PR_D_JOB_sfdoll_tactical:0 "$job_sfdoll_tactical$"
+PR_D_JOB_sfdoll_tactical_desc:0 "$job_sfdoll_tactical_desc$"

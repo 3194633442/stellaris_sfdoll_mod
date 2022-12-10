@@ -18,8 +18,15 @@
 	# 	It should be set to the lowest possible place in the hierarchy, where country is the top, then planet would be in the middle, and pop would be at the bottom.
 	# 	Possible values: all, pop, ship, station, fleet, country, army, leader, planet, component, pop_faction, deposit,
 	# 		megastructure, habitability, starbase, economic_unit, system, trade, federation, espionage
-
+# 产革联动
 PR_smod_plnt_JOB_deposit_SFDOLL = {
+	icon = mod_PR_smod_plnt_JOB_deposit_V_regular
+	good = yes
+	category = planet
+}
+
+# 特殊行业类型对应的标签
+PR_smod_plnt_CAT_planet_sfdoll_sp_industry_add = {
 	icon = mod_PR_smod_plnt_JOB_deposit_V_regular
 	good = yes
 	category = planet
