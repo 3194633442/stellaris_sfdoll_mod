@@ -16,6 +16,14 @@ sfdoll_ogas_event.1:0 "Communicating with OGAS"
 sfdoll_ogas_event.1_desc:0 "What is the mission?"
 sfdoll_ogas_event.1_desc_b:0 "I was born from Riva's digi-mind, and my appearance and habits are naturally influenced by her mind data."
 
+option_sfdoll_ogas_economic_mod:0 "Analyze the economic situation"
+option_sfdoll_ogas_research_mod:0 "Research support"
+option_sfdoll_ogas_intel_mod:0 "Participate in intelligence work"
+
+sfdoll_ogas_economic_mod:0 "OGAS Economic Analysis"
+sfdoll_ogas_research_mod:0 "OGAS Research Support"
+sfdoll_ogas_intel_mod:0 "OGAS Information Analysis"
+
 ogas40_to_governor:0 "Please work as a governor"
 ogas40_to_scientist:0 "Please work as a scientist"
 ogas40_to_admiral:0 "Please command the fleet"

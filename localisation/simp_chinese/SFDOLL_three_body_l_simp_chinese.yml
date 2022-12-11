@@ -69,7 +69,7 @@ sfdoll_sophon_to_general:0 "请指挥陆军"
 sfdoll_sophon_to_general_response:0 "观察敌人的行动，找出弱点，一举击溃，这就是我的最优解。"
 
 sfdoll_sophon_intel_mod:0 "智子探测网络"
-sfdoll_sophon_research_mod:0 "智子辅助科研"
+sfdoll_sophon_research_mod:0 "智子科研支持"
 
 NAME_SFDOLL_SOPHON:0 "智子"
 leader_trait_sfdoll_sophon_scientist:0 "智子人工智能"

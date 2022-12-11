@@ -72,7 +72,7 @@ sfdoll_sophon_to_general_response:0 "My best solution is to observe the enemy's 
 
 
 sfdoll_sophon_intel_mod:0 "Network of Sophon Detection"
-sfdoll_sophon_research_mod:0 "Sophon Auxiliary scientific research"
+sfdoll_sophon_research_mod:0 "Sophon Research Support "
 
 NAME_SFDOLL_SOPHON:0 "Sophon"
 leader_trait_sfdoll_sophon_scientist:0 "Sophon AI"

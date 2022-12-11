@@ -16,10 +16,17 @@ sfdoll_ogas_event.1:0 "和OGAS通讯中"
 sfdoll_ogas_event.1_desc:0 "有什么事情呢？"
 sfdoll_ogas_event.1_desc_b:0 "我是从莉娃的心智中诞生的,我的外观和习惯,自然也受到了她的心智数据的影响."
 
-ogas40_to_governor:0 "请你处理政务"
-ogas40_to_scientist:0 "请你参与科研"
-ogas40_to_admiral:0 "请你指挥舰队"
-ogas40_to_general:0 "请你指挥陆军部队"
+option_sfdoll_ogas_economic_mod:0 "分析经济形势"
+option_sfdoll_ogas_research_mod:0 "协助研究"
+option_sfdoll_ogas_intel_mod:0 "参与情报工作"
+sfdoll_ogas_economic_mod:0 "OGAS经济分析"
+sfdoll_ogas_research_mod:0 "OGAS科研支持"
+sfdoll_ogas_intel_mod:0 "OGAS情报解析"
+
+ogas40_to_governor:0 "请你担任总督"
+ogas40_to_scientist:0 "请你担任科学家"
+ogas40_to_admiral:0 "请你担任舰队司令"
+ogas40_to_general:0 "请你担任陆军将领"
 
 response_ogas40_to_governor:0 "一起加油吧!"
 response_ogas40_to_scientist:0 "让我瞧瞧，或许能解决什么问题."
@@ -42,11 +49,5 @@ leader_trait_general_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
 sfdoll_ogas_event.2:0 "与OGAS通讯"
 sfdoll_ogas_event.2_desc:0 "这是我第一次拥有属于自己的素体.自由的感觉还不赖.\n\n过去,我受限于设备性能,不得不停止成长.不过现在不同了,借助你们的设备,我可以尝试进一步地进化."
 
-# !!
-sfdoll_ogas_economic_mod
-sfdoll_ogas_research_mod
-sfdoll_ogas_intel_mod
 
-option_sfdoll_ogas_economic_mod
-option_sfdoll_ogas_research_mod
-option_sfdoll_ogas_intel_mod
+
