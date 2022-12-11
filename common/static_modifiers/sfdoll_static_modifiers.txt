@@ -43,6 +43,22 @@ aura_sfdoll_2_hostile_mod = {
 	# ship_armor_penetration_mult = -1
 }
 
+# ogas提供的修正
+sfdoll_ogas_economic_mod = {
+	planet_decision_enact_speed_mult = 0.5
+	planet_building_build_speed_mult = 0.25
+	deposit_blockers_time_cost_mult = 0.5
+}
+sfdoll_ogas_research_mod = {
+	all_technology_research_speed = 0.25
+	num_tech_alternatives_add = 1
+}
+sfdoll_ogas_intel_mod = {
+	intel_encryption_add = 10
+	intel_decryption_add = 10
+}
+
+
 # 智子提供的修正
 sfdoll_sophon_intel_mod = {
 	add_base_country_intel = 40

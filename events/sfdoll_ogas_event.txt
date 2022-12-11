@@ -32,6 +32,87 @@ country_event = {
 		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
 	}
 
+	# 经济修正
+	option = {
+		name =  "option_sfdoll_ogas_economic_mod"
+		hidden_effect = {
+			if = {
+				limit = { has_modifier = sfdoll_ogas_economic_mod }
+				remove_modifier = sfdoll_ogas_economic_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_research_mod }
+				remove_modifier = sfdoll_ogas_research_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_intel_mod }
+				remove_modifier = sfdoll_ogas_intel_mod
+			}
+		}
+		add_modifier = { modifier = sfdoll_ogas_economic_mod days = -1 }
+		hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
+	}
+	# 科技
+	option = {
+		name =  "option_sfdoll_ogas_research_mod"
+		hidden_effect = {
+			if = {
+				limit = { has_modifier = sfdoll_ogas_economic_mod }
+				remove_modifier = sfdoll_ogas_economic_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_research_mod }
+				remove_modifier = sfdoll_ogas_research_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_intel_mod }
+				remove_modifier = sfdoll_ogas_intel_mod
+			}
+		}
+		add_modifier = { modifier = sfdoll_ogas_research_mod days = -1 }
+		hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
+	}
+	#情报
+	option = {
+		name =  "option_sfdoll_ogas_intel_mod"
+		hidden_effect = {
+			if = {
+				limit = { has_modifier = sfdoll_ogas_economic_mod }
+				remove_modifier = sfdoll_ogas_economic_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_research_mod }
+				remove_modifier = sfdoll_ogas_research_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_intel_mod }
+				remove_modifier = sfdoll_ogas_intel_mod
+			}
+		}
+		add_modifier = { modifier = sfdoll_ogas_intel_mod days = -1 }
+		hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
+	}
+
+	option = {
+		name = "sfdoll_task_termination"
+		hidden_effect = {
+			# 移除旧的修正，但不会删除领袖
+			if = {
+				limit = { has_modifier = sfdoll_ogas_economic_mod }
+				remove_modifier = sfdoll_ogas_economic_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_research_mod }
+				remove_modifier = sfdoll_ogas_research_mod
+			}
+			else_if = {
+				limit = { has_modifier = sfdoll_ogas_intel_mod }
+				remove_modifier = sfdoll_ogas_intel_mod
+			}
+			country_event = { id = sfdoll_ogas_event.1 }
+		}
+	}
+
 	#选项，40变总督
 	option = {
 		name =  "ogas40_to_governor"
