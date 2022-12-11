@@ -244,7 +244,7 @@ country_event = {
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 }
 
-# 智子领袖通讯
+# 智子领袖形态
 country_event = {
 	id = sfdoll_three_body_event.7
 	title = "sfdoll_three_body_event.7"
