@@ -49,7 +49,7 @@ sfdoll_mega_shipyard_1 = {
 
 sfdoll_mega_shipyard_2 = {
 	entity = ""
-	construction_entity = "ringworld_seam_entity_01_full_entity"
+	construction_entity = ""
 	portrait = "GFX_megastructure_construction_background"
 	build_time = 1800
 	resources = {
