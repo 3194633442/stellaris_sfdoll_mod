@@ -8,7 +8,7 @@ sfdoll_elisa_event_2_d_desc:0 "总有一天,我们能再次见到露尼西亚."
 
 sfdoll_elisa_event.2_option_leader:0 "联系一些领袖"
 sfdoll_elisa_event.2_option_sophon:0 "访问智子计算机组"
-sfdoll_elisa_event.2_option_ogas:0 "访问OGAS"
+sfdoll_elisa_event.2_option_ogas:0 "访问OGAS人工智能"
 
 elisa_to_scientist:0 "请你领导科研工作"
 elisa_has_this_job_now:0 "伊莱莎已经在做这项工作"
@@ -29,4 +29,4 @@ sfdoll_elisa_event.3_option_7:0 "漫游者"
 sfdoll_elisa_event.3_option_8:0 "智子"
 
 sfdoll_elisa_event.4:0 "和伊莱莎通讯"
-sfdoll_elisa_event_4_a_desc:0 "我们已经重回宇宙，接下来会有很多事情要做。我虽然丢失了许多功能，但帮你打打电话还是可以的。\n\nOAGS-UMP40是结合了遗迹文明和铁血人形的技术而诞生的超级人工智能，它的能力远远在我之上，你可以完全信任它。"
+sfdoll_elisa_event_4_a_desc:0 "我们已经重回宇宙，接下来会有很多事情要做。我虽然丢失了许多功能，但帮你们打一下电话还是可以的。\n\nOAGS-UMP40是结合了遗迹文明和铁血人形的技术而诞生的超级人工智能，它的能力远远在我之上，你可以完全信任它。"
