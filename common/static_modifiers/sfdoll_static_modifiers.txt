@@ -47,7 +47,6 @@ aura_sfdoll_2_hostile_mod = {
 sfdoll_ogas_economic_mod = {
 	planet_decision_enact_speed_mult = 0.5
 	planet_building_build_speed_mult = 0.25
-	deposit_blockers_time_cost_mult = 0.5
 }
 sfdoll_ogas_research_mod = {
 	all_technology_research_speed = 0.25

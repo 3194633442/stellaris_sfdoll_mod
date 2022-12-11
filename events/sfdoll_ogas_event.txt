@@ -10,7 +10,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump40
-		room = this
+		room = sfdoll_digi_mind_room
 		graphical_culture = this
 		planet_background = this
 		city_level = this
@@ -25,12 +25,8 @@ country_event = {
 		}
 	}
 
-	immediate = {
-		set_country_flag = contract_diplomacy_engaged
-	}
-	after = {
-		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
-	}
+	immediate = { set_country_flag = contract_diplomacy_engaged }
+	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 
 	# 经济修正
 	option = {

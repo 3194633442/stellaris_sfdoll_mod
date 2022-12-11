@@ -88,6 +88,12 @@ country_event = {
 		hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } }
 	}
 
+	option = {
+		name = "sfdoll_elisa_event.2_option_ogas"
+		trigger = {	has_country_flag = ogas40_owner_sfdoll	}
+		hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
+	}
+
 	#选项，伊莱莎变科学家
 	option = {
 		name =  "elisa_to_scientist"
@@ -177,15 +183,11 @@ country_event = {
 		}
 	}
 	#找ogas ump40
-	option = {
-		name = "sfdoll_elisa_event.3_option_4"
-		trigger = {	has_country_flag = ogas40_owner_sfdoll	}
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_ogas_event.1
-			}
-		}
-	}
+	# option = {
+	# 	name = "sfdoll_elisa_event.3_option_4"
+	# 	trigger = {	has_country_flag = ogas40_owner_sfdoll	}
+	# 	hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
+	# }
 
 	#找谢顿
 	option = {
@@ -226,7 +228,7 @@ country_event = {
 	# }
 
 	#退出
-	option = { name =  "sfdoll_break_option" break = yes }
+	option = { name =  "EXIT" break = yes }
 }
 
 #伊莱莎通讯界面，开局

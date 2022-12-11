@@ -26,8 +26,8 @@ sfdoll_ogas_intel_mod:0 "OGAS Information Analysis"
 
 ogas40_to_governor:0 "Please work as a governor"
 ogas40_to_scientist:0 "Please work as a scientist"
-ogas40_to_admiral:0 "Please command the fleet"
-ogas40_to_general:0 "Please command the army troop"
+ogas40_to_admiral:0 "Please work as a admiral"
+ogas40_to_general:0 "Please work as a general"
 
 response_ogas40_to_governor:0 "Let's work hard together!"
 response_ogas40_to_scientist:0 "Let me see what might be the solution."
