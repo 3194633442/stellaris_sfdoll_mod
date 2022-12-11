@@ -22,7 +22,12 @@ country_event = {
 	# 经济修正
 	option = {
 		name =  "option_sfdoll_ogas_economic_mod"
-		trigger = { NOT = { has_modifier = sfdoll_ogas_economic_mod } }
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_task_is_in_progress"
+				NOT = { has_modifier = sfdoll_ogas_economic_mod }
+			}
+		}
 		hidden_effect = {
 			if = {
 				limit = { has_modifier = sfdoll_ogas_economic_mod }
@@ -43,7 +48,12 @@ country_event = {
 	# 科技
 	option = {
 		name =  "option_sfdoll_ogas_research_mod"
-		trigger = { NOT = { has_modifier = sfdoll_ogas_research_mod } }
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_task_is_in_progress"
+				NOT = { has_modifier = sfdoll_ogas_research_mod }
+			}
+		}
 		hidden_effect = {
 			if = {
 				limit = { has_modifier = sfdoll_ogas_economic_mod }
@@ -64,7 +74,12 @@ country_event = {
 	#情报
 	option = {
 		name =  "option_sfdoll_ogas_intel_mod"
-		trigger = { NOT = { has_modifier = sfdoll_ogas_intel_mod } }
+		allow = {
+			custom_tooltip = {
+				fail_text = "sfdoll_task_is_in_progress"
+				NOT = { has_modifier = sfdoll_ogas_intel_mod }
+			}
+		}
 		hidden_effect = {
 			if = {
 				limit = { has_modifier = sfdoll_ogas_economic_mod }

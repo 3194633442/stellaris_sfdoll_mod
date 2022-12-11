@@ -1,5 +1,6 @@
 ﻿l_simp_chinese:
 ###
+sfdoll_task_is_in_progress:0 "该任务正在进行中"
 
 sfdoll_project_ogas_ai:0 "研究OGAS"
 sfdoll_project_ogas_ai_DESC:0 "OGAS是利用遗迹科学创造的超级AI.\n\n 铁血人形莉娃的体内保存了一个OGAS，我们可将这个OGAS作为研究样本."
@@ -48,6 +49,3 @@ leader_trait_general_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
 
 sfdoll_ogas_event.2:0 "与OGAS通讯"
 sfdoll_ogas_event.2_desc:0 "这是我第一次拥有属于自己的素体.自由的感觉还不赖.\n\n过去,我受限于设备性能,不得不停止成长.不过现在不同了,借助你们的设备,我可以尝试进一步地进化."
-
-
-

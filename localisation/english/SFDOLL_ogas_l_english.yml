@@ -1,5 +1,6 @@
 ﻿l_english:
 ###
+sfdoll_task_is_in_progress:0 "This task is in progress"
 
 sfdoll_project_ogas_ai:0 "Research OGAS"
 sfdoll_project_ogas_ai_DESC:0 "OGAS is the super AI created by relic science.\n\n There is an OGAS stored in the body of Riva, and we can use this OGAS as a research sample."
