@@ -65,6 +65,7 @@ sfdoll_sophon_intel_mod = {
 	intel_decryption_add = 20
 }
 sfdoll_sophon_research_mod = { all_technology_research_speed = 0.4 }
+# sfdoll_sophon_engineering_mod
 
 # Ä¸½¢
 sfdoll_mobile_starbase_mod = {
