@@ -135,7 +135,6 @@ country_event = {
 	# 智子提供情报加成
 	option = {
 		name = sfdoll_three_body_event.3_a
-		response_text = "sfdoll_three_body_event.3_a_response"
 		hidden_effect = {
 			# 移除旧的修正，但不会删除领袖
 			if = {
@@ -266,10 +265,12 @@ country_event = {
 			custom_tooltip = {
 				fail_text = "sfdoll_the_leader_is_doing_this_job"
 				NOT = {
-					exists = event_target:sfdoll_leader_sophon
-					event_target:sfdoll_leader_sophon = {
-						leader_class = scientist
-						owner = { is_same_value = root }
+					AND = {
+						exists = event_target:sfdoll_leader_sophon
+						event_target:sfdoll_leader_sophon = {
+							leader_class = scientist
+							owner = { is_same_value = root }
+						}
 					}
 				}
 			}
@@ -307,10 +308,12 @@ country_event = {
 			custom_tooltip = {
 				fail_text = "sfdoll_the_leader_is_doing_this_job"
 				NOT = {
-					exists = event_target:sfdoll_leader_sophon
-					event_target:sfdoll_leader_sophon = {
-						leader_class = admiral
-						owner = { is_same_value = root }
+					AND = {
+						exists = event_target:sfdoll_leader_sophon
+						event_target:sfdoll_leader_sophon = {
+							leader_class = admiral
+							owner = { is_same_value = root }
+						}
 					}
 				}
 			}
@@ -349,10 +352,12 @@ country_event = {
 			custom_tooltip = {
 				fail_text = "sfdoll_the_leader_is_doing_this_job"
 				NOT = {
-					exists = event_target:sfdoll_leader_sophon
-					event_target:sfdoll_leader_sophon = {
-						leader_class = general
-						owner = { is_same_value = root }
+					AND = {
+						exists = event_target:sfdoll_leader_sophon
+						event_target:sfdoll_leader_sophon = {
+							leader_class = general
+							owner = { is_same_value = root }
+						}
 					}
 				}
 			}
