@@ -16,15 +16,6 @@ country_event = {
 		city_level = this
 	}	
 	is_triggered_only = yes
-
-	trigger = {
-		AND = {
-			from = {  NOT = {has_country_flag = gray_country }	}
-			has_country_flag = ogas40_owner_sfdoll
-			NOT = { has_country_flag = contract_diplomacy_engaged }
-		}
-	}
-
 	immediate = { set_country_flag = contract_diplomacy_engaged }
 	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 
@@ -202,10 +193,7 @@ country_event = {
 	}
 
 	#退出
-	option = {
-		name =  "sfdoll_break_option"
-		country_event = { id = sfdoll_elisa_event.3 }
-	}
+	option = { name =  "EXIT" hidden_effect = { break = yes } }
 }
 
 #ogas ump40加入
