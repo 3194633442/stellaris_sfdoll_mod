@@ -15,7 +15,7 @@ civic_sfdoll_research= {
 	#description = "civic_sfdoll_tech_effect_desc"
 	modifier = { 
 		num_tech_alternatives_add = 1
-		all_technology_research_speed = 0.25		
+		all_technology_research_speed = 0.15		
 	}
 }
 

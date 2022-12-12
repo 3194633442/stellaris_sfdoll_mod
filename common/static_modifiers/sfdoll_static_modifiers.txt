@@ -49,7 +49,7 @@ sfdoll_ogas_economic_mod = {
 	planet_building_build_speed_mult = 0.25
 }
 sfdoll_ogas_research_mod = {
-	all_technology_research_speed = 0.25
+	all_technology_research_speed = 0.15
 	num_tech_alternatives_add = 1
 }
 sfdoll_ogas_intel_mod = {
