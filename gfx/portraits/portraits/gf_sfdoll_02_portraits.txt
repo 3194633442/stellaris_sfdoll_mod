@@ -12,6 +12,8 @@ portraits = {
 	GFX_sfdoll_dingyi = { textureFile = "gfx/models/portraits/gf_sfdoll_02/dingyi.dds" }
 	GFX_sfdoll_jefuty = { textureFile = "gfx/models/portraits/gf_sfdoll_02/jefuty.dds" }
 	GFX_sfdoll_Tokiwa_Nanaka = { textureFile = "gfx/models/portraits/gf_sfdoll_02/Tokiwa_Nanaka.dds" }
+	GFX_sfdoll_Ouroboros = { textureFile = "gfx/models/portraits/gf_sfdoll_02/ouroboros.dds" }
+	GFX_sfdoll_Ouroboros_2 = { textureFile = "gfx/models/portraits/gf_sfdoll_02/ouroboros_2.dds" }
 }
 
 # exd1	= {	entity = "portrait_extradimensional_01_entity"		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "mammalian_01_greetings" }

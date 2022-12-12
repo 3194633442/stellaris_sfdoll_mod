@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+###############################
+sfdoll_leader_event.2:0 "与衔尾蛇通讯"
+
+sfdoll_ouroboros_to_governor:0 "请担任总督"
+sfdoll_ouroboros_to_governor_response:0 ""
+sfdoll_ouroboros_to_scientist:0 "请担任科学家"
+sfdoll_ouroboros_to_scientist_response:0 ""
+sfdoll_ouroboros_to_admiral:0 "请担任舰队司令"
+sfdoll_ouroboros_to_admiral_response:0 ""
+sfdoll_ouroboros_to_general:0 "请率领陆军"
+sfdoll_ouroboros_to_general_response:0 ""
+
+Name_sfdoll_Ouroboros:0 "衔尾蛇"

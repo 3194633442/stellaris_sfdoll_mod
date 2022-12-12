@@ -181,10 +181,7 @@ country_event = {
 	}
 
 	#退出
-	option = {
-		name =  EXIT
-		country_event = { id = sfdoll_elisa_event.3 }
-	}
+	option = { name =  "EXIT" hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } } }
 }
 
 #45担任总督

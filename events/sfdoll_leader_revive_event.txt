@@ -147,8 +147,7 @@ country_event = {
 					save_global_event_target_as = sfdoll_leader_elisa
 				}
 			}
-
-			if = {
+			else_if = {
 				limit = { has_leader_flag = sfdoll_leader_ump45 }
 				clear_global_event_target = sfdoll_leader_ump45
 				event_target:new_leader_revive_sfdoll = {
@@ -156,8 +155,15 @@ country_event = {
 					save_global_event_target_as = sfdoll_leader_ump45
 				}
 			}
-
-			if = {
+			else_if = {
+				limit = { has_leader_flag = sfdoll_leader_ouroboros }
+				clear_global_event_target = sfdoll_leader_ouroboros
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_leader_ouroboros
+					save_global_event_target_as = sfdoll_leader_ouroboros
+				}
+			}
+			else_if = {
 				limit = { has_leader_flag = ogas40_sfdoll_leader }
 				clear_global_event_target = ogas40_sfdoll_leader
 				event_target:new_leader_revive_sfdoll = {
@@ -165,8 +171,7 @@ country_event = {
 					save_global_event_target_as = ogas40_sfdoll_leader
 				}
 			}
-
-			if = {
+			else_if = {
 				limit = { has_leader_flag = sfdoll_leader_triela }
 				clear_global_event_target = sfdoll_leader_triela
 				event_target:new_leader_revive_sfdoll = {
@@ -174,8 +179,7 @@ country_event = {
 					save_global_event_target_as = sfdoll_leader_triela
 				}
 			}
-
-			if = {
+			else_if = {
 				limit = {  has_leader_flag = sfdoll_leader_hari_seldon }
 				clear_global_event_target = sfdoll_leader_hari_seldon
 				event_target:new_leader_revive_sfdoll = {
@@ -183,7 +187,7 @@ country_event = {
 					save_global_event_target_as = sfdoll_leader_hari_seldon
 				}
 			}
-			if = {
+			else_if = {
 				limit = {  has_leader_flag = sfdoll_leader_dingyi }
 				clear_global_event_target = sfdoll_leader_dingyi
 				event_target:new_leader_revive_sfdoll = {
@@ -191,8 +195,7 @@ country_event = {
 					save_global_event_target_as = sfdoll_leader_dingyi
 				}
 			}
-			#智子
-			if = {
+			else_if = {
 				limit = {  has_leader_flag = sfdoll_leader_sophon }
 				clear_global_event_target = sfdoll_leader_sophon
 				event_target:new_leader_revive_sfdoll = {
