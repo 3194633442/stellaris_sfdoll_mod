@@ -50,7 +50,7 @@ weapon_component_template = {
 	icon_frame = 1
 	windup = { min = 10 max = 10 }
     total_fire_time = 10
-    range = 0
+    range = 300
 	accuracy = 1
 	damage = { min = 0 max = 0 }
   

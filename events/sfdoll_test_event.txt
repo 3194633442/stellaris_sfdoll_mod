@@ -75,9 +75,7 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		capital_scope = {
-			change_pc = pc_sfdoll_city
-		}
+		clear_resources = yes
 	}
 }
 
