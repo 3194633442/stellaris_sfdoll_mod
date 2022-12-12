@@ -69,17 +69,17 @@ weapon_component_template = {
 	# static_rotation = yes
 	use_ship_kill_target = yes
 	#8500
-	damage = { min = 12000 max = 16000 }
+	damage = { min = 8000 max = 12000 }
 
 	#冷却时间要除以10
 	windup = { min = 20 max = 50 }
 	total_fire_time = 170
 	range = 300
 	accuracy = 1
-	shield_damage = 3
-	armor_damage = 3
-	hull_damage = 4
-	power = -2400
+	shield_damage = 2
+	armor_damage = 2
+	hull_damage = 3
+	power = -1800
 	tags = { weapon_type_energy weapon_type_kinetic  }
 	ai_tags = { weapon_role_artillery }
 	prerequisites = { tech_sfdoll_battleship_bow_x2 }
@@ -89,11 +89,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 1200
-			GF_nyto_collapse_liquid = 180
+			alloys = 800
+			GF_nyto_collapse_liquid = 120
 		}		
 		upkeep = {
-			energy = 25
+			energy = 16
 		}
 	}
 	ai_weight = {
