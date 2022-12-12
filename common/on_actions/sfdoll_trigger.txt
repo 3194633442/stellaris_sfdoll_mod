@@ -263,6 +263,8 @@ on_destroy_planet_with_planet_killer_sfdoll_2 = {
 #转化为黑洞
 on_destroy_planet_with_planet_killer_sfdoll_3 = {
 	events = {
+		origin.3245 #摧毁蜂巢首都时
+		planet_destruction.600 # 爆破圣地
 		sfdoll_planet_killer_event.14
 	}
 }
