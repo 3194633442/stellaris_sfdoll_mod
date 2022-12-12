@@ -1,3 +1,9 @@
+#坍缩液匮乏
+GF_nyto_collapse_liquid_deficit= {
+	planet_stability_add=-200
+	country_produces_mult = -0.25
+}
+
 ##特质系统
 # trait_sfdoll_logic_engine_2_modifier = {
 # 	num_tech_alternatives_add = 1
