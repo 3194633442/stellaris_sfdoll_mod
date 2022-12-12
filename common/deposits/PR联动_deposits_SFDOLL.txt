@@ -420,7 +420,7 @@ PR_D_JOB_sfdoll_tactical = {
 
 	resources = { category = planet_soldiers	# 行业类型,直接同步岗位的
 		produces = {
-			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|death_priest|EFFICIENCY|general|	# 只改动"death_priest"这一栏,其他照抄
+			multiplier = value:PR_prmt_sv_plnt_JOB_FACTOR|JOB|sfdoll_tactical|EFFICIENCY|general|	# 只改动"death_priest"这一栏,其他照抄
 			unity = 1
 		}
 	}
