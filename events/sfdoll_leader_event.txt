@@ -73,7 +73,6 @@ country_event = {
 	desc = "sfdoll_leader_event.2_desc_a"
 	desc = "sfdoll_leader_event.2_desc_b"
 	desc = "sfdoll_leader_event.2_desc_c"
-	desc = "sfdoll_leader_event.2_desc_b"
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
@@ -118,7 +117,7 @@ country_event = {
 				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				# traits = { trait = leader_trait_sfdoll_sophon_scientist }
+				traits = { trait = leader_trait_army_veteran }
 				effect = {
 					change_leader_portrait = GFX_sfdoll_Ouroboros
 					set_leader_flag = sfdoll_leader_ouroboros
@@ -162,7 +161,7 @@ country_event = {
 				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				# traits = { trait = leader_trait_sfdoll_sophon_scientist }
+				traits = { trait = leader_trait_expertise_military_theory trait = leader_trait_meticulous }
 				effect = {
 					change_leader_portrait = GFX_sfdoll_Ouroboros
 					set_leader_flag = sfdoll_leader_ouroboros
@@ -204,7 +203,7 @@ country_event = {
 				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				# traits = { trait = leader_trait_sfdoll_sophon_scientist }
+				traits = { trait = leader_trait_aggressive }
 				effect = {
 					change_leader_portrait = GFX_sfdoll_Ouroboros_2
 					set_leader_flag = sfdoll_leader_ouroboros
@@ -246,7 +245,7 @@ country_event = {
 				set_age = 20
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				# traits = { trait = leader_trait_sfdoll_sophon_scientist }
+				traits = { trait = leader_trait_demoralizer }
 				effect = {
 					change_leader_portrait = GFX_sfdoll_Ouroboros_2
 					set_leader_flag = sfdoll_leader_ouroboros
