@@ -137,9 +137,11 @@ sfdoll_thruster_6:0 "$sfdoll_thruster$"
 
 
 #computer
-tech_sfdoll_ship_computer:0 "铁血战舰AI"
+tech_sfdoll_ship_computer:0 "铁血作战AI"
 tech_sfdoll_ship_computer_desc:0 "早期的铁血人形就是一群作战AI。当然，要适应太空作战，光靠旧的知识是远远不够的。"
 sfdoll_combat_computer_1:0"铁血作战AI（手动）"
+sfdoll_combat_computer_SWARM:0 "铁血作战AI（蜂拥）"
+sfdoll_combat_computer_PICKET:0 "铁血作战AI（哨戒）"
 sfdoll_combat_computer_line:0 "铁血作战AI（线列）"
 sfdoll_combat_computer_artillery:0"铁血作战AI（炮击）"
 sfdoll_combat_computer_carrier:0"铁血作战AI（航母）"

@@ -1124,8 +1124,15 @@ planet_event = {
 				scopes = { from = root.from }
 			}
 		}
+		# else = {
+		# 	fire_on_action = {
+		# 		on_action = on_destroy_planet_with_PLANET_KILLER_STAR_CRACKER
+		# 		scopes = { from = root.from }
+		# 	}
+		# }
 		#是恒星
 		else = {
+			# 威胁度 target 分数 暗物质
 			add_threat = { who = from.owner amount = 10 }
 			from = {
 				owner = {

@@ -26,7 +26,7 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "摧毁"
 
 # 转化为黑洞
 planet_killer_sfdoll_3:0 "视界之剑"
-planet_killer_sfdoll_3_DESC:0 "这种武器可以令恒星坍缩为黑洞，这个过程会引发超新星爆发，星系中仅有我方的舰队可以免受影响。这一事件释放的能量会被用于制造暗物质。$planet_killer_sfdoll_3$也能够摧毁行星。"
+planet_killer_sfdoll_3_DESC:0 "这种武器可以令恒星坍缩为黑洞，并引发超新星爆发。这一事件释放的能量会被用于制造暗物质。$planet_killer_sfdoll_3$也能够摧毁行星。"
 
 planet_killer_sfdoll_3_ACTION:0 "$planet_killer_sfdoll_3$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"

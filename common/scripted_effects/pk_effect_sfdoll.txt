@@ -312,8 +312,8 @@ effect_sfdoll_destroy_star_system = {
 	every_fleet_in_system = {
 		limit = {
 			NOR = {
-				# 己方不受影响
-				owner = { is_same_value = from.owner }
+				is_same_value = from
+				# owner = { is_same_value = from.owner }
 				# except Extradimensionals
 				AND = {
 					exists = owner

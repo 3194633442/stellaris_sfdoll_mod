@@ -23,7 +23,7 @@ FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_2:0 "$planet_killer_sfdoll_2
 MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "destroyed"
 
 planet_killer_sfdoll_3:0 "Horizon Sword"
-planet_killer_sfdoll_3_DESC:0 "This weapon can make the star collapse into a black hole, which will trigger a supernova explosion, and only our fleets in the system can be immune from the impact. The energy released by this event is then used to generate dark matter. $planet_killer_sfdoll_3$ can also destroy planets."
+planet_killer_sfdoll_3_DESC:0 "This weapon can make the star collapse into a black hole, which will trigger a supernova explosion. The energy released by this event is then used to generate dark matter. $planet_killer_sfdoll_3$ can also destroy planets."
 
 planet_killer_sfdoll_3_ACTION:0 "$planet_killer_sfdoll_3$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"
