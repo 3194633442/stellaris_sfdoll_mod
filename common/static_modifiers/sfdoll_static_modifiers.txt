@@ -1,5 +1,5 @@
 #Ì®ËõÒºØÑ·¦
-GF_nyto_collapse_liquid_deficit= {
+GF_nyto_collapse_liquid_deficit = {
 	planet_stability_add=-200
 	country_produces_mult = -0.25
 }

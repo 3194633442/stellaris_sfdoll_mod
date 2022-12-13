@@ -1111,13 +1111,12 @@ planet_event = {
 	}
 }
 
-# 触发原版的爆星事件
 planet_event = {
 	id = sfdoll_planet_killer_event.15
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {
-		# 不是恒星
+		# 不是恒星，触发原版的爆星事件
 		if = {
 			limit = { is_star = no }
 			fire_on_action = {

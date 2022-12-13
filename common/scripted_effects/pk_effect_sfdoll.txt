@@ -199,18 +199,19 @@ effect_sfdoll_destroy_star_system = {
 	}
 	every_system_planet = {
 		limit = { is_star = yes }
-		create_ambient_object = {
-			type = "star_explosion"
-			play_animation_once = yes
-			location = this
-		}
-		last_created_ambient_object = {
-			set_location = {
-				target = prev
-				distance = 0
-				angle = random
-			}
-		}
+		# 不用特效
+		# create_ambient_object = {
+		# 	type = "star_explosion"
+		# 	play_animation_once = yes
+		# 	location = this
+		# }
+		# last_created_ambient_object = {
+		# 	set_location = {
+		# 		target = prev
+		# 		distance = 0
+		# 		angle = random
+		# 	}
+		# }
 		change_pc = pc_black_hole
 	}
 	# Handle Contingency Machine Worlds

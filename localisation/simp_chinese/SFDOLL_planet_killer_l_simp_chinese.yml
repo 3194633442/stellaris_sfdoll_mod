@@ -26,7 +26,7 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_2:0 "摧毁"
 
 # 转化为黑洞
 planet_killer_sfdoll_3:0 "视界之剑"
-planet_killer_sfdoll_3_DESC:0 "这种武器可以令恒星塌缩，最终转化为黑洞，且不会波及周围的天体。它也能够摧毁行星。"
+planet_killer_sfdoll_3_DESC:0 "这种武器可以令恒星塌缩为黑洞，并将释放的能量转化为暗物质。这个过程会引发超新星爆发，星系中仅有我方的舰队可以免受影响。这个过程释放的它也能够摧毁行星。"
 
 planet_killer_sfdoll_3_ACTION:0 "$planet_killer_sfdoll_3$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"
@@ -50,7 +50,7 @@ edict_sfdoll_weapon_T_PK_control_desc:0 "法令生效期间，装备了$sfdoll_w
 
 
 planet_killer_sfdoll_colonizer:0 "殖民太空梭"
-planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$可以向星球上运输人员和物资,支持对星球的初步开发."
+planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$可以向星球上运输人员和物资,支持对星球的初步开发。"
 
 planet_killer_sfdoll_colonizer_ACTION:0 "$planet_killer_sfdoll_colonizer$"
 FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_colonizer:0 "$planet_killer_sfdoll_colonizer$"
