@@ -234,30 +234,30 @@ country_event = {
 	}
 
 	#诺耶露跨星系攻击
-	option = {
-		name = "sfdoll_noel_system_attack"
-		allow = {
-			custom_tooltip = {
-				fail_text =  "noel_must_become_ship"
-				exists = event_target:ship_sfdoll_noel
-			}
-			custom_tooltip = {
-				fail_text = "sfdoll_noel_system_attack_cool_down"
-				NOT = {	has_country_flag = sfdoll_noel_system_attack_cool_down	}
-			}
-			custom_tooltip = {
-				fail_text =  "sfdoll_noel_is_destroyed"
-				NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
-			}
-		}
-		hidden_effect = {
-			event_target:fleet_sfdoll_noel = {
-				fleet_event = {
-					id = sfdoll_planet_killer_event.2
-				}
-			}
-		}
-	}
+	# option = {
+	# 	name = "sfdoll_noel_system_attack"
+	# 	allow = {
+	# 		custom_tooltip = {
+	# 			fail_text =  "noel_must_become_ship"
+	# 			exists = event_target:ship_sfdoll_noel
+	# 		}
+	# 		custom_tooltip = {
+	# 			fail_text = "sfdoll_noel_system_attack_cool_down"
+	# 			NOT = {	has_country_flag = sfdoll_noel_system_attack_cool_down	}
+	# 		}
+	# 		custom_tooltip = {
+	# 			fail_text =  "sfdoll_noel_is_destroyed"
+	# 			NOT = {	has_country_flag = sfdoll_noel_is_destroyed }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		event_target:fleet_sfdoll_noel = {
+	# 			fleet_event = {
+	# 				id = sfdoll_planet_killer_event.2
+	# 			}
+	# 		}
+	# 	}
+	# }
 
 	#退出
 	option = {
