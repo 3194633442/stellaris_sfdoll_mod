@@ -6,14 +6,14 @@ entity = {
 entity = {
 	name = "SF_Portal2_frame_entity"
 	scale = 4
-	locator = { name = "root" 	position = { 0  -40  0 } rotation = { 0 90 0 }}
+	locator = { name = "root" 	position = { 0  -30  0 } rotation = { 0 90 0 }}
 	attach = {	root = SF_Portal2_entity	}
 }
 
 entity = {
 	name = "SF_Portal2_frame2_entity"
-	scale = 6.5
-	locator = { name = "root" 	position = { 0 -40  0 } }
+	scale = 0.6
+	locator = { name = "root" 	position = { 0 -100  0 } }
 	# 原版环建造模型
 	attach = {	root = ringworld_seam_entity_01_full_entity	}
 }
