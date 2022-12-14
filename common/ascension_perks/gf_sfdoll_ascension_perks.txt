@@ -79,6 +79,7 @@ ap_sfdoll_3 = {
 		country_event = {
 			id = sfdoll_to_zion_event.7
 		}
+		add_research_option = tech_sfdoll_mega_lab
 		add_research_option = tech_gateway_construction
 		add_research_option = tech_gateway_activation
 	}
@@ -94,14 +95,13 @@ ap_sfdoll_3 = {
 ap_sfdoll_4= {
 	potential = {
 		has_authority = auth_gf_sfdoll
-		NOT = {
-			has_ascension_perk = ap_sfdoll_4
-		}
+		NOT = { has_ascension_perk = ap_sfdoll_4 }
 	}
 	possible = {
 		has_technology = tech_sfdoll_ap_phy
 		has_technology = tech_sfdoll_ap_soc
 		has_technology = tech_sfdoll_ap_eng
+		has_megastructure = sfdoll_mega_lab_4
 		# has_technology = tech_sfdoll_singularity
 		# has_technology = tech_sfdoll_jump_drive
 	}

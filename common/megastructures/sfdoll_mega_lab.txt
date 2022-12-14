@@ -17,7 +17,11 @@ sfdoll_mega_lab_1 = {
 	}
 	show_prereqs = yes
 	prerequisites = { "tech_sfdoll_mega_lab" }
-	potential = { is_ai = no has_authority = auth_gf_sfdoll }
+	potential = {
+		is_ai = no
+		has_authority = auth_gf_sfdoll
+		NOT = { has_ascension_perk = ap_sfdoll_4 }
+	}
 	possible = {
 		exists = starbase
 		custom_tooltip = {
@@ -104,8 +108,8 @@ sfdoll_mega_lab_1 = {
 }
 
 sfdoll_mega_lab_2 = {
-	entity = "ringworld_seam_entity_01_full_entity"
-	construction_entity = "construction_platform_entity"
+	entity = "SF_Portal2_frame2_entity"
+	construction_entity = "SF_Portal2_frame2_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
 	build_time = 720
@@ -137,8 +141,8 @@ sfdoll_mega_lab_2 = {
 }
 
 sfdoll_mega_lab_3 = {
-	entity = "SF_Portal2_entity"
-	construction_entity = "SF_Portal2_entity"
+	entity = "SF_Portal2_frame_entity"
+	construction_entity = "SF_Portal2_frame_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
 	# entity_offset = { x = -7 y = -7 }
@@ -172,7 +176,7 @@ sfdoll_mega_lab_3 = {
 }
 
 sfdoll_mega_lab_4 = {
-	entity = "SF_Portal2_entity"
+	entity = "SF_Portal2_frame_entity"
 	construction_entity = ""
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
@@ -184,9 +188,9 @@ sfdoll_mega_lab_4 = {
 			GF_nyto_collapse_liquid = 1500
 		}
 		produces = {
-			physics_research = 600
-			society_research = 600
-			engineering_research = 600
+			physics_research = 500
+			society_research = 300
+			engineering_research = 300
 		}
 		upkeep = { energy = 100 GF_nyto_collapse_liquid = 10 }
 	}

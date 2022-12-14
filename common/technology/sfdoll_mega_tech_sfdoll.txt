@@ -43,7 +43,7 @@ tech_mega_sfdoll_starport = {
 		has_authority = auth_gf_sfdoll
 	}
 	modifier = {
-		country_resource_max_add = 40000
+		# country_resource_max_add = 40000
 	}
 	weight = 0
 }
@@ -59,7 +59,7 @@ tech_sfdoll_habitat_01 = {
 	icon = tech_sfdoll_habitat_01
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_build_sfdoll_city }
-	modifier = {	country_resource_max_add = 40000	}
+	# modifier = {	country_resource_max_add = 40000	}
 	weight = @tier4weight2
 }
 
@@ -122,7 +122,7 @@ tech_sfdoll_blackhole_mining  = {
 	potential = { has_authority = auth_gf_sfdoll }
 	prerequisites = {	tech_sfdoll_collapse_liquid_produce	}
 	feature_flags = {	megaengineering	}
-	modifier = { country_resource_max_add = 40000 }
+	# modifier = { country_resource_max_add = 40000 }
 	weight = @tier4weight1
 }
 
@@ -141,7 +141,7 @@ tech_sfdoll_mobile_gateway = {
 		tech_sfdoll_jump_drive
 	}
 	feature_flags = { gateway_activation	gateway_construction	}
-	modifier = { country_resource_max_add = 40000 }
+	# modifier = { country_resource_max_add = 40000 }
 	weight = @tier4weight3
 	weight_modifier = {
 		modifier = {
@@ -160,7 +160,7 @@ tech_sfdoll_mega_system = {
 	is_rare = yes
 	prerequisites = {	tech_building_sfdoll_mineral	}	
 	potential = { always = no has_authority = auth_gf_sfdoll	}
-	modifier = {	country_resource_max_add = 40000	}
+	# modifier = {	country_resource_max_add = 40000	}
 	weight = 0
 }
 

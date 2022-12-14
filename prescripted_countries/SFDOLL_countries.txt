@@ -45,7 +45,7 @@
 	ruler={
 		gender= indeterminable
 		name="PRESCRIPTED_ruler_sfdoll_1"
-		portrait= "sfdoll_01_sf_0"
+		portrait= "sfdoll_01_sf_4"
 		texture=0
 		clothes=0
 		leader_class="ruler"
