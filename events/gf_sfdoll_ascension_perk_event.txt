@@ -111,6 +111,16 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = gf_sfdoll_ascension_perk_event.5
+	title = "gf_sfdoll_ascension_perk_event.5"
+	desc = "gf_sfdoll_ascension_perk_event.5_desc"
+	picture = GFX_evt_space_walk
+	location = from
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { has_authority = auth_gf_sfdoll }
+}
 
 #物种强化研究完成时触发，要有飞升科技，只触发一次
 # country_event = {

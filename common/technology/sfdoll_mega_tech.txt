@@ -196,7 +196,6 @@ tech_sfdoll_mega_lab = {
 	tier = 5
 	cost = @tier5cost1
 	is_rare = yes
-	is_dangerous = yes
 	category = { field_manipulation }
 	icon = tech_sfdoll_mega_lab
 	potential = {	has_authority = auth_gf_sfdoll	}

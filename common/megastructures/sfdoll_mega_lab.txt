@@ -137,6 +137,7 @@ sfdoll_mega_lab_2 = {
 			days = 30
 			target = THIS
 		}
+		owner = { country_event = { id = gf_sfdoll_ascension_perk_event.5 } }
 	}
 }
 
@@ -189,9 +190,9 @@ sfdoll_mega_lab_4 = {
 			GF_nyto_collapse_liquid = 1500
 		}
 		produces = {
-			physics_research = 500
-			society_research = 300
-			engineering_research = 300
+			physics_research = 800
+			society_research = 800
+			engineering_research = 800
 		}
 		upkeep = { energy = 100 GF_nyto_collapse_liquid = 10 }
 	}
