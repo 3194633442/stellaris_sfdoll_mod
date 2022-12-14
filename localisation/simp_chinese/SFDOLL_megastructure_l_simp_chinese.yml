@@ -113,7 +113,6 @@ design_sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
 # gateway_sfdoll_name:0 "铁血星门航道"
 # gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
 
-# !!
 tech_sfdoll_mega_lab:0 "$sfdoll_mega_lab_4$"
 tech_sfdoll_mega_lab_desc:0 "为了突破四级奇点的限制，我们需要建造一座恒星规模的试验场。也许，当这一史无前例的巨型结构开始运转，铁血文明的的婴儿时代就会终结。"
 

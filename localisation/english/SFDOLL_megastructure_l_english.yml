@@ -108,8 +108,6 @@ sfdoll_gateway_ship_plural:0 "$sfdoll_mobile_gateway_02$s"
 sfdoll_gateway_ship_SECTION:0 "$sfdoll_mobile_gateway_02$"
 design_sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
 
-
-# !!
 tech_sfdoll_mega_lab:0 "$sfdoll_mega_lab_4$"
 tech_sfdoll_mega_lab_desc:0 "In order to break through the limit of the Class-4 Singularity, we need to build a star scale test site. Perhaps, when this unprecedented megastructure starts to work, the baby age of our civilization will end."
 

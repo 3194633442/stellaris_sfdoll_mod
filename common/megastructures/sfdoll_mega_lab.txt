@@ -112,7 +112,7 @@ sfdoll_mega_lab_2 = {
 	construction_entity = "SF_Portal2_frame2_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
-	build_time = 720
+	build_time = 1080
 	resources = {
 		category = megastructures
 		cost = {
@@ -145,7 +145,6 @@ sfdoll_mega_lab_3 = {
 	construction_entity = "SF_Portal2_frame_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
-	# entity_offset = { x = -7 y = -7 }
 	build_time = 1080
 	resources = {
 		category = megastructures
@@ -180,6 +179,8 @@ sfdoll_mega_lab_4 = {
 	construction_entity = ""
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
+	show_in_outliner = no
+	show_galactic_map_icon = yes
 	build_time = 1800
 	resources = {
 		category = megastructures
@@ -203,7 +204,7 @@ sfdoll_mega_lab_4 = {
 		create_message = {
 			type =  MEGASTRUCTURE_BUILT
 			localization = "sfdoll_mega_lab_4"
-			days = 30
+			days = 180
 			target = THIS
 		}
 	}
