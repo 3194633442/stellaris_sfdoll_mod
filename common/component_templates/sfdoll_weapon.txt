@@ -668,7 +668,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapon_x_2"
 	icon_frame = 1
-	projectile_gfx = "tachyon_lance" #"gatebuilder_titan_weapon"
+	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	firing_arc = 80
 	static_rotation = yes
@@ -781,7 +781,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapon_T_PK"
 	icon_frame = 1
-	projectile_gfx = "titan_laser" #"perdition_beam"
+	projectile_gfx = "gatebuilder_titan_weapon" #"perdition_beam" "gatebuilder_titan_weapon"
 	entity = invisible_turret_entity
 	firing_arc = 60
 	min_range = 20.0
