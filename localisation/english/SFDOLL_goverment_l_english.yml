@@ -31,7 +31,7 @@ gov_civic_sfdoll_commonwealth:0 "SF Dolls Government"
 gov_civic_sfdoll_commonwealth_desc:0"$gov_civic_sfdoll_commonwealth$"
 gov_civic_sfdoll_military_government:0"SF Dolls Military Government"
 gov_civic_sfdoll_military_governmenth_desc:0"$gov_civic_sfdoll_military_government$"
-RT_sfdoll_president:0 "First Speaker"
+RT_sfdoll_president:0 "First Spokesperson"
 
 GF_SFDOLL_START_SCREEN_1:0 "According to the historical records, after the disintegration of Griffin Base, Sangvis Ferri Dolls were persecuted. In order to survive, Sangvis Ferri Dolls left the solar system on an expedition and found a new home in the universe. \n\nWhile opening up new worlds, we are also constantly exploring space technology and preparing to return to the space."
 
