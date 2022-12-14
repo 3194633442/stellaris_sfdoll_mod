@@ -1,4 +1,4 @@
-# #巨型星港
+#巨型星港
 # sfdoll_starport_01 = {
 # 	entity = "construction_platform_entity"
 # 	construction_entity = "construction_platform_entity"

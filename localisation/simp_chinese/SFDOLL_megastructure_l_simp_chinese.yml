@@ -112,3 +112,17 @@ design_sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
 
 # gateway_sfdoll_name:0 "铁血星门航道"
 # gateway_sfdoll_name_DESC:0 "$gateway_sfdoll_name$"
+
+# !!
+tech_sfdoll_mega_lab:0 "$sfdoll_mega_lab_4$"
+tech_sfdoll_mega_lab_desc:0 "为了突破四级奇点的限制，我们需要建造一座恒星规模的试验场。也许，当这一史无前例的巨型结构开始运转，铁血文明的的婴儿时代就会终结。"
+
+sfdoll_mega_lab_1:0 "$sfdoll_mega_lab_4$基址"
+sfdoll_mega_lab_1_DESC:0 "星系中恒星以外的天体会被拆除，用以作为这项工程的材料。"
+sfdoll_mega_lab_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_lab_1_DESC$"
+sfdoll_mega_lab_2:0 "$sfdoll_mega_lab_4$框架"
+sfdoll_mega_lab_2_DESC:0 "$sfdoll_mega_lab_1_DESC$"
+sfdoll_mega_lab_3:0 "$sfdoll_mega_lab_4$核心"
+sfdoll_mega_lab_3_DESC:0 "庞大的加速器以及配套设施被搭建起来，其中奔腾的无穷能量，令恒星也相形见绌。"
+sfdoll_mega_lab_4:0 "铁血恒星级试验场"
+sfdoll_mega_lab_4_DESC:0 "为了探明银河系的基础规律，铁血文明建造了这一巨型结构。"

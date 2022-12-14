@@ -191,6 +191,18 @@ tech_sfdoll_mega_shipyard  = {
 	weight = @tier5weight3
 }
 
+tech_sfdoll_mega_lab = {
+	area = physics
+	tier = 5
+	cost = @tier5cost1
+	is_rare = yes
+	is_dangerous = yes
+	category = { field_manipulation }
+	icon = tech_sfdoll_mega_lab
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = 0
+}
+
 tech_sfdoll_star_attacker = {
 	area = engineering
 	start_tech = no
