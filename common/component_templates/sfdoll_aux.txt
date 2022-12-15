@@ -58,6 +58,33 @@ utility_component_template = {
 	}
 }
 
+utility_component_template = {
+	key = "sfdoll_aux_fire_range"
+	size = aux
+	icon = "GFX_sfdoll_aux_fire_range"
+	icon_frame = 1
+	power = -20
+	resources = {
+		category = ship_components
+		cost = { alloys = 20 nanites = 2 }
+	}
+	modifier = {
+		ship_weapon_range_mult = 0.1
+		ship_accuracy_mult = 0.1
+		ship_tracking_mult = 0.1
+	}
+	prerequisites = { "tech_sfdoll_aux_fire_range" }
+	component_set = "sfdoll_aux_fire_range"
+
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = -1
+			NOT = {		has_authority = auth_gf_sfdoll	}
+		}		
+	}
+}
+
 #质量再生系统
 utility_component_template = {
 	key = "sfdoll_aux_quality_rebuilding"

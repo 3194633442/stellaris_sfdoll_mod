@@ -45,11 +45,9 @@ mega_sfdoll_ring_world_1_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_1_DESC
 
 mega_sfdoll_ring_world_2:0 "$pc_rw_sfdoll$ Frame"
 mega_sfdoll_ring_world_2_DESC:0 "$mega_sfdoll_ring_world_1_DESC$"
-# mega_sfdoll_ring_world_2_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_1_DESC$"
 
 mega_sfdoll_ring_world_3:0 "$mega_sfdoll_ring_world_2$"
 mega_sfdoll_ring_world_3_DESC:0 "A large number of self-regulating machines are constantly in operation, creating a grand ring world."
-# mega_sfdoll_ring_world_3_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_ring_world_3_DESC$"
 
 mega_sfdoll_ring_world_4:0 "$pc_rw_sfdoll$"
 mega_sfdoll_ring_world_4_DESC:0 "$mega_sfdoll_ring_world_3_DESC$"

@@ -108,6 +108,11 @@ sfdoll_aux_repair_ship:0"损害管理"
 component_set_sfdoll_aux_repair_ship:0"损害管理"
 component_set_sfdoll_aux_repair_ship_DESC:0"损管系统可以提高铁血飞船的生存能力"
 
+sfdoll_aux_fire_range:0 "战术无人机"
+sfdoll_aux_fire_range_DESC:0 "$sfdoll_aux_fire_range$能够加强雷达和通讯功能。"
+tech_sfdoll_aux_fire_range:0 "$sfdoll_aux_fire_range$"
+tech_sfdoll_aux_fire_range_desc:0 "$sfdoll_aux_fire_range_DESC$"
+
 sfdoll_aux_quality_rebuilding:0 "质量再生系统"
 sfdoll_aux_quality_rebuilding_DESC:0 "通过逆向坍塌技术操纵微观粒子，我们可以构建飞船所使用的物质资源，并大幅提高飞船的自持力"
 tech_sfdoll_aux_quality_rebuilding:0 "$sfdoll_aux_quality_rebuilding$"

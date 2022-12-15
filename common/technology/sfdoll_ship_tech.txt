@@ -356,6 +356,19 @@ tech_sfdoll_aux_repair_ship = {
 	weight = @tier3weight1
 }
 
+tech_sfdoll_aux_fire_range = {
+	cost = @tier5cost1
+	area = society
+	is_rare = yes
+	icon = tech_sfdoll_aux_fire_range
+	category = { military_theory }
+	is_reverse_engineerable = no
+	prerequisites = {	tech_sfdoll_weapon_s_2	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	tier = 5
+	weight = @tier4weight2
+}
+
 #质量再生系统
 tech_sfdoll_aux_quality_rebuilding = {
 	cost = @tier5cost2
@@ -412,7 +425,6 @@ tech_sfdoll_ship_sensors = {
 	#prerequisites = { 	}
 	weight = @tier4weight1
 }
-
 
 
 #ship

@@ -57,6 +57,10 @@ spriteTypes = {
 		name = "GFX_sfdoll_aux_repair_ship"
 		texturefile = "gfx/interface/icons/ship_parts/sfdoll_aux_repair_ship.dds"
 	}
+	spriteType = {
+		name = "GFX_sfdoll_aux_fire_range"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_aux_fire_range.dds"
+	}
 }
 
 spriteTypes = {

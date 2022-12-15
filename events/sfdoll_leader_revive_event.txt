@@ -26,7 +26,10 @@ country_event = {
 					has_leader_flag = sfdoll_leader
 					NOT = {
 						event_target:leader_revive_sfdoll = {
-							has_leader_flag = sfdoll_leader_noel
+							OR = {
+								has_leader_flag = sfdoll_leader_noel
+								has_trait = leader_trait_governor_gray
+							}
 						}
 					}
 				}
@@ -57,16 +60,6 @@ country_event = {
 
 	immediate = {
 		event_target:leader_revive_sfdoll = {
-			#如果是灰风或者高维人,终止复活
-			if = {
-				limit = {
-					or = {
-						is_same_value = event_target:gray_governor
-						is_same_value = event_target:sfdoll_exd_leader
-					}
-				}
-				break = yes
-			}
 
 			if = {
 				limit = { leader_class = governor }
@@ -177,6 +170,14 @@ country_event = {
 				event_target:new_leader_revive_sfdoll = {
 					set_leader_flag = sfdoll_leader_triela
 					save_global_event_target_as = sfdoll_leader_triela
+				}
+			}
+			else_if = {
+				limit = { has_leader_flag = sfdoll_exd_leader }
+				clear_global_event_target = sfdoll_exd_leader
+				event_target:new_leader_revive_sfdoll = {
+					set_leader_flag = sfdoll_exd_leader
+					save_global_event_target_as = sfdoll_exd_leader
 				}
 			}
 			else_if = {

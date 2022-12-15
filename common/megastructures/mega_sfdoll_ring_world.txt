@@ -176,7 +176,6 @@ mega_sfdoll_ring_world_2 = {
 						target = prev
 					}
 				}
-				system_event = { id = sfdoll_event.3 days = 1 }
 			}
 		}
 		remove_megastructure = fromfrom
