@@ -214,4 +214,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/evp_sfdoll_vortex.dds"
 		alwaystransparent = yes
 	}
+
+	spriteType = {
+		name = GFX_evp_sfdoll_mobile_starbase
+		texturefile = "gfx/event_pictures/evp_sfdoll_mobile_starbase.dds"
+		alwaystransparent = yes
+	}
 }

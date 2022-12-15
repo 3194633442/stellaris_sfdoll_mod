@@ -143,15 +143,6 @@ mega_sfdoll_mobile_starbase_4 = {
 	#Solar System scope, FROM = builder empire, FROMFROM = the megastructure
 	on_build_complete = {
 		if = { limit = { owner = { has_authority = auth_gf_sfdoll } }
-			from = {
-				set_country_flag = has_built_or_repaired_megastructure
-				create_message = {
-					type = MEGASTRUCTURE_BUILT
-					localization = "mega_sfdoll_mobile_starbase_4"
-					days = 30
-					target = root
-				}
-			}
 			create_fleet = {
 				name = "sfdoll_mobile_starbase"
 				effect = {
@@ -173,6 +164,17 @@ mega_sfdoll_mobile_starbase_4 = {
 					can_change_composition = yes 
 				}
 			}
+			from = {
+				set_country_flag = has_built_or_repaired_megastructure
+				create_message = {
+					type = MEGASTRUCTURE_BUILT
+					localization = "mega_sfdoll_mobile_starbase_4"
+					days = 30
+					target = root
+				}
+				country_event = { id = sfdoll_event.2 }
+			}
+			
 		}
 		fromfrom = { remove_megastructure = this }
 	}

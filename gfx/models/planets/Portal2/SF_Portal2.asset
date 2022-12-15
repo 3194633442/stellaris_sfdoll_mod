@@ -16,11 +16,3 @@ entity = {
 	locator = { name = "root" 	position = { 0 -180  0 } }
 	attach = {	root = ringworld_seam_entity_01_full_entity	}
 }
-
-entity = {
-	name = "SF_Portal2_test_entity"
-	scale = 2
-	locator = { name = "root" 	position = { 0  0  0 } rotation = { 0 90 0 }}
-	locator = { name = "L1" 	position = { 0  0  0 } scale = 2 }
-	attach = {	root = SF_Portal2_entity L1 = black_hole_entity	}
-}
