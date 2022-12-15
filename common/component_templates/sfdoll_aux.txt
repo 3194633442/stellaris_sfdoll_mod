@@ -1,28 +1,28 @@
 #辅助能源
-utility_component_template = {
-	key = "aux_sfdoll_collapse_power"
-	size = aux
-	icon = "GFX_aux_sfdoll_collapse_power"
-	icon_frame = 1
-	power = 1000
-	resources = {
-		category = ship_components
-		cost = {
-			sr_dark_matter = 60
-			GF_nyto_collapse_liquid = 10
-		}
-	}
-	prerequisites = { "tech_aux_sfdoll_collapse_power" }
-	component_set = "aux_sfdoll_collapse_power"
+# utility_component_template = {
+# 	key = "aux_sfdoll_collapse_power"
+# 	size = aux
+# 	icon = "GFX_aux_sfdoll_collapse_power"
+# 	icon_frame = 1
+# 	power = 1000
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			sr_dark_matter = 60
+# 			GF_nyto_collapse_liquid = 10
+# 		}
+# 	}
+# 	prerequisites = { "tech_aux_sfdoll_collapse_power" }
+# 	component_set = "aux_sfdoll_collapse_power"
 
-	ai_weight = {
-		weight = 20
-		modifier = {
-			factor = -1
-			NOT = {		has_authority = auth_gf_sfdoll	}
-		}		
-	}
-}
+# 	ai_weight = {
+# 		weight = 20
+# 		modifier = {
+# 			factor = -1
+# 			NOT = {		has_authority = auth_gf_sfdoll	}
+# 		}		
+# 	}
+# }
 
 
 #损害管理
@@ -39,11 +39,11 @@ utility_component_template = {
 		}
 	}
 	modifier = {
-		ship_shield_regen_add_perc = 1
-		ship_armor_regen_add_perc = 1 
-		ship_hull_regen_add_perc = 1
+		ship_shield_regen_add_perc = 0.2
+		ship_armor_regen_add_perc = 0.2
+		ship_hull_regen_add_perc = 0.2
 		#逃离概率写在modifier里
-		ship_disengage_chance_mult = 0.20 
+		# ship_disengage_chance_mult = 0.20 
 		ship_emergency_ftl_mult = -0.20
 	}
 	prerequisites = { "tech_sfdoll_aux_repair_ship" }
