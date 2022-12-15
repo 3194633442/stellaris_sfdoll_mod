@@ -54,7 +54,8 @@ mega_sfdoll_ring_world_4:0 "$pc_rw_sfdoll$"
 mega_sfdoll_ring_world_4_DESC:0 "$mega_sfdoll_ring_world_3_DESC$"
 # mega_sfdoll_ring_world_4_MEGASTRUCTURE_DETAILS:0 "mega_sfdoll_ring_world_3_DESC"
 
-
+sfdoll_event.3:0 "$pc_rw_sfdoll$"
+sfdoll_event.3_desc:0 "环世界框架已经建成，人工引力源会为后续工程保驾护航。这个环世界将配备完善的供能系统，而不必依赖天然恒星的光照。"
 
 district_rw_city_sfdoll:0 "星环城市"
 district_rw_city_sfdoll_plural:0 "星环城市"

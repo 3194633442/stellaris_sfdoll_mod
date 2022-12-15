@@ -175,6 +175,7 @@ mega_sfdoll_ring_world_2 = {
 						days = 30
 						target = prev
 					}
+					country_event = { id = sfdoll_event.3 days = 1 }
 				}
 			}
 		}

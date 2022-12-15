@@ -16,11 +16,37 @@ country_event = {
 	}
 }
 
+# 母舰
 country_event = {
 	id = sfdoll_event.2
 	title = "sfdoll_event.2"
 	desc = "sfdoll_event.2_desc"
 	picture = "GFX_evp_sfdoll_mobile_starbase"
+	location = from
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { is_ai = no has_authority = auth_gf_sfdoll }
+}
+
+# 环
+country_event = {
+	id = sfdoll_event.3
+	title = "sfdoll_event.3"
+	desc = "sfdoll_event.3_desc"
+	picture = "GFX_evt_ringworld"
+	location = from
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { is_ai = no has_authority = auth_gf_sfdoll }
+}
+
+# 巨型船坞
+country_event = {
+	id = sfdoll_event.4
+	title = "sfdoll_event.4"
+	desc = "sfdoll_event.4_desc"
+	picture = "GFX_evt_space_station"
+	location = from
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = { is_ai = no has_authority = auth_gf_sfdoll }

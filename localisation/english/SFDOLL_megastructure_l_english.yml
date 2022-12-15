@@ -15,7 +15,10 @@ sfdoll_mega_shipyard_3_DESC:0 "$tech_sfdoll_mega_shipyard_desc$"
 sfdoll_mega_shipyard_4:0 "$sfdoll_mega_shipyard$ Main Part"
 sfdoll_mega_shipyard_4_DESC:0 "Part of $sfdoll_mega_shipyard$'s shipyards has been completed and is ready for trial operation."
 sfdoll_mega_shipyard_5:0 "$sfdoll_mega_shipyard$"
-sfdoll_mega_shipyard_5_DESC:0 "A giant space port with countless facilities for building and maintaining ships."
+sfdoll_mega_shipyard_5_DESC:0 "This huge space port contains a large number of shipyard and nanites, which can build and maintain a huge fleet."
+
+sfdoll_event.4:0 "$sfdoll_mega_shipyard$"
+sfdoll_event.4_desc:0 "$sfdoll_mega_shipyard$ in the artificial system has been officially completed. With its support, the size of our fleet will be significantly improved."
 
 pc_sfdoll_habitat:0 "SF Orbital City"
 pc_sfdoll_habitat_desc:0 "Through advanced engineering techniques, $pc_sfdoll_habitat$ is able to accommodate a large number of residents."

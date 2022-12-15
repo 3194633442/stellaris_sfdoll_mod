@@ -16,7 +16,10 @@ sfdoll_mega_shipyard_3_DESC:0 "$tech_sfdoll_mega_shipyard_desc$"
 sfdoll_mega_shipyard_4:0 "$sfdoll_mega_shipyard$主体"
 sfdoll_mega_shipyard_4_DESC:0 "$sfdoll_mega_shipyard$的部分船坞已经完成，可试运行。"
 sfdoll_mega_shipyard_5:0 "$sfdoll_mega_shipyard$"
-sfdoll_mega_shipyard_5_DESC:0 "一座巨型宇宙港，拥有无数的设备用于建造和维护舰船。"
+sfdoll_mega_shipyard_5_DESC:0 "这座巨型宇宙港包含了海量的船坞和纳米机器人，可以建造和维护庞大的舰队。"
+
+sfdoll_event.4:0 "$sfdoll_mega_shipyard$"
+sfdoll_event.4_desc:0 "位于人工星系中的$sfdoll_mega_shipyard$已经正式建造完成。在它的支持下，我们的舰队规模将得到可观的提升。"
 
 pc_sfdoll_habitat:0 "铁血轨道城"
 pc_sfdoll_habitat_desc:0 "通过先进的工程技术,$pc_sfdoll_habitat$能够容纳大量的居民。"
