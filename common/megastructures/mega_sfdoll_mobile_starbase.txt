@@ -164,6 +164,7 @@ mega_sfdoll_mobile_starbase_4 = {
 					can_change_composition = yes 
 				}
 			}
+			system_event = { id = sfdoll_event.2 }
 			from = {
 				set_country_flag = has_built_or_repaired_megastructure
 				create_message = {
@@ -172,7 +173,6 @@ mega_sfdoll_mobile_starbase_4 = {
 					days = 30
 					target = root
 				}
-				country_event = { id = sfdoll_event.2 }
 			}
 			
 		}

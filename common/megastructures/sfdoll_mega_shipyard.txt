@@ -180,11 +180,9 @@ sfdoll_mega_shipyard_5 = {
 	}
 	upgrade_from = { "sfdoll_mega_shipyard_4" }
 	on_build_complete = {
-		from = {
-			set_country_flag = has_built_or_repaired_megastructure
-			country_event = { id = sfdoll_event.4 }
-		}
+		from = { set_country_flag = has_built_or_repaired_megastructure }
 		fromfrom.planet = {	set_planet_flag = has_megastructure }
+		system_event = { id = sfdoll_event.4 }
 		create_message = {
 			type = MEGASTRUCTURE_BUILT
 			localization = "sfdoll_mega_shipyard_5"
