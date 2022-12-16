@@ -26,12 +26,12 @@ weapon_component_template = {
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
-		cost = { alloys = 17 sr_dark_matter = 0.1 GF_nyto_collapse_liquid = 0.2 }
+		cost = { alloys = @s_t5_cost sr_dark_matter = @s_t5_rare GF_nyto_collapse_liquid = @s_t5_rare }
 		upkeep = { energy = @s_t5_upkeep_energy alloys = @s_t5_upkeep_alloys }
 	}
 	ai_weight = {
 		weight = 40
-		modifier = { factor = -2 NOT = {	has_authority = auth_gf_sfdoll	}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
 }
@@ -63,12 +63,12 @@ weapon_component_template = {
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
-		cost = { alloys = 35 sr_dark_matter = 0.15 GF_nyto_collapse_liquid = 0.3 }		
+		cost = { alloys = @m_t5_cost sr_dark_matter = @m_t5_rare GF_nyto_collapse_liquid = @m_t5_rare }		
 		upkeep = { energy = @m_t5_upkeep_energy alloys = @m_t5_upkeep_alloys }
 	}
 	ai_weight = {
 		weight = 40
-		modifier = { factor = -2 NOT = {	has_authority = auth_gf_sfdoll	}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
 }
@@ -101,12 +101,13 @@ weapon_component_template = {
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
-		cost = { alloys = 70 sr_dark_matter = 0.3 GF_nyto_collapse_liquid = 0.6 }		
+		cost = { alloys = @l_t5_cost sr_dark_matter = @l_t5_rare GF_nyto_collapse_liquid = @l_t5_rare }		
 		upkeep = { energy = @l_t5_upkeep_energy alloys = @l_t5_upkeep_alloys }
 	}
 	ai_weight = {
 		weight = 40
-		modifier = { factor = -2 NOT = {	has_authority = auth_gf_sfdoll	} }
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	}
+		}
 	}
 }
 
@@ -138,12 +139,12 @@ weapon_component_template = {
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
-		cost = { alloys = 17 sr_dark_matter = 0.1 GF_nyto_collapse_liquid = 0.2 }
+		cost = { alloys = @s_t5_cost sr_dark_matter = @s_t5_rare GF_nyto_collapse_liquid = @s_t5_rare }
 		upkeep = { energy = @s_t5_upkeep_energy alloys = @s_t5_upkeep_alloys }
 	}
 	ai_weight = {
 		weight = 40
-		modifier = { factor = -2 NOT = {	has_authority = auth_gf_sfdoll	}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
 }
@@ -156,7 +157,7 @@ weapon_component_template = {
 	#待修改
 	icon = "GFX_sfdoll_weapon_x_1"
 	icon_frame = 1
-	projectile_gfx = "uv_laser_l"
+	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
@@ -171,7 +172,6 @@ weapon_component_template = {
 	shield_penetration = 1
 	armor_penetration = 1
 	power = -300
-	
 	#待修改
 	prerequisites = { tech_sfdoll_weapon_t_1 }
 	component_set = "component_set_sfdoll_weapon_x_1"
@@ -182,22 +182,18 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 500
-			GF_nyto_collapse_liquid = 50
-		}		
+			alloys = @xl_t6_cost
+			sr_dark_matter = @xl_t6_rare
+			GF_nyto_collapse_liquid = @xl_t6_rare
+		}
 		upkeep = {
-			energy = 4
+			energy = @xl_t6_upkeep_energy
+			alloys = @xl_t6_upkeep_alloys
 		}
 	}
 	ai_weight = {
-		weight = 30
-		modifier = {
-			factor = 0
-			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
-		}
-		modifier = {
-			factor = -1
-			NOT = {	has_authority = auth_gf_sfdoll	}
+		weight = 40
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
 }
@@ -214,45 +210,37 @@ weapon_component_template = {
 	entity = invisible_turret_entity
 	firing_arc = 25.0
 	min_range = 10.0
-	# static_rotation = yes
 	use_ship_kill_target = yes
-	#8500
 	damage = { min = 8000 max = 12000 }
-
 	#冷却时间要除以10
 	windup = { min = 20 max = 50 }
 	total_fire_time = 170
-	range = 300
+	range = 250
 	accuracy = 1
-	shield_damage = 2
-	armor_damage = 2
-	hull_damage = 3
-	power = -1800
+	shield_penetration = 1
+	armor_penetration = 1
+	power = -900
 	tags = { weapon_type_energy weapon_type_kinetic  }
 	ai_tags = { weapon_role_artillery }
 	prerequisites = { tech_sfdoll_battleship_bow_x2 }
 	component_set = "sfdoll_weapon_t_1"
-	#projectile_gfx = 武器效果
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 800
-			GF_nyto_collapse_liquid = 120
-		}		
+			alloys = @titanic_t6_cost
+			sr_dark_matter = @titanic_t6_rare
+			GF_nyto_collapse_liquid = @titanic_t6_rare
+		}
 		upkeep = {
-			energy = 16
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
 		}
 	}
+
 	ai_weight = {
-		weight = 30
-		modifier = {
-			factor = 0
-			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
-		}
-		modifier = {
-			factor = -1
-			NOT = {	has_authority = auth_gf_sfdoll	}
+		weight = 40
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	}
 		}
 	}
 }
