@@ -79,8 +79,8 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sfdoll_weapen_t_1"
-		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapen_t_1.dds"
+		name = "GFX_sfdoll_weapon_t_1"
+		texturefile = "gfx/interface/icons/ship_parts/sfdoll_weapon_t_1.dds"
 	}
 }
 

@@ -13,16 +13,16 @@ tech_sfdoll_weapon_s_1 = {
 }
 
 #X,T槽
-tech_sfdoll_weapen_t_1 = {
+tech_sfdoll_weapon_t_1 = {
 	cost = @tier4cost3
 	area = society
 	tier = 4
 	category = { military_theory }
 	is_rare = yes
 	is_reverse_engineerable = no
-	icon = tech_sfdoll_weapen_t_1
+	icon = tech_sfdoll_weapon_t_1
 	prerequisites = { tech_sfdoll_weapon_s_1 tech_battleships }
-	potential = { has_authority = auth_gf_sfdoll }
+	potential = { always = no has_authority = auth_gf_sfdoll }
 	weight = 0
 }
 
@@ -33,8 +33,8 @@ tech_sfdoll_weapon_g = {
 	category = { military_theory }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_g
-	potential = {	has_authority = auth_gf_sfdoll }
-	prerequisites = { tech_sfdoll_weapen_s_1	}
+	potential = { always = no	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_sfdoll_weapon_s_1	}
 	weight = 0
 }
 
