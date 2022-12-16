@@ -35,20 +35,6 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_3:0 "塌缩"
 tech_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"
 tech_planet_killer_sfdoll_3_desc:0 "$planet_killer_sfdoll_3_DESC$"
 
-sfdoll_weapon_T_PK:0 "星辰灼啸"
-sfdoll_weapon_T_PK_DESC:0 "这种长程武器是专门为中型和重型驱逐舰设计的。"
-
-tech_sfdoll_weapon_T_PK:0 "$sfdoll_weapon_T_PK$"
-tech_sfdoll_weapon_T_PK_desc:0 "$sfdoll_weapon_T_PK_DESC$"
-
-sfdoll_planet_killer_event.10:0 "$sfdoll_weapon_T_PK$控制界面"
-sfdoll_planet_killer_event.10.desc:0 "装备了$sfdoll_weapon_T_PK$的舰队进入了§H[fromfrom.GetName]§!的轨道,是否要摧毁该天体？\n你可以在法令中关闭或开启此功能。"
-sfdoll_planet_killer_event.10_a:0 "摧毁§H[fromfrom.GetName]§!"
-
-edict_sfdoll_weapon_T_PK_control:0 "铁血人形：解锁$sfdoll_weapon_T_PK$"
-edict_sfdoll_weapon_T_PK_control_desc:0 "法令生效期间，装备了$sfdoll_weapon_T_PK$的铁血舰队进入行星轨道时，可以摧毁行星。"
-
-
 planet_killer_sfdoll_colonizer:0 "殖民太空梭"
 planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$可以向星球上运输人员和物资,支持对星球的初步开发。"
 

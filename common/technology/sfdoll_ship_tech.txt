@@ -8,7 +8,33 @@ tech_sfdoll_weapon_s_1 = {
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_s_1
 	potential = { always = no	has_authority = auth_gf_sfdoll }
-	prerequisites = { tech_sfdoll_collapse_liquid_produce }
+	prerequisites = { tech_sfdoll_battleship_bow_x2 }
+	weight = 0
+}
+
+#X,T槽
+tech_sfdoll_weapen_t_1 = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	category = { military_theory }
+	is_rare = yes
+	is_reverse_engineerable = no
+	icon = tech_sfdoll_weapen_t_1
+	prerequisites = { tech_sfdoll_weapon_s_1 tech_battleships }
+	potential = { has_authority = auth_gf_sfdoll }
+	weight = 0
+}
+
+tech_sfdoll_weapon_g = {
+	cost = @tier4cost3
+	area = society
+	tier = 4
+	category = { military_theory }
+	is_reverse_engineerable = no
+	icon = tech_sfdoll_weapon_g
+	potential = {	has_authority = auth_gf_sfdoll }
+	prerequisites = { tech_sfdoll_weapen_s_1	}
 	weight = 0
 }
 
@@ -24,17 +50,7 @@ tech_sfdoll_weapon_s_1 = {
 # 	weight = @tier4weight1
 # }
 
-# tech_gf_sfdoll_missile = {
-# 	cost = @tier5cost1
-# 	area = society
-# 	tier = 5
-# 	category = { military_theory }
-# 	is_reverse_engineerable = no
-# 	icon = tech_gf_sfdoll_missile
-# 	potential = {	has_authority = auth_gf_sfdoll }
-# 	prerequisites = { tech_sfdoll_weapon_s_1	}
-# 	weight = @tier5weight1
-# }
+
 
 # tech_sfdoll_strike_craft = {
 # 	cost = @tier5cost1
@@ -63,21 +79,7 @@ tech_sfdoll_weapon_s_1 = {
 # 	}
 # 	weight = @tier4weight2
 # }
-# #T槽
-# tech_sfdoll_weapen_t_1 = {
-# 	cost = @tier5cost2
-# 	area = physics
-# 	tier = 5
-# 	category = { field_manipulation }
-# 	is_reverse_engineerable = no
-# 	icon = tech_sfdoll_weapen_t_1
-# 	prerequisites = { tech_sfdoll_weapon_s_1	}
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 		has_technology = tech_battleships
-# 	}
-# 	weight = @tier5weight2
-# }
+
 
 
 #二级武器
@@ -135,14 +137,14 @@ tech_sfdoll_weapon_T_2 = {
 	}
 	weight = 1500
 }
-tech_sfdoll_weapon_T_PK = {
+tech_sfdoll_weapon_T_SP = {
 	cost = @tier5cost3
 	area = physics
 	tier = 5
 	is_rare = yes
 	category = { field_manipulation }
 	is_reverse_engineerable = no
-	icon = tech_sfdoll_weapon_T_PK
+	icon = tech_sfdoll_weapon_T_SP
 	prerequisites = {	tech_sfdoll_weapon_T_2 }
 	potential = {
 		has_authority = auth_gf_sfdoll
@@ -161,15 +163,15 @@ tech_sfdoll_weapon_L_speed = {
 	potential = { always = no	has_authority = auth_gf_sfdoll	}
 	weight = 0
 }
-tech_sfdoll_missile_2 = {
+tech_sfdoll_weapon_g_2 = {
 	cost = @tier5cost3
 	area = physics
 	tier = 5
 	is_rare = yes
 	category = { particles }
 	is_reverse_engineerable = no
-	icon = tech_sfdoll_missile_2
-	prerequisites = {	tech_sfdoll_weapon_T_PK	}
+	icon = tech_sfdoll_weapon_g_2
+	prerequisites = {	tech_sfdoll_weapon_T_SP	}
 	potential = {
 		has_authority = auth_gf_sfdoll
 	}
@@ -213,7 +215,7 @@ tech_planet_killer_sfdoll_1 = {
 	category = { particles }
 	is_reverse_engineerable = no
 	icon = tech_planet_killer_sfdoll_1
-	prerequisites = {	tech_sfdoll_missile_2	}
+	prerequisites = {	tech_sfdoll_weapon_g	}
 	potential = {
 		always = no
 		has_authority = auth_gf_sfdoll
@@ -230,7 +232,7 @@ tech_planet_killer_sfdoll_3 = {
 	category = { field_manipulation }
 	is_reverse_engineerable = no
 	icon = tech_planet_killer_sfdoll_3
-	prerequisites = {	tech_sfdoll_missile_2	}
+	prerequisites = {	tech_sfdoll_weapon_T_SP	}
 	potential = {	has_authority = auth_gf_sfdoll	}
 	weight = 1500
 }

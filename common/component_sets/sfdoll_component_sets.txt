@@ -42,8 +42,8 @@ component_set = {
 }
 
 component_set = {
-	key = "sfdoll_weapon_T_PK"
-	icon = "GFX_sfdoll_weapon_T_PK"
+	key = "sfdoll_weapon_T_SP"
+	icon = "GFX_sfdoll_weapon_T_SP"
 	icon_frame = 1
 }
 
@@ -88,20 +88,8 @@ component_set = {
 }
 
 component_set = {
-	key = "sfdoll_missile_2"
-	icon = "GFX_sfdoll_missile_2"
-	icon_frame = 1
-}
-
-component_set = {
-	key = "sfdoll_missile_SP"
-	icon = "GFX_sfdoll_missile_SP"
-	icon_frame = 1
-}
-
-component_set = {
-	key = "sfdoll_missile_PK"
-	icon = "GFX_planet_killer_sfdoll_3"
+	key = "sfdoll_weapon_g"
+	icon = "GFX_sfdoll_weapon_g"
 	icon_frame = 1
 }
 
@@ -118,8 +106,8 @@ component_set = {
 }
 
 component_set = {
-	key = "component_set_gf_sfdoll_missile"
-	icon = GFX_gf_sfdoll_missile
+	key = "sfdoll_weapon_g_2"
+	icon = "GFX_sfdoll_weapon_g_2"
 	icon_frame = 1
 }
 
