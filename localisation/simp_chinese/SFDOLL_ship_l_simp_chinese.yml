@@ -1,43 +1,43 @@
 ﻿l_simp_chinese:
 ###############################
 #componet
-tech_sfdoll_weapon_s_1:0"铁血武装升级"
-tech_sfdoll_weapon_s_1_desc:0"我们需要更加灵活可靠的太空武器"
-sfdoll_weapon_s_1:0"蛇式火力系统"
-sfdoll_weapon_m_1:0 "$sfdoll_weapon_s_1$"
-sfdoll_weapon_L_1:0 "$sfdoll_weapon_s_1$"
-component_set_sfdoll_weapon_s_1:0 "$sfdoll_weapon_s_1$"
-component_set_sfdoll_weapon_s_1_DESC:0 "$sfdoll_weapon_s_1$"
+tech_sfdoll_weapon_S_1:0"铁血武装升级"
+tech_sfdoll_weapon_S_1_desc:0"我们需要更加灵活可靠的太空武器"
+sfdoll_weapon_S_1:0"蛇式火力系统"
+sfdoll_weapon_M_1:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_L_1:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_S_1:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_S_1_DESC:0 "$sfdoll_weapon_S_1$"
 
-sfdoll_weapon_x_1:0"建筑师级舰炮"
-component_set_sfdoll_weapon_x_1:0"$sfdoll_weapon_x_1$"
-component_set_sfdoll_weapon_x_1_DESC:0 "$sfdoll_weapon_x_1$"
+sfdoll_weapon_P_1:0 "破坏者点防御"
+sfdoll_weapon_P_1_DESC:0 "$sfdoll_weapon_P_1$"
 
-sfdoll_weapon_t_1:0"铁血铁龙舰炮"
-sfdoll_weapon_t_1_DESC:0"$sfdoll_weapon_t_1$"
+sfdoll_weapon_X_1:0"建筑师级舰炮"
+sfdoll_weapon_X_1_DESC:0 "$sfdoll_weapon_X_1$"
+sfdoll_weapon_T_1:0"铁血铁龙舰炮"
+sfdoll_weapon_T_1_DESC:0"$sfdoll_weapon_T_1$"
+# tech_sfdoll_weapon_T_1:0 ""
+# tech_sfdoll_weapon_T_1_desc:0 ""
 
-sfdoll_weapon_p_1:0"破坏者点防御"
-component_set_sfdoll_weapon_p_1:0"$sfdoll_weapon_p_1$"
-component_set_sfdoll_weapon_p_1_DESC:0"$sfdoll_weapon_p_1$"
 
-sfdoll_weapon_g_1:0 "折跃坍塌弹"
-sfdoll_weapon_g_1_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
-
-# tech_sfdoll_weapon_g_1:0 "$sfdoll_weapon_g_1$"
-# tech_sfdoll_weapon_g_1_desc:0 "$sfdoll_weapon_g_1_DESC$"
+sfdoll_weapon_G_1:0 "折跃坍塌弹"
+sfdoll_weapon_G_1_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
 
 sfdoll_weapon_H_1:0 "铁血白鲟战机"
 sfdoll_weapon_H_1_DESC:0 "$sfdoll_weapon_H_1$善于拦截敌方战机。"
 
-tech_sfdoll_weapon_s_2:0 "铁血试验性轻型武器"
-tech_sfdoll_weapon_s_2_desc:0 "对火控系统的超光速传输效率进行提升，可以令小型武器发挥更大的威力。"
+# tech_sfdoll_weapon_G_1:0 "$sfdoll_weapon_G_1$"
+# tech_sfdoll_weapon_G_1_desc:0 "$sfdoll_weapon_G_1_DESC$"
 
-component_set_sfdoll_weapon_p_2:0 "铁血P-8点防御"
-component_set_sfdoll_weapon_p_2_DESC:0 "比起过去的点防御，$component_set_sfdoll_weapon_p_2$能更迅速地摧毁敌方飞行器"
-sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
+tech_sfdoll_weapon_S_2:0 "铁血试验性轻型武器"
+tech_sfdoll_weapon_S_2_desc:0 "对火控系统的超光速传输效率进行提升，可以令小型武器发挥更大的威力。"
 
-sfdoll_weapon_s_2:0 "铁血S-10反中子炮"
-sfdoll_weapon_s_2_DESC:0 "这种小型武器使用高能反粒子流来击穿敌方防御。"
+sfdoll_weapon_P_2:0 "铁血P-8点防御"
+sfdoll_weapon_P_2_DESC:0 "比起过去的点防御，$sfdoll_weapon_P_2$能更迅速地摧毁敌方飞行器"
+sfdoll_weapon_P_2:0 "$sfdoll_weapon_P_2$"
+
+sfdoll_weapon_S_2:0 "铁血S-10反中子炮"
+sfdoll_weapon_S_2_DESC:0 "这种小型武器使用高能反粒子流来击穿敌方防御。"
 
 tech_sfdoll_weapon_L_2:0 "铁血中型武器升级"
 tech_sfdoll_weapon_L_2_desc:0 "新的中型武器将装备到铁血的部分舰船上。"
@@ -47,11 +47,10 @@ sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
 sfdoll_weapon_M_2:0 "铁血M-12云杉火炮"
 sfdoll_weapon_M_2_DESC:0 "$sfdoll_weapon_M_2$可补充我们的近程火力。"
 
-sfdoll_weapon_x_2:0 "铁血X-25火炮"
-component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
-component_set_sfdoll_weapon_x_2_DESC:0 "$sfdoll_weapon_x_2$牺牲了部分矢量发射功能，从而提升射程和威力"
-tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
-tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
+sfdoll_weapon_X_2:0 "铁血X-25火炮"
+sfdoll_weapon_X_2_DESC:0 "$sfdoll_weapon_X_2$牺牲了部分矢量发射功能，从而提升射程和威力"
+tech_sfdoll_weapon_X_2:0 "$sfdoll_weapon_X_2$"
+tech_sfdoll_weapon_X_2_desc:0 "$sfdoll_weapon_X_2_DESC$"
 
 sfdoll_weapon_L_speed:0 "铁血L-11火炮"
 sfdoll_weapon_L_speed_DESC:0 "$sfdoll_weapon_L_speed$用于提供高射速的火力支援，并拥有较低的射程"
@@ -68,10 +67,10 @@ sfdoll_weapon_T_SP_DESC:0 "这种长程武器是专门为中型和重型驱逐�
 tech_sfdoll_weapon_T_SP:0 "$sfdoll_weapon_T_SP$"
 tech_sfdoll_weapon_T_SP_desc:0 "$sfdoll_weapon_T_SP_DESC$"
 
-sfdoll_weapon_g_2:0 "铁血跳跃者导弹"
-sfdoll_weapon_g_2_DESC:0 "$sfdoll_weapon_g_2$可将一定范围内的物质转移到其他坐标。$sfdoll_weapon_g_2$会通过短距离FTL来接近目标，这意味着它无法被防空武器拦截。"
-tech_sfdoll_weapon_g_2:0 "$sfdoll_weapon_g_2$"
-tech_sfdoll_weapon_g_2_desc:0 "$sfdoll_weapon_g_2_DESC$"
+sfdoll_weapon_G_2:0 "铁血跳跃者导弹"
+sfdoll_weapon_G_2_DESC:0 "$sfdoll_weapon_G_2$可将一定范围内的物质转移到其他坐标。$sfdoll_weapon_G_2$会通过短距离FTL来接近目标，这意味着它无法被防空武器拦截。"
+tech_sfdoll_weapon_G_2:0 "$sfdoll_weapon_G_2$"
+tech_sfdoll_weapon_G_2_desc:0 "$sfdoll_weapon_G_2_DESC$"
 
 tech_sfdoll_weapon_H_2:0 "铁血试验型舰载机"
 tech_sfdoll_weapon_H_2_desc:0 "铁血的新一代的舰载机将具备更为丰富的功能。"

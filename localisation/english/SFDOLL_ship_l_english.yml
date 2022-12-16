@@ -1,40 +1,38 @@
 ﻿l_english:
 ###############################
 #componet
-tech_sfdoll_weapon_s_1:0"Sangvis Ferri Armament Upgrade"
-tech_sfdoll_weapon_s_1_desc:0"We need more reliable space weapons"
-sfdoll_weapon_s_1:0"Snake Fire System"
-sfdoll_weapon_m_1:0 "$sfdoll_weapon_s_1$"
-sfdoll_weapon_L_1:0 "$sfdoll_weapon_s_1$"
-component_set_sfdoll_weapon_s_1:0 "$sfdoll_weapon_s_1$"
-component_set_sfdoll_weapon_s_1_DESC:0 "$sfdoll_weapon_s_1$"
+tech_sfdoll_weapon_S_1:0"Sangvis Ferri Armament Upgrade"
+tech_sfdoll_weapon_S_1_desc:0"We need more reliable space weapons"
+sfdoll_weapon_S_1:0"Snake Fire System"
+sfdoll_weapon_M_1:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_L_1:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_S_1:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_S_1_DESC:0 "$sfdoll_weapon_S_1$"
 
-sfdoll_weapon_x_1:0"Architect Gun"
-component_set_sfdoll_weapon_x_1:0"$sfdoll_weapon_x_1$"
-component_set_sfdoll_weapon_x_1_DESC:0 "$sfdoll_weapon_x_1$"
+sfdoll_weapon_X_1:0"Architect Gun"
+sfdoll_weapon_X_1_DESC:0 "$sfdoll_weapon_X_1$"
 
-sfdoll_weapon_t_1:0"SF Iron Dragon Gun"
-sfdoll_weapon_t_1_DESC:0 "$sfdoll_weapon_t_1$"
+sfdoll_weapon_T_1:0"SF Iron Dragon Gun"
+sfdoll_weapon_T_1_DESC:0 "$sfdoll_weapon_T_1$"
 
-sfdoll_weapon_p_1:0"Destroyer Point Defense"
-component_set_sfdoll_weapon_p_1:0"$sfdoll_weapon_p_1$"
-component_set_sfdoll_weapon_p_1_DESC:0"$sfdoll_weapon_p_1$"
+sfdoll_weapon_P_1:0"Destroyer Point Defense"
+sfdoll_weapon_P_1_DESC:0"$sfdoll_weapon_P_1$"
 
-sfdoll_weapon_g_1:0 "SF Jump Missile"
-sfdoll_weapon_g_1_DESC:0 "The $sfdoll_weapon_g_1$ is transmitted to the enemy ship with a small FTL device, and does not need to fly as slowly as a conventional missile, so it will not be intercepted by the enemy's anti-aircraft fire."
+sfdoll_weapon_G_1:0 "SF Jump Missile"
+sfdoll_weapon_G_1_DESC:0 "The $sfdoll_weapon_G_1$ is transmitted to the enemy ship with a small FTL device, and does not need to fly as slowly as a conventional missile, so it will not be intercepted by the enemy's anti-aircraft fire."
 
 sfdoll_weapon_H_1:0 "SF Paddlefish Strike Craft"
 sfdoll_weapon_H_1_DESC:0 "$sfdoll_weapon_H_1$ is good at intercepting enemy fighters."
 
-tech_sfdoll_weapon_s_2:0 "SF Experimental Small Arms"
-tech_sfdoll_weapon_s_2_desc:0 "Improving the ftl transmission efficiency of fire-control systems could make small arms more powerful."
+tech_sfdoll_weapon_S_2:0 "SF Experimental Small Arms"
+tech_sfdoll_weapon_S_2_desc:0 "Improving the ftl transmission efficiency of fire-control systems could make small arms more powerful."
 
-component_set_sfdoll_weapon_p_2:0 "SF P-8 Point-Defense"
-component_set_sfdoll_weapon_p_2_DESC:0 "$component_set_sfdoll_weapon_p_2$ can destroy enemy aircraft more quickly than the old point-defense."
-sfdoll_weapon_p_2:0 "$component_set_sfdoll_weapon_p_2$"
+sfdoll_weapon_P_2:0 "SF P-8 Point-Defense"
+sfdoll_weapon_P_2_DESC:0 "$sfdoll_weapon_P_2$ can destroy enemy aircraft more quickly than the old point-defense."
+sfdoll_weapon_P_2:0 "$sfdoll_weapon_P_2$"
 
-sfdoll_weapon_s_2:0 "SF S-10 Antineutron-Gun"
-sfdoll_weapon_s_2_DESC:0 "This small weapon uses a stream of high-energy antiparticles to penetrate enemy defenses."
+sfdoll_weapon_S_2:0 "SF S-10 Antineutron-Gun"
+sfdoll_weapon_S_2_DESC:0 "This small weapon uses a stream of high-energy antiparticles to penetrate enemy defenses."
 
 tech_sfdoll_weapon_L_2:0 "SF Medium Weapons Upgrade"
 tech_sfdoll_weapon_L_2_desc:0 "The new medium weapons will be fitted to some of SF Dolls' ships."
@@ -49,11 +47,10 @@ sfdoll_weapon_L_speed_DESC:0 "$sfdoll_weapon_L_speed$ is used to provide fire su
 tech_sfdoll_weapon_L_speed:0 "$sfdoll_weapon_L_speed$"
 tech_sfdoll_weapon_L_speed_desc:0 "$sfdoll_weapon_L_speed_DESC$"
 
-sfdoll_weapon_x_2:0 "SF X-25 Gun"
-component_set_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
-component_set_sfdoll_weapon_x_2_DESC:0 "$sfdoll_weapon_x_2$ sacrifices part of its steering function to increase range and power."
-tech_sfdoll_weapon_x_2:0 "$sfdoll_weapon_x_2$"
-tech_sfdoll_weapon_x_2_desc:0 "$component_set_sfdoll_weapon_x_2_DESC$"
+sfdoll_weapon_X_2:0 "SF X-25 Gun"
+sfdoll_weapon_X_2_DESC:0 "$sfdoll_weapon_X_2$ sacrifices part of its steering function to increase range and power."
+tech_sfdoll_weapon_X_2:0 "$sfdoll_weapon_X_2$"
+tech_sfdoll_weapon_X_2_desc:0 "$sfdoll_weapon_X_2_DESC$"
 
 sfdoll_weapon_T_2:0 "SF T-24 Ship Gun"
 sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$ is designed for ship-to-ship attacks, and it can be loaded fast with great power."
@@ -65,10 +62,10 @@ sfdoll_weapon_T_SP_DESC:0 "This long-range weapon is specifically designed for m
 tech_sfdoll_weapon_T_SP:0 "$sfdoll_weapon_T_SP$"
 tech_sfdoll_weapon_T_SP_desc:0 "$sfdoll_weapon_T_SP_DESC$"
 
-sfdoll_weapon_g_2:0 "SF Leaper Missile"
-sfdoll_weapon_g_2_DESC:0 "$sfdoll_weapon_g_2$ can transfer matter within a certain range to other coordinates. $sfdoll_weapon_g_2$ will approach the target by short-distance FTL, which means it cannot be intercepted by anti-aircraft weapons."
-tech_sfdoll_weapon_g_2:0 "$sfdoll_weapon_g_2$"
-tech_sfdoll_weapon_g_2_desc:0 "$sfdoll_weapon_g_2_DESC$"
+sfdoll_weapon_G_2:0 "SF Leaper Missile"
+sfdoll_weapon_G_2_DESC:0 "$sfdoll_weapon_G_2$ can transfer matter within a certain range to other coordinates. $sfdoll_weapon_G_2$ will approach the target by short-distance FTL, which means it cannot be intercepted by anti-aircraft weapons."
+tech_sfdoll_weapon_G_2:0 "$sfdoll_weapon_G_2$"
+tech_sfdoll_weapon_G_2_desc:0 "$sfdoll_weapon_G_2_DESC$"
 
 tech_sfdoll_weapon_H_2:0 "SF Experimental Strike Craft"
 tech_sfdoll_weapon_H_2_desc:0 "SF Dolls' new generation of strike craft will be more versatile."

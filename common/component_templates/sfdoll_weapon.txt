@@ -1,10 +1,10 @@
 #S M L
 weapon_component_template = {
-	key = "sfdoll_weapon_s_1"
+	key = "sfdoll_weapon_S_1"
 	size = small
 	type = instant
 	#待修改
-	icon = "GFX_sfdoll_weapon_s_1"
+	icon = "GFX_sfdoll_weapon_S_1"
 	icon_frame = 1
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
@@ -19,8 +19,8 @@ weapon_component_template = {
 	armor_damage = 1.5
 	power = -30
 
-	prerequisites = { "tech_sfdoll_weapon_s_1" }
-	component_set = "component_set_sfdoll_weapon_s_1"
+	prerequisites = { "tech_sfdoll_weapon_S_1" }
+	component_set = "sfdoll_weapon_S_1"
 	tags = { weapon_type_energy weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
@@ -37,11 +37,11 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "sfdoll_weapon_m_1"
+	key = "sfdoll_weapon_M_1"
 	size = medium
 	type = instant
 	#待修改
-	icon = "GFX_sfdoll_weapon_s_1"
+	icon = "GFX_sfdoll_weapon_S_1"
 	icon_frame = 1
 	projectile_gfx = infrared_laser_m
 	entity = invisible_turret_entity
@@ -56,8 +56,8 @@ weapon_component_template = {
 	power = -60
 	use_ship_kill_target = no
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_s_1" }
-	component_set = "component_set_sfdoll_weapon_s_1"
+	prerequisites = { "tech_sfdoll_weapon_S_1" }
+	component_set = "sfdoll_weapon_S_1"
 	tags = { weapon_type_energy weapon_type_kinetic}
 	ai_tags = {  weapon_role_artillery }
 	ai_tag_weight = 0
@@ -77,7 +77,7 @@ weapon_component_template = {
 	key = "sfdoll_weapon_L_1"
 	size = large
 	type = instant
-	icon = "GFX_sfdoll_weapon_s_1"
+	icon = "GFX_sfdoll_weapon_S_1"
 	icon_frame = 1
 	projectile_gfx = infrared_laser_m
 	entity = invisible_turret_entity
@@ -93,8 +93,8 @@ weapon_component_template = {
 	power = -120
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_s_1" }
-	component_set = "component_set_sfdoll_weapon_s_1"
+	prerequisites = { "tech_sfdoll_weapon_S_1" }
+	component_set = "sfdoll_weapon_S_1"
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic }
 	ai_tags = {  weapon_role_artillery }
@@ -112,11 +112,11 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "sfdoll_weapon_p_1"
+	key = "sfdoll_weapon_P_1"
 	size = point_defence
 	type = point_defence
 	#待修改
-	icon = "GFX_sfdoll_weapon_p_1"
+	icon = "GFX_sfdoll_weapon_P_1"
 	icon_frame = 1
 	projectile_gfx = "infrared_laser_s"
 	entity = invisible_turret_entity
@@ -131,8 +131,8 @@ weapon_component_template = {
 	power = -30
 	
 	#待修改
-	prerequisites = { tech_sfdoll_weapon_s_1 }
-	component_set = "component_set_sfdoll_weapon_p_1"
+	prerequisites = { tech_sfdoll_weapon_S_1 }
+	component_set = "sfdoll_weapon_P_1"
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense }
 	ai_tags = { weapon_role_point_defense }
 	point_defence_targets = { "missile" "strike_craft" }
@@ -151,11 +151,11 @@ weapon_component_template = {
 
 #X槽
 weapon_component_template = {
-	key = "sfdoll_weapon_x_1"
+	key = "sfdoll_weapon_X_1"
 	size = extra_large
 	type = instant
 	#待修改
-	icon = "GFX_sfdoll_weapon_x_1"
+	icon = "GFX_sfdoll_weapon_X_1"
 	icon_frame = 1
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
@@ -173,8 +173,8 @@ weapon_component_template = {
 	armor_penetration = 1
 	power = -300
 	#待修改
-	prerequisites = { tech_sfdoll_weapon_t_1 }
-	component_set = "component_set_sfdoll_weapon_x_1"
+	prerequisites = { tech_sfdoll_weapon_T_1 }
+	component_set = "sfdoll_weapon_X_1"
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic   }
 	ai_tags = { weapon_role_artillery }
@@ -200,11 +200,11 @@ weapon_component_template = {
 
 #T槽
 weapon_component_template = {
-	key = "sfdoll_weapon_t_1"
+	key = "sfdoll_weapon_T_1"
 	size = titanic
 	type = instant
 	#待修改
-	icon = "GFX_sfdoll_weapon_t_1"
+	icon = "GFX_sfdoll_weapon_T_1"
 	icon_frame = 1
 	projectile_gfx = "perdition_beam"
 	entity = invisible_turret_entity
@@ -223,7 +223,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_kinetic  }
 	ai_tags = { weapon_role_artillery }
 	prerequisites = { tech_sfdoll_battleship_bow_x2 }
-	component_set = "sfdoll_weapon_t_1"
+	component_set = "sfdoll_weapon_T_1"
 	ai_tag_weight = 0
 	resources = {
 		category = ship_components
@@ -247,14 +247,14 @@ weapon_component_template = {
 
 #导弹
 weapon_component_template = {
-	key = "sfdoll_weapon_g_1"
+	key = "sfdoll_weapon_G_1"
 	size = torpedo
 	type = instant
-	icon = "GFX_sfdoll_weapon_g_1"
+	icon = "GFX_sfdoll_weapon_G_1"
 	icon_frame = 1
 	power = -60
-	prerequisites = {	tech_sfdoll_weapon_g_1 }
-	component_set = "sfdoll_weapon_g_1"
+	prerequisites = {	tech_sfdoll_weapon_G_1 }
+	component_set = "sfdoll_weapon_G_1"
 	projectile_gfx = "neutron_torpedoes"
 	tags = {	weapon_type_explosive weapon_type_energy 	}
 	ai_tags = { weapon_role_anti_armor }
@@ -287,7 +287,7 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_entity"
 	power = -90
-	prerequisites = {	tech_sfdoll_weapon_g_1	}
+	prerequisites = {	tech_sfdoll_weapon_G_1	}
 	count = 1
 	regeneration_per_day = 0.03
 	launch_time = 1.3
@@ -331,11 +331,11 @@ strike_craft_component_template = {
 # 二级武器
 # s槽
 weapon_component_template = {
-	key = "sfdoll_weapon_s_2"
+	key = "sfdoll_weapon_S_2"
 	size = small
 	type = instant
 	#待修改
-	icon = "GFX_sfdoll_weapon_s_2"
+	icon = "GFX_sfdoll_weapon_S_2"
 	icon_frame = 1
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
@@ -354,8 +354,8 @@ weapon_component_template = {
 	power = -120
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_s_2" }
-	component_set = "sfdoll_weapon_s_2"
+	prerequisites = { "tech_sfdoll_weapon_S_2" }
+	component_set = "sfdoll_weapon_S_2"
 	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sfdoll  }
 	ai_tags = { weapon_role_artillery }
@@ -381,11 +381,11 @@ weapon_component_template = {
 
 #二级点防御
 weapon_component_template = {
-	key = "sfdoll_weapon_p_2"
+	key = "sfdoll_weapon_P_2"
 	size = point_defence
 	type = point_defence
 	#待修改
-	icon = "GFX_sfdoll_weapon_p_2"
+	icon = "GFX_sfdoll_weapon_P_2"
 	icon_frame = 1
 	projectile_gfx = "blue_laser_s"
 	entity = invisible_turret_entity
@@ -400,8 +400,8 @@ weapon_component_template = {
 	power = -120
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_s_2" }
-	component_set = "component_set_sfdoll_weapon_p_2"
+	prerequisites = { "tech_sfdoll_weapon_S_2" }
+	component_set = "sfdoll_weapon_P_2"
 	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6  }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy weapon_type_kinetic weapon_type_point_defense weapon_type_sfdoll }
@@ -575,11 +575,11 @@ weapon_component_template = {
 
 # X槽
 weapon_component_template = {
-	key = "sfdoll_weapon_x_2"
+	key = "sfdoll_weapon_X_2"
 	size = extra_large
 	type = instant
 	#待修改
-	icon = "GFX_sfdoll_weapon_x_2"
+	icon = "GFX_sfdoll_weapon_X_2"
 	icon_frame = 1
 	projectile_gfx = "tachyon_lance"
 	entity = invisible_turret_entity
@@ -600,8 +600,8 @@ weapon_component_template = {
 	power = -3000
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_x_2" }
-	component_set = "component_set_sfdoll_weapon_x_2"
+	prerequisites = { "tech_sfdoll_weapon_X_2" }
+	component_set = "sfdoll_weapon_X_2"
 	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	#projectile_gfx = 武器效果
 	tags = { weapon_type_energy  weapon_type_kinetic weapon_type_sfdoll }
@@ -727,14 +727,14 @@ weapon_component_template = {
 
 #二级导弹
 weapon_component_template = {
-	key = "sfdoll_weapon_g_2"
+	key = "sfdoll_weapon_G_2"
 	size = torpedo
 	type = instant
-	icon = "GFX_sfdoll_weapon_g_2"
+	icon = "GFX_sfdoll_weapon_G_2"
 	icon_frame = 1
 	power = -500
-	prerequisites = {	"tech_sfdoll_weapon_g_2" }
-	component_set = "sfdoll_weapon_g_2"
+	prerequisites = {	"tech_sfdoll_weapon_G_2" }
+	component_set = "sfdoll_weapon_G_2"
 	projectile_gfx = "neutron_torpedoes"
 	tags = { weapon_type_energy weapon_type_explosive weapon_type_sfdoll	}
 	ai_tags = {	weapon_role_anti_hull	}
