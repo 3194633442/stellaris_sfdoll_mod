@@ -23,9 +23,8 @@ component_set_sfdoll_weapon_p_1_DESC:0"$sfdoll_weapon_p_1$"
 sfdoll_weapon_g_1:0 "SF Jump Missile"
 sfdoll_weapon_g_1_DESC:0 "The $sfdoll_weapon_g_1$ is transmitted to the enemy ship with a small FTL device, and does not need to fly as slowly as a conventional missile, so it will not be intercepted by the enemy's anti-aircraft fire."
 
-sfdoll_strike_craft:0 "SF Paddlefish Strike Craft"
-component_set_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
-component_set_sfdoll_strike_craft_DESC:0 "$sfdoll_strike_craft$ is good at intercepting enemy fighters."
+sfdoll_weapon_H_1:0 "SF Paddlefish Strike Craft"
+sfdoll_weapon_H_1_DESC:0 "$sfdoll_weapon_H_1$ is good at intercepting enemy fighters."
 
 tech_sfdoll_weapon_s_2:0 "SF Experimental Small Arms"
 tech_sfdoll_weapon_s_2_desc:0 "Improving the ftl transmission efficiency of fire-control systems could make small arms more powerful."

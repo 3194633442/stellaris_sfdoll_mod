@@ -253,7 +253,7 @@ weapon_component_template = {
 	icon = "GFX_sfdoll_weapon_g_1"
 	icon_frame = 1
 	power = -60
-	prerequisites = {	tech_sfdoll_weapon_s_1}
+	prerequisites = {	tech_sfdoll_weapon_g_1 }
 	component_set = "sfdoll_weapon_g_1"
 	projectile_gfx = "neutron_torpedoes"
 	tags = {	weapon_type_explosive weapon_type_energy 	}
@@ -274,37 +274,21 @@ weapon_component_template = {
 		upkeep = { energy = @m_t5_upkeep_energy alloys = @m_t5_upkeep_alloys }
 	}
 	ai_weight = {
-		weight = 50
-		modifier = {
-			factor = -1
-			NOT = {		has_authority = auth_gf_sfdoll		}
-		}
+		weight = 40
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
 #舰载机
 strike_craft_component_template = {
-	key = "sfdoll_strike_craft"
-	icon = "GFX_sfdoll_strike_craft"
+	key = "sfdoll_weapon_H_1"
+	icon = "GFX_sfdoll_weapon_H_1"
 	icon_frame = 1
 	size = LARGE
 	entity = "bomber_entity"
 	power = -90
-	prerequisites = {	tech_sfdoll_weapon_H_2	}
-
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 50
-			nanites = 10
-		}
-		upkeep = {
-			energy = 2
-			nanites = 0.5
-		}
-	}
+	prerequisites = {	tech_sfdoll_weapon_g_1	}
 	count = 1
-	#regeneration_per_day = 0.2
 	regeneration_per_day = 0.03
 	launch_time = 1.3
 	
@@ -328,10 +312,19 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	#weapon_type = strike_craft
 	projectile_gfx = "strike_craft_laser_3"
-	component_set = "component_set_sfdoll_strike_craft"
+	component_set = "sfdoll_weapon_H_1"
 	tags = { weapon_type_strike_craft weapon_type_point_defense }
 	ai_tags = { weapon_role_point_defense }
 	point_defence_targets = { "strike_craft" }
+	resources = {
+		category = ship_components
+		cost = { alloys = @l_t5_cost nanites = @l_t5_rare GF_nyto_collapse_liquid = @l_t5_rare }		
+		upkeep = { energy = @l_t5_upkeep_energy alloys = @l_t5_upkeep_alloys }
+	}
+	ai_weight = {
+		weight = 40
+		modifier = { factor = -1 NOT = {		has_authority = auth_gf_sfdoll		} }
+	}
 }
 
 
@@ -779,7 +772,7 @@ weapon_component_template = {
 
 #二级舰载机
 strike_craft_component_template = {
-	key = "sfdoll_weapon_H_2" #"sfdoll_strike_craft_2"
+	key = "sfdoll_weapon_H_2" 
 	icon = "GFX_sfdoll_weapon_H_2"
 	icon_frame = 1
 	size = LARGE

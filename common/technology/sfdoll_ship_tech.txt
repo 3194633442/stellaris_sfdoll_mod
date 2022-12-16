@@ -51,19 +51,6 @@ tech_sfdoll_weapon_g_1 = {
 # }
 
 
-
-# tech_sfdoll_strike_craft = {
-# 	cost = @tier5cost1
-# 	area = society
-# 	tier = 5
-# 	category = { military_theory }
-# 	is_reverse_engineerable = no
-# 	icon = tech_sfdoll_strike_craft
-# 	potential = {	has_authority = auth_gf_sfdoll }
-# 	prerequisites = { tech_sfdoll_weapon_s_1	}
-# 	weight = @tier5weight1
-# }
-
 # #X槽
 # tech_sfdoll_weapon_x_1 = {
 # 	cost = @tier4cost2

@@ -112,8 +112,8 @@ component_set = {
 }
 
 component_set = {
-	key = "component_set_sfdoll_strike_craft"
-	icon = GFX_sfdoll_strike_craft
+	key = "sfdoll_weapon_H_1"
+	icon = GFX_sfdoll_weapon_H_1
 	icon_frame = 1
 }
 
