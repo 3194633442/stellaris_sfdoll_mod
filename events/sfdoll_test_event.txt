@@ -179,7 +179,26 @@ country_event = {
 	hide_window = no
 	is_triggered_only = yes
 	immediate = {
-		add_research_option = tech_gateway_construction
-		add_research_option = tech_gateway_activation
+		event_target:sfdoll_leader_elisa = {
+			kill_leader = { show_notification = yes fire = no }
+		}
+		event_target:sfdoll_leader_ump45 = {
+			kill_leader = { show_notification = yes fire = no }
+		}
+		event_target:ogas40_sfdoll_leader = {
+			kill_leader = { show_notification = yes fire = no }
+		}
+		event_target:sfdoll_leader_ouroboros = {
+			kill_leader = { show_notification = yes fire = no }
+		}
+		event_target:sfdoll_exd_leader = {
+			kill_leader = { show_notification = yes fire = no }
+		}
+		event_target:sfdoll_leader_triela = {
+			kill_leader = { show_notification = yes fire = no }
+		}
+		event_target:sfdoll_leader_sophon = {
+			kill_leader = { show_notification = yes fire = no }
+		}
 	}
 }
