@@ -247,41 +247,31 @@ weapon_component_template = {
 
 #导弹
 weapon_component_template = {
-	key = "sfdoll_weapon_g"
+	key = "sfdoll_weapon_g_1"
 	size = torpedo
 	type = instant
-	icon = "GFX_sfdoll_weapon_g"
+	icon = "GFX_sfdoll_weapon_g_1"
 	icon_frame = 1
-	power = -100
+	power = -60
 	prerequisites = {	tech_sfdoll_weapon_s_1}
-	component_set = "sfdoll_weapon_g"
+	component_set = "sfdoll_weapon_g_1"
 	projectile_gfx = "neutron_torpedoes"
 	tags = {	weapon_type_explosive weapon_type_energy 	}
-	ai_tags = {
-		weapon_role_anti_armor
-	}
+	ai_tags = { weapon_role_anti_armor }
 	use_ship_kill_target = yes
-	damage = { min = 4500 max = 6300 }
+	damage = { min = 480 max = 560 }
 	#冷却时间要除以10
-	windup = { min = 20 max = 20 }
-	total_fire_time = 280
-	range = 180
+	total_fire_time = 257
+	windup = {	min = 23  max = 23 }
+	range = 110
 	shield_penetration = 1
 	armor_penetration = 1
-	hull_damage = 4
-	prio_projectile = yes
-	accuracy = 1
-	tracking = 1
+	accuracy = 0.9
+	tracking = 0.5
 	resources = {
 		category = ship_components
-		cost = {			
-			alloys = 120
-			GF_nyto_collapse_liquid = 10
-		}
-		upkeep = {
-			alloys = 0.5
-			GF_nyto_collapse_liquid = 0.1
-		}
+		cost = { alloys = @m_t5_cost nanites = @m_t5_rare GF_nyto_collapse_liquid = @m_t5_rare }		
+		upkeep = { energy = @m_t5_upkeep_energy alloys = @m_t5_upkeep_alloys }
 	}
 	ai_weight = {
 		weight = 50

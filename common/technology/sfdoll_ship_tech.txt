@@ -26,13 +26,13 @@ tech_sfdoll_weapon_t_1 = {
 	weight = 0
 }
 
-tech_sfdoll_weapon_g = {
+tech_sfdoll_weapon_g_1 = {
 	cost = @tier4cost3
 	area = society
 	tier = 4
 	category = { military_theory }
 	is_reverse_engineerable = no
-	icon = tech_sfdoll_weapon_g
+	icon = tech_sfdoll_weapon_g_1
 	potential = { always = no	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_weapon_s_1	}
 	weight = 0
@@ -215,7 +215,7 @@ tech_planet_killer_sfdoll_1 = {
 	category = { particles }
 	is_reverse_engineerable = no
 	icon = tech_planet_killer_sfdoll_1
-	prerequisites = {	tech_sfdoll_weapon_g	}
+	prerequisites = {	tech_sfdoll_weapon_T_SP	}
 	potential = {
 		always = no
 		has_authority = auth_gf_sfdoll

@@ -14,18 +14,17 @@ component_set_sfdoll_weapon_x_1:0"$sfdoll_weapon_x_1$"
 component_set_sfdoll_weapon_x_1_DESC:0 "$sfdoll_weapon_x_1$"
 
 sfdoll_weapon_t_1:0"铁血铁龙舰炮"
-sfdoll_weapon_t_1:0"$sfdoll_weapon_t_1$"
 sfdoll_weapon_t_1_DESC:0"$sfdoll_weapon_t_1$"
 
 sfdoll_weapon_p_1:0"破坏者点防御"
 component_set_sfdoll_weapon_p_1:0"$sfdoll_weapon_p_1$"
 component_set_sfdoll_weapon_p_1_DESC:0"$sfdoll_weapon_p_1$"
 
-sfdoll_weapon_g:0 "折跃坍塌弹"
-sfdoll_weapon_g_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
+sfdoll_weapon_g_1:0 "折跃坍塌弹"
+sfdoll_weapon_g_1_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
 
-# tech_sfdoll_weapon_g:0 "$sfdoll_weapon_g$"
-# tech_sfdoll_weapon_g_desc:0 "$sfdoll_weapon_g_DESC$"
+# tech_sfdoll_weapon_g_1:0 "$sfdoll_weapon_g_1$"
+# tech_sfdoll_weapon_g_1_desc:0 "$sfdoll_weapon_g_1_DESC$"
 
 sfdoll_strike_craft:0 "铁血白鲟战机"
 component_set_sfdoll_strike_craft:0 "$sfdoll_strike_craft$"
