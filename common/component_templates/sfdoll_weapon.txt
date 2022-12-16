@@ -392,10 +392,7 @@ weapon_component_template = {
 	}
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = -1
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -444,10 +441,7 @@ weapon_component_template = {
 	}
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = -1
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -496,10 +490,7 @@ weapon_component_template = {
 	}
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = -1
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -547,10 +538,7 @@ weapon_component_template = {
 	}
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = -1
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -598,10 +586,7 @@ weapon_component_template = {
 	}
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = -2
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -653,10 +638,7 @@ weapon_component_template = {
 	}
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = -2
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -695,14 +677,7 @@ weapon_component_template = {
 	ai_tag_weight = 0
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = 0
-			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
-		}
-		modifier = {
-			factor = -2
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 	resources = {
 		category = ship_components
@@ -762,15 +737,8 @@ weapon_component_template = {
 		}
 	}
 	ai_weight = {
-		weight = 100
-		modifier = {
-			factor = 0
-			has_resource = {  type = GF_nyto_collapse_liquid amount < 800	}
-		}
-		modifier = {
-			factor = -1
-			NOT = {	has_authority = auth_gf_sfdoll	}
-		}
+		weight = 60
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -815,10 +783,7 @@ weapon_component_template = {
 	size_restriction = {	sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	ai_weight = {
 		weight = 50
-		modifier = {
-			factor = -4
-			NOT = {		has_authority = auth_gf_sfdoll		}
-		}
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
 
@@ -870,6 +835,10 @@ strike_craft_component_template = {
 			sr_dark_matter= 50
 		}
 	}
+	ai_weight = {
+		weight = 50
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
+	}
 }
 
 strike_craft_component_template = {
@@ -918,5 +887,9 @@ strike_craft_component_template = {
 		upkeep = {
 			sr_dark_matter= 50
 		}
+	}
+	ai_weight = {
+		weight = 50
+		modifier = { factor = -1 NOT = {	has_authority = auth_gf_sfdoll	} }
 	}
 }
