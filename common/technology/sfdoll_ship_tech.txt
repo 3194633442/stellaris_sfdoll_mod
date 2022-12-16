@@ -7,7 +7,7 @@ tech_sfdoll_weapon_S_1 = {
 	category = { military_theory }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_S_1
-	potential = { always = no	has_authority = auth_gf_sfdoll }
+	potential = { has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_collapse_liquid_produce tech_sfdoll_dark_matter_plant tech_battleships }
 	weight = @tier4weight1
 }
@@ -22,7 +22,7 @@ tech_sfdoll_weapon_T_1 = {
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_T_1
 	prerequisites = { tech_sfdoll_weapon_S_1 }
-	potential = { always = no has_authority = auth_gf_sfdoll }
+	potential = { has_authority = auth_gf_sfdoll }
 	weight = @tier4weight1
 }
 
@@ -33,7 +33,7 @@ tech_sfdoll_weapon_G_1 = {
 	category = { military_theory }
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_G_1
-	potential = { always = no	has_authority = auth_gf_sfdoll }
+	potential = { has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_weapon_S_1	}
 	weight = @tier4weight1
 }
