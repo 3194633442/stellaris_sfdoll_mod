@@ -1,33 +1,33 @@
 ﻿l_simp_chinese:
 ###############################
 #componet
-tech_sfdoll_weapon_S_1:0"铁血武装升级"
-tech_sfdoll_weapon_S_1_desc:0"我们需要更加灵活可靠的太空武器"
-sfdoll_weapon_S_1:0"蛇式火力系统"
+tech_sfdoll_weapon_S_1:0"铁血小型武器"
+tech_sfdoll_weapon_S_1_desc:0"我们需要更加灵活可靠的太空武器。"
+sfdoll_weapon_S_1:0"铁血火蜥蜴火力系统"
 sfdoll_weapon_M_1:0 "$sfdoll_weapon_S_1$"
 sfdoll_weapon_L_1:0 "$sfdoll_weapon_S_1$"
 sfdoll_weapon_S_1:0 "$sfdoll_weapon_S_1$"
-sfdoll_weapon_S_1_DESC:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_S_1_DESC:0 "暗物质和坍塌粒子的加持下，新式火力系统可以胜任多种距离的作战任务。"
 
-sfdoll_weapon_P_1:0 "破坏者点防御"
+sfdoll_weapon_P_1:0 "铁血P-6点防御"
 sfdoll_weapon_P_1_DESC:0 "$sfdoll_weapon_P_1$"
 
-sfdoll_weapon_X_1:0"建筑师级舰炮"
-sfdoll_weapon_X_1_DESC:0 "$sfdoll_weapon_X_1$"
-sfdoll_weapon_T_1:0"铁血铁龙舰炮"
-sfdoll_weapon_T_1_DESC:0"$sfdoll_weapon_T_1$"
-# tech_sfdoll_weapon_T_1:0 ""
-# tech_sfdoll_weapon_T_1_desc:0 ""
+tech_sfdoll_weapon_T_1:0 "铁血大型武器"
+tech_sfdoll_weapon_T_1_desc:0 "这些大型武器可为铁血的舰队提供更强的火力支援。"
+sfdoll_weapon_X_1:0"铁血X-23正电子炮"
+sfdoll_weapon_X_1_DESC:0 "这种武器可将正电子加速，导致其质量明显增加。在这种炮击之下，护盾发生器往往不堪一击。"
+sfdoll_weapon_T_1:0 "铁血铁龙舰炮"
+sfdoll_weapon_T_1_DESC:0 "$sfdoll_weapon_T_1$"
 
+tech_sfdoll_weapon_G_1:0 "物质转移武器"
+tech_sfdoll_weapon_G_1_desc:0 "将物质传送技术运用到导弹和舰载机上，催生了铁血的新型武器。"
 
-sfdoll_weapon_G_1:0 "折跃坍塌弹"
-sfdoll_weapon_G_1_DESC:0 "折跃坍塌弹借助小型FTL装置传送至敌舰，不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
+sfdoll_weapon_G_1:0 "逆向坍塌弹"
+sfdoll_weapon_G_1_DESC:0 "$sfdoll_weapon_G_1$借助小型FTL装置传送至敌舰，不需要像常规导弹那样缓慢飞行，所以不会被敌方的防空火力拦截。"
 
 sfdoll_weapon_H_1:0 "铁血白鲟战机"
 sfdoll_weapon_H_1_DESC:0 "$sfdoll_weapon_H_1$善于拦截敌方战机。"
 
-# tech_sfdoll_weapon_G_1:0 "$sfdoll_weapon_G_1$"
-# tech_sfdoll_weapon_G_1_desc:0 "$sfdoll_weapon_G_1_DESC$"
 
 tech_sfdoll_weapon_S_2:0 "铁血试验性轻型武器"
 tech_sfdoll_weapon_S_2_desc:0 "对火控系统的超光速传输效率进行提升，可以令小型武器发挥更大的威力。"
@@ -51,11 +51,6 @@ sfdoll_weapon_X_2:0 "铁血X-25火炮"
 sfdoll_weapon_X_2_DESC:0 "$sfdoll_weapon_X_2$牺牲了部分矢量发射功能，从而提升射程和威力"
 tech_sfdoll_weapon_X_2:0 "$sfdoll_weapon_X_2$"
 tech_sfdoll_weapon_X_2_desc:0 "$sfdoll_weapon_X_2_DESC$"
-
-sfdoll_weapon_L_speed:0 "铁血L-11火炮"
-sfdoll_weapon_L_speed_DESC:0 "$sfdoll_weapon_L_speed$用于提供高射速的火力支援，并拥有较低的射程"
-tech_sfdoll_weapon_L_speed:0 "$sfdoll_weapon_L_speed$"
-tech_sfdoll_weapon_L_speed_desc:0 "$sfdoll_weapon_L_speed_DESC$"
 
 sfdoll_weapon_T_2:0 "铁血T-24舰炮"
 sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$被设计用来进行对舰攻击，它在具备较大威力的同时保证了装填速度"

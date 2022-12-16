@@ -1,24 +1,28 @@
 ﻿l_english:
 ###############################
 #componet
-tech_sfdoll_weapon_S_1:0"Sangvis Ferri Armament Upgrade"
-tech_sfdoll_weapon_S_1_desc:0"We need more reliable space weapons"
-sfdoll_weapon_S_1:0"Snake Fire System"
+tech_sfdoll_weapon_S_1:0"SF Small Arms"
+tech_sfdoll_weapon_S_1_desc:0"We need more reliable space weapons."
+sfdoll_weapon_S_1:0"SF Salamander Fire System"
 sfdoll_weapon_M_1:0 "$sfdoll_weapon_S_1$"
 sfdoll_weapon_L_1:0 "$sfdoll_weapon_S_1$"
-sfdoll_weapon_S_1:0 "$sfdoll_weapon_S_1$"
-sfdoll_weapon_S_1_DESC:0 "$sfdoll_weapon_S_1$"
+sfdoll_weapon_S_1_DESC:0 "With the help of dark matter and collapse particle, the new fire system can be competent for multiple range combat tasks."
 
-sfdoll_weapon_X_1:0"Architect Gun"
-sfdoll_weapon_X_1_DESC:0 "$sfdoll_weapon_X_1$"
+sfdoll_weapon_P_1:0"SF P-6 Point-Defense"
+sfdoll_weapon_P_1_DESC:0"$sfdoll_weapon_P_1$"
 
+tech_sfdoll_weapon_T_1:0 "SF Large Arms"
+tech_sfdoll_weapon_T_1_desc:0 "These large weapons can provide stronger firepower support for the SF fleet."
+
+sfdoll_weapon_X_1:0 "SF X-23 Positron Gun"
+sfdoll_weapon_X_1_DESC:0 "This weapon can accelerate positrons, resulting in a significant increase in their mass. Under such shelling, the shield generator is often vulnerable."
 sfdoll_weapon_T_1:0"SF Iron Dragon Gun"
 sfdoll_weapon_T_1_DESC:0 "$sfdoll_weapon_T_1$"
 
-sfdoll_weapon_P_1:0"Destroyer Point Defense"
-sfdoll_weapon_P_1_DESC:0"$sfdoll_weapon_P_1$"
+tech_sfdoll_weapon_G_1:0 "Substance Transfer Weapon"
+tech_sfdoll_weapon_G_1_desc:0 "The application of substance transfer technology to missiles and strike craft gave birth to new weapons of SF Doll."
 
-sfdoll_weapon_G_1:0 "SF Jump Missile"
+sfdoll_weapon_G_1:0 "Reverse Collapse Missile"
 sfdoll_weapon_G_1_DESC:0 "The $sfdoll_weapon_G_1$ is transmitted to the enemy ship with a small FTL device, and does not need to fly as slowly as a conventional missile, so it will not be intercepted by the enemy's anti-aircraft fire."
 
 sfdoll_weapon_H_1:0 "SF Paddlefish Strike Craft"
@@ -29,7 +33,6 @@ tech_sfdoll_weapon_S_2_desc:0 "Improving the ftl transmission efficiency of fire
 
 sfdoll_weapon_P_2:0 "SF P-8 Point-Defense"
 sfdoll_weapon_P_2_DESC:0 "$sfdoll_weapon_P_2$ can destroy enemy aircraft more quickly than the old point-defense."
-sfdoll_weapon_P_2:0 "$sfdoll_weapon_P_2$"
 
 sfdoll_weapon_S_2:0 "SF S-10 Antineutron-Gun"
 sfdoll_weapon_S_2_DESC:0 "This small weapon uses a stream of high-energy antiparticles to penetrate enemy defenses."
@@ -41,11 +44,6 @@ component_set_sfdoll_weapon_L_2_DESC:0 "$component_set_sfdoll_weapon_L_2$ combin
 sfdoll_weapon_L_2:0 "$component_set_sfdoll_weapon_L_2$"
 sfdoll_weapon_M_2:0 "SF M-12 Spruce Gun"
 sfdoll_weapon_M_2_DESC:0 "$sfdoll_weapon_M_2$ will complement our short range firepower."
-
-sfdoll_weapon_L_speed:0 "SF L-11 Gun"
-sfdoll_weapon_L_speed_DESC:0 "$sfdoll_weapon_L_speed$ is used to provide fire support with a high rate of fire and has a low range"
-tech_sfdoll_weapon_L_speed:0 "$sfdoll_weapon_L_speed$"
-tech_sfdoll_weapon_L_speed_desc:0 "$sfdoll_weapon_L_speed_DESC$"
 
 sfdoll_weapon_X_2:0 "SF X-25 Gun"
 sfdoll_weapon_X_2_DESC:0 "$sfdoll_weapon_X_2$ sacrifices part of its steering function to increase range and power."
