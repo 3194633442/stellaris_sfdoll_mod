@@ -91,7 +91,6 @@ country_event = {
 	# 访问ogas
 	option = {
 		name = "sfdoll_elisa_event.2_option_ogas"
-		trigger = {	has_country_flag = ogas40_owner_sfdoll	}
 		hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
 	}
 

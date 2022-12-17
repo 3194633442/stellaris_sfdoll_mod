@@ -112,8 +112,7 @@ country_event = {
 			id = sfdoll_elisa_event.4
 			days = 7
 		}
-		# 开局可联系ogas
-		set_country_flag = ogas40_owner_sfdoll
+
 		#丁仪
 		# country_event = {
 		# 	id = sfdoll_three_body_event.1

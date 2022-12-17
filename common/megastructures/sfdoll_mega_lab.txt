@@ -17,11 +17,7 @@ sfdoll_mega_lab_1 = {
 	}
 	show_prereqs = yes
 	prerequisites = { "tech_sfdoll_mega_lab" }
-	potential = {
-		is_ai = no
-		has_authority = auth_gf_sfdoll
-		NOT = { has_ascension_perk = ap_sfdoll_4 }
-	}
+	potential = { is_ai = no has_authority = auth_gf_sfdoll }
 	possible = {
 		exists = starbase
 		custom_tooltip = {

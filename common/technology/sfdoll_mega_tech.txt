@@ -198,8 +198,8 @@ tech_sfdoll_mega_lab = {
 	is_rare = yes
 	category = { field_manipulation }
 	icon = tech_sfdoll_mega_lab
-	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = 0
+	potential = { has_ascension_perk = ap_sfdoll_3	}
+	weight = 500
 }
 
 tech_sfdoll_star_attacker = {

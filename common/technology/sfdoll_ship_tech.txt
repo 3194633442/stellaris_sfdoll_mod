@@ -5,6 +5,7 @@ tech_sfdoll_weapon_S_1 = {
 	area = society
 	tier = 4
 	category = { military_theory }
+	is_rare = yes
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_S_1
 	potential = { has_authority = auth_gf_sfdoll }
@@ -31,6 +32,7 @@ tech_sfdoll_weapon_G_1 = {
 	area = society
 	tier = 4
 	category = { military_theory }
+	is_rare = yes
 	is_reverse_engineerable = no
 	icon = tech_sfdoll_weapon_G_1
 	potential = { has_authority = auth_gf_sfdoll }
