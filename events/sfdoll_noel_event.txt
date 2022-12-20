@@ -64,18 +64,13 @@ country_event = {
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_noel_02
-		room = sfdoll_snow_room
+		# room = sfdoll_snow_room
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
 	}	
 	is_triggered_only = yes
-
-	# trigger = {
-	# 	AND = {
-	# 		from = {  NOT = {has_country_flag = gray_country }	}
-	# 		from = { has_country_flag = sfdoll_noel_country }
-	# 		has_country_flag = sfdoll_noel_owner
-	# 		NOT = { has_country_flag = contract_diplomacy_engaged }
-	# 	}
-	# }
 
 	immediate = {
 		set_country_flag = contract_diplomacy_engaged

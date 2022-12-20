@@ -10,7 +10,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump40
-		room = sfdoll_digi_mind_room
+		room = this
 		graphical_culture = this
 		planet_background = this
 		city_level = this
