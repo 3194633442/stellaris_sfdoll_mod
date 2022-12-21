@@ -139,7 +139,7 @@ sfdoll_mega_shipyard_4  = {
 			unity = 4000
 			GF_nyto_collapse_liquid = 4000
 		}
-		upkeep = { energy = 200 alloys = 20 nanites = 2 GF_nyto_collapse_liquid = 2 }
+		upkeep = { energy = 200 alloys = 20 GF_nyto_collapse_liquid = 2 }
 	}
 	upgrade_from = { sfdoll_mega_shipyard_3 }
 	on_build_complete = {
@@ -176,7 +176,7 @@ sfdoll_mega_shipyard_5 = {
 			unity = 4000
 			GF_nyto_collapse_liquid = 4000
 		}
-		upkeep = { energy = 1000 alloys = 100 nanites = 10 GF_nyto_collapse_liquid = 10 }
+		upkeep = { energy = 1000 alloys = 100 GF_nyto_collapse_liquid = 10 }
 	}
 	upgrade_from = { "sfdoll_mega_shipyard_4" }
 	on_build_complete = {

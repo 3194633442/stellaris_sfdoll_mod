@@ -169,7 +169,7 @@ tech_sfdoll_ring_world = {
 	start_tech = no
 	tier = 5
 	cost = @tier5cost3
-	category = { statecraft }
+	category = { new_worlds }
 	is_rare = yes
 	icon = tech_ring_world
 	prerequisites = { tech_sfdoll_change_hyperlane	}	
@@ -188,7 +188,7 @@ tech_sfdoll_mega_shipyard  = {
 	prerequisites = { tech_sfdoll_change_hyperlane	}	
 	potential = { has_authority = auth_gf_sfdoll	}
 	modifier = { country_resource_max_add = 40000 }
-	weight = @tier5weight3
+	weight = @tier5weight1
 }
 
 tech_sfdoll_mega_lab = {
@@ -200,6 +200,19 @@ tech_sfdoll_mega_lab = {
 	icon = tech_sfdoll_mega_lab
 	potential = { has_ascension_perk = ap_sfdoll_3	}
 	weight = 500
+}
+
+tech_mega_sfdoll_university = {
+	area = society
+	start_tech = no
+	tier = 5
+	cost = @tier5cost1
+	category = { statecraft }
+	is_rare = yes
+	icon = tech_mega_sfdoll_university
+	prerequisites = { tech_sfdoll_psychohistory	}	
+	potential = { has_authority = auth_gf_sfdoll	}
+	weight = @tier4weight3
 }
 
 tech_sfdoll_star_attacker = {

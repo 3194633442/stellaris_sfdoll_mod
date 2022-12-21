@@ -127,3 +127,13 @@ sfdoll_mega_lab_3_DESC:0 "Huge accelerators and supporting facilities have been 
 sfdoll_mega_lab_4:0 "SF Stellar Proving Ground"
 sfdoll_mega_lab_4_DESC:0 "In order to explore the basic laws of the Galaxy, Sangvis Ferri Civilization built this megastructure."
 
+mega_sfdoll_university_1:0 "$mega_sfdoll_university_2$ Site"
+mega_sfdoll_university_1_DESC:0 "$mega_sfdoll_university_2_DESC$"
+mega_sfdoll_university_1_MEGASTRUCTURE_DETAILS:0 "$requires_only_one_mega_sfdoll_university$"
+
+mega_sfdoll_university_2:0 "SF Galactic University"
+mega_sfdoll_university_2_DESC:0 "$mega_sfdoll_university_2$ is open to all intelligent creatures. Great minds from all over the galaxy gather here."
+
+tech_mega_sfdoll_university:0 "$mega_sfdoll_university_2$"
+tech_mega_sfdoll_university_desc:0 "The body will be destroyed, and the mind will be eternal."
+requires_only_one_mega_sfdoll_university:0 "We can only have one $mega_sfdoll_university_2$."
