@@ -4,6 +4,7 @@ mega_sfdoll_university_1 = {
 	construction_entity = "construction_platform_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
+	build_outside_gravity_well = yes
 	entity_offset = { x = -7 y = -7 }
 	build_time = 720
 	resources = {
@@ -45,24 +46,25 @@ mega_sfdoll_university_1 = {
 		}
 	}
 
-	placement_rules = {
-		planet_possible = {
-			custom_tooltip = {
-				fail_text = "requires_no_anomaly"
-				NOT = { has_anomaly = yes }
-			}
-		}
-		custom_tooltip = {
-			fail_text = "requires_no_existing_megastructure"
-			NOR = {
-				has_planet_flag = megastructure
-				has_planet_flag = has_megastructure
-				solar_system = { has_star_flag = ring_world_built }
-			}
-		}
-	}
+	# placement_rules = {
+	# 	planet_possible = {
+	# 		custom_tooltip = {
+	# 			fail_text = "requires_no_anomaly"
+	# 			NOT = { has_anomaly = yes }
+	# 		}
+	# 	}
+	# 	custom_tooltip = {
+	# 		fail_text = "requires_no_existing_megastructure"
+	# 		NOR = {
+	# 			has_planet_flag = megastructure
+	# 			has_planet_flag = has_megastructure
+	# 			solar_system = { has_star_flag = ring_world_built }
+	# 		}
+	# 	}
+	# }
 
 	on_build_complete = {
+		fromfrom.planet = { set_planet_flag = has_megastructure }
 		create_message = {
 			type =  MEGASTRUCTURE_BUILT
 			localization = "mega_sfdoll_university_1"
@@ -78,6 +80,7 @@ mega_sfdoll_university_2 = {
 	portrait = "GFX_background_mega_sfdoll_starport"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -7 y = -7 }
+	show_in_outliner = no
 	build_time = 3600
 	resources = {
 		category = megastructures
@@ -95,12 +98,15 @@ mega_sfdoll_university_2 = {
 		}
 		upkeep = { energy = 200 alloys = 20 GF_nyto_collapse_liquid = 10 }
 	}
-	show_prereqs = yes
+	upgrade_from = { mega_sfdoll_university_1 }
 	prerequisites = { "tech_mega_sfdoll_university" }
 	potential = { has_authority = auth_gf_sfdoll NOT = { has_megastructure = mega_sfdoll_university_2 } }
 	country_modifier = { all_technology_research_speed = 0.3 }
 	on_build_complete = {
-		from = { set_country_flag = has_built_or_repaired_megastructure	}
+		from = {
+			set_country_flag = has_built_or_repaired_megastructure
+			country_event = { id = sfdoll_event.5 }
+		}
 		create_message = {
 			type =  MEGASTRUCTURE_BUILT
 			localization = "mega_sfdoll_university_2"

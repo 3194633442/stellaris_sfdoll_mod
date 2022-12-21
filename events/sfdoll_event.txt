@@ -34,8 +34,9 @@ country_event = {
 	title = "sfdoll_event.3"
 	desc = "sfdoll_event.3_desc"
 	picture = "GFX_evt_ringworld"
+	location = from
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = yes	
 }
 
 # 巨型船坞
@@ -48,4 +49,16 @@ system_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = { owner = { is_ai = no has_authority = auth_gf_sfdoll } }
+}
+
+# 银河大学
+country_event = {
+	id = sfdoll_event.5
+	title = "sfdoll_event.5"
+	desc = "sfdoll_event.5_desc"
+	picture = "GFX_evt_galactic_community"
+	location = from
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = "sfdoll_event.5_a" }
 }

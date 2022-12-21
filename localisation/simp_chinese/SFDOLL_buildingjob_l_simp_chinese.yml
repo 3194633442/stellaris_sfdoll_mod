@@ -32,8 +32,6 @@ mod_job_sfdoll_collapse_liquid_maker_add:0"$job_sfdoll_collapse_liquid_maker$ �
 
 tech_sfdoll_lab:0 "$building_sfdoll_research$"
 tech_sfdoll_lab_desc:0 "逆向坍塌科技的应用,令铁血的计算机的性能大幅提升."
-tech_sfdoll_lab_2:0 "超维人工智能"
-tech_sfdoll_lab_2_desc:0 "铁血的思维不应该局限于现有的维度。基于高维空间中的法则，我们的逻辑引擎可以进行升级。"
 
 building_sfdoll_research:0 "铁血研究所"
 building_sfdoll_research_desc:0 "铁血研究所汇集了先进科研资源"
@@ -76,13 +74,9 @@ mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ 岗位"
 
 tech_sfdoll_goods:0 "坍塌技术工业"
 tech_sfdoll_goods_desc:0 "得益于坍塌技术，我们的生产效率和工艺水准飞速进步。"
-tech_sfdoll_goods_2:0 "先进坍塌工业"
-tech_sfdoll_goods_2_desc:0 "普通的文明根本搞不懂我们产品的原理"
 
 building_sfdoll_goods_plant:0 "铁血消费品工厂"
 building_sfdoll_goods_plant_desc:0 "$tech_sfdoll_goods_desc$"
-building_sfdoll_goods_plant_2:0 "铁血高级消费品工厂"
-building_sfdoll_goods_plant_2_desc:0 "$tech_sfdoll_goods_2_desc$"
 
 job_sfdoll_goods_maker:0"铁血工匠"
 job_sfdoll_goods_maker_plural:0"$job_sfdoll_goods_maker$"

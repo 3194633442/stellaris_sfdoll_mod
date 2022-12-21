@@ -65,20 +65,6 @@ tech_sfdoll_lab = {
 	weight = 1500
 }
 
-#高级研究所
-# tech_sfdoll_lab_2 = {
-# 	cost = @tier5cost1
-# 	area = physics
-# 	icon = tech_sfdoll_lab_2
-# 	tier = 5
-# 	category = { computing }
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 	}
-# 	weight =  0
-# }
-
-
 #合金制造
 tech_sfdoll_alloys_produce = {
 	cost = @tier4cost2
@@ -92,25 +78,6 @@ tech_sfdoll_alloys_produce = {
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
 
-#高级合金
-# tech_sfdoll_alloys_2= {
-# 	cost = @tier5cost1
-# 	area = engineering
-# 	tier = 5
-# 	category = { industry }
-# 	is_rare = yes
-# 	icon = tech_sfdoll_alloys_produce
-# 	prerequisites = {
-# 		tech_sfdoll_lab_2
-# 		tech_sfdoll_alloys_produce
-# 	}
-# 	weight = @tier5weight1
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 	}
-# }
-
-
 #解锁消费品建筑
 tech_sfdoll_goods = {
 	cost = @tier4cost2
@@ -123,23 +90,6 @@ tech_sfdoll_goods = {
 	weight = @tier4weight2
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
-#T2消费品
-# tech_sfdoll_goods_2= {
-# 	cost = @tier5cost1
-# 	area = society
-# 	tier = 5
-# 	icon = tech_sfdoll_goods_2
-# 	is_rare = yes
-# 	category = { statecraft }
-# 	prerequisites = {
-# 		tech_sfdoll_lab_2
-# 		tech_sfdoll_goods
-# 	}
-# 	weight = @tier5weight1
-# 	potential = {
-# 		has_authority = auth_gf_sfdoll
-# 	}
-# }
 
 #奇点能源
 tech_sfdoll_energy_plant = {

@@ -29,8 +29,6 @@ mod_job_sfdoll_collapse_liquid_maker_add:0 "$job_sfdoll_collapse_liquid_maker$ j
 
 tech_sfdoll_lab:0 "$building_sfdoll_research$"
 tech_sfdoll_lab_desc:0 "The application of reverse collapse technology has greatly improved the performance of SF Doll's computer."
-tech_sfdoll_lab_2:0 "Hyperdimensional AI"
-tech_sfdoll_lab_2_desc:0 "Sangvis Ferri's thinking should not be limited to normal dimensions."
 
 building_sfdoll_research:0 "SF Research Lab"
 building_sfdoll_research_desc:0 "$building_sfdoll_research$"
@@ -66,13 +64,9 @@ mod_job_sfdoll_alloys_maker_add:0"$job_sfdoll_alloys_maker$ jobs"
 
 tech_sfdoll_goods:0 "Collapse Technology Industry"
 tech_sfdoll_goods_desc:0 "Thanks to collapse technology, our production efficiency and craftsmanship have improved rapidly."
-tech_sfdoll_goods_2:0 "Advanced Collapse Industry"
-tech_sfdoll_goods_2_desc:0 "Ordinary civilizations simply do not understand the principles of our products."
 
 building_sfdoll_goods_plant:0 "SF Consumer Goods Factory"
 building_sfdoll_goods_plant_desc:0 "$tech_sfdoll_goods_desc$"
-building_sfdoll_goods_plant_2:0 "SF Advanced Consumer Goods Factory"
-building_sfdoll_goods_plant_2_desc:0 "$tech_sfdoll_goods_2_desc$"
 
 job_sfdoll_goods_maker:0"SF Artisan"
 job_sfdoll_goods_maker_plural:0"$job_sfdoll_goods_maker$s"

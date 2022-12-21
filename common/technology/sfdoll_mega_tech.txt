@@ -206,13 +206,13 @@ tech_mega_sfdoll_university = {
 	area = society
 	start_tech = no
 	tier = 5
-	cost = @tier5cost1
+	cost = @tier5cost3
 	category = { statecraft }
 	is_rare = yes
 	icon = tech_mega_sfdoll_university
-	prerequisites = { tech_sfdoll_psychohistory	}	
+	prerequisites = { tech_sfdoll_lab	}	
 	potential = { has_authority = auth_gf_sfdoll	}
-	weight = @tier4weight3
+	weight = @tier5weight2
 }
 
 tech_sfdoll_star_attacker = {

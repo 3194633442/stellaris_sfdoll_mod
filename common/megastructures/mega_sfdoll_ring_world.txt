@@ -175,7 +175,6 @@ mega_sfdoll_ring_world_2 = {
 						days = 30
 						target = prev
 					}
-					country_event = { id = sfdoll_event.3 }
 				}
 			}
 		}
@@ -214,7 +213,10 @@ mega_sfdoll_ring_world_4 = {
 	upgrade_from = {	mega_sfdoll_ring_world_3	}
 	# prereq_name = "RING_WORLD_SHOW_NAME"
 	on_build_complete = {
-		from = { set_country_flag = has_built_or_repaired_megastructure	}
+		from = {
+			set_country_flag = has_built_or_repaired_megastructure
+			country_event = { id = sfdoll_event.3 }
+		}
 		fromfrom.planet = {	set_planet_flag = has_megastructure }
 		spawn_planet = {
 			class = "pc_ringworld_tech"
