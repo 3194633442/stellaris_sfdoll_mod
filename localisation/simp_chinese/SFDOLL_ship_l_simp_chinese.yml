@@ -48,7 +48,7 @@ sfdoll_weapon_M_2:0 "铁血M-12云杉火炮"
 sfdoll_weapon_M_2_DESC:0 "$sfdoll_weapon_M_2$可补充我们的近程火力。"
 
 sfdoll_weapon_X_2:0 "铁血X-25火炮"
-sfdoll_weapon_X_2_DESC:0 "$sfdoll_weapon_X_2$牺牲了部分矢量发射功能，从而提升射程和威力"
+sfdoll_weapon_X_2_DESC:0 "$tech_sfdoll_weapon_T_2_desc$"
 sfdoll_weapon_T_2:0 "铁血T-24舰炮"
 sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$被设计用来进行对舰攻击，它在具备较大威力的同时保证了装填速度"
 tech_sfdoll_weapon_T_2:0 "铁血试验型轴基武器"

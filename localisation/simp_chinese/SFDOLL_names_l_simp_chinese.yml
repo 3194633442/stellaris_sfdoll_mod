@@ -23,8 +23,8 @@ Name_beacon_ship_sfdoll:0 "铁血之矛信标"
 design_beacon_ship_sfdoll:0 "铁血之矛"
 
 PRESCRIPTED_species_sfdoll_1:0 "铁血人形"
-PRESCRIPTED_species_plural_sfdoll_1:0 "铁血人形"
-PRESCRIPTED_species_adjective_sfdoll_1:0 "铁血人形"
+PRESCRIPTED_species_plural_sfdoll_1:0 "铁血人形们"
+PRESCRIPTED_species_adjective_sfdoll_1:0 "铁血人形的"
 
 PRESCRIPTED_sfdoll_1:0 "铁血星际共和国"
 PRESCRIPTED_adjective_sfdoll_1:0 "$PRESCRIPTED_sfdoll_1$"
