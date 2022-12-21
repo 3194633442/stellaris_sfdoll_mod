@@ -47,13 +47,10 @@ sfdoll_weapon_M_2_DESC:0 "$sfdoll_weapon_M_2$ will complement our short range fi
 
 sfdoll_weapon_X_2:0 "SF X-25 Gun"
 sfdoll_weapon_X_2_DESC:0 "$sfdoll_weapon_X_2$ sacrifices part of its steering function to increase range and power."
-tech_sfdoll_weapon_X_2:0 "$sfdoll_weapon_X_2$"
-tech_sfdoll_weapon_X_2_desc:0 "$sfdoll_weapon_X_2_DESC$"
-
 sfdoll_weapon_T_2:0 "SF T-24 Ship Gun"
 sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$ is designed for ship-to-ship attacks, and it can be loaded fast with great power."
-tech_sfdoll_weapon_T_2:0 "$sfdoll_weapon_T_2$"
-tech_sfdoll_weapon_T_2_desc:0 "$sfdoll_weapon_T_2_DESC$"
+tech_sfdoll_weapon_T_2:0 "SF Experimental Spinal Mounted Weapon"
+tech_sfdoll_weapon_T_2_desc:0 "These spinal mounted weapons sacrifice part of its steering function to increase range and power."
 
 sfdoll_weapon_T_SP:0 "Starlight Roaring"
 sfdoll_weapon_T_SP_DESC:0 "This long-range weapon is specifically designed for medium and heavy destroyers."

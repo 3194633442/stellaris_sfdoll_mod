@@ -553,7 +553,7 @@ weapon_component_template = {
 	power = -3000
 	
 	#待修改
-	prerequisites = { "tech_sfdoll_weapon_X_2" }
+	prerequisites = { "tech_sfdoll_weapon_T_2" }
 	component_set = "sfdoll_weapon_X_2"
 	size_restriction = { sfdoll_mobile_starbase sfdoll_warship_1 sfdoll_warship_2 sfdoll_warship_3 sfdoll_warship_4 sfdoll_warship_5 sfdoll_warship_6 }
 	#projectile_gfx = 武器效果

@@ -49,13 +49,10 @@ sfdoll_weapon_M_2_DESC:0 "$sfdoll_weapon_M_2$可补充我们的近程火力。"
 
 sfdoll_weapon_X_2:0 "铁血X-25火炮"
 sfdoll_weapon_X_2_DESC:0 "$sfdoll_weapon_X_2$牺牲了部分矢量发射功能，从而提升射程和威力"
-tech_sfdoll_weapon_X_2:0 "$sfdoll_weapon_X_2$"
-tech_sfdoll_weapon_X_2_desc:0 "$sfdoll_weapon_X_2_DESC$"
-
 sfdoll_weapon_T_2:0 "铁血T-24舰炮"
 sfdoll_weapon_T_2_DESC:0 "$sfdoll_weapon_T_2$被设计用来进行对舰攻击，它在具备较大威力的同时保证了装填速度"
-tech_sfdoll_weapon_T_2:0 "$sfdoll_weapon_T_2$"
-tech_sfdoll_weapon_T_2_desc:0 "$sfdoll_weapon_T_2_DESC$"
+tech_sfdoll_weapon_T_2:0 "铁血试验型轴基武器"
+tech_sfdoll_weapon_T_2_desc:0 "这些轴基武器牺牲了部分转向功能，从而提升射程和威力。"
 
 sfdoll_weapon_T_SP:0 "星辰灼啸"
 sfdoll_weapon_T_SP_DESC:0 "这种长程武器是专门为中型和重型驱逐舰设计的。"
