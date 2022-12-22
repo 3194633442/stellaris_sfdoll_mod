@@ -121,7 +121,6 @@ sfdoll_mega_lab_2 = {
 	}
 	upgrade_from = { sfdoll_mega_lab_1 }
 	prerequisites = { "tech_sfdoll_mega_lab" }
-	potential = { has_authority = auth_gf_sfdoll }
 	ai_weight = { weight = -10 }
 
 	on_build_complete = {
@@ -158,7 +157,6 @@ sfdoll_mega_lab_3 = {
 	}
 	upgrade_from = { "sfdoll_mega_lab_2" }
 	prerequisites = { "tech_sfdoll_mega_lab" }
-	potential = { has_authority = auth_gf_sfdoll }
 	ai_weight = { weight = -10 }
 
 	on_build_complete = {
@@ -194,7 +192,6 @@ sfdoll_mega_lab_4 = {
 	}
 	upgrade_from = { "sfdoll_mega_lab_3" }
 	prerequisites = { "tech_sfdoll_mega_lab" }
-	potential = { has_authority = auth_gf_sfdoll }
 	ai_weight = { weight = -10 }
 
 	on_build_complete = {
