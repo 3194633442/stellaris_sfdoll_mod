@@ -135,6 +135,7 @@ mega_sfdoll_sophon_4 = {
 	show_prereqs = no
 	upgrade_from = { mega_sfdoll_sophon_3 }
 	prerequisites = { tech_sfdoll_sophon }
+	potential = { has_authority = auth_gf_sfdoll }
 
 	resources = {
 		category = megastructures

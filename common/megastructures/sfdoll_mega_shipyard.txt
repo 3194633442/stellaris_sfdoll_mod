@@ -7,7 +7,7 @@ sfdoll_mega_shipyard_1 = {
 	build_outside_gravity_well = yes
 	build_time = 720
 	construction_blocks_and_blocked_by = multi_stage_type
-	potential = {	owner = {	has_authority = auth_gf_sfdoll	} is_ai = no	}
+	potential = {	has_authority = auth_gf_sfdoll is_ai = no	}
 	show_prereqs = yes
 	prerequisites = {	tech_sfdoll_mega_shipyard	}
 	possible = {
@@ -159,6 +159,8 @@ sfdoll_mega_shipyard_5 = {
 	show_galactic_map_icon = yes
 	show_in_outliner = no
 	prerequisites = { 	tech_sfdoll_mega_shipyard	}
+	upgrade_from = { "sfdoll_mega_shipyard_4" }
+	potential = {	has_authority = auth_gf_sfdoll }
 	country_modifier = { 	country_naval_cap_add = 5000 }
 	ship_modifier = { ship_starting_experience_add = 1000 }
 	
@@ -176,7 +178,7 @@ sfdoll_mega_shipyard_5 = {
 		}
 		upkeep = { energy = 1000 alloys = 100 GF_nyto_collapse_liquid = 10 }
 	}
-	upgrade_from = { "sfdoll_mega_shipyard_4" }
+	
 	on_build_complete = {
 		from = { set_country_flag = has_built_or_repaired_megastructure }
 		fromfrom.planet = {	set_planet_flag = has_megastructure }

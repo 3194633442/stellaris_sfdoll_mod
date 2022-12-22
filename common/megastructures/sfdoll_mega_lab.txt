@@ -177,6 +177,11 @@ sfdoll_mega_lab_4 = {
 	show_in_outliner = no
 	show_galactic_map_icon = yes
 	build_time = 1800
+
+	upgrade_from = { "sfdoll_mega_lab_3" }
+	prerequisites = { "tech_sfdoll_mega_lab" }
+	potential = { has_authority = auth_gf_sfdoll }
+	ai_weight = { weight = -10 }
 	resources = {
 		category = megastructures
 		cost = {
@@ -190,9 +195,6 @@ sfdoll_mega_lab_4 = {
 		}
 		upkeep = { energy = 100 GF_nyto_collapse_liquid = 10 }
 	}
-	upgrade_from = { "sfdoll_mega_lab_3" }
-	prerequisites = { "tech_sfdoll_mega_lab" }
-	ai_weight = { weight = -10 }
 
 	on_build_complete = {
 		create_message = {
