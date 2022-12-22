@@ -22,10 +22,7 @@ mega_sfdoll_university_1 = {
 	potential = {
 		is_ai = no
 		has_authority = auth_gf_sfdoll
-		NOR = {
-			has_megastructure = mega_sfdoll_university_2
-			has_megastructure = mega_sfdoll_university_1
-		}
+		NOT = { has_megastructure = mega_sfdoll_university_2 }
 	}
 	possible = {
 		exists = starbase
@@ -100,18 +97,28 @@ mega_sfdoll_university_2 = {
 	}
 	upgrade_from = { mega_sfdoll_university_1 }
 	prerequisites = { "tech_mega_sfdoll_university" }
-	potential = { has_authority = auth_gf_sfdoll NOT = { has_megastructure = mega_sfdoll_university_2 } }
 	country_modifier = { all_technology_research_speed = 0.3 }
 	on_build_complete = {
 		from = {
-			set_country_flag = has_built_or_repaired_megastructure
-			country_event = { id = sfdoll_event.5 }
-		}
-		create_message = {
-			type =  MEGASTRUCTURE_BUILT
-			localization = "mega_sfdoll_university_2"
-			days = 30
-			target = THIS
+			if = {
+				limit = {
+					any_megastructure = {
+						is_megastructure_type = mega_sfdoll_university_2
+						NOT = { is_same_value = root.fromfrom }
+					}
+				}
+				remove_megastructure = root.fromfrom
+			}
+			else = {
+				set_country_flag = has_built_or_repaired_megastructure
+				country_event = { id = sfdoll_event.5 }
+				create_message = {
+					type =  MEGASTRUCTURE_BUILT
+					localization = "mega_sfdoll_university_2"
+					days = 30
+					target = root
+				}
+			}
 		}
 	}
 }

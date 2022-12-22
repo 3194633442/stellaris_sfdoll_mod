@@ -123,7 +123,6 @@ sfdoll_mega_shipyard_4  = {
 	build_time = 3600
 	show_galactic_map_icon = yes
 	prerequisites = { 	tech_sfdoll_mega_shipyard	}
-	potential = {	has_authority = auth_gf_sfdoll	}
 	country_modifier = { 	country_naval_cap_add = 1000 }
 	ship_modifier = { ship_starting_experience_add = 200 }
 	
@@ -160,7 +159,6 @@ sfdoll_mega_shipyard_5 = {
 	show_galactic_map_icon = yes
 	show_in_outliner = no
 	prerequisites = { 	tech_sfdoll_mega_shipyard	}
-	potential = {	has_authority = auth_gf_sfdoll is_ai = no	}
 	country_modifier = { 	country_naval_cap_add = 5000 }
 	ship_modifier = { ship_starting_experience_add = 1000 }
 	
