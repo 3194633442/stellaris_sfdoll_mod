@@ -118,15 +118,9 @@ special_project = {
 
 	picture = GFX_evp_sfdoll_mind_server
 	event_scope = planet_event
-	requirements = {
-		leader = scientist
-	}
+	requirements = { leader = scientist }
 	on_success = {
-		owner = {
-			country_event = {
-				id = sfdoll_gunslinger_girl_event.3
-			}
-		}
+		owner = { country_event = { id = sfdoll_gunslinger_girl_event.3 } }
 	}
 }
 

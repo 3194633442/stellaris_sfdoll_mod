@@ -20,7 +20,6 @@ sfdoll_search_zion_event_2_desc:0"We successfully opened the hyperlane. The SF D
 sfdoll_search_zion_event_3:0"Unknown Coordinates"
 sfdoll_search_zion_event_3_desc:0"The expedition surveyed the target system and discovered a large relic site on a planet. We have to send more research teams to study it."
 
-
 #诺耶露遗迹
 site_noel_sfdoll:0 "ELID Planet"
 site_noel_sfdoll_desc:0 "By parsing the mystery signal, we discovered the relic site. \n\nThis planet has a high concentration of collapse particles, which cause the creatures on the planet are transformed into ELID creatures, forming a biosphere different from ordinary organisms. \n\nThe relic is constantly signaling outwards.We must go in and take a look."
@@ -42,7 +41,6 @@ sfdoll_search_zion_event.8_desc:0 "The girl who appeared in the relic site is an
 
 sfdoll_search_zion_event.9:0 "Taking in girl from relic site"
 sfdoll_search_zion_event.9_desc:0 "We took the girl found in the ruins to our Research Facility.\n\nWe found that in the girl's brain, there is a mind space similar to ours, which can send, receive and process data. \n\nThe language she uses is similar to the Earth language. In her consciousness, words like sister seemed to be repeating all the time. \n\nWe will continue to observe her."
-
 
 # sfdoll_to_zion_chain_title:0 "Dimensional Tour"
 # sfdoll_to_zion_chain_desc:0"We will go to the sanctuary to find our past and our future."
@@ -69,7 +67,6 @@ sfdoll_to_zion_event_3_desc:0 "We unearthed data from the Zion facility. These r
 
 sfdoll_to_zion_event_4:0 "Unexpected Guest"
 sfdoll_to_zion_event_4_desc:0 "Unexpectedly, a ship appeared in our port in Zion, causing a commotion.\n\nThis ship is much larger than our largest ships. There is some kind of force field around it, blocking almost all means of detection, leaving our investigators helpless. For now, this mysterious ship is still lying quietly outside our port."
-# sfdoll_to_zion_event_4_option:0 "得想办法研究它"
 
 sfdoll_to_zion_event_5:0 "Unexpected Guest"
 sfdoll_to_zion_event_5_desc:0 "We can finally enter the interior of the unknown ship. It's not that we found a way to get into the ship, it's that the ship lets us in.\n\nThis ship is very old. But many of the equipment are still working and has technological level far beyond ours.\n\nThe data interface on the spacecraft is consistent with our generic interface, so we can quickly read the data in it."
@@ -82,7 +79,7 @@ sfdoll_to_zion_event_6:0 "Research Unknown Ship"
 sfdoll_to_zion_event_6_desc:0 "According to data in the unknown ship, we learned that the ship is a large deep space carrier for deep space exploration on a supercluster scale.The name of this ship is §R Lamentations§!"
 sfdoll_to_zion_event_6_option:0 "Interesting name. Does the relic civilization also have Jerusalem?"
 
-sfdoll_to_zion_event.10:0 "Never stop asking"
-sfdoll_to_zion_event.10_desc:0 "The data in §RLamentations§! shows that what we have arrived is not Zion but a refuge of relic civilization.\n\nThe mystery of the relic civilization still needs to be further explored.\n\nAlthough §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old ship, after a long journey, should get rest."
+sfdoll_to_zion_event.10:0 "Never Stop Asking"
+sfdoll_to_zion_event.10_desc:0 "The data in §RLamentations§! shows that what we have arrived is not Zion but a refuge of relic civilization.The mystery of the relic civilization still needs to be further explored.\n\nAlthough §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old ship, after a long journey, should get rest."
 sfdoll_to_zion_event.10_option:0 "Are we the first one?"
 
