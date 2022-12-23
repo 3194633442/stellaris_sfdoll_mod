@@ -52,7 +52,6 @@ sfdoll_three_body_event.6_b:0 "What on earth have you learned?"
 sfdoll_three_body_event.3:0 "Access the Sophon Computer Group"
 sfdoll_three_body_event.3_desc:0 "Is there a mission?"
 sfdoll_three_body_event.3_a:0 "Please collect intelligence"
-# sfdoll_three_body_event.3_a_response:0 "Got it. Let me see which corner of the Milky Way must be noted."
 sfdoll_three_body_event.3_b:0 "Collect and process research data"
 sfdoll_sophon_to_leader:0 "Contact Sophon leader"
 
