@@ -27,7 +27,7 @@ tech_sfdoll_sophon_desc:0 "It is the goal of Project Sophon to transform a micro
 mega_sfdoll_sophon:0 "Project Sophon"
 mega_sfdoll_sophon_1:0 "SF Project Sophon Site"
 mega_sfdoll_sophon_1_DESC:0 "$mega_sfdoll_sophon$ is undoubtedly a milestone in SF Dolls' exploration of artificial intelligence."
-mega_sfdoll_sophon_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_should_outside_well$"
+mega_sfdoll_sophon_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_should_outside_gravity_well$"
 
 mega_sfdoll_sophon_2:0 "Project Sophon Frame"
 mega_sfdoll_sophon_2_DESC:0 "It takes maximum energy to process the smallest things. We need to build a new engineering platform to carry out a huge transformation project for micro particles as raw materials."

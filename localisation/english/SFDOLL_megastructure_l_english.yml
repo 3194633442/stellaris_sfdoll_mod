@@ -1,6 +1,6 @@
 ﻿l_english:
 ##########
-sfdoll_mega_should_outside_well:0 "This megastructure should be built outside gravity well."
+sfdoll_mega_should_outside_gravity_well:0 "This megastructure should be built outside gravity well."
 
 sfdoll_mega_shipyard:0 "SF Mega Shipyard"
 tech_sfdoll_mega_shipyard:0 "$sfdoll_mega_shipyard$"
@@ -43,22 +43,35 @@ thruster_sfdoll_mobile_starbase:0 "Thruster"
 tech_sfdoll_mobile_starbase:0 "$sfdoll_mobile_starbase$"
 tech_sfdoll_mobile_starbase_desc:0 "$sfdoll_mobile_starbase$ is a mobile base with shipyards. In the future, it will participate in the exploration of extragalactic. §Y$sfdoll_mobile_starbase$ needs to be built through mega-engineering.§!"
 
+# mega_sfdoll_mobile_starbase_1:0 "$sfdoll_mobile_starbase$ Site"
+# mega_sfdoll_mobile_starbase_1_DESC:0 "$sfdoll_mobile_starbase_plural$ need to be built outside the gravity well."
+# mega_sfdoll_mobile_starbase_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mobile_starbase_plural$ need to be built outside the gravity well."
+# mega_sfdoll_mobile_starbase_1_complete:0 "$mega_sfdoll_mobile_starbase_1$ completed"
+
+# mega_sfdoll_mobile_starbase_2:0 "$sfdoll_mobile_starbase$ Stage 2"
+# mega_sfdoll_mobile_starbase_2_DESC:0 "You need to have at least one  design of $sfdoll_mobile_starbase$ to complete construction."
+
+# mega_sfdoll_mobile_starbase_3:0 "$sfdoll_mobile_starbase$ Stage 3"
+# mega_sfdoll_mobile_starbase_3_DESC:0 "The $sfdoll_mobile_starbase$ base frame has been built using the dimensional anchor as the base."
+
+# mega_sfdoll_mobile_starbase_4:0 "$sfdoll_mobile_starbase$ Final Stage"
+# mega_sfdoll_mobile_starbase_4_DESC:0 "$sfdoll_mobile_starbase$ will get full functionality."
+
 mega_sfdoll_mobile_starbase_1:0 "$sfdoll_mobile_starbase$ Site"
-mega_sfdoll_mobile_starbase_1_DESC:0 "$sfdoll_mobile_starbase_plural$ need to be built outside the gravity well."
-mega_sfdoll_mobile_starbase_1_MEGASTRUCTURE_DETAILS:0 "$mega_sfdoll_mobile_starbase_1_DESC$"
-mega_sfdoll_mobile_starbase_1_complete:0 "$mega_sfdoll_mobile_starbase_1$ completed"
+mega_sfdoll_mobile_starbase_1_DESC:0 "We need to have at least one design of $sfdoll_mobile_starbase$ to complete construction."
+mega_sfdoll_mobile_starbase_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_should_outside_gravity_well$"
 
 mega_sfdoll_mobile_starbase_2:0 "$sfdoll_mobile_starbase$ Stage 2"
-mega_sfdoll_mobile_starbase_2_DESC:0 "You need to have at least one  design of $sfdoll_mobile_starbase$ to complete construction."
+mega_sfdoll_mobile_starbase_2_DESC:0 "$mega_sfdoll_mobile_starbase_1_DESC$"
 
 mega_sfdoll_mobile_starbase_3:0 "$sfdoll_mobile_starbase$ Stage 3"
-mega_sfdoll_mobile_starbase_3_DESC:0 "The $sfdoll_mobile_starbase$ base frame has been built using the dimensional anchor as the base."
+mega_sfdoll_mobile_starbase_3_DESC:0 "SF Dolls distort and process space to create framework of $sfdoll_mobile_starbase$. It is not made of some substance, but space."
 
 mega_sfdoll_mobile_starbase_4:0 "$sfdoll_mobile_starbase$ Final Stage"
 mega_sfdoll_mobile_starbase_4_DESC:0 "$sfdoll_mobile_starbase$ will get full functionality."
 
 sfdoll_event.2:0 "$sfdoll_mobile_starbase$ Sailing"
-sfdoll_event.2_desc:0 "With the launch of the sublight speed navigation system, $sfdoll_mobile_starbase$ has taken the first step towards the universe. Under the action of inertial interference device and dimensional anchor, this huge object is as light as a butterfly. The huge mass and energy of $sfdoll_mobile_starbase$ are hidden, which makes it integrate with the background radiation of the universe."
+sfdoll_event.2_desc:0 "With the launch of the sublight speed navigation system, $sfdoll_mobile_starbase$ has taken the first step towards the universe. Under the action of inertial interference device, this huge object is as light as a butterfly. The huge mass and energy of $sfdoll_mobile_starbase$ are hidden, which makes it integrate with the background radiation of the universe."
 
 
 sfdoll_star_exploit_01:0 "SF Dyson Cloud Site"

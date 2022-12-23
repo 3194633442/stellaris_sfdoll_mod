@@ -28,7 +28,7 @@ tech_sfdoll_sophon_desc:0 "将一个微观粒子改造为超级智能计算机�
 mega_sfdoll_sophon:0 "智子工程"
 mega_sfdoll_sophon_1:0 "铁血$mega_sfdoll_sophon$基址"
 mega_sfdoll_sophon_1_DESC:0 "在铁血人形探索人造智慧的道路上，$mega_sfdoll_sophon$无疑是一座里程碑。"
-mega_sfdoll_sophon_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_should_outside_well$"
+mega_sfdoll_sophon_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_should_outside_gravity_well$"
 
 mega_sfdoll_sophon_2:0 "$mega_sfdoll_sophon$框架"
 mega_sfdoll_sophon_2_DESC:0 "加工最小的东西，需要最大的能量。我们需要打造一个全新的工程平台，对作为原材料的微观粒子进行庞大的改造工程。"

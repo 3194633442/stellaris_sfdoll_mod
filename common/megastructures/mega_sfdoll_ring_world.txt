@@ -29,56 +29,7 @@ mega_sfdoll_ring_world_1 = {
 			}
 		}
 	}
-	# entity = "construction_platform_entity"
-	# entity_offset = { x = -20 y = -20 }
-	# construction_entity = "construction_platform_entity"
-	# show_galactic_map_icon = yes
-	# build_time = 360
-	# show_prereqs = yes
-	# potential = {	has_authority = auth_gf_sfdoll	}
-	# prerequisites = { tech_sfdoll_ring_world }
-	# resources = {
-	# 	category = megastructures
-	# 	cost = {	alloys = 5000 unity = 500	}
-	# 	upkeep = { energy = 2 }
-	# }
-	# possible = {
-	# 	exists = starbase
-	# 	custom_tooltip = {
-	# 		fail_text = "requires_inside_border"
-	# 		is_inside_border = from
-	# 	}
-	# 	custom_tooltip = {
-	# 		fail_text = "requires_surveyed_system"
-	# 		NOT = {
-	# 			any_system_planet = {
-	# 				is_surveyed = {
-	# 					who = prev.from
-	# 					status = no
-	# 				}
-	# 			}
-	# 		}
-	# 	}
-	# }
-	# placement_rules = {
-	# 	planet_possible = {
-	# 		#必须建在人工星系
-	# 		custom_tooltip = { 
-	# 			fail_text = "requires_pc_sfdoll_black_hole"
-	# 			is_planet_class = pc_sfdoll_black_hole
-	# 		}
-	# 		custom_tooltip = {
-	# 			fail_text = "requires_no_anomaly"
-	# 			NOT = { has_anomaly = yes }
-	# 		}
-	# 		custom_tooltip = {
-	# 			fail_text = "requires_no_existing_megastructure"
-	# 			NOT = {
-	# 				has_any_megastructure = yes
-	# 			}
-	# 		}
-	# 	}
-	# }
+
 	resources = {
 		category = megastructures
 		cost = {

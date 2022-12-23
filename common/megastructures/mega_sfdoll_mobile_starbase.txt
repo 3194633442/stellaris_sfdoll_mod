@@ -44,7 +44,7 @@ mega_sfdoll_mobile_starbase_1 = {
 		from = {
 			create_message = {
 				type = MEGASTRUCTURE_BUILT
-				localization = mega_sfdoll_mobile_starbase_1_complete
+				localization = "mega_sfdoll_mobile_starbase_1"
 				days = 30
 				target=  root
 			}
