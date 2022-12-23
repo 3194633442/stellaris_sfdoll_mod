@@ -50,21 +50,3 @@ tech_sfdoll_alloys_upgrade = {
 	weight = 1500
 	potential = {	has_authority = auth_gf_sfdoll	}
 }
-
-# #合金升级2
-# tech_sfdoll_alloys_upgrade_2 = {
-# 	cost = @tier5cost3
-# 	area = engineering
-# 	tier = 5
-# 	is_rare = yes
-# 	category = { industry }
-# 	icon = tech_sfdoll_alloys_produce
-# 	prerequisites = {
-# 		tech_sfdoll_alloys_upgrade
-# 	}
-# 	modifier = {
-# 		custom_tooltip = tech_sfdoll_alloys_upgrade_mod
-# 	}
-# 	weight = 1500
-# 	potential = {	has_authority = auth_gf_sfdoll	}
-# }

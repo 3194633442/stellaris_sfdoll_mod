@@ -4,7 +4,6 @@ tech_sfdoll_collapse_liquid_produce = {
 	area = physics
 	tier = 4
 	is_rare = yes
-	is_dangerous = yes
 	category = { particles }
 	icon = tech_sfdoll_collapse_liquid_produce
 	potential = {	has_authority = auth_gf_sfdoll	}
