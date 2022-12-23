@@ -210,7 +210,7 @@ tech_mega_sfdoll_university = {
 	category = { statecraft }
 	is_rare = yes
 	icon = tech_mega_sfdoll_university
-	prerequisites = { tech_sfdoll_lab	}	
+	prerequisites = { tech_sfdoll_psychohistory	}	
 	potential = { has_authority = auth_gf_sfdoll	}
 	weight = @tier5weight2
 }

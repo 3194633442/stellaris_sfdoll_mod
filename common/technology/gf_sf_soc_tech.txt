@@ -5,16 +5,14 @@
 #心理历史学
 tech_sfdoll_psychohistory = {
 	area = society
-	tier = 4
-	cost = @tier4cost3
+	tier = 5
+	cost = @tier5cost3
 	is_rare = yes
 	category = { statecraft }
 	icon = tech_sfdoll_psychohistory
-	weight = @tier4weight1
+	weight = @tier5weight2
 	potential = {	has_authority = auth_gf_sfdoll	}
-	prerequisites = {
-		tech_sfdoll_energy_plant
-	}
+	prerequisites = { tech_sfdoll_energy_plant }
 	modifier = {
 		empire_size_mult = -0.15
 	}
