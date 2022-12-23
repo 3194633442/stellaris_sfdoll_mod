@@ -1,9 +1,10 @@
 ﻿l_english:
-#寻找锡安
+sfdoll_main_event_chain:0 "Sangvis Ferri Explore Archives"
+sfdoll_main_event_chain_desc:0 "SF Dolls' records of galactic exploration."
+
 sfdoll_search_zion_chain_title:0 "Sangvis Ferri Explore Archives"
 sfdoll_search_zion_chain_desc:0 "SF Dolls' records of galactic exploration."
 
-#寻找锡安
 sfdoll_search_zion_event_0:"Mystery Signal"
 sfdoll_search_zion_event_0_desc:"Recently, our researchers detected a unique signal. These signals are most likely related to earth relic technology. The content of the signal seems to point to an unknown planet."
 

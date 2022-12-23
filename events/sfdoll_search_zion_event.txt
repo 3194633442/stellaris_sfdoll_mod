@@ -22,10 +22,6 @@ country_event = {
 				name = SF_SEARCH_ZION_PROJECT
 			}
 		}
-		#开始寻找锡安事件链
-		begin_event_chain = {
-			event_chain = sfdoll_search_zion_chain
-		}
 	}
 }
 
