@@ -42,9 +42,8 @@ sfdoll_mobile_gateway_02 = {
 	show_galactic_map_icon = no
 	show_in_outliner = no
 	construction_blocks_and_blocked_by = self_type
-	prerequisites = { tech_sfdoll_mobile_gateway	}
 	show_prereqs = no
-	potential = {	has_country_flag = sfdoll_empire	}
+	prerequisites = { tech_sfdoll_mobile_gateway	}
 	build_time = 0
 	upgrade_from = {	sfdoll_mobile_gateway_01	}
 	on_build_complete = {
@@ -63,13 +62,5 @@ sfdoll_mobile_gateway_02 = {
 			}
 		}
 		fromfrom = { remove_megastructure = this }
-		# from = {
-		# 	create_message = {
-		# 		type = MEGASTRUCTURE_BUILT
-		# 		localization = build_gateway_sfdoll
-		# 		days = 60
-		# 		target = prev
-		# 	}
-		# }
 	}
 }

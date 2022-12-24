@@ -64,8 +64,11 @@ mega_sfdoll_mobile_starbase_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_should_outsi
 mega_sfdoll_mobile_starbase_2:0 "$sfdoll_mobile_starbase$ Stage 2"
 mega_sfdoll_mobile_starbase_2_DESC:0 "$mega_sfdoll_mobile_starbase_1_DESC$"
 
+# mega_sfdoll_mobile_starbase_3:0 "$sfdoll_mobile_starbase$ Stage 3"
+# mega_sfdoll_mobile_starbase_3_DESC:0 "SF Dolls distort and process space to create framework of $sfdoll_mobile_starbase$. It is not made of some substance, but space."
+
 mega_sfdoll_mobile_starbase_3:0 "$sfdoll_mobile_starbase$ Stage 3"
-mega_sfdoll_mobile_starbase_3_DESC:0 "SF Dolls distort and process space to create framework of $sfdoll_mobile_starbase$. It is not made of some substance, but space."
+mega_sfdoll_mobile_starbase_3_DESC:0 "The framework of $sfdoll_mobile_starbase$ is not made of matter, but of 'space' itself. SF Dolls distort and process space to create these structures."
 
 mega_sfdoll_mobile_starbase_4:0 "$sfdoll_mobile_starbase$ Final Stage"
 mega_sfdoll_mobile_starbase_4_DESC:0 "$sfdoll_mobile_starbase$ will get full functionality."

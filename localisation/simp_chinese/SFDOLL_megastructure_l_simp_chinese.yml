@@ -65,8 +65,11 @@ mega_sfdoll_mobile_starbase_1_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mega_should_outsi
 mega_sfdoll_mobile_starbase_2:0 "$sfdoll_mobile_starbase$ 阶段2"
 mega_sfdoll_mobile_starbase_2_DESC:0 "$mega_sfdoll_mobile_starbase_1_DESC$"
 
+# mega_sfdoll_mobile_starbase_3:0 "$sfdoll_mobile_starbase$ 阶段3"
+# mega_sfdoll_mobile_starbase_3_DESC:0 "铁血对空间进行扭曲、加工，从而创造出$sfdoll_mobile_starbase$的框架。构成它的不是某种物质，而是空间。"
+
 mega_sfdoll_mobile_starbase_3:0 "$sfdoll_mobile_starbase$ 阶段3"
-mega_sfdoll_mobile_starbase_3_DESC:0 "铁血对空间进行扭曲、加工，从而创造出$sfdoll_mobile_starbase$的框架。构成它的不是某种物质，而是空间。"
+mega_sfdoll_mobile_starbase_3_DESC:0 "$sfdoll_mobile_starbase$的框架不是由物质构成，而是由‘空间’本身构成。铁血对空间进行扭曲、加工，从而创造出这些结构。"
 
 mega_sfdoll_mobile_starbase_4:0 "$sfdoll_mobile_starbase$ 最终阶段"
 mega_sfdoll_mobile_starbase_4_DESC:0 "$sfdoll_mobile_starbase$将获得完整的功能。"
