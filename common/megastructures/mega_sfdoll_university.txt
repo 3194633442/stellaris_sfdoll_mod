@@ -90,14 +90,14 @@ mega_sfdoll_university_2 = {
 			society_research = 5000
 			engineering_research = 5000
 			physics_research = 5000
+			unity = 3000
 			influence = 3
-			unity = 2500
 		}
 		upkeep = { energy = 200 alloys = 20 GF_nyto_collapse_liquid = 10 }
 	}
 	upgrade_from = { mega_sfdoll_university_1 }
 	prerequisites = { "tech_mega_sfdoll_university" }
-	country_modifier = { all_technology_research_speed = 0.3 }
+	country_modifier = { all_technology_research_speed = 0.2 }
 	on_build_complete = {
 		from = {
 			if = {

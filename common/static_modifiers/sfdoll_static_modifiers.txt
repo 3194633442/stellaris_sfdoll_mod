@@ -70,7 +70,7 @@ sfdoll_sophon_intel_mod = {
 	intel_encryption_add = 20
 	intel_decryption_add = 20
 }
-sfdoll_sophon_research_mod = { all_technology_research_speed = 0.4 }
+sfdoll_sophon_research_mod = { all_technology_research_speed = 0.2 }
 # sfdoll_sophon_engineering_mod
 
 # Ä¸½¢
