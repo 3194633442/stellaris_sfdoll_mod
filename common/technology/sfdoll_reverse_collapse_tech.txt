@@ -8,10 +8,7 @@ tech_sfdoll_reverse_collapse_1 = {
 	icon = tech_sfdoll_reverse_collapse_1
 	prerequisites = { "tech_sfdoll_ogas_ai" }
 	potential = {		has_authority = auth_gf_sfdoll	}
-	#prerequisites = { 	}
-	modifier = {
-		all_technology_research_speed = 0.25
-	}
+	modifier = { all_technology_research_speed = 0.25 }
 	weight = 0
 }
 
@@ -24,10 +21,8 @@ tech_sfdoll_reverse_collapse_2 = {
 	icon = tech_sfdoll_reverse_collapse_2
 	potential = {	has_authority = auth_gf_sfdoll }
 	prerequisites = { tech_sfdoll_reverse_collapse_1	}
-	modifier = {
-		num_tech_alternatives_add = 1
-	}
-	weight = 1500
+	modifier = { num_tech_alternatives_add = 1 }
+	weight = 500
 }
 
 tech_sfdoll_reverse_collapse_3 = {
@@ -38,10 +33,6 @@ tech_sfdoll_reverse_collapse_3 = {
 	category = { voidcraft }
 	icon = tech_sfdoll_reverse_collapse_3
 	prerequisites = { tech_sfdoll_reverse_collapse_2	}
-	potential = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_zero_point_power
-	}
-	modifier = {  planet_jobs_produces_mult = 0.15		}
-	weight = 1500
+	potential = { has_authority = auth_gf_sfdoll }
+	weight = 1000
 }
