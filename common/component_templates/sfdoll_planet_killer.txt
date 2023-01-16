@@ -14,7 +14,7 @@ weapon_component_template = {
     total_fire_time = 10
     range = 500
 	prerequisites = {	tech_planet_killer_sfdoll_1	}
-	size_restriction = { sfdoll_mobile_starbase sfdoll_star_attacker ship_sfdoll_noel  }
+	size_restriction = { sfdoll_mobile_starbase  ship_sfdoll_noel  }
 	component_set = "planet_killer_sfdoll_1"
 	planet_destruction_gfx = "star_destroyer_effect_gfx"
 }

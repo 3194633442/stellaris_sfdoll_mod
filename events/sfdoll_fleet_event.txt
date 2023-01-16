@@ -101,61 +101,6 @@ ship_event = {
 # 	}
 # }
 
-ship_event = {
-	id = sfdoll_fleet_event.4
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		OR = {
-			is_ship_size = sfdoll_warship_4
-			is_ship_size = sfdoll_star_attacker
-		}
-	}
-	immediate = {
-		if = {
-			limit = {
-				has_component = sfdoll_aux_rebuild_2
-				NOT = {
-					has_ship_flag = flag_sfdoll_aux_rebuild_2
-					has_ship_flag = flag_sfdoll_aux_rebuild
-				}
-				# check_variable = {
-				# 	which = sfdoll_aux_rebuild_2
-				# 	value <4
-				# }
-			}
-			repair_ship = yes
-			set_disabled = no
-			set_timed_ship_flag = {
-				flag = flag_sfdoll_aux_rebuild_2
-				days = 30
-			}
-			# change_variable = {
-			# 	which = sfdoll_aux_rebuild_2
-			# 	value = 1
-			# }
-			# if = {
-			# 	limit = {
-			# 		NOT = {
-			# 			has_ship_flag = flag_sfdoll_aux_rebuild_2
-			# 		}
-			# 	}
-			# 	set_timed_ship_flag = {
-			# 		flag = flag_sfdoll_aux_rebuild_2
-			# 		days = 28
-			# 	}
-			# 	ship_event = {
-			# 		id = sfdoll_fleet_event.8
-			# 		days = 30
-			# 	}
-			# }
-
-		}
-		else = {
-			destroy_ship = this
-		}
-	}
-}
 
 #舰船破坏的统一检测,this = owner of destroyed ship,fromfrom = destroyed ship
 country_event = {

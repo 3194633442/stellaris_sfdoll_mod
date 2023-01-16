@@ -139,9 +139,6 @@ utility_component_template = {
 	prerequisites = { tech_sfdoll_aux_rebuild_2 }
 	component_set = "sfdoll_aux_rebuild_2"
 
-	size_restriction = {
-		sfdoll_star_attacker 
-	}
 	ai_weight = {
 		weight = 20
 		modifier = {

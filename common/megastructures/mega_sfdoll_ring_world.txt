@@ -33,8 +33,8 @@ mega_sfdoll_ring_world_1 = {
 	resources = {
 		category = megastructures
 		cost = {
-			alloys = 10000
-			unity = 1000
+			alloys = 20000
+			unity = 2000
 			GF_nyto_collapse_liquid = 1000
 		}
 		upkeep = {	energy = 5	}
@@ -53,7 +53,7 @@ mega_sfdoll_ring_world_2 = {
 	entity = ""
 	construction_entity = "ringworld_seam_entity_01_full_entity"
 	portrait = "GFX_megastructure_construction_background"
-	build_time = 1800
+	build_time = 3600
 	resources = {
 		category = megastructures
 		cost = {

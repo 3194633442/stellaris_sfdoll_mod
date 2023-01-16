@@ -165,7 +165,7 @@ sfdoll_mega_shipyard_5 = {
 	ship_modifier = { ship_starting_experience_add = 1000 }
 	
 	station_modifier = {
-		starbase_shipyard_capacity_add = 400
+		starbase_shipyard_capacity_add = 300
 		starbase_shipyard_build_cost_mult = -0.10
 		starbase_shipyard_build_speed_mult = 8.0		
 	}
