@@ -60,6 +60,27 @@ weapon_component_template = {
 	planet_destruction_gfx = "star_destroyer_effect_gfx"	
 }
 
+#黑洞转化为恒星
+weapon_component_template = {
+	key = "planet_killer_sfdoll_4"
+	size = planet_killer
+	type = planet_killer
+	use_ship_kill_target = no
+	can_destroy_stars = yes
+	icon = GFX_planet_killer_sfdoll_4
+	icon_frame = 1
+	windup = { min = 10 max = 10 }
+    total_fire_time = 10
+    range = 300
+	accuracy = 1
+	damage = { min = 0 max = 0 }
+  
+	prerequisites = {	tech_planet_killer_sfdoll_3	}
+	size_restriction = { sfdoll_mobile_starbase sfdoll_star_eater ship_sfdoll_noel  }
+	component_set = "planet_killer_sfdoll_4"
+	planet_destruction_gfx = "star_destroyer_effect_gfx"	
+}
+
 #殖民
 weapon_component_template = {
 	key = "planet_killer_sfdoll_colonizer"

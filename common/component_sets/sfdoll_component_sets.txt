@@ -160,6 +160,12 @@ component_set = {
 	icon_frame = 1
 }
 
+#黑洞转化为恒星
+component_set = {
+	key = " planet_killer_sfdoll_4"
+	icon = GFX_planet_killer_sfdoll_4
+	icon_frame = 1
+}
 
 component_set = {
 	key = "sfdoll_aux_rebuild_2"

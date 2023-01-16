@@ -123,6 +123,19 @@ can_destroy_planet_with_planet_killer_sfdoll_3 = {
 	}
 }
 
+#黑洞转恒星
+can_destroy_planet_with_planet_killer_sfdoll_4 = {
+	optimize_memory
+	custom_tooltip = {
+		fail_text = "requires_no_existing_megastructure"
+		NOT = { has_any_megastructure = yes }
+	}
+	custom_tooltip = {
+		fail_text = "requires_black_hole"
+		is_planet_class = pc_black_hole
+	}
+}
+
 can_destroy_planet_with_planet_killer_sfdoll_colonizer = {
 	owner = {
 		exists = this

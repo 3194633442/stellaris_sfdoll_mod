@@ -1226,3 +1226,32 @@ planet_event = {
 		}
 	}
 }
+
+#原初之星
+planet_event = {
+	id = sfdoll_planet_killer_event.16
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		solar_system = {
+			every_system_planet = {
+				if = {
+					limit = { is_planet_class = pc_black_hole }
+					change_pc = pc_g_star
+				}
+			}
+			set_star_class = sc_g
+		}
+		# planet_event = {
+		# 	id = sfdoll_planet_killer_event.17
+		# }
+	}
+}
+#黑洞转恒星提示
+planet_event = {
+	id = sfdoll_planet_killer_event.17
+	title = "sfdoll_planet_killer_event.17"
+	desc = "sfdoll_planet_killer_event.17_desc"
+	is_triggered_only = yes
+	fire_only_once = yes
+}

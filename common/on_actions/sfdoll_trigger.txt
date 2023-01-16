@@ -267,6 +267,13 @@ on_destroy_planet_with_planet_killer_sfdoll_3 = {
 	}
 }
 
+#黑洞转恒星
+on_destroy_planet_with_planet_killer_sfdoll_4 = {
+	events = {
+		sfdoll_planet_killer_event.16
+	}
+}
+
 on_destroy_planet_with_planet_killer_sfdoll_colonizer = {
 	events = {
 		sfdoll_planet_killer_event.13
