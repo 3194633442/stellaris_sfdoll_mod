@@ -27,12 +27,12 @@ sfdoll_warship_1 = {
 	acceleration = 0.35
 	rotation_speed = 0.1
 	collision_radius = @corvette_collision_radius
-	max_hitpoints = 10000
+	max_hitpoints = 5000
 	base_buildtime = 240
 	modifier = {
 		ship_evasion_add = 50
-		ship_armor_add = 5000
-		ship_shield_add = 5000
+		ship_armor_add = 2000
+		ship_shield_add = 2000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {
@@ -80,12 +80,12 @@ sfdoll_warship_2 = {
 	acceleration = 0.35
 	rotation_speed = 0.1
 	collision_radius = @destroyer_collision_radius
-	max_hitpoints = 20000
+	max_hitpoints = 10000
 	base_buildtime = 300
 	modifier = {
 		ship_evasion_add = 45
-		ship_armor_add = 10000
-		ship_shield_add = 10000
+		ship_armor_add = 5000
+		ship_shield_add = 5000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {
@@ -133,12 +133,12 @@ sfdoll_warship_3 = {
 	acceleration = 0.35
 	rotation_speed = 0.1
 	collision_radius = @cruiser_collision_radius
-	max_hitpoints = 50000
+	max_hitpoints = 18000
 	base_buildtime = 360
 	modifier = {
 		ship_evasion_add = 40
-		ship_armor_add = 25000
-		ship_shield_add = 25000
+		ship_armor_add = 9000
+		ship_shield_add = 9000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {
@@ -186,12 +186,12 @@ sfdoll_warship_4 = {
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @battleship_collision_radius
-	max_hitpoints = 100000
+	max_hitpoints = 35000
 	base_buildtime = 600
 	modifier = {
 		ship_evasion_add = 30
-		ship_armor_add = 50000
-		ship_shield_add = 50000
+		ship_armor_add = 18000
+		ship_shield_add = 18000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {
@@ -239,11 +239,11 @@ sfdoll_warship_5 = {
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 200000
+	max_hitpoints = 70000
 	modifier = {
 		ship_evasion_add = 20
-		ship_armor_add = 100000
-		ship_shield_add = 100000
+		ship_armor_add = 35000
+		ship_shield_add = 35000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {	ships_upkeep_mult = -1	}
@@ -297,11 +297,11 @@ sfdoll_warship_6 = {
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 300000
+	max_hitpoints = 100000
 	modifier = {
 		ship_evasion_add = 20
-		ship_armor_add = 150000
-		ship_shield_add = 150000
+		ship_armor_add = 50000
+		ship_shield_add = 50000
 		ship_piracy_suppression_add = 10
 	}
 	ship_modifier = {	ships_upkeep_mult = -1	}
@@ -360,9 +360,9 @@ sfdoll_mobile_starbase = {
 	acceleration = 0.3
 	rotation_speed = 0.2
 	collision_radius = @titan_collision_radius
-	max_hitpoints = 1000000
+	max_hitpoints = 700000
 	modifier = {
-		ship_evasion_add = 30
+		ship_evasion_add = 10
 		ship_armor_add = 500000
 		ship_shield_add = 500000
 		ship_hull_regen_add_static = 500000
@@ -572,91 +572,6 @@ sfdoll_star_eater = {
 		}
 	}
 }
-
-
-
-
-#星际巡航舰
-# sfdoll_warship_5 = {
-# 	graphical_culture = no
-# 	entity = sfdoll_SANGVIS_FERRI_frame_entity
-# 	max_speed = @speed_very_fast
-# 	acceleration = 0.3
-# 	rotation_speed = 0.2
-# 	collision_radius = @titan_collision_radius
-# 	max_hitpoints = 1000000
-# 	modifier = {
-# 		ship_evasion_add = 10
-# 		ship_armor_add = 1000000
-# 		ship_shield_add = 1000000
-# 		ship_piracy_suppression_add = 10
-# 	}
-# 	section_slots = {
-# 		"bow" = { locator = part2 }
-# 		"core" = { locator = part2 }
-# 		"core2" = { locator = part2 }
-# 		"stern"  = { locator = part2 }
-# 	}
-# 	size_multiplier = 50
-# 	fleet_slot_size = 8
-# 	num_target_locators = 8
-# 	is_space_station = no
-# 	icon = ship_size_military_32
-# 	base_buildtime = 1440
-# 	can_have_federation_design = no
-# 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-# 	enable_3dview_in_ship_browser = no #if yes, ship design will have a 3d view in the ship browser
-# 	components_add_to_cost = no
-
-# 	prerequisites = { tech_sfdoll_warship_5 }
-# 	combat_disengage_chance = 1.5
-# 	class = shipclass_military
-# 	construction_type = starbase_shipyard
-# 	required_component_set = "power_core"
-# 	required_component_set = "ftl_components"
-# 	required_component_set = "sensor_components"
-# 	required_component_set = "thruster_components"
-# 	required_component_set = "combat_computers"
-# 	required_component_set = "sfdoll_aura_components"
-# 	potential_country = {
-# 		has_authority = auth_gf_sfdoll
-# 	}
-# 	possible_construction = {
-# 		custom_tooltip = {
-# 			fail_text = "need_mega_sfdoll_starport"
-# 			OR = {
-# 				AND = {
-# 					is_scope_type = starbase
-# 					has_starbase_size = sfdoll_mobile_starbase
-# 				}
-# 				AND = {
-# 					is_scope_type = megastructure
-# 					OR = {
-# 						is_megastructure_type = mega_sfdoll_starport_02
-# 						is_megastructure_type = mega_shipyard_3
-# 						is_megastructure_type = mega_shipyard_2
-# 						is_megastructure_type = mega_shipyard_restored
-# 					}
-# 				}
-# 			}
-# 		}
-# 	}
-
-# 	resources = {
-# 		category = ships
-# 		cost = {
-# 			alloys = 20000
-# 			GF_nyto_collapse_liquid = 2000
-# 		}
-# 		upkeep = {
-# 			energy = 200
-# 			alloys = 100
-# 		}
-# 	}
-# 	min_upgrade_cost = {
-# 		alloys = 10
-# 	}
-# }
 
 #母舰
 # ship_sfdoll_carrier = {
