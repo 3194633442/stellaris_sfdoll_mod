@@ -169,7 +169,20 @@ tech_planet_killer_sfdoll_3 = {
 	icon = tech_planet_killer_sfdoll_3
 	prerequisites = {	tech_sfdoll_weapon_T_SP	}
 	potential = {	has_authority = auth_gf_sfdoll	}
-	weight = 1500
+	weight = 1000
+}
+# 黑洞转恒星
+tech_planet_killer_sfdoll_4 = {
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { field_manipulation }
+	is_reverse_engineerable = no
+	icon = tech_planet_killer_sfdoll_4
+	prerequisites = {	tech_planet_killer_sfdoll_3	}
+	potential = {	has_authority = auth_gf_sfdoll	}
+	weight = 1000
 }
 
 #shield

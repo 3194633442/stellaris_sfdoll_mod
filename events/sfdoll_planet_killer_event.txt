@@ -1242,16 +1242,17 @@ planet_event = {
 			}
 			set_star_class = sc_g
 		}
-		# planet_event = {
-		# 	id = sfdoll_planet_killer_event.17
-		# }
+		from = { owner = { country_event = { id = sfdoll_planet_killer_event.17 } } }
 	}
 }
 #黑洞转恒星提示
-planet_event = {
+country_event = {
 	id = sfdoll_planet_killer_event.17
 	title = "sfdoll_planet_killer_event.17"
 	desc = "sfdoll_planet_killer_event.17_desc"
+	picture = GFX_evt_star_pulsar
+	location = from
 	is_triggered_only = yes
 	fire_only_once = yes
+	option = { name = "FASCINATING" }
 }

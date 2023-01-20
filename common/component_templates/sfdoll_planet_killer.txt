@@ -55,7 +55,7 @@ weapon_component_template = {
 	damage = { min = 0 max = 0 }
   
 	prerequisites = {	tech_planet_killer_sfdoll_3	}
-	size_restriction = { sfdoll_mobile_starbase sfdoll_star_eater ship_sfdoll_noel  }
+	size_restriction = { sfdoll_mobile_starbase sfdoll_star_eater  }
 	component_set = "planet_killer_sfdoll_3"
 	planet_destruction_gfx = "star_destroyer_effect_gfx"	
 }
@@ -69,14 +69,14 @@ weapon_component_template = {
 	can_destroy_stars = yes
 	icon = GFX_planet_killer_sfdoll_4
 	icon_frame = 1
-	windup = { min = 10 max = 10 }
-    total_fire_time = 10
+	windup = { min = 20 max = 20 }
+    total_fire_time = 20
     range = 300
 	accuracy = 1
 	damage = { min = 0 max = 0 }
   
-	prerequisites = {	tech_planet_killer_sfdoll_3	}
-	size_restriction = { sfdoll_mobile_starbase sfdoll_star_eater ship_sfdoll_noel  }
+	prerequisites = {	tech_planet_killer_sfdoll_4	}
+	size_restriction = { sfdoll_mobile_starbase }
 	component_set = "planet_killer_sfdoll_4"
 	planet_destruction_gfx = "star_destroyer_effect_gfx"	
 }

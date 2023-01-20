@@ -32,7 +32,18 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_3:0 "collapsed"
 tech_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"
 tech_planet_killer_sfdoll_3_desc:0 "$planet_killer_sfdoll_3_DESC$"
 
+planet_killer_sfdoll_4:0 "Original Star"
+planet_killer_sfdoll_4_DESC:0 "This device could turn a black hole into a star."
 
+planet_killer_sfdoll_4_ACTION:0 "$planet_killer_sfdoll_4$"
+FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_4:0 "$planet_killer_sfdoll_4$"
+MESSAGE_DESC_FOR_planet_killer_sfdoll_4:0 "Transformed"
+
+tech_planet_killer_sfdoll_4:0 "$planet_killer_sfdoll_4$"
+tech_planet_killer_sfdoll_4_desc:0 "$planet_killer_sfdoll_4_DESC$"
+
+sfdoll_planet_killer_event.17:0 "$planet_killer_sfdoll_4$"
+sfdoll_planet_killer_event.17_desc:0 "Under the action of $planet_killer_sfdoll_4$, [from.GetName] is converted to a star. We have recorded this process in detail."
 
 planet_killer_sfdoll_colonizer:0 "Colonial Space Shuttle"
 planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$ can transport personnel and materials to the planet and support the initial development of the planet."

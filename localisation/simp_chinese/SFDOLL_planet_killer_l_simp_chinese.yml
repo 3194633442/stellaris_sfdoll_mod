@@ -35,13 +35,18 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_3:0 "塌缩"
 tech_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"
 tech_planet_killer_sfdoll_3_desc:0 "$planet_killer_sfdoll_3_DESC$"
 
-# planet_killer_sfdoll_4:0 "原初之星"
-# planet_killer_sfdoll_4_DESC:0 "这种设备可以将黑洞转化为恒星。"
+planet_killer_sfdoll_4:0 "原初之星"
+planet_killer_sfdoll_4_DESC:0 "这种设备可以将黑洞转化为恒星。"
 
-# planet_killer_sfdoll_4_ACTION:0 "$planet_killer_sfdoll_4$"
-# FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_4:0 "$planet_killer_sfdoll_4$"
-# MESSAGE_DESC_FOR_planet_killer_sfdoll_4:0 "转化"
+planet_killer_sfdoll_4_ACTION:0 "$planet_killer_sfdoll_4$"
+FLEETORDER_DESTROY_PLANET_WITH_planet_killer_sfdoll_4:0 "$planet_killer_sfdoll_4$"
+MESSAGE_DESC_FOR_planet_killer_sfdoll_4:0 "转化"
 
+tech_planet_killer_sfdoll_4:0 "$planet_killer_sfdoll_4$"
+tech_planet_killer_sfdoll_4_desc:0 "$planet_killer_sfdoll_4_DESC$"
+
+sfdoll_planet_killer_event.17:0 "$planet_killer_sfdoll_4$"
+sfdoll_planet_killer_event.17_desc:0 "在$planet_killer_sfdoll_4$的作用下，[from.GetName]被转化为恒星。我们详细地记录了这一过程。"
 
 planet_killer_sfdoll_colonizer:0 "殖民太空梭"
 planet_killer_sfdoll_colonizer_DESC:0 "$planet_killer_sfdoll_colonizer$可以向星球上运输人员和物资,支持对星球的初步开发。"
