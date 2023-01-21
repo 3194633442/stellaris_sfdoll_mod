@@ -15,19 +15,14 @@ country_event = {
 		planet_background = this
 		city_level = this
 	}
-	immediate = { set_country_flag = contract_diplomacy_engaged }
 	after = {
 		hidden_effect = {
-			remove_country_flag = contract_diplomacy_engaged
 			set_country_flag = sfdoll_dingyi_owner
 			sfdoll_dingyi_become_scientist = yes
 		}
 	}
 
-	option = {
-		name = "INTERESTING"
-		# response_text = sfdoll_three_body_event.1_option_response
-	}
+	option = { name = "INTERESTING" }
 }
 
 #和丁仪通讯

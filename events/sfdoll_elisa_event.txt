@@ -251,4 +251,13 @@ country_event = {
 		name = OK
 		break = yes
 	}
+	after = {
+		hidden_effect = {
+			# 丁仪加入
+			if = {
+				limit = { has_civic = civic_sfdoll_research }
+				country_event = { id = sfdoll_three_body_event.1 }
+			}
+		}
+	}
 }
