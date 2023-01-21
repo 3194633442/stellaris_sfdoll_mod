@@ -114,6 +114,11 @@ country_event = {
 		}
 
 		#丁仪
+		if = {
+			limit = { has_civic = civic_sfdoll_research }
+			set_country_flag = sfdoll_dingyi_owner
+			sfdoll_dingyi_become_scientist = yes
+		}
 		# country_event = {
 		# 	id = sfdoll_three_body_event.1
 		# 	days = 10

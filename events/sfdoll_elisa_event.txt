@@ -209,11 +209,7 @@ country_event = {
 	option = {
 		name = "sfdoll_elisa_event.3_option_6"
 		trigger = {	has_country_flag = sfdoll_dingyi_owner	}
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_three_body_event.2
-			}
-		}
+		hidden_effect = { country_event = { id = sfdoll_three_body_event.2 } }
 	}
 
 	#找高维人

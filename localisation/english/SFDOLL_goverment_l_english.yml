@@ -14,7 +14,7 @@ auth_gf_sfdoll:0 "SF Doll Government"
 auth_gf_sfdoll_desc:0 "Has no regular elections, and influence can be used to conduct elections.\n\nNot compatible with $INTEL_INFO_ascension_perks$: $ap_the_flesh_is_weak$"
 
 civic_sfdoll_research:0"Determined Explorer"
-civic_sfdoll_research_desc:0 " Our creator is a brilliant scientist, and we will continue his work.\n\nAllow to build §H $building_sfdoll_academy$ §!"
+civic_sfdoll_research_desc:0 " Our creator is a brilliant scientist, and we will continue his work.\nIf it is used in the beginning, Dr. Ding Yi will be captured and transformed by SF Dolls.\n\nAllow to build §H $building_sfdoll_academy$ §!"
 
 civic_sfdoll_ogas_manage:0 "All-State Automated System"
 civic_sfdoll_ogas_manage_desc:0 "Make full use of supercomputers and OGAS networks in social management to make the social operation of Sangvis Ferri Dolls more efficient and fair.\n\nAllow to build §H $building_sfdoll_net$ §!"

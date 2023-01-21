@@ -6,12 +6,10 @@ country_event = {
 	title = sfdoll_three_body_event.1
 	desc = sfdoll_three_body_event.1_desc
 	is_triggered_only = yes
-	trigger = {
-		has_authority = auth_gf_sfdoll
-	}
+	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
 	picture_event_data = {
-		portrait = GFX_sfdoll_dingyi
+		portrait = GFX_sfdoll_elisa
 		room = this
 		graphical_culture = this
 		planet_background = this
@@ -19,15 +17,16 @@ country_event = {
 	}
 	immediate = { set_country_flag = contract_diplomacy_engaged }
 	after = {
-		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
 		hidden_effect = {
+			remove_country_flag = contract_diplomacy_engaged
 			set_country_flag = sfdoll_dingyi_owner
+			sfdoll_dingyi_become_scientist = yes
 		}
 	}
 
 	option = {
-		name = sfdoll_three_body_event.1_option
-		response_text = sfdoll_three_body_event.1_option_response
+		name = "INTERESTING"
+		# response_text = sfdoll_three_body_event.1_option_response
 	}
 }
 
@@ -37,6 +36,7 @@ country_event = {
 	title = sfdoll_three_body_event.2
 	desc = sfdoll_three_body_event.2_desc_a
 	desc = sfdoll_three_body_event.2_desc_b
+	# desc = sfdoll_three_body_event.2_desc_c
 	is_triggered_only = yes
 	trigger = {
 		has_authority = auth_gf_sfdoll
@@ -64,55 +64,15 @@ country_event = {
 					exists = event_target:sfdoll_leader_dingyi
 					event_target:sfdoll_leader_dingyi = {
 						leader_class = scientist
-						owner = {
-							is_same_value = root
-						}
+						owner = { is_same_value = root }
 					}
 
 				}
 			}
 		}
-		hidden_effect = {
-			# every_owned_leader = {
-			# 	limit = {
-			# 		has_leader_flag = sfdoll_leader_dingyi
-			# 	}
-			# 	kill_leader = {
-			# 		show_notification = no
-			# 		fire = yes
-			# 	}
-			# }
-			
-			event_target:sfdoll_leader_dingyi = {
-				kill_leader = {
-					show_notification = no
-					fire = yes
-				}
-			}
-			create_leader = {
-				class = scientist
-				species = owner_species
-				name = "NAME_sfdoll_dingyi"
-				skill = 5
-				set_age = 35
-				immortal = yes
-				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = {
-					trait = leader_trait_sfdoll_dingyi
-					trait = leader_trait_maniacal 
-				}
-				effect = {
-					change_leader_portrait = GFX_sfdoll_dingyi
-					set_leader_flag = sfdoll_leader_dingyi
-					save_global_event_target_as = sfdoll_leader_dingyi
-				}
-			}
-		}
+		hidden_effect = { sfdoll_dingyi_become_scientist = yes }
 	}
-	option = {
-		name = EXIT
-		hidden_effect = { break = yes }
-	}
+	option = { name = EXIT hidden_effect = { break = yes } }
 }
 
 # 和智子通讯,领袖以外的功能
