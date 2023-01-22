@@ -427,7 +427,11 @@ leader_trait_sfdoll_dingyi = {
 	cost = 0
 	randomized = no
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_dingyi.dds"
-	modifier = { leaders_upkeep_mult = 0.25 }
+	modifier = {
+		all_technology_research_speed = 0.1
+		category_field_manipulation_research_speed_mult = 0.15
+		category_particles_research_speed_mult = 0.15
+	}
 	leader_trait = { scientist }
 	leader_class = { scientist }
 	leader_potential_add = {from = { has_authority = auth_gf_sfdoll }}

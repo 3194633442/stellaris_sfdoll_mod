@@ -348,8 +348,6 @@ sfdoll_dingyi_become_scientist = {
 		traits = {
 			trait = leader_trait_sfdoll_dingyi
 			trait = leader_trait_maniacal
-			trait = leader_trait_expertise_particles
-			trait = leader_trait_expertise_field_manipulation
 		}
 		effect = {
 			change_leader_portrait = GFX_sfdoll_dingyi
