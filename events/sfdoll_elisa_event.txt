@@ -222,6 +222,14 @@ country_event = {
 			}
 		}
 	}
+
+	# 找凉子
+	option = {
+		name = "NAME_SHIZUKI_RYOUKO"
+		trigger = {	has_country_flag = sfdoll_shizuki_ryouko_owner	}
+		hidden_effect = { country_event = { id = sfdoll_pmmm_event.1 } }
+	}
+
 	# 联系智子
 	# option = {
 	# 	name = "sfdoll_elisa_event.3_option_8"

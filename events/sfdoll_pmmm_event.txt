@@ -205,8 +205,6 @@ country_event = {
 	desc = "sfdoll_pmmm_event.4_desc"	
 	is_triggered_only = yes
 	after = {
-		hidden_effect = {
-
-		}
+		hidden_effect = { set_country_flag = sfdoll_shizuki_ryouko_owner }
 	}
 }

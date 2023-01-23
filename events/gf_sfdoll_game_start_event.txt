@@ -108,10 +108,6 @@ country_event = {
 			id = sfdoll_elisa_event.1
 			days = 7
 		}
-		country_event = {
-			id = sfdoll_elisa_event.4
-			days = 7
-		}
 
 		#丁仪
 		# if = {
@@ -164,6 +160,7 @@ country_event = {
 		set_country_flag = no_machine_uprising
 		set_country_flag = synth_detector
 
+		#开局提示
 		country_event = {
 			id = gf_sfdoll_game_start_event.1
 			days = 7
@@ -182,7 +179,7 @@ country_event = {
 }
 
 
-#讲故事
+#开局提示
 country_event = {
 	id = gf_sfdoll_game_start_event.1
 	title = gf_sfdoll_game_start_event.1
@@ -190,4 +187,10 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = no
 	picture = GFX_evp_sfdoll_elisa
+	after = {
+		hidden_effect = {
+			#伊莱莎对话
+			country_event = { id = sfdoll_elisa_event.4  }
+		}
+	}
 }
