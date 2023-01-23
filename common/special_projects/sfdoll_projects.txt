@@ -183,3 +183,24 @@ special_project = {
 	on_fail = {
 	}
 }
+
+# 治疗志筑凉子
+special_project = {
+	key = "sfdoll_shizuki_ryouko_project"
+	event_chain = sfdoll_main_event_chain
+	cost = @tier5cost3
+	# days_to_research = 30
+	tech_department = physics_technology
+
+	picture = GFX_evt_analyzing_artifacts
+	event_scope = ship_event
+	requirements = {
+		leader = scientist
+	}
+
+	on_success = {
+		owner = { country_event = { id = sfdoll_pmmm_event.4 } }
+	}
+	on_fail = {
+	}
+}

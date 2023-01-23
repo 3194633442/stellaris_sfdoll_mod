@@ -488,3 +488,56 @@ leader_trait_sfdoll_sophon_general = {
 	leader_class = { general }
 	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
 }
+
+# 志筑凉子总督
+leader_trait_sfdoll_shizuki_ryouko_governor = {
+	cost = 0
+	randomized = no
+	immortal_leaders = yes
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
+	modifier = {
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
+}
+# 志筑凉子科学家
+leader_trait_sfdoll_shizuki_ryouko_scientist = {
+	cost = 0
+	randomized = no
+	immortal_leaders = yes
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
+	modifier = {
+
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
+}
+# 志筑凉子舰队司令
+leader_trait_sfdoll_shizuki_ryouko_admiral = {
+	cost = 0
+	randomized = no
+	immortal_leaders = yes
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
+	modifier = {
+
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
+}
+# 志筑凉子陆军指挥
+leader_trait_sfdoll_shizuki_ryouko_general = {
+	cost = 0
+	randomized = no
+	immortal_leaders = yes
+	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
+	modifier = {
+
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
+}

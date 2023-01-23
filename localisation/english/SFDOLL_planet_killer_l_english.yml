@@ -32,7 +32,7 @@ MESSAGE_DESC_FOR_planet_killer_sfdoll_3:0 "collapsed"
 tech_planet_killer_sfdoll_3:0 "$planet_killer_sfdoll_3$"
 tech_planet_killer_sfdoll_3_desc:0 "$planet_killer_sfdoll_3_DESC$"
 
-planet_killer_sfdoll_4:0 "Original Star"
+planet_killer_sfdoll_4:0 "Horizon Elimination Device"
 planet_killer_sfdoll_4_DESC:0 "This device could turn a black hole into a star."
 
 planet_killer_sfdoll_4_ACTION:0 "$planet_killer_sfdoll_4$"

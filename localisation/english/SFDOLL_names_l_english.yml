@@ -18,6 +18,10 @@ Name_sfdoll_system_search_zion:0 "Mystery Signal Source"
 NAME_sfdoll_triela:0 "Triela"
 name_sfdoll_triela_country:0 "Triela"
 
+sfdoll_human_species:0 "Human"
+sfdoll_human_species_plural::0 "Humans"
+sfdoll_human_species_adjective:0 "Human"
+
 PRESCRIPTED_species_sfdoll_1:0 "SF Doll"
 PRESCRIPTED_species_plural_sfdoll_1:0 "SF Dolls"
 PRESCRIPTED_species_adjective_sfdoll_1:0 "SF Doll"

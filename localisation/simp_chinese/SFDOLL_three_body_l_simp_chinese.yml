@@ -1,10 +1,7 @@
 ﻿l_simp_chinese:
 ###############################
-sfdoll_task_termination:0 "任务终止"
-sfdoll_the_leader_is_doing_this_job:0 "这位领袖正在做这项工作"
-
 sfdoll_three_body_event.1:0 "与伊莱莎通讯"
-sfdoll_three_body_event.1_desc:0 "那个叫丁仪的人类？我很喜欢他。所以，在地球时，我给了他一个无法拒绝的条件，让他成为了我们的一员。"
+sfdoll_three_body_event.1_desc:0 "那个叫丁仪的人类？我很重视他。所以，在地球时，我给了他一个无法拒绝的条件，让他成为了我们的一员。"
 
 sfdoll_three_body_event.2:0 "与丁仪通讯"
 sfdoll_three_body_event.2_desc_a:0 "我的生命已经有主了,那就是物理学."

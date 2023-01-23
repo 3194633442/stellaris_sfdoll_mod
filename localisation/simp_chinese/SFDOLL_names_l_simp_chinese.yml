@@ -22,6 +22,10 @@ Name_beacon_ship_sfdoll_fleet:0 "铁血之矛信标"
 Name_beacon_ship_sfdoll:0 "铁血之矛信标"
 design_beacon_ship_sfdoll:0 "铁血之矛"
 
+sfdoll_human_species:0 "人类"
+sfdoll_human_species_plural::0 "人类"
+sfdoll_human_species_adjective:0 "人类"
+
 PRESCRIPTED_species_sfdoll_1:0 "铁血人形"
 PRESCRIPTED_species_plural_sfdoll_1:0 "铁血人形们"
 PRESCRIPTED_species_adjective_sfdoll_1:0 "铁血人形的"

@@ -168,6 +168,16 @@ country_event = {
 			id = gf_sfdoll_game_start_event.1
 			days = 7
 		}
+
+		# 人类物种
+		create_species = {
+			name = "sfdoll_human_species"
+			class = HUM
+			immortal = no
+			effect = {
+				save_global_event_target_as = sfdoll_human_species
+			}
+		}
 	}
 }
 

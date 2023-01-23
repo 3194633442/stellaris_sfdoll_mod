@@ -229,8 +229,8 @@ country_event = {
 
 	#退出
 	option = {
-		name = "sfdoll_break_option"
-		country_event = { id = sfdoll_elisa_event.3 }
+		name = "QUIT"
+		hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } }
 	}
 }
 
