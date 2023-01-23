@@ -23,8 +23,8 @@ leader_trait_sfdoll_shizuki_ryouko_admiral_desc:0 "$leader_trait_sfdoll_shizuki_
 leader_trait_sfdoll_shizuki_ryouko_general:0 "$leader_trait_sfdoll_shizuki_ryouko_governor$"
 leader_trait_sfdoll_shizuki_ryouko_general_desc:0 "$leader_trait_sfdoll_shizuki_ryouko_governor_desc$"
 
-sfdoll_pmmm_event.3:0 "求救者"
-sfdoll_pmmm_event.3_desc:0 "铁血的深空探测器发现了外星人的踪迹. 它们声称自己的飞船失去了动力，需要我们的救援. 让我们感兴趣的是，外星人使用的超光速通讯不同于任何一种已知的通讯手段.\n我们捕获了失事的外星飞船，船上只有一名少女和她的AI助手. AI称，这位少女名叫志筑凉子，她的身体使用一种永动机来供能，但永动机需要定期进行净化. 于是，根据它提供的资料，我们准备打印一台净化装置，帮助她维持生命。"
+sfdoll_pmmm_event.3:0 "The person who asked for help"
+sfdoll_pmmm_event.3_desc:0 "SF Dolls' deep space probe has found the traces of aliens. They claim that their spaceship has lost its power and needs our rescue. \nWe captured a wrecked alien ship with only a teenage girl and her AI assistant. The body of the teenager, Shizuki_Ryouko, is powered by a perpetual motion machine that requires regular purification, AI said. \nTherefore, according to the information provided by AI, we are going to build a purification device to help her maintain her life."
 
 sfdoll_shizuki_ryouko_project:0 "治疗志筑凉子"
 sfdoll_shizuki_ryouko_project_DESC:0 "$sfdoll_pmmm_event.3_desc$"
