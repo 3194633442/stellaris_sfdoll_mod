@@ -7,7 +7,7 @@ country_event = {
 	desc = "sfdoll_pmmm_event.1_desc"	
 	diplomatic = yes
 	picture_event_data = {
-		portrait = GFX_sfdoll_shizuki_ryouko
+		portrait = GFX_sfdoll_Shizuki_Ryouko
 		room = this
 		graphical_culture = this
 		planet_background = this
@@ -16,43 +16,43 @@ country_event = {
 	is_triggered_only = yes
 
 	#总督
-	option = {
-		name =  "sfdoll_pmmm_event.1_a"
-		allow = { 
-			custom_tooltip ={
-				fail_text = "sfdoll_the_leader_is_doing_this_job"
-				NAND = {
-					exists = event_target:sfdoll_shizuki_ryouko
-					event_target:sfdoll_shizuki_ryouko = {
-						leader_class = governor
-						owner = { is_same_value = root }
-					}		
-				}
-			}			 
-		}
-		hidden_effect = {
-			if = {
-				limit = { exists = event_target:sfdoll_shizuki_ryouko }
-				event_target:sfdoll_shizuki_ryouko = { kill_leader = { show_notification = no fire = yes } }
-			}
-			create_leader = {
-				class = governor
-				species = event_target:sfdoll_human_species
-				name = "NAME_SHIZUKI_RYOUKO"
-				skill = 1
-				set_age = 15
-				immortal = yes
-				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_sfdoll_shizuki_ryouko_governor }
-				effect = {
-					change_leader_portrait = GFX_sfdoll_Shizuki_Ryouko
-					set_leader_flag = sfdoll_shizuki_ryouko
-					save_global_event_target_as = sfdoll_shizuki_ryouko
-				}
-			}
-		}
-		response_text = "sfdoll_pmmm_event.1_a_response"
-	}
+	# option = {
+	# 	name =  "sfdoll_pmmm_event.1_a"
+	# 	allow = { 
+	# 		custom_tooltip ={
+	# 			fail_text = "sfdoll_the_leader_is_doing_this_job"
+	# 			NAND = {
+	# 				exists = event_target:sfdoll_shizuki_ryouko
+	# 				event_target:sfdoll_shizuki_ryouko = {
+	# 					leader_class = governor
+	# 					owner = { is_same_value = root }
+	# 				}		
+	# 			}
+	# 		}			 
+	# 	}
+	# 	hidden_effect = {
+	# 		if = {
+	# 			limit = { exists = event_target:sfdoll_shizuki_ryouko }
+	# 			event_target:sfdoll_shizuki_ryouko = { kill_leader = { show_notification = no fire = yes } }
+	# 		}
+	# 		create_leader = {
+	# 			class = governor
+	# 			species = event_target:sfdoll_human_species
+	# 			name = "NAME_SHIZUKI_RYOUKO"
+	# 			skill = 1
+	# 			set_age = 15
+	# 			immortal = yes
+	# 			event_leader = yes	# prevents this leader from leading factions and winning elections
+	# 			traits = { trait = leader_trait_sfdoll_shizuki_ryouko_governor }
+	# 			effect = {
+	# 				change_leader_portrait = GFX_sfdoll_Shizuki_Ryouko
+	# 				set_leader_flag = sfdoll_shizuki_ryouko
+	# 				save_global_event_target_as = sfdoll_shizuki_ryouko
+	# 			}
+	# 		}
+	# 	}
+	# 	response_text = "sfdoll_pmmm_event.1_a_response"
+	# }
 
 	#科学家
 	option = {
@@ -178,19 +178,19 @@ country_event = {
 	}
 }
 
-# 发现凉子
 country_event = {
 	id = sfdoll_pmmm_event.2
 	title = "sfdoll_pmmm_event.2"
 	desc = "sfdoll_pmmm_event.2_desc"	
 	is_triggered_only = yes
-	after = { hidden_effect = { country_event = { id = sfdoll_pmmm_event.3 } } }
 }
 
+# 发现凉子
 country_event = {
 	id = sfdoll_pmmm_event.3
 	title = "sfdoll_pmmm_event.3"
-	desc = "sfdoll_pmmm_event.3_desc"	
+	desc = "sfdoll_pmmm_event.3_desc"
+	picture = GFX_evt_ship_in_orbit_3
 	is_triggered_only = yes
 	after = {
 		hidden_effect = {
@@ -202,9 +202,11 @@ country_event = {
 country_event = {
 	id = sfdoll_pmmm_event.4
 	title = "sfdoll_pmmm_event.4"
-	desc = "sfdoll_pmmm_event.4_desc"	
+	desc = "sfdoll_pmmm_event.4_desc"
+	picture = GFX_evp_sfdoll_ryouko_hair
 	is_triggered_only = yes
 	after = {
+		add_research_option = tech_sfdoll_magic
 		hidden_effect = { set_country_flag = sfdoll_shizuki_ryouko_owner }
 	}
 }
