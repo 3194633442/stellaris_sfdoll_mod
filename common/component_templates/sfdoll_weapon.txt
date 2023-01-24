@@ -341,7 +341,7 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
 	#static_rotation = yes
-	damage = { min = 700 max = 900 }
+	damage = { min = 600 max = 700 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = { min = 2 	max = 2	}
@@ -390,7 +390,7 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "blue_laser_s"
 	entity = invisible_turret_entity
-	damage = { min = 200 max = 300 }
+	damage = { min = 200 max = 240 }
 	#冷却时间要除以10
 	total_fire_time = 12
 	range = 250
@@ -439,7 +439,7 @@ weapon_component_template = {
 	projectile_gfx = "blue_laser_m"
 	entity = invisible_turret_entity
 	#static_rotation = yes
-	damage = { min = 1400 max = 2000 }
+	damage = { min = 1300 max = 1400 }
 	#冷却时间要除以10
 	total_fire_time = 31
 	windup = {	min = 2  max = 2 }
@@ -487,7 +487,7 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "blue_laser_l"
 	entity = invisible_turret_entity
-	damage = { min = 7500 max = 8400 }
+	damage = { min = 6000 max = 7000 }
 	#冷却时间要除以10
 	total_fire_time = 61
 	windup = {	min = 5  max = 5 }
@@ -497,7 +497,7 @@ weapon_component_template = {
 	shield_penetration = 1
 	armor_penetration = 1
 	hull_damage = 1.5
-	armor_damage = 1.5
+	armor_damage = 2
 	power = -800
 	
 	#待修改
@@ -540,7 +540,7 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 	#4250
-	damage = { min = 45000 max = 55000 }
+	damage = { min = 30000 max = 36000 }
 	#冷却时间要除以10
 	total_fire_time = 91
 	windup = { min = 8 max = 8 }
@@ -550,7 +550,7 @@ weapon_component_template = {
 	shield_penetration = 1
 	armor_penetration = 1
 	shield_damage = 2
-	power = -3000
+	power = -2000
 	
 	#待修改
 	prerequisites = { "tech_sfdoll_weapon_T_2" }
@@ -592,7 +592,7 @@ weapon_component_template = {
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 300000 max = 350000 }
+	damage = { min = 260000 max = 300000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = { min = 11 max = 11 }
@@ -643,7 +643,7 @@ weapon_component_template = {
 	min_range = 20.0
 	static_rotation = yes
 	use_ship_kill_target = yes
-	damage = { min = 700000 max = 700000 }
+	damage = { min = 500000 max = 530000 }
 	#冷却时间要除以10
 	total_fire_time = 121
 	windup = { min = 11 max = 11 }
@@ -692,8 +692,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy weapon_type_explosive weapon_type_sfdoll	}
 	ai_tags = {	weapon_role_anti_hull	}
 	use_ship_kill_target = yes
-	# damage = { min = 7000 max = 9000 }
-	damage = { min = 14000 max = 18000 }
+	damage = { min = 10000 max = 13000 }
 	#冷却时间要除以10
 	total_fire_time = 260
 	windup = {	min = 23  max = 23 }
@@ -743,9 +742,10 @@ strike_craft_component_template = {
 	damage = { min = 700 max = 800 }
 	shield_penetration = 1
 	armor_penetration = 1
+	armor_damage = 3
 	hull_damage = 3
 	#舰载机的不需要除10
-	cooldown = 1
+	cooldown = 1.2
 	range = 230
 	#engagement_range = 800
 	accuracy = 1
@@ -798,7 +798,7 @@ strike_craft_component_template = {
 	shield_damage = 3
 	armor_damage = 3
 	#舰载机的不需要除10
-	cooldown = 1.1
+	cooldown = 1.2
 	range = 220
 	#engagement_range = 800
 	accuracy = 1

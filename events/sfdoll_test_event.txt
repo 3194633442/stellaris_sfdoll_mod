@@ -200,6 +200,9 @@ country_event = {
 		event_target:sfdoll_leader_sophon = {
 			kill_leader = { show_notification = yes fire = no }
 		}
+		event_target:sfdoll_leader_dingyi  = {
+			kill_leader = { show_notification = yes }
+		}
 		event_target:sfdoll_shizuki_ryouko  = {
 			kill_leader = { show_notification = yes }
 		}
