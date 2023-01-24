@@ -42,7 +42,7 @@ country_event = {
 			limit = {
 				event_target:leader_revive_sfdoll = { has_leader_flag = sfdoll_shizuki_ryouko }
 			}
-			country_event = { id = sfdoll_leader_revive_event.5 }
+			country_event = { id = sfdoll_leader_revive_event.6 }
 		}
 
 		#判断是否为noel
@@ -349,9 +349,9 @@ country_event = {
 
 #凉子复活事件
 country_event = {
-	id = sfdoll_leader_revive_event.5
-	title = "sfdoll_leader_revive_event.5"
-	desc = "sfdoll_leader_revive_event.5_desc"
+	id = sfdoll_leader_revive_event.6
+	title = "sfdoll_leader_revive_event.6"
+	desc = "sfdoll_leader_revive_event.6_desc"
 	picture = GFX_evp_sfdoll_ryouko_hair
 	is_triggered_only = yes
 }
