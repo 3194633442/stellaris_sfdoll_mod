@@ -1,7 +1,7 @@
 ﻿l_english:
 ###############################
 sfdoll_three_body_event.1:0 "Communication with Elisa"
-sfdoll_three_body_event.1_desc:0 "Dr Ding Yi? I value him very much. So when I was on the earth, I made him an offer he couldn't refuse, which made him a member of us." 
+sfdoll_three_body_event.1_desc:0 "I value Dr Ding Yi very much. So when I was on the earth, I made him an offer he couldn't refuse, which made him a member of us." 
 # sfdoll_three_body_event.1_option:0 "Do you regret it?"
 # sfdoll_three_body_event.1_option_response:0 "Regret? Impossible!\n\nLycoris created you, a new species! He became your creator, but he gave up his work.\n\nI'm not like Lycoris, physics is Everything I have, I will never give up."
 
@@ -42,7 +42,7 @@ sfdoll_three_body_event.5:0 "Communication with Sophon"
 sfdoll_three_body_event.5_desc:0 "Hello, creators. I can move at high speed and repeatedly pass through your sensory modules to generate signals, so as to directly 'talk' with you. Of course, I am also willing to operate a SF Doll body. To this end, I specially learned a lot of cultural knowledge, so as to design a reasonable image for myself."
 sfdoll_three_body_event.5_option:0 "Let's see your new look."
 sfdoll_three_body_event.6:0 "Communication with Sophon"
-sfdoll_three_body_event.6_desc:0 "Look!"
+sfdoll_three_body_event.6_desc:0 "Look! The prototype of this image seems to be called Tokiwa Nanaka?"
 sfdoll_three_body_event.6_a:0 "Awesome!"
 sfdoll_three_body_event.6_b:0 "What on earth have you learned?"
 
@@ -51,7 +51,6 @@ sfdoll_three_body_event.3_desc:0 "Is there a mission?"
 sfdoll_three_body_event.3_a:0 "Please collect intelligence"
 sfdoll_three_body_event.3_b:0 "Collect and process research data"
 sfdoll_sophon_to_leader:0 "Contact Sophon leader"
-
 
 sfdoll_three_body_event.7:0 "Communication with Sophon"
 sfdoll_three_body_event.7_desc_a:0 "Whether we like it or not, time always goes by. The memory goes away, and we disappear together... Alas, the life of all things is so illusory..."
