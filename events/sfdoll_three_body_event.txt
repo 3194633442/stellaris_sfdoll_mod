@@ -67,7 +67,7 @@ country_event = {
 		}
 		hidden_effect = { sfdoll_dingyi_become_scientist = yes }
 	}
-	option = { name = EXIT hidden_effect = { break = yes } }
+	option = { name = "QUIT" hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } } }
 }
 
 # 和智子通讯,领袖以外的功能

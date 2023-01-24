@@ -192,7 +192,7 @@ special_project = {
 	# days_to_research = 30
 	tech_department = physics_technology
 
-	picture = GFX_evt_analyzing_artifacts
+	picture = GFX_evp_sfdoll_ryouko_hair
 	event_scope = ship_event
 	requirements = {
 		leader = scientist

@@ -73,8 +73,8 @@ country_event = {
 		}
 	}
 
-	immediate = { set_country_flag = contract_diplomacy_engaged }
-	after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
+	# immediate = { set_country_flag = contract_diplomacy_engaged }
+	# after = { hidden_effect = { remove_country_flag = contract_diplomacy_engaged } }
 
 	# 联系领袖界面
 	option = {
@@ -140,14 +140,6 @@ country_event = {
 		city_level = this
 	}	
 	is_triggered_only = yes
-
-	immediate = {
-		set_country_flag = contract_diplomacy_engaged
-	}
-	after = {
-		hidden_effect = { remove_country_flag = contract_diplomacy_engaged }
-	}
-
 
 	#找衔尾蛇
 	option = {

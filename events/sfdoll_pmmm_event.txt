@@ -82,7 +82,11 @@ country_event = {
 				set_age = 15
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
-				traits = { trait = leader_trait_sfdoll_shizuki_ryouko_scientist }
+				traits = {
+					trait = leader_trait_roamer
+					trait = leader_trait_sfdoll_shizuki_ryouko_scientist
+					trait = leader_trait_
+				}
 				effect = {
 					change_leader_portrait = GFX_sfdoll_Shizuki_Ryouko
 					set_leader_flag = sfdoll_shizuki_ryouko
@@ -171,6 +175,11 @@ country_event = {
 		response_text = "sfdoll_pmmm_event.1_d_response"
 	}
 
+	option = {
+		name = "sfdoll_pmmm_event.1_e"
+		hidden_effect = { country_event = { id = sfdoll_pmmm_event.2 } }
+	}
+
 	#退出
 	option = {
 		name = "QUIT"
@@ -178,11 +187,21 @@ country_event = {
 	}
 }
 
+# 凉子的资料
 country_event = {
 	id = sfdoll_pmmm_event.2
 	title = "sfdoll_pmmm_event.2"
-	desc = "sfdoll_pmmm_event.2_desc"	
+	desc = "sfdoll_pmmm_event.2_desc"
+	diplomatic = yes
+	picture_event_data = {
+		portrait = GFX_sfdoll_Shizuki_Ryouko
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}
 	is_triggered_only = yes
+	option = { name = "OK" hidden_effect = { country_event = { id = sfdoll_pmmm_event.1 } } }
 }
 
 # 发现凉子
@@ -190,7 +209,7 @@ country_event = {
 	id = sfdoll_pmmm_event.3
 	title = "sfdoll_pmmm_event.3"
 	desc = "sfdoll_pmmm_event.3_desc"
-	picture = GFX_evt_ship_in_orbit_3
+	picture = GFX_evt_space_monster
 	is_triggered_only = yes
 	after = {
 		hidden_effect = {
@@ -205,7 +224,8 @@ country_event = {
 	desc = "sfdoll_pmmm_event.4_desc"
 	picture = GFX_evp_sfdoll_ryouko_hair
 	is_triggered_only = yes
-	after = {
+	option = {
+		name = "OK"
 		add_research_option = tech_sfdoll_magic
 		hidden_effect = { set_country_flag = sfdoll_shizuki_ryouko_owner }
 	}

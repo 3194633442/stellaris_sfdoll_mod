@@ -13,8 +13,12 @@ sfdoll_pmmm_event.1_b_response:0 "$INTERESTING$"
 sfdoll_pmmm_event.1_c_response:0 "$INTERESTING$"
 sfdoll_pmmm_event.1_d_response:0 "久违的感觉。"
 
+sfdoll_pmmm_event.1_e:0 "凉子的资料"
+sfdoll_pmmm_event.2:0 "凉子的资料"
+sfdoll_pmmm_event.2_desc:0 "志筑凉子是来自其他宇宙的少女. 她能引发多种打破物理法则的现象，她称之为魔法.\n她的专长是通过虫洞进行传送. 一般情况下，她传送的最大距离是200千米 - 这足以把她送入近地轨道 - 但由于限制因素是她的空间扭曲能力，理论上，根据情况，更大的距离也是有可能的. 她的传送有个缺点，就是她必须把自己和目标一起传送. "
+
 leader_trait_sfdoll_shizuki_ryouko_governor:0 "志筑凉子"
-leader_trait_sfdoll_shizuki_ryouko_governor_desc:0 "志筑凉子是来自其他宇宙的少女. 她能引发多种打破物理法则的现象，她称之为魔法.\n她的专长是通过虫洞进行传送. 一般情况下，她传送的最大距离是200千米 - 这足以把她送入近地轨道 - 但由于限制因素是她的空间扭曲能力，理论上，根据情况，更大的距离也是有可能的. 她的传送有个缺点，就是她必须把自己和目标一起传送. "
+leader_trait_sfdoll_shizuki_ryouko_governor_desc:0 "志筑凉子是来自其他宇宙的少女. 她能引发多种打破物理法则的现象，她称之为魔法."
 
 leader_trait_sfdoll_shizuki_ryouko_scientist:0 "$leader_trait_sfdoll_shizuki_ryouko_governor$"
 leader_trait_sfdoll_shizuki_ryouko_scientist_desc:0 "$leader_trait_sfdoll_shizuki_ryouko_governor_desc$"
@@ -28,10 +32,10 @@ leader_trait_sfdoll_shizuki_ryouko_general_desc:0 "$leader_trait_sfdoll_shizuki_
 sfdoll_pmmm_event.3:0 "求救者"
 sfdoll_pmmm_event.3_desc:0 "铁血的深空探测器发现了外星人的踪迹. 它们声称自己的飞船失去了动力，需要我们的救援. \n我们捕获了失事的外星飞船，船上只有一名少女和她的AI助手. AI称，这位少女名叫志筑凉子，她的身体使用一种永动机来供能，但永动机需要定期进行净化. 于是，根据AI提供的资料，我们准备制造一台净化装置，帮助她维持生命。"
 
-sfdoll_shizuki_ryouko_project:0 "治疗志筑凉子"
+sfdoll_shizuki_ryouko_project:0 "研究志筑凉子"
 sfdoll_shizuki_ryouko_project_DESC:0 "$sfdoll_pmmm_event.3_desc$"
 
-sfdoll_pmmm_event.4:0 "求救者"
+sfdoll_pmmm_event.4:0 "研究志筑凉子"
 sfdoll_pmmm_event.4_desc:0 "在我们的净化装置的帮助下，志筑凉子完成了自我修复，这个过程看起来违背了多个物理法则。凉子自称来自一个拥有数个殖民地的银河系文明，而我们认为，她很可能来自另一个宇宙。\n她愿意配合我们的研究，直到她找到返回的方法。"
 
 tech_sfdoll_magic:0 "第二类规则覆写工程"

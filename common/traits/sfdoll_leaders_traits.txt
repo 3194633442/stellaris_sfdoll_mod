@@ -489,19 +489,6 @@ leader_trait_sfdoll_sophon_general = {
 	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
 }
 
-# 志筑凉子总督
-leader_trait_sfdoll_shizuki_ryouko_governor = {
-	cost = 0
-	randomized = no
-	immortal_leaders = yes
-	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
-	modifier = {
-
-	}
-	leader_trait = { governor }
-	leader_class = { governor }
-	leader_potential_add = { from = { has_authority = auth_gf_sfdoll }}
-}
 # 志筑凉子科学家
 leader_trait_sfdoll_shizuki_ryouko_scientist = {
 	cost = 0
@@ -509,7 +496,9 @@ leader_trait_sfdoll_shizuki_ryouko_scientist = {
 	immortal_leaders = yes
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
 	modifier = {
-
+		ship_anomaly_generation_chance_mult = 1
+		ship_anomaly_research_speed_mult = 1
+		ship_archaeological_site_excavation_speed_mult = 1
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }
@@ -522,7 +511,8 @@ leader_trait_sfdoll_shizuki_ryouko_admiral = {
 	immortal_leaders = yes
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
 	modifier = {
-
+		ship_fire_rate_mult = 0.2
+		ship_evasion_mult = 0.3
 	}
 	leader_trait = { admiral }
 	leader_class = { admiral }
@@ -535,7 +525,9 @@ leader_trait_sfdoll_shizuki_ryouko_general = {
 	immortal_leaders = yes
 	icon="gfx/interface/icons/traits/sfdoll/leader_traits/leader_trait_sfdoll_shizuki_ryouko.dds"
 	modifier = {
-
+		army_health = 1
+		army_morale = 1
+		army_damage_mult = 0.8
 	}
 	leader_trait = { general }
 	leader_class = { general }
