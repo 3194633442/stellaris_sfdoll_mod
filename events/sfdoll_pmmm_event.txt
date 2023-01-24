@@ -41,6 +41,7 @@ country_event = {
 	# 			name = "NAME_SHIZUKI_RYOUKO"
 	# 			skill = 1
 	# 			set_age = 15
+	# 			gender = female
 	# 			immortal = yes
 	# 			event_leader = yes	# prevents this leader from leading factions and winning elections
 	# 			traits = { trait = leader_trait_sfdoll_shizuki_ryouko_governor }
@@ -80,12 +81,12 @@ country_event = {
 				name = "NAME_SHIZUKI_RYOUKO"
 				skill = 1
 				set_age = 15
+				gender = female
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
 				traits = {
 					trait = leader_trait_roamer
 					trait = leader_trait_sfdoll_shizuki_ryouko_scientist
-					trait = leader_trait_
 				}
 				effect = {
 					change_leader_portrait = GFX_sfdoll_Shizuki_Ryouko
@@ -123,6 +124,7 @@ country_event = {
 				name = "NAME_SHIZUKI_RYOUKO"
 				skill = 1
 				set_age = 15
+				gender = female
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
 				traits = { trait = leader_trait_sfdoll_shizuki_ryouko_admiral }
@@ -162,6 +164,7 @@ country_event = {
 				name = "NAME_SHIZUKI_RYOUKO"
 				skill = 4
 				set_age = 15
+				gender = female
 				immortal = yes
 				event_leader = yes	# prevents this leader from leading factions and winning elections
 				traits = { trait = leader_trait_sfdoll_shizuki_ryouko_general }
