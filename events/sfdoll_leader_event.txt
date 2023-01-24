@@ -1,6 +1,6 @@
 namespace = sfdoll_leader_event
 
-#更正特殊领袖的头像
+#锁定特殊领袖的头像
 country_event = {
 	id = sfdoll_leader_event.1
 	is_triggered_only = yes
@@ -61,6 +61,10 @@ country_event = {
 		if = {
 			limit = { exists = event_target:sfdoll_exd_leader }
 			event_target:sfdoll_exd_leader = { change_leader_portrait = exd2 }
+		}
+		if = {
+			limit = { exists = event_target:sfdoll_shizuki_ryouko }
+			event_target:sfdoll_shizuki_ryouko = { change_leader_portrait = GFX_sfdoll_Shizuki_Ryouko }
 		}
 	}
 }

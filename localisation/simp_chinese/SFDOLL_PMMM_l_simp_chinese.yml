@@ -38,5 +38,8 @@ sfdoll_shizuki_ryouko_project_DESC:0 "$sfdoll_pmmm_event.3_desc$"
 sfdoll_pmmm_event.4:0 "研究志筑凉子"
 sfdoll_pmmm_event.4_desc:0 "在我们的净化装置的帮助下，志筑凉子完成了自我修复，这个过程看起来违背了多个物理法则。凉子自称来自一个拥有数个殖民地的银河系文明，而我们认为，她很可能来自另一个宇宙。\n她愿意配合我们的研究，直到她找到返回的方法。"
 
+sfdoll_leader_revive_event.5:0 "治疗志筑凉子"
+sfdoll_leader_revive_event.5_desc:0 "志筑凉子受到了重创。我们抢救出了她的灵魂宝石 - 也就是她的能源与记忆载体。之后，我们制造了一具新的肉体供她使用。"
+
 tech_sfdoll_magic:0 "第二类规则覆写工程"
 tech_sfdoll_magic_desc:0 "大自然究竟被修改了几次？"

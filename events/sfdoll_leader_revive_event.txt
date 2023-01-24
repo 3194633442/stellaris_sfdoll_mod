@@ -28,6 +28,7 @@ country_event = {
 						event_target:leader_revive_sfdoll = {
 							OR = {
 								has_leader_flag = sfdoll_leader_noel
+								has_leader_flag = sfdoll_shizuki_ryouko
 								has_trait = leader_trait_governor_gray
 							}
 						}
@@ -35,6 +36,13 @@ country_event = {
 				}
 			}
 			country_event = { id = sfdoll_leader_revive_event.1 }
+		}
+		else_if = {
+			# 是凉子
+			limit = {
+				event_target:leader_revive_sfdoll = { has_leader_flag = sfdoll_shizuki_ryouko }
+			}
+			country_event = { id = sfdoll_leader_revive_event.5 }
 		}
 
 		#判断是否为noel
@@ -339,34 +347,11 @@ country_event = {
 	}
 }
 
-# 测试
-# country_event = {
-# 	id = sfdoll_leader_revive_event.50
-# 	is_triggered_only = yes
-#     hide_window = yes
-# 	immediate = {
-# 		hidden_effect = {
-# 			every_owned_leader = {
-
-# 				kill_leader = {
-# 					show_notification = yes
-# 				}
-# 			}
-	
-# 		}
-# 	}
-# }
-#assigned触发器的测试事件
-# country_event = {
-# 	id = sfdoll_leader_revive_event.51
-# 	title = "sfdoll_leader_revive_event_51_title"
-# 	desc = "assigned_0000"
-# 	is_triggered_only = yes
-#     hide_window = no
-# 	immediate = {
-# 		every_owned_leader = {
-# 			remove_leader_flag = sfdoll_leader
-# 		}
-		
-# 	}
-# }
+#凉子复活事件
+country_event = {
+	id = sfdoll_leader_revive_event.5
+	title = "sfdoll_leader_revive_event.5"
+	desc = "sfdoll_leader_revive_event.5_desc"
+	picture = GFX_evp_sfdoll_ryouko_hair
+	is_triggered_only = yes
+}
