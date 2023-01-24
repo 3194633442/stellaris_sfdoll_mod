@@ -742,7 +742,6 @@ strike_craft_component_template = {
 	damage = { min = 700 max = 800 }
 	shield_penetration = 1
 	armor_penetration = 1
-	armor_damage = 3
 	hull_damage = 3
 	#舰载机的不需要除10
 	cooldown = 1.2
