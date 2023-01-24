@@ -19,6 +19,17 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = sfdoll_dingyi_owner
 			sfdoll_dingyi_become_scientist = yes
+			# random_owned_leader = {
+			# 	limit = { leader_class = scientist is_researching_area = physics }
+			# 	set_age = 35
+			# 	add_experience = 1700
+			# 	add_trait = leader_trait_sfdoll_dingyi
+			# 	add_trait = leader_trait_maniacal
+			# 	set_name = NAME_sfdoll_dingyi
+			# 	change_leader_portrait = GFX_sfdoll_dingyi
+			# 	set_leader_flag = sfdoll_leader_dingyi
+			# 	save_global_event_target_as = sfdoll_leader_dingyi
+			# }
 		}
 	}
 
