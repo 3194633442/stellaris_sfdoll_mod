@@ -8,12 +8,15 @@ sfdoll_three_body_event.1_desc:0 "I value Dr Ding Yi very much. So when I was on
 sfdoll_three_body_event.2:0 "Communication with Ding Yi"
 sfdoll_three_body_event.2_desc_a:0 "My life already has a master, that is, physics."
 sfdoll_three_body_event.2_desc_b:0 "Facing the universe, keep humble. Arrogance will be the greatest danger."
+sfdoll_three_body_event.2_desc_c:0 "A trip to the desert planet would be great. Look, are those sand dunes very like women's bodies?"
+sfdoll_three_body_event.2_desc_d:0 "My pipe needs recharging."
 
 sfdoll_three_body_event.2_option_a:0 "Please serve as scientist"
 sfdoll_three_body_event.2_option_a_response:0 "I have been waiting for a long time."
 
-leader_trait_sfdoll_dingyi:0 "Sextant"
-leader_trait_sfdoll_dingyi_desc:0 "Death in the evening is acceptable if the truth is learned in the morning."
+leader_trait_sfdoll_dingyi:0 "Ding Yi"
+leader_trait_sfdoll_dingyi_desc:0 "In the past, Ding Yi was an outstanding human scientist."
+# Death in the evening is acceptable if the truth is learned in the morning.
 
 NAME_sfdoll_dingyi:0 "Ding Yi"
 

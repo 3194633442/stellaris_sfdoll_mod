@@ -6,12 +6,14 @@ sfdoll_three_body_event.1_desc:0 "我很重视丁仪博士。所以，在地球�
 sfdoll_three_body_event.2:0 "与丁仪通讯"
 sfdoll_three_body_event.2_desc_a:0 "我的生命已经有主了,那就是物理学."
 sfdoll_three_body_event.2_desc_b:0 "面对宇宙,保持谦卑吧.傲慢会是最大危险."
+sfdoll_three_body_event.2_desc_c:0 "去沙漠星球逛逛也不错。看，那些沙丘是不是很像女人的胴体？"
+sfdoll_three_body_event.2_desc_d:0 "我的烟斗需要充电。"
 
 sfdoll_three_body_event.2_option_a:0 "请担任科学家"
 sfdoll_three_body_event.2_option_a_response:0 "好极了."
 
-leader_trait_sfdoll_dingyi:0 "六分仪"
-leader_trait_sfdoll_dingyi_desc:0 "朝闻道，夕死可矣。"
+leader_trait_sfdoll_dingyi:0 "丁仪"
+leader_trait_sfdoll_dingyi_desc:0 "从前，丁仪是一位杰出的人类科学家。"
 
 NAME_sfdoll_dingyi:0 "丁仪"
 
