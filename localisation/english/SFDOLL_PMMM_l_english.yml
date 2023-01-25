@@ -16,7 +16,7 @@ sfdoll_pmmm_event.2:0 "Information about Ryouko"
 sfdoll_pmmm_event.2_desc:0 "Shizuki Ryouko is a girl from other universes. She can trigger many phenomena that break the laws of physics, which she calls magic. \nHer specialty is that of teleportation by wormhole. Under normal circumstances, she has a maximum range of 200km - enough to get her into low Earth orbit - but as the limiting factor is her ability to warp space, much larger ranges are theoretically possible depending on the situation. A weakness of her teleportation is that she must teleport herself along with the targets. "
 
 leader_trait_sfdoll_shizuki_ryouko_governor:0 "Shizuki Ryouko"
-leader_trait_sfdoll_shizuki_ryouko_governor_desc:0 "Shizuki Ryouko is a girl from other universes. She can trigger many phenomena that break the laws of physics, which she calls magic."
+leader_trait_sfdoll_shizuki_ryouko_governor_desc:0 "Shizuki Ryouko is a girl from other universes. She can trigger many phenomena that break the laws of physics."
 
 leader_trait_sfdoll_shizuki_ryouko_scientist:0 "$leader_trait_sfdoll_shizuki_ryouko_governor$"
 leader_trait_sfdoll_shizuki_ryouko_scientist_desc:0 "$leader_trait_sfdoll_shizuki_ryouko_governor_desc$"
