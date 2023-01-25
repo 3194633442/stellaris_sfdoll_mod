@@ -207,16 +207,18 @@ country_event = {
 	option = { name = "OK" hidden_effect = { country_event = { id = sfdoll_pmmm_event.1 } } }
 }
 
-# 发现凉子
+# 发现凉子，只触发一次
 country_event = {
 	id = sfdoll_pmmm_event.3
 	title = "sfdoll_pmmm_event.3"
 	desc = "sfdoll_pmmm_event.3_desc"
 	picture = GFX_evt_space_monster
 	is_triggered_only = yes
+	fire_only_once = yes
 	after = {
 		hidden_effect = {
 			capital_scope = { enable_special_project = { name = sfdoll_shizuki_ryouko_project } }
+			begin_event_chain = { event_chain = sfdoll_main_event_chain }
 		}
 	}
 }

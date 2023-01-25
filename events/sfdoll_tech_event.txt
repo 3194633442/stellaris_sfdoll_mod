@@ -1,6 +1,6 @@
 namespace = sfdoll_tech_event
 
-#统一检测拥有科技，并延迟触发事件
+#检测拥有的科技，并延迟触发事件
 country_event = {
 	id = sfdoll_tech_event.1
 	hide_window = yes
@@ -18,15 +18,6 @@ country_event = {
 		# 	}
 		# }
 
-		#暗物质
-		# if = {
-		# 	limit = { has_technology = tech_sensors_4 }
-		# 	country_event = {
-		# 		id = sfdoll_tech_event.2
-		# 		days = 1
-		# 	}
-		# }
-
 		#神枪少女
 		if = {
 			limit = {
@@ -37,6 +28,12 @@ country_event = {
 				id = sfdoll_gunslinger_girl_event.1
 				days = 30
 			}
+		}
+
+		# 发现志筑凉子
+		if = {
+			limit = { has_technology = tech_sfdoll_ap_phy }
+			country_event = { id = sfdoll_pmmm_event.3 }
 		}
 
 		#ogas研究事件
@@ -68,13 +65,4 @@ country_event = {
 		# 	}
 		# }
 	}
-}
-
-country_event = {
-	id = sfdoll_tech_event.2
-	title = sfdoll_tech_event.2_title
-	desc = sfdoll_tech_event.2_desc
-	picture = GFX_evt_megastructure_construction
-	is_triggered_only = yes
-	fire_only_once = yes
 }
