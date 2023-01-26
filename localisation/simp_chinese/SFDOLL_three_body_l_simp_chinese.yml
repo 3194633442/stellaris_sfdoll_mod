@@ -4,10 +4,10 @@ sfdoll_three_body_event.1:0 "与伊莱莎通讯"
 sfdoll_three_body_event.1_desc:0 "我很重视丁仪博士。所以，在地球时，我给了他一个无法拒绝的条件，让他成为了我们的一员。"
 
 sfdoll_three_body_event.2:0 "与丁仪通讯"
-sfdoll_three_body_event.2_desc_a:0 "我的生命已经有主了,那就是物理学."
-sfdoll_three_body_event.2_desc_b:0 "面对宇宙，保持谦卑。"
+sfdoll_three_body_event.2_desc_a:0 "嘿嘿嘿...（他看起来醉了）"
+# sfdoll_three_body_event.2_desc_b:0 "在大自然中，异常往往是正常的另一种表现形式。"
 sfdoll_three_body_event.2_desc_c:0 "去沙漠星球逛逛也不错。看，那些沙丘是不是很像女人的胴体？"
-sfdoll_three_body_event.2_desc_d:0 "我的烟斗需要充电。"
+sfdoll_three_body_event.2_desc_d:0 "我的烟斗该充电了。"
 
 sfdoll_three_body_event.2_option_a:0 "请担任科学家"
 sfdoll_three_body_event.2_option_a_response:0 "好极了."

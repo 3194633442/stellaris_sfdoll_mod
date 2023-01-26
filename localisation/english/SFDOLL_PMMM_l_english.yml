@@ -1,13 +1,14 @@
 ﻿l_english:
 NAME_SHIZUKI_RYOUKO:0 "Shizuki Ryouko"
 sfdoll_pmmm_event.1:0 "Communication with Shizuki Ryouko"
-sfdoll_pmmm_event.1_desc:0 "I want to explore unknown places. Perhaps the meeting with you is the result of my wish?"
+sfdoll_pmmm_event.1_desc_a:0 "I want to explore unknown places. Perhaps the meeting with you is the result of my wish?"
+sfdoll_pmmm_event.1_desc_b:0 "My hair might look like tentacles, because there are nanites in it."
 
 sfdoll_pmmm_event.1_b:0 "Please assist in the research"
 sfdoll_pmmm_event.1_c:0 "Please serve as admiral"
 sfdoll_pmmm_event.1_d:0 "Please serve as general"
 
-sfdoll_pmmm_event.1_b_response:0 "$INTERESTING$"
+sfdoll_pmmm_event.1_b_response:0 "According to experience, I am good at the perception of gravity and the warping of space."
 sfdoll_pmmm_event.1_c_response:0 "$INTERESTING$"
 sfdoll_pmmm_event.1_d_response:0 "Long lost feeling."
 

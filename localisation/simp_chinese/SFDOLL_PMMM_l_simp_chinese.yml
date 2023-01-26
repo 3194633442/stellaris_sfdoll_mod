@@ -1,15 +1,15 @@
 ﻿l_simp_chinese:
 NAME_SHIZUKI_RYOUKO:0 "志筑凉子"
 sfdoll_pmmm_event.1:0 "与志筑凉子通讯"
-sfdoll_pmmm_event.1_desc:0 "我想探索未知的地方。也许，和你们的相遇，就是我愿望的结果？"
+sfdoll_pmmm_event.1_desc_a:0 "我想探索未知的地方。也许，和你们的相遇，就是我愿望的结果？"
+sfdoll_pmmm_event.1_desc_b:0 "我的头发可能有点像触手，因为里面有纳米机器人嘛。"
 
 # sfdoll_pmmm_event.1_a:0 "请担任总督"
 sfdoll_pmmm_event.1_b:0 "请担任科学家"
 sfdoll_pmmm_event.1_c:0 "请担任舰队司令"
 sfdoll_pmmm_event.1_d:0 "请担任陆军将领"
 
-# sfdoll_pmmm_event.1_a_response:0 "诶？让我来？"
-sfdoll_pmmm_event.1_b_response:0 "$INTERESTING$"
+sfdoll_pmmm_event.1_b_response:0 "根据经验，我比较擅长对重力和空间扭曲的感知。"
 sfdoll_pmmm_event.1_c_response:0 "$INTERESTING$"
 sfdoll_pmmm_event.1_d_response:0 "久违的感觉。"
 
