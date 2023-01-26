@@ -1,5 +1,5 @@
 entity = {
-	name = "sf_SANGVIS_FERRI_flag_ship_entity"
+	name = "SF_SANGVIS_FERRI_flag_ship_entity"
 	pdxmesh = "SANGVIS_FERRI_flag_ship_mesh"
 	scale = 1.0
 	locator = { name = W01 position = { 0 3 -40 } }
@@ -44,7 +44,7 @@ entity = {
 
 }
 entity = {
-	name = "sf_SANGVIS_FERRI_frame_entity"
+	name = "SF_SANGVIS_FERRI_frame_entity"
 	pdxmesh = "arthropoid_01_titan_frame_mesh"
 	scale = 3
 	locator = { name = root position = { 0 0 0 } rotation = { 0 0 0 } }
@@ -70,7 +70,7 @@ entity = {
 }
 
 entity = {
-	name = sf_SANGVIS_FERRI_locator_entity
+	name = SF_SANGVIS_FERRI_locator_entity
 	pdxmesh = SANGVIS_FERRI_locator_mesh
 	locator = { name = W01 position = { 0 3 -40 } }
 	locator = { name = sf1 position = { 0 3 -20 } }

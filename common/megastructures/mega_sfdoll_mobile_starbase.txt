@@ -90,8 +90,8 @@ mega_sfdoll_mobile_starbase_2 = {
 }
 
 mega_sfdoll_mobile_starbase_3 = {
-	entity = "sfdoll_Sewship_entity"
-	construction_entity = "sfdoll_Sewship_entity"
+	entity = "mega_sfdoll_Sewship_entity"
+	construction_entity = "mega_sfdoll_Sewship_entity"
 	show_galactic_map_icon = yes
 	show_in_outliner = yes
 	place_entity_on_planet_plane = no

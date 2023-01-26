@@ -22,7 +22,7 @@
 ####################
 #星门舰
 sfdoll_gateway_ship = {
-	entity = sf_SANGVIS_FERRI_frame_entity
+	entity = "SF_SANGVIS_FERRI_frame_entity"
 	max_speed = @speed_very_fast
 	acceleration = 0.3
 	rotation_speed = 0.2
@@ -320,7 +320,7 @@ sfdoll_exd_science_ship = {
 
 #铁血工程船
 sfdoll_constructor = {
-	entity = sf_SANGVIS_FERRI_frame_entity
+	entity = SF_SANGVIS_FERRI_frame_entity
 	max_speed = @speed_very_fast
 	acceleration = 0.3
 	rotation_speed = 0.2
