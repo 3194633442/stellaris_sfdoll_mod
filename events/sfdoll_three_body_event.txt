@@ -41,9 +41,9 @@ country_event = {
 	id = sfdoll_three_body_event.2
 	title = sfdoll_three_body_event.2
 	desc = sfdoll_three_body_event.2_desc_a
-	# desc = sfdoll_three_body_event.2_desc_b
+	desc = sfdoll_three_body_event.2_desc_b
 	desc = sfdoll_three_body_event.2_desc_c
-	desc = sfdoll_three_body_event.2_desc_d
+
 	is_triggered_only = yes
 	trigger = {
 		has_authority = auth_gf_sfdoll

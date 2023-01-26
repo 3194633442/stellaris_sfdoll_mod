@@ -6,10 +6,9 @@ sfdoll_three_body_event.1_desc:0 "I value Dr Ding Yi very much. So when I was on
 # sfdoll_three_body_event.1_option_response:0 "Regret? Impossible!\n\nLycoris created you, a new species! He became your creator, but he gave up his work.\n\nI'm not like Lycoris, physics is Everything I have, I will never give up."
 
 sfdoll_three_body_event.2:0 "Communication with Ding Yi"
-sfdoll_three_body_event.2_desc_a:0 "Hey, hey, hey (He looks drunk)"
-# sfdoll_three_body_event.2_desc_b:0 "In nature, abnormality is often another manifestation of normality."
-sfdoll_three_body_event.2_desc_c:0 "A trip to the desert planet would be great. Look, are those sand dunes very like women's bodies?"
-sfdoll_three_body_event.2_desc_d:0 "My pipe needs recharging."
+sfdoll_three_body_event.2_desc_a:0 "...... (He looks drunk)"
+sfdoll_three_body_event.2_desc_b:0 "A trip to the desert planet would be great. Look, are those sand dunes very like women's bodies?"
+sfdoll_three_body_event.2_desc_c:0 "My pipe needs recharging."
 
 sfdoll_three_body_event.2_option_a:0 "Please serve as scientist"
 sfdoll_three_body_event.2_option_a_response:0 "I have been waiting for a long time."

@@ -3,6 +3,8 @@ NAME_SHIZUKI_RYOUKO:0 "Shizuki Ryouko"
 sfdoll_pmmm_event.1:0 "Communication with Shizuki Ryouko"
 sfdoll_pmmm_event.1_desc_a:0 "I want to explore unknown places. Perhaps the meeting with you is the result of my wish?"
 sfdoll_pmmm_event.1_desc_b:0 "My hair might look like tentacles, because there are nanites in it."
+sfdoll_pmmm_event.1_desc_c:0 "If I have a chance, I want to go to different colonies."
+sfdoll_pmmm_event.1_desc_d:0 "The starry sky is beautiful."
 
 sfdoll_pmmm_event.1_b:0 "Please assist in the research"
 sfdoll_pmmm_event.1_c:0 "Please serve as admiral"

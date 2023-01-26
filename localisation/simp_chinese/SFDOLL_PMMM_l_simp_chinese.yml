@@ -2,7 +2,9 @@
 NAME_SHIZUKI_RYOUKO:0 "志筑凉子"
 sfdoll_pmmm_event.1:0 "与志筑凉子通讯"
 sfdoll_pmmm_event.1_desc_a:0 "我想探索未知的地方。也许，和你们的相遇，就是我愿望的结果？"
-sfdoll_pmmm_event.1_desc_b:0 "我的头发可能有点像触手，因为里面有纳米机器人嘛。"
+sfdoll_pmmm_event.1_desc_b:0 "我的头发可能有点像触手，因为里面有纳米机器人。"
+sfdoll_pmmm_event.1_desc_c:0 "有机会的话，我想去不同的殖民地看看。"
+sfdoll_pmmm_event.1_desc_d:0 "星空很漂亮。"
 
 # sfdoll_pmmm_event.1_a:0 "请担任总督"
 sfdoll_pmmm_event.1_b:0 "请担任科学家"
