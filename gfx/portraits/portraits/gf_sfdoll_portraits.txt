@@ -61,6 +61,8 @@ portraits = {
 	sfdoll_01_sf_59 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_59.dds" }
 	sfdoll_01_sf_60 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_60.dds" }
 	sfdoll_01_sf_61 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_61.dds" }
+	sfdoll_01_sf_62 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_62.dds" }
+	sfdoll_01_sf_63 = { textureFile = "gfx/models/portraits/gf_sfdoll/01_sf_63.dds" }
 }
 
 portrait_groups = {
@@ -131,6 +133,8 @@ portrait_groups = {
 					sfdoll_01_sf_6
 					sfdoll_01_sf_60
 					sfdoll_01_sf_61
+					sfdoll_01_sf_62
+					sfdoll_01_sf_63
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -205,6 +209,8 @@ portrait_groups = {
 					sfdoll_01_sf_6
 					sfdoll_01_sf_60
 					sfdoll_01_sf_61
+					sfdoll_01_sf_62
+					sfdoll_01_sf_63
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -274,6 +280,8 @@ portrait_groups = {
 					sfdoll_01_sf_6
 					sfdoll_01_sf_60
 					sfdoll_01_sf_61
+					sfdoll_01_sf_62
+					sfdoll_01_sf_63
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -344,6 +352,8 @@ portrait_groups = {
 					sfdoll_01_sf_6
 					sfdoll_01_sf_60
 					sfdoll_01_sf_61
+					sfdoll_01_sf_62
+					sfdoll_01_sf_63
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
@@ -414,6 +424,8 @@ portrait_groups = {
 					sfdoll_01_sf_6
 					sfdoll_01_sf_60
 					sfdoll_01_sf_61
+					sfdoll_01_sf_62
+					sfdoll_01_sf_63
 					sfdoll_01_sf_7
 					sfdoll_01_sf_8
 					sfdoll_01_sf_9
