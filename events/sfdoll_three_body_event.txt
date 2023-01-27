@@ -5,35 +5,25 @@ country_event = {
 	id = sfdoll_three_body_event.1
 	title = sfdoll_three_body_event.1
 	desc = sfdoll_three_body_event.1_desc
+	hide_window = yes
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
-	diplomatic = yes
-	picture_event_data = {
-		portrait = GFX_sfdoll_elisa
-		room = this
-		graphical_culture = this
-		planet_background = this
-		city_level = this
-	}
+	# diplomatic = yes
+	# picture_event_data = {
+	# 	portrait = GFX_sfdoll_elisa
+	# 	room = this
+	# 	graphical_culture = this
+	# 	planet_background = this
+	# 	city_level = this
+	# }
 	after = {
 		hidden_effect = {
 			set_country_flag = sfdoll_dingyi_owner
 			sfdoll_dingyi_become_scientist = yes
-			# random_owned_leader = {
-			# 	limit = { leader_class = scientist is_researching_area = physics }
-			# 	set_age = 35
-			# 	add_experience = 1700
-			# 	add_trait = leader_trait_sfdoll_dingyi
-			# 	add_trait = leader_trait_maniacal
-			# 	set_name = NAME_sfdoll_dingyi
-			# 	change_leader_portrait = GFX_sfdoll_dingyi
-			# 	set_leader_flag = sfdoll_leader_dingyi
-			# 	save_global_event_target_as = sfdoll_leader_dingyi
-			# }
 		}
 	}
 
-	option = { name = "INTERESTING" }
+	# option = { name = "INTERESTING" }
 }
 
 #和丁仪通讯
