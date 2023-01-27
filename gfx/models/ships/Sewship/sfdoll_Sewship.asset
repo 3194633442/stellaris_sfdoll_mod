@@ -2,7 +2,7 @@ entity = {
 	name = "sfdoll_Sewship_entity"
 	pdxmesh = "Sewship_mesh"
 	default_state = "idle"
-	scale = 3
+	scale = 6
 	locator = { name = "T01" 	position = { 2  2  -15 }}
 	locator = { name = "T02" 	position = { -2  2  -15 }}
 	locator = { name = "T03" 	position = { 2  -2  -15 }}
@@ -41,7 +41,7 @@ entity = {
 }
 entity = {
 	name = "sfdoll_Sewship_locator_entity"
-	scale = 3
+	scale = 6
 	locator = { name = "T01" 	position = { 2  2  -15 }}
 	locator = { name = "T02" 	position = { -2  2  -15 }}
 	locator = { name = "T03" 	position = { 2  -2  -15 }}
