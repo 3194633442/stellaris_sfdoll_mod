@@ -31,10 +31,10 @@ country_event = {
 		}
 
 		# 发现志筑凉子
-		if = {
-			limit = { has_technology = tech_sfdoll_ap_phy }
-			country_event = { id = sfdoll_pmmm_event.3 }
-		}
+		# if = {
+		# 	limit = { has_technology = tech_sfdoll_ap_phy }
+		# 	country_event = { id = sfdoll_pmmm_event.3 }
+		# }
 
 		#ogas研究事件
 		# if = {

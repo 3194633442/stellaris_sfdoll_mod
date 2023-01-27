@@ -122,10 +122,10 @@ country_event = {
 		# 	days = 10
 		# }
 		#漫游者
-		country_event = {
-			id = sfdoll_extradimensional_event.1
-			days = 1440
-		}
+		# country_event = {
+		# 	id = sfdoll_extradimensional_event.1
+		# 	days = 1440
+		# }
 
 		#开始事件链
 		begin_event_chain = { event_chain = sfdoll_main_event_chain }
