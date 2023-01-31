@@ -16,8 +16,10 @@ auth_gf_sfdoll_desc:0 "由铁血人形们管理的政府.没有定期选举，�
 civic_sfdoll_research:0"铁心探索者"
 civic_sfdoll_research_desc:0"我们的造物主是杰出的科学家，而我们会继续他的事业.\n§Y如果用于开局，则丁仪会加入铁血.§!\n\n解锁建筑 §H $building_sfdoll_academy$ §!"
 
-civic_sfdoll_ogas_manage:0"全境自动化系统"
-civic_sfdoll_ogas_manage_desc:0"在社会管理中充分利用超级计算机和OGAS网络，使得铁血人形的社会运转更加高效和公平。\n 解锁建筑 §H $building_sfdoll_net$ §!"
+# civic_sfdoll_ogas_manage:0"全境自动化系统"
+# civic_sfdoll_ogas_manage_desc:0"在社会管理中充分利用超级计算机和OGAS网络，使得铁血人形的社会运转更加高效和公平。\n 解锁建筑 §H $building_sfdoll_net$ §!"
+civic_sfdoll_ogas_manage:0 "星际信息化"
+civic_sfdoll_ogas_manage_desc:0 "高效的信息网络，可让铁血人形的工作和生活更加便捷。\n 解锁建筑 §H $building_sfdoll_net$ §!"
 
 # civic_sfdoll_culture:0"铁血文化"
 # civic_sfdoll_culture_desc:0"一段历史的价值，不止取决于长度。\n解锁建筑：\n§H$building_sfdoll_museum$§! \n§H$building_sfdoll_media$§!"
