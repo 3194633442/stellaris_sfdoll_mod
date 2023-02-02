@@ -16,6 +16,11 @@ bombardment_sfdoll_1:0 "Intensive Fire Power"
 bombardment_sfdoll_1_name:0 "$bombardment_sfdoll_1$"
 bombardment_sfdoll_1_desc:0 "SF Dolls will use advanced sensors and high-energy weapons to bombard.\n\nCauses huge damage to the armies, population and planet."
 
-# bombardment_sfdoll_precise:0 "Precision Bombing"
-# bombardment_sfdoll_precise_name:0 "Precision Bombing"
-# bombardment_sfdoll_precise_desc:0 "SF dolls will use advanced sennors to bombard.\n\nCauses huge damage to the planet and armies,causes medium damage to the population."
+GF_sfdoll_eild_army_1:0 "Broadband Heavy level infected organism"
+GF_sfdoll_eild_army_1_desc:0 "Immune system enters extraordinary state of activity, unable to confirm patient brainwave situations. Rising bone density, further silicidation of organs and skins stil."
+
+NAME_SFDOLL_ELID:0 "E.L.I.D Creatures"
+sfdoll_elid:0 "$NAME_SFDOLL_ELID$"
+
+SFDOLL_eild_army_1:0 "$NAME_SFDOLL_ELID$"
+SFDOLL_eild_army_1_desc:0 "$NAME_SFDOLL_ELID$"

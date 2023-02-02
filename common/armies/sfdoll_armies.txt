@@ -44,3 +44,16 @@ sfoll_heavy_army = {
 		from = { has_trait = trait_gf_sfdoll }	
 	}
 }
+
+#ELID
+SFDOLL_eild_army_1 = {
+	defensive = yes
+	damage = 2
+	morale_damage = 1.0
+	health = 10.0
+	war_exhaustion = 4.50
+	has_morale = no
+	icon = GFX_army_type_xenomorph
+	has_species = no
+	potential = { always = no }
+}
