@@ -3,19 +3,19 @@ namespace = sfdoll_three_body_event
 #丁仪加入
 country_event = {
 	id = sfdoll_three_body_event.1
-	title = sfdoll_three_body_event.1
-	desc = sfdoll_three_body_event.1_desc
-	hide_window = yes
+	title = "sfdoll_three_body_event.1"
+	desc = "sfdoll_three_body_event.1_desc"
+	hide_window = no
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
-	# diplomatic = yes
-	# picture_event_data = {
-	# 	portrait = GFX_sfdoll_elisa
-	# 	room = this
-	# 	graphical_culture = this
-	# 	planet_background = this
-	# 	city_level = this
-	# }
+	diplomatic = yes
+	picture_event_data = {
+		portrait = GFX_sfdoll_elisa
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}
 	after = {
 		hidden_effect = {
 			set_country_flag = sfdoll_dingyi_owner
