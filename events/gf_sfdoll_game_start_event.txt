@@ -38,6 +38,14 @@ country_event = {
 			message = no
 		}
 		give_technology = {
+			tech = tech_combat_computers_1
+			message = no
+		}
+		give_technology = {
+			tech = tech_combat_computers_2
+			message = no
+		}
+		give_technology = {
 			tech = tech_combat_computers_3
 			message = no
 		}
@@ -82,6 +90,7 @@ country_event = {
 			remove_district = district_farming
 			remove_district = district_city
 			remove_building = building_commercial_zone
+			remove_building = building_bureaucratic_1
 			every_owned_pop = {
 				limit = {	is_unemployed = yes		}
 				kill_pop = yes
