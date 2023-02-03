@@ -93,9 +93,9 @@ job_sfdoll_energy_maker_effect_desc:0 "$job_sfdoll_energy_maker$ consumes §Y$sr
 mod_job_sfdoll_energy_maker_add:0"$job_sfdoll_energy_maker$ jobs"
 
 
-tech_building_sfdoll_mineral:0 "Quality Generate"
-tech_building_sfdoll_mineral_desc:0 "As long as there is enough energy, we can generate all materials we need."
-building_sfdoll_mineral:0 "SF Quality Generate Factory"
+tech_building_sfdoll_mineral:0 "Quality Generate Project"
+tech_building_sfdoll_mineral_desc:0 "As long as there is enough energy, we can generate all matter we need."
+building_sfdoll_mineral:0 "SF Matter Generate Factory"
 building_sfdoll_mineral_desc:0"$building_sfdoll_mineral$"
 
 job_sfdoll_mineral_maker:0"SF Matter Maker"

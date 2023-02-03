@@ -18,10 +18,8 @@ mod_job_sfdoll_dark_matter_maker_add:0"$job_sfdoll_dark_matter_maker$ 岗位"
 tech_sfdoll_collapse_liquid_produce:0 "坍塌粒子制造"
 tech_sfdoll_collapse_liquid_produce_desc:0 "坍塌粒子是一类微型机械,被用于物质的加工"
 
-building_sfdoll_collapse_liquid_plant:0"坍塌液工厂"
+building_sfdoll_collapse_liquid_plant:0"铁血坍塌液工厂"
 building_sfdoll_collapse_liquid_plant_desc:0"在高能量下合成坍塌液，编写内部的坍塌粒子的程序,使其实现多种功能。"
-building_sfdoll_collapse_liquid_2:0 "高级坍塌液工厂"
-building_sfdoll_collapse_liquid_2_desc:0 "更高效地合成坍塌液"
 
 job_sfdoll_collapse_liquid_maker:0"坍塌粒子工程师"
 job_sfdoll_collapse_liquid_maker_plural:0"$job_sfdoll_collapse_liquid_maker$"
@@ -104,11 +102,11 @@ mod_job_sfdoll_energy_maker_add:0"$job_sfdoll_energy_maker$岗位"
 
 
 tech_building_sfdoll_mineral:0 "质量生成工程"
-tech_building_sfdoll_mineral_desc:0 "只要有足够的能量,我们能制造任何所需的物质"
+tech_building_sfdoll_mineral_desc:0 "只要有足够的能量，我们能制造任何所需的物质。"
 building_sfdoll_mineral:0"铁血物质制造厂"
 building_sfdoll_mineral_desc:0"$building_sfdoll_mineral$"
 
-job_sfdoll_mineral_maker:0"物质合成师"
+job_sfdoll_mineral_maker:0"铁血物质制造师"
 job_sfdoll_mineral_maker_plural:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_desc:0 "$job_sfdoll_mineral_maker$"
 job_sfdoll_mineral_maker_effect_desc:0 "物质合成师消耗§Y$energy$§!,生产 §Y$minerals$§! "
