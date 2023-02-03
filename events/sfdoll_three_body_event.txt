@@ -16,14 +16,13 @@ country_event = {
 		planet_background = this
 		city_level = this
 	}
+	option = { name = "INTERESTING" }
 	after = {
 		hidden_effect = {
 			set_country_flag = sfdoll_dingyi_owner
 			sfdoll_dingyi_become_scientist = yes
 		}
-	}
-
-	# option = { name = "INTERESTING" }
+	}	
 }
 
 #和丁仪通讯
