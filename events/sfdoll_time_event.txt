@@ -1,6 +1,6 @@
 namespace = sfdoll_time_event
 
-# 统一年检
+# 统一年检（旧）
 country_event = {
 	id = sfdoll_time_event.1
 	hide_window = yes

@@ -8,7 +8,8 @@ on_game_start_country={
 
 on_yearly_pulse_country = {
 	events = {
-		sfdoll_time_event.1
+		sfdoll_event.1
+		# sfdoll_time_event.1
 	}
 }
 

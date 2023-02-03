@@ -13,13 +13,11 @@ country_event = {
 	fire_only_once = yes
 	picture = GFX_evp_sfdoll_ship_in_orbit
 	trigger = {
+		is_ai = no
 		has_authority = auth_gf_sfdoll
+		has_technology = tech_hyper_drive_2	
 	}
-	after = {
-		country_event = {
-			id = sfdoll_gunslinger_girl_event.2
-		}
-	}
+	after = { country_event = { id = sfdoll_gunslinger_girl_event.2 } }
 }
 
 #发现来自地球的飞船2
@@ -272,23 +270,5 @@ country_event = {
 		# }
 		save_global_event_target_as = sfdoll_triela_owner
 		set_country_flag = sfdoll_triela_owner
-	}
-}
-
-#延迟触发系列事件
-country_event = {
-	id = sfdoll_gunslinger_girl_event.8
-	hide_window = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	trigger = {
-		has_authority = auth_gf_sfdoll
-		has_technology = tech_sapient_ai
-	}
-	after = {
-		country_event = {
-			id = sfdoll_gunslinger_girl_event.1
-			days = 60
-		}
 	}
 }

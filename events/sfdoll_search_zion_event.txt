@@ -13,6 +13,7 @@ country_event = {
 	trigger = {
 		is_ai = no
 		has_authority = auth_gf_sfdoll
+		has_technology = tech_sensors_2
 	}
 
 	#添加分析谜之信号项目

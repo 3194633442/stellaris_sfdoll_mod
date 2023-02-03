@@ -5,14 +5,17 @@ country_event = {
 	id = sfdoll_event.1
 	hide_window = yes
 	is_triggered_only = yes
-	trigger = {
-		has_authority = auth_gf_sfdoll
-	}
+	trigger = { has_authority = auth_gf_sfdoll }
 	immediate = {
-		country_event = {
-			id = sfdoll_search_zion_event.0
-			days = 5
-		}
+		country_event = { id = sfdoll_search_zion_event.0  days = 5 }
+		# 头像
+		country_event = { id = sfdoll_leader_event.1 }
+		# 特质国家修正
+		country_event = { id = sfdoll_time_event.2 }
+		# 神枪少女
+		country_event = { id = sfdoll_gunslinger_girl_event.1  days = 11 }
+		# 版本号检查
+		country_event = { id = sfdoll_test_event.2  days = 1 }
 	}
 }
 
