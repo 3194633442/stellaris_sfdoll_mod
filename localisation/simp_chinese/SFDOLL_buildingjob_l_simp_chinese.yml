@@ -4,7 +4,7 @@ planet_sfdoll_sp_industry:0 "铁血特种工业"
 
 #produce
 tech_sfdoll_dark_matter_plant:0"大一统理论"
-tech_sfdoll_dark_matter_plant_desc:0 "引力是什么？关于这个问题，铁血人形已经有了答案。"
+tech_sfdoll_dark_matter_plant_desc:0 "引力背后的真相是什么？关于这个问题，铁血人形已经有了答案。"
 building_sfdoll_dark_matter_plant:0"铁血暗物质工厂"
 building_sfdoll_dark_matter_plant_desc:0"$building_sfdoll_dark_matter_plant$"
 

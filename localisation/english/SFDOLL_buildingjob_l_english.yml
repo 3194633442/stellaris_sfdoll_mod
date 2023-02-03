@@ -4,7 +4,7 @@ planet_sfdoll_sp_industry:0 "SF Special Industry"
 
 #produce
 tech_sfdoll_dark_matter_plant:0 "Grand Unified Theory"
-tech_sfdoll_dark_matter_plant_desc:0 "What is gravity? SF Dolls already had an answer to this question."
+tech_sfdoll_dark_matter_plant_desc:0 "What is the truth behind gravity? SF Dolls already had an answer to this question."
 building_sfdoll_dark_matter_plant:0"SF Dark Matter Factory"
 building_sfdoll_dark_matter_plant_desc:0"$building_sfdoll_dark_matter_plant$"
 
