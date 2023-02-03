@@ -4,10 +4,10 @@
 tech_sfdoll_weapon_S_1:0"铁血小型武器"
 tech_sfdoll_weapon_S_1_desc:0"我们需要更加灵活可靠的太空武器。"
 sfdoll_weapon_S_1:0"铁血火蜥蜴火力系统"
+
+sfdoll_weapon_S_1_DESC:0 "暗物质和坍塌粒子的加持下，新式火力系统可以胜任多种距离的作战任务。"
 sfdoll_weapon_M_1:0 "$sfdoll_weapon_S_1$"
 sfdoll_weapon_L_1:0 "$sfdoll_weapon_S_1$"
-sfdoll_weapon_S_1:0 "$sfdoll_weapon_S_1$"
-sfdoll_weapon_S_1_DESC:0 "暗物质和坍塌粒子的加持下，新式火力系统可以胜任多种距离的作战任务。"
 
 sfdoll_weapon_P_1:0 "铁血P-6点防御"
 sfdoll_weapon_P_1_DESC:0 "$sfdoll_weapon_P_1$"
@@ -34,7 +34,6 @@ tech_sfdoll_weapon_S_2_desc:0 "对火控系统的超光速传输效率进行提�
 
 sfdoll_weapon_P_2:0 "铁血P-8点防御"
 sfdoll_weapon_P_2_DESC:0 "比起过去的点防御，$sfdoll_weapon_P_2$能更迅速地摧毁敌方飞行器"
-sfdoll_weapon_P_2:0 "$sfdoll_weapon_P_2$"
 
 sfdoll_weapon_S_2:0 "铁血S-10反中子炮"
 sfdoll_weapon_S_2_DESC:0 "这种小型武器使用高能反粒子流来击穿敌方防御。"

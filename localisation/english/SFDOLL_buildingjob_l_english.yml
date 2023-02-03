@@ -126,7 +126,7 @@ job_sfdoll_educator_desc:0 "$job_sfdoll_educator$"
 job_sfdoll_educator_effect_desc:0 "$job_sfdoll_educator$ consumes £consumer_goods£ §Y$consumer_goods$§!,produces £unity£ §Y$unity$§!, £society_research£ §Y$society_research$§!,reduces crime on the planet "
 mod_job_sfdoll_educator_add:0 "$job_sfdoll_educator$ jobs"
 
-building_sfdoll_media:0 "Sangvis Ferri Cultural Square"
+building_sfdoll_media:0 "SF Cultural Square"
 building_sfdoll_media_desc:0 "You can find lots of cultural products here."
 job_sfdoll_artist:0 "Artist"
 job_sfdoll_artist_plural:0 "Artists"

@@ -4,9 +4,9 @@
 tech_sfdoll_weapon_S_1:0"SF Small Arms"
 tech_sfdoll_weapon_S_1_desc:0"We need more reliable space weapons."
 sfdoll_weapon_S_1:0"SF Salamander Fire System"
+sfdoll_weapon_S_1_DESC:0 "With the help of dark matter and collapse particle, the new fire system can be competent for multiple range combat tasks."
 sfdoll_weapon_M_1:0 "$sfdoll_weapon_S_1$"
 sfdoll_weapon_L_1:0 "$sfdoll_weapon_S_1$"
-sfdoll_weapon_S_1_DESC:0 "With the help of dark matter and collapse particle, the new fire system can be competent for multiple range combat tasks."
 
 sfdoll_weapon_P_1:0"SF P-6 Point-Defense"
 sfdoll_weapon_P_1_DESC:0"$sfdoll_weapon_P_1$"
