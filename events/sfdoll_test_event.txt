@@ -13,60 +13,27 @@ country_event = {
 	}
 	immediate = {
 		set_variable = {
-			which = sfdoll_mod_ver_old
-			value = @sfdoll_mod_ver_new
+			which = sfdoll_mod_version_save
+			value = @sfdoll_mod_version
 		}
 	}
 }
-
+# 检查存档版本号是否和当前版本号一致
 country_event = {
 	id = sfdoll_test_event.2
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
 		has_authority = auth_gf_sfdoll
+		NOT = {
+			check_variable = {
+				which = sfdoll_mod_version_save
+				value = @sfdoll_mod_version
+			}
+		}
 	}
 	immediate = {
-		if = {
-			limit = {
-				from = {  NOT = {has_country_flag = gray_country }	}
-				from = {
-					is_country_type = country_type_sfdoll_event_leader
-					has_country_flag = sfdoll_ump45_country
-				}
-				has_country_flag = sfdoll_ump45_owner
-				NOT = { has_country_flag = contract_diplomacy_engaged }
-			}
-			country_event = {
-				id = sfdoll_ump45_event.1
-			}
-		}
-		if = {
-			limit = { 	
-				from = {  NOT = {has_country_flag = gray_country }	}
-				from = { has_country_flag = sfdoll_noel_country }
-				has_country_flag = sfdoll_noel_owner
-				NOT = { has_country_flag = contract_diplomacy_engaged }
-			 }
-			 country_event = {
-				 id = sfdoll_noel_event.1
-			 }
-		}
-
-		if = {
-			limit = {
-				from = {  NOT = {has_country_flag = gray_country }	}
-				from = {
-					is_country_type = country_type_sfdoll_event_leader
-					has_country_flag = sfdoll_triela_country
-				}
-				has_country_flag = sfdoll_triela_owner
-				NOT = { has_country_flag = contract_diplomacy_engaged }
-			}
-			country_event = {
-				id = sfdoll_gunslinger_girl_event.6
-			}
-		}
+		begin_event_chain = { event_chain = sfdoll_main_event_chain }
 	}
 }
 

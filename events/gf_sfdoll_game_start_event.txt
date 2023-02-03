@@ -161,20 +161,19 @@ country_event = {
 		set_country_flag = synth_detector
 
 		#开局提示
-		country_event = {
-			id = gf_sfdoll_game_start_event.1
-			days = 7
-		}
+		country_event = { id = gf_sfdoll_game_start_event.1  days = 7 }
 
 		# 人类物种
 		create_species = {
 			name = "sfdoll_human_species"
 			class = HUM
 			immortal = no
-			effect = {
-				save_global_event_target_as = sfdoll_human_species
-			}
+			effect = { save_global_event_target_as = sfdoll_human_species }
 		}
+
+		# 存档版本
+		country_event = { id = sfdoll_test_event.1 days = 1 }
+
 	}
 }
 
