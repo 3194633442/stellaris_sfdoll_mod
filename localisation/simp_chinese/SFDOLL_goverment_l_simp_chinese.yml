@@ -3,8 +3,8 @@
 #旗帜
 FLAG_CATEGORY_sfdoll_flags:0"铁血人形"
 
-origin_sfdoll_country:0"人偶黎明"
-origin_sfdoll_country_desc:0"这个文明的创建者是一种机械生物.它们离开自己的母星,并在宇宙中建立了新家园。"
+origin_sfdoll_country:0 "钢铁帝国的崛起"
+origin_sfdoll_country_desc:0 "这个文明的创建者是一种机械生物.它们离开自己的母星,并在宇宙中建立了新家园。"
 origin_sfdoll_country_description:0 "开局拥有较少的人口,区划和建筑\n 开局拥有部分人工智能科技和自动探索科技"
 
 EMPIRE_DESIGN_PRESCRIPTED_sfdoll_1:0 "铁血星际共和国"
