@@ -8,7 +8,7 @@ sfdoll_blackhole_mining_01 = {
 	build_time = 360
 	show_prereqs = yes
 	prerequisites = { 	tech_sfdoll_blackhole_mining	}
-	potential = {	has_authority = auth_gf_sfdoll	}
+	potential = { is_ai = no	has_authority = auth_gf_sfdoll	}
 	resources = {
 		category = megastructures
 		cost = {

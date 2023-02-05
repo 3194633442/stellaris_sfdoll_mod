@@ -9,7 +9,7 @@ sfdoll_mining_station_01 = {
 	show_prereqs = yes
 	prerequisites = { tech_sfdoll_mining_station }
 
-	potential = { is_ai = no has_authority = auth_gf_sfdoll }
+	potential = { is_ai = no  has_authority = auth_gf_sfdoll }
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_inside_border"

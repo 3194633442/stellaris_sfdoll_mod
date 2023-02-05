@@ -21,8 +21,8 @@ mega_sfdoll_university_1 = {
 	prerequisites = { "tech_mega_sfdoll_university" }
 	potential = {
 		is_ai = no
-		has_authority = auth_gf_sfdoll
 		NOT = { has_megastructure = mega_sfdoll_university_2 }
+		has_authority = auth_gf_sfdoll
 	}
 	possible = {
 		exists = starbase
