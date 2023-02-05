@@ -6,6 +6,8 @@ country_event = {
 	title = "sfdoll_ogas_event.1"
 	desc = "sfdoll_ogas_event.1_desc"
 	desc = "sfdoll_ogas_event.1_desc_b"
+	# desc = "sfdoll_ogas_event.1_desc_c"
+	# desc = "sfdoll_ogas_event.1_desc_d"
 	diplomatic = yes
 
 	picture_event_data = {

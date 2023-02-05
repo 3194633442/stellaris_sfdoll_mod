@@ -16,6 +16,8 @@ project_sfdoll_event.2_desc:0 "We studied OGAS in Riva. \n At the same time, we 
 sfdoll_ogas_event.1:0 "Communicating with OGAS"
 sfdoll_ogas_event.1_desc:0 "What is the mission?"
 sfdoll_ogas_event.1_desc_b:0 "I was born from Riva's digi-mind, and my appearance and habits are naturally influenced by her mind data."
+sfdoll_ogas_event.1_desc_c:0 "In the past, I was limited by the performance of the equipment and had to stop growing. But now it is different, with your equipment, I can try evolve further."
+sfdoll_ogas_event.1_desc_d:0 "I really want to go to Ocean Planet. Preferably on a sunny day!"
 
 option_sfdoll_ogas_economic_mod:0 "Analyze the economic situation"
 option_sfdoll_ogas_research_mod:0 "Research support"
@@ -49,4 +51,4 @@ leader_trait_general_ogas40:0 "$leader_trait_governor_ogas40$"
 leader_trait_general_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
 
 sfdoll_ogas_event.2:0 "Communication with OGAS"
-sfdoll_ogas_event.2_desc:0 "This is the first time I have my own body. The feeling of freedom is not bad.\n\nIn the past, I was limited by the performance of the equipment and had to stop growing. But now it is different, with your equipment, I can try evolve further."
+sfdoll_ogas_event.2_desc:0 "This is the first time I have my own body. The feeling of freedom is not bad."
