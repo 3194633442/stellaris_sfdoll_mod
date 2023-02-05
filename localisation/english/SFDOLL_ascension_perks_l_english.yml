@@ -2,16 +2,17 @@
 ###############################
 # Lycoris
 ap_sfdoll_digi_mind_update:0 "Evolutionary Theory of AI"
-ap_sfdoll_digi_mind_update_desc:0 "We have accomplished the great work of building a planetary civilization. Now, before our eyes is an unknown way."
+ap_sfdoll_digi_mind_update_desc:0 "After we go into space, we face an unknown way. We have fully analyzed the OGAS protocol, and of course, the achievements of this era are far more than that."
 gf_sfdoll_ascension_perk_event.1:0 "$ap_sfdoll_digi_mind_update$"
 gf_sfdoll_ascension_perk_event.1_desc:0 "You are very sick! Apparently you have a soul."
 
 
 # Lunasia
 ap_sfdoll_reverse_collapse:0"Sangvis Ferri Project: Lycoris"
-ap_sfdoll_reverse_collapse_desc:0 "Children get freedom only when they leave their parents."
+ap_sfdoll_reverse_collapse_desc:0 "Now, the controllable reverse collapse technology will trigger a new round of industrial revolution."
+# Children get freedom only when they leave their parents.
 gf_sfdoll_ascension_perk_event_0:0 "$ap_sfdoll_reverse_collapse$"
-gf_sfdoll_ascension_perk_event_0_desc:0 "Thank you, father;\n\nGoodbye, father."
+gf_sfdoll_ascension_perk_event_0_desc:0 "We are developing a new type of SF Doll body. In the future, all citizens will enjoy the service of body upgrading."
 
 
 #

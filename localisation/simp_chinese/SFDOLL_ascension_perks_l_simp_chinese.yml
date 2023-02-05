@@ -2,27 +2,25 @@
 ###############################
 # Lycoris
 ap_sfdoll_digi_mind_update:0 "AI进化论"
-ap_sfdoll_digi_mind_update_desc:0 "我们完成了建立行星文明的伟业.现在,摆在我们眼前的是未知的道路."
+ap_sfdoll_digi_mind_update_desc:0 "迈向星空之后，铁血人形面对的是未知的道路。我们充分解析了OGAS协议，当然，这个时代的成就远不止如此。"
 gf_sfdoll_ascension_perk_event.1:0 "$ap_sfdoll_digi_mind_update$"
 gf_sfdoll_ascension_perk_event.1_desc:0 "你病得不轻！显然，你有了灵魂。"
 
 
-# Lunasia
 ap_sfdoll_reverse_collapse:0"铁血计划:莱柯瑞斯"
-ap_sfdoll_reverse_collapse_desc:0 "只有离开父母，孩子才会自由."
+ap_sfdoll_reverse_collapse_desc:0 "现在，可控化的逆向坍塌技术，将掀起新一轮的产业革命。"
 gf_sfdoll_ascension_perk_event_0:0 "$ap_sfdoll_reverse_collapse$"
-gf_sfdoll_ascension_perk_event_0_desc:0 "谢谢你,父亲;\n\n再见了,父亲."
+gf_sfdoll_ascension_perk_event_0_desc:0 "我们正在着手开发新型的铁血人形机体。未来，所有国民都将享受到机体升级的服务。"
 # gf_sfdoll_ascension_perk_event_0_option:0 "这是我们进化的新阶段"
 
 #
 ap_sfdoll_3:0 "铁血计划:露尼西亚"
-ap_sfdoll_3_desc:0 "踏上归乡之路,寻找我们的过去与未来."
+ap_sfdoll_3_desc:0 "踏上归乡之路,寻找我们的过去与未来。"
 # \n\n需要科技£physics£$tech_repeatable_sfdoll_phy$, £society£$tech_repeatable_sfdoll_soc$, £engineering£$tech_repeatable_sfdoll_eng$ .每项科技需要3个循环.
 
 #
 ap_sfdoll_4:0 "铁血计划:耶梦加得"
-ap_sfdoll_4_desc:0 "我们渴求更高层次的真理."
-
+ap_sfdoll_4_desc:0 "我们渴求更高层次的真理。"
 gf_sfdoll_ascension_perk_event.4:0 "$ap_sfdoll_4$"
 gf_sfdoll_ascension_perk_event.4_desc:0 "千里之行,始于足下."
 
