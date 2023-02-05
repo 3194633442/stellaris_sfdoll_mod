@@ -116,14 +116,14 @@ tech_sfdoll_blackhole_mining:0 "$sfdoll_blackhole_mining_03$"
 tech_sfdoll_blackhole_mining_desc:0 "$sfdoll_blackhole_mining_03_DESC$"
 
 sfdoll_mobile_gateway_01:0 "铁血移动星门"
-sfdoll_mobile_gateway_01_DESC:0 "移动星门可升级成为一艘星门舰。选取星门舰所属的舰队，点击§Y‘解散舰队’§!，可以生成一个移动星门。如果点击§Y‘解散船只’§!，则不会生成移动星门。"
+sfdoll_mobile_gateway_01_DESC:0 "移动星门可升级成为一艘星门舰。\n星门舰的使用方法：\n点击§Y‘解散舰队’§!，可以把星门舰变成移动星门. 如果点击§Y‘解散船只’§!，则不会生成移动星门。"
 sfdoll_mobile_gateway_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mobile_gateway_01_DESC$"
 
 sfdoll_mobile_gateway_02:0 "铁血星门舰"
 sfdoll_mobile_gateway_02_DESC:0 "$sfdoll_mobile_gateway_01_DESC$"
 
 tech_sfdoll_mobile_gateway:0 "$sfdoll_mobile_gateway_01$"
-tech_sfdoll_mobile_gateway_desc:0 "移动星门是一种快速交通枢纽"
+tech_sfdoll_mobile_gateway_desc:0 "移动星门是一种快速交通枢纽。它和普通的星门是互通的。"
 
 sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
 sfdoll_gateway_ship_plural:0 "$sfdoll_mobile_gateway_02$"

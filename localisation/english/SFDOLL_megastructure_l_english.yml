@@ -116,14 +116,14 @@ tech_sfdoll_blackhole_mining:0 "$sfdoll_blackhole_mining_03$"
 tech_sfdoll_blackhole_mining_desc:0 "$sfdoll_blackhole_mining_03_DESC$"
 
 sfdoll_mobile_gateway_01:0 "SF Mobile Gateway"
-sfdoll_mobile_gateway_01_DESC:0 "A Mobile Gateway can upgrade to a Gateway Ship. \nSelect the fleet which the Gateway Ship belongs to, click on §Y'disband fleet'§! to generate a Mobile Gateway. \nClick on §Y'disband ship'§! will not generate a Mobile Gateway."
+sfdoll_mobile_gateway_01_DESC:0 "A Mobile Gateway can upgrade to a Gateway Ship. \nHow to use Gateway Ship: \nClick on §Y'disband fleet'§! to turn a Gateway Ship to a Mobile Gateway. Click on §Y'disband ship'§! will not generate a Mobile Gateway."
 sfdoll_mobile_gateway_01_MEGASTRUCTURE_DETAILS:0 "$sfdoll_mobile_gateway_01_DESC$"
 
 sfdoll_mobile_gateway_02:0 "SF Gateway Ship"
 sfdoll_mobile_gateway_02_DESC:0 "$sfdoll_mobile_gateway_01_DESC$"
 
 tech_sfdoll_mobile_gateway:0 "$sfdoll_mobile_gateway_01$"
-tech_sfdoll_mobile_gateway_desc:0 "Mobile gateway is a rapid transportation hub"
+tech_sfdoll_mobile_gateway_desc:0 "Mobile gateway is a rapid transportation hub. It is interconnected with ordinary gateway."
 
 sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
 sfdoll_gateway_ship_plural:0 "$sfdoll_mobile_gateway_02$s"
