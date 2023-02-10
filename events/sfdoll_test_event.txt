@@ -32,9 +32,9 @@ country_event = {
 			}
 		}
 	}
-	immediate = {
-		begin_event_chain = { event_chain = sfdoll_main_event_chain }
-	}
+	# immediate = {
+	# 	begin_event_chain = { event_chain = sfdoll_main_event_chain }
+	# }
 }
 
 country_event = {
