@@ -8,6 +8,6 @@ tags={
 	"Species"
 	"Technologies"
 }
-name="少女前线GirlsFrontline 铁血人形物种包SangvisFerriSpecies"
+name="少女前线：铁血人形物种 Girls Frontline: Sangvis Ferri Species"
 supported_version="3.6.1"
 remote_file_id="2703227924"

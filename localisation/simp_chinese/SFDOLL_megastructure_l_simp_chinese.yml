@@ -123,7 +123,7 @@ sfdoll_mobile_gateway_02:0 "铁血星门舰"
 sfdoll_mobile_gateway_02_DESC:0 "$sfdoll_mobile_gateway_01_DESC$"
 
 tech_sfdoll_mobile_gateway:0 "$sfdoll_mobile_gateway_01$"
-tech_sfdoll_mobile_gateway_desc:0 "移动星门是一种快速交通枢纽。它和普通的星门是互通的。"
+tech_sfdoll_mobile_gateway_desc:0 "移动星门是一种超光速工具。它和普通的星门是互通的。"
 
 sfdoll_gateway_ship:0 "$sfdoll_mobile_gateway_02$"
 sfdoll_gateway_ship_plural:0 "$sfdoll_mobile_gateway_02$"
