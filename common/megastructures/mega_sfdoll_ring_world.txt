@@ -223,6 +223,8 @@ mega_sfdoll_ring_world_4 = {
 				save_event_target_as = ring_section
 				trigger_megastructure_icon = yes
 				set_planet_flag = megastructure
+				# 禁止一部分事件
+				set_planet_flag = colony_event
 				if = {
 					limit = { from = { has_authority = auth_gf_sfdoll }}
 					start_colony = {

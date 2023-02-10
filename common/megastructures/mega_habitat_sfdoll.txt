@@ -171,6 +171,8 @@ sfdoll_habitat_02 ={
 					save_event_target_as = this_planet_habiti
 					set_planet_flag = megastructure
 					set_planet_flag = habitat
+					# 禁止一部分事件
+					set_planet_flag = colony_event
 				}
 			}
 			from = {
