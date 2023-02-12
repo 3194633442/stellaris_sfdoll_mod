@@ -95,29 +95,27 @@ country_event = {
 	}
 
 	#选项，伊莱莎变科学家
-	option = {
-		name =  "elisa_to_scientist"
-		allow = { 
-			custom_tooltip ={
-				fail_text ="elisa_has_this_job_now"
-				NOT = {
-					AND = {
-						exists = event_target:sfdoll_leader_elisa
-						event_target:sfdoll_leader_elisa = {
-							leader_class = scientist
-							owner = {
-								is_same_value = root
-							}
-						}
-					}			
-				}
-			}			 
-		}
-		elisa_to_scientist_sfd_effect =  yes
-		response_text = "response_text_elisa_to_scientist"
-	}
-
-
+	# option = {
+	# 	name =  "elisa_to_scientist"
+	# 	allow = { 
+	# 		custom_tooltip ={
+	# 			fail_text ="elisa_has_this_job_now"
+	# 			NOT = {
+	# 				AND = {
+	# 					exists = event_target:sfdoll_leader_elisa
+	# 					event_target:sfdoll_leader_elisa = {
+	# 						leader_class = scientist
+	# 						owner = {
+	# 							is_same_value = root
+	# 						}
+	# 					}
+	# 				}			
+	# 			}
+	# 		}			 
+	# 	}
+	# 	elisa_to_scientist_sfd_effect =  yes
+	# 	response_text = "response_text_elisa_to_scientist"
+	# }
 
 	#退出
 	option = {

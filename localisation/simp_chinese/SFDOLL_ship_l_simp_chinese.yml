@@ -249,7 +249,7 @@ sfdoll_warship_5_plural:0 "$sfdoll_warship_5$"
 tech_sfdoll_warship_5:0 "$sfdoll_warship_5$"
 tech_sfdoll_warship_5_desc:0 "高效的舰船管理系统，让这种大型舰船得以保持最佳状态。\n$place_build_sfdoll_special_ship$"
 
-sfdoll_warship_5_bow:0 "A"
+sfdoll_warship_5_bow_4M:0 "A"
 sfdoll_warship_5_bow_6L:0 "B"
 sfdoll_warship_5_core_M4:0 "C"
 sfdoll_warship_5_core_G4:0 "D"

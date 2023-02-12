@@ -241,7 +241,7 @@ sfdoll_warship_5_plural:0 "$sfdoll_warship_5$s"
 tech_sfdoll_warship_5:0 "$sfdoll_warship_5$"
 tech_sfdoll_warship_5_desc:0 "The efficient ship management system allows this large ship to maintain the best condition.\n$place_build_sfdoll_special_ship$"
 
-sfdoll_warship_5_bow:0 "A"
+sfdoll_warship_5_bow_4M:0 "A"
 sfdoll_warship_5_bow_6L:0 "B"
 sfdoll_warship_5_core_M4:0 "C"
 sfdoll_warship_5_core_G4:0 "D"
