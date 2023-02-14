@@ -1584,7 +1584,7 @@ ship_section_template = {
 		locatorname = L24
 	}
 	large_utility_slots = 12
-	aux_utility_slots = 5
+	aux_utility_slots = 4
 }
 ship_section_template = {
 	key = sfdoll_warship_6_stern_H1
@@ -1630,5 +1630,5 @@ ship_section_template = {
 		locatorname = L24
 	}
 	large_utility_slots = 12
-	aux_utility_slots = 5
+	aux_utility_slots = 4
 }
