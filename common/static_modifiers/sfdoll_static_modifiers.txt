@@ -4,6 +4,12 @@ GF_nyto_collapse_liquid_deficit = {
 	country_produces_mult = -0.25
 }
 
+# 铁血传媒合作协议
+sfdoll_media_agreement = {
+	country_unity_produces_mult = 0.10
+	planet_amenities_add = 5
+}
+
 ##特质系统
 # trait_sfdoll_logic_engine_2_modifier = {
 # 	num_tech_alternatives_add = 1

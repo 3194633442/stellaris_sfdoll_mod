@@ -65,3 +65,132 @@ country_event = {
 	fire_only_once = yes
 	option = { name = "sfdoll_event.5_a" }
 }
+
+# 铁血传媒通讯界面
+country_event = {
+	id = sfdoll_event.100
+	is_triggered_only = yes
+	trigger = { has_authority = auth_gf_sfdoll }
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = GFX_sfdoll_ump45_02
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}	
+	is_triggered_only = yes
+	option = {
+		name = sfdoll_event.100.a
+		hidden_effect = {  country_event = {  id = sfdoll_event.101  } }
+	}
+}
+
+#合作协议
+country_event = {
+	id = sfdoll_event.101
+	is_triggered_only = yes
+	trigger = { has_authority = auth_gf_sfdoll }
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = GFX_sfdoll_ump45_02
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}
+
+	immediate = {
+		# Set costs based on population
+		if = {
+			limit = {
+				num_pops < 61
+			}
+			set_variable = {
+				which = artisan_patronage_cost
+				value = -1000
+			}
+		}
+		else_if = {
+			limit = {
+				num_pops > 60
+				num_pops < 121
+			}
+			set_variable = {
+				which = artisan_patronage_cost
+				value = -2000
+			}
+		}
+		else_if = {
+			limit = {
+				num_pops > 120
+				num_pops < 181
+			}
+			set_variable = {
+				which = artisan_patronage_cost
+				value = -3000
+			}
+		}
+		else_if = {
+			limit = {
+				num_pops > 180
+				num_pops < 241
+			}
+			set_variable = {
+				which = artisan_patronage_cost
+				value = -4000
+			}
+		}
+		else = {
+			set_variable = {
+				which = artisan_patronage_cost
+				value = -5000
+			}
+		}
+	}
+	option = {
+		name = "sfdoll_event.101.a"
+		
+	}
+	option = {
+		name = "QUIT"
+		hidden_effect = {  country_event = {  id = sfdoll_event.100 } }
+	}
+	is_triggered_only = yes
+}
+
+# 演出活动
+country_event = {
+	id = sfdoll_event.102
+	is_triggered_only = yes
+	trigger = { has_authority = auth_gf_sfdoll }
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = GFX_sfdoll_ump45_02
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}	
+	is_triggered_only = yes	
+}
+
+# 文艺城
+country_event = {
+	id = sfdoll_event.103
+	is_triggered_only = yes
+	trigger = { has_authority = auth_gf_sfdoll }
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = GFX_sfdoll_ump45_02
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}
+	is_triggered_only = yes	
+}
