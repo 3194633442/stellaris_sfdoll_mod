@@ -93,7 +93,8 @@ country_event = {
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
-
+	is_triggered_only = yes
+	
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump45_02
 		room = this
@@ -109,8 +110,8 @@ country_event = {
 				num_pops < 61
 			}
 			set_variable = {
-				which = artisan_patronage_cost
-				value = -1000
+				which = sfdoll_media_agreement_cost
+				value = -1200
 			}
 		}
 		else_if = {
@@ -119,8 +120,8 @@ country_event = {
 				num_pops < 121
 			}
 			set_variable = {
-				which = artisan_patronage_cost
-				value = -2000
+				which = sfdoll_media_agreement_cost
+				value = -2400
 			}
 		}
 		else_if = {
@@ -129,8 +130,8 @@ country_event = {
 				num_pops < 181
 			}
 			set_variable = {
-				which = artisan_patronage_cost
-				value = -3000
+				which = sfdoll_media_agreement_cost
+				value = -3600
 			}
 		}
 		else_if = {
@@ -139,26 +140,37 @@ country_event = {
 				num_pops < 241
 			}
 			set_variable = {
-				which = artisan_patronage_cost
-				value = -4000
+				which = sfdoll_media_agreement_cost
+				value = -4800
 			}
 		}
 		else = {
 			set_variable = {
-				which = artisan_patronage_cost
-				value = -5000
+				which = sfdoll_media_agreement_cost
+				value = -6000
 			}
 		}
 	}
 	option = {
 		name = "sfdoll_event.101.a"
-		
+		allow = {
+			resource_stockpile_compare = {
+				resource = energy
+				value >= -1 #flip to a positive value to make this comparison
+				mult = sfdoll_media_agreement_cost
+			}
+			NOT = { has_modifier = sfdoll_media_agreement }
+		}
+		add_resource = {
+			energy = 1
+			mult = sfdoll_media_agreement_cost #negative value
+		}
+		add_modifier = {  modifier = sfdoll_media_agreement  days = 3600  }
 	}
 	option = {
 		name = "QUIT"
 		hidden_effect = {  country_event = {  id = sfdoll_event.100 } }
 	}
-	is_triggered_only = yes
 }
 
 # 演出活动
