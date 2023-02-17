@@ -1,5 +1,7 @@
 building_sfdoll_amusement_park = {
 	base_buildtime =  @b1_time
+	base_cap_amount = 1
+	empire_limit = 3
 	category = amenity
 	icon = building_sfdoll_media
 	potential = {
@@ -19,10 +21,13 @@ building_sfdoll_amusement_park = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_country_flag = sfdoll_empire }
+			owner = { has_country_flag = unlock_building_sfdoll_amusement_park }
 		}
 		modifier = {
-			job_sfdoll_artist_add = 2
+			job_culture_worker_add = 2
+			job_entertainer_add = 6
+			pop_job_trade_mult = 0.3
+			planet_amenities_add = 10
 		}
 	}
 	resources = {

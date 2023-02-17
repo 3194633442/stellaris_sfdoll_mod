@@ -70,7 +70,6 @@ country_event = {
 country_event = {
 	id = sfdoll_event.100
 	is_triggered_only = yes
-	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
 
 	picture_event_data = {
@@ -80,12 +79,17 @@ country_event = {
 		planet_background = this
 		city_level = this
 	}	
-	is_triggered_only = yes
 
 	# 合作协议
 	option = {
 		name = sfdoll_event.100.a
 		hidden_effect = {  country_event = {  id = sfdoll_event.101  } }
+	}
+
+	# 铁血乐园
+	option = {
+		name = sfdoll_event.100.b
+		hidden_effect = {  country_event = {  id = sfdoll_event.103  } }
 	}
 
 	option = {  name = "QUIT"  break = yes  }
@@ -99,7 +103,6 @@ country_event = {
 	desc = sfdoll_event.101_desc.b
 	desc = sfdoll_event.101_desc.c
 	is_triggered_only = yes
-	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
 	
 	picture_event_data = {
@@ -188,7 +191,6 @@ country_event = {
 	desc = sfdoll_event.102_desc
 	picture = GFX_evt_tradedeal
 	is_triggered_only = yes
-	trigger = { has_authority = auth_gf_sfdoll }
 
 	option = {
 		name = "OK"
@@ -196,12 +198,12 @@ country_event = {
 	}
 }
 
+# 铁血乐园
 country_event = {
 	id = sfdoll_event.103
 	title = sfdoll_event.103
 	desc = sfdoll_event.103_desc
 	is_triggered_only = yes
-	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
 	
 	picture_event_data = {
@@ -215,9 +217,17 @@ country_event = {
 	immediate = {	}
 	option = {
 		name = "sfdoll_event.103.a"
+		hidden_effect = {
+			set_country_flag = unlock_building_sfdoll_amusement_park
+			country_event = {  id = sfdoll_event.104 }
+		}
 	}
-	option = {
-		name = "QUIT"
-		hidden_effect = {  country_event = {  id = sfdoll_event.100 } }
-	}
+	option = {  name = "QUIT"  hidden_effect = {  country_event = {  id = sfdoll_event.100 } }  }
+}
+
+country_event = {
+	id = sfdoll_event.104
+	base = sfdoll_event.100
+	desc_clear = yes
+	desc = sfdoll_event.104_desc
 }
