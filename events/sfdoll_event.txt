@@ -81,19 +81,26 @@ country_event = {
 		city_level = this
 	}	
 	is_triggered_only = yes
+
+	# 合作协议
 	option = {
 		name = sfdoll_event.100.a
 		hidden_effect = {  country_event = {  id = sfdoll_event.101  } }
 	}
+
+	option = {  name = "QUIT"  break = yes  }
 }
 
 #合作协议
 country_event = {
 	id = sfdoll_event.101
+	title = sfdoll_event.101
+	desc = sfdoll_event.101_desc.a
+	desc = sfdoll_event.101_desc.b
+	desc = sfdoll_event.101_desc.c
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
-	is_triggered_only = yes
 	
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump45_02
@@ -166,6 +173,7 @@ country_event = {
 			mult = sfdoll_media_agreement_cost #negative value
 		}
 		add_modifier = {  modifier = sfdoll_media_agreement  days = 3600  }
+		hidden_effect = {  country_event = {  id = sfdoll_event.100 } }
 	}
 	option = {
 		name = "QUIT"
@@ -173,30 +181,29 @@ country_event = {
 	}
 }
 
-# 演出活动
+# 铁血传媒合作协议到期
 country_event = {
 	id = sfdoll_event.102
+	title = sfdoll_event.102
+	desc = sfdoll_event.102_desc
+	picture = GFX_evt_tradedeal
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
-	diplomatic = yes
 
-	picture_event_data = {
-		portrait = GFX_sfdoll_ump45_02
-		room = this
-		graphical_culture = this
-		planet_background = this
-		city_level = this
-	}	
-	is_triggered_only = yes	
+	option = {
+		name = "OK"
+		hidden_effect = {  country_event = {  id = sfdoll_event.101 } }
+	}
 }
 
-# 文艺城
 country_event = {
 	id = sfdoll_event.103
+	title = sfdoll_event.103
+	desc = sfdoll_event.103_desc
 	is_triggered_only = yes
 	trigger = { has_authority = auth_gf_sfdoll }
 	diplomatic = yes
-
+	
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump45_02
 		room = this
@@ -204,5 +211,13 @@ country_event = {
 		planet_background = this
 		city_level = this
 	}
-	is_triggered_only = yes	
+
+	immediate = {	}
+	option = {
+		name = "sfdoll_event.103.a"
+	}
+	option = {
+		name = "QUIT"
+		hidden_effect = {  country_event = {  id = sfdoll_event.100 } }
+	}
 }
