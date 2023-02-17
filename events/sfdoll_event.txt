@@ -71,6 +71,9 @@ country_event = {
 	id = sfdoll_event.100
 	is_triggered_only = yes
 	diplomatic = yes
+	desc = sfdoll_event.100.desc.a
+	desc = sfdoll_event.100.desc.b
+	desc = sfdoll_event.100.desc.c
 
 	picture_event_data = {
 		portrait = GFX_sfdoll_ump45_02
@@ -83,13 +86,26 @@ country_event = {
 	# 合作协议
 	option = {
 		name = sfdoll_event.100.a
+		trigger = {  NOT = { has_modifier = sfdoll_media_agreement }  }
 		hidden_effect = {  country_event = {  id = sfdoll_event.101  } }
 	}
 
 	# 铁血乐园
 	option = {
 		name = sfdoll_event.100.b
+		trigger = {
+			NOT = {  has_country_flag = unlock_sfdoll_amusement_park  }
+		}
 		hidden_effect = {  country_event = {  id = sfdoll_event.103  } }
+	}
+
+	# 关于你们
+	option = {
+		name = sfdoll_event.100.d
+		trigger = {
+			NOT = {  has_country_flag = unlock_sfdoll_amusement_park  }
+		}
+		hidden_effect = {  country_event = {  id = sfdoll_event.105  } }
 	}
 
 	option = {  name = "QUIT"  break = yes  }
@@ -176,7 +192,10 @@ country_event = {
 			mult = sfdoll_media_agreement_cost #negative value
 		}
 		add_modifier = {  modifier = sfdoll_media_agreement  days = 3600  }
-		hidden_effect = {  country_event = {  id = sfdoll_event.100 } }
+		hidden_effect = {
+			country_event = {  id = sfdoll_event.100 }
+			country_event = {  id = sfdoll_event.102  days = 3601  }
+		}
 	}
 	option = {
 		name = "QUIT"
@@ -187,15 +206,9 @@ country_event = {
 # 铁血传媒合作协议到期
 country_event = {
 	id = sfdoll_event.102
-	title = sfdoll_event.102
+	base = sfdoll_event.101
+	desc_clear = yes
 	desc = sfdoll_event.102_desc
-	picture = GFX_evt_tradedeal
-	is_triggered_only = yes
-
-	option = {
-		name = "OK"
-		hidden_effect = {  country_event = {  id = sfdoll_event.101 } }
-	}
 }
 
 # 铁血乐园
@@ -218,16 +231,23 @@ country_event = {
 	option = {
 		name = "sfdoll_event.103.a"
 		hidden_effect = {
-			set_country_flag = unlock_building_sfdoll_amusement_park
+			set_country_flag = unlock_sfdoll_amusement_park
 			country_event = {  id = sfdoll_event.104 }
 		}
 	}
 	option = {  name = "QUIT"  hidden_effect = {  country_event = {  id = sfdoll_event.100 } }  }
 }
-
 country_event = {
 	id = sfdoll_event.104
 	base = sfdoll_event.100
 	desc_clear = yes
 	desc = sfdoll_event.104_desc
+}
+
+# 关于铁血传媒
+country_event = {
+	id = sfdoll_event.105
+	base = sfdoll_event.100
+	desc_clear = yes
+	desc = sfdoll_event.105_desc
 }

@@ -6,7 +6,7 @@ building_sfdoll_amusement_park = {
 	icon = building_sfdoll_media
 	potential = {
 		exists = owner
-		owner = {	has_country_flag =  unlock_building_sfdoll_amusement_park	}
+		owner = {	has_country_flag =  unlock_sfdoll_amusement_park	}
 	}
 
 	destroy_trigger = {
@@ -21,7 +21,7 @@ building_sfdoll_amusement_park = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_country_flag = unlock_building_sfdoll_amusement_park }
+			owner = { has_country_flag = unlock_sfdoll_amusement_park }
 		}
 		modifier = {
 			job_culture_worker_add = 2
