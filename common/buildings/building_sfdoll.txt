@@ -1,115 +1,37 @@
-# building_sfdoll_planet_computer = {
-# 	base_buildtime = @b3_time
-# 	can_be_disabled = yes
-# 	base_cap_amount = 1
-# 	icon = building_sfdoll_planet_computer
-# 	category = manufacturing
-# 	potential = {
-# 		exists = owner
-# 		owner = {	has_country_flag = sfdoll_empire	}
-# 	}
-# 	prerequisites = {
-# 		tech_sfdoll_planet_computer
-# 	}
-# 	destroy_trigger = {
-# 		exists = owner
-# 		owner = {
-# 			NOT = {	has_country_flag = sfdoll_empire }
-# 		}
-# 	}
-# 	triggered_planet_modifier = {
-# 		potential = {
-# 			exists = owner
-# 			owner = { has_country_flag = sfdoll_empire }
-# 		}
-# 		modifier = {	
-# 			planet_jobs_physics_research_produces_mult = 0.25
-# 			planet_jobs_society_research_produces_mult = 0.25
-# 			planet_jobs_engineering_research_produces_mult = 0.25
-# 			planet_jobs_produces_mult = 0.25
-# 		}
-# 	}
-# 	resources = {
-# 		category = planet_buildings
-# 		cost = {
-# 			minerals = @b3_minerals
-# 		}
-# 		upkeep = {
-# 			energy = @b3_upkeep
-# 		}
-# 	}
-# }
-
-
-#作弊
-building_sfdoll_cheat = {
-	base_buildtime = 1
-	can_build = no
-	can_be_disabled = yes
-	icon = building_sfdoll_cheat
-	category = unity
+building_sfdoll_amusement_park = {
+	base_buildtime =  @b1_time
+	category = amenity
+	icon = building_sfdoll_media
 	potential = {
 		exists = owner
-		owner = {	has_authority = auth_gf_sfdoll	}
+		owner = {	has_country_flag =  unlock_building_sfdoll_amusement_park	}
 	}
+
 	destroy_trigger = {
-		exists = owner
-		owner = {
-			NOT = {	has_country_flag = sfdoll_empire }
+		OR = {
+			has_modifier = slave_colony
+			has_modifier = resort_colony
 		}
 	}
-	#不可用时转换为
-	# convert_to = {
-	# 	building_drone_storage
-	# 	building_hive_warren
-	# 	building_communal_housing
+	# triggered_desc = {
+	# 	text = job_sfdoll_artist_effect_desc
 	# }
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { has_country_flag = sfdoll_empire }
 		}
+		modifier = {
+			job_sfdoll_artist_add = 2
+		}
 	}
-	country_modifier = { 
-		starbase_shipyard_build_time_mult = -2
-		starbase_shipyard_build_cost_mult = -2
-		ships_upkeep_mult = -2
-		ship_weapon_damage = 10
-		ship_fire_rate_mult = 2
-		planet_army_build_time_mult = -2
-		planet_buildings_cost_mult = -2
-		planet_building_build_speed_mult = 10
-		country_naval_cap_add = 20000
-
-	 }
-	
 	resources = {
 		category = planet_buildings
-		produces = {
-			unity = 10000
-			minerals = 100000
-			energy = 100000
-			alloys = 100000
-			consumer_goods = 100000
-			physics_research = 100000
-			society_research = 100000
-			engineering_research = 100000
-			GF_nyto_collapse_liquid = 100000
-			sr_dark_matter = 100000
-			nanites = 100000
-			exotic_gases = 100000
-			rare_crystals = 100000
-			volatile_motes = 100000
-		}
 		cost = {
-			minerals = 0
+			minerals = @b1_minerals
 		}
 		upkeep = {
-			energy = 0
+			energy = @b1_upkeep
 		}
-	}
-
-	ai_weight = {
-		factor = -100
 	}
 }

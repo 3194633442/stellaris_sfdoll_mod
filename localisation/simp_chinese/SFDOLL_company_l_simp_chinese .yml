@@ -14,3 +14,6 @@ sfdoll_media_agreement:0 "铁血传媒合作协议"
 
 sfdoll_event.102:0 "协议到期"
 sfdoll_event.102_desc:0 "我们和铁血传媒的协议已经到期。该考虑要不要继续合作了。"
+
+building_sfdoll_amusement_park
+building_sfdoll_amusement_park_desc
