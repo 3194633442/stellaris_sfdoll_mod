@@ -226,4 +226,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/evp_sfdoll_ryouko_hair.dds"
 		alwaystransparent = yes
 	}
+	spriteType = {
+		name = GFX_evp_sfdoll_dream_theatre
+		texturefile = "gfx/event_pictures/evp_sfdoll_dream_theatre.dds"
+		alwaystransparent = yes
+	}
 }

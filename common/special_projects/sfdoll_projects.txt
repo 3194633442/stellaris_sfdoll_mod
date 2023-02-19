@@ -109,14 +109,14 @@ special_project = {
 
 #义体少女
 special_project = {
-	key = "sfdoll_gunslinger_girl_rescue_project"
+	key = "sfdoll_gunslinger_girl_project"
 	event_chain = sfdoll_main_event_chain
 	#待修改
 	cost = 0
 	days_to_research = 30
 	tech_department = physics_technology
 
-	picture = GFX_evp_sfdoll_mind_server
+	picture = GFX_evp_sfdoll_dream_theatre
 	event_scope = planet_event
 	requirements = { leader = scientist }
 	on_success = {

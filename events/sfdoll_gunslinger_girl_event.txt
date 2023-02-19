@@ -32,7 +32,7 @@ country_event = {
 	after = {
 		capital_scope = {
 			enable_special_project = {
-				name = sfdoll_gunslinger_girl_rescue_project
+				name = sfdoll_gunslinger_girl_project
 			}
 		}
 	}
@@ -45,7 +45,7 @@ country_event = {
 	desc = "sfdoll_gunslinger_girl_event_3_desc"
 	hide_window = no
 	is_triggered_only = yes
-	picture = GFX_evp_sfdoll_mind_server
+	picture = GFX_evp_sfdoll_dream_theatre
 	trigger = {	has_authority = auth_gf_sfdoll	}
 	option = {
 		name = sfdoll_gunslinger_girl_event_3_option
@@ -64,7 +64,7 @@ country_event = {
 	desc = "sfdoll_gunslinger_girl_event_4_desc"
 	hide_window = no
 	is_triggered_only = yes
-	picture = GFX_evp_sfdoll_assembling
+	picture = GFX_evp_sfdoll_dream_theatre
 	trigger = {	has_authority = auth_gf_sfdoll	}
 	after = {
 		country_event = {

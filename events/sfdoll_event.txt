@@ -85,26 +85,28 @@ country_event = {
 
 	# 合作协议
 	option = {
-		name = sfdoll_event.100.a
-		trigger = {  NOT = { has_modifier = sfdoll_media_agreement }  }
+		name = "sfdoll_event.100.a"
+		allow = {  NOT = { has_modifier = sfdoll_media_agreement }  }
 		hidden_effect = {  country_event = {  id = sfdoll_event.101  } }
 	}
 
 	# 铁血乐园
 	option = {
-		name = sfdoll_event.100.b
-		trigger = {
-			NOT = {  has_country_flag = unlock_sfdoll_amusement_park  }
-		}
+		name = "sfdoll_event.100.b"
+		trigger = {  NOT = {  has_country_flag = unlock_sfdoll_amusement_park  }  }
 		hidden_effect = {  country_event = {  id = sfdoll_event.103  } }
+	}
+
+	# 博览会
+	option = {
+		name = "sfdoll_event.100.c"
+		trigger = {  NOT = {  has_country_flag = unlock_sfdoll_exposition  }  }
+		hidden_effect = {  country_event = {  id = sfdoll_event.106  } }
 	}
 
 	# 关于你们
 	option = {
-		name = sfdoll_event.100.d
-		trigger = {
-			NOT = {  has_country_flag = unlock_sfdoll_amusement_park  }
-		}
+		name = "sfdoll_event.100.d"
 		hidden_effect = {  country_event = {  id = sfdoll_event.105  } }
 	}
 
@@ -230,6 +232,7 @@ country_event = {
 	immediate = {	}
 	option = {
 		name = "sfdoll_event.103.a"
+		add_resource = {  energy = -500  }
 		hidden_effect = {
 			set_country_flag = unlock_sfdoll_amusement_park
 			country_event = {  id = sfdoll_event.104 }
@@ -250,4 +253,37 @@ country_event = {
 	base = sfdoll_event.100
 	desc_clear = yes
 	desc = sfdoll_event.105_desc
+}
+
+# 博览会
+country_event = {
+	id = sfdoll_event.106
+	title = "sfdoll_event.106"
+	desc = "sfdoll_event.106_desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	
+	picture_event_data = {
+		portrait = GFX_sfdoll_ump45_02
+		room = this
+		graphical_culture = this
+		planet_background = this
+		city_level = this
+	}
+	option = {
+		name = "sfdoll_event.106.a"
+		add_resource = {  energy = -500  }
+		hidden_effect = {
+			set_country_flag = unlock_sfdoll_exposition
+			country_event = {  id = sfdoll_event.107 }
+		}
+	}
+	option = {  name = "QUIT"  hidden_effect = {  country_event = {  id = sfdoll_event.100 } }  }
+}
+# 批准博览会
+country_event = {
+	id = sfdoll_event.107
+	base = sfdoll_event.100
+	desc_clear = yes
+	desc = sfdoll_event.107_desc
 }
