@@ -19,7 +19,7 @@ special_project = {
 	on_success = {
 		owner = {
 			country_event = {
-				id = sfdoll_search_zion_event.1
+				id = sfdoll_relic_civilization_event.1
 			}
 		}
 	}
@@ -48,7 +48,7 @@ special_project = {
 	on_success = {
 		owner = {
 			country_event = {
-				id = sfdoll_to_zion_event.1
+				id = sfdoll_relic_civilization_event.50
 			}
 		}
 	}
@@ -74,7 +74,7 @@ special_project = {
 	on_success = {
 		owner = {
 			country_event = {
-				id = sfdoll_to_zion_event.3
+				id = sfdoll_relic_civilization_event.52
 			}
 		}
 	}
@@ -98,7 +98,7 @@ special_project = {
 	on_success = {
 		owner = {
 			country_event = {
-				id = sfdoll_to_zion_event.6
+				id = sfdoll_relic_civilization_event.55
 			}
 		}
 		# enable_special_project = {

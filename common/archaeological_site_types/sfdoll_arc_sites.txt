@@ -16,22 +16,22 @@ site_noel_sfdoll = {
 	stage = {
 		difficulty = 1
 		icon = GFX_archaeology_runes_D1
-		event = sfdoll_search_zion_event.5
+		event = sfdoll_relic_civilization_event.5
 	}
 	stage = {
 		difficulty = 1
 		icon = GFX_archaeology_runes_D2
-		event = sfdoll_search_zion_event.6
+		event = sfdoll_relic_civilization_event.6
 	}
 	stage = {
 		difficulty = 1
 		icon = GFX_archaeology_runes_D3
-		event = sfdoll_search_zion_event.7
+		event = sfdoll_relic_civilization_event.7
 	}
 	stage = {
 		difficulty = 5
 		icon = GFX_archaeology_runes_D4
-		event = sfdoll_search_zion_event.8
+		event = sfdoll_relic_civilization_event.8
 	}
 
 

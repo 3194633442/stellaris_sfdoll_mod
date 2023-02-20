@@ -9,15 +9,6 @@ country_event = {
 		has_authority = auth_gf_sfdoll
 	}
 	immediate = {
-		#遗迹考古，获得逆向坍塌和诺耶露
-		# if = {
-		# 	limit = { has_technology = tech_hyper_drive_2}
-		# 	country_event = {
-		# 		id = sfdoll_search_zion_event.4
-		# 		days = 30
-		# 	}
-		# }
-
 		# 发现志筑凉子
 		# if = {
 		# 	limit = { has_technology = tech_sfdoll_ap_phy }
