@@ -13,7 +13,7 @@ country_event = {
 		# 特质国家修正
 		country_event = { id = sfdoll_time_event.2 }
 		# 神枪少女
-		country_event = { id = sfdoll_gunslinger_girl_event.1  days = 11 }
+		# country_event = { id = sfdoll_gunslinger_girl_event.1  days = 11 }
 		# 版本号检查
 		country_event = { id = sfdoll_test_event.2  days = 1 }
 	}

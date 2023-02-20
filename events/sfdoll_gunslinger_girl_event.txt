@@ -30,7 +30,7 @@ country_event = {
 	picture = GFX_evp_sfdoll_ship_in_orbit
 	trigger = {	has_authority = auth_gf_sfdoll	}
 	after = {
-		capital_scope = {
+		event_target:planet_sfdoll_embers_gloomy_1 = {
 			enable_special_project = {
 				name = sfdoll_gunslinger_girl_project
 			}

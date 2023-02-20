@@ -122,7 +122,13 @@ fleet_event = {
 	picture = "GFX_evp_sfdoll_toxic"
 	immediate = { from = { set_site_progress_locked = yes } }
 
-	after = {  from = { set_site_progress_locked = no } }
+	after = {
+		from = { set_site_progress_locked = no  }
+		hidden_effect = {
+			# 神枪少女，事件开始
+			owner = {  country_event = {  id = sfdoll_gunslinger_girl_event.1  }  }
+		}
+	}
 	
 	option = {
 		name = sfdoll_relic_civilization_event.5_option

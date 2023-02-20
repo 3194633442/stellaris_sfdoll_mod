@@ -20,6 +20,7 @@ sfdoll_system_search_zion = {
 		}
 		init_effect = {
 			create_archaeological_site = site_noel_sfdoll
+			save_global_event_target_as = planet_sfdoll_embers_gloomy_1
 		}
 	}
 }
