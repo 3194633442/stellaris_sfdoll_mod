@@ -76,7 +76,7 @@ ap_sfdoll_3 = {
 	}
 	on_enabled = {
 		country_event = {
-			id = sfdoll_relic_civilization_event.56
+			id = sfdoll_relic_civilization_event.50
 		}
 		add_research_option = tech_sfdoll_mega_lab
 		add_research_option = tech_gateway_construction
