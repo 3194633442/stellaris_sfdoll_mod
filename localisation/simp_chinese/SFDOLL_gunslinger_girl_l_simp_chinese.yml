@@ -1,25 +1,24 @@
 ﻿l_simp_chinese:
 ##gunslinger girl
-sfdoll_gunslinger_girl_event_1:0 "来自地球的飞船"
-sfdoll_gunslinger_girl_event_1_desc:0 "我们意外发现了一个疑似源自人类的信号.我们追踪该信号，找到了一艘宇宙飞船.\n 对该飞船的初步鉴定表明，这是一艘由地球人制造的飞船. 我们的人员已经回收了飞船,正在对其进行调查."
+# sfdoll_gunslinger_girl_event_1:0 "来自地球的飞船"
+# sfdoll_gunslinger_girl_event_1_desc:0 "我们意外发现了一个疑似源自人类的信号.我们追踪该信号，找到了一艘宇宙飞船.\n 对该飞船的初步鉴定表明，这是一艘由地球人制造的飞船. 我们的人员已经回收了飞船,正在对其进行调查."
 
-sfdoll_gunslinger_girl_event_2:0 "来自地球的飞船"
-sfdoll_gunslinger_girl_event_2_desc:0 "我们对来自地球的飞船进行了检查.\n 这艘船似乎是为了躲避战火而被送到外太空,但它的功能显然无法支撑人类的生存. 在这艘飞船上，我们能找到的只有一堆过时的设备。\n其中唯一引起我们注意的，是一台巨大而老旧的心智服务器.\n 我们将开始一个特殊项目，对它进行研究"
+sfdoll_gunslinger_girl_event_2:0 "遗迹中的心智"
+sfdoll_gunslinger_girl_event_2_desc:0 "在对行星上的遗迹进行探索的过程中，我们发现了许多古老的计算机，它们可能是遗迹的防御系统的一部分。这些计算机中包含了数台心智服务器。\n 我们将开始一个特殊项目，对它们进行研究。"
 
 sfdoll_gunslinger_girl_project:0 "梦间剧"
-sfdoll_gunslinger_girl_project_DESC:0 "我们在一艘人类飞船上发现了一台老旧的心智服务器.我们将展开一个项目,研究这台服务器的内容."
+sfdoll_gunslinger_girl_project_DESC:0 "$sfdoll_gunslinger_girl_event_2_desc$"
 
-sfdoll_gunslinger_girl_event_3:0 "义体少女?"
-sfdoll_gunslinger_girl_event_3_desc:0 "我们成功访问了心智服务器中的内容，并在在服务器内发现数个人类少女的心智! \n 调查显示，这些人类少女,都曾经被改造为义体人.她们去世后，心智被上传到这台服务器中. \n 这些心智在服务器中建立了一个虚拟现实空间.她们沉浸在这个虚构的世界中，几乎忘记了自己的真实处境."
-sfdoll_gunslinger_girl_event_3_option:0 "原始但有趣的把戏"
+sfdoll_gunslinger_girl_event_3:0 "梦间剧"
+sfdoll_gunslinger_girl_event_3_desc:0 "我们成功访问了心智服务器的内容，并发现了数个智能体。"
 
-sfdoll_gunslinger_girl_event_4:0 "大梦初醒"
-sfdoll_gunslinger_girl_event_4_desc:0 "义体少女们的服务器随时可能报废.我们和她们沟通,将她们上传到人形素体中.\n 义体少女们就此结束了她们的梦境,以铁血人形的身份获得了重生."
+# sfdoll_gunslinger_girl_event_4:0 "大梦初醒"
+# sfdoll_gunslinger_girl_event_4_desc:0 "义体少女们的服务器随时可能报废.我们和她们沟通,将她们上传到人形素体中.\n 义体少女们就此结束了她们的梦境,以铁血人形的身份获得了重生."
 
-sfdoll_gunslinger_girl_event_5:0 "和义体少女的代表通信"
-sfdoll_gunslinger_girl_event_5_desc:0 "这身体真的是机械吗?感觉,比以前的身体更像是人类?总之非常感谢."
-sfdoll_gunslinger_girl_event_5_option:0 "那么，我们的提议,你考虑得怎么样?"
-sfdoll_gunslinger_girl_event_5_response:0 "我不会浪费这条生命.所以,我愿意加入你们!让我试试，我还能做到些什么."
+sfdoll_gunslinger_girl_event_5:0 "和智能体的代表通信"
+sfdoll_gunslinger_girl_event_5_desc:0 "这里的智能体有着不同的来历。我是崔耶拉，曾经是人类。\n\n出于研究的目的，我的心智被上传到机器中。后来，外面的世界发生了诸多变故，我被迫转移到这些心智服务器里，并遇见了许多其他的智能体。\n\n我们一直没能离开这里，直到遇到你们。"
+sfdoll_gunslinger_girl_event_5_option:0 "你们对遗迹有何了解？"
+sfdoll_gunslinger_girl_event_5_response:0 "遗迹计算机的内容，有许多是我们无法访问的。我们进行过多次调查，但结果寥寥无几。"
 
 sfdoll_gunslinger_girl_event_6:0 "与崔耶拉通讯中"
 sfdoll_gunslinger_girl_event_6_desc:0 "有新任务吗？"

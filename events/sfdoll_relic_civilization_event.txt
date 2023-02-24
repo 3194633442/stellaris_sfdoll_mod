@@ -126,7 +126,7 @@ fleet_event = {
 		from = { set_site_progress_locked = no  }
 		hidden_effect = {
 			# 神枪少女，事件开始
-			owner = {  country_event = {  id = sfdoll_gunslinger_girl_event.1  }  }
+			owner = {  country_event = {  id = sfdoll_gunslinger_girl_event.2  }  }
 		}
 	}
 	
