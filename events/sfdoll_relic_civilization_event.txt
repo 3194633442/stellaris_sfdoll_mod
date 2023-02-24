@@ -300,7 +300,7 @@ country_event = {
 	desc = "sfdoll_relic_civilization_event.52.desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_physics_research
+	picture = "GFX_evp_sfdoll_sapient_AI"
 	option = {  name = "sfdoll_relic_civilization_event.52.a"  }
 	after = {  hidden_effect = { country_event = {  id = sfdoll_relic_civilization_event.53  }  }  }
 }
@@ -312,7 +312,7 @@ country_event = {
 	desc = "sfdoll_relic_civilization_event.53.desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_sapient_AI
+	picture = "GFX_evp_sfdoll_intelligence_report"
 	option = {	name = "sfdoll_relic_civilization_event.53.a"	}
 	after = {
 		hidden_effect = {
@@ -330,7 +330,7 @@ country_event = {
 	desc = "sfdoll_relic_civilization_event.54.desc"
 	is_triggered_only = yes
 	hide_window = no
-	picture = GFX_evp_sfdoll_sapient_AI
+	picture = "GFX_evp_sfdoll_intelligence_report"
 	option = {
 		name = "sfdoll_relic_civilization_event.54.a"
 		add_research_option = tech_sfdoll_ap_phy

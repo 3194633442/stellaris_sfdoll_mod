@@ -42,44 +42,67 @@ sfdoll_relic_civilization_event.8_desc:0 "The girl who appeared in the relic sit
 sfdoll_relic_civilization_event.9:0 "Taking in girl from relic site"
 sfdoll_relic_civilization_event.9_desc:0 "We took the girl found in the ruins to our Research Facility.\n\nWe found that in the girl's brain, there is a mind space similar to ours, which can send, receive and process data. \n\nThe language she uses is similar to the Earth language. In her consciousness, words like sister seemed to be repeating all the time. \n\nWe will continue to observe her."
 
+sfdoll_relic_civilization_event.50:0 "Dimensional Tour"
+sfdoll_relic_civilization_event.50.desc:0 "We have mastered enough technology, and it is time to uncover the true face of relic civilization. The transmission device has undergone the final commissioning, and we will officially start it to go to the country of relic civilization - Zion."
+sfdoll_relic_civilization_event.50.a:0 "We have no choice but to move forward."
+
+SFDOLL_TO_ZION_PROJECT:0 "Dimensional Tour"
+SFDOLL_TO_ZION_PROJECT_DESC:0"$sfdoll_relic_civilization_event.50.desc$"
+
+sfdoll_relic_civilization_event.51:0 "Dimensional Tour"
+sfdoll_relic_civilization_event.51.desc:0 "Our expedition team has entered a extradimensional space. A mysterious spaceship is parked quietly in this dark space. This ship is much larger than our largest ships. There is some kind of force field around it, blocking almost all means of detection, leaving our investigators helpless."
+sfdoll_relic_civilization_event.51.a:0 "Is this our destination?"
+
+sfdoll_relic_civilization_event.52:0 "Research Unknown Ship"
+sfdoll_relic_civilization_event.52.desc:0 "We can finally enter the interior of the unknown ship. The unknown spaceship seems to regard SF Dolls as its master. \n\nThis ship is very old. But many of the equipment are still working and has technological level far beyond ours. \n\nThe data interface on the spacecraft is consistent with our generic interface, so we can quickly read the data in it."
+sfdoll_relic_civilization_event.52.a:0 "Generic interface? ..usb3.0 ?"
+
+sfdoll_relic_civilization_event.53:0 "Research Unknown Ship"
+sfdoll_relic_civilization_event.53.desc:0 "According to data in the unknown ship, we learned that the ship is a large deep space carrier for deep space exploration on a supercluster scale. The name of this ship is §R Lamentations§!"
+sfdoll_relic_civilization_event.53.a:0 "Interesting name. Does the relic civilization also have Jerusalem?"
+
+sfdoll_relic_civilization_event.54:0 "Never Stop Asking"
+sfdoll_relic_civilization_event.54.desc:0 "The data in §RLamentations§! shows that what we have arrived is not Zion but a refuge of relic civilization. The mystery of the relic civilization still needs to be further explored."
+sfdoll_relic_civilization_event.54.a:0 "Are we the first one?"
+
 # sfdoll_to_zion_chain_title:0 "Dimensional Tour"
 # sfdoll_to_zion_chain_desc:0"We will go to the sanctuary to find our past and our future."
 
-sfdoll_relic_civilization_event.56:0 "Dimensional Tour"
-sfdoll_relic_civilization_event.56.desc:0 "Scientists believe that we have enough technology, it is time to try to travel to Zion. The teleporter has undergone the final testing and we will officially launch it."
+# sfdoll_relic_civilization_event.56:0 "Dimensional Tour"
+# sfdoll_relic_civilization_event.56.desc:0 "Scientists believe that we have enough technology, it is time to try to travel to Zion. The teleporter has undergone the final testing and we will officially launch it."
 
-SFDOLL_TO_ZION_PROJECT:0 "Dimensional Tour"
-SFDOLL_TO_ZION_PROJECT_DESC:0"$sfdoll_relic_civilization_event.56.desc$"
+# SFDOLL_TO_ZION_PROJECT:0 "Dimensional Tour"
+# SFDOLL_TO_ZION_PROJECT_DESC:0"$sfdoll_relic_civilization_event.56.desc$"
 
-sfdoll_relic_civilization_event.50:0 "Dimensional Tour"
-sfdoll_relic_civilization_event.50.desc:0 "Our expedition team has entered a different space, and we are still conducting preliminary observations of this space."
-sfdoll_relic_civilization_event.50.a:0 "Is this our destination?"
+# sfdoll_relic_civilization_event.50:0 "Dimensional Tour"
+# sfdoll_relic_civilization_event.50.desc:0 "Our expedition team has entered a different space, and we are still conducting preliminary observations of this space."
+# sfdoll_relic_civilization_event.50.a:0 "Is this our destination?"
 
-sfdoll_relic_civilization_event.51:0 "Dimensional Tour"
-sfdoll_relic_civilization_event.51.desc:0 "According to the exploration results, we can temporarily regard this place as Zion. \n\nThe expedition has established a port to allow our personnel to travel more smoothly between the two spaces.\n\nSome laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\nThere are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
-sfdoll_relic_civilization_event.51.a:0 "We have no choice but to move forward."
+# sfdoll_relic_civilization_event.51:0 "Dimensional Tour"
+# sfdoll_relic_civilization_event.51.desc:0 "According to the exploration results, we can temporarily regard this place as Zion. \n\nThe expedition has established a port to allow our personnel to travel more smoothly between the two spaces.\n\nSome laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\nThere are facilities in this space whose unique spatial shape is different from any known culture. We will try to study them."
+# sfdoll_relic_civilization_event.51.a:0 "We have no choice but to move forward."
 
-SFDOLL_ZION_DIGI_PROJECT:0 "Explore data"
-SFDOLL_ZION_DIGI_PROJECT_DESC:0 "Some laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\nThere are facilities in this space whose unique spatial shape is different from any known culture."
+# SFDOLL_ZION_DIGI_PROJECT:0 "Explore data"
+# SFDOLL_ZION_DIGI_PROJECT_DESC:0 "Some laws in Zion differ from the regular universe in which we live. Fortunately, we have had a full preview in advance. \n\nThere are facilities in this space whose unique spatial shape is different from any known culture."
 
-sfdoll_relic_civilization_event.52:0 "Explore data"
-sfdoll_relic_civilization_event.52.desc:0 "We unearthed data from the Zion facility. These results will complement our understanding of relic science."
+# sfdoll_relic_civilization_event.52:0 "Explore data"
+# sfdoll_relic_civilization_event.52.desc:0 "We unearthed data from the Zion facility. These results will complement our understanding of relic science."
 
-sfdoll_relic_civilization_event.53:0 "Unexpected Guest"
-sfdoll_relic_civilization_event.53.desc:0 "Unexpectedly, a ship appeared in our port in Zion, causing a commotion.\n\nThis ship is much larger than our largest ships. There is some kind of force field around it, blocking almost all means of detection, leaving our investigators helpless. For now, this mysterious ship is still lying quietly outside our port."
+# sfdoll_relic_civilization_event.53:0 "Unexpected Guest"
+# sfdoll_relic_civilization_event.53.desc:0 "Unexpectedly, a ship appeared in our port in Zion, causing a commotion.\n\nThis ship is much larger than our largest ships. There is some kind of force field around it, blocking almost all means of detection, leaving our investigators helpless. For now, this mysterious ship is still lying quietly outside our port."
 
-sfdoll_relic_civilization_event.54:0 "Unexpected Guest"
-sfdoll_relic_civilization_event.54.desc:0 "We can finally enter the interior of the unknown ship. It's not that we found a way to get into the ship, it's that the ship lets us in.\n\nThis ship is very old. But many of the equipment are still working and has technological level far beyond ours.\n\nThe data interface on the spacecraft is consistent with our generic interface, so we can quickly read the data in it."
-sfdoll_relic_civilization_event.54.a:0 "Generic interface? ..usb3.0 ? "
+# sfdoll_relic_civilization_event.54:0 "Unexpected Guest"
+# sfdoll_relic_civilization_event.54.desc:0 "We can finally enter the interior of the unknown ship. It's not that we found a way to get into the ship, it's that the ship lets us in.\n\nThis ship is very old. But many of the equipment are still working and has technological level far beyond ours.\n\nThe data interface on the spacecraft is consistent with our generic interface, so we can quickly read the data in it."
+# sfdoll_relic_civilization_event.54.a:0 "Generic interface? ..usb3.0 ? "
 
-SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "Research Unknown Ship"
-SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "This ship is precious research material. We're going to do research in situ and parse the data from it."
+# SFDOLL_ZION_SHIP_DIGI_PROJECT:0 "Research Unknown Ship"
+# SFDOLL_ZION_SHIP_DIGI_PROJECT_DESC:0 "This ship is precious research material. We're going to do research in situ and parse the data from it."
 
-sfdoll_relic_civilization_event.55:0 "Research Unknown Ship"
-sfdoll_relic_civilization_event.55.desc:0 "According to data in the unknown ship, we learned that the ship is a large deep space carrier for deep space exploration on a supercluster scale.The name of this ship is §R Lamentations§!"
-sfdoll_relic_civilization_event.55.a:0 "Interesting name. Does the relic civilization also have Jerusalem?"
+# sfdoll_relic_civilization_event.55:0 "Research Unknown Ship"
+# sfdoll_relic_civilization_event.55.desc:0 "According to data in the unknown ship, we learned that the ship is a large deep space carrier for deep space exploration on a supercluster scale.The name of this ship is §R Lamentations§!"
+# sfdoll_relic_civilization_event.55.a:0 "Interesting name. Does the relic civilization also have Jerusalem?"
 
-sfdoll_relic_civilization_event.57:0 "Never Stop Asking"
-sfdoll_relic_civilization_event.57.desc:0 "The data in §RLamentations§! shows that what we have arrived is not Zion but a refuge of relic civilization.The mystery of the relic civilization still needs to be further explored.\n\nAlthough §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old ship, after a long journey, should get rest."
-sfdoll_relic_civilization_event.57.a:0 "Are we the first one?"
+# sfdoll_relic_civilization_event.57:0 "Never Stop Asking"
+# sfdoll_relic_civilization_event.57.desc:0 "The data in §RLamentations§! shows that what we have arrived is not Zion but a refuge of relic civilization.The mystery of the relic civilization still needs to be further explored.\n\nAlthough §R Lamentations§! has considered us masters, we are not planning to drive it back to the galaxy. We have got the information we want, and this old ship, after a long journey, should get rest."
+# sfdoll_relic_civilization_event.57.a:0 "Are we the first one?"
 
