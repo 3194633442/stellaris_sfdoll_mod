@@ -20,9 +20,11 @@ response_text_noel_become_admiral:0"先制定合理的战术。"
 response_text_noel_become_general:0"准备出击。"
 response_option_noel_become_ship:0 "请注意，从现在开始，经过360天之后，我才能再次变为这个形态。"
 
-sfdoll_noel_event_2_title:0"诺耶露的近况"
-sfdoll_noel_event_2_desc:0"我们在遗迹中发现的少女诺耶露，目前看起来很健康，但似乎失去了遇到我们之前的记忆。这几年里，她生活在铁血人形的社会里，像一个普通的人类少女一样成长。\n\n 诺耶露为我们的遗迹研究带来了许多启发，我们则帮她控制自己的精神与力量，教给她知识。"
-sfdoll_noel_event.2_option:0 "我们要揭开她的秘密。"
+sfdoll_noel_event.2:0 "诺耶露的近况"
+sfdoll_noel_event.2.desc:0 "我们在遗迹中发现的少女诺耶露，目前看起来很健康. 这些年里，诺耶露为我们的遗迹研究带来了许多启发，我们则帮她控制自己的精神与力量，教给她知识. 现在，她似乎具备了担任领袖的资质。"
+
+# sfdoll_noel_event_2_title:0"诺耶露的近况"
+# sfdoll_noel_event_2_desc:0"我们在遗迹中发现的少女诺耶露，目前看起来很健康，但似乎失去了遇到我们之前的记忆。这几年里，她生活在铁血人形的社会里，像一个普通的人类少女一样成长。\n\n 诺耶露为我们的遗迹研究带来了许多启发，我们则帮她控制自己的精神与力量，教给她知识。"
 
 
 sfdoll_noel_event.3:0 "§R诺耶露失踪§!"

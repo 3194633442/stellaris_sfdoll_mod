@@ -20,9 +20,11 @@ response_text_noel_become_admiral:0 "Make a reasonable strategy first."
 response_text_noel_become_general:0 "Prepare to fight."
 response_option_noel_become_ship:0 "Please note that from now on, after 360 days, I can become like this again."
 
-sfdoll_noel_event_2_title:0 "Noel's recent status"
-sfdoll_noel_event_2_desc:0 "The girl Noel, who was found by us in the relic site, seems to be healthy at the moment, but seems to have lost the memory before meeting us. In the past few years, she has lived in our world, growing up like an ordinary human girl. \n\nNoel has brought many inspirations to our relic research, and we help her control her spirit and power, and teach her knowledge."
-sfdoll_noel_event.2_option:0 "We're going to uncover her secret."
+sfdoll_noel_event.2:0 "Noel's Recent Status"
+sfdoll_noel_event.2.desc:0 "The girl Noel, who was found by us in the relic site, seems to be healthy at the moment. Over the years, Noel has brought many inspirations to our relic research, and we help her control her spirit and power, and teach her knowledge. Now, she seems to have the qualifications to be a leader."
+
+# sfdoll_noel_event_2_title:0 "Noel's recent status"
+# sfdoll_noel_event_2_desc:0 "The girl Noel, who was found by us in the relic site, seems to be healthy at the moment, but seems to have lost the memory before meeting us. In the past few years, she has lived in our world, growing up like an ordinary human girl. \n\nNoel has brought many inspirations to our relic research, and we help her control her spirit and power, and teach her knowledge."
 
 sfdoll_noel_event.3:0 "§RNoel is missing§!"
 sfdoll_noel_event.3_desc:0 "The project to research Noel has an accident! While Noel was out with her guardians, she hijacked a space ship and disappeared without a trace. \n\nAll our searches have failed. "

@@ -203,18 +203,9 @@ country_event = {
 	desc = "sfdoll_relic_civilization_event.9_desc"
 	is_triggered_only = yes
 	hide_window = no
-
 	picture = GFX_evp_sfdoll_noel_sleep
 
-	after = { 
-		#延迟一段时间后触发诺耶露状况事件
-		hidden_effect = {
-			country_event = {
-				id = sfdoll_noel_event.2
-				days = 1800
-			}
-		}
-	}
+	after = {  hidden_effect = { country_event = {  id = sfdoll_noel_event.2  days = 3600  } } }
 }
 
 #生成ELID
