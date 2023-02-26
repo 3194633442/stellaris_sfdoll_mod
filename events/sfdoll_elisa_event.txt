@@ -82,16 +82,17 @@ country_event = {
 		hidden_effect = { country_event = { id = sfdoll_elisa_event.3 } }
 	}
 
+	# 访问ogas
+	option = {
+		name = "sfdoll_elisa_event.2_option_ogas"
+		hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
+	}
+
 	#访问智子
 	option = {
 		name = "sfdoll_elisa_event.2_option_sophon"
 		trigger = {	has_country_flag = sfdoll_sophon_owner }
 		hidden_effect = { country_event = { id = sfdoll_three_body_event.3 } }
-	}
-	# 访问ogas
-	option = {
-		name = "sfdoll_elisa_event.2_option_ogas"
-		hidden_effect = { country_event = { id = sfdoll_ogas_event.1 } }
 	}
 
 	#选项，伊莱莎变科学家

@@ -13,7 +13,7 @@ project_sfdoll_event.2:0 "研究OGAS"
 project_sfdoll_event.2_desc:0 "我们对莉娃体内的OGAS进行了研究。\n 同时，我们设计了一副人形素体，然后将OGAS转移到这幅新素体上。现在，OGAS可以自由地活动，甚至能担任领袖。"
 
 
-sfdoll_ogas_event.1:0 "和OGAS通讯中"
+sfdoll_ogas_event.1:0 "和UMP40通讯中"
 sfdoll_ogas_event.1_desc:0 "有什么事情呢？"
 sfdoll_ogas_event.1_desc_b:0 "我是从莉娃的心智中诞生的,我的外观和习惯,自然也受到了她的心智数据的影响."
 sfdoll_ogas_event.1_desc_c:0 "过去，我受限于设备性能，不得不停止成长. 不过现在不同了，借助你们的设备，我可以尝试进一步地进化."
@@ -51,3 +51,5 @@ leader_trait_general_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
 
 sfdoll_ogas_event.2:0 "与OGAS通讯"
 sfdoll_ogas_event.2_desc:0 "这是我第一次拥有属于自己的素体.自由的感觉还不赖."
+
+NAME_sfdoll_ump40:0 "UMP40"

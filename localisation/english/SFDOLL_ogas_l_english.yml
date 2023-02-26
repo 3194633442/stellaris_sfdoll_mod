@@ -52,3 +52,5 @@ leader_trait_general_ogas40_desc:0 "$leader_trait_governor_ogas40_desc$"
 
 sfdoll_ogas_event.2:0 "Communication with OGAS"
 sfdoll_ogas_event.2_desc:0 "This is the first time I have my own body. The feeling of freedom is not bad."
+
+NAME_sfdoll_ump40:0 "UMP40"
