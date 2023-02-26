@@ -27,7 +27,7 @@ country_event = {
 	desc = "sfdoll_gunslinger_girl_event_2_desc"
 	hide_window = no
 	is_triggered_only = yes
-	picture = GFX_evp_sfdoll_ship_in_orbit
+	picture = "GFX_evp_sfdoll_mind_server"
 	trigger = {	has_authority = auth_gf_sfdoll	}
 	after = {
 		event_target:planet_sfdoll_embers_gloomy_1 = {
@@ -94,7 +94,6 @@ country_event = {
 		name = sfdoll_gunslinger_girl_event_5_option
 		response_text = sfdoll_gunslinger_girl_event_5_response
 	}
-
 }
 
 #崔耶拉通讯界面
