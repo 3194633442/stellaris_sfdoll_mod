@@ -12,7 +12,7 @@ sfdoll_elisa_event_2_d_desc:0 "总有一天,我们能再次见到露尼西亚."
 
 sfdoll_elisa_event.2_option_leader:0 "联系一些领袖"
 sfdoll_elisa_event.2_option_sophon:0 "访问智子计算机组"
-sfdoll_elisa_event.2_option_ogas:0 "访问OGAS人工智能"
+sfdoll_elisa_event.2_option_ogas:0 "访问UMP40"
 
 elisa_to_scientist:0 "请你领导科研工作"
 elisa_has_this_job_now:0 "伊莱莎已经在做这项工作"

@@ -12,7 +12,7 @@ sfdoll_elisa_event_2_d_desc:0 "One day, we can meet Lunasia again."
 
 sfdoll_elisa_event.2_option_leader:0 "Contact some leaders"
 sfdoll_elisa_event.2_option_sophon:0 "Access Sophon Computer Group"
-sfdoll_elisa_event.2_option_ogas:0 "Access OGAS AI"
+sfdoll_elisa_event.2_option_ogas:0 "Access UMP40"
 
 elisa_to_scientist:0 "Please lead research work"
 elisa_has_this_job_now:0 "Elisa doing this job now."

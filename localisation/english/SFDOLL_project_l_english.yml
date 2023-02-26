@@ -34,13 +34,13 @@ sfdoll_relic_civilization_event.6_option:"Prepare new bodies for the team member
 
 sfdoll_relic_civilization_event.7:0 "Who"
 sfdoll_relic_civilization_event.7_desc:0 "We cleaned up the collapsed particles cloud created by the explosion and found that the creature that caused the explosion was still alive and repairing itself."
-sfdoll_relic_civilization_event.7_option_a:"§Hrecycle her§!"
+sfdoll_relic_civilization_event.7_option_a:"§HCapture her§!"
 
 sfdoll_relic_civilization_event.8:0 "Proving Ground?"
 sfdoll_relic_civilization_event.8_desc:0 "The girl who appeared in the relic site is an artificial being, mixing characteristics of human and unknown species, named 'Noel'. \n\nWho built this place? Who sent the signal to bring us here? These questions are still unanswered, but the investigation of the ruins has brought a lot of valuable scientific research materials."
 
 sfdoll_relic_civilization_event.9:0 "Taking in girl from relic site"
-sfdoll_relic_civilization_event.9_desc:0 "We took the girl found in the ruins to our Research Facility.\n\nWe found that in the girl's brain, there is a mind space similar to ours, which can send, receive and process data. \n\nWe will continue to observe her."
+sfdoll_relic_civilization_event.9_desc:0 "We took the girl found in the ruins to our research facility.\n\nWe found that in the girl's brain, there is a mind space similar to ours, which can send, receive and process data. \n\nWe will continue to observe her."
 
 sfdoll_relic_civilization_event.50:0 "Dimensional Tour"
 sfdoll_relic_civilization_event.50.desc:0 "We have mastered enough technology, and it is time to uncover the true face of relic civilization. The transmission device has undergone the final commissioning, and we will officially start it to go to the country of relic civilization - Zion."
