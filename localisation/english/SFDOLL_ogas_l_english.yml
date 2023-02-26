@@ -13,7 +13,7 @@ project_sfdoll_event.2:0 "Research OGAS"
 project_sfdoll_event.2_desc:0 "We studied OGAS in Riva. \n At the same time, we designed a body, and then transferred OGAS to this new body. Now, OGAS can move freely and even act as a leader."
 
 
-sfdoll_ogas_event.1:0 "Communicating with OGAS"
+sfdoll_ogas_event.1:0 "Communicating with UMP40"
 sfdoll_ogas_event.1_desc:0 "What is the mission?"
 sfdoll_ogas_event.1_desc_b:0 "I was born from Riva's digi-mind, and my appearance and habits are naturally influenced by her mind data."
 sfdoll_ogas_event.1_desc_c:0 "In the past, I was limited by the performance of the equipment and had to stop growing. But now it is different, with your equipment, I can try evolve further."
@@ -38,7 +38,7 @@ response_ogas40_to_admiral:0 "I need information about the fleet."
 response_ogas40_to_general:0 "Be careful, don't die easily."
 ogas40_has_this_job_now:0 "OGAS is doing the work now."
 
-leader_trait_governor_ogas40:0 "OGAS"
+leader_trait_governor_ogas40:0 "OGAS AI"
 leader_trait_governor_ogas40_desc:0 "OGAS is the super AI created by relic science."
 
 leader_trait_scientist_ogas40:0 "$leader_trait_governor_ogas40$"

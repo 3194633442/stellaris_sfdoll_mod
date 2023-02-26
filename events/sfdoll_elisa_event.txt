@@ -147,7 +147,7 @@ country_event = {
 	}
 	#找ump45
 	option = {
-		name =  "sfdoll_elisa_event.3_option_1"
+		name =  "NAME_sfdoll_ump45"
 		trigger = {
 			has_country_flag = sfdoll_ump45_owner
 		}
@@ -159,7 +159,7 @@ country_event = {
 	}
 	#找崔耶拉
 	option = {
-		name =  "sfdoll_elisa_event.3_option_2"
+		name =  "NAME_sfdoll_triela"
 		trigger = {
 			has_country_flag = sfdoll_triela_owner
 		}
@@ -169,7 +169,7 @@ country_event = {
 	}
 	#找诺耶露
 	option = {
-		name =  "sfdoll_elisa_event.3_option_3"
+		name =  "NAME_sfdoll_noel"
 		trigger = {
 			has_country_flag = sfdoll_noel_owner
 		}
@@ -188,7 +188,7 @@ country_event = {
 
 	#找谢顿
 	option = {
-		name = "sfdoll_elisa_event.3_option_5"
+		name = "Name_sfd_hari_seldon"
 		trigger = {	has_country_flag = sfdoll_hari_seldon_owner	}
 		hidden_effect = {
 			country_event = {
@@ -198,14 +198,14 @@ country_event = {
 	}
 	#找丁仪
 	option = {
-		name = "sfdoll_elisa_event.3_option_6"
+		name = "NAME_sfdoll_dingyi"
 		trigger = {	has_country_flag = sfdoll_dingyi_owner	}
 		hidden_effect = { country_event = { id = sfdoll_three_body_event.2 } }
 	}
 
 	#找高维人
 	option = {
-		name = "sfdoll_elisa_event.3_option_7"
+		name = "NAME_sfdoll_exd_leader"
 		trigger = {	has_country_flag = sfdoll_exd_leader_owner	}
 		hidden_effect = {
 			country_event = {
